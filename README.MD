@@ -23,9 +23,9 @@
 RevDadas adalah sistem pemungutan pendapatan daerah yang cerdas, prediktif, dan berbasis AI untuk:
 
 ✅ **Mendeteksi fraud/under-reporting** secara otomatis menggunakan Isolation Forest  
-✅ **Memprediksi revenue** 6-12 bulan ke depan per provinsi menggunakan Prophet  
+✅ **Memprediksi revenue** 6-24 bulan ke depan per provinsi menggunakan Prophet  
 ✅ **Menghasilkan rekomendasi kebijakan** otomatis berbasis data  
-✅ **Visualisasi iuteractive** untuk monitoring real-time
+✅ **Visualisasi interactive** untuk monitoring real-time
 
 **Mendukung:**
 
@@ -39,7 +39,7 @@ RevDadas adalah sistem pemungutan pendapatan daerah yang cerdas, prediktif, dan 
 
 | Fitur                        | Deskripsi                                               |
 | ---------------------------- | ------------------------------------------------------- |
-| **Forecasting**              | Prakiraan revenue 12 bulan menggunakan Facebook Prophet |
+| **Forecasting**              | Prakiraan revenue 6-24 bulan menggunakan Facebook Prophet |
 | **Anomaly Detection**        | Deteksi fraud & under-reporting dengan Isolation Forest |
 | **Dashboard Interactive**    | Monitoring real-time dengan Streamlit                   |
 | **Geospatial Visualization** | Peta heatmap Indonesia dengan Folium                    |
@@ -52,7 +52,7 @@ RevDadas adalah sistem pemungutan pendapatan daerah yang cerdas, prediktif, dan 
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.13+
 - Git
 
 ### 1. Setup Virtual Environment
@@ -238,5 +238,5 @@ for insight in insights:
 
 ---
 
-**Last Updated:** March 14, 2026  
+**Last Updated:** March 15, 2026  
 **Status:** 🔄 Development (MVP Phase)
