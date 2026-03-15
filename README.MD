@@ -24,7 +24,9 @@ Dibuat dengan Python, Prophet, dan Streamlit.
 ---
 
 ## Masalah
+
 Banyak pemerintah daerah menghadapi masalah:
+
 - under-reporting pajak
 - fraud dalam pelaporan
 - kesulitan memprediksi pendapatan
@@ -292,9 +294,9 @@ python data_consolidation.py
 
 **Developer**:
 
-- Clay Micholaz Fu
-- Moses Chisthoper Adisam
-- Gwyneth Eunice Widjaja
+- Clay Micholaz Fu (32240207)
+- Moses Chisthoper Adisam (32250047)
+- Gwyneth Eunice Widjaja (32240119)
 
 Tim mahasiswa dari Universitas Bunda Mulia
 
