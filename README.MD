@@ -23,6 +23,18 @@ Dibuat dengan Python, Prophet, dan Streamlit.
 
 ---
 
+## Masalah
+Banyak pemerintah daerah menghadapi masalah:
+- under-reporting pajak
+- fraud dalam pelaporan
+- kesulitan memprediksi pendapatan
+- monitoring yang tidak real-time
+
+Hal ini menyebabkan kebijakan fiskal sering tidak optimal.
+Revdadas hadir untuk mengatasi masalah tersebut menggunakan AI.
+
+---
+
 ## Fitur
 
 - **Deteksi Anomali** - Menangkap indikasi fraud menggunakan Isolation Forest
