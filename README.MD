@@ -1,242 +1,290 @@
 # RevDadas - Revenue Daerah Cerdas
 
-**AI-Driven Predictive Analytics for Fraud Detection and Revenue Forecasting in Local Government Collections**
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat)
+![Status](https://img.shields.io/badge/status-MVP-orange?style=flat)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-> Solusi prediktif untuk deteksi fraud dan prakiraan revenue pendapatan daerah berbasis AI
+Sistem analitik berbasis AI untuk deteksi fraud dan peramalan pendapatan pemerintah daerah.
 
----
-
-## 📋 Daftar Isi
-
-- [Tentang Proyek](#tentang-proyek)
-- [Fitur Utama](#fitur-utama)
-- [Setup & Installation](#setup--installation)
-- [Dataset](#dataset)
-- [Struktur Proyek](#struktur-proyek)
-- [Cara Menggunakan](#cara-menggunakan)
-- [Roadmap](#roadmap)
+[Tentang](#tentang-revdadas) • [Setup](#setup--installation) • [Live Demo](#live-demo) • [Screenshots](#screenshots) • [Tim](#tim)
 
 ---
 
-## 🎯 Tentang Proyek
+## Tentang RevDadas
 
-RevDadas adalah sistem pemungutan pendapatan daerah yang cerdas, prediktif, dan berbasis AI untuk:
+RevDadas adalah sistem untuk membantu pemerintah daerah dalam mendeteksi fraud pajak dan meramalkan pendapatan dengan lebih akurat. Kami menggunakan machine learning dan time series forecasting untuk:
 
-✅ **Mendeteksi fraud/under-reporting** secara otomatis menggunakan Isolation Forest  
-✅ **Memprediksi revenue** 6-24 bulan ke depan per provinsi menggunakan Prophet  
-✅ **Menghasilkan rekomendasi kebijakan** otomatis berbasis data  
-✅ **Visualisasi interactive** untuk monitoring real-time
+- Mendeteksi anomali dalam data pendapatan
+- Memprediksi revenue 6-24 bulan ke depan
+- Memberikan rekomendasi kebijakan berbasis data
+- Monitoring real-time melalui dashboard interaktif
 
-**Mendukung:**
-
-- Pajak Bumi dan Bangunan (PBB)
-- Retribusi Pasar
-- Pajak Hotel & Restoran
+Dibuat dengan Python, Prophet, dan Streamlit.
 
 ---
 
-## ⚡ Fitur Utama
+## Fitur
 
-| Fitur                        | Deskripsi                                               |
-| ---------------------------- | ------------------------------------------------------- |
-| **Forecasting**              | Prakiraan revenue 6-24 bulan menggunakan Facebook Prophet |
-| **Anomaly Detection**        | Deteksi fraud & under-reporting dengan Isolation Forest |
-| **Dashboard Interactive**    | Monitoring real-time dengan Streamlit                   |
-| **Geospatial Visualization** | Peta heatmap Indonesia dengan Folium                    |
-| **SHAP Explainability**      | Penjelasan model prediksi yang interpretable            |
-| **Automated Insights**       | Rekomendasi kebijakan berbasis anomali                  |
+- **Deteksi Anomali** - Menangkap indikasi fraud menggunakan Isolation Forest
+- **Forecasting** - Prediksi revenue dengan Prophet
+- **Visualisasi Geospatial** - Peta heatmap untuk insights berbasis lokasi
+- **Dashboard Interaktif** - Monitoring real-time dengan Streamlit
+- **Rekomendasi Kebijakan** - Insights berbasis analisa data
+
+Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restoran
 
 ---
 
-## 🚀 Setup & Installation
+## Arsitektur Sistem
+
+```mermaid
+graph TD
+    A["📊 Data Sources"] --> B["Data Loading"]
+    C["📈 Economic Data"] --> B
+    D["🗺️ Geospatial Data"] --> B
+    E["📋 Regional Data"] --> B
+
+    B --> F["Data Processing Layer"]
+    F --> G["Cleaning & Validation"]
+    G --> H["Feature Engineering"]
+    H --> I["Data Consolidation"]
+
+    I --> J{Analytics}
+
+    J --> K["Forecasting Model<br/>Prophet"]
+    J --> L["Anomaly Detection<br/>Isolation Forest"]
+
+    K --> M["Time Series Analysis"]
+    M --> N["Revenue Predictions<br/>6-24 Months"]
+
+    L --> O["Pattern Recognition"]
+    O --> P["Fraud & Under-reporting<br/>Detection"]
+
+    N --> Q["Visualization Layer"]
+    P --> Q
+
+    Q --> R["Dashboard<br/>Streamlit"]
+    Q --> S["Geospatial Map<br/>Folium"]
+    Q --> T["Reports & Insights<br/>SHAP Explainability"]
+
+    R --> U["End Users"]
+    S --> U
+    T --> U
+
+    U --> V["Pemerintah Daerah"]
+    U --> W["Badan Keuangan"]
+    U --> X["Policy Makers"]
+    U --> Y["Business Analysts"]
+
+    style A fill:#e1f5ff
+    style C fill:#e1f5ff
+    style D fill:#e1f5ff
+    style E fill:#e1f5ff
+    style F fill:#fff3e0
+    style J fill:#f3e5f5
+    style K fill:#f3e5f5
+    style L fill:#f3e5f5
+    style Q fill:#e8f5e9
+    style U fill:#fce4ec
+```
+
+---
+
+Akses dashboard di sini: https://revdadas.streamlit.app/
+
+Atau jalankan lokal:
+
+```bash
+cd revdadas/dashboard
+streamlit run app.py
+```
+
+Dashboard akan buka di http://localhost:8501
+
+---
+
+## Screenshots
+
+![Dashboard Main](./docs/Dashboard.png)
+
+_Halaman utama dashboard_
+
+---
+
+## Setup & Installation
 
 ### Prerequisites
 
 - Python 3.13+
 - Git
 
-### 1. Setup Virtual Environment
+### Virtual Environment
+
+Windows:
 
 ```bash
-# Windows
 python -m venv venv
 venv\Scripts\activate
+```
 
-# macOS/Linux
+macOS/Linux:
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 2. Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Verify Installation
-
-```bash
-python -c "import pandas, prophet, sklearn; print('✅ All packages installed')"
-```
-
 ---
 
-## 📊 Dataset
+## Dataset
 
-### Data yang Digunakan (MVP - 3 Provinsi)
+Data dari 3 provinsi: Jawa Barat, Jawa Timur, DKI Jakarta
 
-**Provinsi:**
+Jenis pendapatan: PBB, Retribusi Pasar, Pajak Hotel & Restoran
 
-- Jawa Barat
-- Jawa Timur
-- DKI Jakarta
+Sumber data publik:
 
-**Jenis Pendapatan:**
+- BPS.go.id - https://www.bps.go.id/
+- data.go.id - https://data.go.id/
+- BIG.go.id - https://big.go.id/
 
-- PBB (Pajak Bumi dan Bangunan)
-- Retribusi Pasar
-- Pajak Hotel & Restoran
-
-### Download Data Publik
-
-Data tersedia dari sumber publik berikut:
-
-1. **BPS.go.id** - Realisasi Pendapatan Daerah
-   - URL: https://www.bps.go.id/
-   - Format: CSV/Excel
-   - Periode: 2018-2025
-
-2. **data.go.id** - Satu Data Indonesia
-   - URL: https://data.go.id/
-   - Format: CSV/JSON
-   - Indikator: PDB, Populasi, Inflasi
-
-3. **BIG.go.id** - Peta Geospatial
-   - URL: https://big.go.id/
-   - Format: GeoJSON
-
-### Struktur Data File
+Struktur:
 
 ```csv
 Tahun,Bulan,Provinsi,Jenis_Pendapatan,Realisasi
 2022,1,Jawa Barat,PBB,125600000000
 2022,1,Jawa Barat,Retribusi Pasar,45300000000
-...
 ```
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 revdadas/
 ├── data/
-│   ├── raw/                      # Data mentah dari BPS
-│   │   └── revenue_data.csv
-│   └── processed/                # Data bersih & terproses
+│   ├── raw/                   # Data mentah dari BPS
+│   └── processed/             # Data terproses
 │
 ├── src/
-│   ├── __init__.py
-│   ├── data_loader.py            # Load & download data
-│   ├── preprocessing.py          # Cleaning & feature engineering
-│   ├── forecasting.py            # Prophet forecasting model
-│   ├── anomaly_detection.py      # Isolation Forest detector
-│   └── utils.py                  # Helper functions
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── forecasting.py
+│   ├── anomaly_detection.py
+│   ├── utils.py
+│   └── __init__.py
 │
-├── models/
-│   ├── forecaster.pkl            # Saved Prophet models
-│   └── anomaly_detector.pkl      # Saved detector
-│
+├── models/                    # Saved models
 ├── dashboard/
-│   └── app.py                    # Streamlit dashboard
+│   ├── app.py
+│   ├── app_enhanced.py
+│   └── app_backup.py
 │
+├── docs/
+├── data_consolidation.py
 ├── requirements.txt
-├── .gitignore
-└── README.md                     # Dokumentasi ini
+└── README.md
 ```
 
 ---
 
-## 💻 Cara Menggunakan
+## Cara Menggunakan
 
-### 1. Quick Start Guide
+### Jalankan Dashboard
 
 ```bash
 cd revdadas
 venv\Scripts\activate
-```
-
-Jalankan Dashboard dengan perintah berikut
-
-```bash
 cd dashboard
 streamlit run app.py
 ```
 
-Dashboard akan terbuka di `http://localhost:8501`
+Buka http://localhost:8501
 
-### 2. Train Forecasting Model
+### Training Forecasting Model
 
 ```python
 from src import forecasting
 
-# Initialize forecaster
 forecaster = forecasting.RevenueForecaster(periods=12)
-
-# Train & forecast
 forecaster.train_and_forecast_all(df)
+
 forecast = forecaster.forecast(
     provinsi='Jawa Barat',
     jenis_pajak='PBB'
 )
-
 print(forecast.head())
 ```
 
-### 3. Detect Anomalies
+### Deteksi Anomali
 
 ```python
 from src import anomaly_detection
 
-# Initialize detector
 detector = anomaly_detection.AnomalyDetector()
-
-# Train & detect
 detector.train(df)
 result = detector.detect(df)
 
-# Get insights
 insights = detector.get_anomaly_insights(result, threshold=0.7)
 for insight in insights:
     print(insight['Alert'])
 ```
 
----
+### Data Consolidation
 
-## 🎓 Tech Stack
-
-| Komponen            | Library      | Versi  |
-| ------------------- | ------------ | ------ |
-| **Data Processing** | Pandas       | 2.1.4  |
-| **Numerical**       | NumPy        | 1.24.3 |
-| **Forecasting**     | Prophet      | 1.1.5  |
-| **ML/Anomaly**      | Scikit-learn | 1.4.2  |
-| **Visualization**   | Plotly       | 5.18.0 |
-| **Dashboard**       | Streamlit    | 1.28.1 |
-| **Geospatial**      | Folium       | 0.14.0 |
-| **Explainability**  | SHAP         | 0.43.0 |
+```bash
+python data_consolidation.py
+```
 
 ---
 
-## 👥 Tim
+## Tech Stack
 
-- **Ketua:** Kwik Andreas Jonathan (322301113)
-- **Anggota:**
-  - Clay Micholaz Fu
-  - Moses Chisthoper Adisam
-  - Gwyneth Eunice Widjaja
+| Library      | Versi  |
+| ------------ | ------ |
+| Pandas       | 2.1.4  |
+| NumPy        | 1.24.3 |
+| Prophet      | 1.1.5  |
+| Scikit-learn | 1.4.2  |
+| Plotly       | 5.18.0 |
+| Streamlit    | 1.28.1 |
+| Folium       | 0.14.0 |
+| SHAP         | 0.43.0 |
 
 ---
 
-**Last Updated:** March 15, 2026  
-**Status:** 🔄 Development (MVP Phase)
+## Tim
+
+**Ketua**: Kwik Andreas Jonathan (322301113)
+
+**Developer**:
+
+- Clay Micholaz Fu
+- Moses Chisthoper Adisam
+- Gwyneth Eunice Widjaja
+
+Tim mahasiswa dari Universitas Bunda Mulia
+
+---
+
+## Kontribusi
+
+Terbuka untuk kontribusi. Fork, commit, dan buat pull request.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Support
+
+Untuk pertanyaan atau bug report, buka issue di repository ini.
