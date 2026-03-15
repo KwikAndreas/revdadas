@@ -14,7 +14,6 @@ import logging
 from pathlib import Path
 import folium
 from streamlit_folium import st_folium
-import os
 
 # Configure page FIRST (must be before any other st calls)
 st.set_page_config(
@@ -114,27 +113,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- BACKEND FUNCTIONS (TIDAK DIUBAH) ---
-def get_data_file_timestamp():
-    """Get modification timestamp of data file for cache invalidation
-    
-    Ensures cache resets when underlying CSV is updated
-    """
-    try:
-        from src import utils
-        data_path = Path(utils.get_data_path("processed")) / "revenue_consolidated.csv"
-        if data_path.exists():
-            return os.path.getmtime(data_path)
-    except:
-        pass
-    return 0
-
-@st.cache_data(show_spinner=False)
-def load_data(data_timestamp=None):
-    """Load real consolidated data
-    
-    Args:
-        data_timestamp: File modification time (for cache invalidation)
-    """
+@st.cache_data
+def load_data():
+    """Load real consolidated data"""
     try:
         loader = data_loader.BPSDataLoader()
         df = loader.load_revenue_data()
@@ -152,22 +133,14 @@ def load_data(data_timestamp=None):
         logger.error(f"Data loading error: {e}")
         return None
 
-@st.cache_data(show_spinner=False)
-def train_models(df, forecast_months):
-    """Train all models with specified forecast period
-    
-    Args:
-        df: Filtered dataframe
-        forecast_months: Number of months to forecast (6-24)
-    """
+@st.cache_data
+def train_models(df):
+    """Train all models"""
     try:
-        forecaster = forecasting.RevenueForecaster(periods=forecast_months)
+        forecaster = forecasting.RevenueForecaster(periods=12)
         forecast_results = forecaster.train_and_forecast_all(df)
         
-        # Adjust anomaly detection sensitivity based on forecast window
-        # Longer forecast = more lenient (0.07), Shorter forecast = stricter (0.03)
-        contamination = 0.03 + (forecast_months - 6) * (0.04 / 18)  # Range 0.03-0.07
-        detector = anomaly_detection.AnomalyDetector(contamination=contamination)
+        detector = anomaly_detection.AnomalyDetector()
         detector.train(df)
         anomaly_results = detector.detect(df)
         
@@ -220,10 +193,9 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     
-    # Load data Backend with cache invalidation based on file timestamp
+    # Load data Backend
     with st.spinner("📥 Loading data..."):
-        data_timestamp = get_data_file_timestamp()
-        df = load_data(data_timestamp=data_timestamp)
+        df = load_data()
     
     if df is None or df.empty:
         st.error("❌ Failed to load data")
@@ -284,12 +256,6 @@ def main():
         st.markdown('<p style="font-size:10px; color:#ef4444; font-style:italic; margin-top:2px;">*Estimasi efektivitas audit AI</p>', unsafe_allow_html=True)
 
         st.markdown("<br><br>", unsafe_allow_html=True)
-        
-        # Cache clear button
-        if st.button("🔄 Refresh Data Cache", key="refresh_cache_btn"):
-            st.cache_data.clear()
-            st.rerun()
-        
         st.markdown('<p style="font-size:11px; color:#94a3b8;">Status Sistem: <span style="color:#10b981;">● Terkoneksi (Satu Data)</span><br>Last Sync: Mar 2026, 14:20</p>', unsafe_allow_html=True)
     
     # Filter Data Backend
@@ -304,17 +270,12 @@ def main():
     
     # Train Models
     with st.spinner("🔄 AI Model Analyzing Data..."):
-        forecast_results, anomaly_results, forecaster, detector = train_models(filtered_df, forecast_months)
+        forecast_results, anomaly_results, forecaster, detector = train_models(filtered_df)
     
     # Perhitungan KPI dari Model Anda
     total_revenue = filtered_df['Realisasi'].sum()
     forecast_total = forecast_results['Prediksi'].sum() if forecast_results is not None and len(forecast_results) > 0 else 0
-    
-    # Fix: Hitung jumlah ACTUAL anomalies, bukan jumlah rows
-    anomaly_count = 0
-    if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
-        anomaly_count = anomaly_results['Anomaly'].sum()
-    
+    anomaly_count = len(anomaly_results) if anomaly_results is not None else 0
     anomaly_pct = (anomaly_count / len(filtered_df) * 100) if len(filtered_df) > 0 else 0
     potential_loss = total_revenue * (anomaly_pct / 100)
     
@@ -382,14 +343,8 @@ def main():
             if forecast_results is not None:
                 prov_forecast_val = forecast_results[forecast_results['Provinsi'] == prov]['Prediksi'].sum()
                 
-            # Fix: Count actual anomalies, not total rows
-            prov_risk_pct = 0
-            if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
-                prov_anomalies = anomaly_results[
-                    (anomaly_results['Provinsi'] == prov) & 
-                    (anomaly_results['Anomaly'] == True)
-                ]
-                prov_risk_pct = (len(prov_anomalies) / len(prov_actual_df) * 100) if len(prov_actual_df) > 0 else 0
+            prov_anomalies = anomaly_results[anomaly_results['Provinsi'] == prov] if anomaly_results is not None else []
+            prov_risk_pct = (len(prov_anomalies) / len(prov_actual_df) * 100) if len(prov_actual_df) > 0 else 0
             
             # Tentukan warna heatmap berdasarkan risk
             if prov_risk_pct > 5.0: color = "#ef4444" # Merah
@@ -448,14 +403,11 @@ def main():
         
         # AI Insight Otomatis berdasarkan data Anomaly
         insight_text = "Sistem berjalan optimal. Tidak ada anomali signifikan."
-        if anomaly_count > 0 and anomaly_results is not None:
-            # Filter hanya anomalies yang terdeteksi (Anomaly == True)
-            anomalies_only = anomaly_results[anomaly_results['Anomaly'] == True]
-            if len(anomalies_only) > 0:
-                top_anomaly = anomalies_only.iloc[0]
-                top_prov = top_anomaly.get('Provinsi', 'N/A')
-                top_jenis = top_anomaly.get('Jenis_Pendapatan', 'N/A')
-                insight_text = f"Terdeteksi diskrepansi data dan anomali pada pencatatan <b>{top_jenis}</b> di wilayah <b>{top_prov}</b>."
+        if anomaly_count > 0:
+            anomaly_df = pd.DataFrame(anomaly_results)
+            top_prov = anomaly_df.iloc[0].get('Provinsi', 'N/A')
+            top_jenis = anomaly_df.iloc[0].get('Jenis_Pendapatan', 'N/A')
+            insight_text = f"Terdeteksi diskrepansi data dan anomali pada pencatatan <b>{top_jenis}</b> di wilayah <b>{top_prov}</b>."
 
         st.markdown(f"""
         <div class="insight-card">

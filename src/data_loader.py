@@ -27,12 +27,18 @@ class BPSDataLoader:
         self.data_path = data_path or utils.get_data_path("raw")
         self.processed_path = utils.get_data_path("processed")
         
-    def load_revenue_data(self, filename):
+    def load_revenue_data(self, filename=None):
         """
         Load revenue data from CSV
         Expected columns: Tahun, Bulan, Provinsi, Jenis_Pendapatan, Realisasi
+        
+        If filename is None, loads consolidated data from processed folder
         """
-        filepath = self.data_path / filename
+        if filename is None:
+            # Load consolidated data
+            filepath = self.processed_path / "revenue_consolidated.csv"
+        else:
+            filepath = self.data_path / filename
         
         if not filepath.exists():
             logger.warning(f"File not found: {filepath}")
@@ -40,10 +46,12 @@ class BPSDataLoader:
         
         try:
             df = pd.read_csv(filepath)
-            logger.info(f"Loaded {len(df)} rows from {filename}")
+            # Convert Tanggal to datetime
+            df['Tanggal'] = pd.to_datetime(df['Tanggal'])
+            logger.info(f"Loaded {len(df)} rows from {filepath}")
             return df
         except Exception as e:
-            logger.error(f"Error loading {filename}: {e}")
+            logger.error(f"Error loading {filepath}: {e}")
             return None
     
     def load_makro_indicators(self, filename):

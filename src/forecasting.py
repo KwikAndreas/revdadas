@@ -76,12 +76,13 @@ class RevenueForecaster:
                 daily_seasonality=False,
                 seasonality_mode='multiplicative',
                 interval_width=self.interval_width,
-                changepoint_prior_scale=0.05,
+                changepoint_prior_scale=0.01,
             )
             
             # Suppress Prophet's verbose logging
-            with utils.logging.getLogger("prophet").propagate(False):
-                model.fit(data)
+            import logging as lg
+            lg.getLogger("prophet").setLevel(lg.WARNING)
+            model.fit(data)
             
             key = f"{provinsi}_{jenis_pajak}"
             self.models[key] = model

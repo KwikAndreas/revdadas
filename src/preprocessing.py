@@ -5,6 +5,7 @@ Data preprocessing and cleaning for RevDadas
 import pandas as pd
 import numpy as np
 import logging
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -15,25 +16,85 @@ class DataPreprocessor:
     def __init__(self):
         self.processed_data = None
         
+    def clean_currency_string(self, value):
+        """Clean currency strings to numeric format
+        
+        Handles:
+        - Indonesian format: 1.234.567,89
+        - English format: 1,234,567.89  
+        - Rupiah symbol: Rp 1.234.567,89
+        - Parentheses for negative: (1234567)
+        """
+        if pd.isna(value) or value == "-":
+            return None
+        
+        value = str(value).strip()
+        
+        # Remove Rp symbol and currency text
+        value = re.sub(r'[Rp\s]', '', value)
+        
+        if not value:
+            return None
+        
+        # Handle negative in parentheses
+        multiplier = 1
+        if value.startswith("(") and value.endswith(")"):
+            value = value[1:-1]
+            multiplier = -1
+        
+        # Remove quotes and spaces
+        value = value.replace('"', '').replace(" ", "")
+        
+        # Detect decimal separator
+        dot_count = value.count(".")
+        comma_count = value.count(",")
+        
+        if comma_count > 0 and dot_count > 0:
+            # Both present: last position is usually decimal
+            if value.rfind(",") > value.rfind("."):
+                # Comma is last: Indonesian format (1.234.567,89)
+                value = value.replace(".", "").replace(",", ".")
+            else:
+                # Dot is last: English format (1,234,567.89)
+                value = value.replace(",", "")
+        elif comma_count > 0:
+            # Only commas: check position
+            if value.count(",") > 1 or len(value.split(",")[-1]) == 2:
+                # Multiple commas or 2 decimals = Indonesian
+                value = value.replace(".", "").replace(",", ".")
+            # else: single comma, single decimal = English format
+        
+        try:
+            return float(value) * multiplier
+        except ValueError:
+            logger.warning(f"Could not convert currency '{value}' to numeric")
+            return None
+    
     def clean_revenue_data(self, df):
         """
         Clean and prepare revenue data
         
         Steps:
-        1. Handle missing values
-        2. Detect and handle outliers
-        3. Ensure data types
-        4. Sort by date
+        1. Clean currency format in Realisasi column
+        2. Handle missing values
+        3. Detect and handle outliers
+        4. Ensure data types
+        5. Sort by date
         """
         df = df.copy()
         logger.info("Starting data cleaning...")
         
-        # 1. Handle missing values
+        # 1. Clean currency strings FIRST
+        if 'Realisasi' in df.columns:
+            logger.info("Cleaning currency format in Realisasi column...")
+            df['Realisasi'] = df['Realisasi'].apply(self.clean_currency_string)
+        
+        # 2. Handle missing values
         logger.info(f"Missing values before: {df.isnull().sum().sum()}")
         df = df.fillna(method='ffill').fillna(method='bfill')
         logger.info(f"Missing values after: {df.isnull().sum().sum()}")
         
-        # 2. Ensure correct data types
+        # 3. Ensure correct data types
         if 'Tahun' in df.columns:
             df['Tahun'] = df['Tahun'].astype(int)
         if 'Bulan' in df.columns:
@@ -41,19 +102,20 @@ class DataPreprocessor:
         if 'Realisasi' in df.columns:
             df['Realisasi'] = pd.to_numeric(df['Realisasi'], errors='coerce')
         
-        # 3. Create date column
+        # 4. Create date column
         df['Tanggal'] = pd.to_datetime(
             df['Tahun'].astype(str) + '-' + df['Bulan'].astype(str).str.zfill(2) + '-01'
         )
         
-        # 4. Remove rows with invalid data
+        # 5. Remove rows with invalid data
         df = df.dropna(subset=['Realisasi'])
         df = df[df['Realisasi'] > 0]
         
-        # 5. Sort by date
+        # 6. Sort by date
         df = df.sort_values('Tanggal').reset_index(drop=True)
         
         logger.info(f"Data cleaning completed. Shape: {df.shape}")
+        logger.info(f"Realisasi range: {df['Realisasi'].min():.0f} - {df['Realisasi'].max():.0f}")
         self.processed_data = df
         return df
     

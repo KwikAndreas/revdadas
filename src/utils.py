@@ -41,14 +41,35 @@ def ensure_directory(path):
     return path
 
 
-def format_currency(value):
-    """Format value to currency format (Rp)"""
+def format_currency(value, short=False):
+    """Format value to currency format (Rp)
+    
+    Args:
+        value: numeric value
+        short: if True, format as Rp XXX T (trillion), M (million), etc.
+    """
+    if not isinstance(value, (int, float)):
+        return value
+    
+    if short:
+        if abs(value) >= 1e12:
+            return f"Rp {value/1e12:.1f} T"
+        elif abs(value) >= 1e9:
+            return f"Rp {value/1e9:.1f} M"
+        elif abs(value) >= 1e6:
+            return f"Rp {value/1e6:.1f} K"
+    
+    return f"Rp {value:,.0f}"
+
+
+def format_currency_detailed(value):
+    """Format currency with full decimal for display"""
     if isinstance(value, (int, float)):
-        return f"Rp {value:,.0f}"
+        return f"Rp {value:,.2f}"
     return value
 
 
-def format_percentage(value, decimals=2):
+def format_percentage(value, decimals=1):
     """Format value to percentage"""
     if isinstance(value, (int, float)):
         return f"{value:.{decimals}f}%"

@@ -159,7 +159,14 @@ revdadas/
 
 ## 💻 Cara Menggunakan
 
-### 1. Quick Start dengan Sample Data
+### 1. Quick Start Guide
+
+```bash
+cd revdadas
+venv\Scripts\activate
+```
+
+Jalankan Dashboard dengan perintah berikut
 
 ```bash
 cd dashboard
@@ -168,21 +175,7 @@ streamlit run app.py
 
 Dashboard akan terbuka di `http://localhost:8501`
 
-### 2. Load Data Anda Sendiri
-
-```python
-from src import data_loader, preprocessing
-
-# Load data
-loader = data_loader.BPSDataLoader()
-df = loader.load_revenue_data('your_data.csv')
-
-# Preprocess
-preprocessor = preprocessing.DataPreprocessor()
-df = preprocessor.clean_revenue_data(df)
-```
-
-### 3. Train Forecasting Model
+### 2. Train Forecasting Model
 
 ```python
 from src import forecasting
@@ -200,7 +193,7 @@ forecast = forecaster.forecast(
 print(forecast.head())
 ```
 
-### 4. Detect Anomalies
+### 3. Detect Anomalies
 
 ```python
 from src import anomaly_detection
@@ -220,41 +213,6 @@ for insight in insights:
 
 ---
 
-## 📈 Pipeline Eksekusi
-
-### Week 1: Data Foundation
-
-- [x] Setup project structure
-- [x] Create data loader
-- [ ] Download BPS data (Anda)
-- [ ] EDA & data cleaning
-
-### Week 2: Modeling
-
-- [ ] Train Prophet forecasting
-- [ ] Train Isolation Forest anomaly detection
-- [ ] Model evaluation & tuning
-
-### Week 3: Integration
-
-- [ ] Feature engineering
-- [ ] SHAP explainability
-- [ ] Model persistence
-
-### Week 4: Dashboard
-
-- [ ] Build Streamlit UI
-- [ ] Interactive visualizations
-- [ ] Deployment setup
-
-### Week 5: Polish & Demo
-
-- [ ] Bug fixes & optimization
-- [ ] Demo video (90 detik)
-- [ ] Final documentation
-
----
-
 ## 🎓 Tech Stack
 
 | Komponen            | Library      | Versi  |
@@ -267,25 +225,6 @@ for insight in insights:
 | **Dashboard**       | Streamlit    | 1.28.1 |
 | **Geospatial**      | Folium       | 0.14.0 |
 | **Explainability**  | SHAP         | 0.43.0 |
-
----
-
-## 📞 Support & FAQ
-
-**Q: Bagaimana cara menambah lebih banyak provinsi?**  
-A: Update filter di `sidebar` dashboard atau edit `selected_provinsi` di `app.py`
-
-**Q: Bagaimana accuracy model saya?**  
-A: Lihat metrics di output training atau gunakan MAPE/MAE dari Prophet
-
-**Q: Bisa deploy ke cloud?**  
-A: Ya! Gunakan Streamlit Cloud (gratis) atau Railway
-
----
-
-## 📄 Lisensi
-
-Proposal Hackathon Digdaya x Bank Indonesia 2026
 
 ---
 
