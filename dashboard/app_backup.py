@@ -1,9 +1,3 @@
-"""
-RevDadas Streamlit Dashboard
-AI-Driven Predictive Analytics for Fraud Detection and Revenue Forecasting
-Professional UI with Dynamic Data (Integrated with Custom Mockup UI)
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -15,7 +9,6 @@ from pathlib import Path
 import folium
 from streamlit_folium import st_folium
 
-# Configure page FIRST (must be before any other st calls)
 st.set_page_config(
     page_title="RevDadas - Revenue Analytics",
     page_icon="📊",
@@ -23,21 +16,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-# --- IMPORT MODULE BACKEND ANDA ---
-# Pastikan folder src berada di path yang tepat
 try:
     from src import data_loader, preprocessing, forecasting, anomaly_detection, utils
 except ImportError:
     st.warning("Module src belum ditemukan. Pastikan folder src tersedia untuk menjalankan model.")
 
-# Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --- CSS KUSTOM (GAYA MOCKUP REVDADAS) ---
 st.markdown("""
 <style>
     /* Reset & General Layout */
@@ -112,10 +100,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- BACKEND FUNCTIONS (TIDAK DIUBAH) ---
 @st.cache_data
 def load_data():
-    """Load real consolidated data"""
     try:
         loader = data_loader.BPSDataLoader()
         df = loader.load_revenue_data()
@@ -135,7 +121,6 @@ def load_data():
 
 @st.cache_data
 def train_models(df):
-    """Train all models"""
     try:
         forecaster = forecasting.RevenueForecaster(periods=12)
         forecast_results = forecaster.train_and_forecast_all(df)
@@ -158,19 +143,13 @@ def format_currency(value):
         return f"Rp {value/1e9:.1f} M"
     return f"Rp {value:.0f}"
 
-# --- KAMUS KOORDINAT PROVINSI (Untuk Map Folium) ---
 PROVINCE_COORDS = {
     "DKI Jakarta": [-6.2000, 106.8166],
     "Jawa Barat": [-6.9204, 107.6046],
-    "Jawa Tengah": [-7.1509, 110.1402],
     "Jawa Timur": [-7.5361, 112.2384],
-    "Sumatera Utara": [2.5956, 98.6706],
-    "Bali": [-8.4095, 115.1889],
-    # Tambahkan provinsi lain jika ada di dataset Anda
 }
 
 def get_coords(prov_name):
-    # Mengembalikan koordinat default (Tengah Indonesia) jika tidak ditemukan
     return PROVINCE_COORDS.get(prov_name, [-0.7893, 113.9213]) 
 
 # --- MAIN APP ---
@@ -193,7 +172,6 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     
-    # Load data Backend
     with st.spinner("📥 Loading data..."):
         df = load_data()
     
@@ -201,7 +179,7 @@ def main():
         st.error("❌ Failed to load data")
         return
     
-    # --- SIDEBAR UI (Mockup Version) ---
+    # --- SIDEBAR UI ---
     with st.sidebar:
         st.markdown('<p class="sidebar-title">JENIS PENDAPATAN</p>', unsafe_allow_html=True)
         all_pajak = sorted(df['Jenis_Pendapatan'].unique().tolist())
@@ -217,8 +195,7 @@ def main():
         all_provinsi = sorted(df['Provinsi'].unique().tolist())
         selected_provinsi = []
         for prov in all_provinsi:
-            # Default centang beberapa provinsi untuk mockup
-            is_checked = prov in ["DKI Jakarta", "Jawa Barat", "Sumatera Utara", "Jawa Tengah"]
+            is_checked = prov in ["DKI Jakarta", "Jawa Barat", "Jawa Tengah"]
             if st.checkbox(prov, value=is_checked, key=f"prov_{prov}"):
                 selected_provinsi.append(prov)
         if not selected_provinsi:
@@ -485,7 +462,6 @@ def main():
         fig2.update_xaxes(gridcolor='#f1f5f9')
         st.plotly_chart(fig2, use_container_width=True)
 
-    # 4. ORIGINAL DETAIL TABLES (Dipertahankan dari kode asli Anda di bagian paling bawah)
     st.markdown("---")
     st.markdown('<div class="section-title">📋 Detailed Data Logs</div>', unsafe_allow_html=True)
     

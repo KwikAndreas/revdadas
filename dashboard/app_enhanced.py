@@ -1,15 +1,3 @@
-"""
-RevDadas Enhanced Streamlit Dashboard
-AI-Driven Predictive Analytics for Fraud Detection and Revenue Forecasting
-
-Enhanced features:
-- Professional metrics cards
-- Interactive heatmap
-- Impact calculator
-- AI insights panel
-- Better formatting & styling
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -20,7 +8,6 @@ import sys
 import logging
 from pathlib import Path
 
-# Configure page FIRST
 st.set_page_config(
     page_title="RevDadas - Revenue Analytics",
     page_icon="📊",
@@ -28,7 +15,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src import data_loader, preprocessing, forecasting, anomaly_detection, utils
@@ -37,7 +23,6 @@ from src import data_loader, preprocessing, forecasting, anomaly_detection, util
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# ============== CUSTOM CSS STYLING ==============
 st.markdown("""
 <style>
     /* Main color scheme */
@@ -137,7 +122,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ============== UTILITY FUNCTIONS ==============
 
 def format_currency(value, short=False):
     """Format currency"""
@@ -156,14 +140,12 @@ def format_currency(value, short=False):
 
 
 def format_percentage(value, decimals=1):
-    """Format percentage"""
     if isinstance(value, (int, float)):
         return f"{value:.{decimals}f}%"
     return value
 
 
 def get_status_color(score, threshold_warning=0.5, threshold_critical=0.75):
-    """Get status color based on anomaly score"""
     if score < threshold_warning:
         return "🟢 OPTIMAL", "status-optimal"
     elif score < threshold_critical:
@@ -172,11 +154,9 @@ def get_status_color(score, threshold_warning=0.5, threshold_critical=0.75):
         return "🔴 KRITIS", "status-critical"
 
 
-# ============== DATA LOADING & PROCESSING ==============
 
 @st.cache_data
 def load_data():
-    """Load real consolidated data"""
     try:
         loader = data_loader.BPSDataLoader()
         df = loader.load_revenue_data()
@@ -185,7 +165,6 @@ def load_data():
             st.warning("Consolidated data not found, creating sample data...")
             df = loader.create_sample_data()
         
-        # Preprocess
         preprocessor = preprocessing.DataPreprocessor()
         df = preprocessor.clean_revenue_data(df)
         df = preprocessor.create_features(df)
@@ -199,7 +178,6 @@ def load_data():
 
 @st.cache_data
 def train_models(df):
-    """Train models"""
     try:
         forecaster = forecasting.RevenueForecaster(periods=12)
         forecast_results = forecaster.train_and_forecast_all(df)
@@ -215,8 +193,6 @@ def train_models(df):
         return None, None, None, None
 
 
-# ============== MAIN APP ==============
-
 def main():
     # Header
     col1, col2 = st.columns([1, 4])
@@ -228,7 +204,6 @@ def main():
     
     st.markdown("---")
     
-    # Load data
     with st.spinner("📥 Loading data..."):
         df = load_data()
     
@@ -236,7 +211,6 @@ def main():
         st.error("❌ Failed to load data")
         return
     
-    # Sidebar filters
     with st.sidebar:
         st.header("⚙️ PENGATURAN")
         
@@ -263,13 +237,11 @@ def main():
         )
         st.caption(f"Periode: {forecast_months} Bulan")
     
-    # Filter data
     filtered_df = df[
         (df['Provinsi'].isin(selected_provinsi)) &
         (df['Jenis_Pendapatan'].isin(selected_pajak))
     ]
     
-    # Train models
     with st.spinner("🔄 Training AI models..."):
         forecast_results, anomaly_results, forecaster, detector = train_models(filtered_df)
     
@@ -277,14 +249,13 @@ def main():
         st.error("❌ Failed to train models")
         return
     
-    # ============== KPI METRICS ==============
     st.markdown("### 📊 KEY PERFORMANCE INDICATORS")
     
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
         total_revenue_2025 = filtered_df[filtered_df['Tahun'] == 2023]['Realisasi'].sum()
-        growth = 4.4  # Example
+        growth = 4.4 
         st.metric(
             "TOTAL REVENUE 2025",
             format_currency(total_revenue_2025, short=True),
@@ -319,7 +290,6 @@ def main():
             delta_color="inverse"
         )
     
-    # ============== TABS ==============
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "📈 PRAKIRAAN REVENUE",
         "🚨 DETEKSI ANOMALI",
@@ -328,12 +298,10 @@ def main():
         "💡 AI INSIGHTS"
     ])
     
-    # TAB 1: Forecasting
     with tab1:
         st.markdown("### 📈 Prakiraan Revenue 12 Bulan")
         
         if forecast_results is not None and not forecast_results.empty:
-            # Display table dengan format yang bagus
             display_df = forecast_results.copy()
             display_df['Tanggal'] = pd.to_datetime(display_df['Tanggal']).dt.strftime('%Y-%m-%d')
             display_df['Prediksi'] = display_df['Prediksi'].apply(lambda x: format_currency(x))
@@ -346,7 +314,6 @@ def main():
                 height=300
             )
             
-            # Visualization per province
             for provinsi in selected_provinsi:
                 st.subheader(f"📍 {provinsi}")
                 
@@ -357,10 +324,8 @@ def main():
                     st.info(f"No forecast available for {provinsi}")
                     continue
                 
-                # Create figure
                 fig = go.Figure()
                 
-                # Actual
                 fig.add_trace(go.Scatter(
                     x=prov_actual['Tanggal'],
                     y=prov_actual['Realisasi'],
@@ -370,7 +335,6 @@ def main():
                     marker=dict(size=6)
                 ))
                 
-                # Forecast
                 fig.add_trace(go.Scatter(
                     x=prov_forecast['Tanggal'],
                     y=prov_forecast['Prediksi'],
@@ -380,7 +344,6 @@ def main():
                     marker=dict(size=6)
                 ))
                 
-                # Confidence interval
                 fig.add_trace(go.Scatter(
                     x=prov_forecast['Tanggal'],
                     y=prov_forecast['Batas_Atas'],
@@ -413,7 +376,6 @@ def main():
                 
                 st.plotly_chart(fig, use_container_width=True)
     
-    # TAB 2: Anomaly Detection
     with tab2:
         st.markdown("### 🚨 Deteksi Anomali (Potential Fraud)")
         
