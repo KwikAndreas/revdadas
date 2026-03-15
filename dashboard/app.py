@@ -47,7 +47,7 @@ st.markdown("""
     /* Header Styling */
     .app-header {
         display: flex; justify-content: space-between; align-items: center;
-        padding-bottom: 15px; border-bottom: 1px solid #e2e8f0; margin-bottom: 20px;
+        padding-bottom: 15px; border-bottom: 1px solid #e2e8f0; margin-bottom: 20px; margin-top: 48px;
     }
     .header-title-box { display: flex; align-items: center; gap: 15px; }
     .logo-box {
