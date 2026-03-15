@@ -76,16 +76,31 @@ graph TD
     U --> X["Policy Makers"]
     U --> Y["Business Analysts"]
 
-    style A fill:#e1f5ff
-    style C fill:#e1f5ff
-    style D fill:#e1f5ff
-    style E fill:#e1f5ff
-    style F fill:#fff3e0
-    style J fill:#f3e5f5
-    style K fill:#f3e5f5
-    style L fill:#f3e5f5
-    style Q fill:#e8f5e9
-    style U fill:#fce4ec
+    style A fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
+    style B fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
+    style C fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
+    style D fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
+    style E fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
+    style F fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
+    style G fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
+    style H fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
+    style I fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
+    style J fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style K fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style L fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style M fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style N fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style O fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style P fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style Q fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
+    style R fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
+    style S fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
+    style T fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
+    style U fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
+    style V fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
+    style W fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
+    style X fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
+    style Y fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
 ```
 
 ---
