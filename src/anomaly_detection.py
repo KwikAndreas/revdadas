@@ -56,7 +56,8 @@ class AnomalyDetector:
         )
         
         # Feature 2: Month-over-month change (%)
-        df['MoM_Change'] = df.groupby(['Provinsi', 'Bulan'])['Realisasi'].pct_change() * 100
+        # Only group by Provinsi to calculate sequential month-to-month change
+        df['MoM_Change'] = df.groupby('Provinsi')['Realisasi'].pct_change() * 100
         df['MoM_Change'] = df['MoM_Change'].fillna(0)
         
         # Feature 3: Revenue ratio to 3-month moving average

@@ -112,8 +112,10 @@ class RevenueForecaster:
             forecast = model.predict(future)
             
             # Keep only future periods
-            forecast = forecast[forecast['ds'] > forecast['ds'].iloc[-self.periods-1]]
+            # forecast = forecast[forecast['ds'] > forecast['ds'].iloc[-self.periods-1]]
             
+            forecast = forecast.tail(self.periods)
+
             # Select relevant columns
             result = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].copy()
             result.columns = ['Tanggal', 'Prediksi', 'Batas_Bawah', 'Batas_Atas']

@@ -275,12 +275,28 @@ def main():
     forecast_total = forecast_results['Prediksi'].sum() if forecast_results is not None and len(forecast_results) > 0 else 0
     
     # Fix: Hitung jumlah ACTUAL anomalies, bukan jumlah rows
-    anomaly_count = 0
-    if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
-        anomaly_count = anomaly_results['Anomaly'].sum()
+    # anomaly_count = 0
+    # if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
+    #     anomaly_count = anomaly_results['Anomaly'].sum()
     
-    anomaly_pct = (anomaly_count / len(filtered_df) * 100) if len(filtered_df) > 0 else 0
-    potential_loss = total_revenue * (anomaly_pct / 100)
+    # anomaly_pct = (anomaly_count / len(filtered_df) * 100) if len(filtered_df) > 0 else 0
+    # potential_loss = total_revenue * (anomaly_pct / 100)
+
+    anomaly_count = 0
+    potential_loss = 0.0
+    anomaly_pct = 0.0
+
+    if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
+        # Filter hanya data yang terdeteksi anomali
+        anomalies_only = anomaly_results[anomaly_results['Anomaly'] == True]
+        anomaly_count = len(anomalies_only)
+        
+        # 1. Potential Loss = Total uang dari transaksi yang mencurigakan (anomali)
+        potential_loss = anomalies_only['Realisasi'].sum()
+        
+        # 2. Persentase Risiko = Proporsi nominal uang anomali terhadap total uang
+        if total_revenue > 0:
+            anomaly_pct = (potential_loss / total_revenue) * 100
     
     # 1. KPI CARDS
     k1, k2, k3, k4 = st.columns(4)
@@ -348,12 +364,21 @@ def main():
                 
             # Fix: Count actual anomalies, not total rows
             prov_risk_pct = 0
+            # if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
+            #     prov_anomalies = anomaly_results[
+            #         (anomaly_results['Provinsi'] == prov) & 
+            #         (anomaly_results['Anomaly'] == True)
+            #     ]
+            #     prov_risk_pct = (len(prov_anomalies) / len(prov_actual_df) * 100) if len(prov_actual_df) > 0 else 0
+
             if anomaly_results is not None and 'Anomaly' in anomaly_results.columns:
                 prov_anomalies = anomaly_results[
                     (anomaly_results['Provinsi'] == prov) & 
                     (anomaly_results['Anomaly'] == True)
                 ]
-                prov_risk_pct = (len(prov_anomalies) / len(prov_actual_df) * 100) if len(prov_actual_df) > 0 else 0
+                prov_anomali_value = prov_anomalies['Realisasi'].sum()
+                if prov_total_rev > 0:
+                    prov_risk_pct = (prov_anomali_value / prov_total_rev) * 100
             
             # Tentukan warna heatmap berdasarkan risk
             if prov_risk_pct > 5.0: color = "#ef4444" # Merah
@@ -480,7 +505,7 @@ def main():
         prop_df = prop_df.sort_values(by='Realisasi', ascending=True) # Sortir untuk Bar chart
         
         colors = ['#64748b', '#facc15', '#4ade80', '#dc2626', '#1e3a5f'] * 2 # Warna berulang jika kategori banyak
-        
+         
         fig2 = go.Figure(go.Bar(
             x=prop_df['Realisasi']/1e9, 
             y=prop_df['Jenis_Pendapatan'], 
