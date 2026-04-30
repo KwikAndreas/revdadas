@@ -103,9 +103,10 @@ class DataPreprocessor:
             df['Realisasi'] = pd.to_numeric(df['Realisasi'], errors='coerce')
         
         # 4. Create date column
-        df['Tanggal'] = pd.to_datetime(
-            df['Tahun'].astype(str) + '-' + df['Bulan'].astype(str).str.zfill(2) + '-01'
-        )
+        if {'Tahun', 'Bulan'}.issubset(df.columns):
+            df['Tanggal'] = pd.to_datetime(
+                df['Tahun'].astype(str) + '-' + df['Bulan'].astype(str).str.zfill(2) + '-01'
+            )
         
         # 5. Remove rows with invalid data
         df = df.dropna(subset=['Realisasi'])
@@ -183,7 +184,7 @@ class DataPreprocessor:
             df['Hari_Ke_Dalam_Tahun'] = df['Tanggal'].dt.dayofyear
         
         # Calculate year-over-year growth (if multiple years)
-        if 'Tahun' in df.columns and 'Tahun' in df.columns:
+        if 'Tahun' in df.columns and 'Bulan' in df.columns:
             df = df.sort_values(['Provinsi', 'Tahun', 'Bulan'])
             df['YoY_Growth'] = df.groupby(['Provinsi', 'Bulan'])['Realisasi'].pct_change(12) * 100
         
