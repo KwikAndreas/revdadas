@@ -91,7 +91,7 @@ class DataPreprocessor:
         
         # 2. Handle missing values
         logger.info(f"Missing values before: {df.isnull().sum().sum()}")
-        df = df.fillna(method='ffill').fillna(method='bfill')
+        df = df.ffill().df.bfill()
         logger.info(f"Missing values after: {df.isnull().sum().sum()}")
         
         # 3. Ensure correct data types
