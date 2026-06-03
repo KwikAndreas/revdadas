@@ -53,72 +53,43 @@ Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restora
 
 ```mermaid
 graph TD
-    A["📊 Data Sources"] --> B["Data Loading"]
-    C["📈 Economic Data"] --> B
-    D["🗺️ Geospatial Data"] --> B
-    E["📋 Regional Data"] --> B
+    A["📁 Raw Data / APBD CSV"] --> B["Data Loader\n(src/data_loader.py)"]
+    B --> C["Processed Data\n(revenue_consolidated.csv)"]
+    C --> D["Data Preprocessing\n(src/preprocessing.py)"]
+    D --> E["Feature Engineering\n& Validation"]
 
-    B --> F["Data Processing Layer"]
-    F --> G["Cleaning & Validation"]
-    G --> H["Feature Engineering"]
-    H --> I["Data Consolidation"]
+    E --> F["Forecasting Engine\n(src/forecasting.py)"]
+    E --> G["Anomaly Detection\n(src/anomaly_detection.py)"]
 
-    I --> J{Analytics}
+    F --> H["Forecast Results\nPrediksi & Backtest"]
+    G --> I["Fraud / Anomaly Signals\nSeverity, Reason"]
 
-    J --> K["Forecasting Model<br/>Prophet"]
-    J --> L["Anomaly Detection<br/>Isolation Forest"]
+    H --> J["Business Scoring\n(src/business.py)"]
+    I --> J
+    J --> K["Policy Recommendations\n(src/policy.py)"]
 
-    K --> M["Time Series Analysis"]
-    M --> N["Revenue Predictions<br/>6-24 Months"]
+    H --> L["Dashboard & Visualisasi\n(app/app.py)"]
+    I --> L
+    K --> L
+    L --> M["Export Report PDF\n(src/report.py)"]
 
-    L --> O["Pattern Recognition"]
-    O --> P["Fraud & Under-reporting<br/>Detection"]
-
-    N --> Q["Visualization Layer"]
-    P --> Q
-
-    Q --> R["Dashboard<br/>Streamlit"]
-    Q --> S["Geospatial Map<br/>Folium"]
-    Q --> T["Reports & Insights<br/>SHAP Explainability"]
-
-    R --> U["End Users"]
-    S --> U
-    T --> U
-
-    U --> V["Pemerintah Daerah"]
-    U --> W["Badan Keuangan"]
-    U --> X["Policy Makers"]
-    U --> Y["Business Analysts"]
+    M --> N["Pengambil Keputusan\nPemerintah, BUMD, Policy Makers"]
 
     style A fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
-    style B fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
-    style C fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
-    style D fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
-    style E fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
-    style F fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
-    style G fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
-    style H fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
-    style I fill:#ff9231,stroke:#e65100,stroke-width:2px,color:#fff
-    style J fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style K fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style L fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style M fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style N fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style O fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style P fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
-    style Q fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
-    style R fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
-    style S fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
-    style T fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
-    style U fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
-    style V fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
-    style W fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
-    style X fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
-    style Y fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
+    style B fill:#0b74de,stroke:#084d8c,stroke-width:2px,color:#fff
+    style C fill:#38bdf8,stroke:#0c4a6e,stroke-width:2px,color:#fff
+    style D fill:#fb923c,stroke:#c2410c,stroke-width:2px,color:#fff
+    style E fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#fff
+    style F fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style G fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
+    style H fill:#a855f7,stroke:#6d28d9,stroke-width:2px,color:#fff
+    style I fill:#f43f5e,stroke:#881337,stroke-width:2px,color:#fff
+    style J fill:#22c55e,stroke:#166534,stroke-width:2px,color:#fff
+    style K fill:#14b8a6,stroke:#0f766e,stroke-width:2px,color:#fff
+    style L fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#fff
+    style M fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#fff
+    style N fill:#ec4899,stroke:#831843,stroke-width:2px,color:#fff
 ```
-
----
-
 Akses dashboard di sini: https://revdadas.streamlit.app/
 
 Atau jalankan lokal:
