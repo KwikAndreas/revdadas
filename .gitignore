@@ -38,13 +38,6 @@ env/
 .ipynb_checkpoints/
 *.ipynb
 
-# Data
-data/raw/*.csv
-data/raw/*.xlsx
-data/raw/*.xls
-data/processed/*.csv
-data/processed/*.parquet
-
 # Models
 models/*.pkl
 models/*.joblib
