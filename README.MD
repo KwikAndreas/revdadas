@@ -124,18 +124,25 @@ Akses dashboard di sini: https://revdadas.streamlit.app/
 Atau jalankan lokal:
 
 ```bash
-cd revdadas/dashboard
-streamlit run app.py
+cd revdadas
+venv\Scripts\activate
+streamlit run app/app.py
 ```
 
 Dashboard akan buka di http://localhost:8501
 
 ---
 
-## Screenshots
+## Demo Screenshots
 
 ![Dashboard Main](./docs/Dashboard.png)
-
+![Dashboard Historical Revenue vs Forecast](./docs/Historical_Revenue_vs_Forecast.png)
+![Dashboard Detail Data Logs Forecast Data](./docs/DDL_ForecastData.png)
+![Dashboard Detail Data Logs Main](./docs/DDL_Anomalies.png)
+![Dashboard Detail Data Logs Main](./docs/DDL_AkurasiModel.png)
+![Dashboard Detail Data Logs Main](./docs/DDL_RekomendasiBisnis.png)
+![Dashboard Detail Data Logs Main](./docs/DDL_SimulasiWhatIf.png)
+![Dashboard Detail Data Logs Main](./docs/DDL_Metodologi.png)
 _Halaman utama dashboard_
 
 ---
@@ -210,10 +217,8 @@ revdadas/
 │   └── __init__.py
 │
 ├── models/                    # Saved models
-├── dashboard/
-│   ├── app.py
-│   ├── app_enhanced.py
-│   └── app_backup.py
+├── app/
+│   └── app.py
 │
 ├── docs/
 ├── data_consolidation.py
@@ -275,16 +280,21 @@ python data_consolidation.py
 
 ## Tech Stack
 
-| Library      | Versi  |
-| ------------ | ------ |
-| Pandas       | 2.1.4  |
-| NumPy        | 1.24.3 |
-| Prophet      | 1.1.5  |
-| Scikit-learn | 1.4.2  |
-| Plotly       | 5.18.0 |
-| Streamlit    | 1.28.1 |
-| Folium       | 0.14.0 |
-| SHAP         | 0.43.0 |
+| Library         | Versi      |
+| --------------- | ---------- |
+| pandas          | >=2.2.2    |
+| numpy           | >=2.0.0    |
+| scikit-learn    | >=1.5.0    |
+| prophet         | >=1.1.6    |
+| plotly          | >=5.20.0   |
+| streamlit       | >=1.40.0   |
+| folium          | >=0.15.0   |
+| streamlit-folium| >=0.20.0   |
+| python-dotenv   | >=1.0.0    |
+| requests        | >=2.32.0   |
+| openpyxl        | >=3.1.5    |
+| shap            | >=0.45.0   |
+| reportlab       | >=4.0.0    |
 
 ---
 

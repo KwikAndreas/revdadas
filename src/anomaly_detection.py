@@ -46,31 +46,37 @@ class AnomalyDetector:
         4. Seasonality deviation
         """
         df = df.copy()
-        
-        # Sort by date
-        df = df.sort_values('Tanggal').reset_index(drop=True)
-        
-        # Feature 1: Revenue (normalized within province)
-        df['Revenue_Norm'] = df.groupby('Provinsi')['Realisasi'].transform(
+
+        # Sort by series + date agar perhitungan sekuensial benar
+        sort_keys = ['Provinsi', 'Jenis_Pendapatan', 'Tanggal'] if 'Jenis_Pendapatan' in df.columns else ['Provinsi', 'Tanggal']
+        df = df.sort_values(sort_keys).reset_index(drop=True)
+
+        # Kelompokkan per SERI (provinsi + jenis pendapatan). Sebelumnya hanya per
+        # provinsi sehingga MoM/MA mencampur jenis pendapatan berbeda dan memunculkan
+        # "lonjakan" semu. Pengelompokan per seri membuat anomali jauh lebih bermakna.
+        grp_keys = ['Provinsi', 'Jenis_Pendapatan'] if 'Jenis_Pendapatan' in df.columns else ['Provinsi']
+
+        # Feature 1: Revenue ternormalisasi dalam tiap seri
+        df['Revenue_Norm'] = df.groupby(grp_keys)['Realisasi'].transform(
             lambda x: (x - x.mean()) / x.std() if x.std() > 0 else 0
         )
-        
-        # Feature 2: Month-over-month change (%)
-        # Only group by Provinsi to calculate sequential month-to-month change
-        df['MoM_Change'] = df.groupby('Provinsi')['Realisasi'].pct_change() * 100
-        df['MoM_Change'] = df['MoM_Change'].fillna(0)
-        
-        # Feature 3: Revenue ratio to 3-month moving average
-        ma = df.groupby('Provinsi')['Realisasi'].transform(
+
+        # Feature 2: Perubahan bulan-ke-bulan (%) per seri
+        df['MoM_Change'] = df.groupby(grp_keys)['Realisasi'].pct_change() * 100
+        df['MoM_Change'] = df['MoM_Change'].replace([np.inf, -np.inf], np.nan).fillna(0)
+
+        # Feature 3: Rasio terhadap rata-rata bergerak 3 bulan per seri
+        ma = df.groupby(grp_keys)['Realisasi'].transform(
             lambda x: x.rolling(window=3, min_periods=1).mean()
         )
-        df['Ratio_to_MA'] = (df['Realisasi'] / ma).replace([np.inf, -np.inf], 1)
-        
-        # Feature 4: Seasonality - deviation from same month average
-        month_avg = df.groupby(['Provinsi', 'Bulan'])['Realisasi'].transform('mean')
-        df['Seasonality_Deviation'] = ((df['Realisasi'] - month_avg) / month_avg.abs() * 100).fillna(0)
-        
-        logger.info(f"Created {4} features for anomaly detection")
+        df['Ratio_to_MA'] = (df['Realisasi'] / ma).replace([np.inf, -np.inf], 1).fillna(1)
+
+        # Feature 4: Deviasi musiman dari rata-rata bulan yang sama per seri
+        seas_keys = grp_keys + ['Bulan'] if 'Bulan' in df.columns else grp_keys
+        month_avg = df.groupby(seas_keys)['Realisasi'].transform('mean')
+        df['Seasonality_Deviation'] = ((df['Realisasi'] - month_avg) / month_avg.abs() * 100).replace([np.inf, -np.inf], np.nan).fillna(0)
+
+        logger.info("Created 4 features for anomaly detection (per seri)")
         return df
     
     def train(self, df):
@@ -133,7 +139,42 @@ class AnomalyDetector:
         
         # Add to dataframe
         df['Anomaly'] = anomaly_labels == -1  # -1 = anomaly, 1 = normal
-        df['Anomaly_Score'] = -anomaly_scores  # Negative for interpretability (higher = more anomalous)
+        df['Anomaly_Score'] = -anomaly_scores  # higher = more anomalous
+
+        # Tingkat keparahan berdasarkan persentil skor pada baris anomali
+        if df['Anomaly'].any():
+            sc = df.loc[df['Anomaly'], 'Anomaly_Score']
+            thr_hi, thr_md = sc.quantile(0.66), sc.quantile(0.33)
+        else:
+            thr_hi = thr_md = 0
+        def _sev(r):
+            if not r['Anomaly']:
+                return '-'
+            if r['Anomaly_Score'] >= thr_hi:
+                return 'Tinggi'
+            if r['Anomaly_Score'] >= thr_md:
+                return 'Sedang'
+            return 'Rendah'
+        df['Severity'] = df.apply(_sev, axis=1)
+
+        # Alasan ringkas yang dapat dibaca manusia
+        def _reason(r):
+            if not r['Anomaly']:
+                return '-'
+            mom = r.get('MoM_Change', 0)
+            seas = r.get('Seasonality_Deviation', 0)
+            # Bila persentase meledak (baseline mendekati nol), jangan tampilkan angka konyol
+            if abs(mom) >= 30:
+                arah = 'lonjakan' if mom > 0 else 'penurunan'
+                if abs(mom) > 500:
+                    return f"{arah} nilai sangat ekstrem dibanding bulan sebelumnya"
+                return f"{arah} tajam {abs(mom):.0f}% dari bulan sebelumnya"
+            if abs(seas) >= 40:
+                if abs(seas) > 500:
+                    return "menyimpang sangat jauh dari pola musiman biasanya"
+                return f"menyimpang {abs(seas):.0f}% dari pola musiman biasanya"
+            return "pola tidak biasa dibanding tren historis"
+        df['Alasan'] = df.apply(_reason, axis=1)
         
         n_anomalies = df['Anomaly'].sum()
         logger.info(f"Detected {n_anomalies} anomalies ({n_anomalies/len(df)*100:.2f}%)")

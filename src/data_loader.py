@@ -23,20 +23,53 @@ class BPSDataLoader:
     - Indikator Makroekonomi Daerah
     """
     
+    # Nama file mentah APBD DJPK (sumber data asli)
+    APBD_MASTER_FILENAME = "apbd_djpk_master_2021-2025.csv"
+
     def __init__(self, data_path=None):
         self.data_path = data_path or utils.get_data_path("raw")
         self.processed_path = utils.get_data_path("processed")
-        
+
+    def build_consolidated_from_apbd(self):
+        """
+        Bangun revenue_consolidated.csv dari data mentah APBD DJPK
+        (data/raw/apbd_djpk_master_2021-2025.csv) bila tersedia.
+
+        Mengembalikan DataFrame, atau None jika file mentah tidak ada.
+        """
+        from . import apbd_adapter
+
+        master_path = self.data_path / self.APBD_MASTER_FILENAME
+        if not master_path.exists():
+            logger.warning(f"Data mentah APBD tidak ditemukan: {master_path}")
+            return None
+
+        out_path = self.processed_path / "revenue_consolidated.csv"
+        df = apbd_adapter.save_revenue_consolidated(str(master_path), str(out_path))
+        logger.info(f"revenue_consolidated.csv dibangun dari data APBD asli "
+                    f"({len(df)} baris).")
+        df["Tanggal"] = pd.to_datetime(df["Tanggal"])
+        return df
+
     def load_revenue_data(self, filename=None):
         """
         Load revenue data from CSV
         Expected columns: Tahun, Bulan, Provinsi, Jenis_Pendapatan, Realisasi
         
-        If filename is None, loads consolidated data from processed folder
+        If filename is None, loads consolidated data from processed folder.
+        Jika consolidated belum ada, otomatis dibangun dari data APBD asli
+        (data/raw/apbd_djpk_master_2021-2025.csv).
         """
         if filename is None:
             # Load consolidated data
             filepath = self.processed_path / "revenue_consolidated.csv"
+            # Auto-build dari data APBD asli bila consolidated belum ada
+            if not filepath.exists():
+                logger.info("revenue_consolidated.csv belum ada. "
+                            "Mencoba membangun dari data APBD asli...")
+                built = self.build_consolidated_from_apbd()
+                if built is not None:
+                    return built
         else:
             filepath = self.data_path / filename
         
