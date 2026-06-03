@@ -43,10 +43,6 @@ models/*.pkl
 models/*.joblib
 models/*.json
 
-# Streamlit
-.streamlit/
-.streamlit/secrets.toml
-
 # Logs
 *.log
 
