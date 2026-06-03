@@ -53,6 +53,3 @@ models/*.json
 # OS
 Thumbs.db
 .DS_Store
-
-.devcontainer/
-devcontainer.json
