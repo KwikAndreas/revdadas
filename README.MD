@@ -151,7 +151,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Data dari 3 provinsi: Jawa Barat, Jawa Timur, DKI Jakarta
+Data dari 7 provinsi: Bali, Banten, DI Yogyakarta, Jawa Barat, Jawa Timur, Jawa Tengah, DKI Jakarta, Sumatera Utara.
 
 Jenis pendapatan: PBB, Retribusi Pasar, Pajak Hotel & Restoran
 
