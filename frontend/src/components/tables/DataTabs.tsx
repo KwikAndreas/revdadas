@@ -19,7 +19,7 @@ import {
 } from "recharts";
 import { 
   LineChart, AlertTriangle, Target, Briefcase, Sliders, BookOpen, 
-  ArrowDown, ArrowUp, Download, Check
+  ArrowDown, ArrowUp, Download, Check, ChevronDown
 } from "lucide-react";
 
 interface DataTabsProps {
@@ -88,6 +88,18 @@ export default function DataTabs({
 // ─── Tab 1: Forecast ──────────────────────────────────────────
 function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
   const [selectedProv, setSelectedProv] = useState<string>("Semua Provinsi");
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   if (!forecast || forecast.length === 0) {
     return <div className="empty-state">Data forecast tidak tersedia.</div>;
@@ -119,18 +131,42 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 16, alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <p className="table-caption" style={{ margin: 0 }}>Menampilkan {filteredForecast.length} baris data proyeksi.</p>
-          <select
-            value={selectedProv}
-            onChange={(e) => setSelectedProv(e.target.value)}
-            style={{ padding: "4px 8px", borderRadius: 4, border: "1px solid #e2e8f0", fontSize: 13, background: "#fff" }}
-          >
-            <option value="Semua Provinsi">Semua Provinsi</option>
-            {uniqueProvinces.map((prov) => (
-              <option key={prov} value={prov}>
-                {prov}
-              </option>
-            ))}
-          </select>
+          <div className="dropdown-container" ref={dropdownRef} style={{ width: 200, marginBottom: 0 }}>
+            <div 
+              className="dropdown-trigger" 
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+            >
+              <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                {selectedProv}
+              </span>
+              <ChevronDown size={14} color="#64748b" />
+            </div>
+            
+            {dropdownOpen && (
+              <div className="dropdown-menu" style={{ zIndex: 50, maxHeight: 250, overflowY: "auto" }}>
+                <div 
+                  className={`dropdown-item ${selectedProv === "Semua Provinsi" ? "selected" : ""}`}
+                  onClick={() => { setSelectedProv("Semua Provinsi"); setDropdownOpen(false); }}
+                >
+                  <span>Semua Provinsi</span>
+                  {selectedProv === "Semua Provinsi" && <Check size={14} strokeWidth={3} />}
+                </div>
+                {uniqueProvinces.map((prov) => {
+                  const isSelected = selectedProv === prov;
+                  return (
+                    <div 
+                      key={prov} 
+                      className={`dropdown-item ${isSelected ? "selected" : ""}`}
+                      onClick={() => { setSelectedProv(prov); setDropdownOpen(false); }}
+                    >
+                      <span>{prov}</span>
+                      {isSelected && <Check size={14} strokeWidth={3} />}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
         </div>
         <button className="btn btn-secondary" onClick={downloadCSV}>
           <Download size={14} /> Unduh CSV
@@ -179,7 +215,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   const dropdownRef = useRef<HTMLDivElement>(null);
   
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 15;
+  const itemsPerPage = 10;
 
   useEffect(() => {
     setCurrentPage(1);
@@ -335,18 +371,36 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
           </span>
           <div style={{ display: "flex", gap: 8 }}>
             <button
-              className="btn btn-secondary"
               disabled={currentPage === 1}
               onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-              style={{ padding: "4px 12px", fontSize: 13, background: currentPage === 1 ? "#f1f5f9" : "white" }}
+              style={{
+                padding: "6px 14px",
+                fontSize: 13,
+                fontWeight: 500,
+                color: currentPage === 1 ? "#94a3b8" : "#1e3a5f",
+                background: currentPage === 1 ? "#f8fafc" : "#ffffff",
+                border: `1px solid ${currentPage === 1 ? "#e2e8f0" : "#cbd5e1"}`,
+                borderRadius: 6,
+                cursor: currentPage === 1 ? "not-allowed" : "pointer",
+                transition: "all 0.2s"
+              }}
             >
               Sebelumnya
             </button>
             <button
-              className="btn btn-secondary"
               disabled={currentPage === totalPages}
               onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-              style={{ padding: "4px 12px", fontSize: 13, background: currentPage === totalPages ? "#f1f5f9" : "white" }}
+              style={{
+                padding: "6px 14px",
+                fontSize: 13,
+                fontWeight: 500,
+                color: currentPage === totalPages ? "#94a3b8" : "#1e3a5f",
+                background: currentPage === totalPages ? "#f8fafc" : "#ffffff",
+                border: `1px solid ${currentPage === totalPages ? "#e2e8f0" : "#cbd5e1"}`,
+                borderRadius: 6,
+                cursor: currentPage === totalPages ? "not-allowed" : "pointer",
+                transition: "all 0.2s"
+              }}
             >
               Selanjutnya
             </button>
