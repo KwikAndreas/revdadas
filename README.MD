@@ -84,6 +84,80 @@ graph TD
 
 ---
 
+## Demo Screenshots
+
+![Dashboard Main](./docs/Dashboard.png)
+_Halaman utama dashboard_
+![Dashboard Historical Revenue vs Forecast](./docs/Chart.png)
+_Halaman historical revenue vs forecast_
+![Dashboard Detail Data Logs Forecast Data](./docs/DDL_ForecastData.png)
+_Halaman detail data logs forecast data_
+![Dashboard Detail Data Logs Anomalies](./docs/DDL_Anomalies.png)
+_Halaman detail data logs anomalies_
+![Dashboard Detail Data Logs AkurasiModel](./docs/DDL_AkurasiModel.png)
+_Halaman detail data logs akurasi model_
+![Dashboard Detail Data Logs RekomendasiBisnis](./docs/DDL_RekomendasiBisnis.png)
+_Halaman detail data logs rekomendasi bisnis_
+![Dashboard Detail Data Logs SimulasiWhatIf](./docs/DDL_SimulasiWhatIf.png)
+_Halaman detail data logs simulasi what if_
+![Dashboard Detail Data Logs Metodologi](./docs/DDL_Metodologi.png)
+_Halaman detail data logs metodologi_
+![Dashboard Rekomendasi Kebijakan](./docs/Rekomendasi_Kebijakan.png)
+_Halaman rekomendasi kebijakan_
+
+---
+
+## Metodologi Analitik AI
+
+RevDadas ditenagai oleh dua model *Machine Learning* utama yang dirancang khusus untuk menganalisis karakteristik keuangan daerah.
+
+### 1. Peramalan Pendapatan (Prophet)
+Kami menggunakan model **Prophet** yang sangat tangguh dalam menangani data runtun waktu (*time-series*) yang memiliki pola musiman berulang (seperti pembayaran pajak di bulan tertentu) dan hari libur.
+
+**Model Matematis (Decomposable Time Series):**
+$$ y(t) = g(t) + s(t) + h(t) + \epsilon_t $$
+
+- $g(t)$ : Tren pertumbuhan (*growth*) jangka panjang non-periodik.
+- $s(t)$ : Perubahan musiman (*seasonality*) tahunan/bulanan.
+- $h(t)$ : Efek kalender / hari libur tidak beraturan.
+- $\epsilon_t$ : Margin ketidakpastian (*noise*).
+
+```mermaid
+flowchart LR
+    A[Data Historis] --> B[Pemrosesan Runtun Waktu]
+    B --> C{Pendeteksian Pola}
+    C -->|Tren Linear| D[Kalkulasi g]
+    C -->|Pola Musiman| E[Kalkulasi s]
+    D & E --> F[Prediksi Masa Depan]
+    F --> G[Batas Bawah, Tengah, Atas]
+    
+    style A fill:#0b74de,color:#fff
+    style G fill:#22c55e,color:#fff
+```
+
+### 2. Deteksi Anomali / Fraud (Isolation Forest)
+Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan *under-reporting* atau *fraud*), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
+
+**Cara Kerja Algoritma:**
+1. Sistem membangun sekumpulan pohon keputusan acak (*Isolation Trees*).
+2. Data yang bersifat anomali lebih mudah terpisah dari kelompoknya, sehingga memiliki lintasan pemisahan (*path length*) yang sangat pendek.
+3. Skor anomali dihitung. Jika skor mendeteksi jalur yang tidak wajar, data diklasifikasikan sebagai tingkat keparahan **Tinggi** atau **Sedang**.
+
+```mermaid
+flowchart TD
+    A[Data Realisasi Bulanan] --> B[Bentuk Kumpulan Pohon Acak]
+    B --> C{Evaluasi Kedalaman Pohon}
+    C -->|Jalur Panjang| D[Data Normal]
+    C -->|Jalur Pendek| E[Terindikasi Anomali]
+    E --> F[Hitung Anomaly Score]
+    F --> G[Tandai Label Severity]
+    
+    style E fill:#f43f5e,color:#fff
+    style G fill:#e11d48,color:#fff
+```
+
+---
+
 ## Setup & Installation
 
 Untuk menjalankan sistem ini, Anda perlu menjalankan proses **Backend (Python)** untuk merender *Machine Learning* dan **Frontend (Node.js)** untuk menjalankan UI web.
