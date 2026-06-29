@@ -1,0 +1,354 @@
+{
+  "1": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 1.0 T pada tingkat pencegahan 1%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "5": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 5.2 T pada tingkat pencegahan 5%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "10": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 10.5 T pada tingkat pencegahan 10%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "15": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 15.7 T pada tingkat pencegahan 15%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "20": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 21.0 T pada tingkat pencegahan 20%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "25": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 26.2 T pada tingkat pencegahan 25%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "30": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 31.4 T pada tingkat pencegahan 30%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "40": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 41.9 T pada tingkat pencegahan 40%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "50": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 52.4 T pada tingkat pencegahan 50%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "75": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 78.6 T pada tingkat pencegahan 75%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ],
+  "100": [
+    {
+      "judul": "Waspada penurunan pendapatan di Jawa Tengah",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Waspada penurunan pendapatan di Sumatera Utara",
+      "prioritas": "Tinggi",
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+    },
+    {
+      "judul": "Audit pos pendapatan beranomali",
+      "prioritas": "Tinggi",
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Konsentrasi terbesar di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 104.8 T pada tingkat pencegahan 100%."
+    },
+    {
+      "judul": "Kurangi ketergantungan pada satu sumber",
+      "prioritas": "Sedang",
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari total pendapatan terpilih. Ketergantungan tinggi menambah risiko fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."
+    },
+    {
+      "judul": "Momentum pertumbuhan di Bali",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    },
+    {
+      "judul": "Momentum pertumbuhan di DKI Jakarta",
+      "prioritas": "Rendah",
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Manfaatkan untuk memperkuat dana cadangan dan belanja modal produktif."
+    }
+  ]
+}

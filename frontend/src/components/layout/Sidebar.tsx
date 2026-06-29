@@ -1,0 +1,227 @@
+"use client";
+
+import { useState, useRef, useEffect, useMemo } from "react";
+import type { Meta, DashboardFilters } from "@/lib/types";
+import { ChevronDown, Check, Activity, Search } from "lucide-react";
+
+interface SidebarProps {
+  meta: Meta;
+  filters: DashboardFilters;
+  onFilterChange: (partial: Partial<DashboardFilters>) => void;
+}
+
+export default function Sidebar({ meta, filters, onFilterChange }: SidebarProps) {
+  const allTaxTypes = ["Semua Pendapatan", ...meta.tax_types];
+  const [provDropdownOpen, setProvDropdownOpen] = useState(false);
+  const [taxDropdownOpen, setTaxDropdownOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const taxDropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      const target = e.target as Node;
+      if (dropdownRef.current && !dropdownRef.current.contains(target)) {
+        setProvDropdownOpen(false);
+      }
+      if (taxDropdownRef.current && !taxDropdownRef.current.contains(target)) {
+        setTaxDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleProvinceToggle = (province: string) => {
+    const current = filters.selectedProvinces;
+    const updated = current.includes(province)
+      ? current.filter((p) => p !== province)
+      : [...current, province];
+    onFilterChange({ selectedProvinces: updated.length > 0 ? updated : meta.provinces });
+  };
+
+  const isAllSelected = filters.selectedProvinces.length === meta.provinces.length;
+
+  const handleSelectAll = () => {
+    if (isAllSelected) {
+      // Just select one default to prevent empty state error
+      onFilterChange({ selectedProvinces: [meta.provinces[0]] }); 
+    } else {
+      onFilterChange({ selectedProvinces: meta.provinces });
+    }
+  };
+
+  const filteredProvinces = useMemo(() => {
+    return meta.provinces.filter(p => p.toLowerCase().includes(searchQuery.toLowerCase()));
+  }, [meta.provinces, searchQuery]);
+
+  return (
+    <aside className="sidebar">
+      {/* Logo */}
+      <div className="sidebar-logo">
+        <div className="sidebar-logo-icon">
+          <Activity size={20} strokeWidth={3} />
+        </div>
+        <div className="sidebar-logo-text">
+          <h2>RevDadas</h2>
+          <span>REVENUE DAERAH CERDAS</span>
+        </div>
+      </div>
+
+      {/* Tax Type Filter */}
+      <div>
+        <p className="sidebar-section-title">JENIS PENDAPATAN</p>
+        <div className="dropdown-container" ref={taxDropdownRef}>
+          <div 
+            className="dropdown-trigger" 
+            onClick={() => setTaxDropdownOpen(!taxDropdownOpen)}
+          >
+            <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              {filters.selectedTaxType}
+            </span>
+            <ChevronDown size={14} color="#64748b" />
+          </div>
+          
+          {taxDropdownOpen && (
+            <div className="dropdown-menu">
+              {allTaxTypes.map((t) => {
+                const isSelected = filters.selectedTaxType === t;
+                return (
+                  <div 
+                    key={t} 
+                    className={`dropdown-item ${isSelected ? "selected" : ""}`}
+                    onClick={() => {
+                      onFilterChange({ selectedTaxType: t });
+                      setTaxDropdownOpen(false);
+                    }}
+                  >
+                    <span>{t}</span>
+                    {isSelected && <Check size={14} strokeWidth={3} />}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Province Filter */}
+      <div>
+        <p className="sidebar-section-title">PROVINSI TARGET</p>
+        <div className="dropdown-container" ref={dropdownRef}>
+          <div 
+            className="dropdown-trigger" 
+            onClick={() => setProvDropdownOpen(!provDropdownOpen)}
+          >
+            <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              {filters.selectedProvinces.length === meta.provinces.length 
+                ? "Semua Provinsi" 
+                : `${filters.selectedProvinces.length} Provinsi Terpilih`}
+            </span>
+            <ChevronDown size={14} color="#64748b" />
+          </div>
+          
+          {provDropdownOpen && (
+            <div className="dropdown-menu">
+              <div style={{ padding: "8px", borderBottom: "1px solid #e2e8f0" }}>
+                <div style={{ display: "flex", alignItems: "center", background: "#f1f5f9", borderRadius: 6, padding: "4px 8px" }}>
+                  <Search size={14} color="#64748b" />
+                  <input 
+                    type="text" 
+                    placeholder="Cari provinsi..." 
+                    style={{ border: "none", background: "transparent", outline: "none", padding: "4px 8px", width: "100%", fontSize: 13 }}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
+              </div>
+              
+              <div 
+                className="dropdown-item" 
+                style={{ borderBottom: "1px solid #e2e8f0", fontWeight: 700, color: "#1e3a5f" }}
+                onClick={handleSelectAll}
+              >
+                <span>{isAllSelected ? "Hapus Semua" : "Pilih Semua Provinsi"}</span>
+                {isAllSelected && <Check size={14} strokeWidth={3} />}
+              </div>
+
+              <div style={{ maxHeight: 200, overflowY: "auto" }}>
+                {filteredProvinces.length === 0 ? (
+                  <div style={{ padding: 12, textAlign: "center", color: "#64748b", fontSize: 13 }}>Tidak ada hasil</div>
+                ) : (
+                  filteredProvinces.map((prov) => {
+                    const isSelected = filters.selectedProvinces.includes(prov);
+                    return (
+                      <div 
+                        key={prov} 
+                        className={`dropdown-item ${isSelected ? "selected" : ""}`}
+                        onClick={() => handleProvinceToggle(prov)}
+                      >
+                        <span>{prov}</span>
+                        {isSelected && <Check size={14} strokeWidth={3} />}
+                      </div>
+                    );
+                  })
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Forecast Period Slider */}
+      <div className="slider-container" style={{ marginTop: 8 }}>
+        <div className="slider-header">
+          <span className="sidebar-section-title" style={{ margin: 0 }}>
+            PERIODE PREDIKSI
+          </span>
+          <span className="slider-value">{filters.forecastMonths} BULAN</span>
+        </div>
+        <input
+          type="range"
+          className="slider-input"
+          min={6}
+          max={24}
+          value={filters.forecastMonths}
+          onChange={(e) =>
+            onFilterChange({ forecastMonths: Number(e.target.value) })
+          }
+        />
+        <div className="slider-range-labels">
+          <span>6 Bln</span>
+          <span>24 Bln</span>
+        </div>
+      </div>
+
+      {/* Fraud Prevention Slider */}
+      <div>
+        <div className="fraud-box">
+          <div className="fraud-header">
+            <span>PENCEGAHAN FRAUD</span>
+            <span>{filters.fraudPreventionPct}%</span>
+          </div>
+          <input
+            type="range"
+            className="slider-input"
+            min={1}
+            max={100}
+            value={filters.fraudPreventionPct}
+            onChange={(e) =>
+              onFilterChange({ fraudPreventionPct: Number(e.target.value) })
+            }
+          />
+        </div>
+        <p className="fraud-note">*Estimasi efektivitas audit AI</p>
+      </div>
+
+      {/* Status */}
+      <div className="sidebar-status">
+        <p>
+          Status Sistem: <span className="status-dot">●</span> Terkoneksi (Satu Data)
+        </p>
+        <p>Data: {meta.total_rows.toLocaleString()} records</p>
+      </div>
+    </aside>
+  );
+}

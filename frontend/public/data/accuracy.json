@@ -1,0 +1,235 @@
+{
+  "overall": {
+    "median_wape": 24.149827854111958,
+    "akurasi": 75.85017214588804,
+    "n_series": 32,
+    "n_reliable": 25,
+    "pct_reliable": 78.0
+  },
+  "by_series": [
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 4.7,
+      "sMAPE": 4.3,
+      "Akurasi": 95.3
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 4.8,
+      "sMAPE": 4.8,
+      "Akurasi": 95.2
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 6.3,
+      "sMAPE": 6.5,
+      "Akurasi": 93.7
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 10.7,
+      "sMAPE": 10.6,
+      "Akurasi": 89.3
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 12.1,
+      "sMAPE": 14.4,
+      "Akurasi": 87.9
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 12.8,
+      "sMAPE": 13.2,
+      "Akurasi": 87.2
+    },
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 14.0,
+      "sMAPE": 14.1,
+      "Akurasi": 86.0
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 14.8,
+      "sMAPE": 15.9,
+      "Akurasi": 85.2
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 15.2,
+      "sMAPE": 15.1,
+      "Akurasi": 84.8
+    },
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 15.9,
+      "sMAPE": 15.2,
+      "Akurasi": 84.1
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 17.6,
+      "sMAPE": 16.4,
+      "Akurasi": 82.4
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 19.4,
+      "sMAPE": 19.0,
+      "Akurasi": 80.6
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 24.1,
+      "sMAPE": 24.1,
+      "Akurasi": 75.9
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 25.1,
+      "sMAPE": 28.4,
+      "Akurasi": 74.9
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 25.3,
+      "sMAPE": 20.8,
+      "Akurasi": 74.7
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 26.8,
+      "sMAPE": 27.8,
+      "Akurasi": 73.2
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 27.0,
+      "sMAPE": 31.6,
+      "Akurasi": 73.0
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 30.5,
+      "sMAPE": 26.4,
+      "Akurasi": 69.5
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 31.1,
+      "sMAPE": 25.9,
+      "Akurasi": 68.9
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 32.4,
+      "sMAPE": 34.6,
+      "Akurasi": 67.6
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 33.6,
+      "sMAPE": 38.1,
+      "Akurasi": 66.4
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 36.8,
+      "sMAPE": 26.2,
+      "Akurasi": 63.2
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Retribusi Daerah",
+      "WAPE": 40.3,
+      "sMAPE": 28.3,
+      "Akurasi": 59.7
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 47.0,
+      "sMAPE": 48.4,
+      "Akurasi": 53.0
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 48.4,
+      "sMAPE": 50.9,
+      "Akurasi": 51.6
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Pajak Daerah",
+      "WAPE": 52.0,
+      "sMAPE": 50.2,
+      "Akurasi": 48.0
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 66.9,
+      "sMAPE": 38.1,
+      "Akurasi": 33.1
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "WAPE": 81.1,
+      "sMAPE": 133.1,
+      "Akurasi": 18.9
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 86.2,
+      "sMAPE": 55.3,
+      "Akurasi": 13.8
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 148.3,
+      "sMAPE": 79.9,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 164.9,
+      "sMAPE": 65.4,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
+      "WAPE": 378.7,
+      "sMAPE": 101.4,
+      "Akurasi": 0.0
+    }
+  ]
+}

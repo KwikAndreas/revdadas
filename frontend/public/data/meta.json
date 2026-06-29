@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-06-30T02:45:17.957623",
+  "provinces": [
+    "Bali",
+    "Banten",
+    "DI Yogyakarta",
+    "DKI Jakarta",
+    "Jawa Barat",
+    "Jawa Tengah",
+    "Jawa Timur",
+    "Sumatera Utara"
+  ],
+  "tax_types": [
+    "Dana Darurat",
+    "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+    "Lain-Lain PAD yang Sah",
+    "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "Pajak Daerah",
+    "Pendapatan Hibah",
+    "Pendapatan Transfer Antar Daerah",
+    "Pendapatan Transfer Pemerintah Pusat",
+    "Retribusi Daerah"
+  ],
+  "forecast_periods": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "date_range": {
+    "min": "2023-01-01 00:00:00",
+    "max": "2025-12-01 00:00:00"
+  },
+  "total_rows": 2018
+}

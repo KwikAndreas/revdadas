@@ -53,3 +53,7 @@ models/*.json
 # OS
 Thumbs.db
 .DS_Store
+
+# Development
+.devcontainer
+.streamlit
