@@ -115,7 +115,10 @@ RevDadas ditenagai oleh dua model *Machine Learning* utama yang dirancang khusus
 Kami menggunakan model **Prophet** yang sangat tangguh dalam menangani data runtun waktu (*time-series*) yang memiliki pola musiman berulang (seperti pembayaran pajak di bulan tertentu) dan hari libur.
 
 **Model Matematis (Decomposable Time Series):**
-$$ y(t) = g(t) + s(t) + h(t) + \epsilon_t $$
+
+$$
+y(t) = g(t) + s(t) + h(t) + \epsilon_t
+$$
 
 - $g(t)$ : Tren pertumbuhan (*growth*) jangka panjang non-periodik.
 - $s(t)$ : Perubahan musiman (*seasonality*) tahunan/bulanan.
