@@ -87,20 +87,28 @@ export default function DataTabs({
 
 // ─── Tab 1: Forecast ──────────────────────────────────────────
 function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
+  const [selectedProv, setSelectedProv] = useState<string>("Semua Provinsi");
+
   if (!forecast || forecast.length === 0) {
     return <div className="empty-state">Data forecast tidak tersedia.</div>;
   }
 
+  const uniqueProvinces = Array.from(new Set(forecast.map((r) => r.Provinsi))).sort();
+  const filteredForecast =
+    selectedProv === "Semua Provinsi"
+      ? forecast
+      : forecast.filter((r) => r.Provinsi === selectedProv);
+
   const downloadCSV = () => {
     const headers = ["Tanggal,Provinsi,Jenis_Pendapatan,Prediksi,Batas_Bawah,Batas_Atas,Metode"];
-    const rows = forecast.map(r => 
+    const rows = filteredForecast.map(r => 
       `${r.Tanggal.split("T")[0]},"${r.Provinsi}","${r.Jenis_Pendapatan}",${r.Prediksi},${r.Batas_Bawah},${r.Batas_Atas},"${r.Metode || ''}"`
     );
     const csvContent = "data:text/csv;charset=utf-8," + headers.concat(rows).join("\n");
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "revdadas_proyeksi.csv");
+    link.setAttribute("download", `revdadas_proyeksi_${selectedProv.replace(/\s+/g, '_')}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -109,7 +117,21 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 16, alignItems: "center" }}>
-        <p className="table-caption" style={{ margin: 0 }}>Menampilkan {forecast.length} baris data proyeksi.</p>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <p className="table-caption" style={{ margin: 0 }}>Menampilkan {filteredForecast.length} baris data proyeksi.</p>
+          <select
+            value={selectedProv}
+            onChange={(e) => setSelectedProv(e.target.value)}
+            style={{ padding: "4px 8px", borderRadius: 4, border: "1px solid #e2e8f0", fontSize: 13, background: "#fff" }}
+          >
+            <option value="Semua Provinsi">Semua Provinsi</option>
+            {uniqueProvinces.map((prov) => (
+              <option key={prov} value={prov}>
+                {prov}
+              </option>
+            ))}
+          </select>
+        </div>
         <button className="btn btn-secondary" onClick={downloadCSV}>
           <Download size={14} /> Unduh CSV
         </button>
@@ -128,7 +150,7 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
             </tr>
           </thead>
           <tbody>
-            {forecast.slice(0, 100).map((r, i) => (
+            {filteredForecast.slice(0, 100).map((r, i) => (
               <tr key={i}>
                 <td>{r.Tanggal.split("T")[0]}</td>
                 <td>{r.Provinsi}</td>
@@ -142,7 +164,7 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
           </tbody>
         </table>
       </div>
-      {forecast.length > 100 && (
+      {filteredForecast.length > 100 && (
         <p className="table-caption" style={{ textAlign: "center" }}>Hanya menampilkan 100 baris pertama. Unduh CSV untuk melihat semua data.</p>
       )}
     </div>
@@ -155,6 +177,13 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   const [sortDesc, setSortDesc] = useState(true);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 15;
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [sortKey, sortDesc]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -184,6 +213,9 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   if (anomaliesOnly.length === 0) {
     return <div className="success-box">✅ Tidak ada anomali terdeteksi pada data yang dipilih.</div>;
   }
+
+  const totalPages = Math.ceil(anomaliesOnly.length / itemsPerPage);
+  const paginatedAnomalies = anomaliesOnly.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   return (
     <div>
@@ -272,7 +304,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
             </tr>
           </thead>
           <tbody>
-            {anomaliesOnly.map((r, i) => (
+            {paginatedAnomalies.map((r, i) => (
               <tr key={i}>
                 <td>{r.Tanggal.split("T")[0]}</td>
                 <td>{r.Provinsi}</td>
@@ -295,6 +327,32 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
           </tbody>
         </table>
       </div>
+      
+      {totalPages > 1 && (
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 16 }}>
+          <span className="table-caption" style={{ margin: 0 }}>
+            Halaman {currentPage} dari {totalPages}
+          </span>
+          <div style={{ display: "flex", gap: 8 }}>
+            <button
+              className="btn btn-secondary"
+              disabled={currentPage === 1}
+              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+              style={{ padding: "4px 12px", fontSize: 13, background: currentPage === 1 ? "#f1f5f9" : "white" }}
+            >
+              Sebelumnya
+            </button>
+            <button
+              className="btn btn-secondary"
+              disabled={currentPage === totalPages}
+              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+              style={{ padding: "4px 12px", fontSize: 13, background: currentPage === totalPages ? "#f1f5f9" : "white" }}
+            >
+              Selanjutnya
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
