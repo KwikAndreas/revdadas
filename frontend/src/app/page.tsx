@@ -22,7 +22,7 @@ import AIInsights from "@/components/dashboard/AIInsights";
 import RevenueChart from "@/components/charts/RevenueChart";
 import ProportionChart from "@/components/charts/ProportionChart";
 import DataTabs from "@/components/tables/DataTabs";
-import { FileText, Sparkles, Map } from "lucide-react";
+import { FileText, Sparkles, Map, Database, AlertCircle } from "lucide-react";
 import dynamic from "next/dynamic";
 
 // Dynamic import for map (requires browser APIs)
@@ -217,7 +217,9 @@ export default function DashboardPage() {
     return (
       <div className="loading-screen">
         <div className="loading-spinner" />
-        <p className="loading-text">📥 Memuat data RevDadas...</p>
+        <p className="loading-text" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
+          <Database size={16} /> Memuat data RevDadas...
+        </p>
       </div>
     );
   }
@@ -225,8 +227,8 @@ export default function DashboardPage() {
   if (error || !data) {
     return (
       <div className="loading-screen">
-        <p style={{ color: "#dc2626", fontSize: 16 }}>
-          ❌ Gagal memuat data: {error}
+        <p style={{ color: "#dc2626", fontSize: 16, display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
+          <AlertCircle size={20} /> Gagal memuat data: {error}
         </p>
         <p style={{ color: "#64748b", fontSize: 13 }}>
           Pastikan data sudah di-generate dengan menjalankan{" "}
