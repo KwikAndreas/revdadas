@@ -738,6 +738,13 @@ body {
   border: 1px solid var(--border-color);
 }
 
+/* Remove focus outlines from Recharts */
+.recharts-wrapper,
+.recharts-surface,
+.recharts-layer {
+  outline: none !important;
+}
+
 /* ═══════════════════════════════════════════════════════════════════
    Tabs
    ═══════════════════════════════════════════════════════════════════ */
@@ -1450,13 +1457,40 @@ body {
   }
   
   .sidebar {
-    width: 100%;
-    min-width: 100%;
-    height: auto;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: -280px;
+    bottom: 0;
+    width: 280px;
+    height: 100vh;
+    z-index: 9999;
+    transform: translateX(0);
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
     border-right: none;
-    border-bottom: 1px solid var(--border-color);
-    padding: var(--space-md);
+    background: #ffffff;
+  }
+
+  .sidebar.open {
+    left: 0 !important;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .sidebar-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .main-content {
@@ -1465,21 +1499,22 @@ body {
     overflow-x: hidden;
   }
 
-  .kpi-grid {
+  .kpi-grid, .charts-row, .metrics-row {
     grid-template-columns: 1fr;
+    flex-direction: column;
   }
   
   .app-header {
     flex-direction: column;
+    align-items: flex-start;
     gap: 16px;
-    text-align: center;
     height: auto;
     padding: 16px 0;
   }
 
   .header-actions {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
   }
   
   .tabs-header {
@@ -1493,18 +1528,37 @@ body {
     justify-content: center;
   }
   
-  .metrics-row {
-    flex-direction: column;
-  }
-  
   .modal-content {
     width: 95%;
     margin: 20px auto;
   }
 
-  /* Make tables horizontally scrollable on mobile */
   .data-table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  .mobile-only {
+    display: flex !important;
+  }
+
+  .forecast-header-mobile {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px;
+  }
+
+  .forecast-header-mobile > div:first-child {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-header-mobile button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.mobile-only {
+  display: none;
 }

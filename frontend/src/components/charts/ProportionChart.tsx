@@ -38,31 +38,47 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
       dataMap.set(r.Jenis_Pendapatan, current + toBillions(r.Realisasi));
     });
 
+    const NAME_MAP: Record<string, string> = {
+      "lain-lain pendapatan sesuai dengan ketentuan peraturan perundang-undangan": "Pendapatan Lainnya",
+      "pendapatan hibah": "Hibah",
+      "hasil pengelolaan kekayaan daerah yang dipisahkan": "Hasil Kekayaan Daerah",
+      "pendapatan transfer pemerintah pusat": "Transfer Pusat",
+      "pendapatan transfer antar daerah": "Transfer Antar Daerah"
+    };
+
     return Array.from(dataMap.entries())
-      .map(([name, value]) => ({ name, value }))
-      .sort((a, b) => a.value - b.value); // Ascending for horizontal bar
+      .map(([name, value]) => ({ name: NAME_MAP[name.toLowerCase()] || name, value }))
+      .sort((a, b) => b.value - a.value); // Descending for largest at the top
   }, [historical]);
 
+  const formatIDR = (val: number) => {
+    return new Intl.NumberFormat('id-ID', { maximumFractionDigits: 1 }).format(val);
+  };
+
   return (
-    <div style={{ width: "100%", height: 300 }}>
+    <div style={{ width: "100%", height: isMobile ? 400 : 300, outline: "none" }}>
       <ResponsiveContainer>
         <BarChart
           data={chartData}
           layout="vertical"
-          margin={{ top: 10, right: 20, left: isMobile ? 0 : 40, bottom: 0 }}
+          margin={{ top: 10, right: 30, left: isMobile ? 10 : 40, bottom: 20 }}
+          style={{ outline: "none" }}
         >
           <CartesianGrid strokeDasharray="3 3" horizontal={false} />
           <XAxis
             type="number"
+            tickFormatter={formatIDR}
             tick={{ fontSize: 11, fill: "#64748b" }}
             axisLine={false}
             tickLine={false}
+            label={{ value: "(dlm miliar rupiah)", position: "insideBottom", offset: -15, fontSize: 10, fill: "#94a3b8" }}
           />
           <YAxis
             dataKey="name"
             type="category"
             tick={{ fontSize: isMobile ? 9 : 11, fill: "#334155", fontWeight: 500 }}
-            width={isMobile ? 110 : 160}
+            width={isMobile ? 130 : 160}
+            interval={0}
             axisLine={false}
             tickLine={false}
           />
@@ -70,7 +86,7 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
             contentStyle={{ borderRadius: 8, border: "1px solid #e2e8f0", fontSize: 12 }}
             formatter={(value: any) => {
               const val = typeof value === 'number' ? value : 0;
-              return [`Rp ${val.toFixed(1)} M`, "Realisasi"];
+              return [`Rp ${formatIDR(val)}`, "Realisasi (Miliar)"];
             }}
             labelStyle={{ display: "none" }}
             cursor={{ fill: "#f1f5f9" }}

@@ -36,6 +36,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showRecs, setShowRecs] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const [filters, setFilters] = useState<DashboardFilters>({
     selectedProvinces: [],
@@ -240,17 +241,28 @@ export default function DashboardPage() {
 
   return (
     <div className="app-layout">
+      {/* Mobile Sidebar Overlay */}
+      <div 
+        className={`sidebar-overlay ${sidebarOpen ? "open" : ""}`} 
+        onClick={() => setSidebarOpen(false)} 
+      />
+
       {/* ── Sidebar ────────────────────────────────────────── */}
       <Sidebar
         meta={data.meta}
         filters={filters}
         onFilterChange={handleFilterChange}
+        isOpen={sidebarOpen}
+        onClose={() => setSidebarOpen(false)}
       />
 
       {/* ── Main Content ───────────────────────────────────── */}
       <main className="main-content">
         {/* Header */}
-        <Header onExportPDF={handleExportPDF} />
+        <Header 
+          onExportPDF={handleExportPDF} 
+          onMenuClick={() => setSidebarOpen(true)}
+        />
 
         {/* KPI Cards */}
         <KPICards

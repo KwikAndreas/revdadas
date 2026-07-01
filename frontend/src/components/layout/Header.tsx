@@ -1,10 +1,17 @@
-import { RefreshCcw, Download } from "lucide-react";
+import { RefreshCcw, Download, Menu } from "lucide-react";
 
-export default function Header({ onExportPDF }: { onExportPDF: () => void }) {
+export default function Header({ onExportPDF, onMenuClick }: { onExportPDF: () => void, onMenuClick?: () => void }) {
   return (
     <header className="app-header">
-      <div className="header-center">
-        AI-Driven Revenue Forecasting & Fraud Detection
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        {onMenuClick && (
+          <button className="mobile-only btn-icon" onClick={onMenuClick} style={{ padding: 4 }}>
+            <Menu size={24} />
+          </button>
+        )}
+        <div className="header-center">
+          AI-Driven Revenue Forecasting & Fraud Detection
+        </div>
       </div>
       <div className="header-actions">
         <button

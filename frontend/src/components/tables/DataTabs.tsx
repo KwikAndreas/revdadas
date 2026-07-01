@@ -128,7 +128,7 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
 
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 16, alignItems: "center" }}>
+      <div className="forecast-header-mobile" style={{ display: "flex", justifyContent: "space-between", marginBottom: 16, alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <p className="table-caption" style={{ margin: 0 }}>Menampilkan {filteredForecast.length} baris data proyeksi.</p>
           <div className="dropdown-container" ref={dropdownRef} style={{ width: 200, marginBottom: 0 }}>

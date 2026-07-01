@@ -8,9 +8,11 @@ interface SidebarProps {
   meta: Meta;
   filters: DashboardFilters;
   onFilterChange: (partial: Partial<DashboardFilters>) => void;
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
-export default function Sidebar({ meta, filters, onFilterChange }: SidebarProps) {
+export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose }: SidebarProps) {
   const allTaxTypes = ["Semua Pendapatan", ...meta.tax_types];
   const [provDropdownOpen, setProvDropdownOpen] = useState(false);
   const [taxDropdownOpen, setTaxDropdownOpen] = useState(false);
@@ -56,16 +58,39 @@ export default function Sidebar({ meta, filters, onFilterChange }: SidebarProps)
   }, [meta.provinces, searchQuery]);
 
   return (
-    <aside className="sidebar">
+    <aside 
+      className={`sidebar ${isOpen ? "open" : ""}`}
+      style={isOpen ? { 
+        position: "fixed",
+        top: 0, 
+        left: 0, 
+        width: "280px", 
+        height: "100vh", 
+        backgroundColor: "#ffffff",
+        zIndex: 999999, 
+        transform: "none", 
+        visibility: "visible",
+        display: "flex",
+        flexDirection: "column",
+        boxShadow: "2px 0 20px rgba(0,0,0,0.5)"
+      } : {}}
+    >
       {/* Logo */}
-      <div className="sidebar-logo">
-        <div className="sidebar-logo-icon">
-          <Activity size={20} strokeWidth={3} />
+      <div className="sidebar-logo" style={{ justifyContent: "space-between" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <div className="sidebar-logo-icon">
+            <Activity size={20} strokeWidth={3} />
+          </div>
+          <div className="sidebar-logo-text">
+            <h2>RevDadas</h2>
+            <span>REVENUE DAERAH CERDAS</span>
+          </div>
         </div>
-        <div className="sidebar-logo-text">
-          <h2>RevDadas</h2>
-          <span>REVENUE DAERAH CERDAS</span>
-        </div>
+        {onClose && (
+          <button className="mobile-only btn-icon" onClick={onClose} style={{ border: "none", background: "transparent", color: "#64748b" }}>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        )}
       </div>
 
       {/* Tax Type Filter */}
