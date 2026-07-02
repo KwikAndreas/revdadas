@@ -314,6 +314,40 @@ export default function DashboardPage() {
           </div>
         </div>
 
+        {/* Policy Recommendations (Moved up for UX Best Practice) */}
+        {showRecs && (
+          <div className="animate-fade-in-up" style={{ marginBottom: 32 }}>
+            <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <Sparkles size={18} /> Rekomendasi Kebijakan AI
+            </h3>
+            <div style={{ display: "grid", gap: 12 }}>
+              {policyRecs.map((rec, i) => {
+                const colors = getPriorityColors(rec.prioritas);
+                return (
+                  <div key={i} className="insight-card">
+                    <div className="policy-header">
+                      <span className="policy-title">{rec.judul}</span>
+                      <span
+                        className="policy-badge"
+                        style={{
+                          background: colors.bg,
+                          color: colors.text,
+                        }}
+                      >
+                        {rec.prioritas}
+                      </span>
+                    </div>
+                    <p className="policy-detail" style={{ marginTop: 8 }}>{rec.detail}</p>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="table-caption" style={{ marginTop: 12 }}>
+              Rekomendasi bersifat indikatif sebagai bahan diskusi kebijakan, bukan keputusan final.
+            </p>
+          </div>
+        )}
+
         {/* Charts Row */}
         <div style={{ display: "flex", flexDirection: "column", gap: 24, marginBottom: 32 }}>
           <div className="chart-card animate-fade-in-up">
@@ -348,38 +382,7 @@ export default function DashboardPage() {
           forecastMonths={filters.forecastMonths}
         />
 
-        {/* Policy Recommendations */}
-        {showRecs && (
-          <div className="animate-fade-in-up" style={{ marginTop: 24 }}>
-            <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <Sparkles size={18} /> Rekomendasi Kebijakan
-            </h3>
-            {policyRecs.map((rec, i) => {
-              const colors = getPriorityColors(rec.prioritas);
-              return (
-                <div key={i} className="insight-card" style={{ marginTop: 10 }}>
-                  <div className="policy-header">
-                    <span className="policy-title">{rec.judul}</span>
-                    <span
-                      className="policy-badge"
-                      style={{
-                        background: colors.bg,
-                        color: colors.text,
-                      }}
-                    >
-                      {rec.prioritas}
-                    </span>
-                  </div>
-                  <p className="policy-detail">{rec.detail}</p>
-                </div>
-              );
-            })}
-            <p className="table-caption" style={{ marginTop: 12 }}>
-              Rekomendasi bersifat indikatif sebagai bahan diskusi kebijakan,
-              bukan keputusan final.
-            </p>
-          </div>
-        )}
+
       </main>
     </div>
   );
