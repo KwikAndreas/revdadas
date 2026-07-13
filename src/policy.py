@@ -57,8 +57,8 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                         "judul": f"Momentum pertumbuhan di {prov}",
                         "prioritas": "Rendah",
                         "detail": (f"Proyeksi tumbuh {growth:.1f}% dibanding rata-rata terakhir. "
-                                   f"Manfaatkan untuk memperkuat dana cadangan dan belanja "
-                                   f"modal produktif."),
+                                   f"Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk "
+                                   f"memperkuat kapasitas fiskal daerah melalui belanja modal produktif."),
                     })
 
     # --- 2. Anomali / potensi kebocoran ---
@@ -75,10 +75,9 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                 "judul": "Audit pos pendapatan beranomali",
                 "prioritas": "Tinggi",
                 "detail": (f"Terdeteksi {n_anom} catatan anomali (nominal {_fmt(loss)}). "
-                           f"Konsentrasi terbesar di {top_prov}, terutama pos "
-                           f"\"{top_jenis}\". Audit terfokus dapat menyelamatkan ~"
-                           f"{_fmt(potensi_selamat)} pada tingkat pencegahan "
-                           f"{fraud_prevention_pct}%."),
+                           f"Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di {top_prov}, "
+                           f"terutama pos \"{top_jenis}\". Audit terfokus dapat menyelamatkan "
+                           f"~{_fmt(potensi_selamat)} (pencegahan {fraud_prevention_pct}%)."),
             })
 
     # --- 3. Diversifikasi sumber pendapatan ---
@@ -92,9 +91,9 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                 recs.append({
                     "judul": "Kurangi ketergantungan pada satu sumber",
                     "prioritas": "Sedang",
-                    "detail": (f"Pos \"{top_name}\" menyumbang {top_share:.0f}% dari total "
-                               f"pendapatan terpilih. Ketergantungan tinggi menambah risiko "
-                               f"fiskal; perkuat diversifikasi (mis. retribusi & lain-lain PAD)."),
+                    "detail": (f"Pos \"{top_name}\" menyumbang {top_share:.0f}% dari PAD terpilih. "
+                               f"Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup "
+                               f"pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."),
                 })
 
     # --- 4. Fallback ---
@@ -103,7 +102,8 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
             "judul": "Kondisi fiskal relatif stabil",
             "prioritas": "Rendah",
             "detail": ("Tidak ada sinyal risiko signifikan dari proyeksi maupun anomali pada "
-                       "data terpilih. Pertahankan disiplin anggaran dan pemantauan rutin."),
+                       "data terpilih. Pertahankan disiplin anggaran sesuai pedoman pengelolaan "
+                       "keuangan daerah (UU HKPD)."),
         })
 
     # urutkan: Tinggi -> Sedang -> Rendah

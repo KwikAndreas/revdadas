@@ -160,14 +160,20 @@ export default function DashboardPage() {
     const anomalyPct =
       totalRevenue > 0 ? (potentialLoss / totalRevenue) * 100 : 0;
 
+    const savedRevenue = potentialLoss * (filters.fraudPreventionPct / 100);
+    const simulatedDAU = totalRevenue * 1.5;
+    const newPAD = totalRevenue + savedRevenue;
+    const kemandirianFiskal = newPAD > 0 ? (newPAD / (newPAD + simulatedDAU)) * 100 : 0;
+
     return {
       totalRevenue,
       forecastTotal,
       anomalyCount,
       potentialLoss,
       anomalyPct,
+      kemandirianFiskal,
     };
-  }, [filteredHistorical, filteredForecast, filteredAnomalies]);
+  }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct]);
 
   const accuracyText = useMemo(() => {
     if (!data || data.accuracy.by_series.length === 0) return "Predicted by AI Model";
@@ -273,6 +279,7 @@ export default function DashboardPage() {
           potentialLoss={kpiData.potentialLoss}
           forecastMonths={filters.forecastMonths}
           accuracyText={accuracyText}
+          kemandirianFiskal={kpiData.kemandirianFiskal}
         />
 
         {/* Middle Row: Map + Impact Calculator */}
@@ -318,7 +325,7 @@ export default function DashboardPage() {
         {showRecs && (
           <div className="animate-fade-in-up" style={{ marginBottom: 32 }}>
             <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <Sparkles size={18} /> Rekomendasi Kebijakan AI
+              <Sparkles size={18} /> Rekomendasi Berbasis Algoritma
             </h3>
             <div style={{ display: "grid", gap: 12 }}>
               {policyRecs.map((rec, i) => {

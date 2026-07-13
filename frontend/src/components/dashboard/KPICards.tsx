@@ -1,5 +1,5 @@
 import { formatCurrency } from "@/lib/utils";
-import { Wallet, TrendingUp, AlertTriangle, ShieldAlert } from "lucide-react";
+import { Wallet, TrendingUp, AlertTriangle, ShieldAlert, Percent } from "lucide-react";
 
 interface KPICardsProps {
   totalRevenue: number;
@@ -9,6 +9,7 @@ interface KPICardsProps {
   potentialLoss: number;
   forecastMonths: number;
   accuracyText: string;
+  kemandirianFiskal: number;
 }
 
 export default function KPICards({
@@ -19,6 +20,7 @@ export default function KPICards({
   potentialLoss,
   forecastMonths,
   accuracyText,
+  kemandirianFiskal,
 }: KPICardsProps) {
   return (
     <div className="kpi-grid">
@@ -62,6 +64,16 @@ export default function KPICards({
           {formatCurrency(potentialLoss)}
         </div>
         <div className="kpi-sub kpi-sub--red">Tindakan Diperlukan</div>
+      </div>
+
+      <div className="kpi-card animate-fade-in-up">
+        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
+          <Percent size={14} /> KEMANDIRIAN FISKAL
+        </div>
+        <div className="kpi-value kpi-value--blue">
+          {kemandirianFiskal.toFixed(1)}%
+        </div>
+        <div className="kpi-sub kpi-sub--green">Simulasi UU HKPD</div>
       </div>
     </div>
   );
