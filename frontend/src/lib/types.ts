@@ -37,6 +37,7 @@ export interface AnomalyRecord {
   Anomaly_Score?: number;
   Severity?: string;
   Alasan?: string;
+  Jenis_Fraud?: string;
 }
 
 // ─── Accuracy Data ────────────────────────────────────────────────
@@ -92,6 +93,13 @@ export interface PolicyRecommendation {
   judul: string;
   prioritas: "Tinggi" | "Sedang" | "Rendah";
   detail: string;
+  kebijakan_existing?: string;
+  kelebihan?: string[];
+  kekurangan?: string[];
+  indikator_dampak?: string;
+  kaitan_bisnis?: string;
+  perbandingan?: string;
+  justifikasi?: string;
 }
 
 // ─── Metadata ─────────────────────────────────────────────────────

@@ -3,352 +3,1188 @@
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 1.0 T (pencegahan 1%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 1.0 T (pencegahan 1%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 1.0 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "5": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 5.2 T (pencegahan 5%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 5.2 T (pencegahan 5%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 5.2 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "10": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 10.5 T (pencegahan 10%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 10.5 T (pencegahan 10%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 10.5 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "15": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 15.7 T (pencegahan 15%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 15.7 T (pencegahan 15%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 15.7 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "20": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 21.0 T (pencegahan 20%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 21.0 T (pencegahan 20%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 21.0 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "25": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 26.2 T (pencegahan 25%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 26.2 T (pencegahan 25%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 26.2 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "30": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 31.4 T (pencegahan 30%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 31.4 T (pencegahan 30%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 31.4 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "40": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 41.9 T (pencegahan 40%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 41.9 T (pencegahan 40%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 41.9 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "50": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 52.4 T (pencegahan 50%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 52.4 T (pencegahan 50%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 52.4 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "75": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 78.6 T (pencegahan 75%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 78.6 T (pencegahan 75%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 78.6 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ],
   "100": [
     {
       "judul": "Waspada penurunan pendapatan di Jawa Tengah",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 8.4 T) lebih rendah 6.0% dibanding rata-rata 12 bulan terakhir (Rp 9.0 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Waspada penurunan pendapatan di Sumatera Utara",
       "prioritas": "Tinggi",
-      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan."
+      "detail": "Proyeksi rata-rata bulanan (Rp 4.5 T) lebih rendah 7.5% dibanding rata-rata 12 bulan terakhir (Rp 4.9 T). Pertimbangkan intensifikasi pajak daerah dan evaluasi target penerimaan.",
+      "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+      "kelebihan": [
+        "Mencegah *shortfall* PAD sebelum terjadi",
+        "Optimalisasi piutang pajak"
+      ],
+      "kekurangan": [
+        "Membutuhkan sumber daya pengawasan (SDM) ekstra",
+        "Potensi resistensi wajib pajak"
+      ],
+      "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+      "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+      "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+      "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
     },
     {
       "judul": "Audit pos pendapatan beranomali",
       "prioritas": "Tinggi",
-      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 104.8 T (pencegahan 100%)."
+      "detail": "Terdeteksi 142 catatan anomali (nominal Rp 104.8 T). Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di Sumatera Utara, terutama pos \"Pendapatan Hibah\". Audit terfokus dapat menyelamatkan ~Rp 104.8 T (pencegahan 100%).",
+      "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
+      "kelebihan": [
+        "Menyelamatkan kas daerah secara instan",
+        "Memberi efek jera (deterrent effect)"
+      ],
+      "kekurangan": [
+        "Biaya audit lapangan yang cukup tinggi",
+        "Rawan friksi di lapangan"
+      ],
+      "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
+      "kaitan_bisnis": "Meningkatkan penerimaan sebesar Rp 104.8 T dan menekan angka kebocoran.",
+      "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
+      "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
     },
     {
       "judul": "Kurangi ketergantungan pada satu sumber",
       "prioritas": "Sedang",
-      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."
+      "detail": "Pos \"Pendapatan Transfer Pemerintah Pusat\" menyumbang 54% dari PAD terpilih. Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD.",
+      "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
+      "kelebihan": [
+        "Resiliensi fiskal yang kuat saat krisis",
+        "Membuka basis pajak (tax base) baru"
+      ],
+      "kekurangan": [
+        "Proses penyusunan Perda pajak baru memakan waktu (DPRD)",
+        "Resistensi tarif baru"
+      ],
+      "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
+      "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
+      "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
+      "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
     },
     {
       "judul": "Momentum pertumbuhan di Bali",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 8.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     },
     {
       "judul": "Momentum pertumbuhan di DKI Jakarta",
       "prioritas": "Rendah",
-      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif."
+      "detail": "Proyeksi tumbuh 14.7% dibanding rata-rata terakhir. Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk memperkuat kapasitas fiskal daerah melalui belanja modal produktif.",
+      "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
+      "kelebihan": [
+        "Menciptakan ruang fiskal yang kuat",
+        "Memperbesar porsi belanja publik"
+      ],
+      "kekurangan": [
+        "Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"
+      ],
+      "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
+      "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
+      "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
+      "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
     }
   ]
 }

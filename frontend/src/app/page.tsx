@@ -22,7 +22,7 @@ import AIInsights from "@/components/dashboard/AIInsights";
 import RevenueChart from "@/components/charts/RevenueChart";
 import ProportionChart from "@/components/charts/ProportionChart";
 import DataTabs from "@/components/tables/DataTabs";
-import { FileText, Sparkles, Map, Database, AlertCircle } from "lucide-react";
+import { FileText, Sparkles, Map, Database, AlertCircle, CheckCircle, XCircle } from "lucide-react";
 import dynamic from "next/dynamic";
 
 // Dynamic import for map (requires browser APIs)
@@ -172,6 +172,7 @@ export default function DashboardPage() {
       potentialLoss,
       anomalyPct,
       kemandirianFiskal,
+      anomalies: anomaliesOnly,
     };
   }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct]);
 
@@ -280,6 +281,7 @@ export default function DashboardPage() {
           forecastMonths={filters.forecastMonths}
           accuracyText={accuracyText}
           kemandirianFiskal={kpiData.kemandirianFiskal}
+          anomalies={kpiData.anomalies}
         />
 
         {/* Middle Row: Map + Impact Calculator */}
@@ -331,9 +333,9 @@ export default function DashboardPage() {
               {policyRecs.map((rec, i) => {
                 const colors = getPriorityColors(rec.prioritas);
                 return (
-                  <div key={i} className="insight-card">
-                    <div className="policy-header">
-                      <span className="policy-title">{rec.judul}</span>
+                  <div key={i} className="insight-card" style={{ padding: "16px 20px" }}>
+                    <div className="policy-header" style={{ marginBottom: 12 }}>
+                      <span className="policy-title" style={{ fontSize: "1.1rem", fontWeight: 600 }}>{rec.judul}</span>
                       <span
                         className="policy-badge"
                         style={{
@@ -344,7 +346,67 @@ export default function DashboardPage() {
                         {rec.prioritas}
                       </span>
                     </div>
-                    <p className="policy-detail" style={{ marginTop: 8 }}>{rec.detail}</p>
+                    
+                    <p className="policy-detail" style={{ marginBottom: 16 }}>{rec.detail}</p>
+                    
+                    {rec.kebijakan_existing && (
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
+                        <div style={{ background: "#f8fafc", padding: 12, borderRadius: 8, borderLeft: "3px solid #94a3b8" }}>
+                          <div style={{ fontSize: 11, fontWeight: 600, color: "#64748b", marginBottom: 4 }}>BASELINE (EXISTING)</div>
+                          <div style={{ fontSize: 13, color: "#334155" }}>{rec.kebijakan_existing}</div>
+                        </div>
+                        <div style={{ background: "#f0fdfa", padding: 12, borderRadius: 8, borderLeft: "3px solid #14b8a6" }}>
+                          <div style={{ fontSize: 11, fontWeight: 600, color: "#0d9488", marginBottom: 4 }}>REKOMENDASI AI</div>
+                          <div style={{ fontSize: 13, color: "#0f766e" }}>{rec.perbandingan}</div>
+                        </div>
+                      </div>
+                    )}
+                    
+                    {(rec.kelebihan || rec.kekurangan) && (
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16, fontSize: 13 }}>
+                        <div>
+                          <div style={{ fontWeight: 600, color: "#16a34a", marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
+                            <CheckCircle size={14} /> Kelebihan
+                          </div>
+                          <ul style={{ paddingLeft: 20, color: "#334155", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
+                            {rec.kelebihan?.map((k, idx) => <li key={idx}>{k}</li>)}
+                          </ul>
+                        </div>
+                        <div>
+                          <div style={{ fontWeight: 600, color: "#dc2626", marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
+                            <XCircle size={14} /> Risiko / Kekurangan
+                          </div>
+                          <ul style={{ paddingLeft: 20, color: "#334155", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
+                            {rec.kekurangan?.map((k, idx) => <li key={idx}>{k}</li>)}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+                    
+                    {(rec.kaitan_bisnis || rec.indikator_dampak || rec.justifikasi) && (
+                      <div style={{ borderTop: "1px solid #e2e8f0", paddingTop: 12, marginTop: 12 }}>
+                        {rec.justifikasi && (
+                          <div style={{ marginBottom: 8, fontSize: 13 }}>
+                            <span style={{ fontWeight: 600, color: "#475569", marginRight: 8 }}>Justifikasi:</span>
+                            <span style={{ color: "#334155" }}>{rec.justifikasi}</span>
+                          </div>
+                        )}
+                        <div style={{ display: "flex", gap: 16, fontSize: 12 }}>
+                          {rec.indikator_dampak && (
+                            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                              <span style={{ fontWeight: 600, color: "#64748b" }}>Indikator:</span>
+                              <span style={{ color: "#0f172a" }}>{rec.indikator_dampak}</span>
+                            </div>
+                          )}
+                          {rec.kaitan_bisnis && (
+                            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                              <span style={{ fontWeight: 600, color: "#64748b" }}>Dampak:</span>
+                              <span style={{ color: "#0f172a" }}>{rec.kaitan_bisnis}</span>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 );
               })}

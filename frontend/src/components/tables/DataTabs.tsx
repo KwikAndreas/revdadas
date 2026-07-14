@@ -336,6 +336,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
               <th>Jenis Pendapatan</th>
               <th>Realisasi</th>
               <th>Severity</th>
+              <th>Jenis Fraud</th>
               <th>Alasan</th>
             </tr>
           </thead>
@@ -357,6 +358,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                     {r.Severity}
                   </span>
                 </td>
+                <td style={{ fontSize: 12, fontWeight: 600, color: "#475569" }}>{r.Jenis_Fraud || "-"}</td>
                 <td style={{ fontSize: 11, maxWidth: 300 }}>{r.Alasan}</td>
               </tr>
             ))}

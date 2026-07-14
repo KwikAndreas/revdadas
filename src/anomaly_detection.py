@@ -157,24 +157,37 @@ class AnomalyDetector:
             return 'Rendah'
         df['Severity'] = df.apply(_sev, axis=1)
 
-        # Alasan ringkas yang dapat dibaca manusia
-        def _reason(r):
+        # Alasan ringkas dan klasifikasi Jenis Fraud
+        def _reason_and_fraud(r):
             if not r['Anomaly']:
-                return '-'
+                return pd.Series(['-', '-'])
             mom = r.get('MoM_Change', 0)
             seas = r.get('Seasonality_Deviation', 0)
-            # Bila persentase meledak (baseline mendekati nol), jangan tampilkan angka konyol
+            jenis_fraud = "Anomali Pola Historis"
+            alasan = "pola tidak biasa dibanding tren historis"
+            
+            if mom < -30:
+                jenis_fraud = "Indikasi Under-reporting"
+            elif mom > 50:
+                jenis_fraud = "Indikasi Spike / Manipulasi"
+            elif abs(seas) >= 40:
+                jenis_fraud = "Penyimpangan Musiman"
+                
             if abs(mom) >= 30:
                 arah = 'lonjakan' if mom > 0 else 'penurunan'
                 if abs(mom) > 500:
-                    return f"{arah} nilai sangat ekstrem dibanding bulan sebelumnya"
-                return f"{arah} tajam {abs(mom):.0f}% dari bulan sebelumnya"
-            if abs(seas) >= 40:
+                    alasan = f"{arah} ekstrem dibanding bulan sebelumnya"
+                else:
+                    alasan = f"{arah} tajam {abs(mom):.0f}% dari bulan sebelumnya"
+            elif abs(seas) >= 40:
                 if abs(seas) > 500:
-                    return "menyimpang sangat jauh dari pola musiman biasanya"
-                return f"menyimpang {abs(seas):.0f}% dari pola musiman biasanya"
-            return "pola tidak biasa dibanding tren historis"
-        df['Alasan'] = df.apply(_reason, axis=1)
+                    alasan = "menyimpang sangat jauh dari pola musiman biasanya"
+                else:
+                    alasan = f"menyimpang {abs(seas):.0f}% dari pola musiman biasanya"
+                    
+            return pd.Series([jenis_fraud, alasan])
+            
+        df[['Jenis_Fraud', 'Alasan']] = df.apply(_reason_and_fraud, axis=1)
         
         n_anomalies = df['Anomaly'].sum()
         logger.info(f"Detected {n_anomalies} anomalies ({n_anomalies/len(df)*100:.2f}%)")
