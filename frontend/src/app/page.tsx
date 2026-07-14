@@ -350,7 +350,7 @@ export default function DashboardPage() {
                     <p className="policy-detail" style={{ marginBottom: 16 }}>{rec.detail}</p>
                     
                     {rec.kebijakan_existing && (
-                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
+                      <div className="policy-grid">
                         <div style={{ background: "#f8fafc", padding: 12, borderRadius: 8, borderLeft: "3px solid #94a3b8" }}>
                           <div style={{ fontSize: 11, fontWeight: 600, color: "#64748b", marginBottom: 4 }}>BASELINE (EXISTING)</div>
                           <div style={{ fontSize: 13, color: "#334155" }}>{rec.kebijakan_existing}</div>
@@ -363,7 +363,7 @@ export default function DashboardPage() {
                     )}
                     
                     {(rec.kelebihan || rec.kekurangan) && (
-                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16, fontSize: 13 }}>
+                      <div className="policy-grid" style={{ fontSize: 13 }}>
                         <div>
                           <div style={{ fontWeight: 600, color: "#16a34a", marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
                             <CheckCircle size={14} /> Kelebihan
@@ -386,20 +386,20 @@ export default function DashboardPage() {
                     {(rec.kaitan_bisnis || rec.indikator_dampak || rec.justifikasi) && (
                       <div style={{ borderTop: "1px solid #e2e8f0", paddingTop: 12, marginTop: 12 }}>
                         {rec.justifikasi && (
-                          <div style={{ marginBottom: 8, fontSize: 13 }}>
+                          <div style={{ marginBottom: 12, fontSize: 13 }}>
                             <span style={{ fontWeight: 600, color: "#475569", marginRight: 8 }}>Justifikasi:</span>
                             <span style={{ color: "#334155" }}>{rec.justifikasi}</span>
                           </div>
                         )}
-                        <div style={{ display: "flex", gap: 16, fontSize: 12 }}>
+                        <div style={{ display: "flex", flexWrap: "wrap", gap: 16, fontSize: 12 }}>
                           {rec.indikator_dampak && (
-                            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                            <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: "1 1 200px" }}>
                               <span style={{ fontWeight: 600, color: "#64748b" }}>Indikator:</span>
                               <span style={{ color: "#0f172a" }}>{rec.indikator_dampak}</span>
                             </div>
                           )}
                           {rec.kaitan_bisnis && (
-                            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                            <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: "1 1 200px" }}>
                               <span style={{ fontWeight: 600, color: "#64748b" }}>Dampak:</span>
                               <span style={{ color: "#0f172a" }}>{rec.kaitan_bisnis}</span>
                             </div>

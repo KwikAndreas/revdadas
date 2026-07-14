@@ -1562,3 +1562,16 @@ body {
 .mobile-only {
   display: none;
 }
+
+/* ── Policy Grid ──────────────────────────────────────────────── */
+.policy-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+@media (min-width: 640px) {
+  .policy-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
