@@ -219,11 +219,11 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
         </div>
       </div>
 
-      {/* Fraud Prevention Slider */}
+      {/* Audit Effectiveness Slider */}
       <div>
         <div className="fraud-box">
           <div className="fraud-header">
-            <span>PENCEGAHAN FRAUD</span>
+            <span>ASUMSI EFEKTIVITAS AUDIT</span>
             <span>{filters.fraudPreventionPct}%</span>
           </div>
           <input

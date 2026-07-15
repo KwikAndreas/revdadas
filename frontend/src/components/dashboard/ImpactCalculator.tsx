@@ -40,11 +40,12 @@ export default function ImpactCalculator({
           <div style={{ background: "#eff6ff", padding: 8, borderRadius: 8, color: "#3b82f6", display: "flex" }}>
             <Calculator size={18} strokeWidth={2.5} />
           </div>
-          <span style={{ fontSize: 15 }}>Kalkulator Pemulihan Kas</span>
+          <span style={{ fontSize: 15 }}>Kalkulator Skenario Audit</span>
         </div>
         
-        <div style={{ fontSize: 11, color: "#64748b", fontWeight: 700, letterSpacing: 0.5, textTransform: "uppercase" }}>
-          Potensi Penyelamatan Arus Kas
+        <div style={{ fontSize: 11, color: "#64748b", fontWeight: 700, letterSpacing: 0.5, textTransform: "uppercase", display: "flex", alignItems: "center", gap: 4 }}>
+          Asumsi Nilai Pemulihan 
+          <span style={{ fontSize: 9, padding: "2px 6px", background: "#e2e8f0", borderRadius: 4, textTransform: "none" }}>(Skenario Anda)</span>
         </div>
         
         <div style={{ fontSize: 32, fontWeight: 800, color: "#0f172a", margin: "4px 0 16px 0", letterSpacing: -0.5 }}>
@@ -61,7 +62,7 @@ export default function ImpactCalculator({
           lineHeight: 1.5,
           marginBottom: 20
         }}>
-          <b>Tindakan Proaktif:</b> Dengan mereduksi tingkat kebocoran/anomali sebesar <b>{fraudPreventionPct}%</b>, daerah dapat mengamankan likuiditas ekstra untuk belanja modal & infrastruktur.
+          <b>Berdasarkan Asumsi Anda:</b> Jika <b>{fraudPreventionPct}%</b> dari total nilai transaksi anomali terbukti bermasalah dan berhasil diselesaikan/dipulihkan oleh APIP, daerah dapat mengamankan likuiditas tersebut.
         </div>
 
         <button 

@@ -159,15 +159,25 @@ def compute_business_recs(df, forecast_results_df):
 
 def compute_policy_recs(df, forecast_results_df, anomaly_results_df):
     """Pre-compute policy recommendations for various fraud prevention levels."""
-    print("\n[INFO] Computing policy recommendations...")
+    print("\n[INFO] Computing policy recommendations per province...")
     policy_data = {}
 
-    for pct in [1, 5, 10, 15, 20, 25, 30, 40, 50, 75, 100]:
-        recs = policy.generate_recommendations(
-            df, forecast_results_df, anomaly_results_df,
-            fraud_prevention_pct=pct
-        )
-        policy_data[str(pct)] = recs
+    provinces = df["Provinsi"].unique().tolist()
+    
+    for prov in provinces:
+        policy_data[prov] = {}
+        prov_df = df[df["Provinsi"] == prov].copy() if df is not None else None
+        prov_fc = forecast_results_df[forecast_results_df["Provinsi"] == prov].copy() if forecast_results_df is not None else None
+        prov_an = anomaly_results_df[anomaly_results_df["Provinsi"] == prov].copy() if anomaly_results_df is not None else None
+        
+        for pct in [1, 5, 10, 15, 20, 25, 30, 40, 50, 75, 100]:
+            recs = policy.generate_recommendations(
+                prov_df, prov_fc, prov_an,
+                fraud_prevention_pct=pct
+            )
+            for r in recs:
+                r["provinsi"] = prov
+            policy_data[prov][str(pct)] = recs
 
     return policy_data
 

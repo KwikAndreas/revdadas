@@ -260,7 +260,7 @@ revdadas/
 
 ## Tim
 
-**Ketua**: Kwik Andreas Jonathan (322301113)
+**Ketua**: Kwik Andreas Jonathan (32230111)
 
 **Developer**:
 - Clay Micholaz Fu (32240207)

@@ -47,7 +47,7 @@ export default function KPICards({
         <div className="kpi-value kpi-value--red">
           {formatCurrency(forecastTotal)}
         </div>
-        <div className="kpi-sub kpi-sub--blue">{accuracyText}</div>
+        <div className="kpi-sub kpi-sub--gray">{accuracyText}</div>
       </div>
 
       <div 
@@ -56,12 +56,12 @@ export default function KPICards({
         onClick={() => setShowModal(true)}
       >
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <AlertTriangle size={14} /> RISIKO FRAUD/ANOMALI
+          <AlertTriangle size={14} /> SKOR RISIKO AUDIT (ANOMALI)
         </div>
         <div className="kpi-value kpi-value--orange">
           {anomalyPct.toFixed(1)}%
         </div>
-        <div className="kpi-sub kpi-sub--gray" style={{ textDecoration: "underline" }}>
+        <div className="kpi-sub kpi-sub--blue" style={{ textDecoration: "underline" }}>
           {anomalyCount} records deteksi (Klik detail)
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function KPICards({
             }}>
               <div style={{ fontSize: 16, fontWeight: 700, color: "#1e293b", display: "flex", alignItems: "center", gap: 8 }}>
                 <AlertTriangle size={18} color="#f59e0b" />
-                Detail Fraud / Anomali Terdeteksi ({anomalyCount} Records)
+                Detail Anomali Terdeteksi ({anomalyCount} Records)
               </div>
               <button 
                 onClick={() => setShowModal(false)}
@@ -148,7 +148,7 @@ export default function KPICards({
                       <div style={{ fontWeight: 500, color: "#0f172a" }}>{r.Jenis_Pendapatan}</div>
                     </div>
                     <div>
-                      <div style={{ color: "#64748b", fontSize: 11, marginBottom: 2 }}>Kategori Fraud</div>
+                      <div style={{ color: "#64748b", fontSize: 11, marginBottom: 2 }}>Kategori Anomali</div>
                       <div style={{ fontWeight: 600, color: r.Severity === 'Tinggi' ? '#dc2626' : '#d97706' }}>{r.Jenis_Fraud || 'Anomali'}</div>
                     </div>
                     <div style={{ gridColumn: "1 / -1" }}>
@@ -165,12 +165,12 @@ export default function KPICards({
 
       <div className="kpi-card animate-fade-in-up">
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <ShieldAlert size={14} /> REVENUE LOSS DETEKSI
+          <ShieldAlert size={14} /> NILAI TRANSAKSI UNTUK DITINJAU
         </div>
         <div className="kpi-value kpi-value--red">
           {formatCurrency(potentialLoss)}
         </div>
-        <div className="kpi-sub kpi-sub--red">Tindakan Diperlukan</div>
+        <div className="kpi-sub kpi-sub--red">Perlu Verifikasi Manual</div>
       </div>
 
       <div className="kpi-card animate-fade-in-up">

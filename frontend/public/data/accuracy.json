@@ -1,234 +1,1326 @@
 {
   "overall": {
-    "median_wape": 24.149827854111958,
-    "akurasi": 75.85017214588804,
-    "n_series": 32,
-    "n_reliable": 25,
-    "pct_reliable": 78.0
+    "median_wape": 27.488576109045972,
+    "akurasi": 72.51142389095403,
+    "n_series": 188,
+    "n_reliable": 134,
+    "pct_reliable": 71.0
   },
   "by_series": [
     {
-      "Provinsi": "Jawa Tengah",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 4.7,
-      "sMAPE": 4.3,
-      "Akurasi": 95.3
+      "Provinsi": "Sumatera Barat",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 3.4,
+      "sMAPE": 3.1,
+      "Akurasi": 96.6
     },
     {
-      "Provinsi": "Bali",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 4.8,
-      "sMAPE": 4.8,
-      "Akurasi": 95.2
+      "Provinsi": "Kalimantan Timur",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 6.6,
+      "sMAPE": 7.2,
+      "Akurasi": 93.4
     },
     {
-      "Provinsi": "Bali",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 6.3,
-      "sMAPE": 6.5,
-      "Akurasi": 93.7
+      "Provinsi": "Sumatera Barat",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 7.9,
+      "sMAPE": 7.5,
+      "Akurasi": 92.1
     },
     {
-      "Provinsi": "Sumatera Utara",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 10.7,
-      "sMAPE": 10.6,
-      "Akurasi": 89.3
+      "Provinsi": "Kalimantan Barat",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 7.9,
+      "sMAPE": 7.6,
+      "Akurasi": 92.1
     },
     {
-      "Provinsi": "Bali",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 12.1,
-      "sMAPE": 14.4,
-      "Akurasi": 87.9
-    },
-    {
-      "Provinsi": "Sumatera Utara",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 12.8,
-      "sMAPE": 13.2,
-      "Akurasi": 87.2
+      "Provinsi": "Kalimantan Selatan",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 9.1,
+      "sMAPE": 9.9,
+      "Akurasi": 90.9
     },
     {
       "Provinsi": "Jawa Tengah",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 14.0,
-      "sMAPE": 14.1,
-      "Akurasi": 86.0
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 12.3,
+      "sMAPE": 11.5,
+      "Akurasi": 87.7
+    },
+    {
+      "Provinsi": "Sulawesi Barat",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 12.6,
+      "sMAPE": 12.9,
+      "Akurasi": 87.4
+    },
+    {
+      "Provinsi": "Sulawesi Selatan",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 13.6,
+      "sMAPE": 15.6,
+      "Akurasi": 86.4
+    },
+    {
+      "Provinsi": "Kepulauan Riau",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 14.2,
+      "sMAPE": 15.2,
+      "Akurasi": 85.8
+    },
+    {
+      "Provinsi": "Kalimantan Timur",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 14.2,
+      "sMAPE": 19.7,
+      "Akurasi": 85.8
+    },
+    {
+      "Provinsi": "Kalimantan Tengah",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 14.5,
+      "sMAPE": 12.0,
+      "Akurasi": 85.5
     },
     {
       "Provinsi": "DI Yogyakarta",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 14.8,
-      "sMAPE": 15.9,
-      "Akurasi": 85.2
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 15.8,
+      "sMAPE": 13.6,
+      "Akurasi": 84.2
     },
     {
-      "Provinsi": "Jawa Timur",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 15.2,
-      "sMAPE": 15.1,
-      "Akurasi": 84.8
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 16.3,
+      "sMAPE": 16.2,
+      "Akurasi": 83.7
+    },
+    {
+      "Provinsi": "Sumatera Barat",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 16.6,
+      "sMAPE": 15.4,
+      "Akurasi": 83.4
+    },
+    {
+      "Provinsi": "Kalimantan Timur",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 16.7,
+      "sMAPE": 17.6,
+      "Akurasi": 83.3
     },
     {
       "Provinsi": "Jawa Tengah",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 15.9,
-      "sMAPE": 15.2,
-      "Akurasi": 84.1
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 16.8,
+      "sMAPE": 17.5,
+      "Akurasi": 83.2
     },
     {
-      "Provinsi": "Banten",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 17.6,
-      "sMAPE": 16.4,
-      "Akurasi": 82.4
+      "Provinsi": "Aceh",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 16.9,
+      "sMAPE": 21.9,
+      "Akurasi": 83.1
     },
     {
-      "Provinsi": "Jawa Timur",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
+      "Provinsi": "Lampung",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 17.1,
+      "sMAPE": 20.3,
+      "Akurasi": 82.9
+    },
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 17.3,
+      "sMAPE": 15.8,
+      "Akurasi": 82.7
+    },
+    {
+      "Provinsi": "Kalimantan Barat",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 17.4,
+      "sMAPE": 20.4,
+      "Akurasi": 82.6
+    },
+    {
+      "Provinsi": "Kalimantan Utara",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 17.9,
+      "sMAPE": 18.0,
+      "Akurasi": 82.1
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 18.2,
+      "sMAPE": 19.9,
+      "Akurasi": 81.8
+    },
+    {
+      "Provinsi": "Jambi",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
       "WAPE": 19.4,
-      "sMAPE": 19.0,
+      "sMAPE": 18.3,
       "Akurasi": 80.6
     },
     {
-      "Provinsi": "Banten",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 24.1,
-      "sMAPE": 24.1,
-      "Akurasi": 75.9
+      "Provinsi": "NTB",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 19.4,
+      "sMAPE": 16.6,
+      "Akurasi": 80.6
     },
     {
-      "Provinsi": "Jawa Barat",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 25.1,
-      "sMAPE": 28.4,
-      "Akurasi": 74.9
+      "Provinsi": "NTB",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 19.5,
+      "sMAPE": 19.0,
+      "Akurasi": 80.5
     },
     {
-      "Provinsi": "DI Yogyakarta",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 25.3,
-      "sMAPE": 20.8,
-      "Akurasi": 74.7
+      "Provinsi": "Sulawesi Tengah",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 19.7,
+      "sMAPE": 21.3,
+      "Akurasi": 80.3
     },
     {
-      "Provinsi": "Banten",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 26.8,
+      "Provinsi": "Gorontalo",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 19.8,
+      "sMAPE": 14.9,
+      "Akurasi": 80.2
+    },
+    {
+      "Provinsi": "Riau",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 21.2,
+      "sMAPE": 21.6,
+      "Akurasi": 78.8
+    },
+    {
+      "Provinsi": "Bengkulu",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 21.2,
+      "sMAPE": 21.6,
+      "Akurasi": 78.8
+    },
+    {
+      "Provinsi": "Sumatera Selatan",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 21.2,
+      "sMAPE": 21.2,
+      "Akurasi": 78.8
+    },
+    {
+      "Provinsi": "Sumatera Selatan",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 21.4,
+      "sMAPE": 21.2,
+      "Akurasi": 78.6
+    },
+    {
+      "Provinsi": "Sulawesi Tengah",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 21.4,
       "sMAPE": 27.8,
-      "Akurasi": 73.2
+      "Akurasi": 78.6
     },
     {
-      "Provinsi": "DKI Jakarta",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 27.0,
-      "sMAPE": 31.6,
-      "Akurasi": 73.0
+      "Provinsi": "Kalimantan Selatan",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 21.9,
+      "sMAPE": 22.7,
+      "Akurasi": 78.1
     },
     {
-      "Provinsi": "Jawa Barat",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 30.5,
-      "sMAPE": 26.4,
-      "Akurasi": 69.5
+      "Provinsi": "Sumatera Selatan",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 22.0,
+      "sMAPE": 22.9,
+      "Akurasi": 78.0
     },
     {
-      "Provinsi": "Sumatera Utara",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 31.1,
+      "Provinsi": "Kalimantan Utara",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 22.0,
+      "sMAPE": 27.7,
+      "Akurasi": 78.0
+    },
+    {
+      "Provinsi": "Aceh",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 22.1,
       "sMAPE": 25.9,
-      "Akurasi": 68.9
+      "Akurasi": 77.9
     },
     {
-      "Provinsi": "Jawa Barat",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 32.4,
-      "sMAPE": 34.6,
-      "Akurasi": 67.6
-    },
-    {
-      "Provinsi": "DKI Jakarta",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 33.6,
-      "sMAPE": 38.1,
-      "Akurasi": 66.4
-    },
-    {
-      "Provinsi": "Banten",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 36.8,
-      "sMAPE": 26.2,
-      "Akurasi": 63.2
-    },
-    {
-      "Provinsi": "Jawa Timur",
-      "Jenis_Pendapatan": "Retribusi Daerah",
-      "WAPE": 40.3,
-      "sMAPE": 28.3,
-      "Akurasi": 59.7
-    },
-    {
-      "Provinsi": "DI Yogyakarta",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 47.0,
-      "sMAPE": 48.4,
-      "Akurasi": 53.0
-    },
-    {
-      "Provinsi": "DKI Jakarta",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 48.4,
-      "sMAPE": 50.9,
-      "Akurasi": 51.6
-    },
-    {
-      "Provinsi": "Jawa Barat",
-      "Jenis_Pendapatan": "Pajak Daerah",
-      "WAPE": 52.0,
-      "sMAPE": 50.2,
-      "Akurasi": 48.0
-    },
-    {
-      "Provinsi": "Sumatera Utara",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 66.9,
-      "sMAPE": 38.1,
-      "Akurasi": 33.1
-    },
-    {
-      "Provinsi": "DKI Jakarta",
-      "Jenis_Pendapatan": "Pendapatan Transfer Pemerintah Pusat",
-      "WAPE": 81.1,
-      "sMAPE": 133.1,
-      "Akurasi": 18.9
-    },
-    {
-      "Provinsi": "DI Yogyakarta",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 86.2,
-      "sMAPE": 55.3,
-      "Akurasi": 13.8
+      "Provinsi": "NTT",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 22.2,
+      "sMAPE": 30.6,
+      "Akurasi": 77.8
     },
     {
       "Provinsi": "Bali",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 148.3,
-      "sMAPE": 79.9,
-      "Akurasi": 0.0
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 22.3,
+      "sMAPE": 21.3,
+      "Akurasi": 77.7
+    },
+    {
+      "Provinsi": "Papua Barat Daya",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 22.6,
+      "sMAPE": 30.1,
+      "Akurasi": 77.4
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 22.6,
+      "sMAPE": 20.7,
+      "Akurasi": 77.4
+    },
+    {
+      "Provinsi": "Bangka Belitung",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 22.7,
+      "sMAPE": 28.7,
+      "Akurasi": 77.3
+    },
+    {
+      "Provinsi": "Gorontalo",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 22.7,
+      "sMAPE": 25.7,
+      "Akurasi": 77.3
+    },
+    {
+      "Provinsi": "Kalimantan Barat",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 23.2,
+      "sMAPE": 18.1,
+      "Akurasi": 76.8
+    },
+    {
+      "Provinsi": "Bengkulu",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 23.4,
+      "sMAPE": 24.9,
+      "Akurasi": 76.6
+    },
+    {
+      "Provinsi": "Sumatera Selatan",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 23.5,
+      "sMAPE": 27.2,
+      "Akurasi": 76.5
+    },
+    {
+      "Provinsi": "Sulawesi Barat",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 23.7,
+      "sMAPE": 27.0,
+      "Akurasi": 76.3
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 24.0,
+      "sMAPE": 26.3,
+      "Akurasi": 76.0
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 24.1,
+      "sMAPE": 31.2,
+      "Akurasi": 75.9
+    },
+    {
+      "Provinsi": "Sumatera Barat",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 24.3,
+      "sMAPE": 28.9,
+      "Akurasi": 75.7
+    },
+    {
+      "Provinsi": "Kalimantan Tengah",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 24.3,
+      "sMAPE": 23.8,
+      "Akurasi": 75.7
+    },
+    {
+      "Provinsi": "Sulawesi Utara",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 24.7,
+      "sMAPE": 28.3,
+      "Akurasi": 75.3
+    },
+    {
+      "Provinsi": "Riau",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 24.9,
+      "sMAPE": 20.2,
+      "Akurasi": 75.1
+    },
+    {
+      "Provinsi": "Riau",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 25.0,
+      "sMAPE": 24.3,
+      "Akurasi": 75.0
+    },
+    {
+      "Provinsi": "Riau",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 25.1,
+      "sMAPE": 24.4,
+      "Akurasi": 74.9
+    },
+    {
+      "Provinsi": "Sulawesi Barat",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 25.4,
+      "sMAPE": 30.0,
+      "Akurasi": 74.6
+    },
+    {
+      "Provinsi": "Sulawesi Selatan",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 25.6,
+      "sMAPE": 26.9,
+      "Akurasi": 74.4
+    },
+    {
+      "Provinsi": "NTB",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 26.2,
+      "sMAPE": 23.6,
+      "Akurasi": 73.8
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 26.3,
+      "sMAPE": 26.7,
+      "Akurasi": 73.7
+    },
+    {
+      "Provinsi": "Kepulauan Riau",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 26.4,
+      "sMAPE": 32.3,
+      "Akurasi": 73.6
+    },
+    {
+      "Provinsi": "Kepulauan Riau",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 26.4,
+      "sMAPE": 24.5,
+      "Akurasi": 73.6
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 26.6,
+      "sMAPE": 21.2,
+      "Akurasi": 73.4
+    },
+    {
+      "Provinsi": "Bangka Belitung",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 26.6,
+      "sMAPE": 32.1,
+      "Akurasi": 73.4
+    },
+    {
+      "Provinsi": "Sulawesi Tengah",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 26.9,
+      "sMAPE": 34.1,
+      "Akurasi": 73.1
+    },
+    {
+      "Provinsi": "NTT",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 27.1,
+      "sMAPE": 43.4,
+      "Akurasi": 72.9
+    },
+    {
+      "Provinsi": "NTB",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 27.1,
+      "sMAPE": 27.2,
+      "Akurasi": 72.9
+    },
+    {
+      "Provinsi": "Kalimantan Utara",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 27.4,
+      "sMAPE": 33.3,
+      "Akurasi": 72.6
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 27.4,
+      "sMAPE": 34.1,
+      "Akurasi": 72.6
+    },
+    {
+      "Provinsi": "Bangka Belitung",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 27.5,
+      "sMAPE": 30.1,
+      "Akurasi": 72.5
+    },
+    {
+      "Provinsi": "Bangka Belitung",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 27.6,
+      "sMAPE": 36.7,
+      "Akurasi": 72.4
+    },
+    {
+      "Provinsi": "Lampung",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 27.6,
+      "sMAPE": 29.2,
+      "Akurasi": 72.4
     },
     {
       "Provinsi": "Jawa Tengah",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 164.9,
-      "sMAPE": 65.4,
-      "Akurasi": 0.0
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 27.7,
+      "sMAPE": 28.5,
+      "Akurasi": 72.3
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 28.0,
+      "sMAPE": 25.7,
+      "Akurasi": 72.0
+    },
+    {
+      "Provinsi": "Aceh",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 28.3,
+      "sMAPE": 30.3,
+      "Akurasi": 71.7
+    },
+    {
+      "Provinsi": "Sulawesi Tengah",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 28.8,
+      "sMAPE": 29.4,
+      "Akurasi": 71.2
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 29.2,
+      "sMAPE": 41.6,
+      "Akurasi": 70.8
+    },
+    {
+      "Provinsi": "Sulawesi Barat",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 29.2,
+      "sMAPE": 34.4,
+      "Akurasi": 70.8
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 29.8,
+      "sMAPE": 26.9,
+      "Akurasi": 70.2
+    },
+    {
+      "Provinsi": "Sulawesi Barat",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 30.1,
+      "sMAPE": 33.0,
+      "Akurasi": 69.9
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 30.5,
+      "sMAPE": 33.0,
+      "Akurasi": 69.5
+    },
+    {
+      "Provinsi": "Lampung",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 31.1,
+      "sMAPE": 33.6,
+      "Akurasi": 68.9
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 31.2,
+      "sMAPE": 43.9,
+      "Akurasi": 68.8
+    },
+    {
+      "Provinsi": "Sulawesi Utara",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 31.3,
+      "sMAPE": 46.2,
+      "Akurasi": 68.7
+    },
+    {
+      "Provinsi": "Kalimantan Barat",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 31.5,
+      "sMAPE": 37.7,
+      "Akurasi": 68.5
+    },
+    {
+      "Provinsi": "Papua Tengah",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 31.6,
+      "sMAPE": 25.0,
+      "Akurasi": 68.4
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 31.7,
+      "sMAPE": 37.9,
+      "Akurasi": 68.3
+    },
+    {
+      "Provinsi": "Bengkulu",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 31.7,
+      "sMAPE": 33.0,
+      "Akurasi": 68.3
+    },
+    {
+      "Provinsi": "Kalimantan Utara",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 32.0,
+      "sMAPE": 39.6,
+      "Akurasi": 68.0
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 32.0,
+      "sMAPE": 36.9,
+      "Akurasi": 68.0
+    },
+    {
+      "Provinsi": "Kepulauan Riau",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 32.2,
+      "sMAPE": 30.4,
+      "Akurasi": 67.8
+    },
+    {
+      "Provinsi": "Maluku",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 32.2,
+      "sMAPE": 33.8,
+      "Akurasi": 67.8
+    },
+    {
+      "Provinsi": "Bali",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 32.4,
+      "sMAPE": 31.5,
+      "Akurasi": 67.6
+    },
+    {
+      "Provinsi": "Kalimantan Timur",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 32.5,
+      "sMAPE": 35.5,
+      "Akurasi": 67.5
+    },
+    {
+      "Provinsi": "Gorontalo",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 32.7,
+      "sMAPE": 34.5,
+      "Akurasi": 67.3
+    },
+    {
+      "Provinsi": "Sumatera Barat",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 32.9,
+      "sMAPE": 39.4,
+      "Akurasi": 67.1
+    },
+    {
+      "Provinsi": "Papua",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 33.0,
+      "sMAPE": 53.3,
+      "Akurasi": 67.0
+    },
+    {
+      "Provinsi": "Maluku",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 33.1,
+      "sMAPE": 32.7,
+      "Akurasi": 66.9
     },
     {
       "Provinsi": "Jawa Timur",
-      "Jenis_Pendapatan": "Lain-Lain PAD yang Sah",
-      "WAPE": 378.7,
-      "sMAPE": 101.4,
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 33.1,
+      "sMAPE": 43.0,
+      "Akurasi": 66.9
+    },
+    {
+      "Provinsi": "Sulawesi Tenggara",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 33.1,
+      "sMAPE": 35.1,
+      "Akurasi": 66.9
+    },
+    {
+      "Provinsi": "Jambi",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 33.4,
+      "sMAPE": 29.9,
+      "Akurasi": 66.6
+    },
+    {
+      "Provinsi": "Sulawesi Utara",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 33.6,
+      "sMAPE": 36.5,
+      "Akurasi": 66.4
+    },
+    {
+      "Provinsi": "Bengkulu",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 33.9,
+      "sMAPE": 45.1,
+      "Akurasi": 66.1
+    },
+    {
+      "Provinsi": "Sulawesi Selatan",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 34.2,
+      "sMAPE": 31.0,
+      "Akurasi": 65.8
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 34.3,
+      "sMAPE": 36.8,
+      "Akurasi": 65.7
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 34.4,
+      "sMAPE": 48.7,
+      "Akurasi": 65.6
+    },
+    {
+      "Provinsi": "Jawa Tengah",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 34.4,
+      "sMAPE": 37.7,
+      "Akurasi": 65.6
+    },
+    {
+      "Provinsi": "NTT",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 35.7,
+      "sMAPE": 47.0,
+      "Akurasi": 64.3
+    },
+    {
+      "Provinsi": "Maluku",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 35.9,
+      "sMAPE": 39.2,
+      "Akurasi": 64.1
+    },
+    {
+      "Provinsi": "Bengkulu",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 36.2,
+      "sMAPE": 34.8,
+      "Akurasi": 63.8
+    },
+    {
+      "Provinsi": "Aceh",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 36.3,
+      "sMAPE": 38.5,
+      "Akurasi": 63.7
+    },
+    {
+      "Provinsi": "Papua Barat Daya",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 37.1,
+      "sMAPE": 50.2,
+      "Akurasi": 62.9
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 37.6,
+      "sMAPE": 42.6,
+      "Akurasi": 62.4
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 37.7,
+      "sMAPE": 51.8,
+      "Akurasi": 62.3
+    },
+    {
+      "Provinsi": "Sulawesi Tenggara",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 38.1,
+      "sMAPE": 48.8,
+      "Akurasi": 61.9
+    },
+    {
+      "Provinsi": "Papua Tengah",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 38.2,
+      "sMAPE": 51.0,
+      "Akurasi": 61.8
+    },
+    {
+      "Provinsi": "Gorontalo",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 39.0,
+      "sMAPE": 37.3,
+      "Akurasi": 61.0
+    },
+    {
+      "Provinsi": "Kalimantan Selatan",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 39.5,
+      "sMAPE": 39.9,
+      "Akurasi": 60.5
+    },
+    {
+      "Provinsi": "Jambi",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 40.1,
+      "sMAPE": 42.5,
+      "Akurasi": 59.9
+    },
+    {
+      "Provinsi": "Sumatera Selatan",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 40.1,
+      "sMAPE": 49.6,
+      "Akurasi": 59.9
+    },
+    {
+      "Provinsi": "Papua Pegunungan",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 40.9,
+      "sMAPE": 48.8,
+      "Akurasi": 59.1
+    },
+    {
+      "Provinsi": "Papua Tengah",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 41.2,
+      "sMAPE": 62.5,
+      "Akurasi": 58.8
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 41.3,
+      "sMAPE": 69.5,
+      "Akurasi": 58.7
+    },
+    {
+      "Provinsi": "Sumatera Utara",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 42.4,
+      "sMAPE": 58.8,
+      "Akurasi": 57.6
+    },
+    {
+      "Provinsi": "Papua",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 42.7,
+      "sMAPE": 54.0,
+      "Akurasi": 57.3
+    },
+    {
+      "Provinsi": "Aceh",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 43.3,
+      "sMAPE": 53.3,
+      "Akurasi": 56.7
+    },
+    {
+      "Provinsi": "NTB",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 44.8,
+      "sMAPE": 42.3,
+      "Akurasi": 55.2
+    },
+    {
+      "Provinsi": "Sulawesi Tenggara",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 45.0,
+      "sMAPE": 42.6,
+      "Akurasi": 55.0
+    },
+    {
+      "Provinsi": "Sulawesi Utara",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 45.2,
+      "sMAPE": 56.4,
+      "Akurasi": 54.8
+    },
+    {
+      "Provinsi": "Kalimantan Barat",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 45.5,
+      "sMAPE": 58.1,
+      "Akurasi": 54.5
+    },
+    {
+      "Provinsi": "Lampung",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 45.8,
+      "sMAPE": 35.3,
+      "Akurasi": 54.2
+    },
+    {
+      "Provinsi": "Sulawesi Tenggara",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 46.0,
+      "sMAPE": 38.0,
+      "Akurasi": 54.0
+    },
+    {
+      "Provinsi": "Lampung",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 46.2,
+      "sMAPE": 43.3,
+      "Akurasi": 53.8
+    },
+    {
+      "Provinsi": "Papua Barat Daya",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 46.3,
+      "sMAPE": 44.0,
+      "Akurasi": 53.7
+    },
+    {
+      "Provinsi": "Papua",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 47.6,
+      "sMAPE": 47.7,
+      "Akurasi": 52.4
+    },
+    {
+      "Provinsi": "Jambi",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 48.7,
+      "sMAPE": 53.7,
+      "Akurasi": 51.3
+    },
+    {
+      "Provinsi": "Sulawesi Tengah",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 51.0,
+      "sMAPE": 36.1,
+      "Akurasi": 49.0
+    },
+    {
+      "Provinsi": "Sulawesi Utara",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 51.6,
+      "sMAPE": 53.9,
+      "Akurasi": 48.4
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 51.7,
+      "sMAPE": 56.0,
+      "Akurasi": 48.3
+    },
+    {
+      "Provinsi": "Kalimantan Tengah",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 51.8,
+      "sMAPE": 37.5,
+      "Akurasi": 48.2
+    },
+    {
+      "Provinsi": "Maluku",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 51.9,
+      "sMAPE": 53.2,
+      "Akurasi": 48.1
+    },
+    {
+      "Provinsi": "Kalimantan Selatan",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 52.2,
+      "sMAPE": 62.6,
+      "Akurasi": 47.8
+    },
+    {
+      "Provinsi": "Kalimantan Timur",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 52.4,
+      "sMAPE": 65.3,
+      "Akurasi": 47.6
+    },
+    {
+      "Provinsi": "Banten",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 53.3,
+      "sMAPE": 58.1,
+      "Akurasi": 46.7
+    },
+    {
+      "Provinsi": "Kalimantan Tengah",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 54.7,
+      "sMAPE": 58.4,
+      "Akurasi": 45.3
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 55.1,
+      "sMAPE": 64.5,
+      "Akurasi": 44.9
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 56.2,
+      "sMAPE": 46.5,
+      "Akurasi": 43.8
+    },
+    {
+      "Provinsi": "Papua Tengah",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 56.7,
+      "sMAPE": 57.1,
+      "Akurasi": 43.3
+    },
+    {
+      "Provinsi": "NTT",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 59.5,
+      "sMAPE": 78.7,
+      "Akurasi": 40.5
+    },
+    {
+      "Provinsi": "Sulawesi Tenggara",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 60.2,
+      "sMAPE": 63.9,
+      "Akurasi": 39.8
+    },
+    {
+      "Provinsi": "Papua Selatan",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 60.3,
+      "sMAPE": 46.7,
+      "Akurasi": 39.7
+    },
+    {
+      "Provinsi": "Papua Barat Daya",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 62.1,
+      "sMAPE": 39.2,
+      "Akurasi": 37.9
+    },
+    {
+      "Provinsi": "NTT",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 63.3,
+      "sMAPE": 76.1,
+      "Akurasi": 36.7
+    },
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 64.5,
+      "sMAPE": 60.0,
+      "Akurasi": 35.5
+    },
+    {
+      "Provinsi": "Papua Selatan",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 64.7,
+      "sMAPE": 46.2,
+      "Akurasi": 35.3
+    },
+    {
+      "Provinsi": "Papua",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 64.8,
+      "sMAPE": 103.5,
+      "Akurasi": 35.2
+    },
+    {
+      "Provinsi": "Sulawesi Selatan",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 66.7,
+      "sMAPE": 67.4,
+      "Akurasi": 33.3
+    },
+    {
+      "Provinsi": "Papua Barat",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 69.9,
+      "sMAPE": 105.4,
+      "Akurasi": 30.1
+    },
+    {
+      "Provinsi": "Jambi",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 70.0,
+      "sMAPE": 43.6,
+      "Akurasi": 30.0
+    },
+    {
+      "Provinsi": "Maluku Utara",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 74.1,
+      "sMAPE": 33.4,
+      "Akurasi": 25.9
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 74.5,
+      "sMAPE": 111.3,
+      "Akurasi": 25.5
+    },
+    {
+      "Provinsi": "Kepulauan Riau",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 75.8,
+      "sMAPE": 58.0,
+      "Akurasi": 24.2
+    },
+    {
+      "Provinsi": "Papua Pegunungan",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 76.3,
+      "sMAPE": 99.0,
+      "Akurasi": 23.7
+    },
+    {
+      "Provinsi": "Papua Pegunungan",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 77.5,
+      "sMAPE": 90.0,
+      "Akurasi": 22.5
+    },
+    {
+      "Provinsi": "Kalimantan Tengah",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 77.6,
+      "sMAPE": 94.2,
+      "Akurasi": 22.4
+    },
+    {
+      "Provinsi": "Kalimantan Utara",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 78.3,
+      "sMAPE": 79.2,
+      "Akurasi": 21.7
+    },
+    {
+      "Provinsi": "Riau",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 80.5,
+      "sMAPE": 71.7,
+      "Akurasi": 19.5
+    },
+    {
+      "Provinsi": "Kalimantan Selatan",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 82.2,
+      "sMAPE": 124.7,
+      "Akurasi": 17.8
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 84.4,
+      "sMAPE": 44.9,
+      "Akurasi": 15.6
+    },
+    {
+      "Provinsi": "DKI Jakarta",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 84.4,
+      "sMAPE": 133.1,
+      "Akurasi": 15.6
+    },
+    {
+      "Provinsi": "Maluku Utara",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 88.0,
+      "sMAPE": 54.4,
+      "Akurasi": 12.0
+    },
+    {
+      "Provinsi": "Papua Barat",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 92.1,
+      "sMAPE": 65.7,
+      "Akurasi": 7.9
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 95.7,
+      "sMAPE": 69.8,
+      "Akurasi": 4.3
+    },
+    {
+      "Provinsi": "Papua Barat",
+      "Jenis_Pendapatan": "Total Belanja Daerah",
+      "WAPE": 99.6,
+      "sMAPE": 107.1,
+      "Akurasi": 0.4
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 105.3,
+      "sMAPE": 78.0,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Selatan",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 111.6,
+      "sMAPE": 78.6,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Tengah",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 113.3,
+      "sMAPE": 103.5,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Barat",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 117.6,
+      "sMAPE": 129.1,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Maluku Utara",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 117.9,
+      "sMAPE": 109.3,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Barat",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 119.4,
+      "sMAPE": 35.4,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Selatan",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 121.2,
+      "sMAPE": 82.9,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua",
+      "Jenis_Pendapatan": "Transfer ke Daerah dan Dana Desa (TKDD)",
+      "WAPE": 122.0,
+      "sMAPE": 90.6,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Maluku Utara",
+      "Jenis_Pendapatan": "Pendapatan Asli Daerah (PAD)",
+      "WAPE": 124.6,
+      "sMAPE": 69.5,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Sulawesi Selatan",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 127.5,
+      "sMAPE": 96.6,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Gorontalo",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 128.5,
+      "sMAPE": 71.5,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Bangka Belitung",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 137.9,
+      "sMAPE": 68.7,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Maluku Utara",
+      "Jenis_Pendapatan": "Total Pendapatan Daerah",
+      "WAPE": 148.8,
+      "sMAPE": 90.8,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Maluku",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 149.2,
+      "sMAPE": 83.4,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Selatan",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 154.1,
+      "sMAPE": 71.6,
+      "Akurasi": 0.0
+    },
+    {
+      "Provinsi": "Papua Barat Daya",
+      "Jenis_Pendapatan": "Belanja Modal",
+      "WAPE": 260.9,
+      "sMAPE": 106.7,
       "Akurasi": 0.0
     }
   ]

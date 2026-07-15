@@ -24,7 +24,7 @@ class BPSDataLoader:
     """
     
     # Nama file mentah APBD DJPK (sumber data asli)
-    APBD_MASTER_FILENAME = "apbd_djpk_master_2021-2025.csv"
+    APBD_MASTER_FILENAME = "apbd_master_2021_2025.csv"
 
     def __init__(self, data_path=None):
         self.data_path = data_path or utils.get_data_path("raw")
@@ -32,24 +32,72 @@ class BPSDataLoader:
 
     def build_consolidated_from_apbd(self):
         """
-        Bangun revenue_consolidated.csv dari data mentah APBD DJPK
-        (data/raw/apbd_djpk_master_2021-2025.csv) bila tersedia.
+        Bangun revenue_consolidated.csv dari data mentah APBD 38 Provinsi
+        (data/raw/apbd_master_2021_2025.csv) bila tersedia.
 
         Mengembalikan DataFrame, atau None jika file mentah tidak ada.
         """
-        from . import apbd_adapter
-
         master_path = self.data_path / self.APBD_MASTER_FILENAME
         if not master_path.exists():
             logger.warning(f"Data mentah APBD tidak ditemukan: {master_path}")
             return None
 
         out_path = self.processed_path / "revenue_consolidated.csv"
-        df = apbd_adapter.save_revenue_consolidated(str(master_path), str(out_path))
+        
+        # Load the new CSV structure
+        df = pd.read_csv(master_path)
+        
+        # Unpivot the aggregated columns into "Jenis_Pendapatan"
+        df_melt = pd.melt(
+            df, 
+            id_vars=['tahun', 'bulan', 'provinsi'], 
+            value_vars=['PAD', 'TKDD', 'pendapatan_daerah', 'belanja_daerah', 'belanja_modal'],
+            var_name='Jenis_Pendapatan', 
+            value_name='Realisasi'
+        )
+        
+        # Rename columns to match existing pipeline
+        df_melt.rename(columns={
+            'tahun': 'Tahun', 
+            'bulan': 'Bulan', 
+            'provinsi': 'Provinsi'
+        }, inplace=True)
+        
+        # Create 'Tanggal' column
+        df_melt['Tanggal'] = pd.to_datetime(
+            df_melt['Tahun'].astype(str) + '-' + df_melt['Bulan'].astype(str) + '-01'
+        )
+        
+        # Friendly names mapping for UI
+        mapping = {
+            'PAD': 'Pendapatan Asli Daerah (PAD)',
+            'TKDD': 'Transfer ke Daerah dan Dana Desa (TKDD)',
+            'pendapatan_daerah': 'Total Pendapatan Daerah',
+            'belanja_daerah': 'Total Belanja Daerah',
+            'belanja_modal': 'Belanja Modal'
+        }
+        df_melt['Jenis_Pendapatan'] = df_melt['Jenis_Pendapatan'].map(mapping)
+        
+        # Filter invalid
+        df_melt['Realisasi'] = pd.to_numeric(df_melt['Realisasi'], errors='coerce').fillna(0.0)
+        
+        # Sort values
+        df_melt = df_melt.sort_values(['Provinsi', 'Jenis_Pendapatan', 'Tahun', 'Bulan']).reset_index(drop=True)
+        
+        # DECUMULATE: The DJPK data is Year-To-Date cumulative. 
+        # We must decumulate it to discrete monthly values.
+        def decumulate(group):
+            return group.diff().fillna(group)
+            
+        df_melt['Realisasi'] = df_melt.groupby(['Provinsi', 'Jenis_Pendapatan', 'Tahun'])['Realisasi'].transform(decumulate)
+        
+        # Clip to 0 (sometimes data corrections by govt make the diff negative)
+        df_melt['Realisasi'] = df_melt['Realisasi'].clip(lower=0.0)
+        
+        df_melt.to_csv(out_path, index=False)
         logger.info(f"revenue_consolidated.csv dibangun dari data APBD asli "
-                    f"({len(df)} baris).")
-        df["Tanggal"] = pd.to_datetime(df["Tanggal"])
-        return df
+                    f"({len(df_melt)} baris).")
+        return df_melt
 
     def load_revenue_data(self, filename=None):
         """

@@ -30,7 +30,7 @@ let cachedForecasts: Record<string, ForecastRecord[]> | null = null;
 let cachedAnomalies: Record<string, AnomalyRecord[]> | null = null;
 let cachedAccuracy: AccuracyData | null = null;
 let cachedBusiness: Record<string, BusinessData> | null = null;
-let cachedPolicy: Record<string, PolicyRecommendation[]> | null = null;
+let cachedPolicy: Record<string, Record<string, PolicyRecommendation[]>> | null = null;
 
 export async function loadMeta(): Promise<Meta> {
   if (!cachedMeta) cachedMeta = await fetchJSON<Meta>("meta.json");
@@ -67,9 +67,9 @@ export async function loadBusiness(): Promise<Record<string, BusinessData>> {
   return cachedBusiness;
 }
 
-export async function loadPolicy(): Promise<Record<string, PolicyRecommendation[]>> {
+export async function loadPolicy(): Promise<Record<string, Record<string, PolicyRecommendation[]>>> {
   if (!cachedPolicy)
-    cachedPolicy = await fetchJSON<Record<string, PolicyRecommendation[]>>("policy.json");
+    cachedPolicy = await fetchJSON<Record<string, Record<string, PolicyRecommendation[]>>>("policy.json");
   return cachedPolicy;
 }
 

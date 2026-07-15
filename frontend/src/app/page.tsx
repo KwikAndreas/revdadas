@@ -128,25 +128,41 @@ export default function DashboardPage() {
   }, [data, filters]);
 
   const policyRecs = useMemo<PolicyRecommendation[]>(() => {
-    if (!data) return [];
-    // Snap to nearest pre-computed fraud prevention percentage
-    const pctKeys = Object.keys(data.policy).map(Number).sort((a, b) => a - b);
+    if (!data?.policy) return [];
+    
+    const firstProv = Object.keys(data.policy)[0];
+    if (!firstProv || !data.policy[firstProv]) return [];
+    
+    const pctKeys = Object.keys(data.policy[firstProv]).map(Number).sort((a, b) => a - b);
+    if (pctKeys.length === 0) return [];
+    
     const nearest = pctKeys.reduce((prev, curr) =>
-      Math.abs(curr - filters.fraudPreventionPct) <
-        Math.abs(prev - filters.fraudPreventionPct)
-        ? curr
-        : prev
+      Math.abs(curr - filters.fraudPreventionPct) < Math.abs(prev - filters.fraudPreventionPct) ? curr : prev
     );
-    return data.policy[String(nearest)] || [];
-  }, [data, filters.fraudPreventionPct]);
+    
+    const nearestStr = String(nearest);
+    let allRecs: PolicyRecommendation[] = [];
+    
+    for (const prov of filters.selectedProvinces) {
+      if (data.policy[prov] && data.policy[prov][nearestStr]) {
+        allRecs = allRecs.concat(data.policy[prov][nearestStr]);
+      }
+    }
+    
+    const order: Record<string, number> = { "Tinggi": 0, "Sedang": 1, "Rendah": 2 };
+    allRecs.sort((a, b) => (order[a.prioritas] ?? 9) - (order[b.prioritas] ?? 9));
+    
+    return allRecs;
+  }, [data?.policy, filters.fraudPreventionPct, filters.selectedProvinces]);
 
   // ─── KPI Calculations ───────────────────────────────────────
   const kpiData = useMemo(() => {
-    const totalRevenue = filteredHistorical.reduce(
+    const revenueToSum = filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType;
+    const totalRevenue = filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueToSum).reduce(
       (sum, r) => sum + r.Realisasi,
       0
     );
-    const forecastTotal = filteredForecast.reduce(
+    const forecastTotal = filteredForecast.filter(r => r.Jenis_Pendapatan === revenueToSum).reduce(
       (sum, r) => sum + r.Prediksi,
       0
     );
@@ -161,9 +177,15 @@ export default function DashboardPage() {
       totalRevenue > 0 ? (potentialLoss / totalRevenue) * 100 : 0;
 
     const savedRevenue = potentialLoss * (filters.fraudPreventionPct / 100);
-    const simulatedDAU = totalRevenue * 1.5;
-    const newPAD = totalRevenue + savedRevenue;
-    const kemandirianFiskal = newPAD > 0 ? (newPAD / (newPAD + simulatedDAU)) * 100 : 0;
+    
+    // Kemandirian Fiskal = (PAD / Total Pendapatan Daerah) * 100
+    const totalPAD = filteredHistorical.filter(r => r.Jenis_Pendapatan === "Pendapatan Asli Daerah (PAD)").reduce((sum, r) => sum + r.Realisasi, 0);
+    
+    // Asumsikan fraud prevention menambah efisiensi PAD
+    const newPAD = totalPAD + savedRevenue;
+    const newTotalRevenue = totalRevenue + savedRevenue;
+    
+    const kemandirianFiskal = newTotalRevenue > 0 ? (newPAD / newTotalRevenue) * 100 : 0;
 
     return {
       totalRevenue,
@@ -172,6 +194,7 @@ export default function DashboardPage() {
       potentialLoss,
       anomalyPct,
       kemandirianFiskal,
+      savedRevenue,
       anomalies: anomaliesOnly,
     };
   }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct]);
@@ -189,11 +212,12 @@ export default function DashboardPage() {
 
     if (filteredSeries.length === 0) return "Predicted by AI Model";
 
-    // Calculate the average accuracy of the visible series to mimic Streamlit's dynamic calculation
-    const totalAkurasi = filteredSeries.reduce((sum, r) => sum + r.Akurasi, 0);
-    const avgAkurasi = totalAkurasi / filteredSeries.length;
+    // Calculate the median accuracy of the visible series
+    const akurasiArray = filteredSeries.map(r => r.Akurasi).sort((a, b) => a - b);
+    const mid = Math.floor(akurasiArray.length / 2);
+    const medianAkurasi = akurasiArray.length % 2 !== 0 ? akurasiArray[mid] : (akurasiArray[mid - 1] + akurasiArray[mid]) / 2;
 
-    return `Akurasi backtest ${avgAkurasi.toFixed(0)}%`;
+    return `Akurasi Model (Median) ${medianAkurasi.toFixed(0)}%`;
   }, [data, filters]);
 
   // ─── Insight Text ────────────────────────────────────────────
@@ -219,6 +243,27 @@ export default function DashboardPage() {
       generatePDF(kpiData, policyRecs, filters);
     });
   }, [kpiData, policyRecs, filters]);
+
+  // ─── Debug Logging ──────────────────────────────────────────
+  useEffect(() => {
+    if (process.env.NODE_ENV === "development" && !loading && data) {
+      console.log(
+        "================ DEBUG INFO ================\n" +
+        `Total Revenue                 : Rp ${(kpiData.totalRevenue / 1e12).toFixed(1)} T\n` +
+        `Forecast ${filters.forecastMonths} Bulan              : Rp ${(kpiData.forecastTotal / 1e12).toFixed(1)} T\n` +
+        `Risiko Fraud/Anomali          : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n` +
+        `Revenue Loss Deteksi          : Rp ${(kpiData.potentialLoss / 1e12).toFixed(1)} T\n` +
+        `Kemandirian Fiskal            : ${kpiData.kemandirianFiskal.toFixed(1)}%\n` +
+        `Potensi Penyelamatan Arus Kas : Rp ${(kpiData.savedRevenue / 1e12).toFixed(1)} T\n` +
+        "--- Pengaturan ---\n" +
+        `Jenis Pendapatan : ${filters.selectedTaxType}\n` +
+        `Provinsi Target  : ${filters.selectedProvinces.join(", ") || "Semua"}\n` +
+        `Periode Prediksi : ${filters.forecastMonths} Bulan\n` +
+        `Pencegahan Fraud : ${filters.fraudPreventionPct}%\n` +
+        "============================================"
+      );
+    }
+  }, [kpiData, filters, loading, data]);
 
   // ─── Loading / Error States ──────────────────────────────────
   if (loading) {

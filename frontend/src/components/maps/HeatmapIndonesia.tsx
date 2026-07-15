@@ -176,7 +176,7 @@ export default function HeatmapIndonesia({
                 <span style={{ fontWeight: 600, color: "#3b82f6" }}>{formatCurrency(data.totalForecast)}</span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", marginBottom: "16px", color: "#475569" }}>
-                <span>Risiko Fraud:</span>
+                <span>Risiko Anomali:</span>
                 <span style={{ fontWeight: 700, color: data.riskPct > 1 ? "#dc2626" : "#16a34a" }}>{data.riskPct.toFixed(1)}%</span>
               </div>
               <button 

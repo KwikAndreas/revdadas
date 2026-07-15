@@ -47,7 +47,6 @@ export default function DataTabs({
     { label: "Forecast Data", icon: <LineChart size={16} /> },
     { label: "Anomalies", icon: <AlertTriangle size={16} /> },
     { label: "Akurasi Model", icon: <Target size={16} /> },
-    { label: "Rekomendasi Bisnis", icon: <Briefcase size={16} /> },
     { label: "Simulasi What-If", icon: <Sliders size={16} /> },
     { label: "Metodologi", icon: <BookOpen size={16} /> },
   ];
@@ -67,26 +66,20 @@ export default function DataTabs({
         ))}
       </div>
       <div className="tab-content">
-        {activeTab === 0 && <TabForecast forecast={forecast} />}
+        {activeTab === 0 && <TabForecast forecast={forecast} accuracy={accuracy} />}
         {activeTab === 1 && <TabAnomalies anomalies={anomalies} />}
         {activeTab === 2 && <TabAccuracy accuracy={accuracy} />}
         {activeTab === 3 && (
-          <TabBusiness
-            business={business}
-            selectedProvinces={selectedProvinces}
-          />
-        )}
-        {activeTab === 4 && (
           <TabWhatIf forecast={forecast} historical={historical} />
         )}
-        {activeTab === 5 && <TabMethodology />}
+        {activeTab === 4 && <TabMethodology />}
       </div>
     </div>
   );
 }
 
 // ─── Tab 1: Forecast ──────────────────────────────────────────
-function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
+function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accuracy: AccuracyData }) {
   const [selectedProv, setSelectedProv] = useState<string>("Semua Provinsi");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -186,17 +179,30 @@ function TabForecast({ forecast }: { forecast: ForecastRecord[] }) {
             </tr>
           </thead>
           <tbody>
-            {filteredForecast.slice(0, 100).map((r, i) => (
-              <tr key={i}>
-                <td>{r.Tanggal.split("T")[0]}</td>
-                <td>{r.Provinsi}</td>
-                <td>{r.Jenis_Pendapatan}</td>
-                <td style={{ fontWeight: 600, color: "#1e3a5f" }}>{formatCurrency(r.Prediksi)}</td>
-                <td>{formatCurrency(r.Batas_Bawah)}</td>
-                <td>{formatCurrency(r.Batas_Atas)}</td>
-                <td>{r.Metode || "-"}</td>
-              </tr>
-            ))}
+            {filteredForecast.slice(0, 100).map((r, i) => {
+              const accRecord = accuracy.by_series?.find(a => a.Provinsi === r.Provinsi && a.Jenis_Pendapatan === r.Jenis_Pendapatan);
+              const isUnreliable = accRecord && accRecord.Akurasi < 50; // WAPE > 50% means Akurasi < 50%
+
+              return (
+                <tr key={i}>
+                  <td>{r.Tanggal.split("T")[0]}</td>
+                  <td>{r.Provinsi}</td>
+                  <td>{r.Jenis_Pendapatan}</td>
+                  {isUnreliable ? (
+                    <td colSpan={3} style={{ textAlign: "center", color: "#ef4444", fontWeight: 500, fontStyle: "italic", background: "#fef2f2" }}>
+                      Sinyal Tidak Cukup (Akurasi Rendah)
+                    </td>
+                  ) : (
+                    <>
+                      <td style={{ fontWeight: 600, color: "#1e3a5f" }}>{formatCurrency(r.Prediksi)}</td>
+                      <td>{formatCurrency(r.Batas_Bawah)}</td>
+                      <td>{formatCurrency(r.Batas_Atas)}</td>
+                    </>
+                  )}
+                  <td>{r.Metode || "-"}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -573,10 +579,10 @@ function TabWhatIf({
   const [adjustments, setAdjustments] = useState<Record<string, number>>({});
 
   const ADJUSTABLE = [
-    { key: "Pajak Daerah", label: "Pajak Daerah" },
-    { key: "Retribusi Daerah", label: "Retribusi" },
-    { key: "Lain-Lain PAD yang Sah", label: "Lain-Lain PAD" },
-    { key: "Pendapatan Transfer Pemerintah Pusat", label: "Transfer Pusat" },
+    { key: "Pendapatan Asli Daerah (PAD)", label: "PAD" },
+    { key: "Transfer ke Daerah dan Dana Desa (TKDD)", label: "TKDD" },
+    { key: "Total Belanja Daerah", label: "Belanja Daerah" },
+    { key: "Belanja Modal", label: "Belanja Modal" },
   ];
 
   if (!forecast || forecast.length === 0) {
@@ -584,35 +590,72 @@ function TabWhatIf({
   }
 
   // Calculate Scenario
-  const baseTotal = forecast.reduce((sum, r) => sum + r.Prediksi, 0);
+  // We'll simulate Budget Surplus/Deficit (Total Revenue - Total Expenditure).
+  
+  let baseTotal = 0;
   let scenTotal = 0;
+  
+  const totalRevRecords = forecast.filter(r => r.Jenis_Pendapatan === "Total Pendapatan Daerah");
+  const totalExpRecords = forecast.filter(r => r.Jenis_Pendapatan === "Total Belanja Daerah");
+  
+  const baseRevenue = totalRevRecords.reduce((sum, r) => sum + r.Prediksi, 0);
+  const baseExpenditure = totalExpRecords.reduce((sum, r) => sum + r.Prediksi, 0);
+  baseTotal = baseRevenue - baseExpenditure;
 
+  let totalRevenueDelta = 0;
+  let totalExpenditureDelta = 0;
+  
   const scenarioData = forecast.map((r) => {
     const adjPct = adjustments[r.Jenis_Pendapatan] || 0;
     const newVal = Math.max(0, r.Prediksi * (1 + adjPct / 100));
-    scenTotal += newVal;
-    return { ...r, Prediksi_Skenario: newVal };
+    const recordDelta = newVal - r.Prediksi;
+    
+    if (["Pendapatan Asli Daerah (PAD)", "Transfer ke Daerah dan Dana Desa (TKDD)", "Lain-lain Pendapatan Daerah yang Sah"].includes(r.Jenis_Pendapatan)) {
+        totalRevenueDelta += recordDelta;
+    }
+    // For expenditure, Belanja Modal is part of Total Belanja Daerah. So if they adjust Belanja Modal, we add its delta to Expenditure.
+    // If they adjust "Total Belanja Daerah", we also add it.
+    if (["Total Belanja Daerah", "Belanja Modal", "Belanja Operasi"].includes(r.Jenis_Pendapatan)) {
+        totalExpenditureDelta += recordDelta;
+    }
+    
+    return { ...r, Prediksi_Skenario: newVal, delta: recordDelta, isRevenue: !r.Jenis_Pendapatan.includes("Belanja") };
   });
 
+  scenTotal = baseTotal + totalRevenueDelta - totalExpenditureDelta;
   const delta = scenTotal - baseTotal;
-  const deltaPct = baseTotal > 0 ? (delta / baseTotal) * 100 : 0;
+  const deltaPct = Math.abs(baseTotal) > 0 ? (delta / Math.abs(baseTotal)) * 100 : 0;
 
   // Chart Data
   const chartDataMap = new Map<string, { date: string; base: number; scen: number }>();
-  scenarioData.forEach((r) => {
-    const date = r.Tanggal.split("T")[0].substring(0, 7);
-    if (!chartDataMap.has(date)) {
-      chartDataMap.set(date, { date, base: 0, scen: 0 });
-    }
-    chartDataMap.get(date)!.base += r.Prediksi / 1e9;
-    chartDataMap.get(date)!.scen += r.Prediksi_Skenario / 1e9;
+  
+  // Create a timeline from the unique dates
+  const uniqueDates = Array.from(new Set(forecast.map(r => r.Tanggal.split("T")[0].substring(0, 7))));
+  
+  uniqueDates.forEach((date) => {
+    chartDataMap.set(date, { date, base: 0, scen: 0 });
+    
+    // Base monthly
+    const monthRev = totalRevRecords.find(r => r.Tanggal.startsWith(date))?.Prediksi || 0;
+    const monthExp = totalExpRecords.find(r => r.Tanggal.startsWith(date))?.Prediksi || 0;
+    chartDataMap.get(date)!.base = (monthRev - monthExp) / 1e9;
+    
+    // Scenario monthly
+    const monthlyItems = scenarioData.filter(sd => sd.Tanggal.startsWith(date));
+    const revDeltas = monthlyItems.filter(md => ["Pendapatan Asli Daerah (PAD)", "Transfer ke Daerah dan Dana Desa (TKDD)", "Lain-lain Pendapatan Daerah yang Sah"].includes(md.Jenis_Pendapatan));
+    const expDeltas = monthlyItems.filter(md => ["Total Belanja Daerah", "Belanja Modal", "Belanja Operasi"].includes(md.Jenis_Pendapatan));
+    
+    const monthRevDelta = revDeltas.reduce((sum, md) => sum + (md.delta || 0), 0);
+    const monthExpDelta = expDeltas.reduce((sum, md) => sum + (md.delta || 0), 0);
+    
+    chartDataMap.get(date)!.scen = ((monthRev + monthRevDelta) - (monthExp + monthExpDelta)) / 1e9;
   });
   const chartData = Array.from(chartDataMap.values()).sort((a, b) => a.date.localeCompare(b.date));
 
   return (
     <div>
       <p style={{ fontSize: 13, color: "#475569", marginBottom: 14, lineHeight: 1.6 }}>
-        Geser slider untuk mensimulasikan dampak <b>penyesuaian kebijakan</b> pada proyeksi pendapatan. 
+        Geser slider untuk mensimulasikan dampak <b>penyesuaian kebijakan</b> pada proyeksi Keseimbangan Anggaran (Surplus/Defisit). 
         Skenario diterapkan ke periode forecast. Cocok untuk menjawab "bagaimana jika tarif Pajak Daerah naik 10%".
       </p>
 

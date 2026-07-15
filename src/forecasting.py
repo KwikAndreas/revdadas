@@ -39,10 +39,11 @@ W_SEASONAL = 0.4
 # Pos pendapatan utama yang layak diramalkan & dihitung akurasinya.
 # Pos lain (lumpy/one-off) tetap diforecast dgn bobot default tanpa backtest mahal.
 CORE_ACCOUNTS = {
-    "Pajak Daerah",
-    "Pendapatan Transfer Pemerintah Pusat",
-    "Retribusi Daerah",
-    "Lain-Lain PAD yang Sah",
+    "Pendapatan Asli Daerah (PAD)",
+    "Transfer ke Daerah dan Dana Desa (TKDD)",
+    "Total Pendapatan Daerah",
+    "Total Belanja Daerah",
+    "Belanja Modal",
 }
 
 

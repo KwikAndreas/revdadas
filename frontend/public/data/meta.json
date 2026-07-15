@@ -1,25 +1,51 @@
 {
-  "generated_at": "2026-07-14T15:25:40.862913",
+  "generated_at": "2026-07-15T06:38:07.961283",
   "provinces": [
+    "Aceh",
     "Bali",
+    "Bangka Belitung",
     "Banten",
+    "Bengkulu",
     "DI Yogyakarta",
     "DKI Jakarta",
+    "Gorontalo",
+    "Jambi",
     "Jawa Barat",
     "Jawa Tengah",
     "Jawa Timur",
+    "Kalimantan Barat",
+    "Kalimantan Selatan",
+    "Kalimantan Tengah",
+    "Kalimantan Timur",
+    "Kalimantan Utara",
+    "Kepulauan Riau",
+    "Lampung",
+    "Maluku",
+    "Maluku Utara",
+    "NTB",
+    "NTT",
+    "Papua",
+    "Papua Barat",
+    "Papua Barat Daya",
+    "Papua Pegunungan",
+    "Papua Selatan",
+    "Papua Tengah",
+    "Riau",
+    "Sulawesi Barat",
+    "Sulawesi Selatan",
+    "Sulawesi Tengah",
+    "Sulawesi Tenggara",
+    "Sulawesi Utara",
+    "Sumatera Barat",
+    "Sumatera Selatan",
     "Sumatera Utara"
   ],
   "tax_types": [
-    "Dana Darurat",
-    "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
-    "Lain-Lain PAD yang Sah",
-    "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
-    "Pajak Daerah",
-    "Pendapatan Hibah",
-    "Pendapatan Transfer Antar Daerah",
-    "Pendapatan Transfer Pemerintah Pusat",
-    "Retribusi Daerah"
+    "Belanja Modal",
+    "Pendapatan Asli Daerah (PAD)",
+    "Total Belanja Daerah",
+    "Total Pendapatan Daerah",
+    "Transfer ke Daerah dan Dana Desa (TKDD)"
   ],
   "forecast_periods": [
     6,
@@ -43,8 +69,8 @@
     24
   ],
   "date_range": {
-    "min": "2023-01-01 00:00:00",
+    "min": "2021-01-01 00:00:00",
     "max": "2025-12-01 00:00:00"
   },
-  "total_rows": 2018
+  "total_rows": 6678
 }
