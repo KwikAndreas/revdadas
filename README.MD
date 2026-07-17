@@ -20,33 +20,32 @@ RevDadas adalah sistem untuk membantu pemerintah daerah dalam mendeteksi fraud p
 - Memberikan rekomendasi kebijakan berbasis data
 - Monitoring real-time melalui dashboard interaktif
 
-**Versi Eksperimental**: Proyek ini merupakan hasil migrasi dari Streamlit ke **Next.js**. Semua komputasi AI (*Prophet* & *Isolation Forest*) kini dijalankan di balik layar (*Precomputed*) menjadi berkas JSON statis. Hal ini memungkinkan antarmuka web (Frontend) dimuat dalam hitungan milidetik karena beroperasi tanpa memerlukan *backend server* (*Stateless/Serverless*).
-
 ---
 
 ## Masalah
 
-Banyak pemerintah daerah menghadapi masalah:
+Banyak pemerintah daerah menghadapi masalah dalam pengelolaan APBD:
 
-- under-reporting pajak
-- fraud dalam pelaporan
-- kesulitan memprediksi pendapatan
-- monitoring yang tidak real-time
+- *under-reporting* pada Pendapatan Asli Daerah (PAD)
+- anomali dan indikasi *fraud* dalam pelaporan
+- kesulitan memprediksi tren pendapatan (PAD & TKDD) secara akurat
+- monitoring kapasitas fiskal yang tidak *real-time*
 
-Hal ini menyebabkan kebijakan fiskal sering tidak optimal. Revdadas hadir untuk mengatasi masalah tersebut menggunakan AI.
+Hal ini menyebabkan kebijakan fiskal sering tidak optimal. RevDadas hadir untuk mengatasi masalah tersebut menggunakan AI.
 
 ---
 
 ## Fitur
 
+- **Automated Data Scraper** - Mengambil data APBD (2021-2025) secara otomatis dari portal DJPK Kemenkeu
 - **Deteksi Anomali** - Menangkap indikasi fraud menggunakan *Isolation Forest*
 - **Forecasting** - Prediksi revenue dengan *Prophet* (Ensemble Model)
 - **Visualisasi Geospatial** - Peta heatmap cerdas berbasis lokasi Leaflet
-- **Kalkulator Dampak** - Mengkalkulasi potensi kas yang bisa diselamatkan
+- **Kalkulator Dampak** - Mengkalkulasi potensi kas dengan UI kalkulator skenario interaktif
 - **Rekomendasi Kebijakan** - Otomatis mendeteksi target sektor bisnis
 - **Dashboard Cepat (Next.js)** - *Loading* instan berkat pra-komputasi JSON
 
-Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restoran
+Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restoran, serta integrasi data APBD se-Indonesia.
 
 ---
 
@@ -54,7 +53,9 @@ Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restora
 
 ```mermaid
 graph TD
-    A["📁 Raw Data CSV"] --> B["Data Loader\n(src/data_loader.py)"]
+    Z["🌐 Portal DJPK Kemenkeu"] --> S["Data Scraper\n(src/apbd_scraper.py)"]
+    S --> A["📁 Raw Data CSV\n(apbd_master.csv)"]
+    A --> B["Data Loader\n(src/data_loader.py)"]
     B --> C["Processed Data\n(revenue_consolidated.csv)"]
     C --> D["Data Preprocessing\n(src/preprocessing.py)"]
     
@@ -66,9 +67,11 @@ graph TD
     G -.->|Generate| H["📄 JSON Data (Static)\n(frontend/public/data/)"]
 
     H --> I["Next.js React Frontend\n(frontend/)"]
-    I --> J["Interactive UI\nDashboard, Charts, Maps"]
+    I --> J["Interactive UI\nDashboard, Charts, Maps, Impact Calculator"]
     I --> K["Export Report PDF\n(Client-side)"]
 
+    style Z fill:#6366f1,stroke:#4338ca,stroke-width:2px,color:#fff
+    style S fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
     style A fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
     style B fill:#0b74de,stroke:#084d8c,stroke-width:2px,color:#fff
     style C fill:#38bdf8,stroke:#0c4a6e,stroke-width:2px,color:#fff
@@ -88,6 +91,8 @@ graph TD
 
 ![Dashboard Main](./docs/Dashboard.png)
 _Halaman utama dashboard_
+![Dashboard Rekomendasi Kebijakan](./docs/Rekomendasi_Berbasis_Algoritma.png)
+_Halaman rekomendasi Berbasis Algoritma_
 ![Dashboard Historical Revenue vs Forecast](./docs/Chart.png)
 _Halaman historical revenue vs forecast_
 ![Dashboard Detail Data Logs Forecast Data](./docs/DDL_ForecastData.png)
@@ -96,14 +101,10 @@ _Halaman detail data logs forecast data_
 _Halaman detail data logs anomalies_
 ![Dashboard Detail Data Logs AkurasiModel](./docs/DDL_AkurasiModel.png)
 _Halaman detail data logs akurasi model_
-![Dashboard Detail Data Logs RekomendasiBisnis](./docs/DDL_RekomendasiBisnis.png)
-_Halaman detail data logs rekomendasi bisnis_
 ![Dashboard Detail Data Logs SimulasiWhatIf](./docs/DDL_SimulasiWhatIf.png)
 _Halaman detail data logs simulasi what if_
 ![Dashboard Detail Data Logs Metodologi](./docs/DDL_Metodologi.png)
 _Halaman detail data logs metodologi_
-![Dashboard Rekomendasi Kebijakan](./docs/Rekomendasi_Kebijakan.png)
-_Halaman rekomendasi kebijakan_
 
 ---
 
@@ -140,11 +141,13 @@ flowchart LR
 
 ### 2. Deteksi Anomali / Fraud (Isolation Forest)
 Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan *under-reporting* atau *fraud*), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
+*(Update Patch: Ekstraksi fitur kini dikelompokkan secara spesifik per seri **Provinsi + Jenis Pendapatan** agar deteksi MoM (Month-over-Month) dan pergerakan rata-rata tidak mencampuradukkan sumber pendapatan yang berbeda, sehingga tingkat deteksi anomali jauh lebih presisi)*.
 
 **Cara Kerja Algoritma:**
-1. Sistem membangun sekumpulan pohon keputusan acak (*Isolation Trees*).
-2. Data yang bersifat anomali lebih mudah terpisah dari kelompoknya, sehingga memiliki lintasan pemisahan (*path length*) yang sangat pendek.
-3. Skor anomali dihitung. Jika skor mendeteksi jalur yang tidak wajar, data diklasifikasikan sebagai tingkat keparahan **Tinggi** atau **Sedang**.
+1. Sistem mengekstraksi 4 fitur utama per seri (Normalisasi Revenue, MoM Change, Rasio MA-3, dan Deviasi Musiman).
+2. Sistem membangun sekumpulan pohon keputusan acak (*Isolation Trees*).
+3. Data yang bersifat anomali lebih mudah terpisah dari kelompoknya, sehingga memiliki lintasan pemisahan (*path length*) yang sangat pendek.
+4. Skor anomali dihitung. Jika terdeteksi jalur tidak wajar, data diklasifikasikan dengan label **Tinggi** atau **Sedang** beserta diagnosis jenis *fraud*.
 
 ```mermaid
 flowchart TD
@@ -185,6 +188,9 @@ source venv/bin/activate
 # Install dependensi
 pip install -r requirements.txt
 
+# Jalankan scraper data APBD (Opsional jika data raw belum ada)
+python src/apbd_scraper.py
+
 # Jalankan konsolidasi & komputasi AI
 python data_consolidation.py
 python scripts/precompute.py
@@ -214,10 +220,11 @@ Dashboard sekarang bisa diakses pada browser di: **http://localhost:3000**
 ```
 revdadas/
 ├── data/
-│   ├── raw/                   # Data mentah dari BPS
+│   ├── raw/                   # Data mentah (dari DJPK Kemenkeu & BPS)
 │   └── processed/             # Data terproses (hasil data_consolidation)
 │
 ├── src/                       # Logika AI & Machine Learning Python
+│   ├── apbd_scraper.py        # Scraper otomatis data APBD dari portal DJPK
 │   ├── data_loader.py
 │   ├── preprocessing.py
 │   ├── forecasting.py
@@ -230,7 +237,7 @@ revdadas/
 │
 ├── frontend/                  # Modern Web Dashboard (Next.js + React)
 │   ├── src/app/               # Main Pages
-│   ├── src/components/        # UI Components (Charts, Tables, Leaflet Maps)
+│   ├── src/components/        # UI Components (Charts, Tables, Maps, Calculator)
 │   └── public/data/           # Output direktori dari precompute.py (JSON)
 │
 ├── data_consolidation.py      # Pengolah data mentah -> data terproses
