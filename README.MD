@@ -142,6 +142,17 @@ flowchart LR
     style G fill:#22c55e,color:#fff
 ```
 
+> **Simulasi Dekomposisi Komponen Matematis:**
+> Sebagai representasi skenario, apabila model memproyeksikan nilai Pendapatan Asli Daerah (PAD) di akhir periode fiskal (Desember) pada kuantum waktu $t$:
+> * **$g(t)$ (Base Trend):** Rp 100 Miliar — merepresentasikan ekuilibrium pertumbuhan organik dari skala makroekonomi wilayah.
+> * **$s(t)$ (Seasonality Index):** +Rp 30 Miliar — mengukur sentimen musiman historis (anomali positif akibat siklus jatuh tempo pajak).
+> * **$h(t)$ (Holiday Effect):** -Rp 5 Miliar — faktor koreksi (*penalty*) akibat penyusutan hari kerja efektif selama periode cuti/libur nasional.
+> * **$\epsilon_t$ (Stochastic Noise):** ± Rp 2 Miliar — deviasi standar dari residual varians yang tidak berdistribusi linier.
+> 
+> **Resolusi Persamaan Prediksi $y(t)$:**
+> $y(t) = 100 + 30 + (-5) = \text{Rp } 125 \text{ Miliar}$
+> *(Dengan tingkat galat probabilistik sebesar $\pm \text{ Rp } 2 \text{ Miliar}$ pada interval kepercayaan 95%).*
+
 > **Contoh Output Model Forecasting (Prophet):**
 > * **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
 > * **Periode Evaluasi:** Januari 2026
