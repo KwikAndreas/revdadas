@@ -36,6 +36,8 @@ export interface AnomalyRecord {
   Jenis_Pendapatan: string;
   Realisasi: number;
   Anomaly: boolean;
+  Tahun?: number;
+  Bulan?: number;
   Anomaly_Score?: number;
   Severity?: string;
   Alasan?: string;
