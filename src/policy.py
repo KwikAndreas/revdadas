@@ -22,124 +22,182 @@ def _fmt(v):
 def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                              fraud_prevention_pct=5):
     """
-    Kembalikan list dict rekomendasi komprehensif (B2G/Bapenda standard):
-        {judul, prioritas, detail, kebijakan_existing, kelebihan, kekurangan, indikator_dampak, kaitan_bisnis, perbandingan, justifikasi}
+    Kembalikan list dict rekomendasi komprehensif (B2G/Bapenda standard)
     """
     recs = []
+    
+    if filtered_df is None or not len(filtered_df):
+        return recs
 
-    total_real = float(filtered_df["Realisasi"].sum()) if filtered_df is not None and len(filtered_df) else 0.0
+    total_real = float(filtered_df["Realisasi"].sum())
+    
+    # Regional DNA mapping
+    def _is_dna(prov, jenis):
+        if prov == 'Bali' and 'Hotel' in jenis: return True
+        if prov == 'DKI Jakarta' and ('Kendaraan' in jenis or 'Iklan' in jenis): return True
+        if prov == 'Kalimantan Timur' and 'Bahan Bakar' in jenis: return True
+        return False
 
     # --- 1. Pertumbuhan proyeksi per provinsi ---
-    if forecast_results is not None and len(forecast_results) and filtered_df is not None:
+    if forecast_results is not None and len(forecast_results):
         for prov in sorted(filtered_df["Provinsi"].unique()):
             akt = filtered_df[filtered_df["Provinsi"] == prov]
             fc = forecast_results[forecast_results["Provinsi"] == prov]
             if not len(akt) or not len(fc):
                 continue
+                
             akt_bulanan = akt.groupby("Tanggal")["Realisasi"].sum().sort_index()
             base = akt_bulanan.tail(12).mean()
             proj = fc.groupby("Tanggal")["Prediksi"].sum().mean()
             
+            # Cek Persentase Agregat untuk provinsi ini (Tahun terakhir)
+            last_year = akt['Tahun'].max()
+            akt_last_year = akt[akt['Tahun'] == last_year]
+            avg_persentase = akt_last_year['Persentase'].mean() if 'Persentase' in akt_last_year.columns else 0
+            
             if base and base > 0:
                 growth = (proj - base) / base * 100
                 if growth < -2:
-                    recs.append({
-                        "judul": f"Waspada penurunan pendapatan di {prov}",
-                        "prioritas": "Tinggi",
-                        "detail": (f"Proyeksi rata-rata bulanan ({_fmt(proj)}) lebih rendah "
-                                   f"{abs(growth):.1f}% dibanding rata-rata 12 bulan terakhir "
-                                   f"({_fmt(base)}). Pertimbangkan intensifikasi pajak daerah "
-                                   f"dan evaluasi target penerimaan."),
-                        "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
-                        "kelebihan": ["Mencegah *shortfall* PAD sebelum terjadi", "Optimalisasi piutang pajak"],
-                        "kekurangan": ["Membutuhkan sumber daya pengawasan (SDM) ekstra", "Potensi resistensi wajib pajak"],
-                        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
-                        "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
-                        "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
-                        "justifikasi": "Penurunan PAD langsung menggerus kapasitas fiskal. Tindakan preventif lebih murah dari pada menambal defisit via utang/SiLPA."
-                    })
+                    if avg_persentase > 90:
+                        recs.append({
+                            "judul": f"Penurunan Proyeksi Namun Target Terjaga di {prov}",
+                            "prioritas": "Rendah",
+                            "detail": f"Proyeksi turun {abs(growth):.1f}%, namun capaian target {avg_persentase:.1f}% sudah optimal. Fokus pada efisiensi belanja.",
+                            "kebijakan_existing": "Menjaga ritme pungutan yang ada.",
+                            "kelebihan": ["Tidak membebani wajib pajak di masa perlambatan"],
+                            "kekurangan": ["Risiko shortfall tahun depan jika tren berlanjut"],
+                            "indikator_dampak": "Stabilitas cash flow",
+                            "kaitan_bisnis": "Mempersiapkan bantalan fiskal untuk tahun berikutnya.",
+                            "perbandingan": "Efisiensi vs Ekstensifikasi",
+                            "justifikasi": "Target tahun ini sudah tercapai, manuver agresif bisa kontraproduktif."
+                        })
+                    else:
+                        recs.append({
+                            "judul": f"Waspada penurunan pendapatan di {prov}",
+                            "prioritas": "Tinggi",
+                            "detail": (f"Proyeksi rata-rata bulanan ({_fmt(proj)}) lebih rendah "
+                                       f"{abs(growth):.1f}% dibanding rata-rata 12 bulan terakhir "
+                                       f"({_fmt(base)}). Capaian baru {avg_persentase:.1f}%. Pertimbangkan intensifikasi."),
+                            "kebijakan_existing": "Menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+                            "kelebihan": ["Mencegah shortfall PAD sebelum terjadi"],
+                            "kekurangan": ["Membutuhkan sumber daya pengawasan (SDM) ekstra"],
+                            "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+                            "kaitan_bisnis": "Mencegah defisit anggaran yang mengganggu belanja modal Pemda.",
+                            "perbandingan": "Intervensi proaktif vs Reaktif pasca-audit",
+                            "justifikasi": "Penurunan PAD saat target belum tercapai akan langsung menggerus kapasitas fiskal."
+                        })
                 elif growth > 8:
                     recs.append({
                         "judul": f"Momentum pertumbuhan di {prov}",
                         "prioritas": "Rendah",
                         "detail": (f"Proyeksi tumbuh {growth:.1f}% dibanding rata-rata terakhir. "
-                                   f"Sesuai amanat UU HKPD No. 1/2022, optimalkan momentum ini untuk "
-                                   f"memperkuat kapasitas fiskal daerah melalui belanja modal produktif."),
+                                   f"Optimalkan momentum ini untuk memperkuat kapasitas fiskal melalui belanja modal produktif."),
                         "kebijakan_existing": "Belanja rutin mendominasi penggunaan kelebihan kas.",
-                        "kelebihan": ["Menciptakan ruang fiskal yang kuat", "Memperbesar porsi belanja publik"],
-                        "kekurangan": ["Perlu perencanaan matang agar serapan belanja tidak menumpuk di Q4"],
+                        "kelebihan": ["Menciptakan ruang fiskal yang kuat"],
+                        "kekurangan": ["Perlu perencanaan matang agar serapan belanja optimal"],
                         "indikator_dampak": "Rasio Belanja Modal terhadap total APBD",
-                        "kaitan_bisnis": "Peningkatan PAD digunakan untuk mendongkrak ekonomi makro daerah (Multiplier Effect).",
-                        "perbandingan": "Investasi jangka panjang vs Konsumsi birokrasi jangka pendek",
-                        "justifikasi": "UU HKPD memandatkan mandatory spending yang progresif. Momentum kenaikan PAD adalah waktu terbaik."
+                        "kaitan_bisnis": "Peningkatan PAD mendongkrak ekonomi makro daerah (Multiplier Effect).",
+                        "perbandingan": "Investasi jangka panjang vs Konsumsi jangka pendek",
+                        "justifikasi": "Momentum kenaikan PAD adalah waktu terbaik memenuhi mandatory spending."
                     })
 
     # --- 2. Anomali / potensi kebocoran ---
     if anomaly_results is not None and "Anomaly" in anomaly_results.columns:
         anomalies = anomaly_results[anomaly_results["Anomaly"] == True]
-        n_anom = len(anomalies)
+        
+        # Filter only anomalies that are actually flags for manipulation or under-reporting
+        # We don't want to audit "Target Tercapai"
+        fraud_anomalies = anomalies[~anomalies['Jenis_Fraud'].isin(['Wajar (Target Tercapai)', 'Fluktuasi Sektor Andalan', 'Peak-season Sektor Andalan'])]
+        
+        n_anom = len(fraud_anomalies)
         if n_anom > 0:
-            loss = float(anomalies["Realisasi"].sum())
+            loss = float(fraud_anomalies["Realisasi"].sum())
             potensi_selamat = loss * (fraud_prevention_pct / 100.0)
-            top_prov = anomalies["Provinsi"].value_counts().idxmax()
-            top_jenis = anomalies["Jenis_Pendapatan"].value_counts().idxmax()
+            top_prov = fraud_anomalies["Provinsi"].value_counts().idxmax()
+            top_jenis = fraud_anomalies["Jenis_Pendapatan"].value_counts().idxmax()
+            
             recs.append({
-                "judul": "Audit pos pendapatan beranomali",
+                "judul": "Audit pos pendapatan dengan deviasi target tak wajar",
                 "prioritas": "Tinggi",
-                "detail": (f"Terdeteksi {n_anom} catatan anomali (nominal {_fmt(loss)}). "
-                           f"Sesuai kewenangan UU HKPD No. 1/2022, perketat pengawasan pajak di {top_prov}, "
-                           f"terutama pos \"{top_jenis}\". Audit terfokus dapat menyelamatkan "
+                "detail": (f"Terdeteksi {n_anom} catatan indikasi anomali (nominal {_fmt(loss)}). "
+                           f"Perketat pengawasan di {top_prov}, terutama pos \"{top_jenis}\" yang "
+                           f"deviasinya tidak sejalan dengan capaian target (Persentase). Audit terfokus dapat menyelamatkan "
                            f"~{_fmt(potensi_selamat)} (pencegahan {fraud_prevention_pct}%)."),
                 "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
-                "kelebihan": ["Menyelamatkan kas daerah secara instan", "Memberi efek jera (deterrent effect)"],
-                "kekurangan": ["Biaya audit lapangan yang cukup tinggi", "Rawan friksi di lapangan"],
-                "indikator_dampak": "Rasio *Recovery Rate* Kebocoran (Nilai rupiah terselamatkan)",
-                "kaitan_bisnis": f"Meningkatkan penerimaan sebesar {_fmt(potensi_selamat)} dan menekan angka kebocoran.",
+                "kelebihan": ["Menyelamatkan kas daerah secara instan", "Memberi efek jera"],
+                "kekurangan": ["Biaya audit lapangan yang cukup tinggi"],
+                "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah terselamatkan)",
+                "kaitan_bisnis": f"Meningkatkan penerimaan sebesar {_fmt(potensi_selamat)}.",
                 "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
-                "justifikasi": "Audit berbasis risiko (Risk-Based Audit) menggunakan deteksi anomali AI terbukti 10x lebih efisien dari audit konvensional."
+                "justifikasi": "Audit berbasis deviasi target & historis terbukti 10x lebih efisien dari audit acak."
             })
 
-    # --- 3. Diversifikasi sumber pendapatan ---
+    # --- 3. Diversifikasi sumber pendapatan vs DNA Daerah ---
     if filtered_df is not None and len(filtered_df):
-        prop = filtered_df.groupby("Jenis_Pendapatan")["Realisasi"].sum()
-        if prop.sum() > 0:
-            share = (prop / prop.sum() * 100).sort_values(ascending=False)
+        prop = filtered_df.groupby(["Provinsi", "Jenis_Pendapatan"])["Realisasi"].sum()
+        
+        for prov in filtered_df["Provinsi"].unique():
+            if prov not in prop: continue
+            prov_prop = prop[prov]
+            if prov_prop.sum() == 0: continue
+            
+            share = (prov_prop / prov_prop.sum() * 100).sort_values(ascending=False)
+            if not len(share): continue
+            
             top_name = share.index[0]
             top_share = share.iloc[0]
+            
             if top_share > 50:
-                recs.append({
-                    "judul": "Kurangi ketergantungan pada satu sumber",
-                    "prioritas": "Sedang",
-                    "detail": (f"Pos \"{top_name}\" menyumbang {top_share:.0f}% dari PAD terpilih. "
-                               f"Ketergantungan tinggi rawan goncangan ekonomi. Rujuk ruang lingkup "
-                               f"pajak/retribusi baru pada UU HKPD No. 1/2022 untuk perkuat diversifikasi PAD."),
-                    "kebijakan_existing": "Fokus PAD hanya bertumpu pada 1 atau 2 jenis pajak primadona.",
-                    "kelebihan": ["Resiliensi fiskal yang kuat saat krisis", "Membuka basis pajak (tax base) baru"],
-                    "kekurangan": ["Proses penyusunan Perda pajak baru memakan waktu (DPRD)", "Resistensi tarif baru"],
-                    "indikator_dampak": "Indeks Konsentrasi PAD (Herfindahl-Hirschman Index)",
-                    "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral spesifik.",
-                    "perbandingan": "Ekstensifikasi (perluasan basis) vs Intensifikasi (peras existing)",
-                    "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan terhadap krisis ekonomi sektoral (seperti saat pandemi)."
-                })
+                if _is_dna(prov, top_name):
+                    recs.append({
+                        "judul": f"Proteksi Ekosistem {top_name} di {prov}",
+                        "prioritas": "Sedang",
+                        "detail": (f"Pos \"{top_name}\" menyumbang {top_share:.0f}% PAD. "
+                                   f"Karena ini adalah DNA utama daerah, fokuslah pada INTENSIFIKASI (digitalisasi pungutan, insentif) "
+                                   f"dan PROTEKSI EKOSISTEM (misal asuransi/paket pariwisata terintegrasi) alih-alih diversifikasi yang dipaksakan."),
+                        "kebijakan_existing": "Pungutan standar tanpa nilai tambah layanan.",
+                        "kelebihan": ["Memperkuat keunggulan kompetitif daerah", "Loyalitas wajib pajak terjaga"],
+                        "kekurangan": ["Risiko hantaman krisis sektoral (seperti saat pandemi)"],
+                        "indikator_dampak": "Index Kepuasan Wajib Pajak & Tax Ratio",
+                        "kaitan_bisnis": "Menjaga angsa bertelur emas tetap sehat.",
+                        "perbandingan": "Proteksi & Ekosistem vs Diversifikasi Buta",
+                        "justifikasi": "Mengurangi fokus pada sektor DNA justru berisiko mematikan keunggulan komparatif daerah."
+                    })
+                else:
+                    recs.append({
+                        "judul": f"Kurangi ketergantungan pada {top_name} di {prov}",
+                        "prioritas": "Sedang",
+                        "detail": (f"Pos \"{top_name}\" menyumbang {top_share:.0f}% dari PAD. "
+                                   f"Ketergantungan tinggi pada sektor non-DNA rawan goncangan. "
+                                   f"Perkuat diversifikasi PAD melalui ekstensifikasi pajak/retribusi baru."),
+                        "kebijakan_existing": "Fokus PAD bertumpu pada 1 atau 2 jenis pajak saja.",
+                        "kelebihan": ["Resiliensi fiskal yang kuat saat krisis"],
+                        "kekurangan": ["Proses penyusunan Perda pajak baru memakan waktu"],
+                        "indikator_dampak": "Indeks Konsentrasi PAD",
+                        "kaitan_bisnis": "Mencegah volatilitas PAD dari guncangan sektoral.",
+                        "perbandingan": "Ekstensifikasi vs Intensifikasi",
+                        "justifikasi": "Daerah dengan sumber PAD yang terdiversifikasi lebih tahan krisis ekonomi."
+                    })
 
     # --- 4. Fallback ---
     if not recs:
         recs.append({
             "judul": "Kondisi fiskal relatif stabil",
             "prioritas": "Rendah",
-            "detail": ("Tidak ada sinyal risiko signifikan dari proyeksi maupun anomali pada "
-                       "data terpilih. Pertahankan disiplin anggaran sesuai pedoman pengelolaan "
-                       "keuangan daerah (UU HKPD)."),
+            "detail": ("Tidak ada deviasi target atau anomali signifikan. "
+                       "Pertahankan disiplin anggaran sesuai pedoman pengelolaan keuangan daerah."),
             "kebijakan_existing": "Menjalankan rutinitas standar APBD.",
             "kelebihan": ["Stabilitas jalannya roda pemerintahan"],
             "kekurangan": ["Kurang agresif dalam optimalisasi PAD"],
-            "indikator_dampak": "Capaian realisasi vs target PAD bulanan",
-            "kaitan_bisnis": "Memastikan operasional pelayanan publik berjalan lancar sesuai DPA.",
+            "indikator_dampak": "Capaian realisasi vs target PAD",
+            "kaitan_bisnis": "Memastikan operasional pelayanan publik berjalan lancar.",
             "perbandingan": "Operasional Normal",
-            "justifikasi": "Sistem tidak mendeteksi deviasi signifikan. Fokus ke efisiensi operasional harian."
+            "justifikasi": "Fokus ke efisiensi operasional harian."
         })
 
     # urutkan: Tinggi -> Sedang -> Rendah
     order = {"Tinggi": 0, "Sedang": 1, "Rendah": 2}
     recs.sort(key=lambda r: order.get(r["prioritas"], 9))
-    return recs
+    
+    # Ambil top 5 saja agar tidak terlalu banyak jika banyak provinsi dipilih
+    return recs[:5]

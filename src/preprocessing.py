@@ -84,10 +84,22 @@ class DataPreprocessor:
         df = df.copy()
         logger.info("Starting data cleaning...")
         
+        logger.info(f"Rows before deduplication: {len(df)}")
+        df = df.drop_duplicates()
+        logger.info(f"Rows after deduplication: {len(df)}")
+        
+        essential_cols = [c for c in ['Realisasi', 'Anggaran', 'Persentase'] if c in df.columns]
+        if essential_cols:
+            df = df.dropna(subset=essential_cols, how='all')
+        
         # 1. Clean currency strings FIRST
         if 'Realisasi' in df.columns:
             logger.info("Cleaning currency format in Realisasi column...")
             df['Realisasi'] = df['Realisasi'].apply(self.clean_currency_string)
+        if 'Anggaran' in df.columns:
+            df['Anggaran'] = df['Anggaran'].apply(self.clean_currency_string)
+        if 'Persentase' in df.columns:
+            df['Persentase'] = df['Persentase'].apply(self.clean_currency_string)
         
         # 2. Handle missing values
         logger.info(f"Missing values before: {df.isnull().sum().sum()}")
@@ -101,6 +113,10 @@ class DataPreprocessor:
             df['Bulan'] = df['Bulan'].astype(int)
         if 'Realisasi' in df.columns:
             df['Realisasi'] = pd.to_numeric(df['Realisasi'], errors='coerce')
+        if 'Anggaran' in df.columns:
+            df['Anggaran'] = pd.to_numeric(df['Anggaran'], errors='coerce')
+        if 'Persentase' in df.columns:
+            df['Persentase'] = pd.to_numeric(df['Persentase'], errors='coerce')
         
         # 4. Create date column
         if {'Tahun', 'Bulan'}.issubset(df.columns):
@@ -110,7 +126,8 @@ class DataPreprocessor:
         
         # 5. Remove rows with invalid data
         df = df.dropna(subset=['Realisasi'])
-        df = df[df['Realisasi'] > 0]
+        # Allow 0 for realization because 0 is valid for some targets
+        df = df[df['Realisasi'] >= 0]
         
         # 6. Sort by date
         df = df.sort_values('Tanggal').reset_index(drop=True)
@@ -187,6 +204,7 @@ class DataPreprocessor:
         if 'Tahun' in df.columns and 'Bulan' in df.columns:
             df = df.sort_values(['Provinsi', 'Tahun', 'Bulan'])
             df['YoY_Growth'] = df.groupby(['Provinsi', 'Bulan'])['Realisasi'].pct_change(12) * 100
+            df['YoY_Growth'] = df['YoY_Growth'].replace([np.inf, -np.inf], np.nan)
         
         # Moving average
         df['MA_3'] = df.groupby('Provinsi')['Realisasi'].transform(

@@ -2,7 +2,7 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat)
-![Status](https://img.shields.io/badge/status-MVP-orange?style=flat)
+![Status](https://img.shields.io/badge/status-Production_Ready-success?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 Sistem analitik berbasis AI untuk deteksi fraud dan peramalan pendapatan pemerintah daerah.
@@ -37,15 +37,15 @@ Hal ini menyebabkan kebijakan fiskal sering tidak optimal. RevDadas hadir untuk 
 
 ## Fitur
 
-- **Automated Data Scraper** - Mengambil data APBD (2021-2025) secara otomatis dari portal DJPK Kemenkeu
-- **Deteksi Anomali** - Menangkap indikasi fraud menggunakan *Isolation Forest*
-- **Forecasting** - Prediksi revenue dengan *Prophet* (Ensemble Model)
+- **Automated Data Scraper** - Mengambil data APBD (2021-2025) secara otomatis dari portal DJPK Kemenkeu dengan rentang 14 taksonomi APBD granular.
+- **Deteksi Anomali & Aggregate Isolation** - Menangkap indikasi fraud menggunakan *Isolation Forest* dengan kemampuan *Dynamic Aggregate Isolation* untuk mencegah penghitungan ganda.
+- **Forecasting (Decumulation Engine)** - Prediksi revenue 6-24 bulan menggunakan *Prophet* yang didukung pra-pemrosesan konversi Kumulatif (YTD) ke format *Monthly Discrete*.
 - **Visualisasi Geospatial** - Peta heatmap cerdas berbasis lokasi Leaflet
-- **Kalkulator Dampak** - Mengkalkulasi potensi kas dengan UI kalkulator skenario interaktif
-- **Rekomendasi Kebijakan** - Otomatis mendeteksi target sektor bisnis
+- **Kalkulator Dampak (What-If)** - Mengkalkulasi metrik Potensi Kas dan Kemandirian Fiskal (Tahun Berjalan) melalui slider skenario interaktif.
+- **Premium Executive Report** - Generator PDF tata kelola eksekutif dengan data *Top 5 Risiko Anomali* dan *Potensi Sektor Ekonomi Daerah*.
 - **Dashboard Cepat (Next.js)** - *Loading* instan berkat pra-komputasi JSON
 
-Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restoran, serta integrasi data APBD se-Indonesia.
+Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Daerah, PAD Lainnya, TKDD, serta integrasi 14 komponen APBD se-Indonesia.
 
 ---
 
@@ -55,9 +55,11 @@ Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Pasar, Pajak Hotel & Restora
 graph TD
     Z["🌐 Portal DJPK Kemenkeu"] --> S["Data Scraper\n(src/apbd_scraper.py)"]
     S --> A["📁 Raw Data CSV\n(apbd_master.csv)"]
-    A --> B["Data Loader\n(src/data_loader.py)"]
-    B --> C["Processed Data\n(revenue_consolidated.csv)"]
+    A --> B["Data Loader & Deduplication\n(src/data_loader.py)"]
+    B --> B2["Decumulation Engine\n(YTD to Monthly Discrete)"]
+    B2 --> C["Processed Data\n(revenue_consolidated.csv)"]
     C --> D["Data Preprocessing\n(src/preprocessing.py)"]
+
     
     D --> E["Forecasting Engine\nProphet (src/forecasting.py)"]
     D --> F["Anomaly Detection\nIsolation Forest (src/anomaly_detection.py)"]
@@ -74,6 +76,7 @@ graph TD
     style S fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
     style A fill:#0984e3,stroke:#003d82,stroke-width:2px,color:#fff
     style B fill:#0b74de,stroke:#084d8c,stroke-width:2px,color:#fff
+    style B2 fill:#2563eb,stroke:#1e40af,stroke-width:2px,color:#fff
     style C fill:#38bdf8,stroke:#0c4a6e,stroke-width:2px,color:#fff
     style D fill:#fb923c,stroke:#c2410c,stroke-width:2px,color:#fff
     style E fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#fff
@@ -255,7 +258,7 @@ revdadas/
 - Recharts (Visualisasi Data)
 - React-Leaflet (Pemetaan)
 - Vanilla CSS Modules
-- html2pdf.js
+- jsPDF & jspdf-autotable (Export Laporan Premium)
 
 **Backend (AI / Data Processing)**
 - Python 3.13

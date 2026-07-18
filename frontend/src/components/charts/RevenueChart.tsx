@@ -45,9 +45,26 @@ export default function RevenueChart({
       dataMap.get(date).forecast += toBillions(r.Prediksi);
     });
 
-    return Array.from(dataMap.values()).sort((a, b) =>
+    const sortedData = Array.from(dataMap.values()).sort((a, b) =>
       a.date.localeCompare(b.date)
     );
+
+    // Calculate MoM percentage change
+    for (let i = 1; i < sortedData.length; i++) {
+      const prevActual = sortedData[i - 1].actual;
+      const currActual = sortedData[i].actual;
+      const prevForecast = sortedData[i - 1].forecast;
+      const currForecast = sortedData[i].forecast;
+      
+      const prev = prevActual !== null ? prevActual : prevForecast;
+      const curr = currActual !== null ? currActual : (currForecast !== null && currForecast !== 0 ? currForecast : null);
+      
+      if (prev !== null && curr !== null && prev > 0) {
+        sortedData[i].mom = ((curr - prev) / prev) * 100;
+      }
+    }
+
+    return sortedData;
   }, [historical, forecast]);
 
   return (
@@ -69,12 +86,28 @@ export default function RevenueChart({
             tickFormatter={(value) => `${value}`}
           />
           <Tooltip
-            contentStyle={{ borderRadius: 8, border: "1px solid #e2e8f0", fontSize: 12 }}
-            formatter={(value: any) => {
-              const val = typeof value === 'number' ? value : 0;
-              return [`Rp ${val.toFixed(1)} M`, ""];
+            content={({ active, payload, label }) => {
+              if (active && payload && payload.length) {
+                const data = payload[0].payload;
+                return (
+                  <div style={{ background: "white", padding: 12, border: "1px solid #e2e8f0", borderRadius: 8, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)", fontSize: 12 }}>
+                    <div style={{ color: "#64748b", fontWeight: 600, marginBottom: 8 }}>{label}</div>
+                    {payload.map((entry: any, index: number) => (
+                      <div key={index} style={{ color: entry.color, display: "flex", justifyContent: "space-between", gap: 16, marginBottom: 4 }}>
+                        <span>{entry.name}:</span>
+                        <span style={{ fontWeight: 600 }}>Rp {Number(entry.value).toFixed(1)} M</span>
+                      </div>
+                    ))}
+                    {data.mom !== null && data.mom !== undefined && (
+                      <div style={{ color: data.mom >= 0 ? "#16a34a" : "#dc2626", marginTop: 8, fontSize: 11, fontWeight: 600, display: "flex", justifyContent: "flex-end" }}>
+                        {data.mom >= 0 ? "▲" : "▼"} {Math.abs(data.mom).toFixed(1)}% MoM
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+              return null;
             }}
-            labelStyle={{ color: "#64748b", fontWeight: 600, marginBottom: 4 }}
           />
           <Legend wrapperStyle={{ fontSize: 11, paddingTop: 10 }} />
           <Line

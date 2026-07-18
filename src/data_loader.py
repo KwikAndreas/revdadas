@@ -4,6 +4,7 @@ Handles downloading and loading data from various sources
 """
 
 import pandas as pd
+import numpy as np
 import logging
 from pathlib import Path
 from . import utils
@@ -24,7 +25,7 @@ class BPSDataLoader:
     """
     
     # Nama file mentah APBD DJPK (sumber data asli)
-    APBD_MASTER_FILENAME = "apbd_master_2021_2025.csv"
+    APBD_MASTER_FILENAME = "apbd_djpk_master_2021-2025.csv"
 
     def __init__(self, data_path=None):
         self.data_path = data_path or utils.get_data_path("raw")
@@ -47,57 +48,70 @@ class BPSDataLoader:
         # Load the new CSV structure
         df = pd.read_csv(master_path)
         
-        # Unpivot the aggregated columns into "Jenis_Pendapatan"
-        df_melt = pd.melt(
-            df, 
-            id_vars=['tahun', 'bulan', 'provinsi'], 
-            value_vars=['PAD', 'TKDD', 'pendapatan_daerah', 'belanja_daerah', 'belanja_modal'],
-            var_name='Jenis_Pendapatan', 
-            value_name='Realisasi'
-        )
-        
         # Rename columns to match existing pipeline
-        df_melt.rename(columns={
+        df.rename(columns={
             'tahun': 'Tahun', 
             'bulan': 'Bulan', 
-            'provinsi': 'Provinsi'
+            'provinsi': 'Provinsi',
+            'akun': 'Jenis_Pendapatan',
+            'anggaran': 'Anggaran',
+            'realisasi': 'Realisasi',
+            'persentase': 'Persentase'
         }, inplace=True)
         
+        ACCOUNTS_TO_KEEP = [
+            'PAD', 'TKDD', 'Pendapatan Daerah', 'Belanja Daerah', 'Belanja Modal',
+            'Pajak Daerah', 'Retribusi Daerah', 'Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan',
+            'Lain-Lain PAD yang Sah', 'Pendapatan Transfer Pemerintah Pusat',
+            'Pendapatan Lainnya', 'Pendapatan Hibah', 
+            'Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan',
+            'Pendapatan Transfer Antar Daerah'
+        ]
+        df = df[df['Jenis_Pendapatan'].isin(ACCOUNTS_TO_KEEP)].copy()
+        
         # Create 'Tanggal' column
-        df_melt['Tanggal'] = pd.to_datetime(
-            df_melt['Tahun'].astype(str) + '-' + df_melt['Bulan'].astype(str) + '-01'
+        df['Tanggal'] = pd.to_datetime(
+            df['Tahun'].astype(str) + '-' + df['Bulan'].astype(str) + '-01'
         )
         
         # Friendly names mapping for UI
         mapping = {
             'PAD': 'Pendapatan Asli Daerah (PAD)',
             'TKDD': 'Transfer ke Daerah dan Dana Desa (TKDD)',
-            'pendapatan_daerah': 'Total Pendapatan Daerah',
-            'belanja_daerah': 'Total Belanja Daerah',
-            'belanja_modal': 'Belanja Modal'
+            'Pendapatan Daerah': 'Total Pendapatan Daerah',
+            'Belanja Daerah': 'Total Belanja Daerah',
+            'Belanja Modal': 'Belanja Modal'
         }
-        df_melt['Jenis_Pendapatan'] = df_melt['Jenis_Pendapatan'].map(mapping)
+        df['Jenis_Pendapatan'] = df['Jenis_Pendapatan'].apply(lambda x: mapping.get(x, x))
         
         # Filter invalid
-        df_melt['Realisasi'] = pd.to_numeric(df_melt['Realisasi'], errors='coerce').fillna(0.0)
+        df['Realisasi'] = pd.to_numeric(df['Realisasi'], errors='coerce').fillna(0.0)
+        df['Anggaran'] = pd.to_numeric(df['Anggaran'], errors='coerce').fillna(0.0)
+        
+        # Drop duplicates before sorting and decumulating!
+        df = df.drop_duplicates(subset=['Tahun', 'Bulan', 'Provinsi', 'Jenis_Pendapatan'], keep='last')
         
         # Sort values
-        df_melt = df_melt.sort_values(['Provinsi', 'Jenis_Pendapatan', 'Tahun', 'Bulan']).reset_index(drop=True)
+        df = df.sort_values(['Provinsi', 'Jenis_Pendapatan', 'Tahun', 'Bulan']).reset_index(drop=True)
         
         # DECUMULATE: The DJPK data is Year-To-Date cumulative. 
         # We must decumulate it to discrete monthly values.
         def decumulate(group):
             return group.diff().fillna(group)
             
-        df_melt['Realisasi'] = df_melt.groupby(['Provinsi', 'Jenis_Pendapatan', 'Tahun'])['Realisasi'].transform(decumulate)
+        df['Realisasi'] = df.groupby(['Provinsi', 'Jenis_Pendapatan', 'Tahun'])['Realisasi'].transform(decumulate)
         
         # Clip to 0 (sometimes data corrections by govt make the diff negative)
-        df_melt['Realisasi'] = df_melt['Realisasi'].clip(lower=0.0)
+        df['Realisasi'] = df['Realisasi'].clip(lower=0.0)
         
-        df_melt.to_csv(out_path, index=False)
+        # Recalculate Persentase for the discrete month
+        df['Persentase'] = (df['Realisasi'] / df['Anggaran'] * 100).fillna(0.0)
+        df['Persentase'] = df['Persentase'].replace([np.inf, -np.inf], 0.0)
+        
+        df.to_csv(out_path, index=False)
         logger.info(f"revenue_consolidated.csv dibangun dari data APBD asli "
-                    f"({len(df_melt)} baris).")
-        return df_melt
+                    f"({len(df)} baris).")
+        return df
 
     def load_revenue_data(self, filename=None):
         """
@@ -109,15 +123,11 @@ class BPSDataLoader:
         (data/raw/apbd_djpk_master_2021-2025.csv).
         """
         if filename is None:
-            # Load consolidated data
-            filepath = self.processed_path / "revenue_consolidated.csv"
-            # Auto-build dari data APBD asli bila consolidated belum ada
-            if not filepath.exists():
-                logger.info("revenue_consolidated.csv belum ada. "
-                            "Mencoba membangun dari data APBD asli...")
-                built = self.build_consolidated_from_apbd()
-                if built is not None:
-                    return built
+            # Force rebuild to ensure we have the latest decumulated data
+            logger.info("Membangun ulang revenue_consolidated.csv dari data APBD asli...")
+            built = self.build_consolidated_from_apbd()
+            if built is not None:
+                return built
         else:
             filepath = self.data_path / filename
         

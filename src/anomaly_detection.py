@@ -157,34 +157,51 @@ class AnomalyDetector:
             return 'Rendah'
         df['Severity'] = df.apply(_sev, axis=1)
 
-        # Alasan ringkas dan klasifikasi Jenis Fraud
+        # Alasan ringkas dan klasifikasi Jenis Fraud yang memperhitungkan Target & DNA Wilayah
         def _reason_and_fraud(r):
             if not r['Anomaly']:
                 return pd.Series(['-', '-'])
+            
             mom = r.get('MoM_Change', 0)
             seas = r.get('Seasonality_Deviation', 0)
-            jenis_fraud = "Anomali Pola Historis"
-            alasan = "pola tidak biasa dibanding tren historis"
+            persen = r.get('Persentase', 0)
+            prov = r.get('Provinsi', '')
+            jenis = r.get('Jenis_Pendapatan', '')
+            
+            jenis_fraud = "Anomali Statistik"
+            alasan = "Pola tidak biasa dibanding tren historis."
+            
+            # Regional DNA check (contoh untuk bbrp provinsi)
+            is_andalan = False
+            if prov == 'Bali' and 'Hotel' in jenis: is_andalan = True
+            elif prov == 'DKI Jakarta' and ('Kendaraan' in jenis or 'Iklan' in jenis): is_andalan = True
+            elif prov == 'Kalimantan Timur' and 'Bahan Bakar' in jenis: is_andalan = True
             
             if mom < -30:
-                jenis_fraud = "Indikasi Under-reporting"
+                if persen > 90:
+                    # Bukan fraud, tapi wajar karena target tercapai
+                    jenis_fraud = "Wajar (Target Tercapai)"
+                    alasan = f"Turun tajam, namun wajar karena pencapaian tahunan sudah {persen:.1f}%."
+                elif is_andalan:
+                    jenis_fraud = "Fluktuasi Sektor Andalan"
+                    alasan = f"Turun {abs(mom):.0f}% MoM pada sektor andalan daerah, kemungkinan faktor musiman/low-season."
+                else:
+                    jenis_fraud = "Indikasi Under-reporting"
+                    alasan = f"Penurunan drastis {abs(mom):.0f}% MoM, padahal pencapaian target baru {persen:.1f}%."
             elif mom > 50:
-                jenis_fraud = "Indikasi Spike / Manipulasi"
+                if persen > 100:
+                    jenis_fraud = "Over-realization (Spike)"
+                    alasan = f"Lonjakan luar biasa {mom:.0f}% MoM, pencapaian menembus target ({persen:.1f}%)."
+                elif is_andalan:
+                    jenis_fraud = "Peak-season Sektor Andalan"
+                    alasan = f"Lonjakan {mom:.0f}% MoM wajar karena faktor peak-season sektor unggulan daerah."
+                else:
+                    jenis_fraud = "Indikasi Spike / Manipulasi"
+                    alasan = f"Lonjakan tak wajar {mom:.0f}% MoM, padahal total pencapaian masih {persen:.1f}%."
             elif abs(seas) >= 40:
                 jenis_fraud = "Penyimpangan Musiman"
+                alasan = f"Menyimpang {abs(seas):.0f}% dari pola musiman biasanya."
                 
-            if abs(mom) >= 30:
-                arah = 'lonjakan' if mom > 0 else 'penurunan'
-                if abs(mom) > 500:
-                    alasan = f"{arah} ekstrem dibanding bulan sebelumnya"
-                else:
-                    alasan = f"{arah} tajam {abs(mom):.0f}% dari bulan sebelumnya"
-            elif abs(seas) >= 40:
-                if abs(seas) > 500:
-                    alasan = "menyimpang sangat jauh dari pola musiman biasanya"
-                else:
-                    alasan = f"menyimpang {abs(seas):.0f}% dari pola musiman biasanya"
-                    
             return pd.Series([jenis_fraud, alasan])
             
         df[['Jenis_Fraud', 'Alasan']] = df.apply(_reason_and_fraud, axis=1)

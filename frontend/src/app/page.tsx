@@ -22,7 +22,7 @@ import AIInsights from "@/components/dashboard/AIInsights";
 import RevenueChart from "@/components/charts/RevenueChart";
 import ProportionChart from "@/components/charts/ProportionChart";
 import DataTabs from "@/components/tables/DataTabs";
-import { FileText, Sparkles, Map, Database, AlertCircle, CheckCircle, XCircle } from "lucide-react";
+import { FileText, Sparkles, Map as MapIcon, Database, AlertCircle, CheckCircle, XCircle } from "lucide-react";
 import dynamic from "next/dynamic";
 
 // Dynamic import for map (requires browser APIs)
@@ -158,18 +158,48 @@ export default function DashboardPage() {
   // ─── KPI Calculations ───────────────────────────────────────
   const kpiData = useMemo(() => {
     const revenueToSum = filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType;
-    const totalRevenue = filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueToSum).reduce(
-      (sum, r) => sum + r.Realisasi,
-      0
-    );
+    const filteredRev = filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueToSum);
+    
+    // Get latest year for Current Year KPIs
+    const lastYear = filteredRev.length > 0 ? Math.max(...filteredRev.map(r => r.Tahun || parseInt(r.Tanggal.substring(0, 4)))) : 2025;
+    const thisYearRecords = filteredRev.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
+    const totalRevenue = thisYearRecords.reduce((sum, r) => sum + r.Realisasi, 0);
+
     const forecastTotal = filteredForecast.filter(r => r.Jenis_Pendapatan === revenueToSum).reduce(
       (sum, r) => sum + r.Prediksi,
       0
     );
 
-    const anomaliesOnly = filteredAnomalies.filter((r) => r.Anomaly);
-    const anomalyCount = anomaliesOnly.length;
-    const potentialLoss = anomaliesOnly.reduce(
+    // Get target percentage if Anggaran is available
+    let targetPercentage: number | undefined = undefined;
+    if (thisYearRecords.length > 0) {
+      const uniqueAnggaranMap = new Map<string, number>();
+      thisYearRecords.forEach(r => {
+        const key = `${r.Provinsi}-${r.Jenis_Pendapatan}`;
+        if (!uniqueAnggaranMap.has(key) && r.Anggaran) {
+          uniqueAnggaranMap.set(key, r.Anggaran);
+        }
+      });
+      
+      const totalAnggaran = Array.from(uniqueAnggaranMap.values()).reduce((a, b) => a + b, 0);
+      const thisYearRealisasi = totalRevenue; // already calculated
+      
+      if (totalAnggaran > 0) {
+        targetPercentage = (thisYearRealisasi / totalAnggaran) * 100;
+      }
+    }
+    
+    const AGGREGATE_TYPES = ["Total Pendapatan Daerah", "Total Belanja Daerah", "Belanja Modal"];
+    const anomaliesOnly = filteredAnomalies.filter((r) => {
+      if (!r.Anomaly) return false;
+      if (filters.selectedTaxType === "Semua Pendapatan") {
+        return !AGGREGATE_TYPES.includes(r.Jenis_Pendapatan) && !r.Jenis_Pendapatan.includes("Belanja");
+      }
+      return r.Jenis_Pendapatan === filters.selectedTaxType;
+    });
+    const thisYearAnomalies = anomaliesOnly.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
+    const anomalyCount = thisYearAnomalies.length;
+    const potentialLoss = thisYearAnomalies.reduce(
       (sum, r) => sum + r.Realisasi,
       0
     );
@@ -179,7 +209,7 @@ export default function DashboardPage() {
     const savedRevenue = potentialLoss * (filters.fraudPreventionPct / 100);
     
     // Kemandirian Fiskal = (PAD / Total Pendapatan Daerah) * 100
-    const totalPAD = filteredHistorical.filter(r => r.Jenis_Pendapatan === "Pendapatan Asli Daerah (PAD)").reduce((sum, r) => sum + r.Realisasi, 0);
+    const totalPAD = thisYearRecords.filter(r => r.Jenis_Pendapatan === "Pendapatan Asli Daerah (PAD)" || r.Jenis_Pendapatan === "PAD").reduce((sum, r) => sum + r.Realisasi, 0);
     
     // Asumsikan fraud prevention menambah efisiensi PAD
     const newPAD = totalPAD + savedRevenue;
@@ -189,6 +219,7 @@ export default function DashboardPage() {
 
     return {
       totalRevenue,
+      targetPercentage,
       forecastTotal,
       anomalyCount,
       potentialLoss,
@@ -240,9 +271,9 @@ export default function DashboardPage() {
 
   const handleExportPDF = useCallback(() => {
     import("@/lib/pdf").then(({ generatePDF }) => {
-      generatePDF(kpiData, policyRecs, filters);
+      generatePDF(kpiData, policyRecs, filters, bizData);
     });
-  }, [kpiData, policyRecs, filters]);
+  }, [kpiData, policyRecs, filters, bizData]);
 
   // ─── Debug Logging ──────────────────────────────────────────
   useEffect(() => {
@@ -319,6 +350,7 @@ export default function DashboardPage() {
         {/* KPI Cards */}
         <KPICards
           totalRevenue={kpiData.totalRevenue}
+          targetPercentage={kpiData.targetPercentage}
           forecastTotal={kpiData.forecastTotal}
           anomalyPct={kpiData.anomalyPct}
           anomalyCount={kpiData.anomalyCount}
@@ -469,8 +501,8 @@ export default function DashboardPage() {
               Historical Revenue vs Forecast (Ensemble AI)
             </h3>
             <RevenueChart
-              historical={filteredHistorical}
-              forecast={filteredForecast}
+              historical={filteredHistorical.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
+              forecast={filteredForecast.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
             />
           </div>
           <div className="chart-card animate-fade-in-up" style={{ animationDelay: "100ms" }}>
@@ -483,19 +515,20 @@ export default function DashboardPage() {
         <hr className="separator" />
 
         {/* Detailed Data Logs */}
-        <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-          <FileText size={18} /> Detailed Data Logs
-        </h3>
-        <DataTabs
-          forecast={filteredForecast}
+        <div id="data-logs">
+          <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <FileText size={18} /> Detailed Data Logs
+          </h3>
+          <DataTabs
+            forecast={filteredForecast}
           anomalies={filteredAnomalies}
           accuracy={data.accuracy}
           business={bizData}
           historical={filteredHistorical}
           selectedProvinces={filters.selectedProvinces}
           forecastMonths={filters.forecastMonths}
-        />
-
+          />
+        </div>
 
       </main>
     </div>

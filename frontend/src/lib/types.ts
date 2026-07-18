@@ -9,6 +9,8 @@ export interface HistoricalRecord {
   Provinsi: string;
   Jenis_Pendapatan: string;
   Realisasi: number;
+  Anggaran?: number;
+  Persentase?: number;
   Bulan?: number;
   Tahun?: number;
   Kuartal?: number;

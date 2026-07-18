@@ -55,7 +55,7 @@ Thumbs.db
 .DS_Store
 
 # Raw Data
-djpk_raw/*.dat
+*.dat
 
 # Development
 .devcontainer

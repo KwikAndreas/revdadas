@@ -33,9 +33,12 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
   const chartData = useMemo(() => {
     const dataMap = new Map<string, number>();
 
+    const EXCLUDED = ["Total Pendapatan Daerah", "Total Belanja Daerah", "Belanja Modal"];
     historical.forEach((r) => {
-      const current = dataMap.get(r.Jenis_Pendapatan) || 0;
-      dataMap.set(r.Jenis_Pendapatan, current + toBillions(r.Realisasi));
+      if (!EXCLUDED.includes(r.Jenis_Pendapatan)) {
+        const current = dataMap.get(r.Jenis_Pendapatan) || 0;
+        dataMap.set(r.Jenis_Pendapatan, current + toBillions(r.Realisasi));
+      }
     });
 
     const NAME_MAP: Record<string, string> = {
