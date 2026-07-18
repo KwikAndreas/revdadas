@@ -129,8 +129,8 @@ export function generatePDF(
       `${a.Provinsi}\n${a.Tanggal.split("T")[0]}`, 
       a.Jenis_Pendapatan, 
       formatCurrency(a.Realisasi),
-      a.Severity,
-      a.Alasan
+      a.Severity || "-",
+      a.Alasan || "-"
     ]);
 
     autoTable(doc, {
