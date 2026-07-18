@@ -1,6 +1,6 @@
 # RevDadas - Revenue Daerah Cerdas
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat)
 ![Status](https://img.shields.io/badge/status-Production_Ready-success?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
@@ -142,6 +142,13 @@ flowchart LR
     style G fill:#22c55e,color:#fff
 ```
 
+> **Contoh Output Model Forecasting (Prophet):**
+> * **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
+> * **Periode Evaluasi:** Januari 2026
+> * **Nilai Proyeksi (yhat):** Rp 257,60 Miliar
+> * **Interval Kepercayaan (95% CI):** Rp 158,56 Miliar (Lower) s.d Rp 352,94 Miliar (Upper).
+> * **Analisis Algoritmik:** Model merepresentasikan pola historis penurunan realisasi anggaran pada kuartal pertama (*Q1 cyclicality*), dengan mempertahankan margin toleransi ketidakpastian matematis yang kokoh bagi perencana APBD.
+
 ### 2. Deteksi Anomali / Fraud (Isolation Forest)
 Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan *under-reporting* atau *fraud*), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
 *(Update Patch: Ekstraksi fitur kini dikelompokkan secara spesifik per seri **Provinsi + Jenis Pendapatan** agar deteksi MoM (Month-over-Month) dan pergerakan rata-rata tidak mencampuradukkan sumber pendapatan yang berbeda, sehingga tingkat deteksi anomali jauh lebih presisi)*.
@@ -163,6 +170,34 @@ flowchart TD
     
     style E fill:#f43f5e,color:#fff
     style G fill:#e11d48,color:#fff
+```
+
+> **Contoh Deteksi Anomali (Isolation Forest):**
+> * **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
+> * **Periode Terdeteksi:** Februari 2025
+> * **Nilai Realisasi:** Rp 14,14 Miliar
+> * **Matriks Fitur (Feature Extraction):** Terjadi deviasi ekstrem dengan nilai `YoY_Growth` terkontraksi pada level -98,28%, berbanding terbalik dengan nilai `MoM_Change` yang mengalami lonjakan (*spike*) sebesar +69.912,8%.
+> * **Hasil Klasifikasi:** `Severity: Sedang` | `Indikasi: Spike / Manipulasi`
+> * **Justifikasi Mesin:** Terdeteksi lonjakan logaritmik eksponensial secara bulanan (MoM) meskipun persentase penyerapan total terhadap pagu anggaran riil (0,2%) tidak berkorelasi dengan volatilitas tersebut.
+
+### 3. Simulasi Output Metrik Dashboard (Kasus 3 Provinsi)
+Berikut adalah *snapshot* log sistem yang mendemonstrasikan kalkulasi final dari layar *dashboard* (pasca-kalibrasi agregat *Current Year*) ketika melakukan *stress-test* pada tiga provinsi berpendapatan terbesar di Indonesia secara bersamaan.
+
+```text
+================ DEBUG INFO ================
+Total Revenue                 : Rp 330.1 T
+Forecast 9 Bulan              : Rp 293.1 T
+Risiko Fraud/Anomali          : 6.1% (13 records deteksi)
+Revenue Loss Deteksi          : Rp 20.1 T
+Kemandirian Fiskal            : 0.3%
+Potensi Penyelamatan Arus Kas : Rp 1.0 T
+================ Pengaturan ================
+Jenis Pendapatan : Semua Pendapatan
+Provinsi Target  : DKI Jakarta, Jawa Barat, Jawa Timur
+Periode Prediksi : 9 Bulan
+Pencegahan Fraud : 5%
+============================================
+
 ```
 
 ---
