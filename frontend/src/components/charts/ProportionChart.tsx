@@ -33,24 +33,26 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
   const chartData = useMemo(() => {
     const dataMap = new Map<string, number>();
 
-    const EXCLUDED = ["Total Pendapatan Daerah", "Total Belanja Daerah", "Belanja Modal"];
     historical.forEach((r) => {
-      if (!EXCLUDED.includes(r.Jenis_Pendapatan)) {
-        const current = dataMap.get(r.Jenis_Pendapatan) || 0;
-        dataMap.set(r.Jenis_Pendapatan, current + toBillions(r.Realisasi));
+      const name = r.Jenis_Pendapatan.toLowerCase();
+      const val = toBillions(r.Realisasi);
+      
+      // 1. PAD
+      if (name === "pendapatan asli daerah (pad)") {
+        dataMap.set("Pendapatan Asli Daerah (PAD)", (dataMap.get("Pendapatan Asli Daerah (PAD)") || 0) + val);
+      }
+      // 2. Transfer
+      else if (name === "pendapatan transfer pemerintah pusat" || name === "pendapatan transfer antar daerah" || name === "tkdd") {
+        dataMap.set("Pendapatan Transfer", (dataMap.get("Pendapatan Transfer") || 0) + val);
+      }
+      // 3. Lainnya
+      else if (name === "lain-lain pendapatan sesuai dengan ketentuan peraturan perundang-undangan" || name === "pendapatan hibah") {
+        dataMap.set("Pendapatan Lainnya", (dataMap.get("Pendapatan Lainnya") || 0) + val);
       }
     });
 
-    const NAME_MAP: Record<string, string> = {
-      "lain-lain pendapatan sesuai dengan ketentuan peraturan perundang-undangan": "Pendapatan Lainnya",
-      "pendapatan hibah": "Hibah",
-      "hasil pengelolaan kekayaan daerah yang dipisahkan": "Hasil Kekayaan Daerah",
-      "pendapatan transfer pemerintah pusat": "Transfer Pusat",
-      "pendapatan transfer antar daerah": "Transfer Antar Daerah"
-    };
-
     return Array.from(dataMap.entries())
-      .map(([name, value]) => ({ name: NAME_MAP[name.toLowerCase()] || name, value }))
+      .map(([name, value]) => ({ name, value }))
       .sort((a, b) => b.value - a.value); // Descending for largest at the top
   }, [historical]);
 
@@ -74,7 +76,7 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
             tick={{ fontSize: 11, fill: "#64748b" }}
             axisLine={false}
             tickLine={false}
-            label={{ value: "(dlm miliar rupiah)", position: "insideBottom", offset: -15, fontSize: 10, fill: "#94a3b8" }}
+            label={{ value: "(dalam satuan miliar rupiah)", position: "insideBottom", offset: -15, fontSize: 10, fill: "#94a3b8" }}
           />
           <YAxis
             dataKey="name"

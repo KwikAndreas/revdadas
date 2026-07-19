@@ -13,6 +13,7 @@ import {
   formatCurrency,
   DEFAULT_PROVINCES,
   getPriorityColors,
+  toBillions,
 } from "@/lib/utils";
 import Sidebar from "@/components/layout/Sidebar";
 import Header from "@/components/layout/Header";
@@ -75,12 +76,19 @@ export default function DashboardPage() {
     });
   }, [data, filters]);
 
+  const historicalForProportion = useMemo<HistoricalRecord[]>(() => {
+    if (!data) return [];
+    return data.historical.filter((r) => filters.selectedProvinces.includes(r.Provinsi));
+  }, [data, filters.selectedProvinces]);
+
+
   const filteredForecast = useMemo<ForecastRecord[]>(() => {
     if (!data) return [];
     const period = filters.forecastMonths;
     const forecasts = data.forecasts[String(period)] || [];
     const { selectedProvinces, selectedTaxType } = filters;
     return forecasts.filter((r) => {
+      if (r.Jenis_Pendapatan.toLowerCase().includes("belanja")) return false;
       const provMatch = selectedProvinces.includes(r.Provinsi);
       const taxMatch =
         selectedTaxType === "Semua Pendapatan" ||
@@ -91,8 +99,10 @@ export default function DashboardPage() {
 
   const filteredAnomalies = useMemo<AnomalyRecord[]>(() => {
     if (!data) return [];
-    const period = filters.forecastMonths;
-    const anomalies = data.anomalies[String(period)] || [];
+    // Anomaly data is now a flat array (no longer keyed by forecast period)
+    const anomalies = data.anomalies;
+    if (!Array.isArray(anomalies)) return []; // Guard against old cached object structure
+    
     const { selectedProvinces, selectedTaxType } = filters;
     return anomalies.filter((r: any) => {
       const provMatch = selectedProvinces.includes(r.Provinsi);
@@ -197,10 +207,12 @@ export default function DashboardPage() {
       }
       return r.Jenis_Pendapatan === filters.selectedTaxType;
     });
-    const thisYearAnomalies = anomaliesOnly.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
-    const anomalyCount = thisYearAnomalies.length;
-    const potentialLoss = thisYearAnomalies.reduce(
-      (sum, r) => sum + r.Realisasi,
+    // Use ALL historical anomalies for the KPI to match the table
+    const targetAnomalies = anomaliesOnly;
+    const anomalyCount = targetAnomalies.length;
+    // Use Deviasi (difference from expected) instead of total Realisasi
+    const potentialLoss = targetAnomalies.reduce(
+      (sum, r) => sum + Math.abs(r.Deviasi ?? 0),
       0
     );
     const anomalyPct =
@@ -209,11 +221,19 @@ export default function DashboardPage() {
     const savedRevenue = potentialLoss * (filters.fraudPreventionPct / 100);
     
     // Kemandirian Fiskal = (PAD / Total Pendapatan Daerah) * 100
-    const totalPAD = thisYearRecords.filter(r => r.Jenis_Pendapatan === "Pendapatan Asli Daerah (PAD)" || r.Jenis_Pendapatan === "PAD").reduce((sum, r) => sum + r.Realisasi, 0);
+    const thisYearProportionRecords = historicalForProportion.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
+    
+    const totalPAD = thisYearProportionRecords
+      .filter(r => r.Jenis_Pendapatan.toLowerCase().includes("pendapatan asli daerah"))
+      .reduce((sum, r) => sum + r.Realisasi, 0);
+      
+    const actualTotalRevenue = thisYearProportionRecords
+      .filter(r => r.Jenis_Pendapatan === "Total Pendapatan Daerah")
+      .reduce((sum, r) => sum + r.Realisasi, 0);
     
     // Asumsikan fraud prevention menambah efisiensi PAD
     const newPAD = totalPAD + savedRevenue;
-    const newTotalRevenue = totalRevenue + savedRevenue;
+    const newTotalRevenue = (actualTotalRevenue > 0 ? actualTotalRevenue : totalRevenue) + savedRevenue;
     
     const kemandirianFiskal = newTotalRevenue > 0 ? (newPAD / newTotalRevenue) * 100 : 0;
 
@@ -226,7 +246,8 @@ export default function DashboardPage() {
       anomalyPct,
       kemandirianFiskal,
       savedRevenue,
-      anomalies: anomaliesOnly,
+      anomalies: targetAnomalies,
+      thisYearProportionRecords,
     };
   }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct]);
 
@@ -251,15 +272,123 @@ export default function DashboardPage() {
     return `Akurasi Model (Median) ${medianAkurasi.toFixed(0)}%`;
   }, [data, filters]);
 
+  useEffect(() => {
+    if (process.env.NODE_ENV !== 'development' || !data) return;
+    
+    let output = "================ DEBUG INFO ================\n";
+    
+    // 1. SUMMARY KPI
+    output += "[SUMMARY] KINERJA UTAMA (KPI)\n";
+    output += `Total Revenue                 : ${formatCurrency(kpiData.totalRevenue)}\n`;
+    output += `Forecast 9 Bulan              : ${formatCurrency(kpiData.forecastTotal)}\n`;
+    output += `Risiko Fraud/Anomali          : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n`;
+    output += `Revenue Loss Deteksi          : ${formatCurrency(kpiData.potentialLoss)}\n`;
+    output += `Kemandirian Fiskal            : ${kpiData.kemandirianFiskal.toFixed(1)}%\n`;
+    output += `Potensi Penyelamatan Arus Kas : ${formatCurrency(kpiData.savedRevenue)}\n\n`;
+
+    // 2. PROPORSI SUMBER PENDAPATAN
+    output += "[MODULE] PROPORSI SUMBER PENDAPATAN\n";
+    const dataMap = new Map<string, number>();
+    kpiData.thisYearProportionRecords.forEach((r) => {
+      const name = r.Jenis_Pendapatan.toLowerCase();
+      const val = toBillions(r.Realisasi);
+      if (name === "pendapatan asli daerah (pad)") {
+        dataMap.set("Pendapatan Asli Daerah (PAD)", (dataMap.get("Pendapatan Asli Daerah (PAD)") || 0) + val);
+      } else if (name === "pendapatan transfer pemerintah pusat" || name === "pendapatan transfer antar daerah" || name === "tkdd") {
+        dataMap.set("Pendapatan Transfer", (dataMap.get("Pendapatan Transfer") || 0) + val);
+      } else if (name === "lain-lain pendapatan sesuai dengan ketentuan peraturan perundang-undangan" || name === "pendapatan hibah") {
+        dataMap.set("Pendapatan Lainnya", (dataMap.get("Pendapatan Lainnya") || 0) + val);
+      }
+    });
+    
+    const propData = Array.from(dataMap.entries())
+      .sort((a, b) => b[1] - a[1]);
+    const totalProp = propData.reduce((acc, curr) => acc + curr[1], 0);
+
+    propData.slice(0, 5).forEach((p, i) => {
+      const pct = totalProp > 0 ? (p[1] / totalProp) * 100 : 0;
+      const barLength = Math.floor(pct / 3);
+      const bar = "[".padEnd(barLength + 1, "|").padEnd(21, " ") + "]";
+      const label = p[0].substring(0, 27).padEnd(27, " ");
+      const valStr = `Rp ${(p[1]/1000).toFixed(1)} T`.padStart(11, " ");
+      output += `${i + 1}. ${label} : ${valStr} ${bar} ${pct.toFixed(1)}%\n`;
+    });
+    output += "\n";
+
+    // 3. FORECAST DATA (Sample)
+    output += "[MODULE] DETAIL DATA LOGS\n\n";
+    output += "> TAB: FORECAST DATA (Sample Top 3)\n";
+    output += "Tanggal    | Provinsi         | Jenis Pendapatan             | Prediksi       | Metode\n";
+    output += "".padEnd(85, "-") + "\n";
+    filteredForecast.slice(0, 3).forEach(r => {
+      const d = r.Tanggal.split("T")[0];
+      const prov = r.Provinsi.substring(0, 16).padEnd(16, " ");
+      const jenis = r.Jenis_Pendapatan.substring(0, 28).padEnd(28, " ");
+      const val = `Rp ${(toBillions(r.Prediksi)/1000).toFixed(1)} T`.padEnd(14, " ");
+      output += `${d} | ${prov} | ${jenis} | ${val} | ${r.Metode || "-"}\n`;
+    });
+    output += "\n";
+
+    // 4. ANOMALIES (Sample)
+    output += "> TAB: ANOMALIES (Sample Top 3)\n";
+    output += "Tanggal    | Provinsi         | Jenis Pendapatan             | Realisasi      | Severity\n";
+    output += "".padEnd(85, "-") + "\n";
+    const topAnomalies = filteredAnomalies.filter(a => a.Anomaly).sort((a,b) => b.Realisasi - a.Realisasi).slice(0, 3);
+    if (topAnomalies.length > 0) {
+      topAnomalies.forEach(r => {
+        const d = r.Tanggal.split("T")[0];
+        const prov = r.Provinsi.substring(0, 16).padEnd(16, " ");
+        const jenis = r.Jenis_Pendapatan.substring(0, 28).padEnd(28, " ");
+        const val = `Rp ${(toBillions(r.Realisasi)/1000).toFixed(1)} T`.padEnd(14, " ");
+        output += `${d} | ${prov} | ${jenis} | ${val} | ${r.Severity}\n`;
+      });
+    } else {
+      output += "Tidak ada deteksi anomali pada subset ini.\n";
+    }
+    output += "\n";
+
+    // 5. ACCURACY
+    output += "> TAB: AKURASI MODEL (WAPE) (Sample Top 3)\n";
+    output += "Provinsi         | Jenis Pendapatan             | Akurasi | WAPE    | Keandalan\n";
+    output += "".padEnd(85, "-") + "\n";
+    const accuracySeries = data.accuracy?.by_series?.filter(a => 
+      filters.selectedProvinces.includes(a.Provinsi) && 
+      (filters.selectedTaxType === "Semua Pendapatan" || a.Jenis_Pendapatan === filters.selectedTaxType)
+    ) || [];
+    
+    accuracySeries.slice(0, 3).forEach(r => {
+      const prov = r.Provinsi.substring(0, 16).padEnd(16, " ");
+      const jenis = r.Jenis_Pendapatan.substring(0, 28).padEnd(28, " ");
+      const ak = `${r.Akurasi.toFixed(1)}%`.padEnd(7, " ");
+      const wa = `${r.WAPE ? r.WAPE.toFixed(1) : "-"}%`.padEnd(7, " ");
+      let ke = "🔴 Lemah";
+      if (r.WAPE !== null) {
+        if (r.WAPE < 30) ke = "🟢 Andal";
+        else if (r.WAPE < 50) ke = "🟡 Cukup";
+      }
+      output += `${prov} | ${jenis} | ${ak} | ${wa} | ${ke}\n`;
+    });
+    output += "\n";
+
+    output += "================ Pengaturan ================\n";
+    output += `Jenis Pendapatan : ${filters.selectedTaxType}\n`;
+    output += `Provinsi Target  : ${filters.selectedProvinces.length > 3 ? filters.selectedProvinces.slice(0,3).join(", ") + " dll" : filters.selectedProvinces.join(", ")}\n`;
+    output += `Periode Prediksi : ${filters.forecastMonths} Bulan\n`;
+    output += `Pencegahan Fraud : ${filters.fraudPreventionPct}%\n`;
+    output += "============================================";
+    
+    console.log(output);
+  }, [kpiData, filters, historicalForProportion, filteredForecast, filteredAnomalies, data]);
+
   // ─── Insight Text ────────────────────────────────────────────
   const insightText = useMemo(() => {
-    const anomaliesOnly = filteredAnomalies.filter((r) => r.Anomaly);
+    const anomaliesOnly = kpiData.anomalies;
     if (anomaliesOnly.length === 0) {
       return "Sistem berjalan optimal. Tidak ada anomali signifikan.";
     }
     const top = anomaliesOnly[0];
     return `Terdeteksi diskrepansi data dan anomali pada pencatatan <b>${top.Jenis_Pendapatan}</b> di wilayah <b>${top.Provinsi}</b>.`;
-  }, [filteredAnomalies]);
+  }, [kpiData.anomalies]);
 
   // ─── Handlers ────────────────────────────────────────────────
   const handleFilterChange = useCallback(
@@ -394,7 +523,12 @@ export default function DashboardPage() {
             <ImpactCalculator
               potentialLoss={kpiData.potentialLoss}
               fraudPreventionPct={filters.fraudPreventionPct}
-              onShowRecs={() => setShowRecs(true)}
+              onShowRecs={() => {
+                setShowRecs(true);
+                setTimeout(() => {
+                  document.getElementById('rekomendasi-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 85);
+              }}
             />
             <AIInsights insightText={insightText} />
           </div>
@@ -402,7 +536,7 @@ export default function DashboardPage() {
 
         {/* Policy Recommendations (Moved up for UX Best Practice) */}
         {showRecs && (
-          <div className="animate-fade-in-up" style={{ marginBottom: 32 }}>
+          <div id="rekomendasi-section" className="animate-fade-in-up" style={{ marginBottom: 32 }}>
             <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <Sparkles size={18} /> Rekomendasi Berbasis Algoritma
             </h3>
@@ -507,7 +641,7 @@ export default function DashboardPage() {
           </div>
           <div className="chart-card animate-fade-in-up" style={{ animationDelay: "100ms" }}>
             <h3 className="section-title">Proporsi Sumber Pendapatan</h3>
-            <ProportionChart historical={filteredHistorical} />
+            <ProportionChart historical={kpiData.thisYearProportionRecords} />
           </div>
         </div>
 
@@ -521,7 +655,7 @@ export default function DashboardPage() {
           </h3>
           <DataTabs
             forecast={filteredForecast}
-          anomalies={filteredAnomalies}
+          anomalies={kpiData.anomalies}
           accuracy={data.accuracy}
           business={bizData}
           historical={filteredHistorical}

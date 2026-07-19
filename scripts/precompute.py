@@ -120,11 +120,11 @@ def compute_forecasts(df):
     return all_forecasts, accuracy_data
 
 
-def compute_anomalies(df, forecast_months):
-    """Pre-compute anomaly detection."""
-    # Dynamic contamination matching Streamlit app.py
-    contamination = 0.03 + (forecast_months - 6) * (0.04 / 18)
-    contamination = max(0.02, min(0.08, contamination))
+def compute_anomalies(df):
+    """Pre-compute anomaly detection (once, independent of forecast period)."""
+    # Contamination fixed — anomaly detection menganalisis data historis,
+    # tidak bergantung pada forecast period.
+    contamination = 0.05
     
     detector = anomaly_detection.AnomalyDetector(contamination=contamination)
     detector.train(df)
@@ -216,13 +216,10 @@ def main():
     save_json(all_forecasts, "forecasts.json")
     save_json(accuracy_data, "accuracy.json")
 
-    # 5. Compute and export anomalies for each forecast period
-    print("\n[INFO] Computing anomalies for all periods...")
-    all_anomalies = {}
-    for period in FORECAST_PERIODS:
-        anom_data = compute_anomalies(df, period)
-        all_anomalies[str(period)] = anom_data
-    save_json(all_anomalies, "anomalies.json")
+    # 5. Compute and export anomalies ONCE (no longer per forecast period)
+    print("\n[INFO] Computing anomalies (single pass)...")
+    anomaly_data = compute_anomalies(df)
+    save_json(anomaly_data, "anomalies.json")
 
     # 6. Compute business recommendations for each forecast period
     print("\n[INFO] Computing business recommendations for all periods...")
@@ -244,9 +241,10 @@ def main():
         fc_df_24["Tanggal"] = pd.to_datetime(fc_df_24["Tanggal"])
     else:
         fc_df_24 = None
-        
-    anom_df_24 = pd.DataFrame(all_anomalies.get("24", []))
-    if not anom_df_24.empty: 
+
+    # Use single anomaly result (no longer per-period)
+    anom_df_24 = pd.DataFrame(anomaly_data) if anomaly_data else None
+    if anom_df_24 is not None and not anom_df_24.empty:
         anom_df_24["Tanggal"] = pd.to_datetime(anom_df_24["Tanggal"])
     else:
         anom_df_24 = None

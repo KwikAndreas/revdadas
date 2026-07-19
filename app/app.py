@@ -169,8 +169,8 @@ def train_models(_df, forecast_months, cache_key):
         forecaster = forecasting.RevenueForecaster(periods=forecast_months)
         forecast_results = forecaster.train_and_forecast_all(_df, run_backtest=True, backtest_horizon=6)
         
-        contamination = 0.03 + (forecast_months - 6) * (0.04 / 18)  # Range 0.03-0.07
-        detector = anomaly_detection.AnomalyDetector(contamination=max(0.02, min(0.08, contamination)))
+        contamination = 0.05  # Fixed — anomaly detection tidak bergantung pada forecast period
+        detector = anomaly_detection.AnomalyDetector(contamination=contamination)
         detector.train(_df)
         anomaly_results = detector.detect(_df)
         
@@ -364,8 +364,9 @@ def main():
         anomalies_only = anomaly_results[anomaly_results['Anomaly'] == True]
         anomaly_count = len(anomalies_only)
         
-        # 1. Potential Loss = Total uang dari transaksi yang mencurigakan (anomali)
-        potential_loss = anomalies_only['Realisasi'].sum()
+        # 1. Potential Loss = Deviasi (selisih vs expected) dari transaksi anomali
+        #    Bukan total nominal — karena nominal bukan berarti semuanya "hilang"
+        potential_loss = abs(anomalies_only['Deviasi'].sum()) if 'Deviasi' in anomalies_only.columns else anomalies_only['Realisasi'].sum()
         
         # 2. Persentase Risiko = Proporsi nominal uang anomali terhadap total uang
         if total_revenue > 0:

@@ -59,7 +59,8 @@ export default function KPICards({
         className="kpi-card animate-fade-in-up" 
         style={{ cursor: "pointer" }}
         onClick={() => {
-          document.getElementById('data-logs')?.scrollIntoView({ behavior: 'smooth' });
+          document.getElementById('data-logs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          window.dispatchEvent(new CustomEvent('switchTab', { detail: 1 }));
         }}
       >
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>

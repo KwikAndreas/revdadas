@@ -27,7 +27,7 @@ async function fetchJSON<T>(filename: string): Promise<T> {
 let cachedMeta: Meta | null = null;
 let cachedHistorical: HistoricalRecord[] | null = null;
 let cachedForecasts: Record<string, ForecastRecord[]> | null = null;
-let cachedAnomalies: Record<string, AnomalyRecord[]> | null = null;
+let cachedAnomalies: AnomalyRecord[] | null = null;
 let cachedAccuracy: AccuracyData | null = null;
 let cachedBusiness: Record<string, BusinessData> | null = null;
 let cachedPolicy: Record<string, Record<string, PolicyRecommendation[]>> | null = null;
@@ -49,9 +49,9 @@ export async function loadForecasts(): Promise<Record<string, ForecastRecord[]>>
   return cachedForecasts;
 }
 
-export async function loadAnomalies(): Promise<Record<string, AnomalyRecord[]>> {
+export async function loadAnomalies(): Promise<AnomalyRecord[]> {
   if (!cachedAnomalies)
-    cachedAnomalies = await fetchJSON<Record<string, AnomalyRecord[]>>("anomalies.json");
+    cachedAnomalies = await fetchJSON<AnomalyRecord[]>("anomalies.json");
   return cachedAnomalies;
 }
 

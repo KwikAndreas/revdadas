@@ -43,6 +43,14 @@ export default function DataTabs({
 }: DataTabsProps) {
   const [activeTab, setActiveTab] = useState(0);
 
+  useEffect(() => {
+    const handleSwitch = (e: any) => {
+      setActiveTab(e.detail);
+    };
+    window.addEventListener('switchTab', handleSwitch);
+    return () => window.removeEventListener('switchTab', handleSwitch);
+  }, []);
+
   const tabs = [
     { label: "Forecast Data", icon: <LineChart size={16} /> },
     { label: "Anomalies", icon: <AlertTriangle size={16} /> },
@@ -99,10 +107,9 @@ function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accur
   }
 
   const uniqueProvinces = Array.from(new Set(forecast.map((r) => r.Provinsi))).sort();
-  const filteredForecast =
-    selectedProv === "Semua Provinsi"
-      ? forecast
-      : forecast.filter((r) => r.Provinsi === selectedProv);
+  const filteredForecast = forecast
+    .filter((r) => !r.Jenis_Pendapatan.includes("Belanja"))
+    .filter((r) => selectedProv === "Semua Provinsi" || r.Provinsi === selectedProv);
 
   const downloadCSV = () => {
     const headers = ["Tanggal,Provinsi,Jenis_Pendapatan,Prediksi,Batas_Bawah,Batas_Atas,Metode"];
@@ -285,7 +292,6 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
               }}
             >
               {sortKey === "Severity" ? "Tingkat Keparahan" : sortKey === "Realisasi" ? "Nominal Realisasi" : "Tanggal"}
-              <ArrowDown size={14} color="#64748b" style={{ position: "absolute", right: 8 }} />
             </div>
             
             {dropdownOpen && (
@@ -347,9 +353,20 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
             </tr>
           </thead>
           <tbody>
-            {paginatedAnomalies.map((r, i) => (
-              <tr key={i}>
-                <td>{r.Tanggal.split("T")[0]}</td>
+            {paginatedAnomalies.map((r, i) => {
+              const isCurrentYear = parseInt(r.Tanggal.substring(0, 4)) === 2025;
+              return (
+              <tr key={i} style={isCurrentYear ? { backgroundColor: "rgba(239, 68, 68, 0.05)" } : {}}>
+                <td>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                    {r.Tanggal.split("T")[0]}
+                    {isCurrentYear && (
+                      <span style={{ fontSize: 10, background: "#ef4444", color: "white", padding: "2px 6px", borderRadius: 4, fontWeight: "bold" }}>
+                        Pantau!
+                      </span>
+                    )}
+                  </div>
+                </td>
                 <td>{r.Provinsi}</td>
                 <td>{r.Jenis_Pendapatan}</td>
                 <td style={{ color: "#dc2626", fontWeight: 600 }}>{formatCurrency(r.Realisasi)}</td>
@@ -367,7 +384,8 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                 <td style={{ fontSize: 12, fontWeight: 600, color: "#475569" }}>{r.Jenis_Fraud || "-"}</td>
                 <td style={{ fontSize: 11, maxWidth: 300 }}>{r.Alasan}</td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -455,7 +473,9 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
             </tr>
           </thead>
           <tbody>
-            {accuracy.by_series.map((r, i) => {
+            {accuracy.by_series
+              .filter(r => !r.Jenis_Pendapatan.includes("Belanja"))
+              .map((r, i) => {
               const w = r.WAPE;
               let keandalan = "🔴 Lemah";
               let color = "#ef4444";

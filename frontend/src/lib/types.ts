@@ -42,6 +42,9 @@ export interface AnomalyRecord {
   Severity?: string;
   Alasan?: string;
   Jenis_Fraud?: string;
+  Deviasi?: number;              // selisih vs expected (moving average)
+  Materiality?: string;          // 'Material' | 'Minor' | '-'
+  Bulan_Nol_Sebelumnya?: number; // consecutive zero months before this row
 }
 
 // ─── Accuracy Data ────────────────────────────────────────────────

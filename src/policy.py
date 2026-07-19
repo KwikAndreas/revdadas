@@ -111,25 +111,31 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
         
         n_anom = len(fraud_anomalies)
         if n_anom > 0:
-            loss = float(fraud_anomalies["Realisasi"].sum())
+            # Gunakan Deviasi (selisih vs expected) — bukan total nominal.
+            # Total nominal menyesatkan karena seolah seluruhnya "hilang".
+            if 'Deviasi' in fraud_anomalies.columns:
+                loss = float(fraud_anomalies["Deviasi"].abs().sum())
+            else:
+                loss = float(fraud_anomalies["Realisasi"].sum())
             potensi_selamat = loss * (fraud_prevention_pct / 100.0)
             top_prov = fraud_anomalies["Provinsi"].value_counts().idxmax()
             top_jenis = fraud_anomalies["Jenis_Pendapatan"].value_counts().idxmax()
             
             recs.append({
-                "judul": "Audit pos pendapatan dengan deviasi target tak wajar",
+                "judul": "Audit pos pendapatan dengan deviasi tak wajar",
                 "prioritas": "Tinggi",
-                "detail": (f"Terdeteksi {n_anom} catatan indikasi anomali (nominal {_fmt(loss)}). "
-                           f"Perketat pengawasan di {top_prov}, terutama pos \"{top_jenis}\" yang "
-                           f"deviasinya tidak sejalan dengan capaian target (Persentase). Audit terfokus dapat menyelamatkan "
-                           f"~{_fmt(potensi_selamat)} (pencegahan {fraud_prevention_pct}%)."),
+                "detail": (f"Terdeteksi {n_anom} catatan anomali dengan total deviasi {_fmt(loss)} "
+                           f"dari nilai yang diharapkan. "
+                           f"Perketat pengawasan di {top_prov}, terutama pos \"{top_jenis}\". "
+                           f"Audit terfokus berpotensi memulihkan "
+                           f"~{_fmt(potensi_selamat)} (asumsi pencegahan {fraud_prevention_pct}%)."),
                 "kebijakan_existing": "Pemeriksaan pajak dilakukan secara random atau periodik (tahunan).",
                 "kelebihan": ["Menyelamatkan kas daerah secara instan", "Memberi efek jera"],
                 "kekurangan": ["Biaya audit lapangan yang cukup tinggi"],
                 "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah terselamatkan)",
                 "kaitan_bisnis": f"Meningkatkan penerimaan sebesar {_fmt(potensi_selamat)}.",
                 "perbandingan": "Audit Tertarget AI vs Audit Konvensional / Acak",
-                "justifikasi": "Audit berbasis deviasi target & historis terbukti 10x lebih efisien dari audit acak."
+                "justifikasi": "Audit berbasis deviasi historis terbukti 10x lebih efisien dari audit acak."
             })
 
     # --- 3. Diversifikasi sumber pendapatan vs DNA Daerah ---

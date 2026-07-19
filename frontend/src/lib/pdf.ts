@@ -117,8 +117,8 @@ export function generatePDF(
   if (kpis.anomalies && kpis.anomalies.length > 0) {
     if (finalY > 230) { doc.addPage(); finalY = 20; }
 
-    // Sort anomalies by highest realisasi
-    const topAnomalies = [...kpis.anomalies].sort((a, b) => b.Realisasi - a.Realisasi).slice(0, 5);
+    // Sort anomalies by highest deviation (most anomalous first)
+    const topAnomalies = [...kpis.anomalies].sort((a, b) => Math.abs(b.Deviasi ?? 0) - Math.abs(a.Deviasi ?? 0)).slice(0, 5);
     
     doc.setTextColor(...primaryColor);
     doc.setFontSize(14);

@@ -78,12 +78,12 @@ export default function HeatmapIndonesia({
     const provForecast = forecast.filter((r) => r.Provinsi === prov);
     const totalForecast = provForecast.reduce((sum, r) => sum + r.Prediksi, 0);
 
-    // Risk / Anomalies
+    // Risk / Anomalies — use Deviasi (deviation from expected) not total Realisasi
     const provAnomalies = anomalies.filter(
       (r) => r.Provinsi === prov && r.Anomaly
     );
     const totalAnomalyValue = provAnomalies.reduce(
-      (sum, r) => sum + r.Realisasi,
+      (sum, r) => sum + Math.abs(r.Deviasi ?? 0),
       0
     );
     const riskPct = totalRev > 0 ? (totalAnomalyValue / totalRev) * 100 : 0;

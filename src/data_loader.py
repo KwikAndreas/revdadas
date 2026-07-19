@@ -68,6 +68,12 @@ class BPSDataLoader:
             'Pendapatan Transfer Antar Daerah'
         ]
         df = df[df['Jenis_Pendapatan'].isin(ACCOUNTS_TO_KEEP)].copy()
+
+        # Exclude 2021-2022: SIKD hanya menyimpan angka tahunan (sama tiap bulan),
+        # sehingga de-kumulasi menghasilkan baris artifisial. Konsisten dengan
+        # apbd_adapter.py (MONTHLY_YEARS = [2023, 2024, 2025]).
+        MONTHLY_YEARS = [2023, 2024, 2025]
+        df = df[df['Tahun'].isin(MONTHLY_YEARS)].copy()
         
         # Create 'Tanggal' column
         df['Tanggal'] = pd.to_datetime(
@@ -87,12 +93,18 @@ class BPSDataLoader:
         # Filter invalid
         df['Realisasi'] = pd.to_numeric(df['Realisasi'], errors='coerce').fillna(0.0)
         df['Anggaran'] = pd.to_numeric(df['Anggaran'], errors='coerce').fillna(0.0)
+        df['Persentase'] = pd.to_numeric(df['Persentase'], errors='coerce').fillna(0.0)
         
         # Drop duplicates before sorting and decumulating!
         df = df.drop_duplicates(subset=['Tahun', 'Bulan', 'Provinsi', 'Jenis_Pendapatan'], keep='last')
         
         # Sort values
         df = df.sort_values(['Provinsi', 'Jenis_Pendapatan', 'Tahun', 'Bulan']).reset_index(drop=True)
+
+        # Simpan Persentase YTD kumulatif ASLI dari DJPK SEBELUM de-kumulasi.
+        # Ini adalah persentase pencapaian tahunan yang bermakna (Jan ~8%, Jun ~50%, Des ~100%),
+        # bukan Realisasi_bulan / Anggaran_tahun yang hanya menghasilkan ~1-5%.
+        df['Persentase_YTD'] = df['Persentase'].copy()
         
         # DECUMULATE: The DJPK data is Year-To-Date cumulative. 
         # We must decumulate it to discrete monthly values.
@@ -103,14 +115,15 @@ class BPSDataLoader:
         
         # Clip to 0 (sometimes data corrections by govt make the diff negative)
         df['Realisasi'] = df['Realisasi'].clip(lower=0.0)
-        
-        # Recalculate Persentase for the discrete month
-        df['Persentase'] = (df['Realisasi'] / df['Anggaran'] * 100).fillna(0.0)
-        df['Persentase'] = df['Persentase'].replace([np.inf, -np.inf], 0.0)
+
+        # Persentase: gunakan YTD kumulatif yang sudah disimpan — BUKAN recalculate
+        # dari nilai bulanan diskret. Persentase YTD jauh lebih bermakna untuk
+        # menilai pencapaian target dan digunakan oleh anomaly detection.
+        df['Persentase'] = df['Persentase_YTD']
         
         df.to_csv(out_path, index=False)
         logger.info(f"revenue_consolidated.csv dibangun dari data APBD asli "
-                    f"({len(df)} baris).")
+                    f"({len(df)} baris, tahun {MONTHLY_YEARS}).")
         return df
 
     def load_revenue_data(self, filename=None):
