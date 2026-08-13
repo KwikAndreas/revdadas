@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import {
-  LineChart,
+  ComposedChart,
+  Area,
   Line,
   XAxis,
   YAxis,
@@ -37,12 +38,15 @@ export default function RevenueChart({
     forecast.forEach((r) => {
       const date = r.Tanggal.split("T")[0].substring(0, 7);
       if (!dataMap.has(date)) {
-        dataMap.set(date, { date, actual: null, forecast: 0 });
+        dataMap.set(date, { date, actual: null, forecast: 0, range: [0, 0] });
       }
       if (dataMap.get(date).forecast === null) {
         dataMap.get(date).forecast = 0;
+        dataMap.get(date).range = [0, 0];
       }
       dataMap.get(date).forecast += toBillions(r.Prediksi);
+      dataMap.get(date).range[0] += toBillions(r.Batas_Bawah);
+      dataMap.get(date).range[1] += toBillions(r.Batas_Atas);
     });
 
     const sortedData = Array.from(dataMap.values()).sort((a, b) =>
@@ -70,7 +74,7 @@ export default function RevenueChart({
   return (
     <div style={{ width: "100%", height: 300, outline: "none" }}>
       <ResponsiveContainer>
-        <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }} style={{ outline: "none" }}>
+        <ComposedChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }} style={{ outline: "none" }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} />
           <XAxis
             dataKey="date"
@@ -110,6 +114,15 @@ export default function RevenueChart({
             }}
           />
           <Legend wrapperStyle={{ fontSize: 11, paddingTop: 10 }} />
+          <Area 
+            type="monotone" 
+            dataKey="range" 
+            name="Confidence Interval"
+            stroke="none" 
+            fill="#b91c1c" 
+            fillOpacity={0.1} 
+            connectNulls
+          />
           <Line
             type="monotone"
             dataKey="actual"
@@ -131,7 +144,7 @@ export default function RevenueChart({
             activeDot={{ r: 5 }}
             connectNulls
           />
-        </LineChart>
+        </ComposedChart>
       </ResponsiveContainer>
     </div>
   );

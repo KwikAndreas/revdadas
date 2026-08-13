@@ -45,6 +45,7 @@ export interface AnomalyRecord {
   Deviasi?: number;              // selisih vs expected (moving average)
   Materiality?: string;          // 'Material' | 'Minor' | '-'
   Bulan_Nol_Sebelumnya?: number; // consecutive zero months before this row
+  Gap_Data?: boolean;
 }
 
 // ─── Accuracy Data ────────────────────────────────────────────────
@@ -128,6 +129,7 @@ export interface DashboardFilters {
   selectedTaxType: string;
   forecastMonths: number;
   fraudPreventionPct: number;
+  selectedYear: number;
 }
 
 // ─── Province Coordinates ─────────────────────────────────────────

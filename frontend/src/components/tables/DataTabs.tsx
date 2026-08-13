@@ -225,6 +225,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   const [sortKey, setSortKey] = useState<"Tanggal" | "Realisasi" | "Severity">("Severity");
   const [sortDesc, setSortDesc] = useState(true);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [showGapData, setShowGapData] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   
   const [currentPage, setCurrentPage] = useState(1);
@@ -245,7 +246,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   }, []);
 
   const anomaliesOnly = anomalies
-    .filter((a) => a.Anomaly)
+    .filter((a) => a.Anomaly && (showGapData || a.Severity !== "Gap Data" && !a.Gap_Data))
     .sort((a, b) => {
       let cmp = 0;
       if (sortKey === "Tanggal") cmp = a.Tanggal.localeCompare(b.Tanggal);
@@ -269,7 +270,18 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12, alignItems: "center" }}>
-        <p className="table-caption" style={{ margin: 0 }}>Menampilkan {anomaliesOnly.length} deteksi anomali.</p>
+        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+          <p className="table-caption" style={{ margin: 0 }}>Menampilkan {anomaliesOnly.length} deteksi anomali.</p>
+          <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#475569", cursor: "pointer" }}>
+            <input 
+              type="checkbox" 
+              checked={showGapData} 
+              onChange={(e) => setShowGapData(e.target.checked)}
+              style={{ cursor: "pointer" }}
+            />
+            Tampilkan Gap Pelaporan ({(anomalies.filter(a => a.Anomaly && (a.Severity === "Gap Data" || a.Gap_Data)).length)})
+          </label>
+        </div>
         <div style={{ display: "flex", gap: 8, alignItems: "center", fontSize: 13 }}>
           <span style={{ color: "#64748b" }}>Urutkan:</span>
           
@@ -620,10 +632,12 @@ function TabWhatIf({
   
   const baseRevenue = totalRevRecords.reduce((sum, r) => sum + r.Prediksi, 0);
   const baseExpenditure = totalExpRecords.reduce((sum, r) => sum + r.Prediksi, 0);
+  const baseBelanjaModal = forecast.filter(r => r.Jenis_Pendapatan === "Belanja Modal").reduce((sum, r) => sum + r.Prediksi, 0);
   baseTotal = baseRevenue - baseExpenditure;
 
   let totalRevenueDelta = 0;
   let totalExpenditureDelta = 0;
+  let scenBelanjaModal = 0;
   
   const scenarioData = forecast.map((r) => {
     const adjPct = adjustments[r.Jenis_Pendapatan] || 0;
@@ -633,10 +647,12 @@ function TabWhatIf({
     if (["Pendapatan Asli Daerah (PAD)", "Transfer ke Daerah dan Dana Desa (TKDD)", "Lain-lain Pendapatan Daerah yang Sah"].includes(r.Jenis_Pendapatan)) {
         totalRevenueDelta += recordDelta;
     }
-    // For expenditure, Belanja Modal is part of Total Belanja Daerah. So if they adjust Belanja Modal, we add its delta to Expenditure.
-    // If they adjust "Total Belanja Daerah", we also add it.
-    if (["Total Belanja Daerah", "Belanja Modal", "Belanja Operasi"].includes(r.Jenis_Pendapatan)) {
+    // For expenditure, Belanja Modal is part of Total Belanja Daerah. So its slider only changes the proportion.
+    if (r.Jenis_Pendapatan === "Total Belanja Daerah") {
         totalExpenditureDelta += recordDelta;
+    }
+    if (r.Jenis_Pendapatan === "Belanja Modal") {
+        scenBelanjaModal += newVal;
     }
     
     return { ...r, Prediksi_Skenario: newVal, delta: recordDelta, isRevenue: !r.Jenis_Pendapatan.includes("Belanja") };
@@ -645,6 +661,10 @@ function TabWhatIf({
   scenTotal = baseTotal + totalRevenueDelta - totalExpenditureDelta;
   const delta = scenTotal - baseTotal;
   const deltaPct = Math.abs(baseTotal) > 0 ? (delta / Math.abs(baseTotal)) * 100 : 0;
+
+  const basePorsi = baseExpenditure > 0 ? (baseBelanjaModal / baseExpenditure) * 100 : 0;
+  const scenExpenditure = baseExpenditure + totalExpenditureDelta;
+  const scenPorsi = scenExpenditure > 0 ? (scenBelanjaModal / scenExpenditure) * 100 : 0;
 
   // Chart Data
   const chartDataMap = new Map<string, { date: string; base: number; scen: number }>();
@@ -719,6 +739,12 @@ function TabWhatIf({
           <div className="metric-label">Selisih Relatif</div>
           <div className="metric-value" style={{ color: delta >= 0 ? '#10b981' : '#ef4444' }}>
             {deltaPct > 0 ? '+' : ''}{deltaPct.toFixed(2)}%
+          </div>
+        </div>
+        <div className="metric-card">
+          <div className="metric-label">Porsi Belanja Modal</div>
+          <div className="metric-value" style={{ color: '#3b82f6', fontSize: 20 }}>
+            {basePorsi.toFixed(1)}% <span style={{fontSize: 14, color: '#64748b'}}>→</span> {scenPorsi.toFixed(1)}%
           </div>
         </div>
       </div>

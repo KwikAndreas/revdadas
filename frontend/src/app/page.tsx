@@ -44,6 +44,7 @@ export default function DashboardPage() {
     selectedTaxType: "Semua Pendapatan",
     forecastMonths: 9,
     fraudPreventionPct: 5,
+    selectedYear: 2025,
   });
 
   // Load data on mount
@@ -54,9 +55,11 @@ export default function DashboardPage() {
         // Set default provinces from meta (intersect with DEFAULT_PROVINCES)
         const available = d.meta.provinces;
         const defaults = DEFAULT_PROVINCES.filter((p) => available.includes(p));
+        const maxYear = parseInt(d.meta.date_range.max.substring(0, 4));
         setFilters((prev) => ({
           ...prev,
           selectedProvinces: defaults.length > 0 ? defaults : available.slice(0, 3),
+          selectedYear: maxYear,
         }));
       })
       .catch((err) => setError(err.message))
@@ -170,8 +173,8 @@ export default function DashboardPage() {
     const revenueToSum = filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType;
     const filteredRev = filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueToSum);
     
-    // Get latest year for Current Year KPIs
-    const lastYear = filteredRev.length > 0 ? Math.max(...filteredRev.map(r => r.Tahun || parseInt(r.Tanggal.substring(0, 4)))) : 2025;
+    // Use selectedYear for Current Year KPIs
+    const lastYear = filters.selectedYear;
     const thisYearRecords = filteredRev.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
     const totalRevenue = thisYearRecords.reduce((sum, r) => sum + r.Realisasi, 0);
 
@@ -207,8 +210,8 @@ export default function DashboardPage() {
       }
       return r.Jenis_Pendapatan === filters.selectedTaxType;
     });
-    // Use ALL historical anomalies for the KPI to match the table
-    const targetAnomalies = anomaliesOnly;
+    // Limit anomalies to the selected year
+    const targetAnomalies = anomaliesOnly.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
     const anomalyCount = targetAnomalies.length;
     // Use Deviasi (difference from expected) instead of total Realisasi
     const potentialLoss = targetAnomalies.reduce(
@@ -249,10 +252,10 @@ export default function DashboardPage() {
       anomalies: targetAnomalies,
       thisYearProportionRecords,
     };
-  }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct]);
+  }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct, filters.selectedYear]);
 
   const accuracyText = useMemo(() => {
-    if (!data || data.accuracy.by_series.length === 0) return "Predicted by AI Model";
+    if (!data || data.accuracy.by_series.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
 
     // Filter the series accuracy based on current selected provinces and tax types
     const { selectedProvinces, selectedTaxType } = filters;
@@ -262,7 +265,7 @@ export default function DashboardPage() {
       return provMatch && taxMatch;
     });
 
-    if (filteredSeries.length === 0) return "Predicted by AI Model";
+    if (filteredSeries.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
 
     // Calculate the median accuracy of the visible series
     const akurasiArray = filteredSeries.map(r => r.Akurasi).sort((a, b) => a - b);
@@ -487,7 +490,8 @@ export default function DashboardPage() {
           forecastMonths={filters.forecastMonths}
           accuracyText={accuracyText}
           kemandirianFiskal={kpiData.kemandirianFiskal}
-          anomalies={kpiData.anomalies}
+          anomalies={kpiData.anomalies || []}
+          selectedYear={filters.selectedYear}
         />
 
         {/* Middle Row: Map + Impact Calculator */}

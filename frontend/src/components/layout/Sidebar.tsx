@@ -16,9 +16,19 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
   const allTaxTypes = ["Semua Pendapatan", ...meta.tax_types];
   const [provDropdownOpen, setProvDropdownOpen] = useState(false);
   const [taxDropdownOpen, setTaxDropdownOpen] = useState(false);
+  const [yearDropdownOpen, setYearDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const dropdownRef = useRef<HTMLDivElement>(null);
   const taxDropdownRef = useRef<HTMLDivElement>(null);
+  const yearDropdownRef = useRef<HTMLDivElement>(null);
+
+  const availableYears = useMemo(() => {
+    const minYear = parseInt(meta.date_range.min.substring(0, 4));
+    const maxYear = parseInt(meta.date_range.max.substring(0, 4));
+    const years = [];
+    for (let i = maxYear; i >= minYear; i--) years.push(i);
+    return years;
+  }, [meta.date_range]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -28,6 +38,9 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
       }
       if (taxDropdownRef.current && !taxDropdownRef.current.contains(target)) {
         setTaxDropdownOpen(false);
+      }
+      if (yearDropdownRef.current && !yearDropdownRef.current.contains(target)) {
+        setYearDropdownOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -91,6 +104,41 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
           </button>
         )}
+      </div>
+
+      {/* Fiscal Year Filter */}
+      <div>
+        <p className="sidebar-section-title">TAHUN ANGGARAN</p>
+        <div className="dropdown-container" ref={yearDropdownRef}>
+          <div 
+            className="dropdown-trigger" 
+            onClick={() => setYearDropdownOpen(!yearDropdownOpen)}
+          >
+            <span>TA {filters.selectedYear}</span>
+            <ChevronDown size={14} color="#64748b" />
+          </div>
+          
+          {yearDropdownOpen && (
+            <div className="dropdown-menu">
+              {availableYears.map((y) => {
+                const isSelected = filters.selectedYear === y;
+                return (
+                  <div 
+                    key={y} 
+                    className={`dropdown-item ${isSelected ? "selected" : ""}`}
+                    onClick={() => {
+                      onFilterChange({ selectedYear: y });
+                      setYearDropdownOpen(false);
+                    }}
+                  >
+                    <span>TA {y}</span>
+                    {isSelected && <Check size={14} strokeWidth={3} />}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Tax Type Filter */}
@@ -229,7 +277,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
           <input
             type="range"
             className="slider-input"
-            min={1}
+            min={0}
             max={100}
             value={filters.fraudPreventionPct}
             onChange={(e) =>

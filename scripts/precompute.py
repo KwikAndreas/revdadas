@@ -67,7 +67,6 @@ def save_json(data, filename):
         json.dump(cleaned_data, f, default=json_serializer, ensure_ascii=False, indent=2)
     print(f"  [OK] Saved {path.name} ({path.stat().st_size / 1024:.1f} KB)")
 
-
 def load_and_preprocess():
     """Load and preprocess data using existing modules."""
     print("[INFO] Loading data...")

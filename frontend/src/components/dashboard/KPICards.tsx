@@ -14,6 +14,7 @@ interface KPICardsProps {
   accuracyText: string;
   kemandirianFiskal: number;
   anomalies: AnomalyRecord[];
+  selectedYear: number;
 }
 
 export default function KPICards({
@@ -28,12 +29,13 @@ export default function KPICards({
   accuracyText,
   kemandirianFiskal,
   anomalies,
+  selectedYear,
 }: KPICardsProps) {
   return (
     <div className="kpi-grid">
       <div className="kpi-card animate-fade-in-up">
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <Wallet size={14} /> TOTAL REVENUE (AKTUAL)
+        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
+          <Wallet size={14} /> TOTAL REVENUE TA {selectedYear}
         </div>
         <div className="kpi-value kpi-value--dark">
           {formatCurrency(totalRevenue)}
@@ -59,12 +61,12 @@ export default function KPICards({
         className="kpi-card animate-fade-in-up" 
         style={{ cursor: "pointer" }}
         onClick={() => {
-          document.getElementById('data-logs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          window.dispatchEvent(new CustomEvent('switchTab', { detail: 1 }));
+          const detailElement = document.getElementById("anomali-details-section");
+          if (detailElement) detailElement.scrollIntoView({ behavior: "smooth" });
         }}
       >
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <AlertTriangle size={14} /> SKOR RISIKO AUDIT (ANOMALI)
+        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
+          <AlertTriangle size={14} /> SKOR RISIKO AUDIT TA {selectedYear}
         </div>
         <div className="kpi-value kpi-value--orange">
           {anomalyPct.toFixed(1)}%
