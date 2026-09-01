@@ -181,16 +181,17 @@ _(Update Patch: Ekstraksi fitur kini dikelompokkan secara spesifik per seri **Pr
 4. Skor anomali dihitung. Jika terdeteksi jalur tidak wajar, data diklasifikasikan dengan label **Tinggi** atau **Sedang** beserta diagnosis jenis anomali.
 
 ```mermaid
-flowchart TD
-    A[Data Realisasi Bulanan] --> B[Bentuk Kumpulan Pohon Acak]
-    B --> C{Evaluasi Kedalaman Pohon}
-    C -->|Jalur Panjang| D[Data Normal]
-    C -->|Jalur Pendek| E[Terindikasi Anomali]
-    E --> F[Hitung Anomaly Score]
-    F --> G[Tandai Label Severity]
+flowchart LR
+    A[Data Historis] --> B[Pemrosesan Runtun Waktu]
+    B --> C{Pendeteksian Pola}
+    C -->|Tren Linear| D[Kalkulasi g]
+    C -->|Pola Musiman| E[Kalkulasi s]
+    D --> F[Prediksi Masa Depan]
+    E --> F
+    F --> G[Batas Bawah, Tengah, Atas]
 
-    style E fill:#f43f5e,color:#fff
-    style G fill:#e11d48,color:#fff
+    style A fill:#0b74de,color:#fff
+    style G fill:#22c55e,color:#fff
 ```
 
 > **Contoh Deteksi Anomali (Isolation Forest):**
