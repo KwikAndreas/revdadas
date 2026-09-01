@@ -35,7 +35,7 @@ export default function KPICards({
     <div className="kpi-grid">
       <div className="kpi-card animate-fade-in-up">
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
-          <Wallet size={14} /> TOTAL REVENUE TA {selectedYear}
+          <Wallet size={14} /> TOTAL REVENUE KUMULATIF (AKTUAL)
         </div>
         <div className="kpi-value kpi-value--dark">
           {formatCurrency(totalRevenue)}
@@ -49,7 +49,7 @@ export default function KPICards({
 
       <div className="kpi-card animate-fade-in-up">
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <TrendingUp size={14} /> FORECAST {forecastMonths} BULAN
+          <TrendingUp size={14} /> TOTAL FORECAST ({forecastMonths} BULAN KE DEPAN)
         </div>
         <div className="kpi-value kpi-value--red">
           {formatCurrency(forecastTotal)}
@@ -66,13 +66,13 @@ export default function KPICards({
         }}
       >
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
-          <AlertTriangle size={14} /> SKOR RISIKO AUDIT TA {selectedYear}
+          <AlertTriangle size={14} /> RISIKO ANOMALI
         </div>
         <div className="kpi-value kpi-value--orange">
           {anomalyPct.toFixed(1)}%
         </div>
         <div className="kpi-sub kpi-sub--blue" style={{ textDecoration: "underline" }}>
-          {anomalyCount} records deteksi (Lihat Tabel)
+          {anomalyCount} records dianalisis (Lihat Tabel)
         </div>
       </div>
 

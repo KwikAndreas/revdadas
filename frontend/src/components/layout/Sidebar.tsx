@@ -271,7 +271,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
       <div>
         <div className="fraud-box">
           <div className="fraud-header">
-            <span>ASUMSI EFEKTIVITAS AUDIT</span>
+            <span>ASUMSI RECOVERY RATE ANOMALI</span>
             <span>{filters.fraudPreventionPct}%</span>
           </div>
           <input
@@ -285,7 +285,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
             }
           />
         </div>
-        <p className="fraud-note">*Estimasi efektivitas audit AI</p>
+        <p className="fraud-note">*Estimasi persentase pemulihan anomali</p>
       </div>
 
       {/* Status */}

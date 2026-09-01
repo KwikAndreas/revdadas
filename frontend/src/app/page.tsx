@@ -91,7 +91,6 @@ export default function DashboardPage() {
     const forecasts = data.forecasts[String(period)] || [];
     const { selectedProvinces, selectedTaxType } = filters;
     return forecasts.filter((r) => {
-      if (r.Jenis_Pendapatan.toLowerCase().includes("belanja")) return false;
       const provMatch = selectedProvinces.includes(r.Provinsi);
       const taxMatch =
         selectedTaxType === "Semua Pendapatan" ||
@@ -267,12 +266,13 @@ export default function DashboardPage() {
 
     if (filteredSeries.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
 
-    // Calculate the median accuracy of the visible series
-    const akurasiArray = filteredSeries.map(r => r.Akurasi).sort((a, b) => a - b);
-    const mid = Math.floor(akurasiArray.length / 2);
-    const medianAkurasi = akurasiArray.length % 2 !== 0 ? akurasiArray[mid] : (akurasiArray[mid - 1] + akurasiArray[mid]) / 2;
+    // Calculate the median WAPE of the visible series
+    const wapeArray = filteredSeries.filter(r => r.WAPE !== null).map(r => r.WAPE as number).sort((a, b) => a - b);
+    if (wapeArray.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
+    const mid = Math.floor(wapeArray.length / 2);
+    const medianWape = wapeArray.length % 2 !== 0 ? wapeArray[mid] : (wapeArray[mid - 1] + wapeArray[mid]) / 2;
 
-    return `Akurasi Model (Median) ${medianAkurasi.toFixed(0)}%`;
+    return `WAPE ${medianWape.toFixed(0)}% (6-bln backtest)`;
   }, [data, filters]);
 
   useEffect(() => {
@@ -284,7 +284,7 @@ export default function DashboardPage() {
     output += "[SUMMARY] KINERJA UTAMA (KPI)\n";
     output += `Total Revenue                 : ${formatCurrency(kpiData.totalRevenue)}\n`;
     output += `Forecast 9 Bulan              : ${formatCurrency(kpiData.forecastTotal)}\n`;
-    output += `Risiko Fraud/Anomali          : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n`;
+    output += `Risiko Anomali              : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n`;
     output += `Revenue Loss Deteksi          : ${formatCurrency(kpiData.potentialLoss)}\n`;
     output += `Kemandirian Fiskal            : ${kpiData.kemandirianFiskal.toFixed(1)}%\n`;
     output += `Potensi Penyelamatan Arus Kas : ${formatCurrency(kpiData.savedRevenue)}\n\n`;
@@ -414,7 +414,7 @@ export default function DashboardPage() {
         "================ DEBUG INFO ================\n" +
         `Total Revenue                 : Rp ${(kpiData.totalRevenue / 1e12).toFixed(1)} T\n` +
         `Forecast ${filters.forecastMonths} Bulan              : Rp ${(kpiData.forecastTotal / 1e12).toFixed(1)} T\n` +
-        `Risiko Fraud/Anomali          : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n` +
+        `Risiko Anomali                : ${kpiData.anomalyPct.toFixed(1)}% (${kpiData.anomalyCount} records deteksi)\n` +
         `Revenue Loss Deteksi          : Rp ${(kpiData.potentialLoss / 1e12).toFixed(1)} T\n` +
         `Kemandirian Fiskal            : ${kpiData.kemandirianFiskal.toFixed(1)}%\n` +
         `Potensi Penyelamatan Arus Kas : Rp ${(kpiData.savedRevenue / 1e12).toFixed(1)} T\n` +
@@ -422,7 +422,7 @@ export default function DashboardPage() {
         `Jenis Pendapatan : ${filters.selectedTaxType}\n` +
         `Provinsi Target  : ${filters.selectedProvinces.join(", ") || "Semua"}\n` +
         `Periode Prediksi : ${filters.forecastMonths} Bulan\n` +
-        `Pencegahan Fraud : ${filters.fraudPreventionPct}%\n` +
+        `Pencegahan Anomali : ${filters.fraudPreventionPct}%\n` +
         "============================================"
       );
     }

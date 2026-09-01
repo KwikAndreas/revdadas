@@ -16,6 +16,8 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  BarChart,
+  Bar,
 } from "recharts";
 import { 
   LineChart, AlertTriangle, Target, Briefcase, Sliders, BookOpen, 
@@ -54,6 +56,7 @@ export default function DataTabs({
   const tabs = [
     { label: "Forecast Data", icon: <LineChart size={16} /> },
     { label: "Anomalies", icon: <AlertTriangle size={16} /> },
+    { label: "Exploratory Data", icon: <LineChart size={16} /> },
     { label: "Akurasi Model", icon: <Target size={16} /> },
     { label: "Simulasi What-If", icon: <Sliders size={16} /> },
     { label: "Metodologi", icon: <BookOpen size={16} /> },
@@ -76,11 +79,12 @@ export default function DataTabs({
       <div className="tab-content">
         {activeTab === 0 && <TabForecast forecast={forecast} accuracy={accuracy} />}
         {activeTab === 1 && <TabAnomalies anomalies={anomalies} />}
-        {activeTab === 2 && <TabAccuracy accuracy={accuracy} />}
-        {activeTab === 3 && (
-          <TabWhatIf forecast={forecast} historical={historical} />
+        {activeTab === 2 && <TabEDA historical={historical} selectedProvinces={selectedProvinces} />}
+        {activeTab === 3 && <TabAccuracy accuracy={accuracy} />}
+        {activeTab === 4 && (
+          <TabWhatIf key={selectedProvinces.join("-")} forecast={forecast} historical={historical} />
         )}
-        {activeTab === 4 && <TabMethodology />}
+        {activeTab === 5 && <TabMethodology />}
       </div>
     </div>
   );
@@ -358,10 +362,8 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
               <th>Tanggal</th>
               <th>Provinsi</th>
               <th>Jenis Pendapatan</th>
-              <th>Realisasi</th>
-              <th>Severity</th>
-              <th>Jenis Fraud</th>
-              <th>Alasan</th>
+              <th>Nilai Transaksi</th>
+              <th>Alasan Anomali</th>
             </tr>
           </thead>
           <tbody>
@@ -382,18 +384,6 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                 <td>{r.Provinsi}</td>
                 <td>{r.Jenis_Pendapatan}</td>
                 <td style={{ color: "#dc2626", fontWeight: 600 }}>{formatCurrency(r.Realisasi)}</td>
-                <td>
-                  <span style={{ 
-                    padding: "2px 8px", 
-                    borderRadius: 12, 
-                    fontSize: 11,
-                    background: r.Severity === "Tinggi" ? "#fee2e2" : "#fef3c7",
-                    color: r.Severity === "Tinggi" ? "#991b1b" : "#92400e"
-                  }}>
-                    {r.Severity}
-                  </span>
-                </td>
-                <td style={{ fontSize: 12, fontWeight: 600, color: "#475569" }}>{r.Jenis_Fraud || "-"}</td>
                 <td style={{ fontSize: 11, maxWidth: 300 }}>{r.Alasan}</td>
               </tr>
               );
@@ -790,6 +780,62 @@ function TabMethodology() {
       • Pos <i>lumpy/one-off</i> (mis. sebagian Lain-Lain PAD, Hibah) sulit diramal - keandalannya ditampilkan apa adanya pada tab Akurasi Model.</p>
 
       <p><b>Rekomendasi Bisnis (per sektor).</b> Skor sektor diturunkan dari sinyal fiskal ternormalisasi antar provinsi terpilih: porsi <i>Pajak Daerah</i>, <i>kemandirian fiskal</i>, <i>skala ekonomi</i>, dan <i>tren proyeksi</i>. Ini indikator MAKRO tingkat provinsi sebagai bahan pertimbangan awal, <b>bukan</b> studi kelayakan usaha.</p>
+    </div>
+  );
+}
+
+// ─── Tab EDA ──────────────────────────────────────────────────
+function TabEDA({ historical, selectedProvinces }: { historical: HistoricalRecord[], selectedProvinces: string[] }) {
+  if (!historical || historical.length === 0) return <div className="info-box">Data tidak tersedia.</div>;
+
+  const dataByProv = selectedProvinces.map(prov => {
+    const sum = historical.filter(r => r.Provinsi === prov && r.Jenis_Pendapatan === "Total Pendapatan Daerah").reduce((acc, curr) => acc + curr.Realisasi, 0);
+    return { Provinsi: prov, Realisasi: sum / 1e9 };
+  });
+
+  const trendMap = new Map<string, number>();
+  historical.filter(r => selectedProvinces.includes(r.Provinsi) && r.Jenis_Pendapatan === "Total Pendapatan Daerah").forEach(r => {
+    const date = r.Tanggal.split("T")[0].substring(0, 7);
+    trendMap.set(date, (trendMap.get(date) || 0) + (r.Realisasi / 1e9));
+  });
+  const trendData = Array.from(trendMap.entries()).map(([date, val]) => ({ date, Realisasi: val })).sort((a, b) => a.date.localeCompare(b.date));
+
+  return (
+    <div>
+      <p style={{ fontSize: 13, color: "#475569", marginBottom: 18 }}>
+        Visualisasi Data Pra-Model (EDA) - Distribusi realisasi kumulatif historis untuk melihat sebaran data secara umum pada provinsi terpilih.
+      </p>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 24 }}>
+        <div className="chart-card">
+          <h4 style={{ fontSize: 14, fontWeight: 600, color: "#1e3a5f", marginBottom: 12 }}>Distribusi Realisasi per Provinsi (Miliar Rp)</h4>
+          <div style={{ height: 300, width: "100%" }}>
+            <ResponsiveContainer>
+              <BarChart data={dataByProv} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                <XAxis dataKey="Provinsi" tick={{ fontSize: 11 }} />
+                <YAxis tick={{ fontSize: 11 }} />
+                <Tooltip formatter={(value: any) => [`Rp ${Number(value).toFixed(1)} M`, "Total"]} />
+                <Bar dataKey="Realisasi" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        <div className="chart-card">
+          <h4 style={{ fontSize: 14, fontWeight: 600, color: "#1e3a5f", marginBottom: 12 }}>Total Tren Realisasi Seiring Waktu (Miliar Rp)</h4>
+          <div style={{ height: 300, width: "100%" }}>
+            <ResponsiveContainer>
+              <RechartsLineChart data={trendData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                <XAxis dataKey="date" tick={{ fontSize: 11 }} />
+                <YAxis tick={{ fontSize: 11 }} />
+                <Tooltip formatter={(value: any) => [`Rp ${Number(value).toFixed(1)} M`, "Total"]} />
+                <Line type="monotone" dataKey="Realisasi" stroke="#10b981" strokeWidth={3} dot={{ r: 2 }} />
+              </RechartsLineChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

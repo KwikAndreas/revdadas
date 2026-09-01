@@ -70,12 +70,12 @@ export default function HeatmapIndonesia({
   const [modalProv, setModalProv] = useState<string | null>(null);
   // Aggregate data per province
   const provinceData = selectedProvinces.map((prov) => {
-    // Total historical revenue
-    const provHistorical = historical.filter((r) => r.Provinsi === prov);
+    // Total historical revenue (exclude expenditures)
+    const provHistorical = historical.filter((r) => r.Provinsi === prov && !r.Jenis_Pendapatan.toLowerCase().includes("belanja"));
     const totalRev = provHistorical.reduce((sum, r) => sum + r.Realisasi, 0);
 
-    // Total forecast
-    const provForecast = forecast.filter((r) => r.Provinsi === prov);
+    // Total forecast (exclude expenditures)
+    const provForecast = forecast.filter((r) => r.Provinsi === prov && !r.Jenis_Pendapatan.toLowerCase().includes("belanja"));
     const totalForecast = provForecast.reduce((sum, r) => sum + r.Prediksi, 0);
 
     // Risk / Anomalies — use Deviasi (deviation from expected) not total Realisasi
@@ -145,8 +145,8 @@ export default function HeatmapIndonesia({
       style={{ height: 400, width: "100%", background: "#f8fafc" }}
     >
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       <MapUpdater selectedProvinces={selectedProvinces} />
 

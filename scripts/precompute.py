@@ -210,15 +210,20 @@ def main():
     }
     save_json(meta, "meta.json")
 
-    # 4. Compute and export forecasts
-    all_forecasts, accuracy_data = compute_forecasts(df)
-    save_json(all_forecasts, "forecasts.json")
-    save_json(accuracy_data, "accuracy.json")
-
-    # 5. Compute and export anomalies ONCE (no longer per forecast period)
+    # 4. Compute and export anomalies ONCE (on raw data)
     print("\n[INFO] Computing anomalies (single pass)...")
     anomaly_data = compute_anomalies(df)
     save_json(anomaly_data, "anomalies.json")
+
+    # 5. EDA / Data Cleaning: Handle extreme values for stable forecasting
+    print("\n[INFO] EDA: Handling extreme values for stable forecasting...")
+    preprocessor = preprocessing.DataPreprocessor()
+    df_clean = preprocessor.handle_outliers(df, method='iqr', threshold=3.0)
+
+    # 6. Compute and export forecasts on CLEANED data
+    all_forecasts, accuracy_data = compute_forecasts(df_clean)
+    save_json(all_forecasts, "forecasts.json")
+    save_json(accuracy_data, "accuracy.json")
 
     # 6. Compute business recommendations for each forecast period
     print("\n[INFO] Computing business recommendations for all periods...")

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   keywords: [
     "RevDadas",
     "Revenue Daerah",
-    "Fraud Detection",
+    "Anomaly Detection",
     "AI Forecasting",
     "APBD",
     "Pajak Daerah",

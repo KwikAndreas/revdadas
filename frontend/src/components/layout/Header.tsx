@@ -10,7 +10,7 @@ export default function Header({ onExportPDF, onMenuClick }: { onExportPDF: () =
           </button>
         )}
         <div className="header-center">
-          AI-Driven Revenue Forecasting & Fraud Detection
+          AI-Driven Revenue Forecasting & Anomaly Detection
         </div>
       </div>
       <div className="header-actions">

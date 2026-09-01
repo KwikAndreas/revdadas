@@ -124,13 +124,35 @@ class DataPreprocessor:
                 df['Tahun'].astype(str) + '-' + df['Bulan'].astype(str).str.zfill(2) + '-01'
             )
         
-        # 5. Remove rows with invalid data
+        # 5. Remove rows with completely invalid data (negative or NaN realisasi)
         df = df.dropna(subset=['Realisasi'])
-        # Allow 0 for realization because 0 is valid for some targets
         df = df[df['Realisasi'] >= 0]
         
         # 6. Sort by date
-        df = df.sort_values('Tanggal').reset_index(drop=True)
+        df = df.sort_values(['Provinsi', 'Jenis_Pendapatan', 'Tanggal']).reset_index(drop=True)
+        
+        # 7. Impute structural zeros in continuous major accounts (Data Reporting Errors)
+        # DJPK data sometimes repeats the cumulative value from the previous month (e.g., May 2023), 
+        # resulting in a 0 monthly difference. This breaks forecasting.
+        CONTINUOUS_ACCOUNTS = [
+            'Pendapatan Asli Daerah (PAD)', 'Transfer ke Daerah dan Dana Desa (TKDD)',
+            'Total Pendapatan Daerah', 'Total Belanja Daerah', 'Pajak Daerah'
+        ]
+        
+        def impute_zeros(group):
+            if group.name[1] in CONTINUOUS_ACCOUNTS:
+                # Replace 0 with NaN temporarily
+                group['Realisasi'] = group['Realisasi'].replace(0.0, np.nan)
+                # Linear interpolation for missing months
+                group['Realisasi'] = group['Realisasi'].interpolate(method='linear')
+                # If any NaN remain at the edges, fill with median
+                if group['Realisasi'].isna().any():
+                    group['Realisasi'] = group['Realisasi'].fillna(group['Realisasi'].median())
+            return group
+
+        logger.info("Imputing structural zeros for continuous accounts...")
+        # include_groups=False prevents the deprecation warning
+        df = df.groupby(['Provinsi', 'Jenis_Pendapatan'], group_keys=False).apply(impute_zeros)
         
         logger.info(f"Data cleaning completed. Shape: {df.shape}")
         logger.info(f"Realisasi range: {df['Realisasi'].min():.0f} - {df['Realisasi'].max():.0f}")
@@ -163,6 +185,46 @@ class DataPreprocessor:
         n_outliers = df['is_outlier'].sum()
         logger.info(f"Detected {n_outliers} outliers ({n_outliers/len(df)*100:.2f}%)")
         
+        return df
+    
+    def handle_outliers(self, df, column='Realisasi', method='iqr', threshold=3.0):
+        """
+        Handle extreme outliers by capping them to statistical bounds (Winsorization).
+        This improves the quality of data before it is fed to Prophet forecasting models.
+        """
+        df = df.copy()
+        logger.info(f"Handling outliers using {method} method...")
+        
+        def cap_group(group):
+            if len(group) < 5:
+                return group
+            
+            if method == 'iqr':
+                Q1 = group[column].quantile(0.25)
+                Q3 = group[column].quantile(0.75)
+                IQR = Q3 - Q1
+                lower_bound = Q1 - threshold * IQR
+                upper_bound = Q3 + threshold * IQR
+            elif method == 'zscore':
+                mean = group[column].mean()
+                std = group[column].std()
+                lower_bound = mean - threshold * std
+                upper_bound = mean + threshold * std
+            else:
+                return group
+
+            # Clip values (prevent negative revenue bounds)
+            lower_bound = max(0, lower_bound)
+            group[column] = group[column].clip(lower=lower_bound, upper=upper_bound)
+            return group
+
+        # Apply capping per region and tax type to preserve natural scaling
+        if 'Provinsi' in df.columns and 'Jenis_Pendapatan' in df.columns:
+            # Using include_groups=False parameter is required in modern pandas for apply on groupby
+            df = df.groupby(['Provinsi', 'Jenis_Pendapatan'], group_keys=False).apply(cap_group)
+        else:
+            df = cap_group(df)
+            
         return df
     
     def aggregate_by_period(self, df, period='M'):
