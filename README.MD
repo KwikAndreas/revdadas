@@ -259,7 +259,7 @@ Untuk menjalankan sistem ini, Anda perlu menjalankan proses **Backend (Python)**
 
 ### 1. Prerequisites
 - Python 3.13+
-- Node.js 18+ (disarankan Node.js 20+)
+- Node.js 20+
 - Git
 
 ### 2. Backend (Pre-compute AI Models)
