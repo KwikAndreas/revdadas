@@ -40,7 +40,7 @@ Hal ini menyebabkan kebijakan fiskal sering tidak optimal. RevDadas hadir untuk 
 - **Automated Data Scraper** - Mengambil data APBD (2021-2025) secara otomatis dari portal DJPK Kemenkeu dengan rentang 14 taksonomi APBD granular.
 - **Exploratory Data Analysis (EDA)** - Modul pembersihan data pintar (Winsorization) dan visualisasi distribusi historis pra-pemodelan.
 - **Deteksi Anomali & Aggregate Isolation** - Menangkap indikasi data tidak wajar menggunakan *Isolation Forest* dengan kemampuan *Dynamic Aggregate Isolation* untuk mencegah penghitungan ganda.
-- **Forecasting (Decumulation Engine)** - Prediksi revenue 6-24 bulan menggunakan *Prophet* yang didukung pra-pemrosesan konversi Kumulatif (YTD) ke format *Monthly Discrete*.
+- **Forecasting (Dual-Engine Architecture)** - Prediksi revenue 6-24 bulan dengan model utama **Theta Method (Primary)** yang parsimonious dan terbukti bebas overfitting/jomplang pada data runtun waktu pendek APBD, serta opsi cadangan **Prophet (Secondary)** untuk analisis pembanding komponen aditif.
 - **Visualisasi Geospatial** - Peta heatmap cerdas berbasis lokasi Leaflet (OpenStreetMap).
 - **Kalkulator Dampak (What-If)** - Mengkalkulasi metrik Potensi Kas dan Kemandirian Fiskal (Tahun Berjalan) melalui slider skenario interaktif.
 - **Premium Executive Report** - Generator PDF tata kelola eksekutif dengan data *Top 5 Risiko Anomali* dan *Potensi Sektor Ekonomi Daerah*.
@@ -116,55 +116,45 @@ _Halaman detail data logs metodologi_
 
 RevDadas ditenagai oleh dua model *Machine Learning* utama yang dirancang khusus untuk menganalisis karakteristik keuangan daerah.
 
-### 1. Peramalan Pendapatan (Prophet)
-Kami menggunakan model **Prophet** yang sangat tangguh dalam menangani data runtun waktu (*time-series*) yang memiliki pola musiman berulang (seperti pembayaran pajak di bulan tertentu) dan hari libur.
+### 1. Peramalan Pendapatan (Dual-Engine Architecture: Theta Primary & Prophet Secondary)
+RevDadas mengadopsi arsitektur peramalan ganda (*Dual-Engine*) untuk menjawab tantangan data fiskal APBD berhorizon pendek ($N=36$ titik):
 
-**Model Matematis (Decomposable Time Series):**
+#### A. Algoritma Utama: Theta Method (Primary Engine)
+Model utama RevDadas menggunakan **Theta Method** (Assimakopoulos & Nikolopoulos), algoritma peramalan pemenang *M3 Forecasting Competition* yang diakui secara global memiliki performa superior pada deret waktu bulanan bersampel pendek ($N < 50$).
 
+**Model Matematis (Theta Decomposition):**
+Deret waktu $Y_t$ yang telah dide-seasonalisasi dipecah menjadi dua garis $\theta$:
 $$
-y(t) = g(t) + s(t) + h(t) + \epsilon_t
+Z''_t(\theta) = \theta Y''_t
 $$
-
-- $g(t)$ : Tren pertumbuhan (*growth*) jangka panjang non-periodik.
-- $s(t)$ : Perubahan musiman (*seasonality*) tahunan/bulanan.
-- $h(t)$ : Efek kalender / hari libur tidak beraturan.
-- $\epsilon_t$ : Margin ketidakpastian (*noise*).
+- **$\theta_1 = 0$ (Long-Term Drift):** Menangkap tren linier deterministik jangka panjang makroekonomi wilayah.
+- **$\theta_2 = 2$ (Mean-Reverting Curvature):** Menangkap dinamika dan kurvatur jangka pendek dengan memaksakan pergerakan kembali ke rata-rata (*mean-reversion*).
+- Hasil gabungan kedua garis $\theta$ kemudian dire-seasonalisasi menggunakan indeks musiman bulanan klasik.
 
 ```mermaid
 flowchart LR
-    A[Data Historis] --> B[Pemrosesan Runtun Waktu]
-    B --> C{Pendeteksian Pola}
-    C -->|Tren Linear| D[Kalkulasi g]
-    C -->|Pola Musiman| E[Kalkulasi s]
-    D --> F[Prediksi Masa Depan]
-    E --> F
-    F --> G[Batas Bawah, Tengah, Atas]
+    A[Data Realisasi APBD] --> B[Deseasonalisasi 12-Bulan]
+    B --> C[Garis Theta-0: Long-Term Drift]
+    B --> D[Garis Theta-2: Mean Reversion]
+    C --> E[Kombinasi Optimal Theta]
+    D --> E
+    E --> F[Reseasonalisasi & Capping Guardrails]
+    F --> G[Proyeksi Andal & Anti-Jomplang]
     
     style A fill:#0b74de,color:#fff
     style G fill:#22c55e,color:#fff
 ```
 
-> **Simulasi Dekomposisi Komponen Matematis:**
-> Sebagai representasi skenario, apabila model memproyeksikan nilai Pendapatan Asli Daerah (PAD) di akhir periode fiskal (Desember) pada kuantum waktu $t$:
-> * **$g(t)$ (Base Trend):** Rp 100 Miliar — merepresentasikan ekuilibrium pertumbuhan organik dari skala makroekonomi wilayah.
-> * **$s(t)$ (Seasonality Index):** +Rp 30 Miliar — mengukur sentimen musiman historis (anomali positif akibat siklus jatuh tempo pajak).
-> * **$h(t)$ (Holiday Effect):** -Rp 5 Miliar — faktor koreksi (*penalty*) akibat penyusutan hari kerja efektif selama periode cuti/libur nasional.
-> * **$\epsilon_t$ (Stochastic Noise):** ± Rp 2 Miliar — deviasi standar dari residual varians yang tidak berdistribusi linier.
-> 
-> **Resolusi Persamaan Prediksi $y(t)$:**
-> $y(t) = 100 + 30 + (-5) = \text{Rp } 125 \text{ Miliar}$
-> *(Dengan tingkat galat probabilistik sebesar $\pm \text{ Rp } 2 \text{ Miliar}$ pada interval kepercayaan 95%).*
+**Mengapa Theta Menjadi Pilihan Utama?**
+1. **Bebas Overfitting (Parsimonious):** Berbeda dengan model kompleks yang memiliki puluhan parameter, Theta hanya menggunakan 2 parameter bebas sehingga kebal terhadap *overfitting* pada sampel 36 bulan.
+2. **Anti-Jomplang:** Sifat *mean-reverting* mencegah proyeksi belanja/pendapatan meledak liar ke atas atau runtuh ke nol.
+3. **Akurasi Empiris Tinggi:** Mengukir Median WAPE terendah (**15.88%** pada akun fiskal utama) dan waktu komputasi instan (< 1 detik untuk 112 deret).
 
-> **Contoh Output Model Forecasting (Prophet):**
-> * **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
-> * **Periode Evaluasi:** Januari 2026
-> * **Nilai Proyeksi (yhat):** Rp 257,60 Miliar
-> * **Interval Kepercayaan (95% CI):** Rp 158,56 Miliar (Lower) s.d Rp 352,94 Miliar (Upper).
-> * **Analisis Algoritmik:** Model merepresentasikan pola historis penurunan realisasi anggaran pada kuartal pertama (*Q1 cyclicality*), dengan mempertahankan margin toleransi ketidakpastian matematis yang kokoh bagi perencana APBD.
+#### B. Algoritma Cadangan: Prophet (Secondary Optional Engine)
+RevDadas tetap mempertahankan **Prophet** sebagai opsi sekunder untuk evaluasi dekomposisi komponen tren aditif ($y(t) = g(t) + s(t) + h(t) + \epsilon_t$). Model ini dapat diaktifkan kapan saja melalui parameter CLI untuk pengujian A/B.
 
 **Mekanisme Pelindung Keandalan Data (*Data Guardrail*)**
-Banyak komponen APBD bersifat sangat acak dan fluktuatif (*lumpy/one-off data*), seperti pencairan *Belanja Tidak Terduga* atau transfer *Hibah*. Sistem Prophet kami dilengkapi dengan arsitektur evaluasi *backtesting* terotomatisasi yang mengkalkulasi matriks kesalahan berbobot (WAPE). Jika tingkat akurasi model untuk suatu spesifik sektor terdeteksi berada di bawah ambang batas reliabilitas yang diizinkan (<50%), sistem akan secara proaktif melakukan pemblokiran *output* numerik pada antarmuka *dashboard* dan menggantinya dengan label peringatan **"Sinyal Tidak Cukup (Akurasi Rendah)"**. 
-*Pendekatan ini diimplementasikan untuk mematuhi standar keandalan analitik level-eksekutif, mencegah lahirnya justifikasi kebijakan fiskal yang cacat akibat memaksakan peramalan pada variabel bervolatilitas ekstrem.*
+Sistem dilengkapi evaluasi *backtesting* terotomatisasi (WAPE & sMAPE holdout 6 bulan) serta batas pengaman (*guardrail clamp* non-negatif dan plafon $1.35 \times \text{Max Historis}$) untuk menjamin proyeksi tetap dalam koridor fiskal yang realistis.
 
 ### 2. Deteksi Anomali (Isolation Forest)
 Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan *under-reporting*, salah catat, atau *fraud*), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
@@ -259,7 +249,7 @@ Untuk menjalankan sistem ini, Anda perlu menjalankan proses **Backend (Python)**
 
 ### 1. Prerequisites
 - Python 3.13+
-- Node.js 20+
+- Node.js 18+ (disarankan Node.js 20+)
 - Git
 
 ### 2. Backend (Pre-compute AI Models)
@@ -280,11 +270,20 @@ pip install -r requirements.txt
 # Jalankan scraper data APBD (Opsional jika data raw belum ada)
 python src/apbd_scraper.py
 
-# Jalankan konsolidasi & komputasi AI
+# Jalankan konsolidasi data APBD
 python data_consolidation.py
-python scripts/precompute.py
+
+# 1. Jalankan komputasi dengan Theta Method (Primary Engine - Default):
+python scripts/precompute.py --model theta
+
+# 2. Atau jika ingin mengomputasi Prophet (Secondary Engine):
+python scripts/precompute.py --model prophet
+
+# 3. Atau ingin switch instan antara model (< 0.1 detik dari cache tanpa re-train):
+python scripts/precompute.py --switch theta
+python scripts/precompute.py --switch prophet
 ```
-> Data JSON akan ter-ekstrak otomatis ke folder `frontend/public/data/`.
+> Data JSON akan ter-ekstrak otomatis ke folder `frontend/public/data/` (dan paket terisolasi di `frontend/public/data/models/`).
 
 ### 3. Frontend (Web Dashboard Next.js)
 Jalankan antarmuka interaktif yang akan mengonsumsi data JSON tersebut.

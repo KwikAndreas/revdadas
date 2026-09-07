@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import type { HistoricalRecord, ForecastRecord } from "@/lib/types";
-import { toBillions } from "@/lib/utils";
+import { toBillions, formatCurrency } from "@/lib/utils";
 
 interface RevenueChartProps {
   historical: HistoricalRecord[];
@@ -74,7 +74,7 @@ export default function RevenueChart({
   return (
     <div style={{ width: "100%", height: 300, outline: "none" }}>
       <ResponsiveContainer>
-        <ComposedChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }} style={{ outline: "none" }}>
+        <ComposedChart data={chartData} margin={{ top: 10, right: 10, left: -10, bottom: 0 }} style={{ outline: "none" }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} />
           <XAxis
             dataKey="date"
@@ -87,7 +87,12 @@ export default function RevenueChart({
             tick={{ fontSize: 11, fill: "#64748b" }}
             axisLine={false}
             tickLine={false}
-            tickFormatter={(value) => `${value}`}
+            tickFormatter={(value) => {
+              const raw = value * 1e9;
+              if (Math.abs(raw) >= 1e12) return `${(raw / 1e12).toFixed(1)} T`;
+              if (Math.abs(raw) >= 1e9) return `${(raw / 1e9).toFixed(0)} M`;
+              return `${value}`;
+            }}
           />
           <Tooltip
             content={({ active, payload, label }) => {
@@ -96,12 +101,24 @@ export default function RevenueChart({
                 return (
                   <div style={{ background: "white", padding: 12, border: "1px solid #e2e8f0", borderRadius: 8, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)", fontSize: 12 }}>
                     <div style={{ color: "#64748b", fontWeight: 600, marginBottom: 8 }}>{label}</div>
-                    {payload.map((entry: any, index: number) => (
-                      <div key={index} style={{ color: entry.color, display: "flex", justifyContent: "space-between", gap: 16, marginBottom: 4 }}>
-                        <span>{entry.name}:</span>
-                        <span style={{ fontWeight: 600 }}>Rp {Number(entry.value).toFixed(1)} M</span>
-                      </div>
-                    ))}
+                    {payload.map((entry: any, index: number) => {
+                      let valDisplay = "";
+                      if (Array.isArray(entry.value)) {
+                        const lo = formatCurrency(entry.value[0] * 1e9);
+                        const hi = formatCurrency(entry.value[1] * 1e9);
+                        valDisplay = `${lo} - ${hi}`;
+                      } else if (typeof entry.value === "number") {
+                        valDisplay = formatCurrency(entry.value * 1e9);
+                      } else {
+                        valDisplay = "-";
+                      }
+                      return (
+                        <div key={index} style={{ color: entry.color, display: "flex", justifyContent: "space-between", gap: 16, marginBottom: 4 }}>
+                          <span>{entry.name}:</span>
+                          <span style={{ fontWeight: 600 }}>{valDisplay}</span>
+                        </div>
+                      );
+                    })}
                     {data.mom !== null && data.mom !== undefined && (
                       <div style={{ color: data.mom >= 0 ? "#16a34a" : "#dc2626", marginTop: 8, fontSize: 11, fontWeight: 600, display: "flex", justifyContent: "flex-end" }}>
                         {data.mom >= 0 ? "▲" : "▼"} {Math.abs(data.mom).toFixed(1)}% MoM
@@ -126,7 +143,7 @@ export default function RevenueChart({
           <Line
             type="monotone"
             dataKey="actual"
-            name="Historical Revenue (M)"
+            name="Historical Revenue"
             stroke="#1e3a5f"
             strokeWidth={2.5}
             dot={{ r: 3, fill: "#1e3a5f", strokeWidth: 0 }}
@@ -136,7 +153,7 @@ export default function RevenueChart({
           <Line
             type="monotone"
             dataKey="forecast"
-            name="AI Forecast (M)"
+            name="AI Forecast"
             stroke="#b91c1c"
             strokeWidth={2.5}
             strokeDasharray="5 5"

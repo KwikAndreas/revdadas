@@ -76,7 +76,7 @@ export const INDONESIA_BOUNDS: [[number, number], [number, number]] = [
 /**
  * Default checked provinces for initial state.
  */
-export const DEFAULT_PROVINCES = ["DKI Jakarta", "Jawa Barat", "Jawa Timur"];
+export const DEFAULT_PROVINCES = ["DKI Jakarta", "Jawa Barat", "Jawa Timur", "Bengkulu", "Maluku", "Gorontalo"];
 
 /**
  * Get risk color based on percentage.

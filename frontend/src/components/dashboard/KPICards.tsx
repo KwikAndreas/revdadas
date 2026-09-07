@@ -59,10 +59,14 @@ export default function KPICards({
 
       <div 
         className="kpi-card animate-fade-in-up" 
-        style={{ cursor: "pointer" }}
+        style={{ cursor: anomalyCount > 0 ? "pointer" : "default" }}
+        title={anomalyCount > 0 ? "Klik untuk melihat rincian tabel anomali" : undefined}
         onClick={() => {
-          const detailElement = document.getElementById("anomali-details-section");
-          if (detailElement) detailElement.scrollIntoView({ behavior: "smooth" });
+          if (anomalyCount > 0) {
+            window.dispatchEvent(new CustomEvent("switchTab", { detail: 1 }));
+            const detailElement = document.getElementById("data-logs") || document.getElementById("anomali-details-section");
+            if (detailElement) detailElement.scrollIntoView({ behavior: "smooth" });
+          }
         }}
       >
         <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
@@ -71,8 +75,13 @@ export default function KPICards({
         <div className="kpi-value kpi-value--orange">
           {anomalyPct.toFixed(1)}%
         </div>
-        <div className="kpi-sub kpi-sub--blue" style={{ textDecoration: "underline" }}>
-          {anomalyCount} records dianalisis (Lihat Tabel)
+        <div 
+          className={`kpi-sub ${anomalyCount > 0 ? "kpi-sub--blue" : "kpi-sub--gray"}`} 
+          style={anomalyCount > 0 ? { textDecoration: "underline" } : undefined}
+        >
+          {anomalyCount > 0 
+            ? `${anomalyCount} records dianalisis (Lihat Tabel)` 
+            : `${anomalyCount} records dianalisis`}
         </div>
       </div>
 

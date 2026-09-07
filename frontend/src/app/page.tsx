@@ -29,7 +29,7 @@ import dynamic from "next/dynamic";
 // Dynamic import for map (requires browser APIs)
 const HeatmapIndonesia = dynamic(
   () => import("@/components/maps/HeatmapIndonesia"),
-  { ssr: false, loading: () => <div style={{ height: 400, background: "#f1f5f9", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8" }}>Memuat peta...</div> }
+  { ssr: false, loading: () => <div style={{ height: 800, background: "#f1f5f9", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8" }}>Memuat peta...</div> }
 );
 
 export default function DashboardPage() {
@@ -383,15 +383,46 @@ export default function DashboardPage() {
     console.log(output);
   }, [kpiData, filters, historicalForProportion, filteredForecast, filteredAnomalies, data]);
 
-  // ─── Insight Text ────────────────────────────────────────────
-  const insightText = useMemo(() => {
+  // ─── Insight Data (B2G Strategic Intelligence Briefing) ──────
+  const insightData = useMemo(() => {
     const anomaliesOnly = kpiData.anomalies;
+    const lossStr = formatCurrency(kpiData.potentialLoss);
+    const saveStr = formatCurrency(kpiData.savedRevenue);
+    const targetPct = kpiData.targetPercentage;
+    const modelName = data?.meta?.active_model_name || "Theta Method (Primary)";
+    const forecastStr = formatCurrency(kpiData.forecastTotal);
+    const kemandirianStr = `${kpiData.kemandirianFiskal.toFixed(1)}%`;
+
     if (anomaliesOnly.length === 0) {
-      return "Sistem berjalan optimal. Tidak ada anomali signifikan.";
+      const targetContext = targetPct
+        ? `Realisasi target tahun berjalan berada di level optimal (${targetPct.toFixed(1)}%).`
+        : "Realisasi anggaran berjalan terpantau dalam koridor aman.";
+      return {
+        isOptimal: true,
+        kondisi: `${targetContext} Rasio Kemandirian Fiskal daerah tercatat ${kemandirianStr}, dengan proyeksi kumulatif ${filters.forecastMonths} bulan ke depan mencapai ${forecastStr} berdasarkan pemodelan ${modelName}.`,
+        rekomendasi: "Pertahankan disiplin kas operasional, percepat penyerapan belanja modal fisik sebelum triwulan IV, dan dorong digitalisasi kanal pembayaran daerah untuk menjaga stabilitas penerimaan PAD.",
+        metricLabel: undefined,
+        metricValue: undefined,
+        recoveryValue: undefined,
+      };
     }
+
     const top = anomaliesOnly[0];
-    return `Terdeteksi diskrepansi data dan anomali pada pencatatan <b>${top.Jenis_Pendapatan}</b> di wilayah <b>${top.Provinsi}</b>.`;
-  }, [kpiData.anomalies]);
+    const targetWarning = targetPct
+      ? (targetPct < 85
+          ? ` Capaian target anggaran berjalan baru mencapai ${targetPct.toFixed(1)}% (terindikasi perlambatan serapan).`
+          : ` Capaian target berjalan relatif terjaga di level ${targetPct.toFixed(1)}%.`)
+      : "";
+
+    return {
+      isOptimal: false,
+      kondisi: `Terdeteksi deviasi anomali material pada pos ${top.Jenis_Pendapatan} (${top.Provinsi}) dengan potensi risiko anggaran sebesar ${lossStr}.${targetWarning} Kemandirian fiskal daerah saat ini berada pada level ${kemandirianStr}.`,
+      rekomendasi: `Inspektorat Daerah dan BPKAD direkomendasikan memprioritaskan audit uji petik berbasis risiko pada pos ${top.Jenis_Pendapatan} sebelum penutupan buku triwulan. Pengetatan efektivitas pengawasan berpotensi memulihkan kas daerah hingga ${saveStr}.`,
+      metricLabel: "Potensi Risiko Anggaran",
+      metricValue: lossStr,
+      recoveryValue: saveStr,
+    };
+  }, [kpiData, filters.forecastMonths, data?.meta?.active_model_name]);
 
   // ─── Handlers ────────────────────────────────────────────────
   const handleFilterChange = useCallback(
@@ -403,9 +434,9 @@ export default function DashboardPage() {
 
   const handleExportPDF = useCallback(() => {
     import("@/lib/pdf").then(({ generatePDF }) => {
-      generatePDF(kpiData, policyRecs, filters, bizData);
+      generatePDF(kpiData, policyRecs, filters, bizData, insightData, data?.meta);
     });
-  }, [kpiData, policyRecs, filters, bizData]);
+  }, [kpiData, policyRecs, filters, bizData, insightData, data?.meta]);
 
   // ─── Debug Logging ──────────────────────────────────────────
   useEffect(() => {
@@ -534,7 +565,7 @@ export default function DashboardPage() {
                 }, 85);
               }}
             />
-            <AIInsights insightText={insightText} />
+            <AIInsights insightData={insightData} />
           </div>
         </div>
 

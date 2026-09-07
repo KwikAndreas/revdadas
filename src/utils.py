@@ -57,7 +57,9 @@ def format_currency(value, short=False):
         elif abs(value) >= 1e9:
             return f"Rp {value/1e9:.1f} M"
         elif abs(value) >= 1e6:
-            return f"Rp {value/1e6:.1f} K"
+            return f"Rp {value/1e6:.1f} Jt"
+        elif abs(value) >= 1e3:
+            return f"Rp {value/1e3:.1f} Rb"
     
     return f"Rp {value:,.0f}"
 

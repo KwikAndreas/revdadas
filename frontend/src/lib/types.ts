@@ -121,6 +121,9 @@ export interface Meta {
     max: string;
   };
   total_rows: number;
+  active_model?: string;
+  active_model_name?: string;
+  available_models?: string[];
 }
 
 // ─── Dashboard State ──────────────────────────────────────────────

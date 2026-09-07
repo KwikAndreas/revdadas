@@ -12,13 +12,13 @@ import {
   Cell,
 } from "recharts";
 import type { HistoricalRecord } from "@/lib/types";
-import { toBillions } from "@/lib/utils";
+import { toBillions, formatCurrency } from "@/lib/utils";
 
 interface ProportionChartProps {
   historical: HistoricalRecord[];
 }
 
-const COLORS = ["#64748b", "#facc15", "#4ade80", "#dc2626", "#1e3a5f"];
+const COLORS = ["#1e3a5f", "#0284c7", "#10b981", "#f59e0b", "#64748b"];
 
 export default function ProportionChart({ historical }: ProportionChartProps) {
   const [isMobile, setIsMobile] = useState(false);
@@ -56,45 +56,40 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
       .sort((a, b) => b.value - a.value); // Descending for largest at the top
   }, [historical]);
 
-  const formatIDR = (val: number) => {
-    return new Intl.NumberFormat('id-ID', { maximumFractionDigits: 1 }).format(val);
-  };
-
   return (
-    <div style={{ width: "100%", height: isMobile ? 400 : 300, outline: "none" }}>
+    <div style={{ width: "100%", height: isMobile ? 380 : 280, outline: "none" }}>
       <ResponsiveContainer>
         <BarChart
           data={chartData}
           layout="vertical"
-          margin={{ top: 10, right: 30, left: isMobile ? 10 : 40, bottom: 20 }}
+          margin={{ top: 10, right: 30, left: isMobile ? 10 : 35, bottom: 10 }}
           style={{ outline: "none" }}
         >
           <CartesianGrid strokeDasharray="3 3" horizontal={false} />
           <XAxis
             type="number"
-            tickFormatter={formatIDR}
+            tickFormatter={(val) => formatCurrency(Number(val) * 1e9)}
             tick={{ fontSize: 11, fill: "#64748b" }}
             axisLine={false}
             tickLine={false}
-            label={{ value: "(dalam satuan miliar rupiah)", position: "insideBottom", offset: -15, fontSize: 10, fill: "#94a3b8" }}
           />
           <YAxis
             dataKey="name"
             type="category"
-            tick={{ fontSize: isMobile ? 9 : 11, fill: "#334155", fontWeight: 500 }}
-            width={isMobile ? 130 : 160}
+            tick={{ fontSize: isMobile ? 9 : 11, fill: "#334155", fontWeight: 600 }}
+            width={isMobile ? 130 : 165}
             interval={0}
             axisLine={false}
             tickLine={false}
           />
           <Tooltip
-            contentStyle={{ borderRadius: 8, border: "1px solid #e2e8f0", fontSize: 12 }}
+            contentStyle={{ borderRadius: 8, border: "1px solid #e2e8f0", fontSize: 12, boxShadow: "0 4px 6px -1px rgba(0,0,0,0.08)" }}
             formatter={(value: any) => {
               const val = typeof value === 'number' ? value : 0;
-              return [`Rp ${formatIDR(val)}`, "Realisasi (Miliar)"];
+              return [formatCurrency(val * 1e9), "Total Realisasi"];
             }}
-            labelStyle={{ display: "none" }}
-            cursor={{ fill: "#f1f5f9" }}
+            labelStyle={{ fontWeight: 600, color: "#1e3a5f", marginBottom: 4 }}
+            cursor={{ fill: "#f8fafc" }}
           />
           <Bar dataKey="value" radius={[0, 4, 4, 0]}>
             {chartData.map((entry, index) => (

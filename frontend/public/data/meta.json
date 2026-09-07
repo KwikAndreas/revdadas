@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:00:10.608505",
+  "generated_at": "2026-09-08T00:26:05.101423",
   "provinces": [
     "Bali",
     "Banten",
@@ -51,5 +51,12 @@
     "min": "2023-01-01 00:00:00",
     "max": "2025-12-01 00:00:00"
   },
-  "total_rows": 3960
+  "total_rows": 3960,
+  "available_models": [
+    "theta",
+    "prophet"
+  ],
+  "active_model": "theta",
+  "active_model_name": "Theta Method (Primary)",
+  "last_switched": "2026-09-08T00:26:22.036277"
 }
