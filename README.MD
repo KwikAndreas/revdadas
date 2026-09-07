@@ -26,10 +26,10 @@ RevDadas adalah sistem untuk membantu pemerintah daerah dalam mendeteksi anomali
 
 Banyak pemerintah daerah menghadapi masalah dalam pengelolaan APBD:
 
-- *under-reporting* pada Pendapatan Asli Daerah (PAD)
-- anomali dan kejanggalan dalam pelaporan (potensi *fraud* / kesalahan data)
+- _under-reporting_ pada Pendapatan Asli Daerah (PAD)
+- anomali dan kejanggalan dalam pelaporan (potensi _fraud_ / kesalahan data)
 - kesulitan memprediksi tren pendapatan (PAD & TKDD) secara akurat
-- monitoring kapasitas fiskal yang tidak *real-time*
+- monitoring kapasitas fiskal yang tidak _real-time_
 
 Hal ini menyebabkan kebijakan fiskal sering tidak optimal. RevDadas hadir untuk mengatasi masalah tersebut menggunakan AI.
 
@@ -39,12 +39,12 @@ Hal ini menyebabkan kebijakan fiskal sering tidak optimal. RevDadas hadir untuk 
 
 - **Automated Data Scraper** - Mengambil data APBD (2021-2025) secara otomatis dari portal DJPK Kemenkeu dengan rentang 14 taksonomi APBD granular.
 - **Exploratory Data Analysis (EDA)** - Modul pembersihan data pintar (Winsorization) dan visualisasi distribusi historis pra-pemodelan.
-- **Deteksi Anomali & Aggregate Isolation** - Menangkap indikasi data tidak wajar menggunakan *Isolation Forest* dengan kemampuan *Dynamic Aggregate Isolation* untuk mencegah penghitungan ganda.
+- **Deteksi Anomali & Aggregate Isolation** - Menangkap indikasi data tidak wajar menggunakan _Isolation Forest_ dengan kemampuan _Dynamic Aggregate Isolation_ untuk mencegah penghitungan ganda.
 - **Forecasting (Dual-Engine Architecture)** - Prediksi revenue 6-24 bulan dengan model utama **Theta Method (Primary)** yang parsimonious dan terbukti bebas overfitting/jomplang pada data runtun waktu pendek APBD, serta opsi cadangan **Prophet (Secondary)** untuk analisis pembanding komponen aditif.
 - **Visualisasi Geospatial** - Peta heatmap cerdas berbasis lokasi Leaflet (OpenStreetMap).
 - **Kalkulator Dampak (What-If)** - Mengkalkulasi metrik Potensi Kas dan Kemandirian Fiskal (Tahun Berjalan) melalui slider skenario interaktif.
-- **Premium Executive Report** - Generator PDF tata kelola eksekutif dengan data *Top 5 Risiko Anomali* dan *Potensi Sektor Ekonomi Daerah*.
-- **Dashboard Cepat (Next.js)** - *Loading* instan berkat pra-komputasi JSON
+- **Premium Executive Report** - Generator PDF tata kelola eksekutif dengan data _Top 5 Risiko Anomali_ dan _Potensi Sektor Ekonomi Daerah_.
+- **Dashboard Cepat (Next.js)** - _Loading_ instan berkat pra-komputasi JSON
 
 Mendukung: Pajak Bumi dan Bangunan (PBB), Retribusi Daerah, PAD Lainnya, TKDD, serta integrasi 14 komponen APBD se-Indonesia.
 
@@ -60,13 +60,13 @@ graph TD
     B --> B2["Decumulation Engine (YTD to Monthly Discrete)"]
     B2 --> C["Processed Data (revenue_consolidated.csv)"]
     C --> D["Data Preprocessing (src/preprocessing.py)"]
-    
+
     D --> E["Forecasting Engine Prophet (src/forecasting.py)"]
     D --> F["Anomaly Detection Isolation Forest (src/anomaly_detection.py)"]
 
     E --> G["Pre-Compute Script (scripts/precompute.py)"]
     F --> G
-    
+
     G -.->|Generate| H["📄 JSON Data Static (frontend/public/data/)"]
 
     H --> I["Next.js React Frontend (frontend/)"]
@@ -114,21 +114,21 @@ _Halaman detail data logs metodologi_
 
 ## Metodologi Analitik AI
 
-RevDadas ditenagai oleh dua model *Machine Learning* utama yang dirancang khusus untuk menganalisis karakteristik keuangan daerah.
+RevDadas ditenagai oleh dua model _Machine Learning_ utama yang dirancang khusus untuk menganalisis karakteristik keuangan daerah.
 
 ### 1. Peramalan Pendapatan (Dual-Engine Architecture: Theta Primary & Prophet Secondary)
-RevDadas mengadopsi arsitektur peramalan ganda (*Dual-Engine*) untuk menjawab tantangan data fiskal APBD berhorizon pendek ($N=36$ titik):
+
+RevDadas mengadopsi arsitektur peramalan ganda (_Dual-Engine_) untuk menjawab tantangan data fiskal APBD berhorizon pendek ($N=36$ titik):
 
 #### A. Algoritma Utama: Theta Method (Primary Engine)
-Model utama RevDadas menggunakan **Theta Method** (Assimakopoulos & Nikolopoulos), algoritma peramalan pemenang *M3 Forecasting Competition* yang diakui secara global memiliki performa superior pada deret waktu bulanan bersampel pendek ($N < 50$).
+
+Model utama RevDadas menggunakan **Theta Method** (Assimakopoulos & Nikolopoulos), algoritma peramalan pemenang _M3 Forecasting Competition_ yang diakui secara global memiliki performa superior pada deret waktu bulanan bersampel pendek ($N < 50$).
 
 **Model Matematis (Theta Decomposition):**
-Deret waktu $Y_t$ yang telah dide-seasonalisasi dipecah menjadi dua garis 𝜃:
-$$
-Z''_t(\theta) = \theta Y''_t
-$$
+Deret waktu $Y_t$ yang telah dide-seasonalisasi dipecah menjadi dua garis 𝜃: $Z''_t(\theta) = \theta Y''_t$
+
 - **$\theta_1 = 0$ (Long-Term Drift):** Menangkap tren linier deterministik jangka panjang makroekonomi wilayah.
-- **$\theta_2 = 2$ (Mean-Reverting Curvature):** Menangkap dinamika dan kurvatur jangka pendek dengan memaksakan pergerakan kembali ke rata-rata (*mean-reversion*).
+- **$\theta_2 = 2$ (Mean-Reverting Curvature):** Menangkap dinamika dan kurvatur jangka pendek dengan memaksakan pergerakan kembali ke rata-rata (_mean-reversion_).
 - Hasil gabungan kedua garis $\theta$ kemudian dire-seasonalisasi menggunakan indeks musiman bulanan klasik.
 
 ```mermaid
@@ -140,30 +140,34 @@ flowchart LR
     D --> E
     E --> F[Reseasonalisasi & Capping Guardrails]
     F --> G[Proyeksi Andal & Anti-Jomplang]
-    
+
     style A fill:#0b74de,color:#fff
     style G fill:#22c55e,color:#fff
 ```
 
 **Mengapa Theta Menjadi Pilihan Utama?**
-1. **Bebas Overfitting (Parsimonious):** Berbeda dengan model kompleks yang memiliki puluhan parameter, Theta hanya menggunakan 2 parameter bebas sehingga kebal terhadap *overfitting* pada sampel 36 bulan.
-2. **Anti-Jomplang:** Sifat *mean-reverting* mencegah proyeksi belanja/pendapatan meledak liar ke atas atau runtuh ke nol.
+
+1. **Bebas Overfitting (Parsimonious):** Berbeda dengan model kompleks yang memiliki puluhan parameter, Theta hanya menggunakan 2 parameter bebas sehingga kebal terhadap _overfitting_ pada sampel 36 bulan.
+2. **Anti-Jomplang:** Sifat _mean-reverting_ mencegah proyeksi belanja/pendapatan meledak liar ke atas atau runtuh ke nol.
 3. **Akurasi Empiris Tinggi:** Mengukir Median WAPE terendah (**15.88%** pada akun fiskal utama) dan waktu komputasi instan (< 1 detik untuk 112 deret).
 
 #### B. Algoritma Cadangan: Prophet (Secondary Optional Engine)
+
 RevDadas tetap mempertahankan **Prophet** sebagai opsi sekunder untuk evaluasi dekomposisi komponen tren aditif ($y(t) = g(t) + s(t) + h(t) + \epsilon_t$). Model ini dapat diaktifkan kapan saja melalui parameter CLI untuk pengujian A/B.
 
-**Mekanisme Pelindung Keandalan Data (*Data Guardrail*)**
-Sistem dilengkapi evaluasi *backtesting* terotomatisasi (WAPE & sMAPE holdout 6 bulan) serta batas pengaman (*guardrail clamp* non-negatif dan plafon $1.35 \times \text{Max Historis}$) untuk menjamin proyeksi tetap dalam koridor fiskal yang realistis.
+**Mekanisme Pelindung Keandalan Data (_Data Guardrail_)**
+Sistem dilengkapi evaluasi _backtesting_ terotomatisasi (WAPE & sMAPE holdout 6 bulan) serta batas pengaman (_guardrail clamp_ non-negatif dan plafon $1.35 \times \text{Max Historis}$) untuk menjamin proyeksi tetap dalam koridor fiskal yang realistis.
 
 ### 2. Deteksi Anomali (Isolation Forest)
-Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan *under-reporting*, salah catat, atau *fraud*), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
-*(Update Patch: Ekstraksi fitur kini dikelompokkan secara spesifik per seri **Provinsi + Jenis Pendapatan** agar deteksi MoM (Month-over-Month) dan pergerakan rata-rata tidak mencampuradukkan sumber pendapatan yang berbeda, sehingga tingkat deteksi anomali jauh lebih presisi)*.
+
+Untuk mendeteksi laporan pendapatan yang tidak wajar (indikasi pelaporan _under-reporting_, salah catat, atau _fraud_), kami menerapkan algoritma **Isolation Forest**. Algoritma ini tidak mempelajari pola normal, melainkan secara eksplisit **mengisolasi data yang menyimpang**.
+_(Update Patch: Ekstraksi fitur kini dikelompokkan secara spesifik per seri **Provinsi + Jenis Pendapatan** agar deteksi MoM (Month-over-Month) dan pergerakan rata-rata tidak mencampuradukkan sumber pendapatan yang berbeda, sehingga tingkat deteksi anomali jauh lebih presisi)_.
 
 **Cara Kerja Algoritma:**
+
 1. Sistem mengekstraksi 4 fitur utama per seri (Normalisasi Revenue, MoM Change, Rasio MA-3, dan Deviasi Musiman).
-2. Sistem membangun sekumpulan pohon keputusan acak (*Isolation Trees*).
-3. Data yang bersifat anomali lebih mudah terpisah dari kelompoknya, sehingga memiliki lintasan pemisahan (*path length*) yang sangat pendek.
+2. Sistem membangun sekumpulan pohon keputusan acak (_Isolation Trees_).
+3. Data yang bersifat anomali lebih mudah terpisah dari kelompoknya, sehingga memiliki lintasan pemisahan (_path length_) yang sangat pendek.
 4. Skor anomali dihitung. Jika terdeteksi jalur tidak wajar, data diklasifikasikan dengan label **Tinggi** atau **Sedang** beserta diagnosis jenis anomali.
 
 ```mermaid
@@ -174,21 +178,23 @@ flowchart TD
     C -->|Jalur Pendek| E[Terindikasi Anomali]
     E --> F[Hitung Anomaly Score]
     F --> G[Tandai Label Severity]
-    
+
     style E fill:#f43f5e,color:#fff
     style G fill:#e11d48,color:#fff
 ```
 
 > **Contoh Deteksi Anomali (Isolation Forest):**
-> * **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
-> * **Periode Terdeteksi:** Februari 2025
-> * **Nilai Realisasi:** Rp 14,14 Miliar
-> * **Matriks Fitur (Feature Extraction):** Terjadi deviasi ekstrem dengan nilai `YoY_Growth` terkontraksi pada level -98,28%, berbanding terbalik dengan nilai `MoM_Change` yang mengalami lonjakan (*spike*) sebesar +69.912,8%.
-> * **Hasil Klasifikasi:** `Severity: Sedang` | `Indikasi: Spike / Manipulasi`
-> * **Justifikasi Mesin:** Terdeteksi lonjakan logaritmik eksponensial secara bulanan (MoM) meskipun persentase penyerapan total terhadap pagu anggaran riil (0,2%) tidak berkorelasi dengan volatilitas tersebut.
+>
+> - **Objek Observasi:** Provinsi Bali — Komponen Belanja Modal
+> - **Periode Terdeteksi:** Februari 2025
+> - **Nilai Realisasi:** Rp 14,14 Miliar
+> - **Matriks Fitur (Feature Extraction):** Terjadi deviasi ekstrem dengan nilai `YoY_Growth` terkontraksi pada level -98,28%, berbanding terbalik dengan nilai `MoM_Change` yang mengalami lonjakan (_spike_) sebesar +69.912,8%.
+> - **Hasil Klasifikasi:** `Severity: Sedang` | `Indikasi: Spike / Manipulasi`
+> - **Justifikasi Mesin:** Terdeteksi lonjakan logaritmik eksponensial secara bulanan (MoM) meskipun persentase penyerapan total terhadap pagu anggaran riil (0,2%) tidak berkorelasi dengan volatilitas tersebut.
 
 ### 3. Simulasi Output Metrik Dashboard (Kasus 3 Provinsi)
-Berikut adalah *snapshot* log sistem yang mendemonstrasikan kalkulasi final dari layar *dashboard* (pasca-kalibrasi agregat *Current Year*) ketika melakukan *stress-test* pada tiga provinsi berpendapatan terbesar di Indonesia secara bersamaan.
+
+Berikut adalah _snapshot_ log sistem yang mendemonstrasikan kalkulasi final dari layar _dashboard_ (pasca-kalibrasi agregat _Current Year_) ketika melakukan _stress-test_ pada tiga provinsi berpendapatan terbesar di Indonesia secara bersamaan.
 
 ```text
 ================ DEBUG INFO ================
@@ -245,14 +251,16 @@ Pencegahan Anomali : 5%
 
 ## Setup & Installation
 
-Untuk menjalankan sistem ini, Anda perlu menjalankan proses **Backend (Python)** untuk merender *Machine Learning* dan **Frontend (Node.js)** untuk menjalankan UI web.
+Untuk menjalankan sistem ini, Anda perlu menjalankan proses **Backend (Python)** untuk merender _Machine Learning_ dan **Frontend (Node.js)** untuk menjalankan UI web.
 
 ### 1. Prerequisites
+
 - Python 3.13+
 - Node.js 18+ (disarankan Node.js 20+)
 - Git
 
 ### 2. Backend (Pre-compute AI Models)
+
 Latih model kecerdasan buatan untuk mengomputasi data statis JSON.
 
 ```bash
@@ -283,9 +291,11 @@ python scripts/precompute.py --model prophet
 python scripts/precompute.py --switch theta
 python scripts/precompute.py --switch prophet
 ```
+
 > Data JSON akan ter-ekstrak otomatis ke folder `frontend/public/data/` (dan paket terisolasi di `frontend/public/data/models/`).
 
 ### 3. Frontend (Web Dashboard Next.js)
+
 Jalankan antarmuka interaktif yang akan mengonsumsi data JSON tersebut.
 
 ```bash
@@ -338,6 +348,7 @@ revdadas/
 ## Tech Stack Terkini
 
 **Frontend (Web UI)**
+
 - Next.js (App Router)
 - React 19
 - Recharts (Visualisasi Data)
@@ -346,6 +357,7 @@ revdadas/
 - jsPDF & jspdf-autotable (Export Laporan Premium)
 
 **Backend (AI / Data Processing)**
+
 - Python 3.13
 - Pandas / Numpy
 - Prophet (Time Series Forecasting)
@@ -358,6 +370,7 @@ revdadas/
 **Ketua**: Kwik Andreas Jonathan (32230111)
 
 **Developer**:
+
 - Clay Micholaz Fu (32240207)
 - Moses Chisthoper Adisam (32250047)
 - Gwyneth Eunice Widjaja (32240119)
@@ -367,4 +380,5 @@ Tim mahasiswa dari Universitas Bunda Mulia
 ---
 
 ## License
+
 MIT License
