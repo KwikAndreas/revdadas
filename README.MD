@@ -123,10 +123,10 @@ RevDadas mengadopsi arsitektur peramalan ganda (*Dual-Engine*) untuk menjawab ta
 Model utama RevDadas menggunakan **Theta Method** (Assimakopoulos & Nikolopoulos), algoritma peramalan pemenang *M3 Forecasting Competition* yang diakui secara global memiliki performa superior pada deret waktu bulanan bersampel pendek ($N < 50$).
 
 **Model Matematis (Theta Decomposition):**
-Deret waktu $Y_t$ yang telah dide-seasonalisasi dipecah menjadi dua garis $\theta$:
-$
+Deret waktu $Y_t$ yang telah dide-seasonalisasi dipecah menjadi dua garis 𝜃:
+$$
 Z''_t(\theta) = \theta Y''_t
-$
+$$
 - **$\theta_1 = 0$ (Long-Term Drift):** Menangkap tren linier deterministik jangka panjang makroekonomi wilayah.
 - **$\theta_2 = 2$ (Mean-Reverting Curvature):** Menangkap dinamika dan kurvatur jangka pendek dengan memaksakan pergerakan kembali ke rata-rata (*mean-reversion*).
 - Hasil gabungan kedua garis $\theta$ kemudian dire-seasonalisasi menggunakan indeks musiman bulanan klasik.
