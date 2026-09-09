@@ -1,0 +1,1932 @@
+{
+  "Bali": {
+    "1": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 4.7 M (asumsi success rate 1%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 4.7 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 4.7 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 23.4 M (asumsi success rate 5%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 23.4 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 23.4 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 46.8 M (asumsi success rate 10%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 46.8 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 46.8 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 70.2 M (asumsi success rate 15%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 70.2 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 70.2 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 93.6 M (asumsi success rate 20%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 93.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 93.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 117.0 M (asumsi success rate 25%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 117.0 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 117.0 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 140.4 M (asumsi success rate 30%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 140.4 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 140.4 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 187.1 M (asumsi success rate 40%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 187.1 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 187.1 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 233.9 M (asumsi success rate 50%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 233.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 233.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 350.9 M (asumsi success rate 75%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 350.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 350.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Bali",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 467.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Bali, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 467.9 M (asumsi success rate 100%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Bali pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 467.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 467.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Bali"
+      }
+    ]
+  },
+  "Banten": {
+    "1": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Banten"
+      }
+    ]
+  },
+  "DI Yogyakarta": {
+    "1": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DI Yogyakarta"
+      }
+    ]
+  },
+  "DKI Jakarta": {
+    "1": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "DKI Jakarta"
+      }
+    ]
+  },
+  "Jawa Barat": {
+    "1": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 99.6 M (asumsi success rate 1%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 99.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 99.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 497.8 M (asumsi success rate 5%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 497.8 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 497.8 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 995.6 M (asumsi success rate 10%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 995.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 995.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 1.5 T (asumsi success rate 15%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 1.5 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 1.5 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 2.0 T (asumsi success rate 20%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 2.0 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 2.0 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 2.5 T (asumsi success rate 25%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 2.5 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 2.5 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 3.0 T (asumsi success rate 30%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 3.0 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 3.0 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 4.0 T (asumsi success rate 40%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 4.0 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 4.0 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 5.0 T (asumsi success rate 50%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 5.0 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 5.0 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 7.5 T (asumsi success rate 75%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 7.5 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 7.5 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Barat",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 2 catatan anomali dengan total deviasi Rp 10.0 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Barat, khususnya pada pos \"Pajak Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 10.0 T (asumsi success rate 100%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Barat pada pos Pajak Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 10.0 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Pajak Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Pajak Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 10.0 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Pajak Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Barat"
+      }
+    ]
+  },
+  "Jawa Tengah": {
+    "1": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Kondisi Fiskal Relatif Stabil",
+        "prioritas": "Rendah",
+        "detail": "Model AI tidak mendeteksi deviasi target atau anomali historis yang signifikan. Pertahankan disiplin anggaran dan lanjutkan rutinitas pengelolaan keuangan daerah secara konservatif.",
+        "kebijakan_existing": "Menjalankan rutinitas standar operasional prosedur (SOP) pencairan APBD.",
+        "kelebihan": [
+          "Menjamin stabilitas jalannya roda pemerintahan dan pelayanan publik"
+        ],
+        "kekurangan": [
+          "Cenderung kurang proaktif dalam mencari celah optimalisasi PAD baru"
+        ],
+        "indikator_dampak": "Persentase realisasi vs target PAD",
+        "kaitan_bisnis": "Memastikan likuiditas harian kas daerah tetap sehat untuk operasional standar.",
+        "perbandingan": "Stabilitas Konservatif vs Inovasi Agresif",
+        "justifikasi": "Saat prediktif indikator menunjukkan stabilitas tinggi, intervensi radikal justru dapat menimbulkan guncangan birokrasi.",
+        "provinsi": "Jawa Tengah"
+      }
+    ]
+  },
+  "Jawa Timur": {
+    "1": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 22.5 M (asumsi success rate 1%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 22.5 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 22.5 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 112.6 M (asumsi success rate 5%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 112.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 112.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 225.2 M (asumsi success rate 10%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 225.2 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 225.2 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 337.8 M (asumsi success rate 15%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 337.8 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 337.8 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 450.4 M (asumsi success rate 20%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 450.4 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 450.4 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 563.0 M (asumsi success rate 25%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 563.0 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 563.0 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 675.6 M (asumsi success rate 30%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 675.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 675.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 900.9 M (asumsi success rate 40%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 900.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 900.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 1.1 T (asumsi success rate 50%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 1.1 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 1.1 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 1.7 T (asumsi success rate 75%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 1.7 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 1.7 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Fokus Audit Anomali Terarah di Jawa Timur",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 2.3 T dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Jawa Timur, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 2.3 T (asumsi success rate 100%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Jawa Timur pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 2.3 T secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 2.3 T tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Jawa Timur"
+      }
+    ]
+  },
+  "Sumatera Utara": {
+    "1": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 1.2 M (asumsi success rate 1%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 1.2 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 1.2 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "5": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 5.9 M (asumsi success rate 5%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 5.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 5.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "10": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 11.9 M (asumsi success rate 10%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 11.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 11.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "15": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 17.8 M (asumsi success rate 15%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 17.8 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 17.8 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "20": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 23.8 M (asumsi success rate 20%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 23.8 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 23.8 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "25": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 29.7 M (asumsi success rate 25%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 29.7 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 29.7 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "30": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 35.7 M (asumsi success rate 30%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 35.7 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 35.7 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "40": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 47.6 M (asumsi success rate 40%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 47.6 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 47.6 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "50": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 59.5 M (asumsi success rate 50%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 59.5 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 59.5 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "75": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 89.2 M (asumsi success rate 75%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 89.2 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 89.2 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ],
+    "100": [
+      {
+        "judul": "Waspada Perlambatan Kapasitas Fiskal di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Proyeksi rata-rata bulanan (Rp 18.9 T) lebih rendah 3.9% dibanding rata-rata 12 bulan terakhir (Rp 19.7 T). Mengingat capaian historis hanya 46.9%, pertimbangkan intensifikasi segera.",
+        "kebijakan_existing": "Sistem pengawasan Sumatera Utara berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
+        "kelebihan": [
+          "Mencegah shortfall PAD progresif di Sumatera Utara sebelum terjadi",
+          "Mengamankan pendanaan proyek strategis daerah"
+        ],
+        "kekurangan": [
+          "Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"
+        ],
+        "indikator_dampak": "Tingkat pencapaian target PAD (Persentase)",
+        "kaitan_bisnis": "Mencegah defisit anggaran sebesar estimasi perlambatan 3.9% yang dapat mengganggu belanja modal.",
+        "perbandingan": "Intervensi Proaktif vs Reaktif Pasca-Audit",
+        "justifikasi": "Penurunan tren bulanan saat target belum tercapai (46.9%) akan secara matematis menggerus kapasitas fiskal Sumatera Utara.",
+        "provinsi": "Sumatera Utara"
+      },
+      {
+        "judul": "Fokus Audit Anomali Terarah di Sumatera Utara",
+        "prioritas": "Tinggi",
+        "detail": "Algoritma mendeteksi 1 catatan anomali dengan total deviasi Rp 118.9 M dari baseline wajar. Arahkan satgas pengawasan secara spesifik ke Sumatera Utara, khususnya pada pos \"Retribusi Daerah\". Audit prediktif ini berpotensi memulihkan kas daerah hingga ~Rp 118.9 M (asumsi success rate 100%).",
+        "kebijakan_existing": "Pemeriksaan rutin di Sumatera Utara pada pos Retribusi Daerah masih bersifat acak (random sampling) tanpa prioritas berbasis skor anomali.",
+        "kelebihan": [
+          "Memulihkan kebocoran Rp 118.9 M secara efisien",
+          "Memberikan deterrence effect (efek jera) yang kuat di ekosistem Retribusi Daerah"
+        ],
+        "kekurangan": [
+          "Resistensi awal dari wajib pajak/retribusi Retribusi Daerah terhadap pengawasan ketat"
+        ],
+        "indikator_dampak": "Recovery Rate Kebocoran (Nilai rupiah yang dikembalikan ke Kas Daerah)",
+        "kaitan_bisnis": "Meningkatkan penerimaan secara instan sebesar Rp 118.9 M tanpa harus membuat Perda pajak baru.",
+        "perbandingan": "Audit Berbasis Prediksi AI vs Sampling Acak Konvensional",
+        "justifikasi": "Model RevDadas melokalisasi deviasi pada Retribusi Daerah. Mengerahkan auditor ke titik spesifik ini 10x lebih hemat biaya daripada audit menyeluruh.",
+        "provinsi": "Sumatera Utara"
+      }
+    ]
+  }
+}

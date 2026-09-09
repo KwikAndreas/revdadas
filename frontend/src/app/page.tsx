@@ -432,11 +432,30 @@ export default function DashboardPage() {
     []
   );
 
-  const handleExportPDF = useCallback(() => {
-    import("@/lib/pdf").then(({ generatePDF }) => {
-      generatePDF(kpiData, policyRecs, filters, bizData, insightData, data?.meta);
-    });
-  }, [kpiData, policyRecs, filters, bizData, insightData, data?.meta]);
+  const handleExport = useCallback(
+    (format: "pdf" | "xlsx" | "docx") => {
+      import("@/lib/export").then(({ exportToPDF, exportToXLSX, exportToDOCX }) => {
+        const payload = {
+          kpis: kpiData,
+          policyRecs,
+          filters,
+          bizData,
+          insightData,
+          meta: data?.meta,
+          forecasts: filteredForecast,
+        };
+
+        if (format === "pdf") {
+          exportToPDF(payload);
+        } else if (format === "xlsx") {
+          exportToXLSX(payload);
+        } else if (format === "docx") {
+          exportToDOCX(payload);
+        }
+      });
+    },
+    [kpiData, policyRecs, filters, bizData, insightData, data?.meta, filteredForecast]
+  );
 
   // ─── Debug Logging ──────────────────────────────────────────
   useEffect(() => {
@@ -506,7 +525,7 @@ export default function DashboardPage() {
       <main className="main-content">
         {/* Header */}
         <Header 
-          onExportPDF={handleExportPDF} 
+          onExport={handleExport} 
           onMenuClick={() => setSidebarOpen(true)}
         />
 
