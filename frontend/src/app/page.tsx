@@ -362,8 +362,8 @@ export default function DashboardPage() {
     accuracySeries.slice(0, 3).forEach(r => {
       const prov = r.Provinsi.substring(0, 16).padEnd(16, " ");
       const jenis = r.Jenis_Pendapatan.substring(0, 28).padEnd(28, " ");
-      const ak = `${r.Akurasi.toFixed(1)}%`.padEnd(7, " ");
-      const wa = `${r.WAPE ? r.WAPE.toFixed(1) : "-"}%`.padEnd(7, " ");
+      const ak = `${r.Akurasi != null ? r.Akurasi.toFixed(1) + "%" : "-"}`.padEnd(7, " ");
+      const wa = `${r.WAPE !== null && r.WAPE !== undefined ? r.WAPE.toFixed(1) + "%" : "-"}`.padEnd(7, " ");
       let ke = "🔴 Lemah";
       if (r.WAPE !== null) {
         if (r.WAPE < 30) ke = "🟢 Andal";

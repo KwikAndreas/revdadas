@@ -511,15 +511,15 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
       <div className="metrics-row">
         <div className="metric-card">
           <div className="metric-label">Akurasi Model (Median)</div>
-          <div className="metric-value">{accuracy.overall.akurasi.toFixed(0)}%</div>
+          <div className="metric-value">{accuracy.overall?.akurasi != null ? `${accuracy.overall.akurasi.toFixed(0)}%` : "-"}</div>
         </div>
         <div className="metric-card">
           <div className="metric-label">Seri Andal (WAPE &lt; 50%)</div>
-          <div className="metric-value">{accuracy.overall.n_reliable} / {accuracy.overall.n_series}</div>
+          <div className="metric-value">{accuracy.overall?.n_reliable ?? 0} / {accuracy.overall?.n_series ?? 0}</div>
         </div>
         <div className="metric-card">
           <div className="metric-label">Median WAPE</div>
-          <div className="metric-value">{accuracy.overall.median_wape.toFixed(1)}%</div>
+          <div className="metric-value">{accuracy.overall?.median_wape != null ? `${accuracy.overall.median_wape.toFixed(1)}%` : "-"}</div>
         </div>
       </div>
 
@@ -551,7 +551,7 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
                 <tr key={i}>
                   <td>{r.Provinsi}</td>
                   <td>{r.Jenis_Pendapatan}</td>
-                  <td>{r.Akurasi.toFixed(1)}%</td>
+                  <td>{r.Akurasi != null ? `${r.Akurasi.toFixed(1)}%` : "-"}</td>
                   <td>{r.WAPE !== null ? r.WAPE.toFixed(1) + "%" : "-"}</td>
                   <td>{r.sMAPE !== null ? r.sMAPE.toFixed(1) + "%" : "-"}</td>
                   <td style={{ color, fontWeight: 600 }}>{keandalan}</td>
