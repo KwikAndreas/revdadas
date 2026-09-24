@@ -57,7 +57,7 @@ export default function ProportionChart({ historical }: ProportionChartProps) {
   }, [historical]);
 
   return (
-    <div style={{ width: "100%", height: isMobile ? 380 : 280, outline: "none" }}>
+    <div style={{ width: "100%", height: isMobile ? 320 : 340, outline: "none" }}>
       <ResponsiveContainer>
         <BarChart
           data={chartData}

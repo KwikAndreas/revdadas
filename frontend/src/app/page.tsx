@@ -18,13 +18,15 @@ import {
 import Sidebar from "@/components/layout/Sidebar";
 import Header from "@/components/layout/Header";
 import KPICards from "@/components/dashboard/KPICards";
-import ImpactCalculator from "@/components/dashboard/ImpactCalculator";
-import AIInsights from "@/components/dashboard/AIInsights";
+import FiscalIntelligencePanel from "@/components/dashboard/FiscalIntelligencePanel";
 import RevenueChart from "@/components/charts/RevenueChart";
 import ProportionChart from "@/components/charts/ProportionChart";
 import DataTabs from "@/components/tables/DataTabs";
-import { FileText, Sparkles, Map as MapIcon, Database, AlertCircle, CheckCircle, XCircle } from "lucide-react";
+import FiscalStatusBanner from "@/components/dashboard/FiscalStatusBanner";
+import RegionalContext from "@/components/dashboard/RegionalContext";
+import { FileText, Sparkles, Map as MapIcon, Database, AlertCircle, CheckCircle, XCircle, ChevronLeft, ChevronRight } from "lucide-react";
 import dynamic from "next/dynamic";
+import { LanguageProvider, useLanguage } from "@/lib/LanguageContext";
 
 // Dynamic import for map (requires browser APIs)
 const HeatmapIndonesia = dynamic(
@@ -32,12 +34,14 @@ const HeatmapIndonesia = dynamic(
   { ssr: false, loading: () => <div style={{ height: 800, background: "#f1f5f9", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8" }}>Memuat peta...</div> }
 );
 
-export default function DashboardPage() {
+function DashboardContent() {
+  const { lang, t } = useLanguage();
   const [data, setData] = useState<AllData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showRecs, setShowRecs] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [recPage, setRecPage] = useState(1);
 
   const [filters, setFilters] = useState<DashboardFilters>({
     selectedProvinces: [],
@@ -65,6 +69,11 @@ export default function DashboardPage() {
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
   }, []);
+
+  // Reset page recommendation when filter changes
+  useEffect(() => {
+    setRecPage(1);
+  }, [filters.selectedProvinces, filters.fraudPreventionPct, filters.selectedTaxType]);
 
   // ─── Derived Data ────────────────────────────────────────────
   const filteredHistorical = useMemo<HistoricalRecord[]>(() => {
@@ -164,8 +173,25 @@ export default function DashboardPage() {
     const order: Record<string, number> = { "Tinggi": 0, "Sedang": 1, "Rendah": 2 };
     allRecs.sort((a, b) => (order[a.prioritas] ?? 9) - (order[b.prioritas] ?? 9));
     
-    return allRecs;
+    // Deduplicate recommendations by title to avoid repetitive cards
+    const seen = new Set<string>();
+    const uniqueRecs: PolicyRecommendation[] = [];
+    for (const r of allRecs) {
+      if (!seen.has(r.judul)) {
+        seen.add(r.judul);
+        uniqueRecs.push(r);
+      }
+    }
+    return uniqueRecs;
   }, [data?.policy, filters.fraudPreventionPct, filters.selectedProvinces]);
+
+  // ─── Policy Recommendations Pagination (Limit 3 per page) ───
+  const RECS_PER_PAGE = 3;
+  const totalRecPages = Math.max(1, Math.ceil(policyRecs.length / RECS_PER_PAGE));
+  const paginatedRecs = useMemo(() => {
+    const start = (recPage - 1) * RECS_PER_PAGE;
+    return policyRecs.slice(start, start + RECS_PER_PAGE);
+  }, [policyRecs, recPage]);
 
   // ─── KPI Calculations ───────────────────────────────────────
   const kpiData = useMemo(() => {
@@ -364,10 +390,10 @@ export default function DashboardPage() {
       const jenis = r.Jenis_Pendapatan.substring(0, 28).padEnd(28, " ");
       const ak = `${r.Akurasi != null ? r.Akurasi.toFixed(1) + "%" : "-"}`.padEnd(7, " ");
       const wa = `${r.WAPE !== null && r.WAPE !== undefined ? r.WAPE.toFixed(1) + "%" : "-"}`.padEnd(7, " ");
-      let ke = "🔴 Lemah";
+      let ke = "[Lemah]";
       if (r.WAPE !== null) {
-        if (r.WAPE < 30) ke = "🟢 Andal";
-        else if (r.WAPE < 50) ke = "🟡 Cukup";
+        if (r.WAPE < 30) ke = "[Andal]";
+        else if (r.WAPE < 50) ke = "[Cukup]";
       }
       output += `${prov} | ${jenis} | ${ak} | ${wa} | ${ke}\n`;
     });
@@ -427,7 +453,13 @@ export default function DashboardPage() {
   // ─── Handlers ────────────────────────────────────────────────
   const handleFilterChange = useCallback(
     (partial: Partial<DashboardFilters>) => {
-      setFilters((prev) => ({ ...prev, ...partial }));
+      setFilters((prev) => {
+        const next = { ...prev, ...partial };
+        if (next.forecastMonths !== undefined) {
+          next.forecastMonths = Math.min(12, Math.max(6, next.forecastMonths));
+        }
+        return next;
+      });
     },
     []
   );
@@ -529,6 +561,14 @@ export default function DashboardPage() {
           onMenuClick={() => setSidebarOpen(true)}
         />
 
+        {/* Banner Pemberitahuan Status Fiskal & Panduan Persona */}
+        <FiscalStatusBanner
+          anomalyPct={kpiData.anomalyPct}
+          anomalyCount={kpiData.anomalyCount}
+          selectedProvinces={filters.selectedProvinces}
+          selectedYear={filters.selectedYear}
+        />
+
         {/* KPI Cards */}
         <KPICards
           totalRevenue={kpiData.totalRevenue}
@@ -544,22 +584,22 @@ export default function DashboardPage() {
           selectedYear={filters.selectedYear}
         />
 
-        {/* Middle Row: Map + Impact Calculator */}
-        <div className="middle-row">
+        {/* Middle Row: Map + FiscalIntelligencePanel */}
+        <div className="middle-row" style={{ marginBottom: 16 }}>
           <div>
             <div className="map-header">
-              <h3 className="section-title" style={{ margin: 0 }}>
-                Heatmap Potensi Revenue & Risiko
+              <h3 className="section-title" style={{ margin: 0, fontSize: 15 }}>
+                {t("map.title")}
               </h3>
               <div className="map-legend">
                 <span className="map-legend-item map-legend-item--optimal">
-                  OPTIMAL
+                  {t("map.optimal")}
                 </span>
                 <span className="map-legend-item map-legend-item--moderate">
-                  MODERAT
+                  {t("map.moderate")}
                 </span>
                 <span className="map-legend-item map-legend-item--critical">
-                  KRITIS
+                  {t("map.critical")}
                 </span>
               </div>
             </div>
@@ -574,9 +614,10 @@ export default function DashboardPage() {
           </div>
 
           <div>
-            <ImpactCalculator
+            <FiscalIntelligencePanel
               potentialLoss={kpiData.potentialLoss}
               fraudPreventionPct={filters.fraudPreventionPct}
+              insightData={insightData}
               onShowRecs={() => {
                 setShowRecs(true);
                 setTimeout(() => {
@@ -584,18 +625,51 @@ export default function DashboardPage() {
                 }, 85);
               }}
             />
-            <AIInsights insightData={insightData} />
           </div>
+        </div>
+
+        {/* Profil Spasial & Konteks Fiskal (Full Width ke Kanan) */}
+        <div style={{ marginBottom: 24 }}>
+          <RegionalContext
+            selectedProvinces={filters.selectedProvinces}
+            anomalies={filteredAnomalies}
+            historical={filteredHistorical}
+          />
         </div>
 
         {/* Policy Recommendations (Moved up for UX Best Practice) */}
         {showRecs && (
-          <div id="rekomendasi-section" className="animate-fade-in-up" style={{ marginBottom: 32 }}>
-            <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <Sparkles size={18} /> Rekomendasi Berbasis Algoritma
-            </h3>
+          <div id="rekomendasi-section" className="animate-fade-in-up" style={{ marginBottom: 28 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14, flexWrap: "wrap", gap: 8 }}>
+              <div>
+                <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8, margin: "0 0 2px 0", fontSize: 15 }}>
+                  <Sparkles size={16} color="#0284c7" /> {t("policy.title")}
+                </h3>
+                <span style={{ fontSize: 11.5, color: "#64748b" }}>
+                  {lang === "en" 
+                    ? `Sorted by urgency level • Displaying ${paginatedRecs.length} of ${policyRecs.length} recommendations`
+                    : `Diurutkan berdasarkan tingkat urgensi • Menampilkan ${paginatedRecs.length} dari ${policyRecs.length} rekomendasi`}
+                </span>
+              </div>
+              <button
+                onClick={() => setShowRecs(false)}
+                style={{
+                  background: "transparent",
+                  border: "1px solid #cbd5e1",
+                  borderRadius: 6,
+                  padding: "4px 10px",
+                  fontSize: 11.5,
+                  fontWeight: 600,
+                  color: "#64748b",
+                  cursor: "pointer"
+                }}
+              >
+                {t("policy.close")}
+              </button>
+            </div>
+
             <div style={{ display: "grid", gap: 12 }}>
-              {policyRecs.map((rec, i) => {
+              {paginatedRecs.map((rec, i) => {
                 const colors = getPriorityColors(rec.prioritas);
                 return (
                   <div key={i} className="insight-card" style={{ padding: "16px 20px" }}>
@@ -608,7 +682,7 @@ export default function DashboardPage() {
                           color: colors.text,
                         }}
                       >
-                        {rec.prioritas}
+                        {t("policy.priority")} {rec.prioritas}
                       </span>
                     </div>
                     
@@ -617,11 +691,11 @@ export default function DashboardPage() {
                     {rec.kebijakan_existing && (
                       <div className="policy-grid">
                         <div style={{ background: "#f8fafc", padding: 12, borderRadius: 8, borderLeft: "3px solid #94a3b8" }}>
-                          <div style={{ fontSize: 11, fontWeight: 600, color: "#64748b", marginBottom: 4 }}>BASELINE (EXISTING)</div>
+                          <div style={{ fontSize: 11, fontWeight: 600, color: "#64748b", marginBottom: 4 }}>{t("policy.baseline")}</div>
                           <div style={{ fontSize: 13, color: "#334155" }}>{rec.kebijakan_existing}</div>
                         </div>
                         <div style={{ background: "#f0fdfa", padding: 12, borderRadius: 8, borderLeft: "3px solid #14b8a6" }}>
-                          <div style={{ fontSize: 11, fontWeight: 600, color: "#0d9488", marginBottom: 4 }}>REKOMENDASI AI</div>
+                          <div style={{ fontSize: 11, fontWeight: 600, color: "#0d9488", marginBottom: 4 }}>{t("policy.ai_rec")}</div>
                           <div style={{ fontSize: 13, color: "#0f766e" }}>{rec.perbandingan}</div>
                         </div>
                       </div>
@@ -631,7 +705,7 @@ export default function DashboardPage() {
                       <div className="policy-grid" style={{ fontSize: 13 }}>
                         <div>
                           <div style={{ fontWeight: 600, color: "#16a34a", marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
-                            <CheckCircle size={14} /> Kelebihan
+                            <CheckCircle size={14} /> {t("policy.pros")}
                           </div>
                           <ul style={{ paddingLeft: 20, color: "#334155", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
                             {rec.kelebihan?.map((k, idx) => <li key={idx}>{k}</li>)}
@@ -639,7 +713,7 @@ export default function DashboardPage() {
                         </div>
                         <div>
                           <div style={{ fontWeight: 600, color: "#dc2626", marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
-                            <XCircle size={14} /> Risiko / Kekurangan
+                            <XCircle size={14} /> {t("policy.cons")}
                           </div>
                           <ul style={{ paddingLeft: 20, color: "#334155", margin: 0, display: "flex", flexDirection: "column", gap: 4 }}>
                             {rec.kekurangan?.map((k, idx) => <li key={idx}>{k}</li>)}
@@ -652,20 +726,20 @@ export default function DashboardPage() {
                       <div style={{ borderTop: "1px solid #e2e8f0", paddingTop: 12, marginTop: 12 }}>
                         {rec.justifikasi && (
                           <div style={{ marginBottom: 12, fontSize: 13 }}>
-                            <span style={{ fontWeight: 600, color: "#475569", marginRight: 8 }}>Justifikasi:</span>
+                            <span style={{ fontWeight: 600, color: "#475569", marginRight: 8 }}>{t("policy.justification")}</span>
                             <span style={{ color: "#334155" }}>{rec.justifikasi}</span>
                           </div>
                         )}
                         <div style={{ display: "flex", flexWrap: "wrap", gap: 16, fontSize: 12 }}>
                           {rec.indikator_dampak && (
                             <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: "1 1 200px" }}>
-                              <span style={{ fontWeight: 600, color: "#64748b" }}>Indikator:</span>
+                              <span style={{ fontWeight: 600, color: "#64748b" }}>{t("policy.indicator")}</span>
                               <span style={{ color: "#0f172a" }}>{rec.indikator_dampak}</span>
                             </div>
                           )}
                           {rec.kaitan_bisnis && (
                             <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: "1 1 200px" }}>
-                              <span style={{ fontWeight: 600, color: "#64748b" }}>Dampak:</span>
+                              <span style={{ fontWeight: 600, color: "#64748b" }}>{t("policy.impact")}</span>
                               <span style={{ color: "#0f172a" }}>{rec.kaitan_bisnis}</span>
                             </div>
                           )}
@@ -676,25 +750,102 @@ export default function DashboardPage() {
                 );
               })}
             </div>
+
+            {/* Pagination Controls (Bottom) */}
+            {totalRecPages > 1 && (
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 16, flexWrap: "wrap", gap: 10 }}>
+                <span className="table-caption" style={{ margin: 0 }}>
+                  {lang === "en"
+                    ? `Displaying ${paginatedRecs.length} recommendations per page • Page ${recPage} of ${totalRecPages}`
+                    : `Menampilkan ${paginatedRecs.length} rekomendasi per halaman • Halaman ${recPage} dari ${totalRecPages}`}
+                </span>
+
+                <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                  <button
+                    disabled={recPage === 1}
+                    onClick={() => {
+                      setRecPage((p) => Math.max(1, p - 1));
+                      document.getElementById('rekomendasi-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }}
+                    style={{
+                      padding: "6px 14px",
+                      borderRadius: 6,
+                      fontSize: 12,
+                      fontWeight: 600,
+                      border: "1px solid #cbd5e1",
+                      background: recPage === 1 ? "#f1f5f9" : "#ffffff",
+                      color: recPage === 1 ? "#94a3b8" : "#1e3a5f",
+                      cursor: recPage === 1 ? "not-allowed" : "pointer"
+                    }}
+                  >
+                    <ChevronLeft size={14} style={{ display: "inline", verticalAlign: "middle" }} /> {t("policy.prev")}
+                  </button>
+
+                  {/* Page Number Chips */}
+                  {Array.from({ length: totalRecPages }, (_, i) => i + 1).map((pg) => (
+                    <button
+                      key={pg}
+                      onClick={() => {
+                        setRecPage(pg);
+                        document.getElementById('rekomendasi-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      }}
+                      style={{
+                        padding: "5px 10px",
+                        borderRadius: 6,
+                        fontSize: 12,
+                        fontWeight: pg === recPage ? 700 : 500,
+                        border: pg === recPage ? "1px solid #0284c7" : "1px solid #e2e8f0",
+                        background: pg === recPage ? "#0284c7" : "#ffffff",
+                        color: pg === recPage ? "#ffffff" : "#475569",
+                        cursor: "pointer"
+                      }}
+                    >
+                      {pg}
+                    </button>
+                  ))}
+
+                  <button
+                    disabled={recPage === totalRecPages}
+                    onClick={() => {
+                      setRecPage((p) => Math.min(totalRecPages, p + 1));
+                      document.getElementById('rekomendasi-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }}
+                    style={{
+                      padding: "6px 14px",
+                      borderRadius: 6,
+                      fontSize: 12,
+                      fontWeight: 600,
+                      border: "1px solid #cbd5e1",
+                      background: recPage === totalRecPages ? "#f1f5f9" : "#ffffff",
+                      color: recPage === totalRecPages ? "#94a3b8" : "#1e3a5f",
+                      cursor: recPage === totalRecPages ? "not-allowed" : "pointer"
+                    }}
+                  >
+                    {t("policy.next")} <ChevronRight size={14} style={{ display: "inline", verticalAlign: "middle" }} />
+                  </button>
+                </div>
+              </div>
+            )}
+
             <p className="table-caption" style={{ marginTop: 12 }}>
-              Rekomendasi bersifat indikatif sebagai bahan diskusi kebijakan, bukan keputusan final.
+              {t("policy.disclaimer")}
             </p>
           </div>
         )}
 
-        {/* Charts Row */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 24, marginBottom: 32 }}>
+        {/* Charts Row: Side-by-side 2-column comparative layout */}
+        <div className="charts-row">
           <div className="chart-card animate-fade-in-up">
             <h3 className="section-title">
-              Historical Revenue vs Forecast (Ensemble AI)
+              {t("chart.revenue_forecast")}
             </h3>
             <RevenueChart
               historical={filteredHistorical.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
               forecast={filteredForecast.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
             />
           </div>
-          <div className="chart-card animate-fade-in-up" style={{ animationDelay: "100ms" }}>
-            <h3 className="section-title">Proporsi Sumber Pendapatan</h3>
+          <div className="chart-card animate-fade-in-up" style={{ animationDelay: "80ms" }}>
+            <h3 className="section-title">{t("chart.revenue_proportion")}</h3>
             <ProportionChart historical={kpiData.thisYearProportionRecords} />
           </div>
         </div>
@@ -705,7 +856,7 @@ export default function DashboardPage() {
         {/* Detailed Data Logs */}
         <div id="data-logs">
           <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <FileText size={18} /> Detailed Data Logs
+            <FileText size={18} /> {t("tabs.title")}
           </h3>
           <DataTabs
             forecast={filteredForecast}
@@ -722,5 +873,13 @@ export default function DashboardPage() {
 
       </main>
     </div>
+  );
+}
+
+export default function DashboardPage() {
+  return (
+    <LanguageProvider>
+      <DashboardContent />
+    </LanguageProvider>
   );
 }

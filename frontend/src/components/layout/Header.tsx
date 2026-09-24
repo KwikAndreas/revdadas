@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { RefreshCcw, Download, Menu, ChevronDown, FileText, FileSpreadsheet, File } from "lucide-react";
+import { useLanguage } from "@/lib/LanguageContext";
 
 export type ExportFormat = "pdf" | "xlsx" | "docx";
 
@@ -10,6 +11,7 @@ export default function Header({
   onExport: (format: ExportFormat) => void;
   onMenuClick?: () => void;
 }) {
+  const { lang, setLang, t } = useLanguage();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -37,7 +39,7 @@ export default function Header({
           </button>
         )}
         <div className="header-center">
-          AI-Driven Revenue Forecasting & Anomaly Detection
+          {t("header.title")}
         </div>
       </div>
       <div className="header-actions">
@@ -45,7 +47,7 @@ export default function Header({
           className="btn btn-secondary"
           onClick={() => window.location.reload()}
         >
-          <RefreshCcw size={14} /> Refresh
+          <RefreshCcw size={14} /> {t("header.refresh")}
         </button>
 
         {/* Unified Export Dropdown */}
@@ -58,7 +60,7 @@ export default function Header({
             aria-expanded={dropdownOpen}
           >
             <Download size={14} /> 
-            <span>Export</span>
+            <span>{t("header.export")}</span>
             <ChevronDown 
               size={13} 
               style={{ 
@@ -92,7 +94,7 @@ export default function Header({
                 textTransform: "uppercase", 
                 letterSpacing: "0.05em" 
               }}>
-                Pilih Format Ekspor
+                {t("header.export_title")}
               </div>
 
               {/* Option 1: PDF */}
@@ -128,7 +130,7 @@ export default function Header({
                 </div>
                 <div>
                   <div style={{ fontSize: 13, fontWeight: 600, color: "#0f172a" }}>PDF Document (.pdf)</div>
-                  <div style={{ fontSize: 11, color: "#64748b" }}>Laporan Eksekutif Dossier B2G Resmi</div>
+                  <div style={{ fontSize: 11, color: "#64748b" }}>{t("header.export_pdf")}</div>
                 </div>
               </button>
 
@@ -165,7 +167,7 @@ export default function Header({
                 </div>
                 <div>
                   <div style={{ fontSize: 13, fontWeight: 600, color: "#0f172a" }}>Excel Spreadsheet (.xlsx)</div>
-                  <div style={{ fontSize: 11, color: "#64748b" }}>Lembar Kerja Multitab & Dataset Lengkap</div>
+                  <div style={{ fontSize: 11, color: "#64748b" }}>{t("header.export_excel")}</div>
                 </div>
               </button>
 
@@ -202,7 +204,7 @@ export default function Header({
                 </div>
                 <div>
                   <div style={{ fontSize: 13, fontWeight: 600, color: "#0f172a" }}>Word Document (.docx)</div>
-                  <div style={{ fontSize: 11, color: "#64748b" }}>Dokumen Telaah & Nota Dinas Kebijakan</div>
+                  <div style={{ fontSize: 11, color: "#64748b" }}>{t("header.export_word")}</div>
                 </div>
               </button>
             </div>

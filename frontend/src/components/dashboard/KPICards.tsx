@@ -1,6 +1,7 @@
 import { formatCurrency } from "@/lib/utils";
 import { Wallet, TrendingUp, AlertTriangle, ShieldAlert, Percent } from "lucide-react";
 import type { AnomalyRecord } from "@/lib/types";
+import { useLanguage } from "@/lib/LanguageContext";
 
 interface KPICardsProps {
   totalRevenue: number;
@@ -31,27 +32,31 @@ export default function KPICards({
   anomalies,
   selectedYear,
 }: KPICardsProps) {
+  const { lang, t } = useLanguage();
+
   return (
     <div className="kpi-grid">
       <div className="kpi-card animate-fade-in-up">
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
-          <Wallet size={14} /> TOTAL REVENUE KUMULATIF (AKTUAL)
+        <div className="kpi-title">
+          <span>{t("kpi.realisasi_pad")}</span>
+          <Wallet size={14} color="#0284c7" />
         </div>
         <div className="kpi-value kpi-value--dark">
           {formatCurrency(totalRevenue)}
         </div>
         <div className="kpi-sub kpi-sub--green">
           {targetPercentage !== undefined 
-            ? `${targetPercentage.toFixed(1)}% dari Target Tahunan` 
-            : 'Real Data'}
+            ? t("kpi.target_annual", { pct: targetPercentage.toFixed(1) })
+            : t("kpi.actual_realization")}
         </div>
       </div>
 
       <div className="kpi-card animate-fade-in-up">
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <TrendingUp size={14} /> TOTAL FORECAST ({forecastMonths} BULAN KE DEPAN)
+        <div className="kpi-title">
+          <span>{t("kpi.proyeksi", { months: forecastMonths })}</span>
+          <TrendingUp size={14} color="#0284c7" />
         </div>
-        <div className="kpi-value kpi-value--red">
+        <div className="kpi-value kpi-value--dark">
           {formatCurrency(forecastTotal)}
         </div>
         <div className="kpi-sub kpi-sub--gray">{accuracyText}</div>
@@ -60,7 +65,9 @@ export default function KPICards({
       <div 
         className="kpi-card animate-fade-in-up" 
         style={{ cursor: anomalyCount > 0 ? "pointer" : "default" }}
-        title={anomalyCount > 0 ? "Klik untuk melihat rincian tabel anomali" : undefined}
+        title={anomalyCount > 0 
+          ? (lang === "en" ? "Click to view anomaly details table" : "Klik untuk melihat rincian tabel anomali") 
+          : (lang === "en" ? "No critical anomalies on this filter" : "Tidak ada anomali kritis pada filter ini")}
         onClick={() => {
           if (anomalyCount > 0) {
             window.dispatchEvent(new CustomEvent("switchTab", { detail: 1 }));
@@ -69,40 +76,45 @@ export default function KPICards({
           }
         }}
       >
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center", textTransform: "uppercase" }}>
-          <AlertTriangle size={14} /> RISIKO ANOMALI
+        <div className="kpi-title">
+          <span>{t("kpi.risiko_deviasi")}</span>
+          <AlertTriangle size={14} color={anomalyCount > 0 ? "#d97706" : "#16a34a"} />
         </div>
-        <div className="kpi-value kpi-value--orange">
-          {anomalyPct.toFixed(1)}%
+        <div className={`kpi-value ${anomalyCount > 0 ? "kpi-value--orange" : "kpi-value--green"}`}>
+          {anomalyCount > 0 ? `${anomalyPct.toFixed(1)}%` : "0.0%"}
         </div>
         <div 
-          className={`kpi-sub ${anomalyCount > 0 ? "kpi-sub--blue" : "kpi-sub--gray"}`} 
+          className={`kpi-sub ${anomalyCount > 0 ? "kpi-sub--blue" : "kpi-sub--green"}`} 
           style={anomalyCount > 0 ? { textDecoration: "underline" } : undefined}
         >
           {anomalyCount > 0 
-            ? `${anomalyCount} records dianalisis (Lihat Tabel)` 
-            : `${anomalyCount} records dianalisis`}
+            ? t("kpi.deviasi_view", { count: anomalyCount }) 
+            : t("kpi.normal_status")}
         </div>
       </div>
 
       <div className="kpi-card animate-fade-in-up">
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <ShieldAlert size={14} /> NILAI TRANSAKSI UNTUK DITINJAU
+        <div className="kpi-title">
+          <span>{t("kpi.transaksi_tinjauan")}</span>
+          <ShieldAlert size={14} color={potentialLoss > 0 ? "#dc2626" : "#16a34a"} />
         </div>
-        <div className="kpi-value kpi-value--red">
+        <div className={`kpi-value ${potentialLoss > 0 ? "kpi-value--red" : "kpi-value--green"}`}>
           {formatCurrency(potentialLoss)}
         </div>
-        <div className="kpi-sub kpi-sub--red">Perlu Verifikasi Manual</div>
+        <div className={`kpi-sub ${potentialLoss > 0 ? "kpi-sub--red" : "kpi-sub--green"}`}>
+          {potentialLoss > 0 ? t("kpi.manual_apip") : t("kpi.kas_aman")}
+        </div>
       </div>
 
       <div className="kpi-card animate-fade-in-up">
-        <div className="kpi-title" style={{ display: "flex", alignItems: "center", gap: 6, justifyContent: "center" }}>
-          <Percent size={14} /> KEMANDIRIAN FISKAL
+        <div className="kpi-title">
+          <span>{t("kpi.kemandirian_fiskal")}</span>
+          <Percent size={14} color="#0284c7" />
         </div>
-        <div className="kpi-value kpi-value--blue">
+        <div className="kpi-value kpi-value--dark">
           {kemandirianFiskal.toFixed(1)}%
         </div>
-        <div className="kpi-sub kpi-sub--green">Simulasi UU HKPD</div>
+        <div className="kpi-sub kpi-sub--green">{t("kpi.simulasi_hkpd")}</div>
       </div>
     </div>
   );

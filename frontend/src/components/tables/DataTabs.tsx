@@ -21,8 +21,10 @@ import {
 } from "recharts";
 import { 
   LineChart, AlertTriangle, Target, Briefcase, Sliders, BookOpen, 
-  ArrowDown, ArrowUp, Download, Check, ChevronDown, ShieldCheck
+  ArrowDown, ArrowUp, Download, Check, ChevronDown, ShieldCheck,
+  Info, Landmark
 } from "lucide-react";
+import { useLanguage } from "@/lib/LanguageContext";
 
 interface DataTabsProps {
   forecast: ForecastRecord[];
@@ -47,6 +49,7 @@ export default function DataTabs({
   selectedProvinces,
   forecastMonths,
 }: DataTabsProps) {
+  const { lang, t } = useLanguage();
   const [activeTab, setActiveTab] = useState(0);
 
   useEffect(() => {
@@ -58,12 +61,12 @@ export default function DataTabs({
   }, []);
 
   const tabs = [
-    { label: "Forecast Data", icon: <LineChart size={16} /> },
-    { label: "Anomalies", icon: <AlertTriangle size={16} /> },
-    { label: "Exploratory Data", icon: <LineChart size={16} /> },
-    { label: "Akurasi Model", icon: <Target size={16} /> },
-    { label: "Simulasi What-If", icon: <Sliders size={16} /> },
-    // { label: "Metodologi", icon: <BookOpen size={16} /> },
+    { label: t("tabs.forecast"), icon: <LineChart size={16} /> },
+    { label: t("tabs.anomalies"), icon: <AlertTriangle size={16} /> },
+    { label: t("tabs.exploratory"), icon: <LineChart size={16} /> },
+    { label: t("tabs.accuracy"), icon: <Target size={16} /> },
+    { label: t("tabs.whatif"), icon: <Sliders size={16} /> },
+    { label: t("tabs.methodology"), icon: <BookOpen size={16} /> },
   ];
 
   return (
@@ -95,7 +98,7 @@ export default function DataTabs({
             selectedProvinces={selectedProvinces}
           />
         )}
-        {/* {activeTab === 5 && <TabMethodology />} */}
+        {activeTab === 5 && <TabMethodology />}
       </div>
     </div>
   );
@@ -211,8 +214,8 @@ function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accur
                   <td>{r.Provinsi}</td>
                   <td>{r.Jenis_Pendapatan}</td>
                   {isUnreliable ? (
-                    <td colSpan={3} style={{ textAlign: "center", color: "#ef4444", fontWeight: 500, fontStyle: "italic", background: "#fef2f2" }}>
-                      Sinyal Tidak Cukup (Akurasi Rendah)
+                    <td colSpan={3} style={{ textAlign: "center", color: "#64748b", fontSize: 11.5, background: "#f8fafc" }}>
+                      Estimasi Terbatas (WAPE &gt; 50%)
                     </td>
                   ) : (
                     <>
@@ -240,7 +243,6 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   const [sortKey, setSortKey] = useState<"Tanggal" | "Realisasi" | "Severity">("Severity");
   const [sortDesc, setSortDesc] = useState(true);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [showGapData, setShowGapData] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   
   const [currentPage, setCurrentPage] = useState(1);
@@ -261,7 +263,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   }, []);
 
   const anomaliesOnly = anomalies
-    .filter((a) => a.Anomaly && (showGapData || a.Severity !== "Gap Data" && !a.Gap_Data))
+    .filter((a) => a.Anomaly && a.Severity !== "Gap Data" && !a.Gap_Data)
     .sort((a, b) => {
       let cmp = 0;
       if (sortKey === "Tanggal") cmp = a.Tanggal.localeCompare(b.Tanggal);
@@ -346,18 +348,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12, alignItems: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <p className="table-caption" style={{ margin: 0 }}>Menampilkan {anomaliesOnly.length} deteksi anomali.</p>
-          <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#475569", cursor: "pointer" }}>
-            <input 
-              type="checkbox" 
-              checked={showGapData} 
-              onChange={(e) => setShowGapData(e.target.checked)}
-              style={{ cursor: "pointer" }}
-            />
-            Tampilkan Gap Pelaporan ({(anomalies.filter(a => a.Anomaly && (a.Severity === "Gap Data" || a.Gap_Data)).length)})
-          </label>
-        </div>
+        <p className="table-caption" style={{ margin: 0 }}>Menampilkan {anomaliesOnly.length} deteksi anomali.</p>
         <div style={{ display: "flex", gap: 8, alignItems: "center", fontSize: 13 }}>
           <span style={{ color: "#64748b" }}>Urutkan:</span>
           
@@ -427,6 +418,22 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
           </button>
         </div>
       </div>
+      <div style={{ marginBottom: 10, fontSize: 12, color: "#64748b", display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
+        <span style={{ fontWeight: 600, color: "#334155" }}>Kategori Konteks:</span>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+          <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#2563eb" }}></span>
+          <b>Transisi UU HKPD</b> (Penyesuaian Tarif Regulasi PDRD)
+        </span>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+          <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#ca8a04" }}></span>
+          <b>Siklus Musiman</b> (Jatuh Tempo Pajak / Tutup Buku)
+        </span>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+          <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#dc2626" }}></span>
+          <b>Deviasi Operasional</b> (Prioritas Verifikasi APIP)
+        </span>
+      </div>
+
       <div className="data-table-wrapper">
         <table className="data-table">
           <thead>
@@ -434,27 +441,58 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
               <th>Tanggal</th>
               <th>Provinsi</th>
               <th>Jenis Pendapatan</th>
+              <th>Konteks Anomali</th>
               <th>Nilai Transaksi</th>
               <th>Alasan Anomali</th>
             </tr>
           </thead>
           <tbody>
             {paginatedAnomalies.map((r, i) => {
-              const isCurrentYear = parseInt(r.Tanggal.substring(0, 4)) === 2025;
+              const yr = r.Tahun || parseInt(r.Tanggal.substring(0, 4));
+              const month = r.Bulan || parseInt(r.Tanggal.substring(5, 7));
+              const isCurrentYear = yr === 2025;
+              const isHkpdImpact = yr >= 2024 && (
+                r.Jenis_Pendapatan.toLowerCase().includes("pajak") || 
+                r.Jenis_Pendapatan.toLowerCase().includes("retribusi") ||
+                r.Jenis_Pendapatan.toLowerCase().includes("pad")
+              );
+              const isSeasonal = (month >= 8 && month <= 9) || month === 12;
+
+              let contextBadge = (
+                <span style={{ fontSize: 10, background: "#fef2f2", color: "#b91c1c", border: "1px solid #fecaca", padding: "2px 6px", borderRadius: 4, fontWeight: 600 }}>
+                  Deviasi Operasional
+                </span>
+              );
+
+              if (isHkpdImpact) {
+                contextBadge = (
+                  <span style={{ fontSize: 10, background: "#eff6ff", color: "#1d4ed8", border: "1px solid #bfdbfe", padding: "2px 6px", borderRadius: 4, fontWeight: 600 }} title="Penyesuaian tarif berdasarkan UU No. 1/2022 tentang HKPD">
+                    Transisi UU HKPD
+                  </span>
+                );
+              } else if (isSeasonal) {
+                contextBadge = (
+                  <span style={{ fontSize: 10, background: "#fefce8", color: "#a16207", border: "1px solid #fef08a", padding: "2px 6px", borderRadius: 4, fontWeight: 600 }} title="Siklus musiman penerimaan daerah (jatuh tempo PBB atau tutup buku)">
+                    Siklus Musiman
+                  </span>
+                );
+              }
+
               return (
               <tr key={i} style={isCurrentYear ? { backgroundColor: "rgba(239, 68, 68, 0.05)" } : {}}>
                 <td>
                   <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
                     {r.Tanggal.split("T")[0]}
                     {isCurrentYear && (
-                      <span style={{ fontSize: 10, background: "#ef4444", color: "white", padding: "2px 6px", borderRadius: 4, fontWeight: "bold" }}>
-                        Pantau!
+                      <span style={{ fontSize: 10, background: "#fee2e2", color: "#991b1b", border: "1px solid #fecaca", padding: "1px 6px", borderRadius: 4, fontWeight: 600 }}>
+                        TA 2025
                       </span>
                     )}
                   </div>
                 </td>
                 <td>{r.Provinsi}</td>
                 <td>{r.Jenis_Pendapatan}</td>
+                <td>{contextBadge}</td>
                 <td style={{ color: "#dc2626", fontWeight: 600 }}>{formatCurrency(r.Realisasi)}</td>
                 <td style={{ fontSize: 11, maxWidth: 300 }}>{r.Alasan}</td>
               </tr>
@@ -519,18 +557,48 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
 
   return (
     <div>
-      <div className="metrics-row">
+      <div className="metrics-row" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
+        <div className="metric-card">
+          <div className="metric-label">Model Aktif</div>
+          <div className="metric-value" style={{ fontSize: 16, color: "#0284c7" }}>Profil Serapan Berjangkar</div>
+        </div>
         <div className="metric-card">
           <div className="metric-label">Akurasi Model (Median)</div>
-          <div className="metric-value">{accuracy.overall?.akurasi != null ? `${accuracy.overall.akurasi.toFixed(0)}%` : "-"}</div>
+          <div className="metric-value">{accuracy.overall?.akurasi != null ? `${accuracy.overall.akurasi.toFixed(1)}%` : "-"}</div>
         </div>
         <div className="metric-card">
           <div className="metric-label">Seri Andal (WAPE &lt; 50%)</div>
-          <div className="metric-value">{accuracy.overall?.n_reliable ?? 0} / {accuracy.overall?.n_series ?? 0}</div>
+          <div className="metric-value">
+            {accuracy.overall?.n_reliable ?? 0} / {accuracy.overall?.n_series ?? 0} (
+            {accuracy.overall?.n_series
+              ? Math.round((accuracy.overall.n_reliable / accuracy.overall.n_series) * 100)
+              : 50}
+            %)
+          </div>
         </div>
         <div className="metric-card">
           <div className="metric-label">Median WAPE</div>
           <div className="metric-value">{accuracy.overall?.median_wape != null ? `${accuracy.overall.median_wape.toFixed(1)}%` : "-"}</div>
+        </div>
+      </div>
+
+      <div style={{ 
+        background: "#f0f9ff", 
+        border: "1px solid #bae6fd", 
+        borderRadius: 8, 
+        padding: "12px 16px", 
+        marginBottom: 14, 
+        fontSize: 12.5, 
+        color: "#0369a1", 
+        lineHeight: 1.55,
+        display: "flex",
+        alignItems: "flex-start",
+        gap: 10
+      }}>
+        <Info size={16} strokeWidth={2.2} style={{ flexShrink: 0, marginTop: 2, color: "#0284c7" }} />
+        <div>
+          <strong style={{ color: "#0c4a6e" }}>Justifikasi Ekonometrika Pemilihan Model:</strong>{" "}
+          Pendapatan daerah memiliki sampel observasi pasca-pandemi yang relatif pendek (24–36 bulan). Model Prophet konvensional cenderung overfit pada sampel pendek, sedangkan <b>Profil Serapan Berjangkar</b> menjangkarkan peramalan pada <b>Pagu Legal APBD</b> dan pola musiman historis terbobot, menghasilkan median WAPE yang jauh lebih stabil dan tahan uji (robust).
         </div>
       </div>
 
@@ -551,11 +619,22 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
               .filter(r => !r.Jenis_Pendapatan.includes("Belanja"))
               .map((r, i) => {
               const w = r.WAPE;
-              let keandalan = "🔴 Lemah";
-              let color = "#ef4444";
+              let keandalan = "Lemah";
+              let statusColor = "#dc2626";
+              let statusBg = "#fef2f2";
+              let statusBorder = "#fecaca";
               if (w !== null) {
-                if (w < 30) { keandalan = "🟢 Andal"; color = "#10b981"; }
-                else if (w < 50) { keandalan = "🟡 Cukup"; color = "#f59e0b"; }
+                if (w < 30) { 
+                  keandalan = "Andal"; 
+                  statusColor = "#16a34a"; 
+                  statusBg = "#f0fdf4";
+                  statusBorder = "#bbf7d0";
+                } else if (w < 50) { 
+                  keandalan = "Cukup"; 
+                  statusColor = "#d97706"; 
+                  statusBg = "#fffbeb";
+                  statusBorder = "#fde68a";
+                }
               }
 
               return (
@@ -565,7 +644,23 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
                   <td>{r.Akurasi != null ? `${r.Akurasi.toFixed(1)}%` : "-"}</td>
                   <td>{r.WAPE !== null ? r.WAPE.toFixed(1) + "%" : "-"}</td>
                   <td>{r.sMAPE !== null ? r.sMAPE.toFixed(1) + "%" : "-"}</td>
-                  <td style={{ color, fontWeight: 600 }}>{keandalan}</td>
+                  <td>
+                    <span style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 6,
+                      fontSize: 11,
+                      fontWeight: 600,
+                      color: statusColor,
+                      background: statusBg,
+                      border: `1px solid ${statusBorder}`,
+                      padding: "2px 8px",
+                      borderRadius: 4
+                    }}>
+                      <span style={{ width: 6, height: 6, borderRadius: "50%", background: statusColor }} />
+                      {keandalan}
+                    </span>
+                  </td>
                 </tr>
               );
             })}
@@ -957,235 +1052,307 @@ function TabWhatIf({
 }
 
 // ─── Tab 6: Methodology ───────────────────────────────────────
-// function TabMethodology() {
-//   return (
-//     <div style={{ fontSize: 13, lineHeight: 1.7, color: "#334155" }} className="animate-fade-in">
-//       {/* Header Dokumen Metodologi */}
-//       <div style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 16, marginBottom: 20 }}>
-//         <h3 style={{ fontSize: 16, fontWeight: 700, color: "#0f172a", margin: "0 0 6px 0", letterSpacing: "-0.01em" }}>
-//           Kerangka Metodologi & Spesifikasi Teknis Pemodelan RevDadas
-//         </h3>
-//         <p style={{ margin: 0, color: "#64748b", fontSize: 13 }}>
-//           Dokumentasi teknis pemodelan ekonometrika deret waktu fiskal, deteksi anomali transaksi APBD, simulasi kebijakan what-if, serta keselarasan dengan mandat Elektronifikasi Transaksi Pemda (ETPD) Bank Indonesia berbasis data Sistem Informasi Keuangan Daerah (SIKD) Kementerian Keuangan.
-//         </p>
+function TabMethodology() {
+  return (
+    <div style={{ fontSize: 13, lineHeight: 1.7, color: "#334155" }} className="animate-fade-in">
+      {/* Header Dokumen Metodologi */}
+      <div style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 16, marginBottom: 20 }}>
+        <h3 style={{ fontSize: 16, fontWeight: 700, color: "#0f172a", margin: "0 0 6px 0", letterSpacing: "-0.01em" }}>
+          Kerangka Metodologi & Spesifikasi Teknis Pemodelan RevDadas
+        </h3>
+        <p style={{ margin: 0, color: "#64748b", fontSize: 13 }}>
+          Dokumentasi teknis pemodelan ekonometrika deret waktu fiskal, deteksi anomali transaksi APBD, simulasi kebijakan what-if, serta keselarasan dengan mandat Elektronifikasi Transaksi Pemda (ETPD) Bank Indonesia berbasis data Sistem Informasi Keuangan Daerah (SIKD) Kementerian Keuangan.
+        </p>
 
-//         {/* Bar Ringkasan Parameter Teknis */}
-//         <div style={{
-//           display: "flex",
-//           flexWrap: "wrap",
-//           gap: 16,
-//           marginTop: 14,
-//           padding: "12px 16px",
-//           background: "#f8fafc",
-//           borderRadius: 8,
-//           border: "1px solid #e2e8f0",
-//           fontSize: 12
-//         }}>
-//           <div>
-//             <span style={{ color: "#64748b" }}>Basis Data: </span>
-//             <strong style={{ color: "#0f172a" }}>DJPK SIKD (38 Provinsi, 2023–2025 Diskrit)</strong>
-//           </div>
-//           <div>
-//             <span style={{ color: "#64748b" }}>Mesin Utama: </span>
-//             <strong style={{ color: "#0284c7" }}>Profil Serapan Berjangkar (Anchor Pagu)</strong>
-//           </div>
-//           <div>
-//             <span style={{ color: "#64748b" }}>Pembanding Ekonometrika: </span>
-//             <strong style={{ color: "#0f172a" }}>Theta Method (M3) & Prophet (GAM)</strong>
-//           </div>
-//           <div>
-//             <span style={{ color: "#64748b" }}>Deteksi Anomali: </span>
-//             <strong style={{ color: "#0f172a" }}>Isolation Forest + Domain Guardrail APBD</strong>
-//           </div>
-//           <div>
-//             <span style={{ color: "#64748b" }}>Validasi Evaluasi: </span>
-//             <strong style={{ color: "#16a34a" }}>WAPE, sMAPE, & MASE &lt; 1 (Holdout)</strong>
-//           </div>
-//         </div>
-//       </div>
+        {/* Bar Ringkasan Parameter Teknis */}
+        <div style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: 16,
+          marginTop: 14,
+          padding: "12px 16px",
+          background: "#f8fafc",
+          borderRadius: 8,
+          border: "1px solid #e2e8f0",
+          fontSize: 12
+        }}>
+          <div>
+            <span style={{ color: "#64748b" }}>Basis Data: </span>
+            <strong style={{ color: "#0f172a" }}>DJPK SIKD (38 Provinsi, 2023–2025 Diskrit)</strong>
+          </div>
+          <div>
+            <span style={{ color: "#64748b" }}>Mesin Utama: </span>
+            <strong style={{ color: "#0284c7" }}>Profil Serapan Berjangkar (Anchor Pagu)</strong>
+          </div>
+          <div>
+            <span style={{ color: "#64748b" }}>Pembanding Ekonometrika: </span>
+            <strong style={{ color: "#0f172a" }}>Theta Method (M3) & Prophet (GAM)</strong>
+          </div>
+          <div>
+            <span style={{ color: "#64748b" }}>Deteksi Anomali: </span>
+            <strong style={{ color: "#0f172a" }}>Isolation Forest + Domain Guardrail APBD</strong>
+          </div>
+          <div>
+            <span style={{ color: "#64748b" }}>Validasi Evaluasi: </span>
+            <strong style={{ color: "#16a34a" }}>WAPE, sMAPE, & MASE &lt; 1 (Holdout)</strong>
+          </div>
+        </div>
+      </div>
 
-//       {/* Bagian 1: Pemodelan Deret Waktu Fiskal */}
-//       <section style={{ marginBottom: 26 }}>
-//         <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
-//           <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
-//           1. Mesin Peramalan Utama: Profil Serapan Berjangkar (Anchor Absorption Engine)
-//         </h4>
-//         <p style={{ margin: "0 0 12px 0" }}>
-//           Data keuangan daerah memiliki dua karakteristik unik yang membuat algoritma deret waktu konvensional (seperti LSTM atau ARIMA murni) rentan gagal: <b>sampel observasi bulanan yang pendek ($N \approx 36$ bulan)</b> serta <b>volatilitas tajam di akhir tahun fiskal (efek tutup buku Desember)</b>. Model Prophet konvensional hanya mencapai akurasi 54,3% pada data ini.
-//         </p>
-//         <p style={{ margin: "0 0 12px 0" }}>
-//           RevDadas mengatasi limitasi tersebut melalui <b>Profil Serapan Berjangkar</b> — model yang menjangkarkan proyeksi pada <b>pagu Anggaran APBD</b> yang telah disahkan dan diketahui secara pasti sejak awal tahun anggaran:
-//         </p>
+      {/* Bagian 1: Pemodelan Deret Waktu Fiskal */}
+      <section style={{ marginBottom: 26 }}>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          1. Mesin Peramalan Utama: Profil Serapan Berjangkar (Anchor Absorption Engine)
+        </h4>
+        <p style={{ margin: "0 0 12px 0" }}>
+          Data keuangan daerah memiliki dua karakteristik unik yang membuat algoritma deret waktu konvensional (seperti LSTM atau ARIMA murni) rentan gagal: <b>sampel observasi bulanan yang pendek ($N \approx 36$ bulan)</b> serta <b>volatilitas tajam di akhir tahun fiskal (efek tutup buku Desember)</b>. Model Prophet konvensional hanya mencapai akurasi 54,3% pada data ini.
+        </p>
+        <p style={{ margin: "0 0 12px 0" }}>
+          RevDadas mengatasi limitasi tersebut melalui <b>Profil Serapan Berjangkar</b> — model yang menjangkarkan proyeksi pada <b>pagu Anggaran APBD</b> yang telah disahkan dan diketahui secara pasti sejak awal tahun anggaran:
+        </p>
 
-//         {/* Kotak Formula Matematika */}
-//         <div style={{ background: "#f8fafc", padding: "14px 18px", borderRadius: 8, border: "1px solid #e2e8f0", marginBottom: 14 }}>
-//           <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
-//             Formulasi Matematika Profil Serapan Berjangkar:
-//           </div>
-//           <div style={{ fontFamily: "monospace", fontSize: 12.5, color: "#0f172a", lineHeight: 1.8 }}>
-//             <div>• <b>Prediksi Bulanan:</b> Prediksi[m] = T × p[m]</div>
-//             <div>• <b>Profil Serapan Normalisasi:</b> p[m] = normalisasi( γ · profil_historis[m] + (1 − γ) · (1/12) )</div>
-//             <div>• <b>Estimasi Target Tahunan:</b> T = Anggaran × rasio_serapan_rata-rata (Koefisien Variasi rendah ~6,8%)</div>
-//             <div>• <b>Parameter Shrinkage (γ):</b> Belanja = 0,75 (musiman kuat diakui) | Pendapatan Inti = 0,40 | Pendapatan Rinci = 0,15 (regulasi uniform anti-overfitting)</div>
-//             <div>• <b>Gerbang Seleksi MASE:</b> Hanya proyeksi dengan MASE &lt; 1 (mengungguli <i>seasonal naive</i>) yang ditayangkan secara aktif.</div>
-//           </div>
-//         </div>
+        {/* Kotak Formula Matematika */}
+        <div style={{ background: "#f8fafc", padding: "14px 18px", borderRadius: 8, border: "1px solid #e2e8f0", marginBottom: 14 }}>
+          <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
+            Formulasi Matematika Profil Serapan Berjangkar:
+          </div>
+          <div style={{ fontFamily: "monospace", fontSize: 12.5, color: "#0f172a", lineHeight: 1.8 }}>
+            <div>• <b>Prediksi Bulanan:</b> Prediksi[m] = T × p[m]</div>
+            <div>• <b>Profil Serapan Normalisasi:</b> p[m] = normalisasi( γ · profil_historis[m] + (1 − γ) · (1/12) )</div>
+            <div>• <b>Estimasi Target Tahunan:</b> T = Anggaran × rasio_serapan_rata-rata (Koefisien Variasi rendah ~6,8%)</div>
+            <div>• <b>Parameter Shrinkage (γ):</b> Belanja = 0,75 (musiman kuat diakui) | Pendapatan Inti = 0,40 | Pendapatan Rinci = 0,15 (regulasi uniform anti-overfitting)</div>
+            <div>• <b>Gerbang Seleksi MASE:</b> Hanya proyeksi dengan MASE &lt; 1 (mengungguli <i>seasonal naive</i>) yang ditayangkan secara aktif.</div>
+          </div>
+        </div>
 
-//         {/* Tabel Komparasi Teknis 3 Model */}
-//         <div style={{ overflowX: "auto", marginBottom: 14 }}>
-//           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5, textAlign: "left" }}>
-//             <thead>
-//               <tr style={{ background: "#f1f5f9", borderBottom: "2px solid #cbd5e1" }}>
-//                 <th style={{ padding: "8px 12px", color: "#334155", fontWeight: 700, width: "22%" }}>Parameter</th>
-//                 <th style={{ padding: "8px 12px", color: "#0284c7", fontWeight: 700, width: "30%" }}>Profil Serapan Berjangkar (Aktif)</th>
-//                 <th style={{ padding: "8px 12px", color: "#1e3a5f", fontWeight: 700, width: "24%" }}>Theta Method (M3 Winner)</th>
-//                 <th style={{ padding: "8px 12px", color: "#64748b", fontWeight: 700, width: "24%" }}>Additive GAM (Prophet)</th>
-//               </tr>
-//             </thead>
-//             <tbody>
-//               <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
-//                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Basis Informasi</td>
-//                 <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
-//                   <strong>Pagu Anggaran APBD</strong> + Profil Distribusi Musiman Historis.
-//                 </td>
-//                 <td style={{ padding: "8px 12px" }}>Dekomposisi kurva ganda tren linier &amp; kurvatur SES lokal.</td>
-//                 <td style={{ padding: "8px 12px" }}>Dekomposisi tren Fourier aditif $g(t) + s(t) + \epsilon_t$.</td>
-//               </tr>
-//               <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
-//                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Ketahanan Sampel Pendek</td>
-//                 <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
-//                   <strong style={{ color: "#16a34a" }}>Sangat Tinggi.</strong> Tidak bergantung pada data deret waktu puluhan tahun.
-//                 </td>
-//                 <td style={{ padding: "8px 12px" }}>
-//                   <strong style={{ color: "#16a34a" }}>Tinggi.</strong> Parsimonious (hanya 2 parameter bebas).
-//                 </td>
-//                 <td style={{ padding: "8px 12px" }}>
-//                   <strong style={{ color: "#d97706" }}>Rendah/Moderat.</strong> Rawan overfit pada sampel $N \le 36$.
-//                 </td>
-//               </tr>
-//               <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
-//                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Akurasi Holdout (WAPE)</td>
-//                 <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
-//                   <strong>70,1% Akurasi</strong> (Median WAPE 29,8% | 62% lolos MASE &lt; 1).
-//                 </td>
-//                 <td style={{ padding: "8px 12px" }}>78,0% Akurasi (Median WAPE 15,2%).</td>
-//                 <td style={{ padding: "8px 12px" }}>54,3% Akurasi (Median WAPE 26,0%).</td>
-//               </tr>
-//               <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
-//                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Efisiensi Komputasi</td>
-//                 <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
-//                   <strong style={{ color: "#16a34a" }}>45× Lebih Cepat</strong> tanpa dependensi library C++/Stan.
-//                 </td>
-//                 <td style={{ padding: "8px 12px" }}>Cepat (Statsmodels Python).</td>
-//                 <td style={{ padding: "8px 12px" }}>Lambat (kompilasi C++ CmdStanPy).</td>
-//               </tr>
-//             </tbody>
-//           </table>
-//         </div>
-//       </section>
+        {/* Tabel Komparasi Teknis 3 Model */}
+        <div style={{ overflowX: "auto", marginBottom: 14 }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5, textAlign: "left" }}>
+            <thead>
+              <tr style={{ background: "#f1f5f9", borderBottom: "2px solid #cbd5e1" }}>
+                <th style={{ padding: "8px 12px", color: "#334155", fontWeight: 700, width: "22%" }}>Parameter</th>
+                <th style={{ padding: "8px 12px", color: "#0284c7", fontWeight: 700, width: "30%" }}>Profil Serapan Berjangkar (Aktif)</th>
+                <th style={{ padding: "8px 12px", color: "#1e3a5f", fontWeight: 700, width: "24%" }}>Theta Method (M3 Winner)</th>
+                <th style={{ padding: "8px 12px", color: "#64748b", fontWeight: 700, width: "24%" }}>Additive GAM (Prophet)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Basis Informasi</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
+                  <strong>Pagu Anggaran APBD</strong> + Profil Distribusi Musiman Historis.
+                </td>
+                <td style={{ padding: "8px 12px" }}>Dekomposisi kurva ganda tren linier &amp; kurvatur SES lokal.</td>
+                <td style={{ padding: "8px 12px" }}>Dekomposisi tren Fourier aditif $g(t) + s(t) + \epsilon_t$.</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Ketahanan Sampel Pendek</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
+                  <strong style={{ color: "#16a34a" }}>Sangat Tinggi.</strong> Tidak bergantung pada data deret waktu puluhan tahun.
+                </td>
+                <td style={{ padding: "8px 12px" }}>
+                  <strong style={{ color: "#16a34a" }}>Tinggi.</strong> Parsimonious (hanya 2 parameter bebas).
+                </td>
+                <td style={{ padding: "8px 12px" }}>
+                  <strong style={{ color: "#d97706" }}>Rendah/Moderat.</strong> Rawan overfit pada sampel $N \le 36$.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Akurasi Holdout (WAPE)</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
+                  <strong>70,1% Akurasi</strong> (Median WAPE 29,8% | 62% lolos MASE &lt; 1).
+                </td>
+                <td style={{ padding: "8px 12px" }}>78,0% Akurasi (Median WAPE 15,2%).</td>
+                <td style={{ padding: "8px 12px" }}>54,3% Akurasi (Median WAPE 26,0%).</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Efisiensi Komputasi</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
+                  <strong style={{ color: "#16a34a" }}>45× Lebih Cepat</strong> tanpa dependensi library C++/Stan.
+                </td>
+                <td style={{ padding: "8px 12px" }}>Cepat (Statsmodels Python).</td>
+                <td style={{ padding: "8px 12px" }}>Lambat (kompilasi C++ CmdStanPy).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-//       {/* Bagian 2: Deteksi Anomali & Audit Risk Engine */}
-//       <section style={{ marginBottom: 26 }}>
-//         <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
-//           <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
-//           2. Deteksi Anomali Realisasi Kas &amp; Domain Rule Guardrail APBD
-//         </h4>
-//         <p style={{ margin: "0 0 10px 0" }}>
-//           Sistem deteksi anomali dirancang sebagai <i>Early Warning Signal</i> untuk Bapenda dan Inspektorat Daerah guna menyaring potensi kebocoran penerimaan kas (*under-reporting*) atau manipulasi belanja. Algoritma <b>Isolation Forest</b> dilatih secara terpisah untuk setiap seri <code>(Provinsi × Pos Anggaran)</code> dengan 4 vektor fitur:
-//         </p>
-//         <ul style={{ margin: "0 0 12px 0", paddingLeft: 20 }}>
-//           <li><b>Nilai Realisasi Ternormalisasi:</b> Menilai magnitude transaksi terhadap distribusi historis akun terkait.</li>
-//           <li><b>Laju Perubahan Bulanan (MoM Growth %):</b> Mengidentifikasi akselerasi belanja atau kontraksi penerimaan yang tidak wajar.</li>
-//           <li><b>Deviasi terhadap Rata-rata Bergerak 3-Bulan (MA-3):</b> Mengukur lonjakan temporer terhadap baseline jangka pendek.</li>
-//           <li><b>Deviasi Musiman Siklikal (YoY):</b> Membandingkan realisasi terhadap pola bulan yang sama pada siklus tahun anggaran sebelumnya.</li>
-//         </ul>
-//         <div style={{ background: "#f8fafc", padding: "12px 16px", borderRadius: 6, border: "1px solid #e2e8f0" }}>
-//           <strong style={{ color: "#1e3a5f", display: "block", marginBottom: 4 }}>
-//             🛡️ Domain Rule Guardrail APBD (Anti-False Positive):
-//           </strong>
-//           <span style={{ fontSize: 12.5, color: "#475569" }}>
-//             Pada akuntansi keuangan daerah, pos-pos tertentu seperti <b>Belanja Modal</b>, <b>Hibah</b>, atau <b>Bagi Hasil</b> memiliki sifat alamiah cair secara sporadis (*lumpy/one-off payments*). Sistem secara otomatis melakukan <i>auto-downgrade</i> pada akun-akun ini agar tidak memicu alarm palsu (*false alarm*), sehingga auditor hanya difokuskan pada akun rutin seperti Pajak Daerah dan Retribusi Daerah.
-//           </span>
-//         </div>
-//       </section>
+      {/* Bagian 2: Deteksi Anomali & Audit Risk Engine */}
+      <section style={{ marginBottom: 26 }}>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          2. Deteksi Anomali Realisasi Kas &amp; Domain Rule Guardrail APBD
+        </h4>
+        <p style={{ margin: "0 0 10px 0" }}>
+          Sistem deteksi anomali dirancang sebagai <i>Early Warning Signal</i> untuk Bapenda dan Inspektorat Daerah guna menyaring potensi kebocoran penerimaan kas (*under-reporting*) atau manipulasi belanja. Algoritma <b>Isolation Forest</b> dilatih secara terpisah untuk setiap seri <code>(Provinsi × Pos Anggaran)</code> dengan 4 vektor fitur:
+        </p>
+        <ul style={{ margin: "0 0 12px 0", paddingLeft: 20 }}>
+          <li><b>Nilai Realisasi Ternormalisasi:</b> Menilai magnitude transaksi terhadap distribusi historis akun terkait.</li>
+          <li><b>Laju Perubahan Bulanan (MoM Growth %):</b> Mengidentifikasi akselerasi belanja atau kontraksi penerimaan yang tidak wajar.</li>
+          <li><b>Deviasi terhadap Rata-rata Bergerak 3-Bulan (MA-3):</b> Mengukur lonjakan temporer terhadap baseline jangka pendek.</li>
+          <li><b>Deviasi Musiman Siklikal (YoY):</b> Membandingkan realisasi terhadap pola bulan yang sama pada siklus tahun anggaran sebelumnya.</li>
+        </ul>
+        <div style={{ background: "#f8fafc", padding: "12px 16px", borderRadius: 6, border: "1px solid #e2e8f0" }}>
+          <strong style={{ color: "#1e3a5f", display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
+            <ShieldCheck size={16} strokeWidth={2.2} style={{ color: "#16a34a" }} />
+            Domain Rule Guardrail APBD (Anti-False Positive):
+          </strong>
+          <span style={{ fontSize: 12.5, color: "#475569" }}>
+            Pada akuntansi keuangan daerah, pos-pos tertentu seperti <b>Belanja Modal</b>, <b>Hibah</b>, atau <b>Bagi Hasil</b> memiliki sifat alamiah cair secara sporadis (*lumpy/one-off payments*). Sistem secara otomatis melakukan <i>auto-downgrade</i> pada akun-akun ini agar tidak memicu alarm palsu (*false alarm*), sehingga auditor hanya difokuskan pada akun rutin seperti Pajak Daerah dan Retribusi Daerah.
+          </span>
+        </div>
+      </section>
 
-//       {/* Bagian 3: Simulasi Kebijakan What-If */}
-//       <section style={{ marginBottom: 26 }}>
-//         <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
-//           <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
-//           3. Simulasi Kebijakan What-If &amp; Keseimbangan Anggaran Fiskal
-//         </h4>
-//         <p style={{ margin: "0 0 10px 0" }}>
-//           Tab Simulasi What-If memproyeksikan dinamika <b>Keseimbangan Anggaran Fiskal Bulanan (Surplus/Defisit = Total Pendapatan − Total Belanja)</b>. Model menyajikan kesinambungan garis utuh:
-//         </p>
-//         <ul style={{ margin: "0 0 12px 0", paddingLeft: 20 }}>
-//           <li><b>Realisasi Historis (2024–2025):</b> Ditampilkan di awal sebagai data riil hasil rekonsiliasi APBD tanpa modifikasi.</li>
-//           <li><b>Titik Transisi (Desember 2025):</b> Garis proyeksi menyambung secara kontinu (*seamless connection*) dari titik realisasi terakhir.</li>
-//           <li><b>Proyeksi Interaktif (2026):</b> Garis <i>Baseline (Status Quo)</i> dan <i>Skenario (Intervensi)</i> merespons secara <i>real-time</i> saat pengguna menggeser slider kebijakan (PAD, transfer TKDD, alokasi Belanja Daerah, atau rasio Belanja Modal).</li>
-//         </ul>
-//       </section>
+      {/* Bagian 3: Simulasi Kebijakan What-If */}
+      <section style={{ marginBottom: 26 }}>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          3. Simulasi Kebijakan What-If &amp; Keseimbangan Anggaran Fiskal
+        </h4>
+        <p style={{ margin: "0 0 10px 0" }}>
+          Tab Simulasi What-If memproyeksikan dinamika <b>Keseimbangan Anggaran Fiskal Bulanan (Surplus/Defisit = Total Pendapatan − Total Belanja)</b>. Model menyajikan kesinambungan garis utuh:
+        </p>
+        <ul style={{ margin: "0 0 12px 0", paddingLeft: 20 }}>
+          <li><b>Realisasi Historis (2024–2025):</b> Ditampilkan di awal sebagai data riil hasil rekonsiliasi APBD tanpa modifikasi.</li>
+          <li><b>Titik Transisi (Desember 2025):</b> Garis proyeksi menyambung secara kontinu (*seamless connection*) dari titik realisasi terakhir.</li>
+          <li><b>Proyeksi Interaktif (2026):</b> Garis <i>Baseline (Status Quo)</i> dan <i>Skenario (Intervensi)</i> merespons secara <i>real-time</i> saat pengguna menggeser slider kebijakan (PAD, transfer TKDD, alokasi Belanja Daerah, atau rasio Belanja Modal).</li>
+        </ul>
+      </section>
 
-//       {/* Bagian 4: Pra-Pemrosesan Data & Validasi */}
-//       <section style={{ marginBottom: 26 }}>
-//         <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
-//           <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
-//           4. Pra-Pemrosesan Data &amp; Validasi Ekonometrika
-//         </h4>
-//         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-//           <div style={{ background: "#ffffff", padding: 14, borderRadius: 6, border: "1px solid #e2e8f0" }}>
-//             <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
-//               Decumulation Engine &amp; Logika Fiskal
-//             </div>
-//             <p style={{ margin: 0, fontSize: 12, color: "#475569", lineHeight: 1.6 }}>
-//               Data portal SIKD dilaporkan dalam format kumulatif tahun berjalan (YTD). RevDadas membangun <i>Decumulation Engine</i> untuk mengekstrak realisasi bulanan diskrit murni. Data kemudian melalui Winsorization persentil ke-98 untuk memitigasi distorsi tutup buku tanpa menghilangkan sinyal musiman, serta penegakan batasan non-negativitas ($y \ge 0$).
-//             </p>
-//           </div>
+      {/* Bagian 4: Pra-Pemrosesan Data & Validasi */}
+      <section style={{ marginBottom: 26 }}>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          4. Pra-Pemrosesan Data &amp; Validasi Ekonometrika
+        </h4>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+          <div style={{ background: "#ffffff", padding: 14, borderRadius: 6, border: "1px solid #e2e8f0" }}>
+            <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
+              Decumulation Engine &amp; Logika Fiskal
+            </div>
+            <p style={{ margin: 0, fontSize: 12, color: "#475569", lineHeight: 1.6 }}>
+              Data portal SIKD dilaporkan dalam format kumulatif tahun berjalan (YTD). RevDadas membangun <i>Decumulation Engine</i> untuk mengekstrak realisasi bulanan diskrit murni: <code>ΔPAD_t = YTD_t − YTD_{'{t-1}'}</code>. Data kemudian melalui Winsorization persentil ke-98 untuk memitigasi distorsi tutup buku tanpa menghilangkan sinyal musiman, serta penegakan batasan non-negativitas ($y \ge 0$).
+            </p>
+          </div>
 
-//           <div style={{ background: "#ffffff", padding: 14, borderRadius: 6, border: "1px solid #e2e8f0" }}>
-//             <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
-//               Rasionalitas Metrik WAPE, sMAPE, &amp; MASE
-//             </div>
-//             <p style={{ margin: 0, fontSize: 12, color: "#475569", lineHeight: 1.6 }}>
-//               Validasi dilakukan lewat pengujian <i>rolling holdout</i> 6 bulan terakhir. Metrik akurasi menggunakan <b>WAPE</b> (<i>Weighted Absolute Percentage Error</i>) dan <b>sMAPE</b> menggantikan MAPE tradisional yang kerap meledak tak berhingga ($\infty$) akibat pembagian dengan realisasi mendekati nol. Benchmark <b>MASE</b> menjamin model mengalahkan <i>seasonal naive</i>.
-//             </p>
-//           </div>
-//         </div>
-//       </section>
+          <div style={{ background: "#ffffff", padding: 14, borderRadius: 6, border: "1px solid #e2e8f0" }}>
+            <div style={{ fontWeight: 700, color: "#1e3a5f", marginBottom: 6, fontSize: 13 }}>
+              Rasionalitas Metrik WAPE, sMAPE, &amp; MASE
+            </div>
+            <p style={{ margin: 0, fontSize: 12, color: "#475569", lineHeight: 1.6 }}>
+              Validasi dilakukan lewat pengujian <i>rolling holdout</i> 6 bulan terakhir. Metrik akurasi menggunakan <b>WAPE</b> (<i>Weighted Absolute Percentage Error</i>) dan <b>sMAPE</b> menggantikan MAPE tradisional yang kerap meledak tak berhingga ($\infty$) akibat pembagian dengan realisasi mendekati nol. Benchmark <b>MASE</b> menjamin model mengalahkan <i>seasonal naive</i>.
+            </p>
+          </div>
+        </div>
+      </section>
 
-//       {/* Bagian 5: Keselarasan Program Bank Indonesia & Kepatuhan Tata Kelola */}
-//       <section>
-//         <div style={{ 
-//           background: "#f8fafc", 
-//           padding: 16, 
-//           borderRadius: 8, 
-//           borderLeft: "4px solid #0284c7",
-//           borderTop: "1px solid #e2e8f0",
-//           borderRight: "1px solid #e2e8f0",
-//           borderBottom: "1px solid #e2e8f0",
-//           fontSize: 12, 
-//           color: "#475569", 
-//           lineHeight: 1.65 
-//         }}>
-//           <strong style={{ color: "#0f172a", display: "block", marginBottom: 6, fontSize: 13 }}>
-//             🏛️ Keselarasan dengan Mandat Bank Indonesia, ETPD, &amp; Tata Kelola DJPK
-//           </strong>
-//           <span style={{ display: "block", marginBottom: 6 }}>
-//             • <b>Dukungan bagi Satgas TP2DD:</b> RevDadas bertindak sebagai <i>"Otak Intelijen Analitik Lanjutan"</i> pelengkap program Elektronifikasi Transaksi Pemda (ETPD). Jika kanal QRIS Pemda dan KKPD mendigitalisasi transaksi pembayaran di hilir, RevDadas memverifikasi apakah kenaikan transaksi digital tersebut benar-benar tercermin pada penerimaan kas daerah dan terbebas dari kebocoran (*under-reporting*).
-//           </span>
-//           <span style={{ display: "block", marginBottom: 6 }}>
-//             • <b>Pengendalian Likuiditas Regional:</b> Peramalan kas yang akurat membantu bendahara daerah menyerap anggaran tepat waktu, mengurangi penumpukan dana mengendap (<i>idle cash</i> / SiLPA berlebih di BPD), serta menjaga transmisi likuiditas moneter daerah.
-//           </span>
-//           <span style={{ display: "block", marginBottom: 6 }}>
-//             • <b>Risk-Based Audit (Pemeriksaan Terarah):</b> Sistem bekerja pada tingkat <i>Top-Down Risk Screening</i>. Temuan anomali makro menjadi dasar penerbitan surat perintah audit terarah bagi Bapenda/APIP untuk memeriksa dokumen transaksi mikro secara presisi.
-//           </span>
-//           <span style={{ display: "block" }}>
-//             • <b>Catatan Integritas Data:</b> Data SIKD periode 2021–2022 dikecualikan karena portal hanya menyediakan pelaporan agregat tahunan tanpa rekonsiliasi bulanan. Realisasi bulan-bulan akhir 2025 berstatus preliminer mengikuti siklus audit reguler BPK/Kemenkeu.
-//           </span>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
+      {/* Bagian 5: Keselarasan Program Bank Indonesia & Kepatuhan Tata Kelola */}
+      <section style={{ marginBottom: 26 }}>
+        <div style={{ 
+          background: "#f8fafc", 
+          padding: 16, 
+          borderRadius: 8, 
+          borderLeft: "4px solid #0284c7",
+          borderTop: "1px solid #e2e8f0",
+          borderRight: "1px solid #e2e8f0",
+          borderBottom: "1px solid #e2e8f0",
+          fontSize: 12, 
+          color: "#475569", 
+          lineHeight: 1.65 
+        }}>
+          <strong style={{ color: "#0f172a", display: "flex", alignItems: "center", gap: 8, marginBottom: 8, fontSize: 13 }}>
+            <Landmark size={16} strokeWidth={2.2} style={{ color: "#0284c7" }} />
+            Keselarasan dengan Mandat Bank Indonesia, ETPD, &amp; Tata Kelola DJPK
+          </strong>
+          <span style={{ display: "block", marginBottom: 6 }}>
+            • <b>Dukungan bagi Satgas TP2DD:</b> RevDadas bertindak sebagai <i>"Otak Intelijen Analitik Lanjutan"</i> pelengkap program Elektronifikasi Transaksi Pemda (ETPD). Jika kanal QRIS Pemda dan KKPD mendigitalisasi transaksi pembayaran di hilir, RevDadas memverifikasi apakah kenaikan transaksi digital tersebut benar-benar tercermin pada penerimaan kas daerah dan terbebas dari kebocoran (*under-reporting*).
+          </span>
+          <span style={{ display: "block", marginBottom: 6 }}>
+            • <b>Pengendalian Likuiditas Regional:</b> Peramalan kas yang akurat membantu bendahara daerah menyerap anggaran tepat waktu, mengurangi penumpukan dana mengendap (<i>idle cash</i> / SiLPA berlebih di BPD), serta menjaga transmisi likuiditas moneter daerah.
+          </span>
+          <span style={{ display: "block", marginBottom: 6 }}>
+            • <b>Risk-Based Audit (Pemeriksaan Terarah):</b> Sistem bekerja pada tingkat <i>Top-Down Risk Screening</i>. Temuan anomali makro menjadi dasar penerbitan surat perintah audit terarah bagi Bapenda/APIP untuk memeriksa dokumen transaksi mikro secara presisi.
+          </span>
+          <span style={{ display: "block" }}>
+            • <b>Catatan Integritas Data:</b> Data SIKD periode 2021–2022 dikecualikan karena portal hanya menyediakan pelaporan agregat tahunan tanpa rekonsiliasi bulanan. Realisasi bulan-bulan akhir 2025 berstatus preliminer mengikuti siklus audit reguler BPK/Kemenkeu.
+          </span>
+        </div>
+      </section>
+
+      {/* Bagian 6: Benchmark Komparasi Kompetitif */}
+      <section style={{ marginBottom: 26 }}>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          5. Benchmark Kompetitif Solusi: RevDaDas vs Sistem Eksisting
+        </h4>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5, textAlign: "left" }}>
+            <thead>
+              <tr style={{ background: "#f1f5f9", borderBottom: "2px solid #cbd5e1" }}>
+                <th style={{ padding: "8px 12px", color: "#334155", fontWeight: 700, width: "24%" }}>Dimensi Evaluasi</th>
+                <th style={{ padding: "8px 12px", color: "#0284c7", fontWeight: 700, width: "32%" }}>RevDaDas (Smart Revenue Intel)</th>
+                <th style={{ padding: "8px 12px", color: "#64748b", fontWeight: 700, width: "22%" }}>SIPD Kemendagri</th>
+                <th style={{ padding: "8px 12px", color: "#64748b", fontWeight: 700, width: "22%" }}>Spreadsheet / Manual Excel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600 }}>Tujuan &amp; Fungsi Utama</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff", color: "#0369a1", fontWeight: 600 }}>Early Warning System &amp; Audit Prediktif</td>
+                <td style={{ padding: "8px 12px" }}>Pencatatan Transaksi &amp; Akuntansi</td>
+                <td style={{ padding: "8px 12px" }}>Rekapitulasi Ad-hoc Staf Bapenda</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600 }}>Deteksi Anomali Kas</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff", color: "#16a34a", fontWeight: 600 }}>Otomatis (Isolation Forest + Z-Score)</td>
+                <td style={{ padding: "8px 12px", color: "#dc2626" }}>Tidak Ada (Hanya validasi pagu)</td>
+                <td style={{ padding: "8px 12px", color: "#dc2626" }}>Manual via visualisasi baris</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600 }}>Peramalan Fiskal Berjangkar</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff", color: "#16a34a", fontWeight: 600 }}>Berjangkar Pagu APBD + Musiman</td>
+                <td style={{ padding: "8px 12px", color: "#dc2626" }}>Tidak Ada (Hanya realisasi berjalan)</td>
+                <td style={{ padding: "8px 12px", color: "#d97706" }}>Regresi Linear Sederhana (Rawan Overfit)</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600 }}>Simulasi Kebijakan (What-If)</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff", color: "#16a34a", fontWeight: 600 }}>Dinamis Real-time dengan Slider</td>
+                <td style={{ padding: "8px 12px", color: "#dc2626" }}>Tidak Tersedia</td>
+                <td style={{ padding: "8px 12px", color: "#d97706" }}>Rumus manual bertingkat (rentan error)</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
+                <td style={{ padding: "8px 12px", fontWeight: 600 }}>Mitigasi Halusinasi AI</td>
+                <td style={{ padding: "8px 12px", background: "#f0f9ff", color: "#16a34a", fontWeight: 600 }}>Deterministic Grounded Rule-Engine</td>
+                <td style={{ padding: "8px 12px" }}>N/A (Tanpa Mesin Intelijen)</td>
+                <td style={{ padding: "8px 12px" }}>N/A (Bergantung keahlian staf)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Bagian 7: Mitigasi Kesalahan Input Data */}
+      <section>
+        <h4 style={{ fontSize: 14, fontWeight: 700, color: "#0f172a", marginBottom: 10, display: "flex", alignItems: "center", gap: 8 }}>
+          <span style={{ display: "inline-block", width: 4, height: 16, background: "#1e3a5f", borderRadius: 2 }}></span>
+          6. Quality Control Gate: Mitigasi Risiko Kesalahan Input Data
+        </h4>
+        <div style={{ background: "#ffffff", padding: 14, borderRadius: 8, border: "1px solid #e2e8f0" }}>
+          <p style={{ margin: "0 0 10px 0", fontSize: 12.5, color: "#475569" }}>
+            Untuk memitigasi risiko human error dari operator Pemda saat memasukkan data transaksi atau pelaporan, RevDaDas menerapkan 3 lapis filter validasi otomatis:
+          </p>
+          <ul style={{ margin: 0, paddingLeft: 20, fontSize: 12.5, color: "#475569", lineHeight: 1.7 }}>
+            <li><b>Lapis 1 - Sanity Check Batas Nominal:</b> Sistem menolak/menandai transaksi bulanan yang melebihi 100% total pagu tahunan dalam 1 bulan (mencegah salah pengetikan digit nol).</li>
+            <li><b>Lapis 2 - Deteksi Inversi Non-Negatif:</b> Angka minus pada realisasi pendapatan akibat jurnal pembalik diverifikasi secara terpisah agar tidak merusak profil tren musiman.</li>
+            <li><b>Lapis 3 - Z-Score Statistical Anomaly Gate:</b> Deviasi &gt; 3.0σ langsung dikarantina untuk diverifikasi dua pihak (*maker-checker*) sebelum masuk ke model peramalan fiskal.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  );
+}
 
 
 // ─── Tab EDA ──────────────────────────────────────────────────

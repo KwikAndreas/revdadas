@@ -1,8 +1,7 @@
-"use client";
-
 import { useState, useRef, useEffect, useMemo } from "react";
 import type { Meta, DashboardFilters } from "@/lib/types";
 import { ChevronDown, Check, Activity, Search } from "lucide-react";
+import { useLanguage } from "@/lib/LanguageContext";
 
 interface SidebarProps {
   meta: Meta;
@@ -13,6 +12,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose }: SidebarProps) {
+  const { lang, t } = useLanguage();
   const allTaxTypes = ["Semua Pendapatan", ...meta.tax_types];
   const [provDropdownOpen, setProvDropdownOpen] = useState(false);
   const [taxDropdownOpen, setTaxDropdownOpen] = useState(false);
@@ -96,7 +96,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
           </div>
           <div className="sidebar-logo-text">
             <h2>RevDadas</h2>
-            <span>REVENUE DAERAH CERDAS</span>
+            <span>{t("sidebar.subtitle")}</span>
           </div>
         </div>
         {onClose && (
@@ -108,7 +108,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
 
       {/* Fiscal Year Filter */}
       <div>
-        <p className="sidebar-section-title">TAHUN ANGGARAN</p>
+        <p className="sidebar-section-title">{t("sidebar.year")}</p>
         <div className="dropdown-container" ref={yearDropdownRef}>
           <div 
             className="dropdown-trigger" 
@@ -143,32 +143,32 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
 
       {/* Tax Type Filter */}
       <div>
-        <p className="sidebar-section-title">JENIS PENDAPATAN</p>
+        <p className="sidebar-section-title">{t("sidebar.revenue_type")}</p>
         <div className="dropdown-container" ref={taxDropdownRef}>
           <div 
             className="dropdown-trigger" 
             onClick={() => setTaxDropdownOpen(!taxDropdownOpen)}
           >
             <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-              {filters.selectedTaxType}
+              {filters.selectedTaxType === "Semua Pendapatan" ? t("sidebar.all_revenues") : filters.selectedTaxType}
             </span>
             <ChevronDown size={14} color="#64748b" />
           </div>
           
           {taxDropdownOpen && (
             <div className="dropdown-menu">
-              {allTaxTypes.map((t) => {
-                const isSelected = filters.selectedTaxType === t;
+              {allTaxTypes.map((tx) => {
+                const isSelected = filters.selectedTaxType === tx;
                 return (
                   <div 
-                    key={t} 
+                    key={tx} 
                     className={`dropdown-item ${isSelected ? "selected" : ""}`}
                     onClick={() => {
-                      onFilterChange({ selectedTaxType: t });
+                      onFilterChange({ selectedTaxType: tx });
                       setTaxDropdownOpen(false);
                     }}
                   >
-                    <span>{t}</span>
+                    <span>{tx === "Semua Pendapatan" ? t("sidebar.all_revenues") : tx}</span>
                     {isSelected && <Check size={14} strokeWidth={3} />}
                   </div>
                 );
@@ -180,7 +180,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
 
       {/* Province Filter */}
       <div>
-        <p className="sidebar-section-title">PROVINSI TARGET</p>
+        <p className="sidebar-section-title">{t("sidebar.target_prov")}</p>
         <div className="dropdown-container" ref={dropdownRef}>
           <div 
             className="dropdown-trigger" 
@@ -188,8 +188,8 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
           >
             <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
               {filters.selectedProvinces.length === meta.provinces.length 
-                ? "Semua Provinsi" 
-                : `${filters.selectedProvinces.length} Provinsi Terpilih`}
+                ? t("sidebar.all_provinces") 
+                : t("sidebar.selected_count", { count: filters.selectedProvinces.length })}
             </span>
             <ChevronDown size={14} color="#64748b" />
           </div>
@@ -201,7 +201,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
                   <Search size={14} color="#64748b" />
                   <input 
                     type="text" 
-                    placeholder="Cari provinsi..." 
+                    placeholder={t("sidebar.search_prov")} 
                     style={{ border: "none", background: "transparent", outline: "none", padding: "4px 8px", width: "100%", fontSize: 13 }}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
@@ -215,7 +215,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
                 style={{ borderBottom: "1px solid #e2e8f0", fontWeight: 700, color: "#1e3a5f" }}
                 onClick={handleSelectAll}
               >
-                <span>{isAllSelected ? "Hapus Semua" : "Pilih Semua Provinsi"}</span>
+                <span>{isAllSelected ? t("sidebar.reset") : t("sidebar.select_all")}</span>
                 {isAllSelected && <Check size={14} strokeWidth={3} />}
               </div>
 
@@ -247,23 +247,23 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
       <div className="slider-container" style={{ marginTop: 8 }}>
         <div className="slider-header">
           <span className="sidebar-section-title" style={{ margin: 0 }}>
-            PERIODE PREDIKSI
+            {t("sidebar.forecast_period")}
           </span>
-          <span className="slider-value">{filters.forecastMonths} BULAN</span>
+          <span className="slider-value">{filters.forecastMonths} {t("sidebar.months")}</span>
         </div>
         <input
           type="range"
           className="slider-input"
           min={6}
-          max={24}
-          value={filters.forecastMonths}
+          max={12}
+          value={Math.min(12, filters.forecastMonths)}
           onChange={(e) =>
             onFilterChange({ forecastMonths: Number(e.target.value) })
           }
         />
         <div className="slider-range-labels">
-          <span>6 Bln</span>
-          <span>24 Bln</span>
+          <span>6 Bln (1 Sem)</span>
+          <span>12 Bln (1 Tahun)</span>
         </div>
       </div>
 
@@ -271,7 +271,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
       <div>
         <div className="fraud-box">
           <div className="fraud-header">
-            <span>ASUMSI RECOVERY RATE ANOMALI</span>
+            <span>{t("sidebar.recovery_rate")}</span>
             <span>{filters.fraudPreventionPct}%</span>
           </div>
           <input
@@ -285,15 +285,15 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
             }
           />
         </div>
-        <p className="fraud-note">*Estimasi persentase pemulihan anomali</p>
+        <p className="fraud-note">{t("sidebar.recovery_hint")}</p>
       </div>
 
       {/* Status */}
       <div className="sidebar-status">
         <p>
-          Status Sistem: <span className="status-dot">●</span> Terkoneksi (Satu Data)
+          {lang === "en" ? "System Status" : "Status Sistem"}: <span className="status-dot">●</span> {t("sidebar.connected")}
         </p>
-        <p>Data: {meta.total_rows.toLocaleString()} records</p>
+        <p>Data: {t("sidebar.records_count", { count: meta.total_rows.toLocaleString() })}</p>
       </div>
     </aside>
   );
