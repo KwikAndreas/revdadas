@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useMemo } from "react";
+import Link from "next/link";
 import type { Meta, DashboardFilters } from "@/lib/types";
 import { ChevronDown, Check, Activity, Search } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
@@ -90,7 +91,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
     >
       {/* Logo */}
       <div className="sidebar-logo" style={{ justifyContent: "space-between" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <Link href="/" style={{ display: "flex", alignItems: "center", gap: 12, textDecoration: "none", color: "inherit" }} title="Kembali ke Halaman Utama">
           <div className="sidebar-logo-icon">
             <Activity size={20} strokeWidth={3} />
           </div>
@@ -98,7 +99,7 @@ export default function Sidebar({ meta, filters, onFilterChange, isOpen, onClose
             <h2>RevDadas</h2>
             <span>{t("sidebar.subtitle")}</span>
           </div>
-        </div>
+        </Link>
         {onClose && (
           <button className="mobile-only btn-icon" onClick={onClose} style={{ border: "none", background: "transparent", color: "#64748b" }}>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
