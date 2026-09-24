@@ -99,9 +99,13 @@ class RevenueForecaster:
     # ---------- ENGINE 1: THETA METHOD (PRIMARY) ----------
     def _fit_and_forecast_theta(self, data, periods):
         """Fit ThetaModel dengan deseasonalization dan prediction intervals."""
-        # Pastikan index memiliki freq='MS' agar statsmodels tidak mengeluarkan peringatan
+        # Pastikan index memiliki freq='MS' yang valid tanpa gap
         dti = pd.to_datetime(data["ds"])
-        s = pd.Series(data["y"].values, index=pd.DatetimeIndex(dti, freq="MS"))
+        if len(dti) > 0:
+            full_idx = pd.date_range(start=dti.min(), end=dti.max(), freq="MS")
+            s = pd.Series(data["y"].values, index=dti).reindex(full_idx).fillna(0.0)
+        else:
+            s = pd.Series(dtype=float)
         last_date = data["ds"].max()
         fdates = [last_date + pd.offsets.MonthBegin(i) for i in range(1, periods + 1)]
         hist_max = float(s.max()) if len(s) else 1.0

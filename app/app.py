@@ -198,7 +198,8 @@ PROVINCE_COORDS = {
     "Banten": [-6.4058, 106.0640], "Jawa Tengah": [-7.1500, 110.1403],
     "DI Yogyakarta": [-7.8754, 110.4262], "Jawa Timur": [-7.5361, 112.2384],
     "Bali": [-8.4095, 115.1889], "Nusa Tenggara Barat": [-8.6529, 117.3616],
-    "Nusa Tenggara Timur": [-8.6574, 121.0794], "Kalimantan Barat": [-0.2788, 111.4753],
+    "NTB": [-8.6529, 117.3616], "Nusa Tenggara Timur": [-8.6574, 121.0794],
+    "NTT": [-8.6574, 121.0794], "Kalimantan Barat": [-0.2788, 111.4753],
     "Kalimantan Tengah": [-1.6815, 113.3824], "Kalimantan Selatan": [-3.0926, 115.2838],
     "Kalimantan Timur": [0.5387, 116.4194], "Kalimantan Utara": [3.0731, 116.0414],
     "Sulawesi Utara": [0.6247, 123.9750], "Gorontalo": [0.6999, 122.4467],
@@ -206,6 +207,8 @@ PROVINCE_COORDS = {
     "Sulawesi Selatan": [-3.6688, 119.9741], "Sulawesi Tenggara": [-4.1449, 122.1746],
     "Maluku": [-3.2385, 130.1453], "Maluku Utara": [1.5710, 127.8088],
     "Papua": [-4.2699, 138.0804], "Papua Barat": [-1.3361, 133.1747],
+    "Papua Barat Daya": [-0.8800, 131.2500], "Papua Pegunungan": [-4.0800, 138.9400],
+    "Papua Selatan": [-8.4900, 140.4000], "Papua Tengah": [-3.3600, 135.4900],
 }
 
 # Batas geografis Indonesia (untuk mengunci peta agar tidak bisa digeser keluar)

@@ -1,0 +1,925 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Papua Selatan,35,2023,1,Januari,1,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Bantuan Keuangan,71700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Bantuan Keuangan,71700000000.0,14430000000.0,20.13,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Bantuan Keuangan,71700000000.0,24090000000.0,33.6,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Bantuan Keuangan,111076091836.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Bantuan Keuangan,111076091836.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Bantuan Keuangan,111076091836.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Bantuan Keuangan,111076091836.0,0.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Bantuan Keuangan,111076091836.0,0.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Bantuan Keuangan,111076091836.0,10000000000.0,9.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Bantuan Keuangan,111076091836.0,10000000000.0,9.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Bantuan Keuangan,111076091836.0,10000000000.0,9.0,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Bantuan Keuangan,111076091836.0,10000000000.0,9.0,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Bantuan Keuangan,111076091836.0,16765907713.0,15.09,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Bantuan Keuangan,111076091836.0,16765907713.0,15.09,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Bantuan Keuangan,111076091836.0,25132157713.0,22.63,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Bantuan Keuangan,11700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Bantuan Keuangan,11700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Bantuan Keuangan,11700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Bantuan Keuangan,11700000000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,7,Juli,31,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,8,Agustus,32,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,9,September,33,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,10,Oktober,34,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,11,November,35,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2025,12,Desember,36,Belanja Bantuan Keuangan,11700000000.0,8700000000.0,74.36,False,True
+Papua Selatan,35,2026,1,Januari,37,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,4,April,40,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,9,September,45,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,11,November,47,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2026,12,Desember,48,Belanja Bantuan Keuangan,73562708095.82,0.0,0.0,True,False
+Papua Selatan,35,2023,1,Januari,1,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,4,April,4,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,9,September,9,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,11,November,11,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Bantuan Sosial,4700000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Bantuan Sosial,650000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Bantuan Sosial,650000000.0,10966884900.0,1.68721,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Bantuan Sosial,2591649429.0,0.0,0.0,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Bantuan Sosial,2591649429.0,2466649429.0,95.18,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,4,April,40,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,9,September,45,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,11,November,47,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2026,12,Desember,48,Belanja Bantuan Sosial,287275000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,1,Januari,1,Belanja Barang dan Jasa,669463229553.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Barang dan Jasa,669463229553.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Barang dan Jasa,669463229553.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Barang dan Jasa,669463229553.0,1935250384.0,0.29,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Barang dan Jasa,669463229553.0,1935250384.0,0.29,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Barang dan Jasa,669463229553.0,22749811416.0,3.4,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Barang dan Jasa,669463229553.0,47948480336.0,7.16,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Barang dan Jasa,669463229553.0,81297875720.0,12.14,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Barang dan Jasa,669463229553.0,96544167379.0,14.42,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Barang dan Jasa,669463229553.0,139927188868.0,20.9,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Barang dan Jasa,669463229553.0,211382750882.0,31.57,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Barang dan Jasa,669463229553.0,514135878139.0,76.8,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Barang dan Jasa,923847760474.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Barang dan Jasa,923847760474.0,2845947623.0,0.31,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Barang dan Jasa,923847760474.0,11414614291.0,1.24,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Barang dan Jasa,923847760474.0,34758663138.0,3.76,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Barang dan Jasa,923847760474.0,61201457021.0,6.62,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Barang dan Jasa,923847760474.0,87247592952.0,9.44,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Barang dan Jasa,923847760474.0,141631083238.5,15.33,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Barang dan Jasa,923847760474.0,230516576864.5,24.95,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Barang dan Jasa,923847760474.0,278855093228.5,30.18,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Barang dan Jasa,923847760474.0,354831826107.5,38.41,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Barang dan Jasa,923847760474.0,436559424474.5,47.25,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Barang dan Jasa,923847760474.0,823560780759.0,89.14,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Barang dan Jasa,955549185496.23,20551620.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Barang dan Jasa,955549185496.23,15440392557.0,1.62,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Barang dan Jasa,955549185496.23,26526353980.0,2.78,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Barang dan Jasa,955549185496.23,44609449207.0,4.67,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Barang dan Jasa,955549185496.23,78950948367.0,8.26,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Barang dan Jasa,955549185496.23,107415974055.0,11.24,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Barang dan Jasa,955549185496.23,204725745773.0,21.42,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Barang dan Jasa,955549185496.23,255070610480.6,26.69,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Barang dan Jasa,955549185496.23,313808121916.2,32.84,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Barang dan Jasa,955549185496.23,394692322319.99,41.31,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Barang dan Jasa,955549185496.23,486998302440.27,50.97,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Barang dan Jasa,955549185496.23,767056151373.54,80.27,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Barang dan Jasa,418319778892.07,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Barang dan Jasa,418319778892.07,1341792613.0,0.32,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Barang dan Jasa,418319778892.07,38270595244.36,9.15,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Barang dan Jasa,418319778892.07,71087590316.36,16.99,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Barang dan Jasa,418319778892.07,97761952354.72,23.37,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Barang dan Jasa,418319778892.07,137784546509.08,32.94,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Barang dan Jasa,418319778892.07,161224873296.08,38.54,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Barang dan Jasa,418319778892.07,183439883212.08,43.85,False,False
+Papua Selatan,35,2026,9,September,45,Belanja Barang dan Jasa,418319778892.07,188257318757.08,45.0,False,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Barang dan Jasa,418319778892.07,188257318757.08,45.0,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Barang dan Jasa,418319778892.07,188257318757.08,45.0,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Barang dan Jasa,418319778892.07,188257318757.08,45.0,False,True
+Papua Selatan,35,2023,1,Januari,1,Belanja Daerah,1618357419650.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Daerah,1618357419650.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Daerah,1618357419650.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Daerah,1618357419650.0,3693250384.0,0.23,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Daerah,1618357419650.0,3693250384.0,0.23,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Daerah,1618357419650.0,32522834154.0,2.01,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Daerah,1618357419650.0,80598045392.0,4.98,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Daerah,1618357419650.0,144564731535.0,8.93,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Daerah,1618357419650.0,226228838881.0,13.98,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Daerah,1618357419650.0,386583163279.0,23.89,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Daerah,1618357419650.0,550659424115.0,34.03,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Daerah,1618357419650.0,1190311777521.0,73.55,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Daerah,1910601605605.0,8479903816.0,0.44,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Daerah,1910601605605.0,21042153529.0,1.1,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Daerah,1910601605605.0,46629723650.0,2.44,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Daerah,1910601605605.0,117820709632.0,6.17,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Daerah,1910601605605.0,165981166757.0,8.69,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Daerah,1910601605605.0,271754210455.0,14.22,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Daerah,1910601605605.0,372869256090.5,19.52,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Daerah,1910601605605.0,559359754643.5,29.28,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Daerah,1910601605605.0,647274123926.11,33.88,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Daerah,1910601605605.0,871224651881.11,45.6,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Daerah,1910601605605.0,1051569675208.1,55.04,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Daerah,1910601605605.0,1792504653996.7,93.82,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Daerah,1788220088147.6,8024682335.0,0.45,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Daerah,1788220088147.6,37906212161.0,2.12,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Daerah,1788220088147.6,92740523161.0,5.19,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Daerah,1788220088147.6,130767528854.0,7.31,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Daerah,1788220088147.6,204353691416.0,11.43,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Daerah,1788220088147.6,273603959114.0,15.3,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Daerah,1788220088147.6,434430382122.0,24.29,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Daerah,1788220088147.6,532104392522.6,29.76,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Daerah,1788220088147.6,642879688773.2,35.95,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Daerah,1788220088147.6,771033173636.99,43.12,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Daerah,1788220088147.6,1005997255175.3,56.26,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Daerah,1788220088147.6,1489715574313.4,83.31,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Daerah,993428867036.73,13421349687.0,1.35,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Daerah,993428867036.73,28386305991.0,2.86,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Daerah,993428867036.73,108381608358.36,10.91,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Daerah,993428867036.73,168794664924.36,16.99,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Daerah,993428867036.73,262070826625.72,26.38,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Daerah,993428867036.73,356148521956.08,35.85,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Daerah,993428867036.73,429715951463.97,43.26,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Daerah,993428867036.73,482821399745.97,48.6,False,False
+Papua Selatan,35,2026,9,September,45,Belanja Daerah,993428867036.73,502374974808.97,50.57,False,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Daerah,993428867036.73,502374974808.97,50.57,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Daerah,993428867036.73,502374974808.97,50.57,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Daerah,993428867036.73,502374974808.97,50.57,False,True
+Papua Selatan,35,2023,1,Januari,1,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Hibah,31505683710.0,0.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Hibah,31505683710.0,24945000000.0,79.18,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Hibah,57424896745.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Hibah,57424896745.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Hibah,57424896745.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Hibah,57424896745.0,5500000000.0,9.58,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Hibah,57424896745.0,7306900000.0,12.72,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Hibah,57424896745.0,15306900000.0,26.66,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Hibah,57424896745.0,40324841000.0,70.22,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Hibah,57424896745.0,50724841000.0,88.33,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Hibah,57424896745.0,54436604148.61,94.8,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Hibah,57424896745.0,54849079094.61,95.51,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Hibah,57424896745.0,63594664604.61,110.74,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Hibah,57424896745.0,86179754097.71,150.07,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Hibah,71892731103.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Hibah,71892731103.0,0.0,0.0,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Hibah,71892731103.0,1000000000.0,1.39,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Hibah,71892731103.0,1000000000.0,1.39,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Hibah,71892731103.0,2500000000.0,3.48,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Hibah,71892731103.0,2500000000.0,3.48,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Hibah,71892731103.0,3586389500.0,4.99,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Hibah,71892731103.0,6993529500.0,9.73,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Hibah,71892731103.0,8155449500.0,11.34,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Hibah,71892731103.0,8155449500.0,11.34,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Hibah,71892731103.0,51671197103.0,71.87,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Hibah,71892731103.0,68670870078.0,95.52,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Hibah,15727058000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Hibah,15727058000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Hibah,15727058000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Hibah,15727058000.0,2000000000.0,12.72,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Hibah,15727058000.0,3982630000.0,25.32,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Hibah,15727058000.0,5090950000.0,32.37,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,True
+Papua Selatan,35,2026,9,September,45,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,True
+Papua Selatan,35,2026,10,Oktober,46,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Hibah,15727058000.0,6590950000.0,41.91,False,True
+Papua Selatan,35,2023,1,Januari,1,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Lainnya,211677667278.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Lainnya,211677667278.0,450000000.0,0.21,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Lainnya,211677667278.0,5134893100.0,2.43,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Lainnya,211677667278.0,45033547500.0,21.27,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Lainnya,211677667278.0,69871547500.0,33.01,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Lainnya,211677667278.0,142547855844.0,67.34,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Lainnya,273763457747.0,3500000000.0,1.28,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Lainnya,273763457747.0,8056000000.0,2.94,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Lainnya,273763457747.0,14828000000.0,5.42,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Lainnya,273763457747.0,24491500000.0,8.95,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Lainnya,273763457747.0,30251757400.0,11.05,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Lainnya,273763457747.0,54512397134.0,19.91,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Lainnya,273763457747.0,85015397702.0,31.05,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Lainnya,273763457747.0,128593075336.0,46.97,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Lainnya,273763457747.0,143246325484.61,52.32,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Lainnya,273763457747.0,166775577081.61,60.92,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Lainnya,273763457747.0,206314181300.61,75.36,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Lainnya,273763457747.0,273279680583.71,99.82,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Lainnya,178514822260.89,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Lainnya,178514822260.89,2500000000.0,1.4,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Lainnya,178514822260.89,3750000000.0,2.1,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Lainnya,178514822260.89,4200000000.0,2.35,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Lainnya,178514822260.89,24541614687.0,13.75,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Lainnya,178514822260.89,28952953596.0,16.22,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Lainnya,178514822260.89,50854250812.0,28.49,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Lainnya,178514822260.89,60361326276.0,33.81,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Lainnya,178514822260.89,69151689700.0,38.74,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Lainnya,178514822260.89,75653516767.0,42.38,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Lainnya,178514822260.89,144340799554.0,80.86,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Lainnya,178514822260.89,171517450538.89,96.08,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Lainnya,171111633619.82,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Lainnya,171111633619.82,0.0,0.0,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Lainnya,171111633619.82,0.0,0.0,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Lainnya,171111633619.82,5555533558.0,3.25,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Lainnya,171111633619.82,34198947019.0,19.99,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Lainnya,171111633619.82,45216006333.0,26.42,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Lainnya,171111633619.82,53863032998.0,31.48,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Lainnya,171111633619.82,64283283463.0,37.57,False,False
+Papua Selatan,35,2026,9,September,45,Belanja Lainnya,171111633619.82,64283283463.0,37.57,False,True
+Papua Selatan,35,2026,10,Oktober,46,Belanja Lainnya,171111633619.82,64283283463.0,37.57,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Lainnya,171111633619.82,64283283463.0,37.57,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Lainnya,171111633619.82,64283283463.0,37.57,False,True
+Papua Selatan,35,2023,1,Januari,1,Belanja Modal,469970798936.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Modal,469970798936.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Modal,469970798936.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Modal,469970798936.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Modal,469970798936.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Modal,469970798936.0,2223683672.0,0.47,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Modal,469970798936.0,9119973958.0,1.94,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Modal,469970798936.0,34146186406.0,7.27,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Modal,469970798936.0,78884558060.0,16.78,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Modal,469970798936.0,142968730296.0,30.42,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Modal,469970798936.0,198852979100.0,42.31,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Modal,469970798936.0,434474174288.0,92.45,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Modal,476013499156.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Modal,476013499156.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Modal,476013499156.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Modal,476013499156.0,997521540.0,0.21,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Modal,476013499156.0,3515962840.0,0.74,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Modal,476013499156.0,32817084782.0,6.89,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Modal,476013499156.0,40093530484.0,8.42,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Modal,476013499156.0,69992835313.0,14.7,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Modal,476013499156.0,79466862328.0,16.69,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Modal,476013499156.0,188410651715.0,39.58,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Modal,476013499156.0,226548702514.0,47.59,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Modal,476013499156.0,470967252245.0,98.94,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Modal,313695989999.47,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Modal,313695989999.47,0.0,0.0,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Modal,313695989999.47,46350000.0,0.01,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Modal,313695989999.47,885300000.0,0.28,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Modal,313695989999.47,1295092000.0,0.41,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Modal,313695989999.47,2579564300.0,0.82,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Modal,313695989999.47,21082438300.0,6.72,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Modal,313695989999.47,37394304767.0,11.92,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Modal,313695989999.47,59716832617.0,19.04,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Modal,313695989999.47,78942633351.0,25.17,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Modal,313695989999.47,127970327250.0,40.79,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Modal,313695989999.47,269433338367.0,85.89,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Modal,97339940802.35,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Modal,97339940802.35,0.0,0.0,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Modal,97339940802.35,1812560000.0,1.86,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Modal,97339940802.35,2030750000.0,2.09,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Modal,97339940802.35,18319629174.0,18.82,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Modal,97339940802.35,22667771889.0,23.29,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Modal,97339940802.35,42971702215.89,44.15,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Modal,97339940802.35,43609279415.89,44.8,False,False
+Papua Selatan,35,2026,9,September,45,Belanja Modal,97339940802.35,44656802415.89,45.88,False,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Modal,97339940802.35,44656802415.89,45.88,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Modal,97339940802.35,44656802415.89,45.88,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Modal,97339940802.35,44656802415.89,45.88,False,True
+Papua Selatan,35,2023,1,Januari,1,Belanja Pegawai,267245723883.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Pegawai,267245723883.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Pegawai,267245723883.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Pegawai,267245723883.0,1758000000.0,0.66,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Pegawai,267245723883.0,1758000000.0,0.66,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Pegawai,267245723883.0,7549339066.0,2.82,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Pegawai,267245723883.0,23529591098.0,8.8,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Pegawai,267245723883.0,28670669409.0,10.73,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Pegawai,267245723883.0,45665220342.0,17.09,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Pegawai,267245723883.0,58653696615.0,21.95,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Pegawai,267245723883.0,70552146633.0,26.4,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Pegawai,267245723883.0,99153869250.0,37.1,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Pegawai,236976888228.0,4979903816.0,2.1,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Pegawai,236976888228.0,10140205906.0,4.28,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Pegawai,236976888228.0,20387109359.0,8.6,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Pegawai,236976888228.0,57573024954.0,24.29,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Pegawai,236976888228.0,71011989496.0,29.97,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Pegawai,236976888228.0,97177135587.0,41.01,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Pegawai,236976888228.0,106129244666.0,44.78,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Pegawai,236976888228.0,130257267130.0,54.97,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Pegawai,236976888228.0,145705842885.0,61.49,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Pegawai,236976888228.0,161206596977.0,68.03,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Pegawai,236976888228.0,182147366919.0,76.86,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Pegawai,236976888228.0,224696940409.0,94.82,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Pegawai,340460090391.04,8004130715.0,2.35,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Pegawai,340460090391.04,19965819604.0,5.86,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Pegawai,340460090391.04,62417819181.0,18.33,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Pegawai,340460090391.04,81072779647.0,23.81,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Pegawai,340460090391.04,99566036362.0,29.24,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Pegawai,340460090391.04,134655467163.0,39.55,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Pegawai,340460090391.04,157767947237.0,46.34,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Pegawai,340460090391.04,179278150999.0,52.66,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Pegawai,340460090391.04,200203044540.0,58.8,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Pegawai,340460090391.04,221744701199.0,65.13,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Pegawai,340460090391.04,246687825931.0,72.46,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Pegawai,340460090391.04,281708634033.99,82.74,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Pegawai,306657513722.49,13421349687.0,4.38,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Pegawai,306657513722.49,27044513378.0,8.82,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Pegawai,306657513722.49,68298453114.0,22.27,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Pegawai,306657513722.49,90120791050.0,29.39,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Pegawai,306657513722.49,111790298078.0,36.45,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Pegawai,306657513722.49,150480197225.0,49.07,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Pegawai,306657513722.49,171656342954.0,55.98,False,False
+Papua Selatan,35,2026,8,Agustus,44,Belanja Pegawai,306657513722.49,191488953655.0,62.44,False,False
+Papua Selatan,35,2026,9,September,45,Belanja Pegawai,306657513722.49,205177570173.0,66.91,False,False
+Papua Selatan,35,2026,10,Oktober,46,Belanja Pegawai,306657513722.49,205177570173.0,66.91,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Pegawai,306657513722.49,205177570173.0,66.91,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Pegawai,306657513722.49,205177570173.0,66.91,False,True
+Papua Selatan,35,2024,1,Januari,13,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,4,April,16,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,9,September,21,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,11,November,23,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Subsidi,840000000.0,0.0,0.0,True,False
+Papua Selatan,35,2023,1,Januari,1,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Belanja Tidak Terduga,103771983568.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Belanja Tidak Terduga,103771983568.0,450000000.0,0.43,False,False
+Papua Selatan,35,2023,9,September,9,Belanja Tidak Terduga,103771983568.0,5134893100.0,4.95,False,False
+Papua Selatan,35,2023,10,Oktober,10,Belanja Tidak Terduga,103771983568.0,45033547500.0,43.4,False,False
+Papua Selatan,35,2023,11,November,11,Belanja Tidak Terduga,103771983568.0,55441547500.0,53.43,False,False
+Papua Selatan,35,2023,12,Desember,12,Belanja Tidak Terduga,103771983568.0,75485948639.0,72.74,False,False
+Papua Selatan,35,2024,1,Januari,13,Belanja Tidak Terduga,23049828741.0,3500000000.0,15.18,False,False
+Papua Selatan,35,2024,2,Februari,14,Belanja Tidak Terduga,23049828741.0,8056000000.0,34.95,False,False
+Papua Selatan,35,2024,3,Maret,15,Belanja Tidak Terduga,23049828741.0,14828000000.0,64.33,False,False
+Papua Selatan,35,2024,4,April,16,Belanja Tidak Terduga,23049828741.0,18991500000.0,82.39,False,False
+Papua Selatan,35,2024,5,Mei,17,Belanja Tidak Terduga,23049828741.0,22944857400.0,99.54,False,False
+Papua Selatan,35,2024,6,Juni,18,Belanja Tidak Terduga,23049828741.0,23044857400.0,99.98,False,False
+Papua Selatan,35,2024,7,Juli,19,Belanja Tidak Terduga,23049828741.0,23044857400.0,99.98,False,False
+Papua Selatan,35,2024,8,Agustus,20,Belanja Tidak Terduga,23049828741.0,23044857400.0,99.98,False,False
+Papua Selatan,35,2024,9,September,21,Belanja Tidak Terduga,23049828741.0,33986344400.0,147.45,False,False
+Papua Selatan,35,2024,10,Oktober,22,Belanja Tidak Terduga,23049828741.0,35266640400.0,153.0,False,False
+Papua Selatan,35,2024,11,November,23,Belanja Tidak Terduga,23049828741.0,35366640400.0,153.44,False,False
+Papua Selatan,35,2024,12,Desember,24,Belanja Tidak Terduga,23049828741.0,42230470050.0,183.21,False,False
+Papua Selatan,35,2025,1,Januari,25,Belanja Tidak Terduga,6343587297.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Belanja Tidak Terduga,6343587297.0,2500000000.0,39.41,False,False
+Papua Selatan,35,2025,3,Maret,27,Belanja Tidak Terduga,6343587297.0,2750000000.0,43.35,False,False
+Papua Selatan,35,2025,4,April,28,Belanja Tidak Terduga,6343587297.0,3200000000.0,50.44,False,False
+Papua Selatan,35,2025,5,Mei,29,Belanja Tidak Terduga,6343587297.0,3200000000.0,50.44,False,False
+Papua Selatan,35,2025,6,Juni,30,Belanja Tidak Terduga,6343587297.0,3200000000.0,50.44,False,False
+Papua Selatan,35,2025,7,Juli,31,Belanja Tidak Terduga,6343587297.0,4054440000.0,63.91,False,False
+Papua Selatan,35,2025,8,Agustus,32,Belanja Tidak Terduga,6343587297.0,4094440000.0,64.54,False,False
+Papua Selatan,35,2025,9,September,33,Belanja Tidak Terduga,6343587297.0,4821005000.0,76.0,False,False
+Papua Selatan,35,2025,10,Oktober,34,Belanja Tidak Terduga,6343587297.0,4821005000.0,76.0,False,False
+Papua Selatan,35,2025,11,November,35,Belanja Tidak Terduga,6343587297.0,4924661600.0,77.63,False,False
+Papua Selatan,35,2025,12,Desember,36,Belanja Tidak Terduga,6343587297.0,5693076600.0,89.75,False,False
+Papua Selatan,35,2026,1,Januari,37,Belanja Tidak Terduga,1000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Belanja Tidak Terduga,1000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,3,Maret,39,Belanja Tidak Terduga,1000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,4,April,40,Belanja Tidak Terduga,1000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,5,Mei,41,Belanja Tidak Terduga,1000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,6,Juni,42,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,False
+Papua Selatan,35,2026,7,Juli,43,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2026,8,Agustus,44,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2026,9,September,45,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2026,10,Oktober,46,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2026,11,November,47,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2026,12,Desember,48,Belanja Tidak Terduga,1000000000.0,750000000.0,75.0,False,True
+Papua Selatan,35,2023,1,Januari,1,Lain-Lain PAD yang Sah,0.0,29911587.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Lain-Lain PAD yang Sah,0.0,106273001.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Lain-Lain PAD yang Sah,0.0,223981494.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Lain-Lain PAD yang Sah,0.0,362485409.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Lain-Lain PAD yang Sah,0.0,362485409.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Lain-Lain PAD yang Sah,0.0,647984806.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Lain-Lain PAD yang Sah,0.0,988134850.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Lain-Lain PAD yang Sah,0.0,1358584946.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Lain-Lain PAD yang Sah,0.0,1705750161.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Lain-Lain PAD yang Sah,0.0,2222698658.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Lain-Lain PAD yang Sah,0.0,2742699316.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Lain-Lain PAD yang Sah,0.0,7104938934.0,0.0,False,False
+Papua Selatan,35,2024,1,Januari,13,Lain-Lain PAD yang Sah,49600000000.0,356457541.0,0.72,False,False
+Papua Selatan,35,2024,2,Februari,14,Lain-Lain PAD yang Sah,49600000000.0,946648422.0,1.91,False,False
+Papua Selatan,35,2024,3,Maret,15,Lain-Lain PAD yang Sah,49600000000.0,1471006075.0,2.97,False,False
+Papua Selatan,35,2024,4,April,16,Lain-Lain PAD yang Sah,49600000000.0,2629101249.0,5.3,False,False
+Papua Selatan,35,2024,5,Mei,17,Lain-Lain PAD yang Sah,49600000000.0,4569742595.74,9.21,False,False
+Papua Selatan,35,2024,6,Juni,18,Lain-Lain PAD yang Sah,49600000000.0,6614164271.74,13.34,False,False
+Papua Selatan,35,2024,7,Juli,19,Lain-Lain PAD yang Sah,49600000000.0,5964800926.74,12.03,False,False
+Papua Selatan,35,2024,8,Agustus,20,Lain-Lain PAD yang Sah,49600000000.0,6638390351.74,13.38,False,False
+Papua Selatan,35,2024,9,September,21,Lain-Lain PAD yang Sah,49600000000.0,8239250627.74,16.61,False,False
+Papua Selatan,35,2024,10,Oktober,22,Lain-Lain PAD yang Sah,49600000000.0,8630452067.74,17.4,False,False
+Papua Selatan,35,2024,11,November,23,Lain-Lain PAD yang Sah,49600000000.0,9033982430.74,18.21,False,False
+Papua Selatan,35,2024,12,Desember,24,Lain-Lain PAD yang Sah,49600000000.0,12825319797.74,25.86,False,False
+Papua Selatan,35,2025,1,Januari,25,Lain-Lain PAD yang Sah,13779328841.99,5450699705.0,39.56,False,False
+Papua Selatan,35,2025,2,Februari,26,Lain-Lain PAD yang Sah,13779328841.99,5864198211.0,42.56,False,False
+Papua Selatan,35,2025,3,Maret,27,Lain-Lain PAD yang Sah,13779328841.99,6293977948.0,45.68,False,False
+Papua Selatan,35,2025,4,April,28,Lain-Lain PAD yang Sah,13779328841.99,6584684907.0,47.79,False,False
+Papua Selatan,35,2025,5,Mei,29,Lain-Lain PAD yang Sah,13779328841.99,8396191261.0,60.93,False,False
+Papua Selatan,35,2025,6,Juni,30,Lain-Lain PAD yang Sah,13779328841.99,10000679045.0,72.58,False,False
+Papua Selatan,35,2025,7,Juli,31,Lain-Lain PAD yang Sah,13779328841.99,11336418771.0,82.27,False,False
+Papua Selatan,35,2025,8,Agustus,32,Lain-Lain PAD yang Sah,13779328841.99,13457703156.99,97.67,False,False
+Papua Selatan,35,2025,9,September,33,Lain-Lain PAD yang Sah,13779328841.99,14105208247.99,102.36,False,False
+Papua Selatan,35,2025,10,Oktober,34,Lain-Lain PAD yang Sah,13779328841.99,14918331473.99,108.27,False,False
+Papua Selatan,35,2025,11,November,35,Lain-Lain PAD yang Sah,13779328841.99,16991674177.76,123.31,False,False
+Papua Selatan,35,2025,12,Desember,36,Lain-Lain PAD yang Sah,13779328841.99,18621987130.76,135.14,False,False
+Papua Selatan,35,2026,1,Januari,37,Lain-Lain PAD yang Sah,2700000000.0,9220557002.0,341.5,False,False
+Papua Selatan,35,2026,2,Februari,38,Lain-Lain PAD yang Sah,2700000000.0,9588432850.16,355.13,False,False
+Papua Selatan,35,2026,3,Maret,39,Lain-Lain PAD yang Sah,2700000000.0,10052019509.16,372.3,False,False
+Papua Selatan,35,2026,4,April,40,Lain-Lain PAD yang Sah,2700000000.0,10680443962.16,395.57,False,False
+Papua Selatan,35,2026,5,Mei,41,Lain-Lain PAD yang Sah,2700000000.0,11425396509.16,423.16,False,False
+Papua Selatan,35,2026,6,Juni,42,Lain-Lain PAD yang Sah,2700000000.0,11801111423.16,437.08,False,False
+Papua Selatan,35,2026,7,Juli,43,Lain-Lain PAD yang Sah,2700000000.0,14375089885.16,532.41,False,False
+Papua Selatan,35,2026,8,Agustus,44,Lain-Lain PAD yang Sah,2700000000.0,14633122084.16,541.97,False,False
+Papua Selatan,35,2026,9,September,45,Lain-Lain PAD yang Sah,2700000000.0,15068725587.16,558.1,False,False
+Papua Selatan,35,2026,10,Oktober,46,Lain-Lain PAD yang Sah,2700000000.0,15068725587.16,558.1,False,True
+Papua Selatan,35,2026,11,November,47,Lain-Lain PAD yang Sah,2700000000.0,15068725587.16,558.1,False,True
+Papua Selatan,35,2026,12,Desember,48,Lain-Lain PAD yang Sah,2700000000.0,15068725587.16,558.1,False,True
+Papua Selatan,35,2023,1,Januari,1,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,211681000.0,0.0,False,False
+Papua Selatan,35,2024,1,Januari,13,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,35500000.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,35500000.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,129900000.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,155500000.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,177350000.0,0.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,207150000.0,0.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,333226000.0,0.0,False,False
+Papua Selatan,35,2024,9,September,21,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,344048000.0,0.0,False,False
+Papua Selatan,35,2024,10,Oktober,22,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,354870000.0,0.0,False,False
+Papua Selatan,35,2024,11,November,23,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,365692000.0,0.0,False,False
+Papua Selatan,35,2024,12,Desember,24,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,211150000.0,0.0,False,False
+Papua Selatan,35,2023,1,Januari,1,PAD,25000000000.0,29911587.0,0.12,False,False
+Papua Selatan,35,2023,2,Februari,2,PAD,25000000000.0,106273001.0,0.43,False,False
+Papua Selatan,35,2023,3,Maret,3,PAD,25000000000.0,223981494.0,0.9,False,False
+Papua Selatan,35,2023,4,April,4,PAD,25000000000.0,362485409.0,1.45,False,False
+Papua Selatan,35,2023,5,Mei,5,PAD,25000000000.0,362485409.0,1.45,False,False
+Papua Selatan,35,2023,6,Juni,6,PAD,25000000000.0,647984806.0,2.59,False,False
+Papua Selatan,35,2023,7,Juli,7,PAD,25000000000.0,988134850.0,3.95,False,False
+Papua Selatan,35,2023,8,Agustus,8,PAD,25000000000.0,1358584946.0,5.43,False,False
+Papua Selatan,35,2023,9,September,9,PAD,25000000000.0,1705750161.0,6.82,False,False
+Papua Selatan,35,2023,10,Oktober,10,PAD,25000000000.0,12472381477.0,49.89,False,False
+Papua Selatan,35,2023,11,November,11,PAD,25000000000.0,12992382135.0,51.97,False,False
+Papua Selatan,35,2023,12,Desember,12,PAD,25000000000.0,133243224583.0,532.97,False,False
+Papua Selatan,35,2024,1,Januari,13,PAD,145342910893.0,356457541.0,0.25,False,False
+Papua Selatan,35,2024,2,Februari,14,PAD,145342910893.0,14466254539.0,9.95,False,False
+Papua Selatan,35,2024,3,Maret,15,PAD,145342910893.0,14990612192.0,10.31,False,False
+Papua Selatan,35,2024,4,April,16,PAD,145342910893.0,44788586561.0,30.82,False,False
+Papua Selatan,35,2024,5,Mei,17,PAD,145342910893.0,64481439295.74,44.37,False,False
+Papua Selatan,35,2024,6,Juni,18,PAD,145342910893.0,66490254499.74,45.75,False,False
+Papua Selatan,35,2024,7,Juli,19,PAD,145342910893.0,97909172382.74,67.36,False,False
+Papua Selatan,35,2024,8,Agustus,20,PAD,145342910893.0,124260701151.74,85.49,False,False
+Papua Selatan,35,2024,9,September,21,PAD,145342910893.0,136841827176.74,94.15,False,False
+Papua Selatan,35,2024,10,Oktober,22,PAD,145342910893.0,164923212824.74,113.47,False,False
+Papua Selatan,35,2024,11,November,23,PAD,145342910893.0,177962137273.74,122.44,False,False
+Papua Selatan,35,2024,12,Desember,24,PAD,145342910893.0,198659034606.74,136.68,False,False
+Papua Selatan,35,2025,1,Januari,25,PAD,130993681252.0,5450699705.0,4.16,False,False
+Papua Selatan,35,2025,2,Februari,26,PAD,130993681252.0,14307759893.0,10.92,False,False
+Papua Selatan,35,2025,3,Maret,27,PAD,130993681252.0,31177177902.0,23.8,False,False
+Papua Selatan,35,2025,4,April,28,PAD,130993681252.0,45447164960.0,34.69,False,False
+Papua Selatan,35,2025,5,Mei,29,PAD,130993681252.0,65573599765.0,50.06,False,False
+Papua Selatan,35,2025,6,Juni,30,PAD,130993681252.0,77687267473.0,59.31,False,False
+Papua Selatan,35,2025,7,Juli,31,PAD,130993681252.0,91085088234.0,69.53,False,False
+Papua Selatan,35,2025,8,Agustus,32,PAD,130993681252.0,115925965922.99,88.5,False,False
+Papua Selatan,35,2025,9,September,33,PAD,130993681252.0,127548408363.99,97.37,False,False
+Papua Selatan,35,2025,10,Oktober,34,PAD,130993681252.0,149101986901.99,113.82,False,False
+Papua Selatan,35,2025,11,November,35,PAD,130993681252.0,168018805465.76,128.26,False,False
+Papua Selatan,35,2025,12,Desember,36,PAD,130993681252.0,189759574800.76,144.86,False,False
+Papua Selatan,35,2026,1,Januari,37,PAD,140879125984.22,9220557002.0,6.55,False,False
+Papua Selatan,35,2026,2,Februari,38,PAD,140879125984.22,35832287844.16,25.43,False,False
+Papua Selatan,35,2026,3,Maret,39,PAD,140879125984.22,51747549419.16,36.73,False,False
+Papua Selatan,35,2026,4,April,40,PAD,140879125984.22,69250649572.16,49.16,False,False
+Papua Selatan,35,2026,5,Mei,41,PAD,140879125984.22,83470292248.16,59.25,False,False
+Papua Selatan,35,2026,6,Juni,42,PAD,140879125984.22,109923915972.16,78.03,False,False
+Papua Selatan,35,2026,7,Juli,43,PAD,140879125984.22,141890660559.16,100.72,False,False
+Papua Selatan,35,2026,8,Agustus,44,PAD,140879125984.22,163454322930.16,116.02,False,False
+Papua Selatan,35,2026,9,September,45,PAD,140879125984.22,165041942033.16,117.15,False,False
+Papua Selatan,35,2026,10,Oktober,46,PAD,140879125984.22,165041942033.16,117.15,False,True
+Papua Selatan,35,2026,11,November,47,PAD,140879125984.22,165041942033.16,117.15,False,True
+Papua Selatan,35,2026,12,Desember,48,PAD,140879125984.22,165041942033.16,117.15,False,True
+Papua Selatan,35,2023,1,Januari,1,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Pajak Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pajak Daerah,0.0,10249682819.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Pajak Daerah,0.0,10249682819.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Pajak Daerah,0.0,126117285649.0,0.0,False,False
+Papua Selatan,35,2024,1,Januari,13,Pajak Daerah,95742910893.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Pajak Daerah,95742910893.0,13516106117.0,14.12,False,False
+Papua Selatan,35,2024,3,Maret,15,Pajak Daerah,95742910893.0,13516106117.0,14.12,False,False
+Papua Selatan,35,2024,4,April,16,Pajak Daerah,95742910893.0,42140485312.0,44.01,False,False
+Papua Selatan,35,2024,5,Mei,17,Pajak Daerah,95742910893.0,59892696700.0,62.56,False,False
+Papua Selatan,35,2024,6,Juni,18,Pajak Daerah,95742910893.0,59857090228.0,62.52,False,False
+Papua Selatan,35,2024,7,Juli,19,Pajak Daerah,95742910893.0,91925371456.0,96.01,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pajak Daerah,95742910893.0,117602810800.0,122.83,False,False
+Papua Selatan,35,2024,9,September,21,Pajak Daerah,95742910893.0,128583076549.0,134.3,False,False
+Papua Selatan,35,2024,10,Oktober,22,Pajak Daerah,95742910893.0,156273260757.0,163.22,False,False
+Papua Selatan,35,2024,11,November,23,Pajak Daerah,95742910893.0,168893654843.0,176.4,False,False
+Papua Selatan,35,2024,12,Desember,24,Pajak Daerah,95742910893.0,185801714809.0,194.06,False,False
+Papua Selatan,35,2025,1,Januari,25,Pajak Daerah,117193762410.01,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Pajak Daerah,117193762410.01,8443561682.0,7.2,False,False
+Papua Selatan,35,2025,3,Maret,27,Pajak Daerah,117193762410.01,24865109954.0,21.22,False,False
+Papua Selatan,35,2025,4,April,28,Pajak Daerah,117193762410.01,38844390053.0,33.15,False,False
+Papua Selatan,35,2025,5,Mei,29,Pajak Daerah,117193762410.01,57159318504.0,48.77,False,False
+Papua Selatan,35,2025,6,Juni,30,Pajak Daerah,117193762410.01,67668088428.0,57.74,False,False
+Papua Selatan,35,2025,7,Juli,31,Pajak Daerah,117193762410.01,79728579463.0,68.03,False,False
+Papua Selatan,35,2025,8,Agustus,32,Pajak Daerah,117193762410.01,102447172766.0,87.42,False,False
+Papua Selatan,35,2025,9,September,33,Pajak Daerah,117193762410.01,113422610116.0,96.78,False,False
+Papua Selatan,35,2025,10,Oktober,34,Pajak Daerah,117193762410.01,134163065428.0,114.48,False,False
+Papua Selatan,35,2025,11,November,35,Pajak Daerah,117193762410.01,150980541288.0,128.83,False,False
+Papua Selatan,35,2025,12,Desember,36,Pajak Daerah,117193762410.01,171090497670.0,145.99,False,False
+Papua Selatan,35,2026,1,Januari,37,Pajak Daerah,137719125984.22,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Pajak Daerah,137719125984.22,26243854994.0,19.06,False,False
+Papua Selatan,35,2026,3,Maret,39,Pajak Daerah,137719125984.22,41695529910.0,30.28,False,False
+Papua Selatan,35,2026,4,April,40,Pajak Daerah,137719125984.22,58570205610.0,42.53,False,False
+Papua Selatan,35,2026,5,Mei,41,Pajak Daerah,137719125984.22,72019395739.0,52.29,False,False
+Papua Selatan,35,2026,6,Juni,42,Pajak Daerah,137719125984.22,98097304549.0,71.23,False,False
+Papua Selatan,35,2026,7,Juli,43,Pajak Daerah,137719125984.22,127485070674.0,92.57,False,False
+Papua Selatan,35,2026,8,Agustus,44,Pajak Daerah,137719125984.22,148790200846.0,108.04,False,False
+Papua Selatan,35,2026,9,September,45,Pajak Daerah,137719125984.22,149942216446.0,108.88,False,False
+Papua Selatan,35,2026,10,Oktober,46,Pajak Daerah,137719125984.22,149942216446.0,108.88,False,True
+Papua Selatan,35,2026,11,November,47,Pajak Daerah,137719125984.22,149942216446.0,108.88,False,True
+Papua Selatan,35,2026,12,Desember,48,Pajak Daerah,137719125984.22,149942216446.0,108.88,False,True
+Papua Selatan,35,2023,1,Januari,1,Pendapatan Daerah,1603361935000.0,112834533387.0,7.04,False,False
+Papua Selatan,35,2023,2,Februari,2,Pendapatan Daerah,1603361935000.0,172645602801.0,10.77,False,False
+Papua Selatan,35,2023,3,Maret,3,Pendapatan Daerah,1603361935000.0,209532667794.0,13.07,False,False
+Papua Selatan,35,2023,4,April,4,Pendapatan Daerah,1603361935000.0,304318066959.0,18.98,False,False
+Papua Selatan,35,2023,5,Mei,5,Pendapatan Daerah,1603361935000.0,304318066959.0,18.98,False,False
+Papua Selatan,35,2023,6,Juni,6,Pendapatan Daerah,1603361935000.0,308003920856.0,19.21,False,False
+Papua Selatan,35,2023,7,Juli,7,Pendapatan Daerah,1603361935000.0,491559663760.0,30.66,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pendapatan Daerah,1603361935000.0,535196598606.0,33.38,False,False
+Papua Selatan,35,2023,9,September,9,Pendapatan Daerah,1603361935000.0,626114649221.0,39.05,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pendapatan Daerah,1603361935000.0,767256453437.0,47.85,False,False
+Papua Selatan,35,2023,11,November,11,Pendapatan Daerah,1603361935000.0,1212812900285.0,75.64,False,False
+Papua Selatan,35,2023,12,Desember,12,Pendapatan Daerah,1603361935000.0,1450809887747.1,90.49,False,False
+Papua Selatan,35,2024,1,Januari,13,Pendapatan Daerah,1661257991893.0,35134161541.0,2.11,False,False
+Papua Selatan,35,2024,2,Februari,14,Pendapatan Daerah,1661257991893.0,118834866539.0,7.15,False,False
+Papua Selatan,35,2024,3,Maret,15,Pendapatan Daerah,1661257991893.0,170963721653.0,10.29,False,False
+Papua Selatan,35,2024,4,April,16,Pendapatan Daerah,1661257991893.0,236468451722.0,14.23,False,False
+Papua Selatan,35,2024,5,Mei,17,Pendapatan Daerah,1661257991893.0,304508762456.74,18.33,False,False
+Papua Selatan,35,2024,6,Juni,18,Pendapatan Daerah,1661257991893.0,401499580772.74,24.17,False,False
+Papua Selatan,35,2024,7,Juli,19,Pendapatan Daerah,1661257991893.0,745992238897.74,44.91,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pendapatan Daerah,1661257991893.0,807247547666.74,48.59,False,False
+Papua Selatan,35,2024,9,September,21,Pendapatan Daerah,1661257991893.0,859085137816.74,51.71,False,False
+Papua Selatan,35,2024,10,Oktober,22,Pendapatan Daerah,1661257991893.0,991580578943.74,59.69,False,False
+Papua Selatan,35,2024,11,November,23,Pendapatan Daerah,1661257991893.0,1053874710392.7,63.44,False,False
+Papua Selatan,35,2024,12,Desember,24,Pendapatan Daerah,1661257991893.0,1718411492976.7,103.44,False,False
+Papua Selatan,35,2025,1,Januari,25,Pendapatan Daerah,1379694894529.0,72546022005.0,5.26,False,False
+Papua Selatan,35,2025,2,Februari,26,Pendapatan Daerah,1379694894529.0,105116841193.0,7.62,False,False
+Papua Selatan,35,2025,3,Maret,27,Pendapatan Daerah,1379694894529.0,161777082552.0,11.73,False,False
+Papua Selatan,35,2025,4,April,28,Pendapatan Daerah,1379694894529.0,225064817297.0,16.31,False,False
+Papua Selatan,35,2025,5,Mei,29,Pendapatan Daerah,1379694894529.0,292360278052.0,21.19,False,False
+Papua Selatan,35,2025,6,Juni,30,Pendapatan Daerah,1379694894529.0,554436992827.0,40.19,False,False
+Papua Selatan,35,2025,7,Juli,31,Pendapatan Daerah,1379694894529.0,613995984188.0,44.5,False,False
+Papua Selatan,35,2025,8,Agustus,32,Pendapatan Daerah,1379694894529.0,691012268477.99,50.08,False,False
+Papua Selatan,35,2025,9,September,33,Pendapatan Daerah,1379694894529.0,749899455878.99,54.35,False,False
+Papua Selatan,35,2025,10,Oktober,34,Pendapatan Daerah,1379694894529.0,1105021144967.0,80.09,False,False
+Papua Selatan,35,2025,11,November,35,Pendapatan Daerah,1379694894529.0,1162724150130.8,84.27,False,False
+Papua Selatan,35,2025,12,Desember,36,Pendapatan Daerah,1379694894529.0,1368026140438.8,99.15,False,False
+Papua Selatan,35,2026,1,Januari,37,Pendapatan Daerah,920926012984.22,77288433881.0,8.39,False,False
+Papua Selatan,35,2026,2,Februari,38,Pendapatan Daerah,920926012984.22,195588687584.16,21.24,False,False
+Papua Selatan,35,2026,3,Maret,39,Pendapatan Daerah,920926012984.22,284462905449.16,30.89,False,False
+Papua Selatan,35,2026,4,April,40,Pendapatan Daerah,920926012984.22,338182471471.16,36.72,False,False
+Papua Selatan,35,2026,5,Mei,41,Pendapatan Daerah,920926012984.22,389422646297.16,42.29,False,False
+Papua Selatan,35,2026,6,Juni,42,Pendapatan Daerah,920926012984.22,450655248260.16,48.94,False,False
+Papua Selatan,35,2026,7,Juli,43,Pendapatan Daerah,920926012984.22,536182665303.16,58.22,False,False
+Papua Selatan,35,2026,8,Agustus,44,Pendapatan Daerah,920926012984.22,578374023425.16,62.8,False,False
+Papua Selatan,35,2026,9,September,45,Pendapatan Daerah,920926012984.22,579967842528.16,62.98,False,False
+Papua Selatan,35,2026,10,Oktober,46,Pendapatan Daerah,920926012984.22,579967842528.16,62.98,False,True
+Papua Selatan,35,2026,11,November,47,Pendapatan Daerah,920926012984.22,579967842528.16,62.98,False,True
+Papua Selatan,35,2026,12,Desember,48,Pendapatan Daerah,920926012984.22,579967842528.16,62.98,False,True
+Papua Selatan,35,2023,1,Januari,1,Pendapatan Hibah,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Pendapatan Hibah,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Pendapatan Hibah,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Pendapatan Hibah,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,5,Mei,5,Pendapatan Hibah,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,6,Juni,6,Pendapatan Hibah,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,7,Juli,7,Pendapatan Hibah,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pendapatan Hibah,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,9,September,9,Pendapatan Hibah,47000000000.0,14000000000.0,29.79,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pendapatan Hibah,47000000000.0,14000000000.0,29.79,False,False
+Papua Selatan,35,2023,11,November,11,Pendapatan Hibah,47000000000.0,24005125000.0,51.07,False,False
+Papua Selatan,35,2023,12,Desember,12,Pendapatan Hibah,47000000000.0,24370075000.07,51.85,False,False
+Papua Selatan,35,2024,1,Januari,13,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pendapatan Hibah,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,9,September,21,Pendapatan Hibah,23000000000.0,30550000.0,0.13,False,False
+Papua Selatan,35,2024,10,Oktober,22,Pendapatan Hibah,23000000000.0,55300000.0,0.24,False,False
+Papua Selatan,35,2024,11,November,23,Pendapatan Hibah,23000000000.0,89550000.0,0.39,False,False
+Papua Selatan,35,2024,12,Desember,24,Pendapatan Hibah,23000000000.0,286664000.0,1.25,False,False
+Papua Selatan,35,2025,1,Januari,25,Pendapatan Hibah,20128448000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Pendapatan Hibah,20128448000.0,30100000.0,0.15,False,False
+Papua Selatan,35,2025,3,Maret,27,Pendapatan Hibah,20128448000.0,87550000.0,0.43,False,False
+Papua Selatan,35,2025,4,April,28,Pendapatan Hibah,20128448000.0,87550000.0,0.43,False,False
+Papua Selatan,35,2025,5,Mei,29,Pendapatan Hibah,20128448000.0,5135550000.0,25.51,False,False
+Papua Selatan,35,2025,6,Juni,30,Pendapatan Hibah,20128448000.0,5167150000.0,25.67,False,False
+Papua Selatan,35,2025,7,Juli,31,Pendapatan Hibah,20128448000.0,5247324000.0,26.07,False,False
+Papua Selatan,35,2025,8,Agustus,32,Pendapatan Hibah,20128448000.0,5286874000.0,26.27,False,False
+Papua Selatan,35,2025,9,September,33,Pendapatan Hibah,20128448000.0,5343536000.0,26.55,False,False
+Papua Selatan,35,2025,10,Oktober,34,Pendapatan Hibah,20128448000.0,5365786000.0,26.66,False,False
+Papua Selatan,35,2025,11,November,35,Pendapatan Hibah,20128448000.0,5435644000.0,27.0,False,False
+Papua Selatan,35,2025,12,Desember,36,Pendapatan Hibah,20128448000.0,5485348000.0,27.25,False,False
+Papua Selatan,35,2026,1,Januari,37,Pendapatan Hibah,18000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Pendapatan Hibah,18000000000.0,67250000.0,0.37,False,False
+Papua Selatan,35,2026,3,Maret,39,Pendapatan Hibah,18000000000.0,101600000.0,0.56,False,False
+Papua Selatan,35,2026,4,April,40,Pendapatan Hibah,18000000000.0,132050000.0,0.73,False,False
+Papua Selatan,35,2026,5,Mei,41,Pendapatan Hibah,18000000000.0,179350000.0,1.0,False,False
+Papua Selatan,35,2026,6,Juni,42,Pendapatan Hibah,18000000000.0,209650000.0,1.16,False,False
+Papua Selatan,35,2026,7,Juli,43,Pendapatan Hibah,18000000000.0,3239750000.0,18.0,False,False
+Papua Selatan,35,2026,8,Agustus,44,Pendapatan Hibah,18000000000.0,3277800000.0,18.21,False,False
+Papua Selatan,35,2026,9,September,45,Pendapatan Hibah,18000000000.0,3284000000.0,18.24,False,False
+Papua Selatan,35,2026,10,Oktober,46,Pendapatan Hibah,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2026,11,November,47,Pendapatan Hibah,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2026,12,Desember,48,Pendapatan Hibah,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2023,1,Januari,1,Pendapatan Lainnya,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Pendapatan Lainnya,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Pendapatan Lainnya,47000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Pendapatan Lainnya,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,5,Mei,5,Pendapatan Lainnya,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,6,Juni,6,Pendapatan Lainnya,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,7,Juli,7,Pendapatan Lainnya,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pendapatan Lainnya,47000000000.0,4000000000.0,8.51,False,False
+Papua Selatan,35,2023,9,September,9,Pendapatan Lainnya,47000000000.0,14000000000.0,29.79,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pendapatan Lainnya,47000000000.0,14000000000.0,29.79,False,False
+Papua Selatan,35,2023,11,November,11,Pendapatan Lainnya,47000000000.0,24037908500.0,51.14,False,False
+Papua Selatan,35,2023,12,Desember,12,Pendapatan Lainnya,47000000000.0,24614539500.07,52.37,False,False
+Papua Selatan,35,2024,1,Januari,13,Pendapatan Lainnya,23000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Pendapatan Lainnya,23000000000.0,35500000.0,0.15,False,False
+Papua Selatan,35,2024,3,Maret,15,Pendapatan Lainnya,23000000000.0,35500000.0,0.15,False,False
+Papua Selatan,35,2024,4,April,16,Pendapatan Lainnya,23000000000.0,129900000.0,0.56,False,False
+Papua Selatan,35,2024,5,Mei,17,Pendapatan Lainnya,23000000000.0,155500000.0,0.68,False,False
+Papua Selatan,35,2024,6,Juni,18,Pendapatan Lainnya,23000000000.0,8978263905.0,39.04,False,False
+Papua Selatan,35,2024,7,Juli,19,Pendapatan Lainnya,23000000000.0,207150000.0,0.9,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pendapatan Lainnya,23000000000.0,333226000.0,1.45,False,False
+Papua Selatan,35,2024,9,September,21,Pendapatan Lainnya,23000000000.0,374598000.0,1.63,False,False
+Papua Selatan,35,2024,10,Oktober,22,Pendapatan Lainnya,23000000000.0,410170000.0,1.78,False,False
+Papua Selatan,35,2024,11,November,23,Pendapatan Lainnya,23000000000.0,455242000.0,1.98,False,False
+Papua Selatan,35,2024,12,Desember,24,Pendapatan Lainnya,23000000000.0,497814000.0,2.16,False,False
+Papua Selatan,35,2025,1,Januari,25,Pendapatan Lainnya,20128448000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Pendapatan Lainnya,20128448000.0,30100000.0,0.15,False,False
+Papua Selatan,35,2025,3,Maret,27,Pendapatan Lainnya,20128448000.0,87550000.0,0.43,False,False
+Papua Selatan,35,2025,4,April,28,Pendapatan Lainnya,20128448000.0,87550000.0,0.43,False,False
+Papua Selatan,35,2025,5,Mei,29,Pendapatan Lainnya,20128448000.0,5135550000.0,25.51,False,False
+Papua Selatan,35,2025,6,Juni,30,Pendapatan Lainnya,20128448000.0,5167150000.0,25.67,False,False
+Papua Selatan,35,2025,7,Juli,31,Pendapatan Lainnya,20128448000.0,5247324000.0,26.07,False,False
+Papua Selatan,35,2025,8,Agustus,32,Pendapatan Lainnya,20128448000.0,5286874000.0,26.27,False,False
+Papua Selatan,35,2025,9,September,33,Pendapatan Lainnya,20128448000.0,5343536000.0,26.55,False,False
+Papua Selatan,35,2025,10,Oktober,34,Pendapatan Lainnya,20128448000.0,5365786000.0,26.66,False,False
+Papua Selatan,35,2025,11,November,35,Pendapatan Lainnya,20128448000.0,5435644000.0,27.0,False,False
+Papua Selatan,35,2025,12,Desember,36,Pendapatan Lainnya,20128448000.0,5485348000.0,27.25,False,False
+Papua Selatan,35,2026,1,Januari,37,Pendapatan Lainnya,18000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Pendapatan Lainnya,18000000000.0,67250000.0,0.37,False,False
+Papua Selatan,35,2026,3,Maret,39,Pendapatan Lainnya,18000000000.0,101600000.0,0.56,False,False
+Papua Selatan,35,2026,4,April,40,Pendapatan Lainnya,18000000000.0,132050000.0,0.73,False,False
+Papua Selatan,35,2026,5,Mei,41,Pendapatan Lainnya,18000000000.0,179350000.0,1.0,False,False
+Papua Selatan,35,2026,6,Juni,42,Pendapatan Lainnya,18000000000.0,209650000.0,1.16,False,False
+Papua Selatan,35,2026,7,Juli,43,Pendapatan Lainnya,18000000000.0,3239750000.0,18.0,False,False
+Papua Selatan,35,2026,8,Agustus,44,Pendapatan Lainnya,18000000000.0,3277800000.0,18.21,False,False
+Papua Selatan,35,2026,9,September,45,Pendapatan Lainnya,18000000000.0,3284000000.0,18.24,False,False
+Papua Selatan,35,2026,10,Oktober,46,Pendapatan Lainnya,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2026,11,November,47,Pendapatan Lainnya,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2026,12,Desember,48,Pendapatan Lainnya,18000000000.0,3284000000.0,18.24,False,True
+Papua Selatan,35,2023,1,Januari,1,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Pendapatan Transfer Antar Daerah,0.0,32783500.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Pendapatan Transfer Antar Daerah,0.0,32783500.0,0.0,False,True
+Papua Selatan,35,2024,1,Januari,13,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Pendapatan Transfer Antar Daerah,0.0,8800913905.0,0.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,True
+Papua Selatan,35,2024,9,September,21,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,True
+Papua Selatan,35,2024,10,Oktober,22,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,True
+Papua Selatan,35,2024,11,November,23,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,True
+Papua Selatan,35,2024,12,Desember,24,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,True
+Papua Selatan,35,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,112804621800.0,7.37,False,False
+Papua Selatan,35,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,172539329800.0,11.27,False,False
+Papua Selatan,35,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,209308686300.0,13.67,False,False
+Papua Selatan,35,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,299955581550.0,19.59,False,False
+Papua Selatan,35,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,299955581550.0,19.59,False,False
+Papua Selatan,35,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,303355936050.0,19.81,False,False
+Papua Selatan,35,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,486571528910.0,31.77,False,False
+Papua Selatan,35,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,529838013660.0,34.6,False,False
+Papua Selatan,35,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,610408899060.0,39.86,False,False
+Papua Selatan,35,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,740784071960.0,48.37,False,False
+Papua Selatan,35,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,1175782609650.0,76.78,False,False
+Papua Selatan,35,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,1531361935000.0,1292952123664.0,84.43,False,False
+Papua Selatan,35,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,34777704000.0,2.33,False,False
+Papua Selatan,35,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,104333112000.0,6.99,False,False
+Papua Selatan,35,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,155937609461.0,10.45,False,False
+Papua Selatan,35,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,191549965161.0,12.83,False,False
+Papua Selatan,35,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,239871823161.0,16.07,False,False
+Papua Selatan,35,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,326031062368.0,21.84,False,False
+Papua Selatan,35,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,647875916515.0,43.4,False,False
+Papua Selatan,35,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,682653620515.0,45.73,False,False
+Papua Selatan,35,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,721868712640.0,48.35,False,False
+Papua Selatan,35,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,826247196119.0,55.34,False,False
+Papua Selatan,35,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,875457331119.0,58.64,False,False
+Papua Selatan,35,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,1492915081000.0,1519254644370.0,101.76,False,False
+Papua Selatan,35,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,67095322300.0,5.46,False,False
+Papua Selatan,35,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,90778981300.0,7.39,False,False
+Papua Selatan,35,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,130512354650.0,10.62,False,False
+Papua Selatan,35,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,179530102337.0,14.61,False,False
+Papua Selatan,35,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,221651128287.0,18.04,False,False
+Papua Selatan,35,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,471582575354.0,38.38,False,False
+Papua Selatan,35,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,517663571954.0,42.14,False,False
+Papua Selatan,35,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,569799428555.0,46.38,False,False
+Papua Selatan,35,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,617007511515.0,50.22,False,False
+Papua Selatan,35,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,950553372065.0,77.37,False,False
+Papua Selatan,35,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,989269700665.0,80.52,False,False
+Papua Selatan,35,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,1228572765277.0,1172781217638.0,95.46,False,False
+Papua Selatan,35,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,762046887000.0,68067876879.0,8.93,False,False
+Papua Selatan,35,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,762046887000.0,159689149740.0,20.96,False,False
+Papua Selatan,35,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,762046887000.0,232613756030.0,30.52,False,False
+Papua Selatan,35,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,762046887000.0,268799771899.0,35.27,False,False
+Papua Selatan,35,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,762046887000.0,305773004049.0,40.13,False,False
+Papua Selatan,35,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,762046887000.0,340521682288.0,44.69,False,False
+Papua Selatan,35,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,762046887000.0,391052254744.0,51.32,False,False
+Papua Selatan,35,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,762046887000.0,411641900495.0,54.02,False,False
+Papua Selatan,35,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2023,1,Januari,1,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,2,Februari,2,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,3,Maret,3,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,4,April,4,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,5,Mei,5,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,6,Juni,6,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,7,Juli,7,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,8,Agustus,8,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,9,September,9,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,10,Oktober,10,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,11,November,11,Retribusi Daerah,25000000000.0,0.0,0.0,False,False
+Papua Selatan,35,2023,12,Desember,12,Retribusi Daerah,25000000000.0,21000000.0,0.08,False,False
+Papua Selatan,35,2024,1,Januari,13,Retribusi Daerah,0.0,0.0,0.0,False,False
+Papua Selatan,35,2024,2,Februari,14,Retribusi Daerah,0.0,3500000.0,0.0,False,False
+Papua Selatan,35,2024,3,Maret,15,Retribusi Daerah,0.0,3500000.0,0.0,False,False
+Papua Selatan,35,2024,4,April,16,Retribusi Daerah,0.0,19000000.0,0.0,False,False
+Papua Selatan,35,2024,5,Mei,17,Retribusi Daerah,0.0,19000000.0,0.0,False,False
+Papua Selatan,35,2024,6,Juni,18,Retribusi Daerah,0.0,19000000.0,0.0,False,False
+Papua Selatan,35,2024,7,Juli,19,Retribusi Daerah,0.0,19000000.0,0.0,False,False
+Papua Selatan,35,2024,8,Agustus,20,Retribusi Daerah,0.0,19500000.0,0.0,False,False
+Papua Selatan,35,2024,9,September,21,Retribusi Daerah,0.0,19500000.0,0.0,False,False
+Papua Selatan,35,2024,10,Oktober,22,Retribusi Daerah,0.0,19500000.0,0.0,False,False
+Papua Selatan,35,2024,11,November,23,Retribusi Daerah,0.0,34500000.0,0.0,False,False
+Papua Selatan,35,2024,12,Desember,24,Retribusi Daerah,0.0,32000000.0,0.0,False,False
+Papua Selatan,35,2025,1,Januari,25,Retribusi Daerah,20590000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,2,Februari,26,Retribusi Daerah,20590000.0,0.0,0.0,False,False
+Papua Selatan,35,2025,3,Maret,27,Retribusi Daerah,20590000.0,18090000.0,87.86,False,False
+Papua Selatan,35,2025,4,April,28,Retribusi Daerah,20590000.0,18090000.0,87.86,False,False
+Papua Selatan,35,2025,5,Mei,29,Retribusi Daerah,20590000.0,18090000.0,87.86,False,False
+Papua Selatan,35,2025,6,Juni,30,Retribusi Daerah,20590000.0,18500000.0,89.85,False,False
+Papua Selatan,35,2025,7,Juli,31,Retribusi Daerah,20590000.0,20090000.0,97.57,False,False
+Papua Selatan,35,2025,8,Agustus,32,Retribusi Daerah,20590000.0,21090000.0,102.43,False,False
+Papua Selatan,35,2025,9,September,33,Retribusi Daerah,20590000.0,20590000.0,100.0,False,False
+Papua Selatan,35,2025,10,Oktober,34,Retribusi Daerah,20590000.0,20590000.0,100.0,False,False
+Papua Selatan,35,2025,11,November,35,Retribusi Daerah,20590000.0,46590000.0,226.27,False,False
+Papua Selatan,35,2025,12,Desember,36,Retribusi Daerah,20590000.0,47090000.0,228.7,False,False
+Papua Selatan,35,2026,1,Januari,37,Retribusi Daerah,460000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,2,Februari,38,Retribusi Daerah,460000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,3,Maret,39,Retribusi Daerah,460000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,4,April,40,Retribusi Daerah,460000000.0,0.0,0.0,False,False
+Papua Selatan,35,2026,5,Mei,41,Retribusi Daerah,460000000.0,25500000.0,5.54,False,False
+Papua Selatan,35,2026,6,Juni,42,Retribusi Daerah,460000000.0,25500000.0,5.54,False,False
+Papua Selatan,35,2026,7,Juli,43,Retribusi Daerah,460000000.0,30500000.0,6.63,False,False
+Papua Selatan,35,2026,8,Agustus,44,Retribusi Daerah,460000000.0,31000000.0,6.74,False,False
+Papua Selatan,35,2026,9,September,45,Retribusi Daerah,460000000.0,31000000.0,6.74,False,True
+Papua Selatan,35,2026,10,Oktober,46,Retribusi Daerah,460000000.0,31000000.0,6.74,False,True
+Papua Selatan,35,2026,11,November,47,Retribusi Daerah,460000000.0,31000000.0,6.74,False,True
+Papua Selatan,35,2026,12,Desember,48,Retribusi Daerah,460000000.0,31000000.0,6.74,False,True
+Papua Selatan,35,2023,1,Januari,1,TKDD,1531361935000.0,112804621800.0,7.37,False,False
+Papua Selatan,35,2023,2,Februari,2,TKDD,1531361935000.0,172539329800.0,11.27,False,False
+Papua Selatan,35,2023,3,Maret,3,TKDD,1531361935000.0,209308686300.0,13.67,False,False
+Papua Selatan,35,2023,4,April,4,TKDD,1531361935000.0,299955581550.0,19.59,False,False
+Papua Selatan,35,2023,5,Mei,5,TKDD,1531361935000.0,299955581550.0,19.59,False,False
+Papua Selatan,35,2023,6,Juni,6,TKDD,1531361935000.0,303355936050.0,19.81,False,False
+Papua Selatan,35,2023,7,Juli,7,TKDD,1531361935000.0,486571528910.0,31.77,False,False
+Papua Selatan,35,2023,8,Agustus,8,TKDD,1531361935000.0,529838013660.0,34.6,False,False
+Papua Selatan,35,2023,9,September,9,TKDD,1531361935000.0,610408899060.0,39.86,False,False
+Papua Selatan,35,2023,10,Oktober,10,TKDD,1531361935000.0,740784071960.0,48.37,False,False
+Papua Selatan,35,2023,11,November,11,TKDD,1531361935000.0,1175782609650.0,76.78,False,False
+Papua Selatan,35,2023,12,Desember,12,TKDD,1531361935000.0,1292952123664.0,84.43,False,False
+Papua Selatan,35,2024,1,Januari,13,TKDD,1492915081000.0,34777704000.0,2.33,False,False
+Papua Selatan,35,2024,2,Februari,14,TKDD,1492915081000.0,104333112000.0,6.99,False,False
+Papua Selatan,35,2024,3,Maret,15,TKDD,1492915081000.0,155937609461.0,10.45,False,False
+Papua Selatan,35,2024,4,April,16,TKDD,1492915081000.0,191549965161.0,12.83,False,False
+Papua Selatan,35,2024,5,Mei,17,TKDD,1492915081000.0,239871823161.0,16.07,False,False
+Papua Selatan,35,2024,6,Juni,18,TKDD,1492915081000.0,326031062368.0,21.84,False,False
+Papua Selatan,35,2024,7,Juli,19,TKDD,1492915081000.0,647875916515.0,43.4,False,False
+Papua Selatan,35,2024,8,Agustus,20,TKDD,1492915081000.0,682653620515.0,45.73,False,False
+Papua Selatan,35,2024,9,September,21,TKDD,1492915081000.0,721868712640.0,48.35,False,False
+Papua Selatan,35,2024,10,Oktober,22,TKDD,1492915081000.0,826247196119.0,55.34,False,False
+Papua Selatan,35,2024,11,November,23,TKDD,1492915081000.0,875457331119.0,58.64,False,False
+Papua Selatan,35,2024,12,Desember,24,TKDD,1492915081000.0,1519254644370.0,101.76,False,False
+Papua Selatan,35,2025,1,Januari,25,TKDD,1228572765277.0,67095322300.0,5.46,False,False
+Papua Selatan,35,2025,2,Februari,26,TKDD,1228572765277.0,90778981300.0,7.39,False,False
+Papua Selatan,35,2025,3,Maret,27,TKDD,1228572765277.0,130512354650.0,10.62,False,False
+Papua Selatan,35,2025,4,April,28,TKDD,1228572765277.0,179530102337.0,14.61,False,False
+Papua Selatan,35,2025,5,Mei,29,TKDD,1228572765277.0,221651128287.0,18.04,False,False
+Papua Selatan,35,2025,6,Juni,30,TKDD,1228572765277.0,471582575354.0,38.38,False,False
+Papua Selatan,35,2025,7,Juli,31,TKDD,1228572765277.0,517663571954.0,42.14,False,False
+Papua Selatan,35,2025,8,Agustus,32,TKDD,1228572765277.0,569799428555.0,46.38,False,False
+Papua Selatan,35,2025,9,September,33,TKDD,1228572765277.0,617007511515.0,50.22,False,False
+Papua Selatan,35,2025,10,Oktober,34,TKDD,1228572765277.0,950553372065.0,77.37,False,False
+Papua Selatan,35,2025,11,November,35,TKDD,1228572765277.0,989269700665.0,80.52,False,False
+Papua Selatan,35,2025,12,Desember,36,TKDD,1228572765277.0,1172781217638.0,95.46,False,False
+Papua Selatan,35,2026,1,Januari,37,TKDD,762046887000.0,68067876879.0,8.93,False,False
+Papua Selatan,35,2026,2,Februari,38,TKDD,762046887000.0,159689149740.0,20.96,False,False
+Papua Selatan,35,2026,3,Maret,39,TKDD,762046887000.0,232613756030.0,30.52,False,False
+Papua Selatan,35,2026,4,April,40,TKDD,762046887000.0,268799771899.0,35.27,False,False
+Papua Selatan,35,2026,5,Mei,41,TKDD,762046887000.0,305773004049.0,40.13,False,False
+Papua Selatan,35,2026,6,Juni,42,TKDD,762046887000.0,340521682288.0,44.69,False,False
+Papua Selatan,35,2026,7,Juli,43,TKDD,762046887000.0,391052254744.0,51.32,False,False
+Papua Selatan,35,2026,8,Agustus,44,TKDD,762046887000.0,411641900495.0,54.02,False,False
+Papua Selatan,35,2026,9,September,45,TKDD,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,10,Oktober,46,TKDD,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,11,November,47,TKDD,762046887000.0,411641900495.0,54.02,False,True
+Papua Selatan,35,2026,12,Desember,48,TKDD,762046887000.0,411641900495.0,54.02,False,True

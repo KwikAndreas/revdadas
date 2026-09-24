@@ -38,15 +38,22 @@ class BPSDataLoader:
 
         Mengembalikan DataFrame, atau None jika file mentah tidak ada.
         """
+        # Prioritaskan berkas hasil scrape lengkap 38 provinsi
+        scraped_path = Path("scraped/_konsolidasi.csv")
         master_path = self.data_path / self.APBD_MASTER_FILENAME
-        if not master_path.exists():
-            logger.warning(f"Data mentah APBD tidak ditemukan: {master_path}")
+        if scraped_path.exists():
+            target_path = scraped_path
+            logger.info(f"Menggunakan data hasil scrape lengkap 38 provinsi dari: {scraped_path}")
+        elif master_path.exists():
+            target_path = master_path
+        else:
+            logger.warning(f"Data mentah APBD tidak ditemukan di {scraped_path} maupun {master_path}")
             return None
 
         out_path = self.processed_path / "revenue_consolidated.csv"
         
-        # Load the new CSV structure
-        df = pd.read_csv(master_path)
+        # Load the CSV structure
+        df = pd.read_csv(target_path)
         
         # Rename columns to match existing pipeline
         df.rename(columns={

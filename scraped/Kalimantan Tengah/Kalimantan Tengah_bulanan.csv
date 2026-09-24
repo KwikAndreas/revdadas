@@ -1,0 +1,1045 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Bantuan Keuangan,31700000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Bantuan Keuangan,31700000000.0,1194600000.0,3.77,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Bantuan Keuangan,31700000000.0,12388050000.0,39.08,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Bantuan Keuangan,31700000000.0,12612150000.0,39.79,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Bantuan Keuangan,31700000000.0,17612150000.0,55.56,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Bantuan Keuangan,31700000000.0,21339700000.0,67.32,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Bantuan Keuangan,24390000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Bantuan Keuangan,24390000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Bantuan Keuangan,24390000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Bantuan Keuangan,24390000000.0,21000000.0,0.09,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Bantuan Keuangan,24390000000.0,21000000.0,0.09,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Bantuan Keuangan,24390000000.0,21000000.0,0.09,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Bantuan Keuangan,24390000000.0,21000000.0,0.09,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Bantuan Keuangan,24390000000.0,2747000000.0,11.26,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Bantuan Keuangan,24390000000.0,2943200000.0,12.07,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Bantuan Keuangan,24390000000.0,2943200000.0,12.07,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Bantuan Keuangan,24390000000.0,2943200000.0,12.07,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Bantuan Keuangan,24390000000.0,5384000000.0,22.07,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Bantuan Keuangan,28530000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Bantuan Keuangan,28530000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Bantuan Keuangan,28530000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Bantuan Keuangan,28530000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Bantuan Keuangan,28530000000.0,31900000.0,0.11,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Bantuan Keuangan,28530000000.0,1781500000.0,6.24,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Bantuan Keuangan,28530000000.0,5227000000.0,18.32,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Bantuan Keuangan,28530000000.0,6826600000.0,23.93,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Bantuan Keuangan,28530000000.0,6826600000.0,23.93,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Bantuan Keuangan,28530000000.0,6826600000.0,23.93,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Bantuan Keuangan,28530000000.0,6978000000.0,24.46,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Bantuan Keuangan,28530000000.0,6978000000.0,24.46,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,11,November,47,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Bantuan Keuangan,70793400000.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Bantuan Sosial,109804166240.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Bantuan Sosial,109804166240.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Bantuan Sosial,109804166240.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Bantuan Sosial,109804166240.0,2865000000.0,2.61,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Bantuan Sosial,109804166240.0,2865000000.0,2.61,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Bantuan Sosial,109804166240.0,2865000000.0,2.61,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Bantuan Sosial,109804166240.0,3064200000.0,2.79,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Bantuan Sosial,109804166240.0,3064200000.0,2.79,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Bantuan Sosial,109804166240.0,3258257100.0,2.97,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Bantuan Sosial,109804166240.0,5970489100.0,5.44,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Bantuan Sosial,109804166240.0,10336701550.0,9.41,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Bantuan Sosial,109804166240.0,39612155850.0,36.08,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Bantuan Sosial,438539845287.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Bantuan Sosial,438539845287.0,26285981400.0,5.99,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Bantuan Sosial,438539845287.0,38013188650.0,8.67,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Bantuan Sosial,438539845287.0,84250958300.0,19.21,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Bantuan Sosial,438539845287.0,216144908150.0,49.29,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Bantuan Sosial,438539845287.0,410410836000.0,93.59,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Bantuan Sosial,64214904283.0,0.0,0.0,True,False
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Bantuan Sosial,115012062992.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Bantuan Sosial,115012062992.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,9,September,45,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Bantuan Sosial,115012062992.0,52268750000.0,45.45,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Barang dan Jasa,1545037203676.0,13880413455.0,0.9,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Barang dan Jasa,1545037203676.0,52308515017.0,3.39,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Barang dan Jasa,1545037203676.0,120079756891.0,7.77,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Barang dan Jasa,1545037203676.0,185219193855.0,11.99,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Barang dan Jasa,1545037203676.0,185219193855.0,11.99,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Barang dan Jasa,1545037203676.0,250596677880.0,16.22,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Barang dan Jasa,1545037203676.0,353995294344.0,22.91,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Barang dan Jasa,1545037203676.0,523201143146.0,33.86,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Barang dan Jasa,1545037203676.0,634954411192.91,41.1,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Barang dan Jasa,1545037203676.0,781848081869.91,50.6,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Barang dan Jasa,1545037203676.0,943848844107.91,61.09,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Barang dan Jasa,1545037203676.0,1445684040858.4,93.57,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Barang dan Jasa,2675117112093.3,9837597505.0,0.37,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Barang dan Jasa,2675117112093.3,50240161888.53,1.88,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Barang dan Jasa,2675117112093.3,154334536352.88,5.77,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Barang dan Jasa,2675117112093.3,276810718059.17,10.35,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Barang dan Jasa,2675117112093.3,453476071810.49,16.95,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Barang dan Jasa,2675117112093.3,550157829313.54,20.57,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Barang dan Jasa,2675117112093.3,769333283196.8,28.76,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Barang dan Jasa,2675117112093.3,1004037026231.2,37.53,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Barang dan Jasa,2675117112093.3,1158330158652.1,43.3,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Barang dan Jasa,2675117112093.3,1368082569285.6,51.14,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Barang dan Jasa,2675117112093.3,1644927728645.7,61.49,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Barang dan Jasa,2675117112093.3,2242187936554.5,83.82,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Barang dan Jasa,2390599242195.6,15100032752.79,0.63,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Barang dan Jasa,2390599242195.6,60880112617.83,2.55,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Barang dan Jasa,2390599242195.6,180514792184.06,7.55,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Barang dan Jasa,2390599242195.6,248396554107.29,10.39,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Barang dan Jasa,2390599242195.6,355510328014.49,14.87,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Barang dan Jasa,2390599242195.6,457879817700.44,19.15,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Barang dan Jasa,2390599242195.6,644669283910.21,26.97,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Barang dan Jasa,2390599242195.6,819656945032.15,34.29,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Barang dan Jasa,2390599242195.6,958257135951.72,40.08,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Barang dan Jasa,2390599242195.6,1067599686105.0,44.66,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Barang dan Jasa,2390599242195.6,1218518841563.3,50.97,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Barang dan Jasa,2390599242195.6,1218518841563.3,50.97,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Barang dan Jasa,1826376768290.0,2316265980.0,0.13,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Barang dan Jasa,1826376768290.0,7399923863.0,0.41,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Barang dan Jasa,1826376768290.0,45945448055.67,2.52,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Barang dan Jasa,1826376768290.0,115144013933.52,6.3,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Barang dan Jasa,1826376768290.0,197811515434.52,10.83,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Barang dan Jasa,1826376768290.0,228052219428.03,12.49,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Barang dan Jasa,1826376768290.0,384980689388.5,21.08,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Barang dan Jasa,1826376768290.0,500448992589.76,27.4,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Barang dan Jasa,1826376768290.0,507976524695.76,27.81,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Barang dan Jasa,1826376768290.0,507976524695.76,27.81,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Barang dan Jasa,1826376768290.0,507976524695.76,27.81,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Barang dan Jasa,1826376768290.0,507976524695.76,27.81,False,True
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Bunga,2000000000.0,111944441.0,5.6,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Bunga,2000000000.0,220833324.0,11.04,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Bunga,2000000000.0,314166648.0,15.71,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Bunga,2000000000.0,417499971.0,20.87,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Bunga,2000000000.0,517499961.0,25.87,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Bunga,2000000000.0,517499961.0,25.87,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Bunga,2000000000.0,683055515.0,34.15,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Bunga,2000000000.0,745694407.0,37.28,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Bunga,2000000000.0,789166633.0,39.46,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Bunga,2000000000.0,789166633.0,39.46,False,True
+Kalimantan Tengah,15,2025,11,November,35,Belanja Bunga,2000000000.0,789166633.0,39.46,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Bunga,2000000000.0,789166633.0,39.46,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Daerah,6784281998552.0,75104161467.0,1.11,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Daerah,6784281998552.0,215949470878.0,3.18,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Daerah,6784281998552.0,436290327788.0,6.43,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Daerah,6784281998552.0,1198893094381.0,17.67,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Daerah,6784281998552.0,1198893094381.0,17.67,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Daerah,6784281998552.0,1586562818359.0,23.39,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Daerah,6784281998552.0,1977996410340.0,29.16,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Daerah,6784281998552.0,2675054531817.0,39.43,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Daerah,6784281998552.0,3078373768093.9,45.38,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Daerah,6784281998552.0,3495692187375.9,51.53,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Daerah,6784281998552.0,4294365865042.9,63.3,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Daerah,6784281998552.0,5831767678307.4,85.96,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Daerah,10220158094735.0,59080271134.0,0.58,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Daerah,10220158094735.0,314852898531.53,3.08,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Daerah,10220158094735.0,1059333503316.9,10.37,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Daerah,10220158094735.0,1604664300338.1,15.7,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Daerah,10220158094735.0,2190169410317.4,21.43,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Daerah,10220158094735.0,2939204819981.0,28.76,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Daerah,10220158094735.0,3546363486175.7,34.7,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Daerah,10220158094735.0,4165199116689.1,40.75,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Daerah,10220158094735.0,5043013609728.3,49.34,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Daerah,10220158094735.0,5802190389269.8,56.77,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Daerah,10220158094735.0,7187775976576.0,70.33,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Daerah,10220158094735.0,9135574788941.9,89.39,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Daerah,10220158094735.0,71133675526.79,0.7,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Daerah,10220158094735.0,173264037774.83,1.7,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Daerah,10220158094735.0,603434110698.06,5.9,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Daerah,10220158094735.0,1290567961334.3,12.63,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Daerah,10220158094735.0,1779604104279.8,17.41,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Daerah,10220158094735.0,2304143900363.9,22.55,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Daerah,10220158094735.0,2867624150724.7,28.06,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Daerah,10220158094735.0,3509904604708.9,34.34,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Daerah,10220158094735.0,4161747553642.1,40.72,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Daerah,10220158094735.0,4683052439553.1,45.82,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Daerah,10220158094735.0,5445884754751.6,53.29,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Daerah,10220158094735.0,5445884754751.6,53.29,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Daerah,5452017702434.0,69522034123.0,1.28,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Daerah,5452017702434.0,143474240539.0,2.63,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Daerah,5452017702434.0,553688564831.67,10.16,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Daerah,5452017702434.0,744239714008.52,13.65,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Daerah,5452017702434.0,1223997593050.1,22.45,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Daerah,5452017702434.0,1430762665097.6,26.24,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Daerah,5452017702434.0,1776575895953.9,32.59,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Daerah,5452017702434.0,2538822223155.2,46.57,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Daerah,5452017702434.0,2622220810128.5,48.1,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Daerah,5452017702434.0,2622220810128.5,48.1,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Daerah,5452017702434.0,2622220810128.5,48.1,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Daerah,5452017702434.0,2622220810128.5,48.1,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Hibah,698860948464.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Hibah,698860948464.0,10125674000.0,1.45,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Hibah,698860948464.0,10887666500.0,1.56,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Hibah,698860948464.0,54336661675.0,7.78,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Hibah,698860948464.0,54336661675.0,7.78,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Hibah,698860948464.0,67000990535.0,9.59,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Hibah,698860948464.0,77158994500.0,11.04,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Hibah,698860948464.0,139238527898.0,19.92,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Hibah,698860948464.0,183924281623.0,26.32,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Hibah,698860948464.0,242390173447.0,34.68,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Hibah,698860948464.0,352135521346.0,50.39,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Hibah,698860948464.0,577120004588.0,82.58,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Hibah,1011607705469.2,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Hibah,1011607705469.2,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Hibah,1011607705469.2,128759752679.0,12.73,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Hibah,1011607705469.2,149301754014.0,14.76,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Hibah,1011607705469.2,245218960514.0,24.24,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Hibah,1011607705469.2,262878271732.88,25.99,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Hibah,1011607705469.2,329171912960.88,32.54,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Hibah,1011607705469.2,425995885296.88,42.11,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Hibah,1011607705469.2,490495496405.72,48.49,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Hibah,1011607705469.2,546518554810.39,54.02,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Hibah,1011607705469.2,669530275732.49,66.18,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Hibah,1011607705469.2,881125105767.56,87.1,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Hibah,982662493805.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Hibah,982662493805.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Hibah,982662493805.0,4680513000.0,0.48,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Hibah,982662493805.0,53080550000.0,5.4,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Hibah,982662493805.0,62733756000.0,6.38,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Hibah,982662493805.0,109807658715.0,11.17,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Hibah,982662493805.0,148691802076.81,15.13,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Hibah,982662493805.0,197460703559.51,20.09,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Hibah,982662493805.0,226402443356.71,23.04,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Hibah,982662493805.0,318854206496.08,32.45,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Hibah,982662493805.0,398172945113.58,40.52,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Hibah,982662493805.0,398172945113.58,40.52,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Hibah,385539231535.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Hibah,385539231535.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Hibah,385539231535.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Hibah,385539231535.0,6728800000.0,1.75,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Hibah,385539231535.0,6728800000.0,1.75,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Hibah,385539231535.0,22403800000.0,5.81,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Hibah,385539231535.0,39794221619.8,10.32,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Hibah,385539231535.0,82639941094.84,21.43,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Hibah,385539231535.0,85859046094.84,22.27,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Hibah,385539231535.0,85859046094.84,22.27,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Hibah,385539231535.0,85859046094.84,22.27,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Hibah,385539231535.0,85859046094.84,22.27,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Lainnya,1909063307346.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Lainnya,1909063307346.0,10125674000.0,0.53,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Lainnya,1909063307346.0,10887666500.0,0.57,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Lainnya,1909063307346.0,325043222334.0,17.03,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Lainnya,1909063307346.0,325043222334.0,17.03,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Lainnya,1909063307346.0,468481361964.0,24.54,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Lainnya,1909063307346.0,535613238908.0,28.06,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Lainnya,1909063307346.0,800509656271.0,41.93,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Lainnya,1909063307346.0,903043752538.0,47.3,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Lainnya,1909063307346.0,966445976362.0,50.62,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Lainnya,1909063307346.0,1307292918600.0,68.48,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Lainnya,1909063307346.0,1737693040339.0,91.02,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Lainnya,2828782899192.6,1947925820.0,0.07,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Lainnya,2828782899192.6,11697925820.0,0.41,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Lainnya,2828782899192.6,145106291539.0,5.13,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Lainnya,2828782899192.6,352663348508.0,12.47,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Lainnya,2828782899192.6,506005679110.0,17.89,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Lainnya,2828782899192.6,778303167080.88,27.51,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Lainnya,2828782899192.6,875657643138.88,30.96,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Lainnya,2828782899192.6,1001809421874.9,35.41,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Lainnya,2828782899192.6,1341880978542.7,47.44,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Lainnya,2828782899192.6,1479719835231.4,52.31,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Lainnya,2828782899192.6,2014706186492.5,71.22,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Lainnya,2828782899192.6,2447383777276.6,86.52,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Lainnya,2779898574461.6,111944441.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Lainnya,2779898574461.6,220833324.0,0.01,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Lainnya,2779898574461.6,5330979648.0,0.19,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Lainnya,2779898574461.6,56779426827.0,2.04,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Lainnya,2779898574461.6,137887713987.0,4.96,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Lainnya,2779898574461.6,338635055829.0,12.18,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Lainnya,2779898574461.6,400855831494.81,14.42,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Lainnya,2779898574461.6,633829986936.51,22.8,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Lainnya,2779898574461.6,894878281154.71,32.19,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Lainnya,2779898574461.6,1003997593024.1,36.12,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Lainnya,2779898574461.6,1354056984693.6,48.71,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Lainnya,2779898574461.6,1354056984693.6,48.71,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Lainnya,1332816120511.7,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Lainnya,1332816120511.7,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Lainnya,1332816120511.7,175207311785.0,13.15,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Lainnya,1332816120511.7,182111686785.0,13.66,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Lainnya,1332816120511.7,484337380104.0,36.34,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Lainnya,1332816120511.7,501684735104.0,37.64,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Lainnya,1332816120511.7,522042983923.8,39.17,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Lainnya,1332816120511.7,984802950280.84,73.89,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Lainnya,1332816120511.7,992800661696.14,74.49,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Lainnya,1332816120511.7,992800661696.14,74.49,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Lainnya,1332816120511.7,992800661696.14,74.49,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Lainnya,1332816120511.7,992800661696.14,74.49,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Modal,1806990934459.0,176867353.0,0.01,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Modal,1806990934459.0,42397215630.0,2.35,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Modal,1806990934459.0,107191313198.0,5.93,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Modal,1806990934459.0,301566279697.0,16.69,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Modal,1806990934459.0,301566279697.0,16.69,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Modal,1806990934459.0,351098892517.0,19.43,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Modal,1806990934459.0,431582997463.0,23.88,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Modal,1806990934459.0,604967294279.0,33.48,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Modal,1806990934459.0,718809531252.0,39.78,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Modal,1806990934459.0,840446757739.0,46.51,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Modal,1806990934459.0,1025735864818.0,56.76,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Modal,1806990934459.0,1478639326167.0,81.83,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Modal,3125125264611.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Modal,3125125264611.0,139406713129.0,4.46,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Modal,3125125264611.0,550919485850.0,17.63,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Modal,3125125264611.0,601160582790.94,19.24,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Modal,3125125264611.0,718921312436.94,23.0,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Modal,3125125264611.0,902766243048.6,28.89,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Modal,3125125264611.0,1062125055317.0,33.99,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Modal,3125125264611.0,1229660909609.0,39.35,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Modal,3125125264611.0,1494655276680.4,47.83,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Modal,3125125264611.0,1778504154102.7,56.91,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Modal,3125125264611.0,2233629712956.8,71.47,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Modal,3125125264611.0,2957791111824.9,94.65,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Modal,3131639721405.4,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Modal,3131639721405.4,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Modal,3131639721405.4,119544175335.0,3.82,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Modal,3131639721405.4,605682054435.0,19.34,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Modal,3131639721405.4,821325021413.35,26.23,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Modal,3131639721405.4,899887511194.42,28.74,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Modal,3131639721405.4,1012677930236.6,32.34,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Modal,3131639721405.4,1132437595027.2,36.16,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Modal,3131639721405.4,1256888452523.6,40.14,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Modal,3131639721405.4,1450876233427.0,46.33,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Modal,3131639721405.4,1558637199060.8,49.77,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Modal,3131639721405.4,1558637199060.8,49.77,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Modal,525016786101.35,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Modal,525016786101.35,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Modal,525016786101.35,394843000.0,0.08,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Modal,525016786101.35,9778159284.0,1.86,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Modal,525016786101.35,10673838029.59,2.03,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Modal,525016786101.35,19126811021.59,3.64,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Modal,525016786101.35,66055603678.59,12.58,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Modal,525016786101.35,106543268363.59,20.29,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Modal,525016786101.35,106543268363.59,20.29,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Modal,525016786101.35,106543268363.59,20.29,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Modal,525016786101.35,106543268363.59,20.29,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Modal,525016786101.35,106543268363.59,20.29,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Pegawai,1523190553071.0,61046880659.0,4.01,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Pegawai,1523190553071.0,111118066231.0,7.3,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Pegawai,1523190553071.0,198131591199.0,13.01,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Pegawai,1523190553071.0,387064398495.0,25.41,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Pegawai,1523190553071.0,387064398495.0,25.41,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Pegawai,1523190553071.0,516385885998.0,33.9,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Pegawai,1523190553071.0,656804879625.0,43.12,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Pegawai,1523190553071.0,746376438121.0,49.0,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Pegawai,1523190553071.0,821566073111.0,53.94,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Pegawai,1523190553071.0,906951371405.0,59.54,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Pegawai,1523190553071.0,1017488237517.0,66.8,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Pegawai,1523190553071.0,1169751270943.0,76.8,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Pegawai,1591132818838.0,47294747809.0,2.97,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Pegawai,1591132818838.0,113508097694.0,7.13,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Pegawai,1591132818838.0,208973189575.0,13.13,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Pegawai,1591132818838.0,374029650980.0,23.51,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Pegawai,1591132818838.0,511766346960.0,32.16,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Pegawai,1591132818838.0,707977580538.0,44.5,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Pegawai,1591132818838.0,839247504523.0,52.75,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Pegawai,1591132818838.0,929691758974.0,58.43,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Pegawai,1591132818838.0,1048147195853.0,65.87,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Pegawai,1591132818838.0,1175883830650.0,73.9,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Pegawai,1591132818838.0,1294512348481.0,81.36,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Pegawai,1591132818838.0,1488211963286.0,93.53,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Pegawai,1918020556672.3,55921698333.0,2.92,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Pegawai,1918020556672.3,112163091833.0,5.85,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Pegawai,1918020556672.3,298044163531.0,15.54,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Pegawai,1918020556672.3,379709925965.0,19.8,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Pegawai,1918020556672.3,464881040865.0,24.24,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Pegawai,1918020556672.3,607741515640.0,31.69,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Pegawai,1918020556672.3,809421105083.0,42.2,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Pegawai,1918020556672.3,923980077713.0,48.17,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Pegawai,1918020556672.3,1051723684012.0,54.83,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Pegawai,1918020556672.3,1160578926997.0,60.51,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Pegawai,1918020556672.3,1314671729434.0,68.54,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Pegawai,1918020556672.3,1314671729434.0,68.54,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Pegawai,1767808027531.0,67205768143.0,3.8,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Pegawai,1767808027531.0,136074316676.0,7.7,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Pegawai,1767808027531.0,332140961991.0,18.79,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Pegawai,1767808027531.0,437205854006.0,24.73,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Pegawai,1767808027531.0,531174859482.0,30.05,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Pegawai,1767808027531.0,681898899544.0,38.57,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Pegawai,1767808027531.0,803496618963.0,45.45,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Pegawai,1767808027531.0,947027011921.0,53.57,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Pegawai,1767808027531.0,1014900355373.0,57.41,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Pegawai,1767808027531.0,1014900355373.0,57.41,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Pegawai,1767808027531.0,1014900355373.0,57.41,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Pegawai,1767808027531.0,1014900355373.0,57.41,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Subsidi,122300500.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Subsidi,122300500.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Subsidi,122300500.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Subsidi,122300500.0,24650000.0,20.16,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Subsidi,122300500.0,24650000.0,20.16,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Subsidi,122300500.0,24650000.0,20.16,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Subsidi,122300500.0,82205000.0,67.22,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Subsidi,122300500.0,82205000.0,67.22,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Subsidi,122300500.0,94715000.0,77.44,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Subsidi,122300500.0,94715000.0,77.44,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Subsidi,122300500.0,136097500.0,111.28,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Subsidi,122300500.0,146097500.0,119.46,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Subsidi,2375000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Subsidi,2375000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Subsidi,2375000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Subsidi,2375000000.0,44355000.0,1.87,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Subsidi,2375000000.0,44355000.0,1.87,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Subsidi,2375000000.0,62230000.0,2.62,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Subsidi,2375000000.0,91780000.0,3.86,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Subsidi,2375000000.0,117605000.0,4.95,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Subsidi,2375000000.0,117605000.0,4.95,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Subsidi,2375000000.0,133430000.0,5.62,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Subsidi,2375000000.0,155780000.0,6.56,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Subsidi,2375000000.0,174875000.0,7.36,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Subsidi,76181503510.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Subsidi,76181503510.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Subsidi,76181503510.0,36300000.0,0.05,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Subsidi,76181503510.0,2981376856.0,3.91,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Subsidi,76181503510.0,13741303696.0,18.04,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Subsidi,76181503510.0,22944346196.0,30.12,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Subsidi,76181503510.0,42669922946.0,56.01,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Subsidi,76181503510.0,48214537946.0,63.29,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Subsidi,76181503510.0,59257045876.0,77.78,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Subsidi,76181503510.0,75924594606.0,99.66,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Subsidi,76181503510.0,76849844606.0,100.88,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Subsidi,76181503510.0,76849844606.0,100.88,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Subsidi,54950000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Subsidi,54950000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Subsidi,54950000000.0,2827330600.0,5.15,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Subsidi,54950000000.0,3002905600.0,5.46,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Subsidi,54950000000.0,9778449890.0,17.8,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Subsidi,54950000000.0,10950804890.0,19.93,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Subsidi,54950000000.0,13918632090.0,25.33,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Subsidi,54950000000.0,14004182090.0,25.49,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Subsidi,54950000000.0,14004182090.0,25.49,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Subsidi,54950000000.0,14004182090.0,25.49,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Subsidi,54950000000.0,14004182090.0,25.49,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Subsidi,54950000000.0,14004182090.0,25.49,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,4,April,4,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,9,September,9,Belanja Tidak Terduga,107122806028.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Belanja Tidak Terduga,107122806028.0,2000000000.0,1.87,False,False
+Kalimantan Tengah,15,2023,11,November,11,Belanja Tidak Terduga,107122806028.0,2820000000.0,2.63,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Belanja Tidak Terduga,107122806028.0,-3092548554.0,-2.89,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Belanja Tidak Terduga,72046664874.41,1947925820.0,2.7,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Belanja Tidak Terduga,72046664874.41,11697925820.0,16.24,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Belanja Tidak Terduga,72046664874.41,16346538860.0,22.69,False,False
+Kalimantan Tengah,15,2024,4,April,16,Belanja Tidak Terduga,72046664874.41,16346538860.0,22.69,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Belanja Tidak Terduga,72046664874.41,15659055549.0,21.73,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Belanja Tidak Terduga,72046664874.41,16715861210.0,23.2,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Belanja Tidak Terduga,72046664874.41,16913831659.0,23.48,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Belanja Tidak Terduga,72046664874.41,17203831659.0,23.88,False,False
+Kalimantan Tengah,15,2024,9,September,21,Belanja Tidak Terduga,72046664874.41,17513831659.0,24.31,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Belanja Tidak Terduga,72046664874.41,17513831659.0,24.31,False,False
+Kalimantan Tengah,15,2024,11,November,23,Belanja Tidak Terduga,72046664874.41,17853831659.0,24.78,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Belanja Tidak Terduga,72046664874.41,18325909159.0,25.44,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Belanja Tidak Terduga,131600034400.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Belanja Tidak Terduga,131600034400.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Belanja Tidak Terduga,131600034400.0,300000000.0,0.23,False,False
+Kalimantan Tengah,15,2025,4,April,28,Belanja Tidak Terduga,131600034400.0,300000000.0,0.23,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Belanja Tidak Terduga,131600034400.0,685000000.0,0.52,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Belanja Tidak Terduga,131600034400.0,685000000.0,0.52,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Belanja Tidak Terduga,131600034400.0,685000000.0,0.52,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Belanja Tidak Terduga,131600034400.0,1210000000.0,0.92,False,False
+Kalimantan Tengah,15,2025,9,September,33,Belanja Tidak Terduga,131600034400.0,1825000000.0,1.39,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Belanja Tidak Terduga,131600034400.0,1825000000.0,1.39,False,False
+Kalimantan Tengah,15,2025,11,November,35,Belanja Tidak Terduga,131600034400.0,2544137556.0,1.93,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Belanja Tidak Terduga,131600034400.0,2544137556.0,1.93,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Belanja Tidak Terduga,70000000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Belanja Tidak Terduga,70000000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Belanja Tidak Terduga,70000000000.0,580000000.0,0.83,False,False
+Kalimantan Tengah,15,2026,4,April,40,Belanja Tidak Terduga,70000000000.0,580000000.0,0.83,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Belanja Tidak Terduga,70000000000.0,580000000.0,0.83,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Belanja Tidak Terduga,70000000000.0,1080000000.0,1.54,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Belanja Tidak Terduga,70000000000.0,1080000000.0,1.54,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Belanja Tidak Terduga,70000000000.0,1080000000.0,1.54,False,False
+Kalimantan Tengah,15,2026,9,September,45,Belanja Tidak Terduga,70000000000.0,5858606415.3,8.37,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Belanja Tidak Terduga,70000000000.0,5858606415.3,8.37,False,True
+Kalimantan Tengah,15,2026,11,November,47,Belanja Tidak Terduga,70000000000.0,5858606415.3,8.37,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Belanja Tidak Terduga,70000000000.0,5858606415.3,8.37,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,602368190.0,0.35,False,False
+Kalimantan Tengah,15,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,602368190.0,0.35,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,602368190.0,0.35,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,602368190.0,0.35,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,602368190.0,0.35,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,1338932578.29,0.78,False,False
+Kalimantan Tengah,15,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,1338932578.29,0.78,False,True
+Kalimantan Tengah,15,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,1338932578.29,0.78,False,True
+Kalimantan Tengah,15,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,1338932578.29,0.78,False,True
+Kalimantan Tengah,15,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,171981686450.0,1338932578.29,0.78,False,True
+Kalimantan Tengah,15,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,10666.0,0.0,False,False
+Kalimantan Tengah,15,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,38777805296.0,32.15,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,120602368190.0,38850939359.67,32.21,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,33951515100.0,56.02,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,34534448720.14,56.99,False,False
+Kalimantan Tengah,15,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,34534448720.14,56.99,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,60602368190.0,34534448720.14,56.99,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,77077828621.0,183.54,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,77077828621.0,183.54,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,78746772305.5,187.52,False,False
+Kalimantan Tengah,15,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,78746772305.5,187.52,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,78746772305.5,187.52,False,True
+Kalimantan Tengah,15,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,78746772305.5,187.52,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,41994660233.0,78746772305.5,187.52,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Lain-Lain PAD yang Sah,376999400000.0,19318821913.0,5.12,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Lain-Lain PAD yang Sah,376999400000.0,26146961319.0,6.94,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Lain-Lain PAD yang Sah,376999400000.0,44756240123.28,11.87,False,False
+Kalimantan Tengah,15,2023,4,April,4,Lain-Lain PAD yang Sah,376999400000.0,70361085025.03,18.66,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Lain-Lain PAD yang Sah,376999400000.0,70361085025.03,18.66,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Lain-Lain PAD yang Sah,376999400000.0,75811145463.03,20.11,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Lain-Lain PAD yang Sah,376999400000.0,107429296608.23,28.5,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Lain-Lain PAD yang Sah,376999400000.0,132051886183.23,35.03,False,False
+Kalimantan Tengah,15,2023,9,September,9,Lain-Lain PAD yang Sah,376999400000.0,164818537710.6,43.72,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Lain-Lain PAD yang Sah,376999400000.0,184817432425.07,49.02,False,False
+Kalimantan Tengah,15,2023,11,November,11,Lain-Lain PAD yang Sah,376999400000.0,212394758292.49,56.34,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Lain-Lain PAD yang Sah,376999400000.0,304849460771.59,80.86,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Lain-Lain PAD yang Sah,365926252158.0,21749141220.15,5.94,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Lain-Lain PAD yang Sah,365926252158.0,51870957020.5,14.18,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Lain-Lain PAD yang Sah,365926252158.0,84679246484.99,23.14,False,False
+Kalimantan Tengah,15,2024,4,April,16,Lain-Lain PAD yang Sah,365926252158.0,114699998991.49,31.35,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Lain-Lain PAD yang Sah,365926252158.0,145369143303.44,39.73,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Lain-Lain PAD yang Sah,365926252158.0,160501743829.95,43.86,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Lain-Lain PAD yang Sah,365926252158.0,216688443305.6,59.22,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Lain-Lain PAD yang Sah,365926252158.0,243868188156.71,66.64,False,False
+Kalimantan Tengah,15,2024,9,September,21,Lain-Lain PAD yang Sah,365926252158.0,283971632178.37,77.6,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Lain-Lain PAD yang Sah,365926252158.0,315893217701.94,86.33,False,False
+Kalimantan Tengah,15,2024,11,November,23,Lain-Lain PAD yang Sah,365926252158.0,349267610204.53,95.45,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Lain-Lain PAD yang Sah,365926252158.0,403346881934.04,110.23,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Lain-Lain PAD yang Sah,563953516611.0,22712558836.05,4.03,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Lain-Lain PAD yang Sah,563953516611.0,49816730713.86,8.83,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Lain-Lain PAD yang Sah,563953516611.0,71100068637.86,12.61,False,False
+Kalimantan Tengah,15,2025,4,April,28,Lain-Lain PAD yang Sah,563953516611.0,90220728162.53,16.0,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Lain-Lain PAD yang Sah,563953516611.0,119658210029.88,21.22,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Lain-Lain PAD yang Sah,563953516611.0,102970889926.68,18.26,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Lain-Lain PAD yang Sah,563953516611.0,177020656676.02,31.39,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Lain-Lain PAD yang Sah,563953516611.0,211420816300.37,37.49,False,False
+Kalimantan Tengah,15,2025,9,September,33,Lain-Lain PAD yang Sah,563953516611.0,261321739887.87,46.34,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Lain-Lain PAD yang Sah,563953516611.0,264936486327.87,46.98,False,False
+Kalimantan Tengah,15,2025,11,November,35,Lain-Lain PAD yang Sah,563953516611.0,264936486327.87,46.98,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Lain-Lain PAD yang Sah,563953516611.0,264936486327.87,46.98,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Lain-Lain PAD yang Sah,398985520603.0,13785003509.05,3.46,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Lain-Lain PAD yang Sah,398985520603.0,18827500515.25,4.72,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Lain-Lain PAD yang Sah,398985520603.0,25297141375.22,6.34,False,False
+Kalimantan Tengah,15,2026,4,April,40,Lain-Lain PAD yang Sah,398985520603.0,29559841411.19,7.41,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Lain-Lain PAD yang Sah,398985520603.0,55425939973.98,13.89,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Lain-Lain PAD yang Sah,398985520603.0,34102761980.96,8.55,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Lain-Lain PAD yang Sah,398985520603.0,86644636235.06,21.72,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Lain-Lain PAD yang Sah,398985520603.0,92762638377.28,23.25,False,False
+Kalimantan Tengah,15,2026,9,September,45,Lain-Lain PAD yang Sah,398985520603.0,92762638377.28,23.25,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Lain-Lain PAD yang Sah,398985520603.0,92762638377.28,23.25,False,True
+Kalimantan Tengah,15,2026,11,November,47,Lain-Lain PAD yang Sah,398985520603.0,92762638377.28,23.25,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Lain-Lain PAD yang Sah,398985520603.0,92762638377.28,23.25,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2050865935.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2051131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,4,April,4,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,9,September,9,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,11,November,11,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101131865.0,0.0,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,2101153765.0,0.0,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1008828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1022828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1022828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,4,April,16,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1022828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1022828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1022828500.28,0.0,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,91123858500.28,0.0,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,91123858500.28,0.0,False,False
+Kalimantan Tengah,15,2024,9,September,21,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,91123858500.28,0.0,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,91123858500.28,0.0,False,False
+Kalimantan Tengah,15,2024,11,November,23,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,91204892226.28,0.0,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,175303844302.28,0.0,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,93934340.75,0.03,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,103743013.75,0.03,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,168104666.75,0.05,False,False
+Kalimantan Tengah,15,2025,4,April,28,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,113831851868.75,33.61,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,126122989262.75,37.24,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,129210885665.75,38.15,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,141517934537.0,41.78,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,410612337453.5,121.22,False,False
+Kalimantan Tengah,15,2025,9,September,33,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,410617647491.5,121.23,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,410623044491.5,121.23,False,False
+Kalimantan Tengah,15,2025,11,November,35,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,410623044491.5,121.23,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,338721087000.0,410623044491.5,121.23,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,412995968.0,0.0,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,434713811.0,0.0,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,436429003.0,0.0,False,False
+Kalimantan Tengah,15,2026,4,April,40,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,670241284.0,0.0,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,672291284.0,0.0,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,676349503.01,0.0,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1248960416.01,0.0,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1255861216.01,0.0,False,False
+Kalimantan Tengah,15,2026,9,September,45,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1255861216.01,0.0,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1255861216.01,0.0,False,True
+Kalimantan Tengah,15,2026,11,November,47,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1255861216.01,0.0,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,1255861216.01,0.0,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,PAD,2472456920503.0,193218447022.08,7.81,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,PAD,2472456920503.0,364369378471.08,14.74,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,PAD,2472456920503.0,553389676633.36,22.38,False,False
+Kalimantan Tengah,15,2023,4,April,4,PAD,2472456920503.0,812743294146.11,32.87,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,PAD,2472456920503.0,812743294146.11,32.87,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,PAD,2472456920503.0,976490609309.11,39.49,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,PAD,2472456920503.0,1220728598307.3,49.37,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,PAD,2472456920503.0,1431402647233.6,57.89,False,False
+Kalimantan Tengah,15,2023,9,September,9,PAD,2472456920503.0,1634328819441.0,66.1,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,PAD,2472456920503.0,1877322598524.4,75.93,False,False
+Kalimantan Tengah,15,2023,11,November,11,PAD,2472456920503.0,2090128480928.9,84.54,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,PAD,2472456920503.0,2416994020310.0,97.76,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,PAD,2699466041860.0,204680384545.15,7.58,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,PAD,2699466041860.0,392135014498.5,14.53,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,PAD,2699466041860.0,591149413684.99,21.9,False,False
+Kalimantan Tengah,15,2024,4,April,16,PAD,2699466041860.0,862576484812.49,31.95,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,PAD,2699466041860.0,1070378118597.4,39.65,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,PAD,2699466041860.0,1420971927445.9,52.64,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,PAD,2699466041860.0,1550611012014.6,57.44,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,PAD,2699466041860.0,1768676098601.7,65.52,False,False
+Kalimantan Tengah,15,2024,9,September,21,PAD,2699466041860.0,1991909134430.4,73.79,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,PAD,2699466041860.0,2257673363586.9,83.63,False,False
+Kalimantan Tengah,15,2024,11,November,23,PAD,2699466041860.0,2507570294960.5,92.89,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,PAD,2699466041860.0,2824009317386.7,104.61,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,PAD,4681931097735.0,168337843180.05,3.6,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,PAD,4681931097735.0,371665016665.86,7.94,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,PAD,4681931097735.0,567043756661.86,12.11,False,False
+Kalimantan Tengah,15,2025,4,April,28,PAD,4681931097735.0,818538021130.53,17.48,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,PAD,4681931097735.0,1008330205454.9,21.54,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,PAD,4681931097735.0,1160784814068.7,24.79,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,PAD,4681931097735.0,1458288144736.3,31.15,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,PAD,4681931097735.0,1669687582543.0,35.66,False,False
+Kalimantan Tengah,15,2025,9,September,33,PAD,4681931097735.0,1907220880717.5,40.74,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,PAD,4681931097735.0,2121630691183.6,45.32,False,False
+Kalimantan Tengah,15,2025,11,November,35,PAD,4681931097735.0,2317062926313.6,49.49,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,PAD,4681931097735.0,2317062926313.6,49.49,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,PAD,2795336622707.0,194627238728.05,6.96,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,PAD,2795336622707.0,388465640098.25,13.9,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,PAD,2795336622707.0,565751819185.22,20.24,False,False
+Kalimantan Tengah,15,2026,4,April,40,PAD,2795336622707.0,851679299548.19,30.47,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,PAD,2795336622707.0,1121455127225.0,40.12,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,PAD,2795336622707.0,1384872367354.8,49.54,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,PAD,2795336622707.0,2092412198362.9,74.85,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,PAD,2795336622707.0,2319252733808.2,82.97,False,False
+Kalimantan Tengah,15,2026,9,September,45,PAD,2795336622707.0,2319260293808.2,82.97,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,PAD,2795336622707.0,2319260293808.2,82.97,False,True
+Kalimantan Tengah,15,2026,11,November,47,PAD,2795336622707.0,2319260293808.2,82.97,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,PAD,2795336622707.0,2319260293808.2,82.97,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Pajak Daerah,1907319582053.0,172966058927.08,9.07,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pajak Daerah,1907319582053.0,336771981920.08,17.66,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pajak Daerah,1907319582053.0,505132249784.08,26.48,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pajak Daerah,1907319582053.0,737948198301.08,38.69,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pajak Daerah,1907319582053.0,737948198301.08,38.69,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pajak Daerah,1907319582053.0,894621798132.08,46.9,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pajak Daerah,1907319582053.0,1102817633655.1,57.82,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pajak Daerah,1907319582053.0,1284620484946.1,67.35,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pajak Daerah,1907319582053.0,1452230381740.1,76.14,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pajak Daerah,1907319582053.0,1671720516373.1,87.65,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pajak Daerah,1907319582053.0,1855106395712.1,97.26,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pajak Daerah,1907319582053.0,2087115544414.1,109.43,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Pajak Daerah,2203674709512.0,182198842915.0,8.27,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pajak Daerah,2203674709512.0,338868550332.0,15.38,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pajak Daerah,2203674709512.0,504578339844.0,22.9,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pajak Daerah,2203674709512.0,745249110221.0,33.82,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pajak Daerah,2203674709512.0,921692869946.0,41.83,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pajak Daerah,2203674709512.0,1256645418030.0,57.02,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pajak Daerah,2203674709512.0,1328056855597.0,60.27,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pajak Daerah,2203674709512.0,1517908252903.0,68.88,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pajak Daerah,2203674709512.0,1699939990180.0,77.14,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pajak Daerah,2203674709512.0,1932483441675.0,87.69,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pajak Daerah,2203674709512.0,2109291047383.0,95.72,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pajak Daerah,2203674709512.0,2370006827406.0,107.55,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Pajak Daerah,4047858500934.0,144905481184.0,3.58,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Pajak Daerah,4047858500934.0,286596627972.0,7.08,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Pajak Daerah,4047858500934.0,460136638794.0,11.37,False,False
+Kalimantan Tengah,15,2025,4,April,28,Pajak Daerah,4047858500934.0,691819784116.0,17.09,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Pajak Daerah,4047858500934.0,851496355083.04,21.04,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Pajak Daerah,4047858500934.0,1019989790030.0,25.2,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Pajak Daerah,4047858500934.0,1242382546710.3,30.69,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Pajak Daerah,4047858500934.0,1418320768602.6,35.04,False,False
+Kalimantan Tengah,15,2025,9,September,33,Pajak Daerah,4047858500934.0,1604541106329.6,39.64,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Pajak Daerah,4047858500934.0,1812435674309.6,44.78,False,False
+Kalimantan Tengah,15,2025,11,November,35,Pajak Daerah,4047858500934.0,2006890482709.6,49.58,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Pajak Daerah,4047858500934.0,2006890482709.6,49.58,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Pajak Daerah,2340111659871.0,179952032779.0,7.69,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Pajak Daerah,2340111659871.0,368037651402.0,15.73,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Pajak Daerah,2340111659871.0,537762753691.0,22.98,False,False
+Kalimantan Tengah,15,2026,4,April,40,Pajak Daerah,2340111659871.0,818654476548.0,34.98,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Pajak Daerah,2340111659871.0,1061997143102.0,45.38,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Pajak Daerah,2340111659871.0,1269169661535.0,54.24,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Pajak Daerah,2340111659871.0,1922696824913.0,82.16,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Pajak Daerah,2340111659871.0,2140914203044.0,91.49,False,False
+Kalimantan Tengah,15,2026,9,September,45,Pajak Daerah,2340111659871.0,2140914203044.0,91.49,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Pajak Daerah,2340111659871.0,2140914203044.0,91.49,False,True
+Kalimantan Tengah,15,2026,11,November,47,Pajak Daerah,2340111659871.0,2140914203044.0,91.49,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Pajak Daerah,2340111659871.0,2140914203044.0,91.49,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Pendapatan Daerah,6416829889952.0,599013531957.08,9.34,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pendapatan Daerah,6416829889952.0,863282953536.08,13.45,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pendapatan Daerah,6416829889952.0,1233962124340.9,19.23,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pendapatan Daerah,6416829889952.0,2171450230039.6,33.84,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pendapatan Daerah,6416829889952.0,2171450230039.6,33.84,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pendapatan Daerah,6416829889952.0,2421063470702.6,37.73,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pendapatan Daerah,6416829889952.0,3306423765077.8,51.53,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pendapatan Daerah,6416829889952.0,3656434350254.1,56.98,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pendapatan Daerah,6416829889952.0,4231763020738.5,65.95,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pendapatan Daerah,6416829889952.0,5165173032463.9,80.49,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pendapatan Daerah,6416829889952.0,5704354335973.4,88.9,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pendapatan Daerah,6416829889952.0,6463573909419.5,100.73,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Pendapatan Daerah,9227019051847.0,694929941245.43,7.53,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pendapatan Daerah,9227019051847.0,987740166198.78,10.7,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pendapatan Daerah,9227019051847.0,1422654707151.3,15.42,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pendapatan Daerah,9227019051847.0,2149829164455.8,23.3,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pendapatan Daerah,9227019051847.0,3156656174800.7,34.21,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pendapatan Daerah,9227019051847.0,3837407580073.2,41.59,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pendapatan Daerah,9227019051847.0,4766839070491.9,51.66,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pendapatan Daerah,9227019051847.0,5135354488778.0,55.66,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pendapatan Daerah,9227019051847.0,5816100211512.7,63.03,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pendapatan Daerah,9227019051847.0,7180408268871.2,77.82,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pendapatan Daerah,9227019051847.0,7739813782110.8,83.88,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pendapatan Daerah,9227019051847.0,8339316303149.0,90.38,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Pendapatan Daerah,9320158094735.0,610707089970.8,6.55,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Pendapatan Daerah,9320158094735.0,953301413636.61,10.23,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Pendapatan Daerah,9320158094735.0,1547318162251.6,16.6,False,False
+Kalimantan Tengah,15,2025,4,April,28,Pendapatan Daerah,9320158094735.0,2090186657457.3,22.43,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Pendapatan Daerah,9320158094735.0,2701065581985.7,28.98,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Pendapatan Daerah,9320158094735.0,2889036820751.5,31.0,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Pendapatan Daerah,9320158094735.0,3926139151320.3,42.13,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Pendapatan Daerah,9320158094735.0,4766895607867.5,51.15,False,False
+Kalimantan Tengah,15,2025,9,September,33,Pendapatan Daerah,9320158094735.0,5480159040343.0,58.8,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Pendapatan Daerah,9320158094735.0,5964556782676.1,64.0,False,False
+Kalimantan Tengah,15,2025,11,November,35,Pendapatan Daerah,9320158094735.0,6173423424501.1,66.24,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Pendapatan Daerah,9320158094735.0,6173423424501.1,66.24,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Pendapatan Daerah,5118153968707.0,498396648196.05,9.74,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Pendapatan Daerah,5118153968707.0,821011203009.25,16.04,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Pendapatan Daerah,5118153968707.0,1263536125932.2,24.69,False,False
+Kalimantan Tengah,15,2026,4,April,40,Pendapatan Daerah,5118153968707.0,1691071139126.2,33.04,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Pendapatan Daerah,5118153968707.0,2160550754103.0,42.21,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Pendapatan Daerah,5118153968707.0,2544060183701.8,49.71,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Pendapatan Daerah,5118153968707.0,3547718206922.9,69.32,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Pendapatan Daerah,5118153968707.0,4058998152468.2,79.31,False,False
+Kalimantan Tengah,15,2026,9,September,45,Pendapatan Daerah,5118153968707.0,4059005712468.2,79.31,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Pendapatan Daerah,5118153968707.0,4059005712468.2,79.31,False,True
+Kalimantan Tengah,15,2026,11,November,47,Pendapatan Daerah,5118153968707.0,4059005712468.2,79.31,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Pendapatan Daerah,5118153968707.0,4059005712468.2,79.31,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Pendapatan Hibah,1065250000.0,633790000.0,59.5,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pendapatan Hibah,1065250000.0,1188065000.0,111.53,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pendapatan Hibah,1065250000.0,2294033632.5,215.35,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pendapatan Hibah,1065250000.0,2812733632.5,264.04,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pendapatan Hibah,1065250000.0,2812733632.5,264.04,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pendapatan Hibah,1065250000.0,3973833632.5,373.04,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pendapatan Hibah,1065250000.0,5639366429.5,529.39,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pendapatan Hibah,1065250000.0,6484756429.5,608.75,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pendapatan Hibah,1065250000.0,7266376429.5,682.13,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pendapatan Hibah,1065250000.0,8071496429.5,757.71,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pendapatan Hibah,1065250000.0,8802126429.5,826.3,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pendapatan Hibah,1065250000.0,9561626429.5,897.59,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Pendapatan Hibah,8065250000.0,731575000.0,9.07,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pendapatan Hibah,8065250000.0,1300875000.0,16.13,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pendapatan Hibah,8065250000.0,1887900000.0,23.41,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pendapatan Hibah,8065250000.0,2421500000.0,30.02,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pendapatan Hibah,8065250000.0,3136850000.0,38.89,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pendapatan Hibah,8065250000.0,3688950000.0,45.74,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pendapatan Hibah,8065250000.0,4441825000.0,55.07,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pendapatan Hibah,8065250000.0,6009619000.0,74.51,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pendapatan Hibah,8065250000.0,6741387000.0,83.59,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pendapatan Hibah,8065250000.0,7528905000.0,93.35,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pendapatan Hibah,8065250000.0,8217598000.0,101.89,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pendapatan Hibah,8065250000.0,9357191000.0,116.02,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Pendapatan Hibah,1273716000.0,487200000.0,38.25,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Pendapatan Hibah,1273716000.0,1072050000.0,84.17,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Pendapatan Hibah,1273716000.0,1648800000.0,129.45,False,False
+Kalimantan Tengah,15,2025,4,April,28,Pendapatan Hibah,1273716000.0,2190025000.0,171.94,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Pendapatan Hibah,1273716000.0,2836925000.0,222.73,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Pendapatan Hibah,1273716000.0,15708227394.0,1.23326,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Pendapatan Hibah,1273716000.0,4197875000.0,329.58,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Pendapatan Hibah,1273716000.0,5726311000.0,449.58,False,False
+Kalimantan Tengah,15,2025,9,September,33,Pendapatan Hibah,1273716000.0,6495978000.0,510.0,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Pendapatan Hibah,1273716000.0,7252478000.0,569.4,False,False
+Kalimantan Tengah,15,2025,11,November,35,Pendapatan Hibah,1273716000.0,7252478000.0,569.4,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Pendapatan Hibah,1273716000.0,7252478000.0,569.4,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Pendapatan Hibah,1288704000.0,781775000.0,60.66,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Pendapatan Hibah,1288704000.0,1592275000.0,123.56,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Pendapatan Hibah,1288704000.0,2289875000.0,177.69,False,False
+Kalimantan Tengah,15,2026,4,April,40,Pendapatan Hibah,1288704000.0,3129125000.0,242.81,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Pendapatan Hibah,1288704000.0,3796525000.0,294.6,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Pendapatan Hibah,1288704000.0,4672825000.0,362.6,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Pendapatan Hibah,1288704000.0,5598950000.0,434.46,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Pendapatan Hibah,1288704000.0,7173450000.0,556.64,False,False
+Kalimantan Tengah,15,2026,9,September,45,Pendapatan Hibah,1288704000.0,7173450000.0,556.64,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Pendapatan Hibah,1288704000.0,7173450000.0,556.64,False,True
+Kalimantan Tengah,15,2026,11,November,47,Pendapatan Hibah,1288704000.0,7173450000.0,556.64,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Pendapatan Hibah,1288704000.0,7173450000.0,556.64,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Pendapatan Lainnya,4495250000.0,2684655935.0,59.72,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pendapatan Lainnya,4495250000.0,3239196865.0,72.06,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pendapatan Lainnya,4495250000.0,4885165497.5,108.67,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pendapatan Lainnya,4495250000.0,6138865497.5,136.56,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pendapatan Lainnya,4495250000.0,6138865497.5,136.56,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pendapatan Lainnya,4495250000.0,7299965497.5,162.39,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pendapatan Lainnya,4495250000.0,9455498294.5,210.34,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pendapatan Lainnya,4495250000.0,10790888294.5,240.05,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pendapatan Lainnya,4495250000.0,11572508294.5,257.44,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pendapatan Lainnya,4495250000.0,12622628294.5,280.8,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pendapatan Lainnya,4495250000.0,14818258294.5,329.64,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pendapatan Lainnya,4495250000.0,15577780194.5,346.54,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Pendapatan Lainnya,11495250000.0,1740403500.28,15.14,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pendapatan Lainnya,11495250000.0,2323703500.28,20.21,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pendapatan Lainnya,11495250000.0,3645728500.28,31.72,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pendapatan Lainnya,11495250000.0,4914328500.28,42.75,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pendapatan Lainnya,11495250000.0,5874678500.28,51.11,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pendapatan Lainnya,11495250000.0,6671778500.28,58.04,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pendapatan Lainnya,11495250000.0,98015683500.28,852.66,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pendapatan Lainnya,11495250000.0,99828477500.28,868.43,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pendapatan Lainnya,11495250000.0,100560245500.28,874.8,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pendapatan Lainnya,11495250000.0,101592763500.28,883.78,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pendapatan Lainnya,11495250000.0,103092482726.28,896.83,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pendapatan Lainnya,11495250000.0,188331035302.28,1.63834,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Pendapatan Lainnya,339994803000.0,581134340.75,0.17,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Pendapatan Lainnya,339994803000.0,1175793013.75,0.35,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Pendapatan Lainnya,339994803000.0,1816904666.75,0.53,False,False
+Kalimantan Tengah,15,2025,4,April,28,Pendapatan Lainnya,339994803000.0,116021876868.75,34.12,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Pendapatan Lainnya,339994803000.0,128959914262.75,37.93,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Pendapatan Lainnya,339994803000.0,144919113059.75,42.62,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Pendapatan Lainnya,339994803000.0,145715809537.0,42.86,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Pendapatan Lainnya,339994803000.0,416338648453.5,122.45,False,False
+Kalimantan Tengah,15,2025,9,September,33,Pendapatan Lainnya,339994803000.0,417113625491.5,122.68,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Pendapatan Lainnya,339994803000.0,417875522491.5,122.91,False,False
+Kalimantan Tengah,15,2025,11,November,35,Pendapatan Lainnya,339994803000.0,417875522491.5,122.91,False,True
+Kalimantan Tengah,15,2025,12,Desember,36,Pendapatan Lainnya,339994803000.0,417875522491.5,122.91,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Pendapatan Lainnya,1288704000.0,1194770968.0,92.71,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Pendapatan Lainnya,1288704000.0,2026988811.0,157.29,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Pendapatan Lainnya,1288704000.0,2726304003.0,211.55,False,False
+Kalimantan Tengah,15,2026,4,April,40,Pendapatan Lainnya,1288704000.0,3799366284.0,294.82,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Pendapatan Lainnya,1288704000.0,4468816284.0,346.77,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Pendapatan Lainnya,1288704000.0,5349174503.01,415.08,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Pendapatan Lainnya,1288704000.0,6847910416.01,531.38,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Pendapatan Lainnya,1288704000.0,8429311216.01,654.09,False,False
+Kalimantan Tengah,15,2026,9,September,45,Pendapatan Lainnya,1288704000.0,8429311216.01,654.09,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Pendapatan Lainnya,1288704000.0,8429311216.01,654.09,False,True
+Kalimantan Tengah,15,2026,11,November,47,Pendapatan Lainnya,1288704000.0,8429311216.01,654.09,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Pendapatan Lainnya,1288704000.0,8429311216.01,654.09,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Pendapatan Transfer Antar Daerah,3430000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pendapatan Transfer Antar Daerah,3430000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pendapatan Transfer Antar Daerah,3430000000.0,490000000.0,14.29,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pendapatan Transfer Antar Daerah,3430000000.0,1225000000.0,35.71,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pendapatan Transfer Antar Daerah,3430000000.0,1225000000.0,35.71,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pendapatan Transfer Antar Daerah,3430000000.0,1225000000.0,35.71,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pendapatan Transfer Antar Daerah,3430000000.0,1715000000.0,50.0,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pendapatan Transfer Antar Daerah,3430000000.0,2205000000.0,64.29,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pendapatan Transfer Antar Daerah,3430000000.0,2205000000.0,64.29,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pendapatan Transfer Antar Daerah,3430000000.0,2450000000.0,71.43,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pendapatan Transfer Antar Daerah,3430000000.0,3915000000.0,114.14,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pendapatan Transfer Antar Daerah,3430000000.0,3915000000.0,114.14,False,True
+Kalimantan Tengah,15,2024,1,Januari,13,Pendapatan Transfer Antar Daerah,3430000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pendapatan Transfer Antar Daerah,3430000000.0,0.0,0.0,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pendapatan Transfer Antar Daerah,3430000000.0,735000000.0,21.43,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pendapatan Transfer Antar Daerah,3430000000.0,1470000000.0,42.86,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pendapatan Transfer Antar Daerah,3430000000.0,1715000000.0,50.0,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pendapatan Transfer Antar Daerah,3430000000.0,1960000000.0,57.14,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pendapatan Transfer Antar Daerah,3430000000.0,2450000000.0,71.43,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pendapatan Transfer Antar Daerah,3430000000.0,2695000000.0,78.57,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pendapatan Transfer Antar Daerah,3430000000.0,2695000000.0,78.57,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pendapatan Transfer Antar Daerah,3430000000.0,2940000000.0,85.71,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pendapatan Transfer Antar Daerah,3430000000.0,3669992500.0,107.0,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pendapatan Transfer Antar Daerah,3430000000.0,3670000000.0,107.0,False,False
+Kalimantan Tengah,15,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,403110429000.0,10.23,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,495674378200.0,12.58,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,675687282210.0,17.15,False,False
+Kalimantan Tengah,15,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,1352568070396.0,34.33,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,1352568070396.0,34.33,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,1437272895896.0,36.48,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,2076239668476.0,52.7,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,2214240814726.0,56.2,False,False
+Kalimantan Tengah,15,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,2585861693003.0,65.63,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,3275227805645.0,83.13,False,False
+Kalimantan Tengah,15,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,3599407596750.0,91.36,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,3939877719449.0,4031002108915.0,102.31,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,488509153200.0,7.5,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,593281448200.0,9.1,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,827859564966.0,12.7,False,False
+Kalimantan Tengah,15,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,1282338351143.0,19.68,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,2080403377703.0,31.93,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,2409763874127.0,36.98,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,3118212374977.0,47.85,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,3266849912676.0,50.14,False,False
+Kalimantan Tengah,15,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,3723630831582.0,57.15,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,4821142141784.0,73.99,False,False
+Kalimantan Tengah,15,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,5129151004424.0,78.72,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,6516057759987.0,5326975950460.0,81.75,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,441788112450.0,10.28,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,580460603957.0,13.5,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,978457500923.0,22.76,False,False
+Kalimantan Tengah,15,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,1155626759458.0,26.89,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,1563775462268.0,36.38,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,1583332893623.0,36.84,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,2322135197047.0,54.03,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,2680869376871.0,62.37,False,False
+Kalimantan Tengah,15,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,3155824534134.0,73.42,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,3425050569001.0,79.69,False,False
+Kalimantan Tengah,15,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,3438484975696.0,80.0,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,4298232194000.0,3438484975696.0,80.0,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,302574638500.0,13.03,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,430518574100.0,18.54,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,695058002744.0,29.94,False,False
+Kalimantan Tengah,15,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,835592473294.0,35.99,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1034626810594.0,44.57,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1153838641844.0,49.7,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1448458098144.0,62.39,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1731316107444.0,74.58,False,False
+Kalimantan Tengah,15,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,Retribusi Daerah,16156252000.0,933566182.0,5.78,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,Retribusi Daerah,16156252000.0,1450435232.0,8.98,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,Retribusi Daerah,16156252000.0,2898818536.0,17.94,False,False
+Kalimantan Tengah,15,2023,4,April,4,Retribusi Daerah,16156252000.0,3831642630.0,23.72,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,Retribusi Daerah,16156252000.0,3831642630.0,23.72,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,Retribusi Daerah,16156252000.0,5455297524.0,33.77,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,Retribusi Daerah,16156252000.0,9879299854.0,61.15,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,Retribusi Daerah,16156252000.0,13391343526.0,82.89,False,False
+Kalimantan Tengah,15,2023,9,September,9,Retribusi Daerah,16156252000.0,15940967412.0,98.67,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,Retribusi Daerah,16156252000.0,19445717148.0,120.36,False,False
+Kalimantan Tengah,15,2023,11,November,11,Retribusi Daerah,16156252000.0,21288394346.0,131.77,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,Retribusi Daerah,16156252000.0,23690082546.0,146.63,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,Retribusi Daerah,9262712000.0,732400410.0,7.91,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,Retribusi Daerah,9262712000.0,1395496480.0,15.07,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,Retribusi Daerah,9262712000.0,1891816690.0,20.42,False,False
+Kalimantan Tengah,15,2024,4,April,16,Retribusi Daerah,9262712000.0,2627364934.0,28.36,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,Retribusi Daerah,9262712000.0,3316094682.0,35.8,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,Retribusi Daerah,9262712000.0,3824754920.0,41.29,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,Retribusi Daerah,9262712000.0,5865702446.0,63.33,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,Retribusi Daerah,9262712000.0,6899646876.0,74.49,False,False
+Kalimantan Tengah,15,2024,9,September,21,Retribusi Daerah,9262712000.0,7997501406.0,86.34,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,Retribusi Daerah,9262712000.0,9296693544.0,100.37,False,False
+Kalimantan Tengah,15,2024,11,November,23,Retribusi Daerah,9262712000.0,10233832077.0,110.48,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,Retribusi Daerah,9262712000.0,11804668687.0,127.44,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,Retribusi Daerah,9516712000.0,719803160.0,7.56,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,Retribusi Daerah,9516712000.0,1300142880.0,13.66,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,Retribusi Daerah,9516712000.0,1855534130.0,19.5,False,False
+Kalimantan Tengah,15,2025,4,April,28,Retribusi Daerah,9516712000.0,2545993752.0,26.75,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,Retribusi Daerah,9516712000.0,3224125242.0,33.88,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,Retribusi Daerah,9516712000.0,3872619012.0,40.69,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,Retribusi Daerah,9516712000.0,4933426250.0,51.84,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,Retribusi Daerah,9516712000.0,5994482540.0,62.99,False,False
+Kalimantan Tengah,15,2025,9,September,33,Retribusi Daerah,9516712000.0,7406519400.0,77.83,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,Retribusi Daerah,9516712000.0,9724081826.0,102.18,False,False
+Kalimantan Tengah,15,2025,11,November,35,Retribusi Daerah,9516712000.0,10701508556.0,112.45,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,Retribusi Daerah,9516712000.0,10701508556.0,112.45,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,Retribusi Daerah,14244782000.0,890202440.0,6.25,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,Retribusi Daerah,14244782000.0,1600488181.0,11.24,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,Retribusi Daerah,14244782000.0,2691924119.0,18.9,False,False
+Kalimantan Tengah,15,2026,4,April,40,Retribusi Daerah,14244782000.0,3464981589.0,24.32,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,Retribusi Daerah,14244782000.0,4032044149.0,28.31,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,Retribusi Daerah,14244782000.0,4522115217.8,31.75,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,Retribusi Daerah,14244782000.0,5992908593.8,42.07,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,Retribusi Daerah,14244782000.0,6829120081.4,47.94,False,False
+Kalimantan Tengah,15,2026,9,September,45,Retribusi Daerah,14244782000.0,6836680081.4,47.99,False,False
+Kalimantan Tengah,15,2026,10,Oktober,46,Retribusi Daerah,14244782000.0,6836680081.4,47.99,False,True
+Kalimantan Tengah,15,2026,11,November,47,Retribusi Daerah,14244782000.0,6836680081.4,47.99,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,Retribusi Daerah,14244782000.0,6836680081.4,47.99,False,True
+Kalimantan Tengah,15,2023,1,Januari,1,TKDD,3939877719449.0,403110429000.0,10.23,False,False
+Kalimantan Tengah,15,2023,2,Februari,2,TKDD,3939877719449.0,495674378200.0,12.58,False,False
+Kalimantan Tengah,15,2023,3,Maret,3,TKDD,3939877719449.0,675687282210.0,17.15,False,False
+Kalimantan Tengah,15,2023,4,April,4,TKDD,3939877719449.0,1352568070396.0,34.33,False,False
+Kalimantan Tengah,15,2023,5,Mei,5,TKDD,3939877719449.0,1352568070396.0,34.33,False,False
+Kalimantan Tengah,15,2023,6,Juni,6,TKDD,3939877719449.0,1437272895896.0,36.48,False,False
+Kalimantan Tengah,15,2023,7,Juli,7,TKDD,3939877719449.0,2076239668476.0,52.7,False,False
+Kalimantan Tengah,15,2023,8,Agustus,8,TKDD,3939877719449.0,2214240814726.0,56.2,False,False
+Kalimantan Tengah,15,2023,9,September,9,TKDD,3939877719449.0,2585861693003.0,65.63,False,False
+Kalimantan Tengah,15,2023,10,Oktober,10,TKDD,3939877719449.0,3275227805645.0,83.13,False,False
+Kalimantan Tengah,15,2023,11,November,11,TKDD,3939877719449.0,3599407596750.0,91.36,False,False
+Kalimantan Tengah,15,2023,12,Desember,12,TKDD,3939877719449.0,4031002108915.0,102.31,False,False
+Kalimantan Tengah,15,2024,1,Januari,13,TKDD,6516057759987.0,488509153200.0,7.5,False,False
+Kalimantan Tengah,15,2024,2,Februari,14,TKDD,6516057759987.0,593281448200.0,9.1,False,False
+Kalimantan Tengah,15,2024,3,Maret,15,TKDD,6516057759987.0,827859564966.0,12.7,False,False
+Kalimantan Tengah,15,2024,4,April,16,TKDD,6516057759987.0,1282338351143.0,19.68,False,False
+Kalimantan Tengah,15,2024,5,Mei,17,TKDD,6516057759987.0,2080403377703.0,31.93,False,False
+Kalimantan Tengah,15,2024,6,Juni,18,TKDD,6516057759987.0,2409763874127.0,36.98,False,False
+Kalimantan Tengah,15,2024,7,Juli,19,TKDD,6516057759987.0,3118212374977.0,47.85,False,False
+Kalimantan Tengah,15,2024,8,Agustus,20,TKDD,6516057759987.0,3266849912676.0,50.14,False,False
+Kalimantan Tengah,15,2024,9,September,21,TKDD,6516057759987.0,3723630831582.0,57.15,False,False
+Kalimantan Tengah,15,2024,10,Oktober,22,TKDD,6516057759987.0,4821142141784.0,73.99,False,False
+Kalimantan Tengah,15,2024,11,November,23,TKDD,6516057759987.0,5129151004424.0,78.72,False,False
+Kalimantan Tengah,15,2024,12,Desember,24,TKDD,6516057759987.0,5326975950460.0,81.75,False,False
+Kalimantan Tengah,15,2025,1,Januari,25,TKDD,4298232194000.0,441788112450.0,10.28,False,False
+Kalimantan Tengah,15,2025,2,Februari,26,TKDD,4298232194000.0,580460603957.0,13.5,False,False
+Kalimantan Tengah,15,2025,3,Maret,27,TKDD,4298232194000.0,978457500923.0,22.76,False,False
+Kalimantan Tengah,15,2025,4,April,28,TKDD,4298232194000.0,1155626759458.0,26.89,False,False
+Kalimantan Tengah,15,2025,5,Mei,29,TKDD,4298232194000.0,1563775462268.0,36.38,False,False
+Kalimantan Tengah,15,2025,6,Juni,30,TKDD,4298232194000.0,1583332893623.0,36.84,False,False
+Kalimantan Tengah,15,2025,7,Juli,31,TKDD,4298232194000.0,2322135197047.0,54.03,False,False
+Kalimantan Tengah,15,2025,8,Agustus,32,TKDD,4298232194000.0,2680869376871.0,62.37,False,False
+Kalimantan Tengah,15,2025,9,September,33,TKDD,4298232194000.0,3155824534134.0,73.42,False,False
+Kalimantan Tengah,15,2025,10,Oktober,34,TKDD,4298232194000.0,3425050569001.0,79.69,False,False
+Kalimantan Tengah,15,2025,11,November,35,TKDD,4298232194000.0,3438484975696.0,80.0,False,False
+Kalimantan Tengah,15,2025,12,Desember,36,TKDD,4298232194000.0,3438484975696.0,80.0,False,True
+Kalimantan Tengah,15,2026,1,Januari,37,TKDD,2321528642000.0,302574638500.0,13.03,False,False
+Kalimantan Tengah,15,2026,2,Februari,38,TKDD,2321528642000.0,430518574100.0,18.54,False,False
+Kalimantan Tengah,15,2026,3,Maret,39,TKDD,2321528642000.0,695058002744.0,29.94,False,False
+Kalimantan Tengah,15,2026,4,April,40,TKDD,2321528642000.0,835592473294.0,35.99,False,False
+Kalimantan Tengah,15,2026,5,Mei,41,TKDD,2321528642000.0,1034626810594.0,44.57,False,False
+Kalimantan Tengah,15,2026,6,Juni,42,TKDD,2321528642000.0,1153838641844.0,49.7,False,False
+Kalimantan Tengah,15,2026,7,Juli,43,TKDD,2321528642000.0,1448458098144.0,62.39,False,False
+Kalimantan Tengah,15,2026,8,Agustus,44,TKDD,2321528642000.0,1731316107444.0,74.58,False,False
+Kalimantan Tengah,15,2026,9,September,45,TKDD,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,10,Oktober,46,TKDD,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,11,November,47,TKDD,2321528642000.0,1731316107444.0,74.58,False,True
+Kalimantan Tengah,15,2026,12,Desember,48,TKDD,2321528642000.0,1731316107444.0,74.58,False,True

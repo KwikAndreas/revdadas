@@ -1,0 +1,973 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Bantuan Keuangan,42800001000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Bantuan Keuangan,42800001000.0,5380000000.0,12.57,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Bantuan Keuangan,42800001000.0,25153033580.0,58.77,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Bantuan Keuangan,42800001000.0,40060143660.0,93.6,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Bantuan Keuangan,19100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Bantuan Keuangan,19100000000.0,8502164300.0,44.51,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Bantuan Keuangan,19100000000.0,16575842894.0,86.78,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Bantuan Keuangan,19100000000.0,16575842894.0,86.78,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Bantuan Keuangan,19100000000.0,16575842894.0,86.78,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Bantuan Keuangan,19100000000.0,16575842894.0,86.78,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Bantuan Keuangan,19100000000.0,17549562894.0,91.88,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Bantuan Keuangan,2250000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Bantuan Keuangan,2250000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Bantuan Keuangan,2250000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Bantuan Keuangan,2250000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Bantuan Keuangan,2250000000.0,13600000000.0,604.44,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Bantuan Keuangan,2250000000.0,14350000000.0,637.78,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Bantuan Keuangan,2250000000.0,14350000000.0,637.78,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Bantuan Keuangan,2250000000.0,14350000000.0,637.78,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Bantuan Keuangan,2250000000.0,15250000000.0,677.78,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Bantuan Keuangan,2250000000.0,15850000000.0,704.44,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Bantuan Keuangan,2250000000.0,15850000000.0,704.44,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Bantuan Keuangan,2250000000.0,19150000000.0,851.11,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,11,November,47,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Bantuan Keuangan,32637500000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Bantuan Sosial,94346853835.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Bantuan Sosial,94346853835.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Bantuan Sosial,94346853835.0,55805000.0,0.06,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Bantuan Sosial,94346853835.0,11749651158.0,12.45,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Bantuan Sosial,94346853835.0,11749651158.0,12.45,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Bantuan Sosial,94346853835.0,16267062545.0,17.24,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Bantuan Sosial,94346853835.0,22144123834.0,23.47,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Bantuan Sosial,94346853835.0,30086084213.0,31.89,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Bantuan Sosial,94346853835.0,36907618641.97,39.12,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Bantuan Sosial,94346853835.0,42081320417.97,44.6,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Bantuan Sosial,94346853835.0,67028754370.97,71.05,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Bantuan Sosial,94346853835.0,103189614211.4,109.37,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Bantuan Sosial,17002449630.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Bantuan Sosial,17002449630.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Bantuan Sosial,17002449630.0,9176000000.0,53.97,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Bantuan Sosial,17002449630.0,9618800000.0,56.57,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Bantuan Sosial,17002449630.0,9858800000.0,57.98,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Bantuan Sosial,17002449630.0,11979860000.0,70.46,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Bantuan Sosial,17002449630.0,12512210000.0,73.59,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Bantuan Sosial,17002449630.0,12831594400.0,75.47,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Bantuan Sosial,17002449630.0,14002254400.0,82.35,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Bantuan Sosial,17002449630.0,15393614400.0,90.54,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Bantuan Sosial,17002449630.0,15752080000.0,92.65,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Bantuan Sosial,17002449630.0,17654460000.0,103.83,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Bantuan Sosial,38379797785.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Bantuan Sosial,38379797785.0,3071869288.0,8.0,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Bantuan Sosial,38379797785.0,3311869288.0,8.63,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Bantuan Sosial,38379797785.0,3311869288.0,8.63,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Bantuan Sosial,38379797785.0,3677062725.0,9.58,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Bantuan Sosial,38379797785.0,4214363451.0,10.98,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Bantuan Sosial,38379797785.0,7370778339.0,19.2,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Bantuan Sosial,13731797913.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Bantuan Sosial,13731797913.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Bantuan Sosial,13731797913.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Bantuan Sosial,13731797913.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Bantuan Sosial,13731797913.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Bantuan Sosial,13731797913.0,783783348.0,5.71,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Bantuan Sosial,13731797913.0,1029383348.0,7.5,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Bantuan Sosial,13731797913.0,3489505696.0,25.41,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Bantuan Sosial,13731797913.0,3489505696.0,25.41,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Bantuan Sosial,13731797913.0,3489505696.0,25.41,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Bantuan Sosial,13731797913.0,3489505696.0,25.41,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Bantuan Sosial,13731797913.0,3489505696.0,25.41,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Barang dan Jasa,1366704540073.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Barang dan Jasa,1366704540073.0,27512274047.0,2.01,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Barang dan Jasa,1366704540073.0,113811346530.39,8.33,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Barang dan Jasa,1366704540073.0,210774553176.35,15.42,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Barang dan Jasa,1366704540073.0,210774553176.35,15.42,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Barang dan Jasa,1366704540073.0,321920636803.44,23.55,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Barang dan Jasa,1366704540073.0,443478612883.88,32.45,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Barang dan Jasa,1366704540073.0,617496901376.55,45.18,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Barang dan Jasa,1366704540073.0,707481233244.27,51.77,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Barang dan Jasa,1366704540073.0,810615666546.71,59.31,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Barang dan Jasa,1366704540073.0,1061175048637.6,77.64,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Barang dan Jasa,1366704540073.0,1554430417046.4,113.74,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Barang dan Jasa,1660632723644.0,23172700.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Barang dan Jasa,1660632723644.0,20194253132.0,1.22,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Barang dan Jasa,1660632723644.0,101931414083.75,6.14,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Barang dan Jasa,1660632723644.0,229824487715.75,13.84,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Barang dan Jasa,1660632723644.0,362225586899.0,21.81,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Barang dan Jasa,1660632723644.0,574237934493.71,34.58,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Barang dan Jasa,1660632723644.0,707178384277.83,42.58,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Barang dan Jasa,1660632723644.0,872274458516.96,52.53,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Barang dan Jasa,1660632723644.0,975769985168.01,58.76,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Barang dan Jasa,1660632723644.0,1123455959883.5,67.65,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Barang dan Jasa,1660632723644.0,1358552478529.4,81.81,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Barang dan Jasa,1660632723644.0,1905793276795.0,114.76,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Barang dan Jasa,1547076669080.2,10370865411.0,0.67,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Barang dan Jasa,1547076669080.2,58451695210.0,3.78,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Barang dan Jasa,1547076669080.2,164054115208.0,10.6,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Barang dan Jasa,1547076669080.2,208632233573.0,13.49,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Barang dan Jasa,1547076669080.2,286748659639.0,18.53,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Barang dan Jasa,1547076669080.2,373760603017.0,24.16,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Barang dan Jasa,1547076669080.2,528066032712.63,34.13,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Barang dan Jasa,1547076669080.2,619029794635.07,40.01,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Barang dan Jasa,1547076669080.2,743233618905.87,48.04,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Barang dan Jasa,1547076669080.2,861261493293.79,55.67,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Barang dan Jasa,1547076669080.2,1006944749846.7,65.09,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Barang dan Jasa,1547076669080.2,1722021214127.3,111.31,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Barang dan Jasa,1359251731049.0,39175642077.0,2.88,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Barang dan Jasa,1359251731049.0,50056121428.0,3.68,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Barang dan Jasa,1359251731049.0,152865939503.07,11.25,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Barang dan Jasa,1359251731049.0,248614104494.7,18.29,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Barang dan Jasa,1359251731049.0,301256387530.48,22.16,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Barang dan Jasa,1359251731049.0,403735426582.67,29.7,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Barang dan Jasa,1359251731049.0,499446587820.61,36.74,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Barang dan Jasa,1359251731049.0,586698751820.45,43.16,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Barang dan Jasa,1359251731049.0,601973207230.4,44.29,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Barang dan Jasa,1359251731049.0,601973207230.4,44.29,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Barang dan Jasa,1359251731049.0,601973207230.4,44.29,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Barang dan Jasa,1359251731049.0,601973207230.4,44.29,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Daerah,5182880480754.0,59946122860.0,1.16,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Daerah,5182880480754.0,190289525496.0,3.67,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Daerah,5182880480754.0,354050095675.39,6.83,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Daerah,5182880480754.0,698343310590.54,13.47,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Daerah,5182880480754.0,698343310590.54,13.47,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Daerah,5182880480754.0,989808711858.63,19.1,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Daerah,5182880480754.0,1296963669437.5,25.02,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Daerah,5182880480754.0,1843464761852.4,35.57,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Daerah,5182880480754.0,2084482982418.5,40.22,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Daerah,5182880480754.0,2563297141383.8,49.46,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Daerah,5182880480754.0,3169487536872.3,61.15,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Daerah,5182880480754.0,4596049709978.9,88.68,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Daerah,5771093326188.0,22711280.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Daerah,5771093326188.0,197730542176.0,3.43,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Daerah,5771093326188.0,480415842565.75,8.32,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Daerah,5771093326188.0,867774592649.75,15.04,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Daerah,5771093326188.0,1450325629421.0,25.13,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Daerah,5771093326188.0,1916988019894.7,33.22,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Daerah,5771093326188.0,2305119928159.8,39.94,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Daerah,5771093326188.0,2890137137734.0,50.08,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Daerah,5771093326188.0,3155423566329.0,54.68,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Daerah,5771093326188.0,3715122733497.7,64.37,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Daerah,5771093326188.0,4475477162743.5,77.55,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Daerah,5771093326188.0,5717963449168.6,99.08,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Daerah,5502982984924.0,82957181512.0,1.51,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Daerah,5502982984924.0,286057032647.0,5.2,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Daerah,5502982984924.0,627066809471.0,11.4,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Daerah,5502982984924.0,783229511607.0,14.23,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Daerah,5502982984924.0,1289657031791.9,23.44,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Daerah,5502982984924.0,1508768839923.9,27.42,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Daerah,5502982984924.0,1974977368882.5,35.89,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Daerah,5502982984924.0,2364001800645.7,42.96,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Daerah,5502982984924.0,2630265970163.0,47.8,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Daerah,5502982984924.0,3142328982195.4,57.1,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Daerah,5502982984924.0,3503940160503.5,63.67,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Daerah,5502982984924.0,5005554973043.0,90.96,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Daerah,4930717453843.0,124819280677.0,2.53,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Daerah,4930717453843.0,294041882139.0,5.96,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Daerah,4930717453843.0,619854859658.86,12.57,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Daerah,4930717453843.0,1007167768989.1,20.43,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Daerah,4930717453843.0,1292138548546.7,26.21,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Daerah,4930717453843.0,1685610420017.5,34.19,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Daerah,4930717453843.0,2078066628341.6,42.15,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Daerah,4930717453843.0,2390562653655.9,48.48,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Daerah,4930717453843.0,2497413555290.9,50.65,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Daerah,4930717453843.0,2497413555290.8,50.65,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Daerah,4930717453843.0,2497413555290.9,50.65,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Daerah,4930717453843.0,2497413555290.9,50.65,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Hibah,274393172326.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Hibah,274393172326.0,1650000000.0,0.6,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Hibah,274393172326.0,8287771013.0,3.02,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Hibah,274393172326.0,15007010513.0,5.47,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Hibah,274393172326.0,15007010513.0,5.47,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Hibah,274393172326.0,26014149451.0,9.48,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Hibah,274393172326.0,50084101840.46,18.25,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Hibah,274393172326.0,87540989509.46,31.9,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Hibah,274393172326.0,119242315802.8,43.46,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Hibah,274393172326.0,138459656080.99,50.46,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Hibah,274393172326.0,174702893188.82,63.67,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Hibah,274393172326.0,328144640539.19,119.59,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Hibah,272349803003.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Hibah,272349803003.0,1000000000.0,0.37,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Hibah,272349803003.0,1500000000.0,0.55,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Hibah,272349803003.0,66573194295.0,24.44,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Hibah,272349803003.0,95359426295.0,35.01,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Hibah,272349803003.0,134929797603.0,49.54,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Hibah,272349803003.0,160093825800.0,58.78,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Hibah,272349803003.0,171960721800.0,63.14,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Hibah,272349803003.0,176053416700.0,64.64,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Hibah,272349803003.0,223784219650.0,82.17,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Hibah,272349803003.0,243147664227.0,89.28,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Hibah,272349803003.0,323245519696.0,118.69,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Hibah,109876617325.06,7421107350.0,6.75,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Hibah,109876617325.06,9705251805.0,8.83,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Hibah,109876617325.06,11400529947.0,10.38,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Hibah,109876617325.06,12189017356.0,11.09,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Hibah,109876617325.06,13987359720.0,12.73,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Hibah,109876617325.06,18566010000.0,16.9,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Hibah,109876617325.06,32858266411.0,29.9,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Hibah,109876617325.06,39061959123.0,35.55,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Hibah,109876617325.06,44114957547.0,40.15,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Hibah,109876617325.06,46807027134.0,42.6,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Hibah,109876617325.06,64316595685.0,58.54,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Hibah,109876617325.06,141925548363.0,129.17,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Hibah,120948067661.96,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Hibah,120948067661.96,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Hibah,120948067661.96,2070469191.0,1.71,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Hibah,120948067661.96,11813428171.0,9.77,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Hibah,120948067661.96,13713428171.0,11.34,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Hibah,120948067661.96,22269876591.0,18.41,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Hibah,120948067661.96,30643750591.0,25.34,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Hibah,120948067661.96,40827509110.0,33.76,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Hibah,120948067661.96,41207509005.0,34.07,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Hibah,120948067661.96,41207509005.0,34.07,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Hibah,120948067661.96,41207509005.0,34.07,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Hibah,120948067661.96,41207509005.0,34.07,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Lainnya,1049919592708.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Lainnya,1049919592708.0,1650000000.0,0.16,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Lainnya,1049919592708.0,8375561813.0,0.8,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Lainnya,1049919592708.0,26788647471.0,2.55,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Lainnya,1049919592708.0,26788647471.0,2.55,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Lainnya,1049919592708.0,42313197796.0,4.03,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Lainnya,1049919592708.0,72260211474.46,6.88,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Lainnya,1049919592708.0,284665714224.46,27.11,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Lainnya,1049919592708.0,323188574946.77,30.78,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Lainnya,1049919592708.0,516823814452.96,49.23,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Lainnya,1049919592708.0,597787519093.79,56.94,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Lainnya,1049919592708.0,966276555730.59,92.03,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Lainnya,1026593079823.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Lainnya,1026593079823.0,1000000000.0,0.1,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Lainnya,1026593079823.0,10676000000.0,1.04,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Lainnya,1026593079823.0,76191994295.0,7.42,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Lainnya,1026593079823.0,302094192453.0,29.43,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Lainnya,1026593079823.0,343785623761.0,33.49,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Lainnya,1026593079823.0,378002079179.0,36.82,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Lainnya,1026593079823.0,610082508052.0,59.43,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Lainnya,1026593079823.0,615345862952.0,59.94,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Lainnya,1026593079823.0,762743353361.0,74.3,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Lainnya,1026593079823.0,1029280410605.0,100.26,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Lainnya,1026593079823.0,1171604008930.0,114.13,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Lainnya,973506415104.68,7421107350.0,0.76,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Lainnya,973506415104.68,9705251805.0,1.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Lainnya,973506415104.68,11400529947.0,1.17,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Lainnya,973506415104.68,12189017356.0,1.25,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Lainnya,973506415104.68,243434560468.92,25.01,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Lainnya,973506415104.68,248763210748.92,25.55,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Lainnya,973506415104.68,266127336447.92,27.34,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Lainnya,973506415104.68,439669357429.62,45.16,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Lainnya,973506415104.68,445622355853.62,45.77,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Lainnya,973506415104.68,661676210241.04,67.97,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Lainnya,973506415104.68,695799050890.04,71.47,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Lainnya,973506415104.68,932425117988.04,95.78,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Lainnya,844998195290.96,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Lainnya,844998195290.96,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Lainnya,844998195290.96,2070469191.0,0.25,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Lainnya,844998195290.96,133802243263.6,15.83,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Lainnya,844998195290.96,198079342936.4,23.44,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Lainnya,844998195290.96,254889859459.0,30.16,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Lainnya,844998195290.96,399521377468.2,47.28,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Lainnya,844998195290.96,484661296798.6,57.36,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Lainnya,844998195290.96,485041296693.6,57.4,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Lainnya,844998195290.96,485041296693.6,57.4,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Lainnya,844998195290.96,485041296693.6,57.4,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Lainnya,844998195290.96,485041296693.6,57.4,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Modal,835439351035.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Modal,835439351035.0,32148584175.0,3.85,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Modal,835439351035.0,41296944048.0,4.94,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Modal,835439351035.0,55553275306.19,6.65,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Modal,835439351035.0,55553275306.19,6.65,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Modal,835439351035.0,82961055775.19,9.93,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Modal,835439351035.0,102158155786.19,12.23,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Modal,835439351035.0,180499465219.43,21.61,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Modal,835439351035.0,211256333647.43,25.29,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Modal,835439351035.0,297203514262.14,35.57,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Modal,835439351035.0,430270195073.92,51.5,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Modal,835439351035.0,813523659892.96,97.38,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Modal,1007276988358.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Modal,1007276988358.0,32410627638.0,3.22,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Modal,1007276988358.0,105359314818.0,10.46,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Modal,1007276988358.0,137330947135.0,13.63,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Modal,1007276988358.0,199079787320.0,19.76,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Modal,1007276988358.0,235244749068.0,23.35,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Modal,1007276988358.0,299223202732.0,29.71,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Modal,1007276988358.0,384423760344.0,38.16,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Modal,1007276988358.0,443415047781.0,44.02,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Modal,1007276988358.0,597001508462.18,59.27,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Modal,1007276988358.0,693849960304.18,68.88,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Modal,1007276988358.0,1048818023742.6,104.12,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Modal,594054767512.83,389047809.0,0.07,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Modal,594054767512.83,20435913958.0,3.44,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Modal,594054767512.83,58078782584.0,9.78,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Modal,594054767512.83,60562053925.0,10.19,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Modal,594054767512.83,97903689569.0,16.48,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Modal,594054767512.83,112248731669.0,18.9,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Modal,594054767512.83,156016265055.0,26.26,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Modal,594054767512.83,177049154466.0,29.8,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Modal,594054767512.83,203041255533.54,34.18,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Modal,594054767512.83,276689638390.54,46.58,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Modal,594054767512.83,335093858572.74,56.41,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Modal,594054767512.83,593666077637.67,99.93,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Modal,406457966034.06,4336770.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Modal,406457966034.06,174873470.0,0.04,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Modal,406457966034.06,1562696564.79,0.38,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Modal,406457966034.06,49914813149.79,12.28,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Modal,406457966034.06,85559894513.79,21.05,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Modal,406457966034.06,128224390073.79,31.55,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Modal,406457966034.06,168325678791.79,41.41,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Modal,406457966034.06,187276730420.79,46.08,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Modal,406457966034.06,190721464970.79,46.92,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Modal,406457966034.06,190721464970.79,46.92,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Modal,406457966034.06,190721464970.79,46.92,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Modal,406457966034.06,190721464970.79,46.92,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Pegawai,1930816996938.0,59946122860.0,3.1,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Pegawai,1930816996938.0,128978667274.0,6.68,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Pegawai,1930816996938.0,190566243284.0,9.87,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Pegawai,1930816996938.0,405226834637.0,20.99,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Pegawai,1930816996938.0,405226834637.0,20.99,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Pegawai,1930816996938.0,542613821484.0,28.1,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Pegawai,1930816996938.0,679066689293.0,35.17,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Pegawai,1930816996938.0,760802681032.0,39.4,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Pegawai,1930816996938.0,842556840580.0,43.64,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Pegawai,1930816996938.0,938654146122.0,48.61,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Pegawai,1930816996938.0,1080254774067.0,55.95,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Pegawai,1930816996938.0,1261819077309.0,65.35,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Pegawai,2076590534363.0,-461420.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Pegawai,2076590534363.0,144125661406.0,6.94,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Pegawai,2076590534363.0,262449113664.0,12.64,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Pegawai,2076590534363.0,424427163504.0,20.44,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Pegawai,2076590534363.0,586926062749.0,28.26,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Pegawai,2076590534363.0,763719712572.0,36.78,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Pegawai,2076590534363.0,920716261971.0,44.34,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Pegawai,2076590534363.0,1023356410821.0,49.28,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Pegawai,2076590534363.0,1120892670428.0,53.98,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Pegawai,2076590534363.0,1231921911791.0,59.32,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Pegawai,2076590534363.0,1393794313305.0,67.12,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Pegawai,2076590534363.0,1591748139701.0,76.65,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Pegawai,2388345133226.3,64776160942.0,2.71,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Pegawai,2388345133226.3,197464171674.0,8.27,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Pegawai,2388345133226.3,393533381732.0,16.48,False,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Pegawai,2388345133226.3,501846206753.0,21.01,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Pegawai,2388345133226.3,661570122115.0,27.7,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Pegawai,2388345133226.3,773996294489.0,32.41,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Pegawai,2388345133226.3,1024767734667.0,42.91,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Pegawai,2388345133226.3,1128253494115.0,47.24,False,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Pegawai,2388345133226.3,1238368739870.0,51.85,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Pegawai,2388345133226.3,1342701640270.0,56.22,False,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Pegawai,2388345133226.3,1466102501194.0,61.39,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Pegawai,2388345133226.3,1757442563290.0,73.58,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Pegawai,2320009561469.0,85639301830.0,3.69,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Pegawai,2320009561469.0,243810887241.0,10.51,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Pegawai,2320009561469.0,463355754400.0,19.97,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Pegawai,2320009561469.0,574836608081.0,24.78,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Pegawai,2320009561469.0,707242923566.0,30.48,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Pegawai,2320009561469.0,898760743902.0,38.74,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Pegawai,2320009561469.0,1010772984261.0,43.57,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Pegawai,2320009561469.0,1131925874616.1,48.79,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Pegawai,2320009561469.0,1219677586396.1,52.57,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Pegawai,2320009561469.0,1219677586396.1,52.57,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Pegawai,2320009561469.0,1219677586396.1,52.57,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Pegawai,2320009561469.0,1219677586396.1,52.57,False,True
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,11,November,47,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Subsidi,300000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2023,1,Januari,1,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Belanja Tidak Terduga,10000000000.0,31985800.0,0.32,False,False
+Sulawesi Tengah,19,2023,4,April,4,Belanja Tidak Terduga,10000000000.0,31985800.0,0.32,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Belanja Tidak Terduga,10000000000.0,31985800.0,0.32,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Belanja Tidak Terduga,10000000000.0,31985800.0,0.32,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Belanja Tidak Terduga,10000000000.0,31985800.0,0.32,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Belanja Tidak Terduga,10000000000.0,4684399800.0,46.84,False,False
+Sulawesi Tengah,19,2023,9,September,9,Belanja Tidak Terduga,10000000000.0,4684399800.0,46.84,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Belanja Tidak Terduga,10000000000.0,4684399800.0,46.84,False,False
+Sulawesi Tengah,19,2023,11,November,11,Belanja Tidak Terduga,10000000000.0,4684399800.0,46.84,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,4,April,16,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Belanja Tidak Terduga,10000000000.0,17912921.0,0.18,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Belanja Tidak Terduga,10000000000.0,17912921.0,0.18,False,False
+Sulawesi Tengah,19,2024,9,September,21,Belanja Tidak Terduga,10000000000.0,17912921.0,0.18,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Belanja Tidak Terduga,10000000000.0,109304921.0,1.09,False,False
+Sulawesi Tengah,19,2024,11,November,23,Belanja Tidak Terduga,10000000000.0,109304921.0,1.09,False,True
+Sulawesi Tengah,19,2024,12,Desember,24,Belanja Tidak Terduga,10000000000.0,109304921.0,1.09,False,True
+Sulawesi Tengah,19,2025,1,Januari,25,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,2,Februari,26,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,3,Maret,27,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,4,April,28,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,5,Mei,29,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,6,Juni,30,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,7,Juli,31,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,9,September,33,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,11,November,35,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2025,12,Desember,36,Belanja Tidak Terduga,16500000000.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,1,Januari,37,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,4,April,40,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Belanja Tidak Terduga,50000000000.0,687460000.0,1.37,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Belanja Tidak Terduga,50000000000.0,687460000.0,1.37,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Belanja Tidak Terduga,50000000000.0,1687460000.0,3.37,False,False
+Sulawesi Tengah,19,2026,9,September,45,Belanja Tidak Terduga,50000000000.0,1687460000.0,3.37,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Belanja Tidak Terduga,50000000000.0,1687460000.0,3.37,False,True
+Sulawesi Tengah,19,2026,11,November,47,Belanja Tidak Terduga,50000000000.0,1687460000.0,3.37,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Belanja Tidak Terduga,50000000000.0,1687460000.0,3.37,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,221820808.0,0.13,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,52412250973.0,29.95,False,False
+Sulawesi Tengah,19,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,52412250973.0,29.95,False,True
+Sulawesi Tengah,19,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,52412250973.0,29.95,False,True
+Sulawesi Tengah,19,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,52412250973.0,29.95,False,True
+Sulawesi Tengah,19,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,175000000000.0,52412250973.0,29.95,False,True
+Sulawesi Tengah,19,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,50435846882.0,21.92,False,False
+Sulawesi Tengah,19,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,50435846882.0,21.92,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,50435846882.0,21.92,False,False
+Sulawesi Tengah,19,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,50435846882.0,21.92,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,230100000000.0,51244848172.0,22.27,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,52785622487.0,105.36,False,False
+Sulawesi Tengah,19,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,52785622487.0,105.36,False,True
+Sulawesi Tengah,19,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,52785622487.0,105.36,False,True
+Sulawesi Tengah,19,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,True
+Sulawesi Tengah,19,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,True
+Sulawesi Tengah,19,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,50100000000.0,59536544761.0,118.84,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Lain-Lain PAD yang Sah,307137097036.0,2719848848.97,0.89,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Lain-Lain PAD yang Sah,307137097036.0,5569545378.19,1.81,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Lain-Lain PAD yang Sah,307137097036.0,21888464617.4,7.13,False,False
+Sulawesi Tengah,19,2023,4,April,4,Lain-Lain PAD yang Sah,307137097036.0,41374974043.46,13.47,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Lain-Lain PAD yang Sah,307137097036.0,41374974043.46,13.47,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Lain-Lain PAD yang Sah,307137097036.0,53491930215.2,17.42,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Lain-Lain PAD yang Sah,307137097036.0,61458884428.33,20.01,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Lain-Lain PAD yang Sah,307137097036.0,80224807455.3,26.12,False,False
+Sulawesi Tengah,19,2023,9,September,9,Lain-Lain PAD yang Sah,307137097036.0,106158811293.67,34.56,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Lain-Lain PAD yang Sah,307137097036.0,131881592846.15,42.94,False,False
+Sulawesi Tengah,19,2023,11,November,11,Lain-Lain PAD yang Sah,307137097036.0,153896696096.28,50.11,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Lain-Lain PAD yang Sah,307137097036.0,216735979358.33,70.57,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Lain-Lain PAD yang Sah,354061212139.0,2467358393.86,0.7,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Lain-Lain PAD yang Sah,354061212139.0,4997987102.01,1.41,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Lain-Lain PAD yang Sah,354061212139.0,31965342511.42,9.03,False,False
+Sulawesi Tengah,19,2024,4,April,16,Lain-Lain PAD yang Sah,354061212139.0,35510855858.62,10.03,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Lain-Lain PAD yang Sah,354061212139.0,71626475772.73,20.23,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Lain-Lain PAD yang Sah,354061212139.0,118944155761.1,33.59,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Lain-Lain PAD yang Sah,354061212139.0,124196767846.78,35.08,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Lain-Lain PAD yang Sah,354061212139.0,146147636662.66,41.28,False,False
+Sulawesi Tengah,19,2024,9,September,21,Lain-Lain PAD yang Sah,354061212139.0,171472342220.61,48.43,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Lain-Lain PAD yang Sah,354061212139.0,193168106277.34,54.56,False,False
+Sulawesi Tengah,19,2024,11,November,23,Lain-Lain PAD yang Sah,354061212139.0,215041420014.19,60.74,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Lain-Lain PAD yang Sah,354061212139.0,270173475490.06,76.31,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Lain-Lain PAD yang Sah,376956260424.0,1417172029.86,0.38,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Lain-Lain PAD yang Sah,376956260424.0,2462581841.13,0.65,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Lain-Lain PAD yang Sah,376956260424.0,26143268488.98,6.94,False,False
+Sulawesi Tengah,19,2025,4,April,28,Lain-Lain PAD yang Sah,376956260424.0,60086836862.69,15.94,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Lain-Lain PAD yang Sah,376956260424.0,70604632511.04,18.73,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Lain-Lain PAD yang Sah,376956260424.0,114485273397.47,30.37,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Lain-Lain PAD yang Sah,376956260424.0,119140914695.74,31.61,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Lain-Lain PAD yang Sah,376956260424.0,145994988335.0,38.73,False,False
+Sulawesi Tengah,19,2025,9,September,33,Lain-Lain PAD yang Sah,376956260424.0,171242293328.53,45.43,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Lain-Lain PAD yang Sah,376956260424.0,197492284245.25,52.39,False,False
+Sulawesi Tengah,19,2025,11,November,35,Lain-Lain PAD yang Sah,376956260424.0,199932269029.59,53.04,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Lain-Lain PAD yang Sah,376956260424.0,279118665627.79,74.05,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Lain-Lain PAD yang Sah,31552235143.0,1842209127.67,5.84,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Lain-Lain PAD yang Sah,31552235143.0,2920658745.0,9.26,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Lain-Lain PAD yang Sah,31552235143.0,4325539770.98,13.71,False,False
+Sulawesi Tengah,19,2026,4,April,40,Lain-Lain PAD yang Sah,31552235143.0,6169207700.0,19.55,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Lain-Lain PAD yang Sah,31552235143.0,10035246666.79,31.81,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Lain-Lain PAD yang Sah,31552235143.0,12006628410.33,38.05,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Lain-Lain PAD yang Sah,31552235143.0,12703248156.33,40.26,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Lain-Lain PAD yang Sah,31552235143.0,13169797484.33,41.74,False,False
+Sulawesi Tengah,19,2026,9,September,45,Lain-Lain PAD yang Sah,31552235143.0,13169797484.33,41.74,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Lain-Lain PAD yang Sah,31552235143.0,13169797484.33,41.74,False,True
+Sulawesi Tengah,19,2026,11,November,47,Lain-Lain PAD yang Sah,31552235143.0,13169797484.33,41.74,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Lain-Lain PAD yang Sah,31552235143.0,13169797484.33,41.74,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,4,April,4,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,9,September,9,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,11,November,11,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,65282240.0,0.0,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,9925600.0,0.0,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,55298875.0,0.0,False,False
+Sulawesi Tengah,19,2024,4,April,16,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,55298875.0,0.0,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,True
+Sulawesi Tengah,19,2024,9,September,21,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,True
+Sulawesi Tengah,19,2024,10,Oktober,22,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,True
+Sulawesi Tengah,19,2024,11,November,23,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,True
+Sulawesi Tengah,19,2024,12,Desember,24,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,60628875.0,0.0,False,True
+Sulawesi Tengah,19,2025,1,Januari,25,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,4,April,28,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,34345524481.0,0.0,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,34345524481.0,0.0,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,34345681345.74,0.0,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,38670925702.74,0.0,False,False
+Sulawesi Tengah,19,2025,9,September,33,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,38670925702.74,0.0,False,True
+Sulawesi Tengah,19,2025,10,Oktober,34,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,38670925702.74,0.0,False,True
+Sulawesi Tengah,19,2025,11,November,35,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,38670925702.74,0.0,False,True
+Sulawesi Tengah,19,2025,12,Desember,36,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,38670925702.74,0.0,False,True
+Sulawesi Tengah,19,2026,1,Januari,37,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,2,Februari,38,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,3,Maret,39,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,4,April,40,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,5,Mei,41,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,6,Juni,42,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,7,Juli,43,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,9,September,45,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,11,November,47,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2026,12,Desember,48,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,537174283.0,0.0,True,False
+Sulawesi Tengah,19,2023,1,Januari,1,PAD,1701785047036.0,103271830059.46,6.07,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,PAD,1701785047036.0,200703853561.37,11.79,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,PAD,1701785047036.0,303591245543.07,17.84,False,False
+Sulawesi Tengah,19,2023,4,April,4,PAD,1701785047036.0,500692714254.24,29.42,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,PAD,1701785047036.0,500692714254.24,29.42,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,PAD,1701785047036.0,599186032906.65,35.21,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,PAD,1701785047036.0,756542649895.67,44.46,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,PAD,1701785047036.0,930919877401.15,54.7,False,False
+Sulawesi Tengah,19,2023,9,September,9,PAD,1701785047036.0,1060274920096.2,62.3,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,PAD,1701785047036.0,1230628270647.3,72.31,False,False
+Sulawesi Tengah,19,2023,11,November,11,PAD,1701785047036.0,1355815222718.8,79.67,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,PAD,1701785047036.0,1580999185028.0,92.9,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,PAD,2059942177139.0,101695525699.23,4.94,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,PAD,2059942177139.0,203877930215.49,9.9,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,PAD,2059942177139.0,327612595642.39,15.9,False,False
+Sulawesi Tengah,19,2024,4,April,16,PAD,2059942177139.0,539299111406.92,26.18,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,PAD,2059942177139.0,704548402560.29,34.2,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,PAD,2059942177139.0,872671564195.07,42.36,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,PAD,2059942177139.0,1066844789755.5,51.79,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,PAD,2059942177139.0,1286927823910.7,62.47,False,False
+Sulawesi Tengah,19,2024,9,September,21,PAD,2059942177139.0,1444147467926.1,70.11,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,PAD,2059942177139.0,1666824980028.8,80.92,False,False
+Sulawesi Tengah,19,2024,11,November,23,PAD,2059942177139.0,1819185631494.6,88.31,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,PAD,2059942177139.0,2115134617384.5,102.68,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,PAD,2127478060424.0,112732470011.51,5.3,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,PAD,2127478060424.0,217757592844.42,10.24,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,PAD,2127478060424.0,349512820123.85,16.43,False,False
+Sulawesi Tengah,19,2025,4,April,28,PAD,2127478060424.0,593665035615.98,27.9,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,PAD,2127478060424.0,712583501247.61,33.49,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,PAD,2127478060424.0,863928139825.88,40.61,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,PAD,2127478060424.0,1049817027152.5,49.35,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,PAD,2127478060424.0,1211031787164.4,56.92,False,False
+Sulawesi Tengah,19,2025,9,September,33,PAD,2127478060424.0,1242086938192.9,58.38,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,PAD,2127478060424.0,1505141652199.9,70.75,False,False
+Sulawesi Tengah,19,2025,11,November,35,PAD,2127478060424.0,1635275745027.0,76.86,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,PAD,2127478060424.0,2062224661647.5,96.93,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,PAD,2543336248343.0,125713703075.87,4.94,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,PAD,2543336248343.0,256376497113.2,10.08,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,PAD,2543336248343.0,428746131842.27,16.86,False,False
+Sulawesi Tengah,19,2026,4,April,40,PAD,2543336248343.0,686854067202.35,27.01,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,PAD,2543336248343.0,870718476219.39,34.24,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,PAD,2543336248343.0,1057933985977.2,41.6,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,PAD,2543336248343.0,1278872422990.1,50.28,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,PAD,2543336248343.0,1421096662888.9,55.88,False,False
+Sulawesi Tengah,19,2026,9,September,45,PAD,2543336248343.0,1421168962888.9,55.88,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,PAD,2543336248343.0,1421168962888.9,55.88,False,True
+Sulawesi Tengah,19,2026,11,November,47,PAD,2543336248343.0,1421168962888.9,55.88,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,PAD,2543336248343.0,1421168962888.9,55.88,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Pajak Daerah,1200411000000.0,99860077190.49,8.32,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Pajak Daerah,1200411000000.0,189164496607.18,15.76,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Pajak Daerah,1200411000000.0,274491321904.67,22.87,False,False
+Sulawesi Tengah,19,2023,4,April,4,Pajak Daerah,1200411000000.0,451273596864.78,37.59,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Pajak Daerah,1200411000000.0,451273596864.78,37.59,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Pajak Daerah,1200411000000.0,536500361045.45,44.69,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Pajak Daerah,1200411000000.0,684547236703.34,57.03,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Pajak Daerah,1200411000000.0,786629362964.85,65.53,False,False
+Sulawesi Tengah,19,2023,9,September,9,Pajak Daerah,1200411000000.0,888471083286.52,74.01,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Pajak Daerah,1200411000000.0,1031563731192.1,85.93,False,False
+Sulawesi Tengah,19,2023,11,November,11,Pajak Daerah,1200411000000.0,1133384306317.5,94.42,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Pajak Daerah,1200411000000.0,1289958369399.6,107.46,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Pajak Daerah,1450000000000.0,98634572887.37,6.8,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Pajak Daerah,1450000000000.0,197465614125.48,13.62,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Pajak Daerah,1450000000000.0,293136912222.97,20.22,False,False
+Sulawesi Tengah,19,2024,4,April,16,Pajak Daerah,1450000000000.0,500427400995.3,34.51,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Pajak Daerah,1450000000000.0,627623653874.56,43.28,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Pajak Daerah,1450000000000.0,745505037796.97,51.41,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Pajak Daerah,1450000000000.0,933292376421.76,64.36,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Pajak Daerah,1450000000000.0,1080030550779.1,74.48,False,False
+Sulawesi Tengah,19,2024,9,September,21,Pajak Daerah,1450000000000.0,1209521101771.5,83.42,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Pajak Daerah,1450000000000.0,1408726067901.5,97.15,False,False
+Sulawesi Tengah,19,2024,11,November,23,Pajak Daerah,1450000000000.0,1537725523765.5,106.05,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Pajak Daerah,1450000000000.0,1774182144129.5,122.36,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Pajak Daerah,1680540000000.0,110435618971.65,6.57,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Pajak Daerah,1680540000000.0,209530306518.29,12.47,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Pajak Daerah,1680540000000.0,316616076794.87,18.84,False,False
+Sulawesi Tengah,19,2025,4,April,28,Pajak Daerah,1680540000000.0,525995015583.29,31.3,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Pajak Daerah,1680540000000.0,632876611091.57,37.66,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Pajak Daerah,1680540000000.0,739082591853.41,43.98,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Pajak Daerah,1680540000000.0,918092058611.71,54.63,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Pajak Daerah,1680540000000.0,1051049674809.4,62.54,False,False
+Sulawesi Tengah,19,2025,9,September,33,Pajak Daerah,1680540000000.0,1051049674809.4,62.54,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Pajak Daerah,1680540000000.0,1233004556787.7,73.37,False,False
+Sulawesi Tengah,19,2025,11,November,35,Pajak Daerah,1680540000000.0,1359826962330.4,80.92,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Pajak Daerah,1680540000000.0,1701579449512.7,101.25,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Pajak Daerah,2120000000000.0,122883513223.2,5.8,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Pajak Daerah,2120000000000.0,250372987178.2,11.81,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Pajak Daerah,2120000000000.0,373173941307.29,17.6,False,False
+Sulawesi Tengah,19,2026,4,April,40,Pajak Daerah,2120000000000.0,602852106145.35,28.44,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Pajak Daerah,2120000000000.0,758629547192.6,35.78,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Pajak Daerah,2120000000000.0,922384594397.85,43.51,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Pajak Daerah,2120000000000.0,1083089866903.8,51.09,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Pajak Daerah,2120000000000.0,1224847557474.6,57.78,False,False
+Sulawesi Tengah,19,2026,9,September,45,Pajak Daerah,2120000000000.0,1224847557474.5,57.78,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Pajak Daerah,2120000000000.0,1224847557474.6,57.78,False,True
+Sulawesi Tengah,19,2026,11,November,47,Pajak Daerah,2120000000000.0,1224847557474.5,57.78,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Pajak Daerah,2120000000000.0,1224847557474.6,57.78,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Pendapatan Daerah,4493561983536.0,302567644799.46,6.73,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Pendapatan Daerah,4493561983536.0,494212122125.37,11.0,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Pendapatan Daerah,4493561983536.0,909111270292.07,20.23,False,False
+Sulawesi Tengah,19,2023,4,April,4,Pendapatan Daerah,4493561983536.0,1317195640709.2,29.31,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Pendapatan Daerah,4493561983536.0,1317195640709.2,29.31,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Pendapatan Daerah,4493561983536.0,1646478016801.6,36.64,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Pendapatan Daerah,4493561983536.0,1987367186627.7,44.23,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Pendapatan Daerah,4493561983536.0,2527623670033.1,56.25,False,False
+Sulawesi Tengah,19,2023,9,September,9,Pendapatan Daerah,4493561983536.0,2811437142278.2,62.57,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Pendapatan Daerah,4493561983536.0,3422852630507.3,76.17,False,False
+Sulawesi Tengah,19,2023,11,November,11,Pendapatan Daerah,4493561983536.0,3677207741639.8,81.83,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Pendapatan Daerah,4493561983536.0,4308233171844.0,95.88,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Pendapatan Daerah,5150058670639.0,362959036499.23,7.05,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Pendapatan Daerah,5150058670639.0,592631125415.49,11.51,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Pendapatan Daerah,5150058670639.0,1074037971821.4,20.85,False,False
+Sulawesi Tengah,19,2024,4,April,16,Pendapatan Daerah,5150058670639.0,1531161930730.9,29.73,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Pendapatan Daerah,5150058670639.0,1914033930804.3,37.17,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Pendapatan Daerah,5150058670639.0,2597916109509.1,50.44,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Pendapatan Daerah,5150058670639.0,3089312604217.5,59.99,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Pendapatan Daerah,5150058670639.0,3519867327276.7,68.35,False,False
+Sulawesi Tengah,19,2024,9,September,21,Pendapatan Daerah,5150058670639.0,4186762049935.1,81.3,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Pendapatan Daerah,5150058670639.0,4647203144363.8,90.24,False,False
+Sulawesi Tengah,19,2024,11,November,23,Pendapatan Daerah,5150058670639.0,5049233032289.6,98.04,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Pendapatan Daerah,5150058670639.0,5555534543556.5,107.87,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Pendapatan Daerah,5302982984924.0,327773229111.51,6.18,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Pendapatan Daerah,5302982984924.0,689194318044.42,13.0,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Pendapatan Daerah,5302982984924.0,978821984173.85,18.46,False,False
+Sulawesi Tengah,19,2025,4,April,28,Pendapatan Daerah,5302982984924.0,1420740846667.0,26.79,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Pendapatan Daerah,5302982984924.0,1792859432929.6,33.81,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Pendapatan Daerah,5302982984924.0,2217276677226.9,41.81,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Pendapatan Daerah,5302982984924.0,2588343062549.2,48.81,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Pendapatan Daerah,5302982984924.0,3116049255413.1,58.76,False,False
+Sulawesi Tengah,19,2025,9,September,33,Pendapatan Daerah,5302982984924.0,3431491884648.7,64.71,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Pendapatan Daerah,5302982984924.0,3882471802514.7,73.21,False,False
+Sulawesi Tengah,19,2025,11,November,35,Pendapatan Daerah,5302982984924.0,4202407612118.8,79.25,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Pendapatan Daerah,5302982984924.0,4949642679190.3,93.34,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Pendapatan Daerah,4827915855843.0,453374970858.87,9.39,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Pendapatan Daerah,4827915855843.0,740060726796.2,15.33,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Pendapatan Daerah,4827915855843.0,1076193107848.3,22.29,False,False
+Sulawesi Tengah,19,2026,4,April,40,Pendapatan Daerah,4827915855843.0,1484109952975.4,30.74,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Pendapatan Daerah,4827915855843.0,1826700790992.4,37.84,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Pendapatan Daerah,4827915855843.0,2164049896700.2,44.82,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Pendapatan Daerah,4827915855843.0,2385884802413.1,49.42,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Pendapatan Daerah,4827915855843.0,2572118987461.9,53.28,False,False
+Sulawesi Tengah,19,2026,9,September,45,Pendapatan Daerah,4827915855843.0,2572191287461.9,53.28,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Pendapatan Daerah,4827915855843.0,2572191287461.9,53.28,False,True
+Sulawesi Tengah,19,2026,11,November,47,Pendapatan Daerah,4827915855843.0,2572191287461.9,53.28,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Pendapatan Daerah,4827915855843.0,2572191287461.9,53.28,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Pendapatan Hibah,3974291500.0,96437340.0,2.43,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Pendapatan Hibah,3974291500.0,136292340.0,3.43,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Pendapatan Hibah,3974291500.0,2148075476.0,54.05,False,False
+Sulawesi Tengah,19,2023,4,April,4,Pendapatan Hibah,3974291500.0,2161427176.0,54.39,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Pendapatan Hibah,3974291500.0,2161427176.0,54.39,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Pendapatan Hibah,3974291500.0,2213767176.0,55.7,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Pendapatan Hibah,3974291500.0,3401408816.0,85.59,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Pendapatan Hibah,3974291500.0,3639151816.0,91.57,False,False
+Sulawesi Tengah,19,2023,9,September,9,Pendapatan Hibah,3974291500.0,4162688011.0,104.74,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Pendapatan Hibah,3974291500.0,4455171011.0,112.1,False,False
+Sulawesi Tengah,19,2023,11,November,11,Pendapatan Hibah,3974291500.0,4698879011.0,118.23,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Pendapatan Hibah,3974291500.0,5510277321.0,138.65,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Pendapatan Hibah,2577756500.0,58315000.0,2.26,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Pendapatan Hibah,2577756500.0,103325000.0,4.01,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Pendapatan Hibah,2577756500.0,123445000.0,4.79,False,False
+Sulawesi Tengah,19,2024,4,April,16,Pendapatan Hibah,2577756500.0,403242945.0,15.64,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Pendapatan Hibah,2577756500.0,439292945.0,17.04,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Pendapatan Hibah,2577756500.0,701768370.0,27.22,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Pendapatan Hibah,2577756500.0,1404223995.0,54.47,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Pendapatan Hibah,2577756500.0,1643370995.0,63.75,False,False
+Sulawesi Tengah,19,2024,9,September,21,Pendapatan Hibah,2577756500.0,1915684245.0,74.32,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Pendapatan Hibah,2577756500.0,2062160245.0,80.0,False,False
+Sulawesi Tengah,19,2024,11,November,23,Pendapatan Hibah,2577756500.0,2578888495.0,100.04,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Pendapatan Hibah,2577756500.0,10463080495.0,405.9,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,4,April,28,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Pendapatan Hibah,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Pendapatan Hibah,1929412500.0,683477000.0,35.42,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Pendapatan Hibah,1929412500.0,797279000.0,41.32,False,False
+Sulawesi Tengah,19,2025,9,September,33,Pendapatan Hibah,1929412500.0,911081000.0,47.22,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Pendapatan Hibah,1929412500.0,911081000.0,47.22,False,False
+Sulawesi Tengah,19,2025,11,November,35,Pendapatan Hibah,1929412500.0,911081000.0,47.22,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Pendapatan Hibah,1929412500.0,1366289000.0,70.81,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,2,Februari,38,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,3,Maret,39,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,4,April,40,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,5,Mei,41,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,6,Juni,42,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,7,Juli,43,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,9,September,45,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,11,November,47,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2026,12,Desember,48,Pendapatan Hibah,1929412500.0,0.0,0.0,True,False
+Sulawesi Tengah,19,2023,1,Januari,1,Pendapatan Lainnya,3974291500.0,96437340.0,2.43,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Pendapatan Lainnya,3974291500.0,136292340.0,3.43,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Pendapatan Lainnya,3974291500.0,2148075476.0,54.05,False,False
+Sulawesi Tengah,19,2023,4,April,4,Pendapatan Lainnya,3974291500.0,2161427176.0,54.39,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Pendapatan Lainnya,3974291500.0,2161427176.0,54.39,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Pendapatan Lainnya,3974291500.0,2213767176.0,55.7,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Pendapatan Lainnya,3974291500.0,3401408816.0,85.59,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Pendapatan Lainnya,3974291500.0,3639151816.0,91.57,False,False
+Sulawesi Tengah,19,2023,9,September,9,Pendapatan Lainnya,3974291500.0,4162688011.0,104.74,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Pendapatan Lainnya,3974291500.0,4455171011.0,112.1,False,False
+Sulawesi Tengah,19,2023,11,November,11,Pendapatan Lainnya,3974291500.0,4698879011.0,118.23,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Pendapatan Lainnya,3974291500.0,5575559561.0,140.29,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Pendapatan Lainnya,2577756500.0,58315000.0,2.26,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Pendapatan Lainnya,2577756500.0,113250600.0,4.39,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Pendapatan Lainnya,2577756500.0,178743875.0,6.93,False,False
+Sulawesi Tengah,19,2024,4,April,16,Pendapatan Lainnya,2577756500.0,458541820.0,17.79,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Pendapatan Lainnya,2577756500.0,499921820.0,19.39,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Pendapatan Lainnya,2577756500.0,701768370.0,27.22,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Pendapatan Lainnya,2577756500.0,1464852870.0,56.83,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Pendapatan Lainnya,2577756500.0,1703999870.0,66.1,False,False
+Sulawesi Tengah,19,2024,9,September,21,Pendapatan Lainnya,2577756500.0,1976313120.0,76.67,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Pendapatan Lainnya,2577756500.0,2122789120.0,82.35,False,False
+Sulawesi Tengah,19,2024,11,November,23,Pendapatan Lainnya,2577756500.0,2639517370.0,102.4,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Pendapatan Lainnya,2577756500.0,10523709370.0,408.25,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Pendapatan Lainnya,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Pendapatan Lainnya,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Pendapatan Lainnya,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,4,April,28,Pendapatan Lainnya,1929412500.0,665000.0,0.03,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Pendapatan Lainnya,1929412500.0,34346189481.0,1.78014,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Pendapatan Lainnya,1929412500.0,34346189481.0,1.78014,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Pendapatan Lainnya,1929412500.0,35029158345.74,1.81553,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Pendapatan Lainnya,1929412500.0,39468204702.74,2.04561,False,False
+Sulawesi Tengah,19,2025,9,September,33,Pendapatan Lainnya,1929412500.0,39582006702.74,2.05151,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Pendapatan Lainnya,1929412500.0,39582006702.74,2.05151,False,False
+Sulawesi Tengah,19,2025,11,November,35,Pendapatan Lainnya,1929412500.0,39582006702.74,2.05151,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Pendapatan Lainnya,1929412500.0,40037214702.74,2.0751,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,2,Februari,38,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,3,Maret,39,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,4,April,40,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,5,Mei,41,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,6,Juni,42,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,7,Juli,43,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,9,September,45,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,11,November,47,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2026,12,Desember,48,Pendapatan Lainnya,1929412500.0,537174283.0,27.84,True,False
+Sulawesi Tengah,19,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,199199377400.0,7.15,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,293371976224.0,10.52,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,603371949273.0,21.64,False,False
+Sulawesi Tengah,19,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,814341499279.0,29.21,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,814341499279.0,29.21,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,1045078216719.0,37.49,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,1227423127916.0,44.03,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,1593064640816.0,57.14,False,False
+Sulawesi Tengah,19,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,1746999534171.0,62.67,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,2187769188849.0,78.48,False,False
+Sulawesi Tengah,19,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,2316693639910.0,83.1,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,2787802645000.0,2721658427255.0,97.63,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,261205195800.0,8.46,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,388639944600.0,12.59,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,746246632304.0,24.17,False,False
+Sulawesi Tengah,19,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,991404277504.0,32.11,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,1208985606424.0,39.16,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,1724542776944.0,55.85,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,2021002961592.0,65.46,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,2231235503496.0,72.27,False,False
+Sulawesi Tengah,19,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,2740638268889.0,88.76,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,2978255375215.0,96.46,False,False
+Sulawesi Tengah,19,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,3227407883425.0,104.53,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,3087538737000.0,3429876216802.0,111.09,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,215040094100.0,6.78,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,471436060200.0,14.86,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,629308499050.0,19.83,False,False
+Sulawesi Tengah,19,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,827075146051.0,26.06,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,1045929742201.0,32.96,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,1319002347920.0,41.56,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,1503496877051.0,47.38,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,1865549263546.0,58.78,False,False
+Sulawesi Tengah,19,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,2149822939753.0,67.74,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,2337748143612.0,73.66,False,False
+Sulawesi Tengah,19,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,2527549860389.0,79.64,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,3173575512000.0,2847380802840.0,89.72,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,327124093500.0,14.33,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,483147055400.0,21.17,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,646909801723.0,28.34,False,False
+Sulawesi Tengah,19,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,796718711490.0,34.9,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,955445140490.0,41.86,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1105578736440.0,48.43,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1106475205140.0,48.47,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1150485150290.0,50.4,False,False
+Sulawesi Tengah,19,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,Retribusi Daerah,19236950000.0,691904020.0,3.6,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,Retribusi Daerah,19236950000.0,5969811576.0,31.03,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,Retribusi Daerah,19236950000.0,7211459021.0,37.49,False,False
+Sulawesi Tengah,19,2023,4,April,4,Retribusi Daerah,19236950000.0,8044143346.0,41.82,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,Retribusi Daerah,19236950000.0,8044143346.0,41.82,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,Retribusi Daerah,19236950000.0,9193741646.0,47.79,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,Retribusi Daerah,19236950000.0,10314707956.0,53.62,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,Retribusi Daerah,19236950000.0,11653456008.0,60.58,False,False
+Sulawesi Tengah,19,2023,9,September,9,Retribusi Daerah,19236950000.0,13232774543.0,68.79,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,Retribusi Daerah,19236950000.0,14770695636.0,76.78,False,False
+Sulawesi Tengah,19,2023,11,November,11,Retribusi Daerah,19236950000.0,16121969332.0,83.81,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,Retribusi Daerah,19236950000.0,21892585297.0,113.8,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,Retribusi Daerah,25780965000.0,593594418.0,2.3,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,Retribusi Daerah,25780965000.0,1414328988.0,5.49,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,Retribusi Daerah,25780965000.0,2510340908.0,9.74,False,False
+Sulawesi Tengah,19,2024,4,April,16,Retribusi Daerah,25780965000.0,3360854553.0,13.04,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,Retribusi Daerah,25780965000.0,5298272913.0,20.55,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,Retribusi Daerah,25780965000.0,8222370637.0,31.89,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,Retribusi Daerah,25780965000.0,9355645487.0,36.29,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,Retribusi Daerah,25780965000.0,10313789587.0,40.01,False,False
+Sulawesi Tengah,19,2024,9,September,21,Retribusi Daerah,25780965000.0,12718177052.0,49.33,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,Retribusi Daerah,25780965000.0,14494958968.0,56.22,False,False
+Sulawesi Tengah,19,2024,11,November,23,Retribusi Daerah,25780965000.0,15982840833.0,61.99,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,Retribusi Daerah,25780965000.0,19534149593.0,75.77,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,Retribusi Daerah,19881800000.0,879679010.0,4.42,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,Retribusi Daerah,19881800000.0,5764704485.0,28.99,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,Retribusi Daerah,19881800000.0,6753474840.0,33.97,False,False
+Sulawesi Tengah,19,2025,4,April,28,Retribusi Daerah,19881800000.0,7583183170.0,38.14,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,Retribusi Daerah,19881800000.0,9102257645.0,45.78,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,Retribusi Daerah,19881800000.0,10360274575.0,52.11,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,Retribusi Daerah,19881800000.0,12584053845.0,63.29,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,Retribusi Daerah,19881800000.0,13987124020.0,70.35,False,False
+Sulawesi Tengah,19,2025,9,September,33,Retribusi Daerah,19881800000.0,19794970055.0,99.56,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,Retribusi Daerah,19881800000.0,21859188680.0,109.95,False,False
+Sulawesi Tengah,19,2025,11,November,35,Retribusi Daerah,19881800000.0,22730891180.0,114.33,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,Retribusi Daerah,19881800000.0,28740924020.0,144.56,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,Retribusi Daerah,341684013200.0,987980725.0,0.29,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,Retribusi Daerah,341684013200.0,3082851190.0,0.9,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,Retribusi Daerah,341684013200.0,51246650764.0,15.0,False,False
+Sulawesi Tengah,19,2026,4,April,40,Retribusi Daerah,341684013200.0,77832753357.0,22.78,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,Retribusi Daerah,341684013200.0,102053682360.0,29.87,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,Retribusi Daerah,341684013200.0,123542763169.0,36.16,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,Retribusi Daerah,341684013200.0,123542763169.0,36.16,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,Retribusi Daerah,341684013200.0,123542763169.0,36.16,False,False
+Sulawesi Tengah,19,2026,9,September,45,Retribusi Daerah,341684013200.0,123615063169.0,36.18,False,False
+Sulawesi Tengah,19,2026,10,Oktober,46,Retribusi Daerah,341684013200.0,123615063169.0,36.18,False,True
+Sulawesi Tengah,19,2026,11,November,47,Retribusi Daerah,341684013200.0,123615063169.0,36.18,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,Retribusi Daerah,341684013200.0,123615063169.0,36.18,False,True
+Sulawesi Tengah,19,2023,1,Januari,1,TKDD,2787802645000.0,199199377400.0,7.15,False,False
+Sulawesi Tengah,19,2023,2,Februari,2,TKDD,2787802645000.0,293371976224.0,10.52,False,False
+Sulawesi Tengah,19,2023,3,Maret,3,TKDD,2787802645000.0,603371949273.0,21.64,False,False
+Sulawesi Tengah,19,2023,4,April,4,TKDD,2787802645000.0,814341499279.0,29.21,False,False
+Sulawesi Tengah,19,2023,5,Mei,5,TKDD,2787802645000.0,814341499279.0,29.21,False,False
+Sulawesi Tengah,19,2023,6,Juni,6,TKDD,2787802645000.0,1045078216719.0,37.49,False,False
+Sulawesi Tengah,19,2023,7,Juli,7,TKDD,2787802645000.0,1227423127916.0,44.03,False,False
+Sulawesi Tengah,19,2023,8,Agustus,8,TKDD,2787802645000.0,1593064640816.0,57.14,False,False
+Sulawesi Tengah,19,2023,9,September,9,TKDD,2787802645000.0,1746999534171.0,62.67,False,False
+Sulawesi Tengah,19,2023,10,Oktober,10,TKDD,2787802645000.0,2187769188849.0,78.48,False,False
+Sulawesi Tengah,19,2023,11,November,11,TKDD,2787802645000.0,2316693639910.0,83.1,False,False
+Sulawesi Tengah,19,2023,12,Desember,12,TKDD,2787802645000.0,2721658427255.0,97.63,False,False
+Sulawesi Tengah,19,2024,1,Januari,13,TKDD,3087538737000.0,261205195800.0,8.46,False,False
+Sulawesi Tengah,19,2024,2,Februari,14,TKDD,3087538737000.0,388639944600.0,12.59,False,False
+Sulawesi Tengah,19,2024,3,Maret,15,TKDD,3087538737000.0,746246632304.0,24.17,False,False
+Sulawesi Tengah,19,2024,4,April,16,TKDD,3087538737000.0,991404277504.0,32.11,False,False
+Sulawesi Tengah,19,2024,5,Mei,17,TKDD,3087538737000.0,1208985606424.0,39.16,False,False
+Sulawesi Tengah,19,2024,6,Juni,18,TKDD,3087538737000.0,1724542776944.0,55.85,False,False
+Sulawesi Tengah,19,2024,7,Juli,19,TKDD,3087538737000.0,2021002961592.0,65.46,False,False
+Sulawesi Tengah,19,2024,8,Agustus,20,TKDD,3087538737000.0,2231235503496.0,72.27,False,False
+Sulawesi Tengah,19,2024,9,September,21,TKDD,3087538737000.0,2740638268889.0,88.76,False,False
+Sulawesi Tengah,19,2024,10,Oktober,22,TKDD,3087538737000.0,2978255375215.0,96.46,False,False
+Sulawesi Tengah,19,2024,11,November,23,TKDD,3087538737000.0,3227407883425.0,104.53,False,False
+Sulawesi Tengah,19,2024,12,Desember,24,TKDD,3087538737000.0,3429876216802.0,111.09,False,False
+Sulawesi Tengah,19,2025,1,Januari,25,TKDD,3173575512000.0,215040094100.0,6.78,False,False
+Sulawesi Tengah,19,2025,2,Februari,26,TKDD,3173575512000.0,471436060200.0,14.86,False,False
+Sulawesi Tengah,19,2025,3,Maret,27,TKDD,3173575512000.0,629308499050.0,19.83,False,False
+Sulawesi Tengah,19,2025,4,April,28,TKDD,3173575512000.0,827075146051.0,26.06,False,False
+Sulawesi Tengah,19,2025,5,Mei,29,TKDD,3173575512000.0,1045929742201.0,32.96,False,False
+Sulawesi Tengah,19,2025,6,Juni,30,TKDD,3173575512000.0,1319002347920.0,41.56,False,False
+Sulawesi Tengah,19,2025,7,Juli,31,TKDD,3173575512000.0,1503496877051.0,47.38,False,False
+Sulawesi Tengah,19,2025,8,Agustus,32,TKDD,3173575512000.0,1865549263546.0,58.78,False,False
+Sulawesi Tengah,19,2025,9,September,33,TKDD,3173575512000.0,2149822939753.0,67.74,False,False
+Sulawesi Tengah,19,2025,10,Oktober,34,TKDD,3173575512000.0,2337748143612.0,73.66,False,False
+Sulawesi Tengah,19,2025,11,November,35,TKDD,3173575512000.0,2527549860389.0,79.64,False,False
+Sulawesi Tengah,19,2025,12,Desember,36,TKDD,3173575512000.0,2847380802840.0,89.72,False,False
+Sulawesi Tengah,19,2026,1,Januari,37,TKDD,2282650195000.0,327124093500.0,14.33,False,False
+Sulawesi Tengah,19,2026,2,Februari,38,TKDD,2282650195000.0,483147055400.0,21.17,False,False
+Sulawesi Tengah,19,2026,3,Maret,39,TKDD,2282650195000.0,646909801723.0,28.34,False,False
+Sulawesi Tengah,19,2026,4,April,40,TKDD,2282650195000.0,796718711490.0,34.9,False,False
+Sulawesi Tengah,19,2026,5,Mei,41,TKDD,2282650195000.0,955445140490.0,41.86,False,False
+Sulawesi Tengah,19,2026,6,Juni,42,TKDD,2282650195000.0,1105578736440.0,48.43,False,False
+Sulawesi Tengah,19,2026,7,Juli,43,TKDD,2282650195000.0,1106475205140.0,48.47,False,False
+Sulawesi Tengah,19,2026,8,Agustus,44,TKDD,2282650195000.0,1150485150290.0,50.4,False,False
+Sulawesi Tengah,19,2026,9,September,45,TKDD,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,10,Oktober,46,TKDD,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,11,November,47,TKDD,2282650195000.0,1150485150290.0,50.4,False,True
+Sulawesi Tengah,19,2026,12,Desember,48,TKDD,2282650195000.0,1150485150290.0,50.4,False,True

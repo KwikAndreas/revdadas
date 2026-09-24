@@ -1,0 +1,1009 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+DKI Jakarta,9,2023,1,Januari,1,Belanja Bantuan Keuangan,356446480500.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Bantuan Keuangan,356446480500.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Bantuan Keuangan,356446480500.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Bantuan Keuangan,356446480500.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Bantuan Keuangan,356446480500.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Bantuan Keuangan,356446480500.0,138457000000.0,38.84,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Bantuan Keuangan,356446480500.0,138457000000.0,38.84,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Bantuan Keuangan,356446480500.0,138457000000.0,38.84,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Bantuan Keuangan,356446480500.0,138457000000.0,38.84,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Bantuan Keuangan,356446480500.0,356447000000.0,100.0,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Bantuan Keuangan,356446480500.0,356447000000.0,100.0,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Bantuan Keuangan,356446480500.0,356446480500.0,100.0,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Bantuan Keuangan,318312154164.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Bantuan Keuangan,318312154164.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Bantuan Keuangan,318312154164.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Bantuan Keuangan,318312154164.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Bantuan Keuangan,318312154164.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Bantuan Keuangan,318312154164.0,176647187830.0,55.49,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Bantuan Keuangan,318312154164.0,176647000000.0,55.49,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Bantuan Keuangan,318312154164.0,176647000000.0,55.49,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Bantuan Keuangan,318312154164.0,176647000000.0,55.49,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Bantuan Keuangan,318312154164.0,318312000000.0,100.0,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Bantuan Keuangan,318312154164.0,318312000000.0,100.0,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Bantuan Keuangan,318312154164.0,383997067520.0,120.64,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Bantuan Keuangan,367899671520.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Bantuan Keuangan,367899671520.0,152995000000.0,41.59,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Bantuan Keuangan,367899671520.0,152995000000.0,41.59,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Bantuan Keuangan,367899671520.0,362640000000.0,98.57,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Bantuan Keuangan,367899671520.0,362640000000.0,98.57,False,True
+DKI Jakarta,9,2025,11,November,35,Belanja Bantuan Keuangan,367899671520.0,362640000000.0,98.57,False,True
+DKI Jakarta,9,2025,12,Desember,36,Belanja Bantuan Keuangan,367899671520.0,362640000000.0,98.57,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Bantuan Keuangan,195283179400.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Bantuan Keuangan,195283179400.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Bantuan Keuangan,195283179400.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Bantuan Keuangan,195283179400.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Bantuan Keuangan,195283179400.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Bantuan Keuangan,195283179400.0,189878341000.0,97.23,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,True
+DKI Jakarta,9,2026,9,September,45,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Bantuan Keuangan,195283179400.0,189878000000.0,97.23,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Bantuan Sosial,4556982983280.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Bantuan Sosial,4556982983280.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Bantuan Sosial,4556982983280.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Bantuan Sosial,4556982983280.0,137606400000.0,3.02,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Bantuan Sosial,4556982983280.0,137606400000.0,3.02,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Bantuan Sosial,4556982983280.0,138807548000.0,3.05,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Bantuan Sosial,4556982983280.0,164810408000.0,3.62,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Bantuan Sosial,4556982983280.0,461909774100.0,10.14,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Bantuan Sosial,4556982983280.0,463561977600.0,10.17,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Bantuan Sosial,4556982983280.0,464645027600.0,10.2,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Bantuan Sosial,4556982983280.0,2385561925450.0,52.35,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Bantuan Sosial,4556982983280.0,2726772248868.0,59.84,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Bantuan Sosial,3114488637394.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Bantuan Sosial,3114488637394.0,38631000000.0,1.24,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Bantuan Sosial,3114488637394.0,40673075000.0,1.31,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Bantuan Sosial,3114488637394.0,41930570000.0,1.35,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Bantuan Sosial,3114488637394.0,44207700000.0,1.42,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Bantuan Sosial,3114488637394.0,1555022329056.0,49.93,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Bantuan Sosial,3114488637394.0,1717661659960.0,55.15,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Bantuan Sosial,3114488637394.0,1718878674960.0,55.19,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Bantuan Sosial,3114488637394.0,1884241077310.0,60.5,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Bantuan Sosial,3114488637394.0,1881359135140.0,60.41,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Bantuan Sosial,3114488637394.0,1884631345140.0,60.51,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Bantuan Sosial,3114488637394.0,3496629048637.0,112.27,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Bantuan Sosial,3264172302411.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Bantuan Sosial,3264172302411.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Bantuan Sosial,3264172302411.0,954564776000.0,29.24,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Bantuan Sosial,3264172302411.0,997354995400.0,30.55,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Bantuan Sosial,3264172302411.0,2008039091730.0,61.52,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Bantuan Sosial,3264172302411.0,2056334844425.0,63.0,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Bantuan Sosial,3264172302411.0,2101978641430.0,64.4,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Bantuan Sosial,3264172302411.0,2170745035720.0,66.5,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Bantuan Sosial,3264172302411.0,3139406120720.0,96.18,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Bantuan Sosial,3264172302411.0,3352722138950.0,102.71,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Bantuan Sosial,3264172302411.0,4226375968825.0,129.48,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Bantuan Sosial,3264172302411.0,4226375968825.0,129.48,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Bantuan Sosial,4581666540583.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Bantuan Sosial,4581666540583.0,124535700000.0,2.72,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Bantuan Sosial,4581666540583.0,1005921268000.0,21.96,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Bantuan Sosial,4581666540583.0,1208584223650.0,26.38,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Bantuan Sosial,4581666540583.0,1539711273670.0,33.61,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Bantuan Sosial,4581666540583.0,1935378935875.0,42.24,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Bantuan Sosial,4581666540583.0,2219046103443.0,48.43,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Bantuan Sosial,4581666540583.0,2284559035443.0,49.86,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Bantuan Sosial,4581666540583.0,2284679747443.0,49.87,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Bantuan Sosial,4581666540583.0,2284679747443.0,49.87,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Bantuan Sosial,4581666540583.0,2284679747443.0,49.87,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Bantuan Sosial,4581666540583.0,2284679747443.0,49.87,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Barang dan Jasa,27533456404426.0,314018781586.0,1.14,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Barang dan Jasa,27533456404426.0,1532805953704.0,5.57,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Barang dan Jasa,27533456404426.0,2685936166991.0,9.76,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Barang dan Jasa,27533456404426.0,4776967781885.0,17.35,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Barang dan Jasa,27533456404426.0,4776967781885.0,17.35,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Barang dan Jasa,27533456404426.0,6616026534596.0,24.03,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Barang dan Jasa,27533456404426.0,8530041837238.0,30.98,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Barang dan Jasa,27533456404426.0,10292999698009.0,37.38,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Barang dan Jasa,27533456404426.0,12149345690440.0,44.13,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Barang dan Jasa,27533456404426.0,14256841844421.0,51.78,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Barang dan Jasa,27533456404426.0,17311640505285.0,62.87,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Barang dan Jasa,27533456404426.0,24224997782459.0,87.98,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Barang dan Jasa,27309645709375.0,341237246291.0,1.25,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Barang dan Jasa,27309645709375.0,1264751652727.0,4.63,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Barang dan Jasa,27309645709375.0,3392504779040.0,12.42,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Barang dan Jasa,27309645709375.0,5278854033875.0,19.33,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Barang dan Jasa,27309645709375.0,6933041837927.0,25.39,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Barang dan Jasa,27309645709375.0,9364336920153.5,34.29,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Barang dan Jasa,27309645709375.0,11068902811828.0,40.53,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Barang dan Jasa,27309645709375.0,12508193926462.0,45.8,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Barang dan Jasa,27309645709375.0,14259293903473.0,52.21,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Barang dan Jasa,27309645709375.0,16830690163937.0,61.63,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Barang dan Jasa,27309645709375.0,19070814886585.0,69.83,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Barang dan Jasa,27309645709375.0,26572367215305.0,97.3,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Barang dan Jasa,30367892521018.0,297640710550.0,0.98,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Barang dan Jasa,30367892521018.0,1261482788002.0,4.15,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Barang dan Jasa,30367892521018.0,4557278638200.0,15.01,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Barang dan Jasa,30367892521018.0,5969364864209.0,19.66,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Barang dan Jasa,30367892521018.0,7381392902786.0,24.31,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Barang dan Jasa,30367892521018.0,11216151002633.0,36.93,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Barang dan Jasa,30367892521018.0,12487504313171.0,41.12,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Barang dan Jasa,30367892521018.0,14144012792676.0,46.58,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Barang dan Jasa,30367892521018.0,16731518176863.0,55.1,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Barang dan Jasa,30367892521018.0,19120928809942.0,62.96,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Barang dan Jasa,30367892521018.0,20949448411475.0,68.99,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Barang dan Jasa,30367892521018.0,20949982950131.0,68.99,False,False
+DKI Jakarta,9,2026,1,Januari,37,Belanja Barang dan Jasa,28998168578186.0,295595462515.0,1.02,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Barang dan Jasa,28998168578186.0,1537079729124.0,5.3,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Barang dan Jasa,28998168578186.0,3803097807746.0,13.11,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Barang dan Jasa,28998168578186.0,5867054788594.0,20.23,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Barang dan Jasa,28998168578186.0,7405615959660.0,25.54,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Barang dan Jasa,28998168578186.0,9547848729562.4,32.93,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Barang dan Jasa,28998168578186.0,11647398673319.0,40.17,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Barang dan Jasa,28998168578186.0,13266772105638.0,45.75,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Barang dan Jasa,28998168578186.0,13881816706366.0,47.87,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Barang dan Jasa,28998168578186.0,13881816706366.0,47.87,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Barang dan Jasa,28998168578186.0,13881816706366.0,47.87,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Barang dan Jasa,28998168578186.0,13881816706366.0,47.87,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Bunga,258000000000.0,16550800000.0,6.42,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Bunga,258000000000.0,48360100000.0,18.74,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Bunga,258000000000.0,62644800000.0,24.28,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Bunga,258000000000.0,78092210000.0,30.27,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Bunga,258000000000.0,78092210000.0,30.27,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Bunga,258000000000.0,106018210000.0,41.09,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Bunga,258000000000.0,119899510000.0,46.47,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Bunga,258000000000.0,150579410000.0,58.36,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Bunga,258000000000.0,164187810000.0,63.64,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Bunga,258000000000.0,177001310000.0,68.61,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Bunga,258000000000.0,189874110000.0,73.59,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Bunga,258000000000.0,215111291741.0,83.38,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Bunga,256000000000.0,12134900000.0,4.74,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Bunga,256000000000.0,40790426000.0,15.93,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Bunga,256000000000.0,51456526000.0,20.1,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Bunga,256000000000.0,62488026000.0,24.41,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Bunga,256000000000.0,72810026000.0,28.44,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Bunga,256000000000.0,96166988826.0,37.57,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Bunga,256000000000.0,105777256000.0,41.32,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Bunga,256000000000.0,133454679400.0,52.13,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Bunga,256000000000.0,142647349400.0,55.72,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Bunga,256000000000.0,151189689400.0,59.06,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Bunga,256000000000.0,159648979400.0,62.36,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Bunga,256000000000.0,180738864995.0,70.6,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Bunga,158000000000.0,7723700000.0,4.89,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Bunga,158000000000.0,35012170000.0,22.16,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Bunga,158000000000.0,41324010000.0,26.15,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Bunga,158000000000.0,47944320000.0,30.34,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Bunga,158000000000.0,53995140000.0,34.17,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Bunga,158000000000.0,73874182191.0,46.76,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Bunga,158000000000.0,87578290000.0,55.43,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Bunga,158000000000.0,105292920000.0,66.64,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Bunga,158000000000.0,110074260000.0,69.67,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Bunga,158000000000.0,114345430000.0,72.37,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Bunga,158000000000.0,118391180000.0,74.93,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Bunga,158000000000.0,118391180000.0,74.93,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Bunga,120400000000.0,3310150000.0,2.75,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Bunga,120400000000.0,29371810000.0,24.4,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Bunga,120400000000.0,31697220000.0,26.33,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Bunga,120400000000.0,33903990000.0,28.16,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Bunga,120400000000.0,35683640000.0,29.64,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Bunga,120400000000.0,50828805083.0,42.22,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Bunga,120400000000.0,66466410000.0,55.2,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Bunga,120400000000.0,77259899000.0,64.17,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Bunga,120400000000.0,77259899000.0,64.17,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Bunga,120400000000.0,77259899000.0,64.17,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Bunga,120400000000.0,77259899000.0,64.17,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Bunga,120400000000.0,77259899000.0,64.17,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Daerah,74613763379256.0,1579568979383.0,2.12,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Daerah,74613763379256.0,4106367908976.0,5.5,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Daerah,74613763379256.0,6762449161032.0,9.06,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Daerah,74613763379256.0,11416466004193.0,15.3,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Daerah,74613763379256.0,11416466004193.0,15.3,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Daerah,74613763379256.0,15789947032109.0,21.16,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Daerah,74613763379256.0,20391681067761.0,27.33,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Daerah,74613763379256.0,24698046205453.0,33.1,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Daerah,74613763379256.0,29367024953062.0,39.36,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Daerah,74613763379256.0,34385510132529.0,46.08,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Daerah,74613763379256.0,42674049575929.0,57.19,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Daerah,74613763379256.0,61338688261517.0,82.21,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Daerah,72600997362528.0,1555023296803.0,2.14,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Daerah,72600997362528.0,3789065728016.0,5.22,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Daerah,72600997362528.0,7386266891261.0,10.17,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Daerah,72600997362528.0,12453084813841.0,17.15,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Daerah,72600997362528.0,16871591408915.0,23.24,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Daerah,72600997362528.0,24587126932699.0,33.87,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Daerah,72600997362528.0,29272056355853.0,40.32,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Daerah,72600997362528.0,33141160129723.0,45.65,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Daerah,72600997362528.0,37751744134853.0,52.0,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Daerah,72600997362528.0,43183561208228.0,59.48,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Daerah,72600997362528.0,49752124896633.0,68.53,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Daerah,72600997362528.0,70012717839886.0,96.43,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Daerah,82663062617784.0,1407477225687.0,1.7,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Daerah,82663062617784.0,3613922492050.0,4.37,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Daerah,82663062617784.0,10959790017372.0,13.26,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Daerah,82663062617784.0,14068638258747.0,17.02,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Daerah,82663062617784.0,18053109776171.0,21.84,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Daerah,82663062617784.0,25526193852802.0,30.88,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Daerah,82663062617784.0,30157906377584.0,36.48,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Daerah,82663062617784.0,34289660651658.0,41.48,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Daerah,82663062617784.0,41506194351742.0,50.21,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Daerah,82663062617784.0,47207305683474.0,57.11,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Daerah,82663062617784.0,53552035524118.0,64.78,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Daerah,82663062617784.0,53552570062774.0,64.78,False,False
+DKI Jakarta,9,2026,1,Januari,37,Belanja Daerah,74285299931740.0,1786921533891.0,2.41,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Daerah,74285299931740.0,4542356383849.0,6.11,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Daerah,74285299931740.0,10510710604499.0,14.15,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Daerah,74285299931740.0,14791061456695.0,19.91,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Daerah,74285299931740.0,18915998541071.0,25.46,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Daerah,74285299931740.0,24733802113194.0,33.3,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Daerah,74285299931740.0,30445551818879.0,40.98,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Daerah,74285299931740.0,34625184353252.0,46.61,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Daerah,74285299931740.0,35620317200297.0,47.95,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Daerah,74285299931740.0,35620317200297.0,47.95,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Daerah,74285299931740.0,35620317200297.0,47.95,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Daerah,74285299931740.0,35620317200297.0,47.95,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Hibah,2963126545202.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Hibah,2963126545202.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Hibah,2963126545202.0,90000000000.0,3.04,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Hibah,2963126545202.0,354311878000.0,11.96,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Hibah,2963126545202.0,354311878000.0,11.96,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Hibah,2963126545202.0,373087536000.0,12.59,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Hibah,2963126545202.0,668879396000.0,22.57,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Hibah,2963126545202.0,891681734000.0,30.09,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Hibah,2963126545202.0,976696031500.0,32.96,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Hibah,2963126545202.0,1383625333500.0,46.69,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Hibah,2963126545202.0,1821131539000.0,61.46,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Hibah,2963126545202.0,3495463596507.0,117.97,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Hibah,3306327319994.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Hibah,3306327319994.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Hibah,3306327319994.0,11097830000.0,0.34,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Hibah,3306327319994.0,515456382000.0,15.59,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Hibah,3306327319994.0,774434467500.0,23.42,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Hibah,3306327319994.0,1572710078966.0,47.57,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Hibah,3306327319994.0,1780313284500.0,53.85,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Hibah,3306327319994.0,1969586742500.0,59.57,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Hibah,3306327319994.0,2086042886700.0,63.09,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Hibah,3306327319994.0,2380514112500.0,72.0,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Hibah,3306327319994.0,2391596275500.0,72.33,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Hibah,3306327319994.0,3307808095906.0,100.04,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Hibah,2912497861652.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Hibah,2912497861652.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Hibah,2912497861652.0,226401790000.0,7.77,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Hibah,2912497861652.0,323410060000.0,11.1,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Hibah,2912497861652.0,365506300000.0,12.55,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Hibah,2912497861652.0,876846811949.0,30.11,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Hibah,2912497861652.0,1751384394000.0,60.13,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Hibah,2912497861652.0,2070665684000.0,71.1,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Hibah,2912497861652.0,2342278554000.0,80.42,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Hibah,2912497861652.0,2351283888000.0,80.73,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Hibah,2912497861652.0,2351433888000.0,80.74,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Hibah,2912497861652.0,2351433888000.0,80.74,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Hibah,2801230357390.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Hibah,2801230357390.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Hibah,2801230357390.0,344913430000.0,12.31,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Hibah,2801230357390.0,392131242000.0,14.0,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Hibah,2801230357390.0,415530001000.0,14.83,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Hibah,2801230357390.0,648204731623.0,23.14,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Hibah,2801230357390.0,1488833310000.0,53.15,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Hibah,2801230357390.0,1762240196650.0,62.91,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Hibah,2801230357390.0,1768994904650.0,63.15,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Hibah,2801230357390.0,1768994904650.0,63.15,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Hibah,2801230357390.0,1768994904650.0,63.15,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Hibah,2801230357390.0,1768994904650.0,63.15,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Lainnya,15055083079232.0,16550800000.0,0.11,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Lainnya,15055083079232.0,103016900000.0,0.68,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Lainnya,15055083079232.0,334563000000.0,2.22,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Lainnya,15055083079232.0,751928688000.0,4.99,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Lainnya,15055083079232.0,751928688000.0,4.99,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Lainnya,15055083079232.0,1026345294000.0,6.82,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Lainnya,15055083079232.0,1695297414000.0,11.26,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Lainnya,15055083079232.0,2446989918100.0,16.25,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Lainnya,15055083079232.0,3409622519100.0,22.65,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Lainnya,15055083079232.0,4164668771100.0,27.66,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Lainnya,15055083079232.0,6652739564450.0,44.19,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Lainnya,15055083079232.0,11833994799150.0,78.6,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Lainnya,13670846825116.0,12134900000.0,0.09,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Lainnya,13670846825116.0,109045426000.0,0.8,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Lainnya,13670846825116.0,194649731000.0,1.42,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Lainnya,13670846825116.0,789279878000.0,5.77,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Lainnya,13670846825116.0,1321310833500.0,9.67,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Lainnya,13670846825116.0,3902733921731.0,28.55,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Lainnya,13670846825116.0,4551608140460.0,33.29,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Lainnya,13670846825116.0,4966070536860.0,36.33,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Lainnya,13670846825116.0,6121094423410.0,44.77,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Lainnya,13670846825116.0,6649417897040.0,48.64,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Lainnya,13670846825116.0,7825375850040.0,57.24,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Lainnya,13670846825116.0,13245010667995.0,96.89,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Lainnya,14689867391817.0,7723700000.0,0.05,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Lainnya,14689867391817.0,66854170000.0,0.46,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Lainnya,14689867391817.0,1304656776000.0,8.88,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Lainnya,14689867391817.0,1564836775400.0,10.65,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Lainnya,14689867391817.0,2724488294730.0,18.55,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Lainnya,14689867391817.0,3407807566856.0,23.2,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Lainnya,14689867391817.0,5016776588430.0,34.15,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Lainnya,14689867391817.0,5472985892720.0,37.26,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Lainnya,14689867391817.0,7988009213880.0,54.38,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Lainnya,14689867391817.0,8364784536110.0,56.94,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Lainnya,14689867391817.0,10556101355985.0,71.86,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Lainnya,14689867391817.0,10556101355985.0,71.86,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Lainnya,13690627375810.0,3310150000.0,0.02,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Lainnya,13690627375810.0,192888450000.0,1.41,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Lainnya,13690627375810.0,1495284558000.0,10.92,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Lainnya,13690627375810.0,1840973095650.0,13.45,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Lainnya,13690627375810.0,2949204554670.0,21.54,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Lainnya,13690627375810.0,4113492085385.0,30.05,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Lainnya,13690627375810.0,5326172263443.0,38.9,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Lainnya,13690627375810.0,6472680871093.0,47.28,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Lainnya,13690627375810.0,6479556291093.0,47.33,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Lainnya,13690627375810.0,6479556291093.0,47.33,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Lainnya,13690627375810.0,6479556291093.0,47.33,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Lainnya,13690627375810.0,6479556291093.0,47.33,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Modal,13703221170855.0,35728421500.0,0.26,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Modal,13703221170855.0,44143467360.0,0.32,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Modal,13703221170855.0,91065749730.0,0.66,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Modal,13703221170855.0,138904887790.0,1.01,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Modal,13703221170855.0,138904887790.0,1.01,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Modal,13703221170855.0,349474604740.0,2.55,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Modal,13703221170855.0,751038419670.0,5.48,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Modal,13703221170855.0,1287327577060.0,9.39,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Modal,13703221170855.0,1924566591515.0,14.04,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Modal,13703221170855.0,2698260619575.0,19.69,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Modal,13703221170855.0,3922641901817.0,28.63,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Modal,13703221170855.0,8748473486785.0,63.84,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Modal,11554909926952.0,980729500.0,0.01,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Modal,11554909926952.0,-10241519785.0,-0.09,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Modal,11554909926952.0,93416209089.0,0.81,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Modal,11554909926952.0,298799141494.0,2.59,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Modal,11554909926952.0,761677575159.0,6.59,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Modal,11554909926952.0,1145025564682.0,9.91,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Modal,11554909926952.0,1551600248728.0,13.43,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Modal,11554909926952.0,2323263769895.0,20.11,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Modal,11554909926952.0,2840208019947.0,24.58,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Modal,11554909926952.0,3745373933944.0,32.41,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Modal,11554909926952.0,5424434900172.0,46.94,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Modal,11554909926952.0,11004785255543.0,95.24,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Modal,15288810704442.0,329508200.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Modal,15288810704442.0,6922673580.0,0.05,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Modal,15288810704442.0,65096926570.0,0.43,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Modal,15288810704442.0,160474122530.0,1.05,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Modal,15288810704442.0,417842696140.0,2.73,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Modal,15288810704442.0,995110516290.0,6.51,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Modal,15288810704442.0,1567034924124.0,10.25,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Modal,15288810704442.0,2256609258872.0,14.76,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Modal,15288810704442.0,3105639965136.0,20.31,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Modal,15288810704442.0,4295758340511.0,28.1,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Modal,15288810704442.0,5603082074069.0,36.65,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Modal,15288810704442.0,5603082074069.0,36.65,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Modal,10164767414640.0,634718120.0,0.01,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Modal,10164767414640.0,8835649632.0,0.09,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Modal,10164767414640.0,45137166702.0,0.44,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Modal,10164767414640.0,135217676992.0,1.33,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Modal,10164767414640.0,392527837383.0,3.86,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Modal,10164767414640.0,619102766851.0,6.09,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Modal,10164767414640.0,1118430878896.0,11.0,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Modal,10164767414640.0,1614648184017.0,15.88,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Modal,10164767414640.0,1644842013728.0,16.18,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Modal,10164767414640.0,1644842013728.0,16.18,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Modal,10164767414640.0,1644842013728.0,16.18,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Modal,10164767414640.0,1644842013728.0,16.18,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Pegawai,18322002724743.0,1213270976297.0,6.62,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Pegawai,18322002724743.0,2426401587912.0,13.24,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Pegawai,18322002724743.0,3650884244311.0,19.93,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Pegawai,18322002724743.0,5748664646518.0,31.38,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Pegawai,18322002724743.0,5748664646518.0,31.38,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Pegawai,18322002724743.0,7798100598773.0,42.56,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Pegawai,18322002724743.0,9415303396853.0,51.39,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Pegawai,18322002724743.0,10670729012284.0,58.24,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Pegawai,18322002724743.0,11883490152007.0,64.86,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Pegawai,18322002724743.0,13265738897433.0,72.4,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Pegawai,18322002724743.0,14787027604377.0,80.71,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Pegawai,18322002724743.0,16531222193123.0,90.23,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Pegawai,20065594901085.0,1200670421012.0,5.98,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Pegawai,20065594901085.0,2425510169074.0,12.09,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Pegawai,20065594901085.0,3705696172132.0,18.47,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Pegawai,20065594901085.0,6086151760472.0,30.33,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Pegawai,20065594901085.0,7855561162329.0,39.15,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Pegawai,20065594901085.0,10175030526132.0,50.71,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Pegawai,20065594901085.0,12099945154837.0,60.3,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Pegawai,20065594901085.0,13343631896506.0,66.5,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Pegawai,20065594901085.0,14531147788023.0,72.42,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Pegawai,20065594901085.0,15958079213307.0,79.53,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Pegawai,20065594901085.0,17431499259836.0,86.87,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Pegawai,20065594901085.0,19190554701043.0,95.64,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Pegawai,22316492000507.0,1101783306937.0,4.94,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Pegawai,22316492000507.0,2278662860468.0,10.21,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Pegawai,22316492000507.0,5032757676602.0,22.55,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Pegawai,22316492000507.0,6373962496608.0,28.56,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Pegawai,22316492000507.0,7529385882515.0,33.74,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Pegawai,22316492000507.0,9907124767023.0,44.39,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Pegawai,22316492000507.0,11086590551859.0,49.68,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Pegawai,22316492000507.0,12416052707390.0,55.64,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Pegawai,22316492000507.0,13681026995863.0,61.3,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Pegawai,22316492000507.0,15425833996911.0,69.12,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Pegawai,22316492000507.0,16443403682589.0,73.68,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Pegawai,22316492000507.0,16443403682589.0,73.68,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Pegawai,21431736563104.0,1487381203256.0,6.94,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Pegawai,21431736563104.0,2803552555093.0,13.08,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Pegawai,21431736563104.0,5167191072051.0,24.11,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Pegawai,21431736563104.0,6947815895459.0,32.42,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Pegawai,21431736563104.0,8168650189358.0,38.11,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Pegawai,21431736563104.0,10453358531396.0,48.78,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Pegawai,21431736563104.0,12353550003221.0,57.64,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Pegawai,21431736563104.0,13271083192504.0,61.92,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Pegawai,21431736563104.0,13614102189110.0,63.52,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Pegawai,21431736563104.0,13614102189110.0,63.52,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Pegawai,21431736563104.0,13614102189110.0,63.52,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Pegawai,21431736563104.0,13614102189110.0,63.52,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Subsidi,6016099339168.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Subsidi,6016099339168.0,54656800000.0,0.91,False,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Subsidi,6016099339168.0,181918200000.0,3.02,False,False
+DKI Jakarta,9,2023,4,April,4,Belanja Subsidi,6016099339168.0,181918200000.0,3.02,False,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Subsidi,6016099339168.0,181918200000.0,3.02,False,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Subsidi,6016099339168.0,269975000000.0,4.49,False,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Subsidi,6016099339168.0,603251100000.0,10.03,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Subsidi,6016099339168.0,804362000000.0,13.37,False,False
+DKI Jakarta,9,2023,9,September,9,Belanja Subsidi,6016099339168.0,1666719700000.0,27.7,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Subsidi,6016099339168.0,1782950100000.0,29.64,False,False
+DKI Jakarta,9,2023,11,November,11,Belanja Subsidi,6016099339168.0,1899724990000.0,31.58,False,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Subsidi,6016099339168.0,5040201181534.0,83.78,False,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Subsidi,5603712087924.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Subsidi,5603712087924.0,29624000000.0,0.53,False,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Subsidi,5603712087924.0,91422300000.0,1.63,False,False
+DKI Jakarta,9,2024,4,April,16,Belanja Subsidi,5603712087924.0,169404900000.0,3.02,False,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Subsidi,5603712087924.0,429858640000.0,7.67,False,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Subsidi,5603712087924.0,502187337053.0,8.96,False,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Subsidi,5603712087924.0,771208940000.0,13.76,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Subsidi,5603712087924.0,967503440000.0,17.27,False,False
+DKI Jakarta,9,2024,9,September,21,Belanja Subsidi,5603712087924.0,1831516110000.0,32.68,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Subsidi,5603712087924.0,1918042960000.0,34.23,False,False
+DKI Jakarta,9,2024,11,November,23,Belanja Subsidi,5603712087924.0,3071187250000.0,54.81,False,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Subsidi,5603712087924.0,5875837590937.0,104.86,False,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Subsidi,5937791495540.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Subsidi,5937791495540.0,31842000000.0,0.54,False,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Subsidi,5937791495540.0,82366200000.0,1.39,False,False
+DKI Jakarta,9,2025,4,April,28,Belanja Subsidi,5937791495540.0,196127400000.0,3.3,False,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Subsidi,5937791495540.0,296947763000.0,5.0,False,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Subsidi,5937791495540.0,400751728291.0,6.75,False,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Subsidi,5937791495540.0,922840263000.0,15.54,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Subsidi,5937791495540.0,973287253000.0,16.39,False,False
+DKI Jakarta,9,2025,9,September,33,Belanja Subsidi,5937791495540.0,2033610279160.0,34.25,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Subsidi,5937791495540.0,2183793079160.0,36.78,False,False
+DKI Jakarta,9,2025,11,November,35,Belanja Subsidi,5937791495540.0,3497260319160.0,58.9,False,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Subsidi,5937791495540.0,3497260319160.0,58.9,False,True
+DKI Jakarta,9,2026,1,Januari,37,Belanja Subsidi,5277927322600.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Subsidi,5277927322600.0,38980940000.0,0.74,False,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Subsidi,5277927322600.0,112752640000.0,2.14,False,False
+DKI Jakarta,9,2026,4,April,40,Belanja Subsidi,5277927322600.0,206353640000.0,3.91,False,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Subsidi,5277927322600.0,958279640000.0,18.16,False,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Subsidi,5277927322600.0,1289201271804.0,24.43,False,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Subsidi,5277927322600.0,1361948440000.0,25.8,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Subsidi,5277927322600.0,2158743740000.0,40.9,False,False
+DKI Jakarta,9,2026,9,September,45,Belanja Subsidi,5277927322600.0,2158743740000.0,40.9,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Subsidi,5277927322600.0,2158743740000.0,40.9,False,True
+DKI Jakarta,9,2026,11,November,47,Belanja Subsidi,5277927322600.0,2158743740000.0,40.9,False,True
+DKI Jakarta,9,2026,12,Desember,48,Belanja Subsidi,5277927322600.0,2158743740000.0,40.9,False,True
+DKI Jakarta,9,2023,1,Januari,1,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,2,Februari,2,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,3,Maret,3,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,4,April,4,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,5,Mei,5,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,6,Juni,6,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,7,Juli,7,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,8,Agustus,8,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,9,September,9,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,10,Oktober,10,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,11,November,11,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,12,Desember,12,Belanja Tidak Terduga,904427731082.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,1,Januari,13,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,2,Februari,14,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,3,Maret,15,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,4,April,16,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,5,Mei,17,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,6,Juni,18,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,7,Juli,19,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,8,Agustus,20,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,9,September,21,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,10,Oktober,22,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,11,November,23,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2024,12,Desember,24,Belanja Tidak Terduga,1072006625640.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,1,Januari,25,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,2,Februari,26,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,3,Maret,27,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,4,April,28,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,5,Mei,29,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,6,Juni,30,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,7,Juli,31,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,8,Agustus,32,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,9,September,33,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,10,Oktober,34,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,11,November,35,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2025,12,Desember,36,Belanja Tidak Terduga,2049506060694.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,1,Januari,37,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,2,Februari,38,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,3,Maret,39,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,4,April,40,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,5,Mei,41,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,6,Juni,42,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,7,Juli,43,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,8,Agustus,44,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,9,September,45,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,10,Oktober,46,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,11,November,47,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2026,12,Desember,48,Belanja Tidak Terduga,714119975837.0,0.0,0.0,True,False
+DKI Jakarta,9,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,0.0,0.0,False,False
+DKI Jakarta,9,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,281671000000.0,51.92,False,False
+DKI Jakarta,9,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,281671000000.0,51.92,False,False
+DKI Jakarta,9,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,281671000000.0,51.92,False,False
+DKI Jakarta,9,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,388394200000.0,71.59,False,False
+DKI Jakarta,9,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,394578890000.0,72.73,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,425579140000.0,78.45,False,False
+DKI Jakarta,9,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,528516040000.0,97.42,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,528516040000.0,97.42,False,False
+DKI Jakarta,9,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,528516040000.0,97.42,False,False
+DKI Jakarta,9,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,542500000000.0,540869249987.0,99.7,False,False
+DKI Jakarta,9,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,36864000000.0,4.48,False,False
+DKI Jakarta,9,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,363227000000.0,44.13,False,False
+DKI Jakarta,9,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,370913750000.0,45.07,False,False
+DKI Jakarta,9,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,429980034840.0,52.25,False,False
+DKI Jakarta,9,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,473126110000.0,57.49,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,480590630000.0,58.39,False,False
+DKI Jakarta,9,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,506321201000.0,61.52,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,569023501000.0,69.14,False,False
+DKI Jakarta,9,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,631391501000.0,76.72,False,False
+DKI Jakarta,9,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,823000000000.0,653700898761.0,79.43,False,False
+DKI Jakarta,9,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,22309500000.0,2.88,False,False
+DKI Jakarta,9,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,22309500000.0,2.88,False,False
+DKI Jakarta,9,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,22309500000.0,2.88,False,False
+DKI Jakarta,9,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,22309500000.0,2.88,False,False
+DKI Jakarta,9,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,60827600000.0,7.86,False,False
+DKI Jakarta,9,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,38518059340.0,4.98,False,False
+DKI Jakarta,9,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,355479380000.0,45.93,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,468265380000.0,60.5,False,False
+DKI Jakarta,9,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,477739940000.0,61.72,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,488422130000.0,63.1,False,False
+DKI Jakarta,9,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,506330330000.0,65.42,False,False
+DKI Jakarta,9,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,774000000000.0,506330330000.0,65.42,False,True
+DKI Jakarta,9,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,2690630000.0,0.31,False,False
+DKI Jakarta,9,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,2690630000.0,0.31,False,False
+DKI Jakarta,9,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,2690630000.0,0.31,False,False
+DKI Jakarta,9,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,32700230000.0,3.73,False,False
+DKI Jakarta,9,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,50486041983.0,5.76,False,False
+DKI Jakarta,9,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,461289360000.0,52.66,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,482373460000.0,55.06,False,False
+DKI Jakarta,9,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,482373460000.0,55.06,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,482373460000.0,55.06,False,True
+DKI Jakarta,9,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,482373460000.0,55.06,False,True
+DKI Jakarta,9,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,876020190232.0,482373460000.0,55.06,False,True
+DKI Jakarta,9,2023,1,Januari,1,Lain-Lain PAD yang Sah,8031023659701.0,262103691992.0,3.26,False,False
+DKI Jakarta,9,2023,2,Februari,2,Lain-Lain PAD yang Sah,8031023659701.0,515722309490.0,6.42,False,False
+DKI Jakarta,9,2023,3,Maret,3,Lain-Lain PAD yang Sah,8031023659701.0,867970139767.0,10.81,False,False
+DKI Jakarta,9,2023,4,April,4,Lain-Lain PAD yang Sah,8031023659701.0,1177936721317.0,14.67,False,False
+DKI Jakarta,9,2023,5,Mei,5,Lain-Lain PAD yang Sah,8031023659701.0,1177936721317.0,14.67,False,False
+DKI Jakarta,9,2023,6,Juni,6,Lain-Lain PAD yang Sah,8031023659701.0,1522629368517.0,18.96,False,False
+DKI Jakarta,9,2023,7,Juli,7,Lain-Lain PAD yang Sah,8031023659701.0,1874144989208.0,23.34,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Lain-Lain PAD yang Sah,8031023659701.0,2240289705271.0,27.9,False,False
+DKI Jakarta,9,2023,9,September,9,Lain-Lain PAD yang Sah,8031023659701.0,2569749649698.0,32.0,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Lain-Lain PAD yang Sah,8031023659701.0,2956256310907.0,36.81,False,False
+DKI Jakarta,9,2023,11,November,11,Lain-Lain PAD yang Sah,8031023659701.0,3380013632276.0,42.09,False,False
+DKI Jakarta,9,2023,12,Desember,12,Lain-Lain PAD yang Sah,8031023659701.0,4303817879408.0,53.59,False,False
+DKI Jakarta,9,2024,1,Januari,13,Lain-Lain PAD yang Sah,4852046769820.0,392584793250.0,8.09,False,False
+DKI Jakarta,9,2024,2,Februari,14,Lain-Lain PAD yang Sah,4852046769820.0,747055827129.0,15.4,False,False
+DKI Jakarta,9,2024,3,Maret,15,Lain-Lain PAD yang Sah,4852046769820.0,1113875654308.0,22.96,False,False
+DKI Jakarta,9,2024,4,April,16,Lain-Lain PAD yang Sah,4852046769820.0,1495824419393.0,30.83,False,False
+DKI Jakarta,9,2024,5,Mei,17,Lain-Lain PAD yang Sah,4852046769820.0,1840623640224.0,37.93,False,False
+DKI Jakarta,9,2024,6,Juni,18,Lain-Lain PAD yang Sah,4852046769820.0,1980205742683.9,40.81,False,False
+DKI Jakarta,9,2024,7,Juli,19,Lain-Lain PAD yang Sah,4852046769820.0,2603591940548.0,53.66,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Lain-Lain PAD yang Sah,4852046769820.0,2981117475283.0,61.44,False,False
+DKI Jakarta,9,2024,9,September,21,Lain-Lain PAD yang Sah,4852046769820.0,3446460210565.0,71.03,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Lain-Lain PAD yang Sah,4852046769820.0,3893858374979.0,80.25,False,False
+DKI Jakarta,9,2024,11,November,23,Lain-Lain PAD yang Sah,4852046769820.0,4273229620767.0,88.07,False,False
+DKI Jakarta,9,2024,12,Desember,24,Lain-Lain PAD yang Sah,4852046769820.0,4926523566307.2,101.53,False,False
+DKI Jakarta,9,2025,1,Januari,25,Lain-Lain PAD yang Sah,3964291353336.0,307971350927.0,7.77,False,False
+DKI Jakarta,9,2025,2,Februari,26,Lain-Lain PAD yang Sah,3964291353336.0,620596907433.0,15.65,False,False
+DKI Jakarta,9,2025,3,Maret,27,Lain-Lain PAD yang Sah,3964291353336.0,985701851648.0,24.86,False,False
+DKI Jakarta,9,2025,4,April,28,Lain-Lain PAD yang Sah,3964291353336.0,1849316311176.0,46.65,False,False
+DKI Jakarta,9,2025,5,Mei,29,Lain-Lain PAD yang Sah,3964291353336.0,2141511933273.0,54.02,False,False
+DKI Jakarta,9,2025,6,Juni,30,Lain-Lain PAD yang Sah,3964291353336.0,2538218286913.9,64.03,False,False
+DKI Jakarta,9,2025,7,Juli,31,Lain-Lain PAD yang Sah,3964291353336.0,2898792588520.0,73.12,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Lain-Lain PAD yang Sah,3964291353336.0,3331026908366.0,84.03,False,False
+DKI Jakarta,9,2025,9,September,33,Lain-Lain PAD yang Sah,3964291353336.0,3724307738530.0,93.95,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Lain-Lain PAD yang Sah,3964291353336.0,4106305672936.0,103.58,False,False
+DKI Jakarta,9,2025,11,November,35,Lain-Lain PAD yang Sah,3964291353336.0,4198478813825.0,105.91,False,False
+DKI Jakarta,9,2025,12,Desember,36,Lain-Lain PAD yang Sah,3964291353336.0,4198478813825.0,105.91,False,True
+DKI Jakarta,9,2026,1,Januari,37,Lain-Lain PAD yang Sah,4681555092812.0,364263349410.0,7.78,False,False
+DKI Jakarta,9,2026,2,Februari,38,Lain-Lain PAD yang Sah,4681555092812.0,716045210363.0,15.3,False,False
+DKI Jakarta,9,2026,3,Maret,39,Lain-Lain PAD yang Sah,4681555092812.0,1316918878448.0,28.13,False,False
+DKI Jakarta,9,2026,4,April,40,Lain-Lain PAD yang Sah,4681555092812.0,1647013831795.0,35.18,False,False
+DKI Jakarta,9,2026,5,Mei,41,Lain-Lain PAD yang Sah,4681555092812.0,1951319260621.0,41.68,False,False
+DKI Jakarta,9,2026,6,Juni,42,Lain-Lain PAD yang Sah,4681555092812.0,2135752577194.9,45.62,False,False
+DKI Jakarta,9,2026,7,Juli,43,Lain-Lain PAD yang Sah,4681555092812.0,2810867613995.0,60.04,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Lain-Lain PAD yang Sah,4681555092812.0,2854738671208.0,60.98,False,False
+DKI Jakarta,9,2026,9,September,45,Lain-Lain PAD yang Sah,4681555092812.0,2856135695486.0,61.01,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Lain-Lain PAD yang Sah,4681555092812.0,2856135695486.0,61.01,False,True
+DKI Jakarta,9,2026,11,November,47,Lain-Lain PAD yang Sah,4681555092812.0,2856135695486.0,61.01,False,True
+DKI Jakarta,9,2026,12,Desember,48,Lain-Lain PAD yang Sah,4681555092812.0,2856135695486.0,61.01,False,True
+DKI Jakarta,9,2023,1,Januari,1,PAD,52773523659701.0,2792113431420.0,5.29,False,False
+DKI Jakarta,9,2023,2,Februari,2,PAD,52773523659701.0,5579912685981.0,10.57,False,False
+DKI Jakarta,9,2023,3,Maret,3,PAD,52773523659701.0,8980898507710.0,17.02,False,False
+DKI Jakarta,9,2023,4,April,4,PAD,52773523659701.0,12262983736704.0,23.24,False,False
+DKI Jakarta,9,2023,5,Mei,5,PAD,52773523659701.0,12262983736704.0,23.24,False,False
+DKI Jakarta,9,2023,6,Juni,6,PAD,52773523659701.0,19377456392524.0,36.72,False,False
+DKI Jakarta,9,2023,7,Juli,7,PAD,52773523659701.0,23760760545819.0,45.02,False,False
+DKI Jakarta,9,2023,8,Agustus,8,PAD,52773523659701.0,27651378113285.0,52.4,False,False
+DKI Jakarta,9,2023,9,September,9,PAD,52773523659701.0,31936328162043.0,60.52,False,False
+DKI Jakarta,9,2023,10,Oktober,10,PAD,52773523659701.0,35875174927543.0,67.98,False,False
+DKI Jakarta,9,2023,11,November,11,PAD,52773523659701.0,39766673599814.0,75.35,False,False
+DKI Jakarta,9,2023,12,Desember,12,PAD,52773523659701.0,44312573704896.0,83.97,False,False
+DKI Jakarta,9,2024,1,Januari,13,PAD,52398081040625.0,3009741912116.0,5.74,False,False
+DKI Jakarta,9,2024,2,Februari,14,PAD,52398081040625.0,5733401530253.0,10.94,False,False
+DKI Jakarta,9,2024,3,Maret,15,PAD,52398081040625.0,8739012188993.0,16.68,False,False
+DKI Jakarta,9,2024,4,April,16,PAD,52398081040625.0,12122334703804.0,23.14,False,False
+DKI Jakarta,9,2024,5,Mei,17,PAD,52398081040625.0,15135646758155.0,28.89,False,False
+DKI Jakarta,9,2024,6,Juni,18,PAD,52398081040625.0,19231595322341.0,36.7,False,False
+DKI Jakarta,9,2024,7,Juli,19,PAD,52398081040625.0,25490558340777.0,48.65,False,False
+DKI Jakarta,9,2024,8,Agustus,20,PAD,52398081040625.0,33462567954817.0,63.86,False,False
+DKI Jakarta,9,2024,9,September,21,PAD,52398081040625.0,37817862674653.0,72.17,False,False
+DKI Jakarta,9,2024,10,Oktober,22,PAD,52398081040625.0,41925017984329.0,80.01,False,False
+DKI Jakarta,9,2024,11,November,23,PAD,52398081040625.0,45741941986660.0,87.3,False,False
+DKI Jakarta,9,2024,12,Desember,24,PAD,52398081040625.0,50742019272748.0,96.84,False,False
+DKI Jakarta,9,2025,1,Januari,25,PAD,54187749526824.0,3028437874658.0,5.59,False,False
+DKI Jakarta,9,2025,2,Februari,26,PAD,54187749526824.0,5944058085394.0,10.97,False,False
+DKI Jakarta,9,2025,3,Maret,27,PAD,54187749526824.0,9189181597176.0,16.96,False,False
+DKI Jakarta,9,2025,4,April,28,PAD,54187749526824.0,14000307201447.0,25.84,False,False
+DKI Jakarta,9,2025,5,Mei,29,PAD,54187749526824.0,22752934537800.0,41.99,False,False
+DKI Jakarta,9,2025,6,Juni,30,PAD,54187749526824.0,26700091589390.0,49.27,False,False
+DKI Jakarta,9,2025,7,Juli,31,PAD,54187749526824.0,31587053566152.0,58.29,False,False
+DKI Jakarta,9,2025,8,Agustus,32,PAD,54187749526824.0,35565118756894.0,65.63,False,False
+DKI Jakarta,9,2025,9,September,33,PAD,54187749526824.0,39411635139565.0,72.73,False,False
+DKI Jakarta,9,2025,10,Oktober,34,PAD,54187749526824.0,43161439482107.0,79.65,False,False
+DKI Jakarta,9,2025,11,November,35,PAD,54187749526824.0,46102897593779.0,85.08,False,False
+DKI Jakarta,9,2025,12,Desember,36,PAD,54187749526824.0,46104102880579.0,85.08,False,False
+DKI Jakarta,9,2026,1,Januari,37,PAD,57670647712697.0,3012872121013.0,5.22,False,False
+DKI Jakarta,9,2026,2,Februari,38,PAD,57670647712697.0,5914401222651.0,10.26,False,False
+DKI Jakarta,9,2026,3,Maret,39,PAD,57670647712697.0,9015988942224.0,15.63,False,False
+DKI Jakarta,9,2026,4,April,40,PAD,57670647712697.0,13453598945964.0,23.33,False,False
+DKI Jakarta,9,2026,5,Mei,41,PAD,57670647712697.0,22674282279127.0,39.32,False,False
+DKI Jakarta,9,2026,6,Juni,42,PAD,57670647712697.0,26358962518502.0,45.71,False,False
+DKI Jakarta,9,2026,7,Juli,43,PAD,57670647712697.0,31902236650160.0,55.32,False,False
+DKI Jakarta,9,2026,8,Agustus,44,PAD,57670647712697.0,35009201154618.0,60.71,False,False
+DKI Jakarta,9,2026,9,September,45,PAD,57670647712697.0,35181693464020.0,61.0,False,False
+DKI Jakarta,9,2026,10,Oktober,46,PAD,57670647712697.0,35181693464020.0,61.0,False,True
+DKI Jakarta,9,2026,11,November,47,PAD,57670647712697.0,35181693464020.0,61.0,False,True
+DKI Jakarta,9,2026,12,Desember,48,PAD,57670647712697.0,35181693464020.0,61.0,False,True
+DKI Jakarta,9,2023,1,Januari,1,Pajak Daerah,43600000000000.0,2514190721649.0,5.77,False,False
+DKI Jakarta,9,2023,2,Februari,2,Pajak Daerah,43600000000000.0,5012312956428.0,11.5,False,False
+DKI Jakarta,9,2023,3,Maret,3,Pajak Daerah,43600000000000.0,7717944027035.0,17.7,False,False
+DKI Jakarta,9,2023,4,April,4,Pajak Daerah,43600000000000.0,10666967425049.0,24.47,False,False
+DKI Jakarta,9,2023,5,Mei,5,Pajak Daerah,43600000000000.0,10666967425049.0,24.47,False,False
+DKI Jakarta,9,2023,6,Juni,6,Pajak Daerah,43600000000000.0,17308489782633.0,39.7,False,False
+DKI Jakarta,9,2023,7,Juli,7,Pajak Daerah,43600000000000.0,21290351235035.0,48.83,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Pajak Daerah,43600000000000.0,24743929258442.0,56.75,False,False
+DKI Jakarta,9,2023,9,September,9,Pajak Daerah,43600000000000.0,28560643847959.0,65.51,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Pajak Daerah,43600000000000.0,32073422241588.0,73.56,False,False
+DKI Jakarta,9,2023,11,November,11,Pajak Daerah,43600000000000.0,35505060330536.0,81.43,False,False
+DKI Jakarta,9,2023,12,Desember,12,Pajak Daerah,43600000000000.0,39045491092507.0,89.55,False,False
+DKI Jakarta,9,2024,1,Januari,13,Pajak Daerah,46240000000000.0,2589557338291.0,5.6,False,False
+DKI Jakarta,9,2024,2,Februari,14,Pajak Daerah,46240000000000.0,4923706378740.0,10.65,False,False
+DKI Jakarta,9,2024,3,Maret,15,Pajak Daerah,46240000000000.0,7492144049601.0,16.2,False,False
+DKI Jakarta,9,2024,4,April,16,Pajak Daerah,46240000000000.0,10125480397827.0,21.9,False,False
+DKI Jakarta,9,2024,5,Mei,17,Pajak Daerah,46240000000000.0,12743952080342.0,27.56,False,False
+DKI Jakarta,9,2024,6,Juni,18,Pajak Daerah,46240000000000.0,16614611813203.0,35.93,False,False
+DKI Jakarta,9,2024,7,Juli,19,Pajak Daerah,46240000000000.0,22103986351858.0,47.8,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Pajak Daerah,46240000000000.0,29616540864317.0,64.05,False,False
+DKI Jakarta,9,2024,9,September,21,Pajak Daerah,46240000000000.0,33399269049059.0,72.23,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Pajak Daerah,46240000000000.0,36895185355702.0,79.79,False,False
+DKI Jakarta,9,2024,11,November,23,Pajak Daerah,46240000000000.0,40188536263584.0,86.91,False,False
+DKI Jakarta,9,2024,12,Desember,24,Pajak Daerah,46240000000000.0,44448074892860.0,96.12,False,False
+DKI Jakarta,9,2025,1,Januari,25,Pajak Daerah,48000000000000.0,2595804316876.0,5.41,False,False
+DKI Jakarta,9,2025,2,Februari,26,Pajak Daerah,48000000000000.0,5124534467669.0,10.68,False,False
+DKI Jakarta,9,2025,3,Maret,27,Pajak Daerah,48000000000000.0,7895281119390.0,16.45,False,False
+DKI Jakarta,9,2025,4,April,28,Pajak Daerah,48000000000000.0,11770403116527.0,24.52,False,False
+DKI Jakarta,9,2025,5,Mei,29,Pajak Daerah,48000000000000.0,20098513573969.0,41.87,False,False
+DKI Jakarta,9,2025,6,Juni,30,Pajak Daerah,48000000000000.0,23556013466399.0,49.08,False,False
+DKI Jakarta,9,2025,7,Juli,31,Pajak Daerah,48000000000000.0,27630598684675.0,57.56,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Pajak Daerah,48000000000000.0,30930166837742.0,64.44,False,False
+DKI Jakarta,9,2025,9,September,33,Pajak Daerah,48000000000000.0,34232060785852.0,71.32,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Pajak Daerah,48000000000000.0,37477027687345.0,78.08,False,False
+DKI Jakarta,9,2025,11,November,35,Pajak Daerah,48000000000000.0,40256000145587.0,83.87,False,False
+DKI Jakarta,9,2025,12,Desember,36,Pajak Daerah,48000000000000.0,40257205432387.0,83.87,False,False
+DKI Jakarta,9,2026,1,Januari,37,Pajak Daerah,49898218773411.0,2560848824917.0,5.13,False,False
+DKI Jakarta,9,2026,2,Februari,38,Pajak Daerah,49898218773411.0,5030676233788.0,10.08,False,False
+DKI Jakarta,9,2026,3,Maret,39,Pajak Daerah,49898218773411.0,7437185530080.0,14.9,False,False
+DKI Jakarta,9,2026,4,April,40,Pajak Daerah,49898218773411.0,11445936791214.0,22.94,False,False
+DKI Jakarta,9,2026,5,Mei,41,Pajak Daerah,49898218773411.0,20227951451494.0,40.54,False,False
+DKI Jakarta,9,2026,6,Juni,42,Pajak Daerah,49898218773411.0,23651091108462.0,47.4,False,False
+DKI Jakarta,9,2026,7,Juli,43,Pajak Daerah,49898218773411.0,27924930766196.0,55.96,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Pajak Daerah,49898218773411.0,30911154126598.0,61.95,False,False
+DKI Jakarta,9,2026,9,September,45,Pajak Daerah,49898218773411.0,31077293033332.0,62.28,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Pajak Daerah,49898218773411.0,31077293033332.0,62.28,False,True
+DKI Jakarta,9,2026,11,November,47,Pajak Daerah,49898218773411.0,31077293033332.0,62.28,False,True
+DKI Jakarta,9,2026,12,Desember,48,Pajak Daerah,49898218773411.0,31077293033332.0,62.28,False,True
+DKI Jakarta,9,2023,1,Januari,1,Pendapatan Daerah,74380646088137.0,2809066587800.0,3.78,False,False
+DKI Jakarta,9,2023,2,Februari,2,Pendapatan Daerah,74380646088137.0,5605336547161.0,7.54,False,False
+DKI Jakarta,9,2023,3,Maret,3,Pendapatan Daerah,74380646088137.0,11716112314890.0,15.75,False,False
+DKI Jakarta,9,2023,4,April,4,Pendapatan Daerah,74380646088137.0,16447014766884.0,22.11,False,False
+DKI Jakarta,9,2023,5,Mei,5,Pendapatan Daerah,74380646088137.0,16447014766884.0,22.11,False,False
+DKI Jakarta,9,2023,6,Juni,6,Pendapatan Daerah,74380646088137.0,26619418805704.0,35.79,False,False
+DKI Jakarta,9,2023,7,Juli,7,Pendapatan Daerah,74380646088137.0,31002722958999.0,41.68,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Pendapatan Daerah,74380646088137.0,34900429718965.0,46.92,False,False
+DKI Jakarta,9,2023,9,September,9,Pendapatan Daerah,74380646088137.0,41944207139723.0,56.39,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Pendapatan Daerah,74380646088137.0,46785106116223.0,62.9,False,False
+DKI Jakarta,9,2023,11,November,11,Pendapatan Daerah,74380646088137.0,57088033274994.0,76.75,False,False
+DKI Jakarta,9,2023,12,Desember,12,Pendapatan Daerah,74380646088137.0,66231173287384.0,89.04,False,False
+DKI Jakarta,9,2024,1,Januari,13,Pendapatan Daerah,72446382571261.0,3010577198116.0,4.16,False,False
+DKI Jakarta,9,2024,2,Februari,14,Pendapatan Daerah,72446382571261.0,5737444607253.0,7.92,False,False
+DKI Jakarta,9,2024,3,Maret,15,Pendapatan Daerah,72446382571261.0,9935042594993.0,13.71,False,False
+DKI Jakarta,9,2024,4,April,16,Pendapatan Daerah,72446382571261.0,16472783494804.0,22.74,False,False
+DKI Jakarta,9,2024,5,Mei,17,Pendapatan Daerah,72446382571261.0,19901932219155.0,27.47,False,False
+DKI Jakarta,9,2024,6,Juni,18,Pendapatan Daerah,72446382571261.0,28116176431672.0,38.81,False,False
+DKI Jakarta,9,2024,7,Juli,19,Pendapatan Daerah,72446382571261.0,34454301071777.0,47.56,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Pendapatan Daerah,72446382571261.0,42479066885817.0,58.64,False,False
+DKI Jakarta,9,2024,9,September,21,Pendapatan Daerah,72446382571261.0,50004334943413.0,69.02,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Pendapatan Daerah,72446382571261.0,54152958393529.0,74.75,False,False
+DKI Jakarta,9,2024,11,November,23,Pendapatan Daerah,72446382571261.0,64246141257660.0,88.68,False,False
+DKI Jakarta,9,2024,12,Desember,24,Pendapatan Daerah,72446382571261.0,72952092296153.0,100.7,False,False
+DKI Jakarta,9,2025,1,Januari,25,Pendapatan Daerah,81734364760824.0,3043838474658.0,3.72,False,False
+DKI Jakarta,9,2025,2,Februari,26,Pendapatan Daerah,81734364760824.0,9841285413794.0,12.04,False,False
+DKI Jakarta,9,2025,3,Maret,27,Pendapatan Daerah,81734364760824.0,13110942260576.0,16.04,False,False
+DKI Jakarta,9,2025,4,April,28,Pendapatan Daerah,81734364760824.0,22701351156947.0,27.77,False,False
+DKI Jakarta,9,2025,5,Mei,29,Pendapatan Daerah,81734364760824.0,31494111053300.0,38.53,False,False
+DKI Jakarta,9,2025,6,Juni,30,Pendapatan Daerah,81734364760824.0,41068241118840.0,50.25,False,False
+DKI Jakarta,9,2025,7,Juli,31,Pendapatan Daerah,81734364760824.0,44682872928752.0,54.67,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Pendapatan Daerah,81734364760824.0,54155157065294.0,66.26,False,False
+DKI Jakarta,9,2025,9,September,33,Pendapatan Daerah,81734364760824.0,58050015920965.0,71.02,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Pendapatan Daerah,81734364760824.0,61868982113507.0,75.7,False,False
+DKI Jakarta,9,2025,11,November,35,Pendapatan Daerah,81734364760824.0,68419239661979.0,83.71,False,False
+DKI Jakarta,9,2025,12,Desember,36,Pendapatan Daerah,81734364760824.0,68420444948779.0,83.71,False,False
+DKI Jakarta,9,2026,1,Januari,37,Pendapatan Daerah,71450673065697.0,3033756950013.0,4.25,False,False
+DKI Jakarta,9,2026,2,Februari,38,Pendapatan Daerah,71450673065697.0,6699504301651.0,9.38,False,False
+DKI Jakarta,9,2026,3,Maret,39,Pendapatan Daerah,71450673065697.0,9841850304224.0,13.77,False,False
+DKI Jakarta,9,2026,4,April,40,Pendapatan Daerah,71450673065697.0,14279966806964.0,19.99,False,False
+DKI Jakarta,9,2026,5,Mei,41,Pendapatan Daerah,71450673065697.0,24312471732667.0,34.03,False,False
+DKI Jakarta,9,2026,6,Juni,42,Pendapatan Daerah,71450673065697.0,28995600640211.0,40.58,False,False
+DKI Jakarta,9,2026,7,Juli,43,Pendapatan Daerah,71450673065697.0,34562899335700.0,48.37,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Pendapatan Daerah,71450673065697.0,39134967341358.0,54.77,False,False
+DKI Jakarta,9,2026,9,September,45,Pendapatan Daerah,71450673065697.0,39307459650760.0,55.01,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Pendapatan Daerah,71450673065697.0,39307459650760.0,55.01,False,True
+DKI Jakarta,9,2026,11,November,47,Pendapatan Daerah,71450673065697.0,39307459650760.0,55.01,False,True
+DKI Jakarta,9,2026,12,Desember,48,Pendapatan Daerah,71450673065697.0,39307459650760.0,55.01,False,True
+DKI Jakarta,9,2023,1,Januari,1,Pendapatan Hibah,3149883458436.0,16065680380.0,0.51,False,False
+DKI Jakarta,9,2023,2,Februari,2,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,3,Maret,3,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,4,April,4,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,5,Mei,5,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,6,Juni,6,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,7,Juli,7,Pendapatan Hibah,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Pendapatan Hibah,3149883458436.0,25855175180.0,0.82,False,False
+DKI Jakarta,9,2023,9,September,9,Pendapatan Hibah,3149883458436.0,26865165180.0,0.85,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Pendapatan Hibah,3149883458436.0,27875155180.0,0.88,False,False
+DKI Jakarta,9,2023,11,November,11,Pendapatan Hibah,3149883458436.0,28885145180.0,0.92,False,False
+DKI Jakarta,9,2023,12,Desember,12,Pendapatan Hibah,3149883458436.0,1766153820454.0,56.07,False,False
+DKI Jakarta,9,2024,1,Januari,13,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,3,Maret,15,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,4,April,16,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,5,Mei,17,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,6,Juni,18,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,7,Juli,19,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,9,September,21,Pendapatan Hibah,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Pendapatan Hibah,722293641636.0,9695300000.0,1.34,False,False
+DKI Jakarta,9,2024,11,November,23,Pendapatan Hibah,722293641636.0,10772560000.0,1.49,False,False
+DKI Jakarta,9,2024,12,Desember,24,Pendapatan Hibah,722293641636.0,589167782024.0,81.57,False,False
+DKI Jakarta,9,2025,1,Januari,25,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,3,Maret,27,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,4,April,28,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,5,Mei,29,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,6,Juni,30,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,7,Juli,31,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,9,September,33,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Pendapatan Hibah,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,11,November,35,Pendapatan Hibah,1409277868000.0,10661800000.0,0.76,False,False
+DKI Jakarta,9,2025,12,Desember,36,Pendapatan Hibah,1409277868000.0,10661800000.0,0.76,False,True
+DKI Jakarta,9,2026,1,Januari,37,Pendapatan Hibah,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Pendapatan Hibah,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,3,Maret,39,Pendapatan Hibah,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,4,April,40,Pendapatan Hibah,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,5,Mei,41,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,False
+DKI Jakarta,9,2026,6,Juni,42,Pendapatan Hibah,2620545060000.0,7219537.0,0.0,False,True
+DKI Jakarta,9,2026,7,Juli,43,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,8,Agustus,44,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,9,September,45,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,11,November,47,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,12,Desember,48,Pendapatan Hibah,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2023,1,Januari,1,Pendapatan Lainnya,3149883458436.0,16065680380.0,0.51,False,False
+DKI Jakarta,9,2023,2,Februari,2,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,3,Maret,3,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,4,April,4,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,5,Mei,5,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,6,Juni,6,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,7,Juli,7,Pendapatan Lainnya,3149883458436.0,18785255180.0,0.6,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Pendapatan Lainnya,3149883458436.0,25855175180.0,0.82,False,False
+DKI Jakarta,9,2023,9,September,9,Pendapatan Lainnya,3149883458436.0,26865165180.0,0.85,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Pendapatan Lainnya,3149883458436.0,27875155180.0,0.88,False,False
+DKI Jakarta,9,2023,11,November,11,Pendapatan Lainnya,3149883458436.0,28885145180.0,0.92,False,False
+DKI Jakarta,9,2023,12,Desember,12,Pendapatan Lainnya,3149883458436.0,1766153820454.0,56.07,False,False
+DKI Jakarta,9,2024,1,Januari,13,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,3,Maret,15,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,4,April,16,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,5,Mei,17,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,6,Juni,18,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,7,Juli,19,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,9,September,21,Pendapatan Lainnya,722293641636.0,0.0,0.0,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Pendapatan Lainnya,722293641636.0,9695300000.0,1.34,False,False
+DKI Jakarta,9,2024,11,November,23,Pendapatan Lainnya,722293641636.0,10772560000.0,1.49,False,False
+DKI Jakarta,9,2024,12,Desember,24,Pendapatan Lainnya,722293641636.0,589167782024.0,81.57,False,False
+DKI Jakarta,9,2025,1,Januari,25,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,2,Februari,26,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,3,Maret,27,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,4,April,28,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,5,Mei,29,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,6,Juni,30,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,7,Juli,31,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,9,September,33,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Pendapatan Lainnya,1409277868000.0,0.0,0.0,False,False
+DKI Jakarta,9,2025,11,November,35,Pendapatan Lainnya,1409277868000.0,10661800000.0,0.76,False,False
+DKI Jakarta,9,2025,12,Desember,36,Pendapatan Lainnya,1409277868000.0,10661800000.0,0.76,False,True
+DKI Jakarta,9,2026,1,Januari,37,Pendapatan Lainnya,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,2,Februari,38,Pendapatan Lainnya,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,3,Maret,39,Pendapatan Lainnya,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,4,April,40,Pendapatan Lainnya,2620545060000.0,0.0,0.0,False,False
+DKI Jakarta,9,2026,5,Mei,41,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,False
+DKI Jakarta,9,2026,6,Juni,42,Pendapatan Lainnya,2620545060000.0,7219537.0,0.0,False,True
+DKI Jakarta,9,2026,7,Juli,43,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,8,Agustus,44,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,9,September,45,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,11,November,47,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2026,12,Desember,48,Pendapatan Lainnya,2620545060000.0,7219540.0,0.0,False,True
+DKI Jakarta,9,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,887476000.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,6638606000.0,0.04,False,False
+DKI Jakarta,9,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,2716428552000.0,14.72,False,False
+DKI Jakarta,9,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,4165245775000.0,22.57,False,False
+DKI Jakarta,9,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,4165245775000.0,22.57,False,False
+DKI Jakarta,9,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,7223177158000.0,39.13,False,False
+DKI Jakarta,9,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,7223177158000.0,39.13,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,7223196430500.0,39.13,False,False
+DKI Jakarta,9,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,9981013812500.0,54.08,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,10882056033500.0,58.96,False,False
+DKI Jakarta,9,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,17292474530000.0,93.69,False,False
+DKI Jakarta,9,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,18457238970000.0,20152445762034.0,109.18,False,False
+DKI Jakarta,9,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,835286000.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,4043077000.0,0.02,False,False
+DKI Jakarta,9,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,1196030406000.0,6.19,False,False
+DKI Jakarta,9,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,4350448791000.0,22.51,False,False
+DKI Jakarta,9,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,4766285461000.0,24.66,False,False
+DKI Jakarta,9,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,8884581109331.0,45.97,False,False
+DKI Jakarta,9,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,8963742731000.0,46.38,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,9016498931000.0,46.65,False,False
+DKI Jakarta,9,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,12186472268760.0,63.06,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,12218245109200.0,63.22,False,False
+DKI Jakarta,9,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,18493426711000.0,95.69,False,False
+DKI Jakarta,9,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,19326007889000.0,21620905241381.0,111.87,False,False
+DKI Jakarta,9,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,15400600000.0,0.06,False,False
+DKI Jakarta,9,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,3897227328400.0,14.91,False,False
+DKI Jakarta,9,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,3921760663400.0,15.0,False,False
+DKI Jakarta,9,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,8701043955500.0,33.29,False,False
+DKI Jakarta,9,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,8741176515500.0,33.44,False,False
+DKI Jakarta,9,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,14368149529450.0,54.97,False,False
+DKI Jakarta,9,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,13095819362600.0,50.1,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,18590038308400.0,71.12,False,False
+DKI Jakarta,9,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,18638380781400.0,71.31,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,18707542631400.0,71.57,False,False
+DKI Jakarta,9,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,22305680268200.0,85.34,False,False
+DKI Jakarta,9,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,26137337366000.0,22305680268200.0,85.34,False,True
+DKI Jakarta,9,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,20884829000.0,0.19,False,False
+DKI Jakarta,9,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,785103079000.0,7.04,False,False
+DKI Jakarta,9,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,825861362000.0,7.4,False,False
+DKI Jakarta,9,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,826367861000.0,7.41,False,False
+DKI Jakarta,9,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,1638182234000.0,14.68,False,False
+DKI Jakarta,9,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,2636630902172.0,23.63,False,False
+DKI Jakarta,9,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,2660655466000.0,23.84,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,4125758967200.0,36.97,False,False
+DKI Jakarta,9,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2023,1,Januari,1,Retribusi Daerah,600000000000.0,15819017779.0,2.64,False,False
+DKI Jakarta,9,2023,2,Februari,2,Retribusi Daerah,600000000000.0,51877420063.0,8.65,False,False
+DKI Jakarta,9,2023,3,Maret,3,Retribusi Daerah,600000000000.0,113313340908.0,18.89,False,False
+DKI Jakarta,9,2023,4,April,4,Retribusi Daerah,600000000000.0,136408590338.0,22.73,False,False
+DKI Jakarta,9,2023,5,Mei,5,Retribusi Daerah,600000000000.0,136408590338.0,22.73,False,False
+DKI Jakarta,9,2023,6,Juni,6,Retribusi Daerah,600000000000.0,157943041374.0,26.32,False,False
+DKI Jakarta,9,2023,7,Juli,7,Retribusi Daerah,600000000000.0,201685431576.0,33.61,False,False
+DKI Jakarta,9,2023,8,Agustus,8,Retribusi Daerah,600000000000.0,241580009572.0,40.26,False,False
+DKI Jakarta,9,2023,9,September,9,Retribusi Daerah,600000000000.0,277418624386.0,46.24,False,False
+DKI Jakarta,9,2023,10,Oktober,10,Retribusi Daerah,600000000000.0,316980335048.0,52.83,False,False
+DKI Jakarta,9,2023,11,November,11,Retribusi Daerah,600000000000.0,353083597002.0,58.85,False,False
+DKI Jakarta,9,2023,12,Desember,12,Retribusi Daerah,600000000000.0,422395482994.0,70.4,False,False
+DKI Jakarta,9,2024,1,Januari,13,Retribusi Daerah,483034270805.0,27599780575.0,5.71,False,False
+DKI Jakarta,9,2024,2,Februari,14,Retribusi Daerah,483034270805.0,62639324384.0,12.97,False,False
+DKI Jakarta,9,2024,3,Maret,15,Retribusi Daerah,483034270805.0,96128485084.0,19.9,False,False
+DKI Jakarta,9,2024,4,April,16,Retribusi Daerah,483034270805.0,137802886584.0,28.53,False,False
+DKI Jakarta,9,2024,5,Mei,17,Retribusi Daerah,483034270805.0,180157287589.0,37.3,False,False
+DKI Jakarta,9,2024,6,Juni,18,Retribusi Daerah,483034270805.0,206797731614.0,42.81,False,False
+DKI Jakarta,9,2024,7,Juli,19,Retribusi Daerah,483034270805.0,309853938371.0,64.15,False,False
+DKI Jakarta,9,2024,8,Agustus,20,Retribusi Daerah,483034270805.0,384318985217.0,79.56,False,False
+DKI Jakarta,9,2024,9,September,21,Retribusi Daerah,483034270805.0,465812214029.0,96.43,False,False
+DKI Jakarta,9,2024,10,Oktober,22,Retribusi Daerah,483034270805.0,566950752648.0,117.37,False,False
+DKI Jakarta,9,2024,11,November,23,Retribusi Daerah,483034270805.0,648784601309.0,134.31,False,False
+DKI Jakarta,9,2024,12,Desember,24,Retribusi Daerah,483034270805.0,713719914820.21,147.76,False,False
+DKI Jakarta,9,2025,1,Januari,25,Retribusi Daerah,1449458173488.0,102352706855.0,7.06,False,False
+DKI Jakarta,9,2025,2,Februari,26,Retribusi Daerah,1449458173488.0,176617210292.0,12.19,False,False
+DKI Jakarta,9,2025,3,Maret,27,Retribusi Daerah,1449458173488.0,285889126138.0,19.72,False,False
+DKI Jakarta,9,2025,4,April,28,Retribusi Daerah,1449458173488.0,358278273744.0,24.72,False,False
+DKI Jakarta,9,2025,5,Mei,29,Retribusi Daerah,1449458173488.0,452081430558.0,31.19,False,False
+DKI Jakarta,9,2025,6,Juni,30,Retribusi Daerah,1449458173488.0,567341776737.15,39.14,False,False
+DKI Jakarta,9,2025,7,Juli,31,Retribusi Daerah,1449458173488.0,702182912957.0,48.44,False,False
+DKI Jakarta,9,2025,8,Agustus,32,Retribusi Daerah,1449458173488.0,835659630786.0,57.65,False,False
+DKI Jakarta,9,2025,9,September,33,Retribusi Daerah,1449458173488.0,977526675183.0,67.44,False,False
+DKI Jakarta,9,2025,10,Oktober,34,Retribusi Daerah,1449458173488.0,1089683991826.0,75.18,False,False
+DKI Jakarta,9,2025,11,November,35,Retribusi Daerah,1449458173488.0,1142088304367.0,78.79,False,False
+DKI Jakarta,9,2025,12,Desember,36,Retribusi Daerah,1449458173488.0,1142088304367.0,78.79,False,True
+DKI Jakarta,9,2026,1,Januari,37,Retribusi Daerah,2214853656242.0,87759946686.0,3.96,False,False
+DKI Jakarta,9,2026,2,Februari,38,Retribusi Daerah,2214853656242.0,164989148500.0,7.45,False,False
+DKI Jakarta,9,2026,3,Maret,39,Retribusi Daerah,2214853656242.0,259193903696.0,11.7,False,False
+DKI Jakarta,9,2026,4,April,40,Retribusi Daerah,2214853656242.0,357957692955.0,16.16,False,False
+DKI Jakarta,9,2026,5,Mei,41,Retribusi Daerah,2214853656242.0,462311337012.0,20.87,False,False
+DKI Jakarta,9,2026,6,Juni,42,Retribusi Daerah,2214853656242.0,521632790861.73,23.55,False,False
+DKI Jakarta,9,2026,7,Juli,43,Retribusi Daerah,2214853656242.0,705148909969.0,31.84,False,False
+DKI Jakarta,9,2026,8,Agustus,44,Retribusi Daerah,2214853656242.0,760934896812.0,34.36,False,False
+DKI Jakarta,9,2026,9,September,45,Retribusi Daerah,2214853656242.0,765891275202.0,34.58,False,False
+DKI Jakarta,9,2026,10,Oktober,46,Retribusi Daerah,2214853656242.0,765891275202.0,34.58,False,True
+DKI Jakarta,9,2026,11,November,47,Retribusi Daerah,2214853656242.0,765891275202.0,34.58,False,True
+DKI Jakarta,9,2026,12,Desember,48,Retribusi Daerah,2214853656242.0,765891275202.0,34.58,False,True
+DKI Jakarta,9,2023,1,Januari,1,TKDD,18457238970000.0,887476000.0,0.0,False,False
+DKI Jakarta,9,2023,2,Februari,2,TKDD,18457238970000.0,6638606000.0,0.04,False,False
+DKI Jakarta,9,2023,3,Maret,3,TKDD,18457238970000.0,2716428552000.0,14.72,False,False
+DKI Jakarta,9,2023,4,April,4,TKDD,18457238970000.0,4165245775000.0,22.57,False,False
+DKI Jakarta,9,2023,5,Mei,5,TKDD,18457238970000.0,4165245775000.0,22.57,False,False
+DKI Jakarta,9,2023,6,Juni,6,TKDD,18457238970000.0,7223177158000.0,39.13,False,False
+DKI Jakarta,9,2023,7,Juli,7,TKDD,18457238970000.0,7223177158000.0,39.13,False,False
+DKI Jakarta,9,2023,8,Agustus,8,TKDD,18457238970000.0,7223196430500.0,39.13,False,False
+DKI Jakarta,9,2023,9,September,9,TKDD,18457238970000.0,9981013812500.0,54.08,False,False
+DKI Jakarta,9,2023,10,Oktober,10,TKDD,18457238970000.0,10882056033500.0,58.96,False,False
+DKI Jakarta,9,2023,11,November,11,TKDD,18457238970000.0,17292474530000.0,93.69,False,False
+DKI Jakarta,9,2023,12,Desember,12,TKDD,18457238970000.0,20152445762034.0,109.18,False,False
+DKI Jakarta,9,2024,1,Januari,13,TKDD,19326007889000.0,835286000.0,0.0,False,False
+DKI Jakarta,9,2024,2,Februari,14,TKDD,19326007889000.0,4043077000.0,0.02,False,False
+DKI Jakarta,9,2024,3,Maret,15,TKDD,19326007889000.0,1196030406000.0,6.19,False,False
+DKI Jakarta,9,2024,4,April,16,TKDD,19326007889000.0,4350448791000.0,22.51,False,False
+DKI Jakarta,9,2024,5,Mei,17,TKDD,19326007889000.0,4766285461000.0,24.66,False,False
+DKI Jakarta,9,2024,6,Juni,18,TKDD,19326007889000.0,8884581109331.0,45.97,False,False
+DKI Jakarta,9,2024,7,Juli,19,TKDD,19326007889000.0,8963742731000.0,46.38,False,False
+DKI Jakarta,9,2024,8,Agustus,20,TKDD,19326007889000.0,9016498931000.0,46.65,False,False
+DKI Jakarta,9,2024,9,September,21,TKDD,19326007889000.0,12186472268760.0,63.06,False,False
+DKI Jakarta,9,2024,10,Oktober,22,TKDD,19326007889000.0,12218245109200.0,63.22,False,False
+DKI Jakarta,9,2024,11,November,23,TKDD,19326007889000.0,18493426711000.0,95.69,False,False
+DKI Jakarta,9,2024,12,Desember,24,TKDD,19326007889000.0,21620905241381.0,111.87,False,False
+DKI Jakarta,9,2025,1,Januari,25,TKDD,26137337366000.0,15400600000.0,0.06,False,False
+DKI Jakarta,9,2025,2,Februari,26,TKDD,26137337366000.0,3897227328400.0,14.91,False,False
+DKI Jakarta,9,2025,3,Maret,27,TKDD,26137337366000.0,3921760663400.0,15.0,False,False
+DKI Jakarta,9,2025,4,April,28,TKDD,26137337366000.0,8701043955500.0,33.29,False,False
+DKI Jakarta,9,2025,5,Mei,29,TKDD,26137337366000.0,8741176515500.0,33.44,False,False
+DKI Jakarta,9,2025,6,Juni,30,TKDD,26137337366000.0,14368149529450.0,54.97,False,False
+DKI Jakarta,9,2025,7,Juli,31,TKDD,26137337366000.0,13095819362600.0,50.1,False,False
+DKI Jakarta,9,2025,8,Agustus,32,TKDD,26137337366000.0,18590038308400.0,71.12,False,False
+DKI Jakarta,9,2025,9,September,33,TKDD,26137337366000.0,18638380781400.0,71.31,False,False
+DKI Jakarta,9,2025,10,Oktober,34,TKDD,26137337366000.0,18707542631400.0,71.57,False,False
+DKI Jakarta,9,2025,11,November,35,TKDD,26137337366000.0,22305680268200.0,85.34,False,False
+DKI Jakarta,9,2025,12,Desember,36,TKDD,26137337366000.0,22305680268200.0,85.34,False,True
+DKI Jakarta,9,2026,1,Januari,37,TKDD,11159480293000.0,20884829000.0,0.19,False,False
+DKI Jakarta,9,2026,2,Februari,38,TKDD,11159480293000.0,785103079000.0,7.04,False,False
+DKI Jakarta,9,2026,3,Maret,39,TKDD,11159480293000.0,825861362000.0,7.4,False,False
+DKI Jakarta,9,2026,4,April,40,TKDD,11159480293000.0,826367861000.0,7.41,False,False
+DKI Jakarta,9,2026,5,Mei,41,TKDD,11159480293000.0,1638182234000.0,14.68,False,False
+DKI Jakarta,9,2026,6,Juni,42,TKDD,11159480293000.0,2636630902172.0,23.63,False,False
+DKI Jakarta,9,2026,7,Juli,43,TKDD,11159480293000.0,2660655466000.0,23.84,False,False
+DKI Jakarta,9,2026,8,Agustus,44,TKDD,11159480293000.0,4125758967200.0,36.97,False,False
+DKI Jakarta,9,2026,9,September,45,TKDD,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,10,Oktober,46,TKDD,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,11,November,47,TKDD,11159480293000.0,4125758967200.0,36.97,False,True
+DKI Jakarta,9,2026,12,Desember,48,TKDD,11159480293000.0,4125758967200.0,36.97,False,True

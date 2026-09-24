@@ -1,0 +1,997 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Maluku Utara,27,2023,1,Januari,1,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,4,April,4,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,9,September,9,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,11,November,11,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Bantuan Keuangan,1500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,4,April,16,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,9,September,21,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,11,November,23,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Bantuan Keuangan,500000000.0,0.0,0.0,True,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Bantuan Keuangan,0.0,2000000000.0,0.0,False,False
+Maluku Utara,27,2023,1,Januari,1,Belanja Bantuan Sosial,8046144500.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Bantuan Sosial,8046144500.0,0.0,0.0,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Bantuan Sosial,8046144500.0,0.0,0.0,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Bantuan Sosial,8046144500.0,0.0,0.0,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Bantuan Sosial,8046144500.0,0.0,0.0,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Bantuan Sosial,8046144500.0,150000000.0,1.86,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Bantuan Sosial,8046144500.0,350000000.0,4.35,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Bantuan Sosial,8046144500.0,599818000.0,7.45,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Bantuan Sosial,8046144500.0,649818000.0,8.08,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Bantuan Sosial,8046144500.0,1094818000.0,13.61,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Bantuan Sosial,8046144500.0,1094818000.0,13.61,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Bantuan Sosial,8046144500.0,1589620954.0,19.76,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Bantuan Sosial,494573352.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Bantuan Sosial,494573352.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Bantuan Sosial,494573352.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Bantuan Sosial,494573352.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Bantuan Sosial,494573352.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2024,8,Agustus,20,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2024,9,September,21,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2024,10,Oktober,22,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2024,11,November,23,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2024,12,Desember,24,Belanja Bantuan Sosial,494573352.0,494573352.0,100.0,False,True
+Maluku Utara,27,2025,1,Januari,25,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Bantuan Sosial,6100000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Bantuan Sosial,6100000000.0,100000000.0,1.64,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Bantuan Sosial,6100000000.0,400000000.0,6.56,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Bantuan Sosial,6100000000.0,1015000000.0,16.64,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Bantuan Sosial,6100000000.0,2282500000.0,37.42,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,4,April,40,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,9,September,45,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,10,Oktober,46,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,11,November,47,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2026,12,Desember,48,Belanja Bantuan Sosial,5150000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,1,Januari,1,Belanja Barang dan Jasa,1617734669427.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Barang dan Jasa,1617734669427.0,13780554095.48,0.85,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Barang dan Jasa,1617734669427.0,93326269569.98,5.77,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Barang dan Jasa,1617734669427.0,175964458217.71,10.88,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Barang dan Jasa,1617734669427.0,175964458217.71,10.88,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Barang dan Jasa,1617734669427.0,295076487712.71,18.24,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Barang dan Jasa,1617734669427.0,404835571564.71,25.02,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Barang dan Jasa,1617734669427.0,509749304135.48,31.51,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Barang dan Jasa,1617734669427.0,614186653970.71,37.97,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Barang dan Jasa,1617734669427.0,718473350631.12,44.41,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Barang dan Jasa,1617734669427.0,824779780707.12,50.98,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Barang dan Jasa,1617734669427.0,1199521031677.7,74.15,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Barang dan Jasa,1349106414303.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Barang dan Jasa,1349106414303.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Barang dan Jasa,1349106414303.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Barang dan Jasa,1349106414303.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Barang dan Jasa,1349106414303.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Barang dan Jasa,1349106414303.0,281888617933.0,20.89,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Barang dan Jasa,1349106414303.0,281888617933.0,20.89,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Barang dan Jasa,1349106414303.0,630516836238.0,46.74,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Barang dan Jasa,1349106414303.0,281888617933.0,20.89,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Barang dan Jasa,1349106414303.0,281888617933.0,20.89,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Barang dan Jasa,1349106414303.0,281888617933.0,20.89,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Barang dan Jasa,1349106414303.0,1331022235618.8,98.66,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Barang dan Jasa,1305912837135.6,840555541.0,0.06,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Barang dan Jasa,1305912837135.6,43331921326.6,3.32,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Barang dan Jasa,1305912837135.6,88043760740.6,6.74,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Barang dan Jasa,1305912837135.6,120814331868.04,9.25,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Barang dan Jasa,1305912837135.6,179039986641.04,13.71,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Barang dan Jasa,1305912837135.6,280668303662.06,21.49,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Barang dan Jasa,1305912837135.6,353324882762.26,27.06,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Barang dan Jasa,1305912837135.6,435539729759.89,33.35,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Barang dan Jasa,1305912837135.6,551339158792.54,42.22,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Barang dan Jasa,1305912837135.6,684114012289.94,52.39,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Barang dan Jasa,1305912837135.6,803833389020.66,61.55,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Barang dan Jasa,1305912837135.6,1120543998529.2,85.81,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Barang dan Jasa,889576606954.97,16391902613.5,1.84,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Barang dan Jasa,889576606954.97,36346493201.5,4.09,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Barang dan Jasa,889576606954.97,75739622779.5,8.51,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Barang dan Jasa,889576606954.97,140934961026.5,15.84,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Barang dan Jasa,889576606954.97,204377062194.5,22.97,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Barang dan Jasa,889576606954.97,280728041996.5,31.56,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Barang dan Jasa,889576606954.97,359285599648.5,40.39,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Barang dan Jasa,889576606954.97,410239934164.5,46.12,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Barang dan Jasa,889576606954.97,429678129210.01,48.3,False,False
+Maluku Utara,27,2026,10,Oktober,46,Belanja Barang dan Jasa,889576606954.97,429678129210.01,48.3,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Barang dan Jasa,889576606954.97,429678129210.01,48.3,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Barang dan Jasa,889576606954.97,429678129210.01,48.3,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Bunga,28005210000.0,315215364.0,1.13,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Bunga,28005210000.0,3915563483.0,13.98,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Bunga,28005210000.0,3915563483.0,13.98,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Bunga,28005210000.0,4223926339.0,15.08,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Bunga,28005210000.0,4223926339.0,15.08,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Bunga,28005210000.0,4223926339.0,15.08,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Bunga,28005210000.0,4535715449.0,16.2,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Bunga,28005210000.0,4535715449.0,16.2,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Bunga,28005210000.0,7536005522.0,26.91,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Bunga,28005210000.0,7851220886.0,28.03,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Bunga,28005210000.0,7851220886.0,28.03,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Bunga,28005210000.0,10551481937.0,37.68,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Bunga,12179325500.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Bunga,12179325500.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Bunga,12179325500.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Bunga,12179325500.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Bunga,12179325500.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Bunga,12179325500.0,5081782919.0,41.72,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Bunga,12179325500.0,5081782919.0,41.72,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Bunga,12179325500.0,7193746011.0,59.07,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Bunga,12179325500.0,5081782919.0,41.72,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Bunga,12179325500.0,5081782919.0,41.72,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Bunga,12179325500.0,5081782919.0,41.72,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Bunga,12179325500.0,9087624658.0,74.62,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Bunga,6089662750.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Bunga,6089662750.0,1200115936.0,19.71,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Bunga,6089662750.0,1200115936.0,19.71,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Bunga,6089662750.0,1200115936.0,19.71,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Bunga,6089662750.0,2070852188.0,34.01,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Bunga,6089662750.0,2070852188.0,34.01,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Bunga,6089662750.0,2070852188.0,34.01,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Bunga,6089662750.0,2670910078.0,43.86,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Bunga,6089662750.0,2670910078.0,43.86,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Bunga,6089662750.0,2670910078.0,43.86,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Bunga,6089662750.0,3023117878.0,49.64,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Bunga,6089662750.0,3023117878.0,49.64,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Daerah,4242669820080.0,38288657812.0,0.9,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Daerah,4242669820080.0,111674058999.48,2.63,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Daerah,4242669820080.0,345077520948.76,8.13,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Daerah,4242669820080.0,672002067420.12,15.84,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Daerah,4242669820080.0,672002067420.12,15.84,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Daerah,4242669820080.0,1015390657258.1,23.93,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Daerah,4242669820080.0,1272931171740.1,30.0,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Daerah,4242669820080.0,1539198808637.6,36.28,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Daerah,4242669820080.0,1809398487015.0,42.65,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Daerah,4242669820080.0,2035914581563.4,47.99,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Daerah,4242669820080.0,2285098186924.4,53.86,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Daerah,4242669820080.0,2903457356895.0,68.43,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Daerah,4024526222002.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Daerah,4024526222002.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Daerah,4024526222002.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Daerah,4024526222002.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Daerah,4024526222002.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Daerah,4024526222002.0,1113608763271.0,27.67,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Daerah,4024526222002.0,1113608763271.0,27.67,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Daerah,4024526222002.0,2047272380940.1,50.87,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Daerah,4024526222002.0,1113608763271.0,27.67,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Daerah,4024526222002.0,1113608763271.0,27.67,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Daerah,4024526222002.0,1113608763271.0,27.67,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Daerah,4024526222002.0,3796867369788.4,94.34,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Daerah,3414363970080.0,52844406191.0,1.55,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Daerah,3414363970080.0,193290725722.6,5.66,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Daerah,3414363970080.0,434052785007.59,12.71,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Daerah,3414363970080.0,525098502381.03,15.38,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Daerah,3414363970080.0,778823258802.03,22.81,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Daerah,3414363970080.0,976099116398.05,28.59,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Daerah,3414363970080.0,1220734813604.2,35.75,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Daerah,3414363970080.0,1525294098518.8,44.67,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Daerah,3414363970080.0,1782119365840.4,52.19,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Daerah,3414363970080.0,2115464385227.7,61.96,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Daerah,3414363970080.0,2398462050450.4,70.25,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Daerah,3414363970080.0,3260570860909.5,95.5,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Daerah,2819497309219.0,75335352350.5,2.67,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Daerah,2819497309219.0,243645306583.5,8.64,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Daerah,2819497309219.0,466679524557.52,16.55,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Daerah,2819497309219.0,731055614206.32,25.93,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Daerah,2819497309219.0,886320610252.32,31.44,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Daerah,2819497309219.0,1121559742272.6,39.78,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Daerah,2819497309219.0,1390895229335.0,49.33,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Daerah,2819497309219.0,1545833112452.0,54.83,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Daerah,2819497309219.0,1598277719992.5,56.69,False,False
+Maluku Utara,27,2026,10,Oktober,46,Belanja Daerah,2819497309219.0,1598277719992.5,56.69,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Daerah,2819497309219.0,1598277719992.5,56.69,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Daerah,2819497309219.0,1598277719992.5,56.69,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Hibah,166040455600.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Hibah,166040455600.0,0.0,0.0,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Hibah,166040455600.0,6842193546.0,4.12,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Hibah,166040455600.0,37779598562.0,22.75,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Hibah,166040455600.0,37779598562.0,22.75,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Hibah,166040455600.0,49018465823.0,29.52,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Hibah,166040455600.0,55919154649.0,33.68,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Hibah,166040455600.0,63168453397.0,38.04,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Hibah,166040455600.0,69168066509.0,41.66,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Hibah,166040455600.0,77703850306.0,46.8,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Hibah,166040455600.0,85653790550.0,51.59,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Hibah,166040455600.0,97776609924.0,58.89,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Hibah,319201750989.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Hibah,319201750989.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Hibah,319201750989.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Hibah,319201750989.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Hibah,319201750989.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Hibah,319201750989.0,266478412712.0,83.48,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Hibah,319201750989.0,266478412712.0,83.48,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Hibah,319201750989.0,552288775852.12,173.02,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Hibah,319201750989.0,266478412712.0,83.48,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Hibah,319201750989.0,266478412712.0,83.48,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Hibah,319201750989.0,266478412712.0,83.48,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Hibah,319201750989.0,391751359019.0,122.73,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Hibah,114618846850.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Hibah,114618846850.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Hibah,114618846850.0,16950000000.0,14.79,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Hibah,114618846850.0,16950000000.0,14.79,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Hibah,114618846850.0,25450000000.0,22.2,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Hibah,114618846850.0,31050000000.0,27.09,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Hibah,114618846850.0,42691513967.0,37.25,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Hibah,114618846850.0,51162678967.0,44.64,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Hibah,114618846850.0,60041744567.0,52.38,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Hibah,114618846850.0,77390766114.0,67.52,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Hibah,114618846850.0,91501216290.0,79.83,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Hibah,114618846850.0,132344124262.0,115.46,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Hibah,135144033000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Hibah,135144033000.0,624999000.0,0.46,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Hibah,135144033000.0,12224999000.0,9.05,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Hibah,135144033000.0,33919599000.0,25.1,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Hibah,135144033000.0,34919599000.0,25.84,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Hibah,135144033000.0,60924324907.0,45.08,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Hibah,135144033000.0,69923149907.0,51.74,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Hibah,135144033000.0,70823149907.0,52.41,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Hibah,135144033000.0,70823149907.0,52.41,False,True
+Maluku Utara,27,2026,10,Oktober,46,Belanja Hibah,135144033000.0,70823149907.0,52.41,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Hibah,135144033000.0,70823149907.0,52.41,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Hibah,135144033000.0,70823149907.0,52.41,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Lainnya,453374958444.0,315215364.0,0.07,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Lainnya,453374958444.0,3915563483.0,0.86,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Lainnya,453374958444.0,28047807128.0,6.19,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Lainnya,453374958444.0,84528188681.25,18.64,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Lainnya,453374958444.0,84528188681.25,18.64,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Lainnya,453374958444.0,132126899046.25,29.14,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Lainnya,453374958444.0,178398585577.25,39.35,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Lainnya,453374958444.0,186897702325.25,41.22,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Lainnya,453374958444.0,199302493268.25,43.96,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Lainnya,453374958444.0,208598492429.25,46.01,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Lainnya,453374958444.0,221042987800.25,48.76,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Lainnya,453374958444.0,236360871179.25,52.13,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Lainnya,844012324262.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Lainnya,844012324262.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Lainnya,844012324262.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Lainnya,844012324262.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Lainnya,844012324262.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Lainnya,844012324262.0,272054768983.0,32.23,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Lainnya,844012324262.0,272054768983.0,32.23,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Lainnya,844012324262.0,559977095215.12,66.35,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Lainnya,844012324262.0,272054768983.0,32.23,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Lainnya,844012324262.0,272054768983.0,32.23,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Lainnya,844012324262.0,272054768983.0,32.23,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Lainnya,844012324262.0,788712553418.76,93.45,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Lainnya,382866893867.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Lainnya,382866893867.0,1200115936.0,0.31,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Lainnya,382866893867.0,61283068177.0,16.01,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Lainnya,382866893867.0,61283068177.0,16.01,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Lainnya,382866893867.0,115003096647.0,30.04,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Lainnya,382866893867.0,137165896647.0,35.83,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Lainnya,382866893867.0,153688482614.0,40.14,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Lainnya,382866893867.0,266826878786.0,69.69,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Lainnya,382866893867.0,277144050269.0,72.39,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Lainnya,382866893867.0,294793071816.0,77.0,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Lainnya,382866893867.0,309870729792.0,80.93,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Lainnya,382866893867.0,469096250120.0,122.52,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Lainnya,198450815000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Lainnya,198450815000.0,624999000.0,0.31,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Lainnya,198450815000.0,13892225000.0,7.0,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Lainnya,198450815000.0,35134129000.0,17.7,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Lainnya,198450815000.0,48166238459.0,24.27,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Lainnya,198450815000.0,73503738366.0,37.04,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Lainnya,198450815000.0,84088306366.0,42.37,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Lainnya,198450815000.0,85988306366.0,43.33,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Lainnya,198450815000.0,85988306366.0,43.33,False,True
+Maluku Utara,27,2026,10,Oktober,46,Belanja Lainnya,198450815000.0,85988306366.0,43.33,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Lainnya,198450815000.0,85988306366.0,43.33,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Lainnya,198450815000.0,85988306366.0,43.33,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Modal,1206960577341.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Modal,1206960577341.0,8258431216.0,0.68,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Modal,1206960577341.0,61929608264.78,5.13,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Modal,1206960577341.0,142842310026.16,11.83,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Modal,1206960577341.0,142842310026.16,11.83,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Modal,1206960577341.0,217125745686.16,17.99,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Modal,1206960577341.0,257681724897.16,21.35,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Modal,1206960577341.0,339111853153.86,28.1,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Modal,1206960577341.0,434372775748.06,35.99,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Modal,1206960577341.0,500724870469.06,41.49,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Modal,1206960577341.0,554589169616.06,45.95,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Modal,1206960577341.0,668550269272.04,55.39,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Modal,654407948368.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Modal,654407948368.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Modal,654407948368.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Modal,654407948368.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Modal,654407948368.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Modal,654407948368.0,57379603443.0,8.77,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Modal,654407948368.0,57379603443.0,8.77,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Modal,654407948368.0,185866098385.0,28.4,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Modal,654407948368.0,57379603443.0,8.77,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Modal,654407948368.0,57379603443.0,8.77,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Modal,654407948368.0,57379603443.0,8.77,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Modal,654407948368.0,649395528532.0,99.23,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Modal,528235300985.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Modal,528235300985.0,21403873365.0,4.05,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Modal,528235300985.0,21408997959.0,4.05,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Modal,528235300985.0,21913186022.0,4.15,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Modal,528235300985.0,24811755559.0,4.7,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Modal,528235300985.0,28345140580.0,5.37,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Modal,528235300985.0,47183110578.0,8.93,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Modal,528235300985.0,76594409563.89,14.5,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Modal,528235300985.0,142190638235.89,26.92,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Modal,528235300985.0,222786575559.78,42.18,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Modal,528235300985.0,262717926297.78,49.74,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Modal,528235300985.0,522052221877.33,98.83,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Modal,625273947493.71,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Modal,625273947493.71,15817656150.0,2.53,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Modal,625273947493.71,46938819332.0,7.51,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Modal,625273947493.71,82890902979.0,13.26,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Modal,625273947493.71,104576960581.0,16.72,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Modal,625273947493.71,125934592489.0,20.14,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Modal,625273947493.71,181528601053.0,29.03,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Modal,625273947493.71,229481854558.0,36.7,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Modal,625273947493.71,236995403119.0,37.9,False,False
+Maluku Utara,27,2026,10,Oktober,46,Belanja Modal,625273947493.71,236995403119.0,37.9,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Modal,625273947493.71,236995403119.0,37.9,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Modal,625273947493.71,236995403119.0,37.9,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Pegawai,964599614868.0,37973442448.0,3.94,False,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Pegawai,964599614868.0,85719510205.0,8.89,False,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Pegawai,964599614868.0,161773835986.0,16.77,False,False
+Maluku Utara,27,2023,4,April,4,Belanja Pegawai,964599614868.0,268667110495.0,27.85,False,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Pegawai,964599614868.0,268667110495.0,27.85,False,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Pegawai,964599614868.0,371061524813.0,38.47,False,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Pegawai,964599614868.0,432015289701.0,44.79,False,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Pegawai,964599614868.0,503439949023.0,52.19,False,False
+Maluku Utara,27,2023,9,September,9,Belanja Pegawai,964599614868.0,561536564028.0,58.21,False,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Pegawai,964599614868.0,608117868034.0,63.04,False,False
+Maluku Utara,27,2023,11,November,11,Belanja Pegawai,964599614868.0,684686248801.0,70.98,False,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Pegawai,964599614868.0,799025184766.0,82.83,False,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Pegawai,1176999535069.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Pegawai,1176999535069.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Pegawai,1176999535069.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Pegawai,1176999535069.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Pegawai,1176999535069.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Pegawai,1176999535069.0,502285772912.0,42.68,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Pegawai,1176999535069.0,502285772912.0,42.68,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Pegawai,1176999535069.0,670912351102.0,57.0,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Pegawai,1176999535069.0,502285772912.0,42.68,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Pegawai,1176999535069.0,502285772912.0,42.68,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Pegawai,1176999535069.0,502285772912.0,42.68,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Pegawai,1176999535069.0,1027737052218.9,87.32,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Pegawai,1197348938092.4,52003850650.0,4.34,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Pegawai,1197348938092.4,127354815095.0,10.64,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Pegawai,1197348938092.4,263316958130.99,21.99,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Pegawai,1197348938092.4,321087916313.99,26.82,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Pegawai,1197348938092.4,459968419954.99,38.42,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Pegawai,1197348938092.4,529919775508.99,44.26,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Pegawai,1197348938092.4,666538337649.99,55.67,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Pegawai,1197348938092.4,746333080408.99,62.33,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Pegawai,1197348938092.4,811445518542.99,67.77,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Pegawai,1197348938092.4,913770725561.99,76.32,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Pegawai,1197348938092.4,1022040005340.0,85.36,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Pegawai,1197348938092.4,1148878390383.0,95.95,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Pegawai,1106195939770.3,58943449737.0,5.33,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Pegawai,1106195939770.3,190856158232.0,17.25,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Pegawai,1106195939770.3,330108857446.02,29.84,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Pegawai,1106195939770.3,472095621200.82,42.68,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Pegawai,1106195939770.3,529200349017.82,47.84,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Pegawai,1106195939770.3,641393369421.11,57.98,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Pegawai,1106195939770.3,765992722267.52,69.25,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Pegawai,1106195939770.3,820123017363.52,74.14,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Pegawai,1106195939770.3,845615881297.52,76.44,False,False
+Maluku Utara,27,2026,10,Oktober,46,Belanja Pegawai,1106195939770.3,845615881297.52,76.44,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Pegawai,1106195939770.3,845615881297.52,76.44,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Pegawai,1106195939770.3,845615881297.52,76.44,False,True
+Maluku Utara,27,2025,1,Januari,25,Belanja Subsidi,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Subsidi,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Subsidi,0.0,2482716000.0,0.0,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Subsidi,0.0,2482716000.0,0.0,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Subsidi,0.0,2482716000.0,0.0,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Subsidi,0.0,2482716000.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Subsidi,0.0,2182716000.0,0.0,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Subsidi,0.0,2182716000.0,0.0,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Subsidi,0.0,2182716000.0,0.0,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Subsidi,0.0,2182716000.0,0.0,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Subsidi,0.0,2182716000.0,0.0,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Subsidi,0.0,2990116000.0,0.0,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Subsidi,3156782000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Subsidi,3156782000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Subsidi,3156782000.0,1667226000.0,52.81,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Subsidi,3156782000.0,1214530000.0,38.47,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Subsidi,3156782000.0,1214530000.0,38.47,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Subsidi,3156782000.0,-452696000.0,-14.34,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,True
+Maluku Utara,27,2026,9,September,45,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,True
+Maluku Utara,27,2026,10,Oktober,46,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Subsidi,3156782000.0,1133047000.0,35.89,False,True
+Maluku Utara,27,2023,1,Januari,1,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,2,Februari,2,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,3,Maret,3,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,4,April,4,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,5,Mei,5,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,6,Juni,6,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,7,Juli,7,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,8,Agustus,8,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,9,September,9,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,10,Oktober,10,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,11,November,11,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,12,Desember,12,Belanja Tidak Terduga,35000000000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,1,Januari,13,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,7,Juli,19,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,8,Agustus,20,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,9,September,21,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,10,Oktober,22,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,11,November,23,Belanja Tidak Terduga,28000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,12,Desember,24,Belanja Tidak Terduga,28000000000.0,2836382735.64,10.13,False,False
+Maluku Utara,27,2025,1,Januari,25,Belanja Tidak Terduga,45000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Belanja Tidak Terduga,45000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Belanja Tidak Terduga,45000000000.0,247535000.0,0.55,False,False
+Maluku Utara,27,2025,4,April,28,Belanja Tidak Terduga,45000000000.0,247535000.0,0.55,False,False
+Maluku Utara,27,2025,5,Mei,29,Belanja Tidak Terduga,45000000000.0,247535000.0,0.55,False,False
+Maluku Utara,27,2025,6,Juni,30,Belanja Tidak Terduga,45000000000.0,310335000.0,0.69,False,False
+Maluku Utara,27,2025,7,Juli,31,Belanja Tidak Terduga,45000000000.0,491407000.0,1.09,False,False
+Maluku Utara,27,2025,8,Agustus,32,Belanja Tidak Terduga,45000000000.0,18225947960.0,40.5,False,False
+Maluku Utara,27,2025,9,September,33,Belanja Tidak Terduga,45000000000.0,18225947960.0,40.5,False,False
+Maluku Utara,27,2025,10,Oktober,34,Belanja Tidak Terduga,45000000000.0,18225947960.0,40.5,False,False
+Maluku Utara,27,2025,11,November,35,Belanja Tidak Terduga,45000000000.0,18225947960.0,40.5,False,False
+Maluku Utara,27,2025,12,Desember,36,Belanja Tidak Terduga,45000000000.0,18231483960.0,40.51,False,False
+Maluku Utara,27,2026,1,Januari,37,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,3,Maret,39,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,4,April,40,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,5,Mei,41,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,6,Juni,42,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,7,Juli,43,Belanja Tidak Terduga,30000000000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,8,Agustus,44,Belanja Tidak Terduga,30000000000.0,1000000000.0,3.33,False,False
+Maluku Utara,27,2026,9,September,45,Belanja Tidak Terduga,30000000000.0,1000000000.0,3.33,False,True
+Maluku Utara,27,2026,10,Oktober,46,Belanja Tidak Terduga,30000000000.0,1000000000.0,3.33,False,True
+Maluku Utara,27,2026,11,November,47,Belanja Tidak Terduga,30000000000.0,1000000000.0,3.33,False,True
+Maluku Utara,27,2026,12,Desember,48,Belanja Tidak Terduga,30000000000.0,1000000000.0,3.33,False,True
+Maluku Utara,27,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,795129000.0,0.0,0.0,True,False
+Maluku Utara,27,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1283087259.0,39.77,False,False
+Maluku Utara,27,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,False
+Maluku Utara,27,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1575573263.0,48.84,False,True
+Maluku Utara,27,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,False
+Maluku Utara,27,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,3226037000.0,1756011460.0,54.43,False,True
+Maluku Utara,27,2023,1,Januari,1,Lain-Lain PAD yang Sah,314765936175.0,597865567.68,0.19,False,False
+Maluku Utara,27,2023,2,Februari,2,Lain-Lain PAD yang Sah,314765936175.0,11699747103.95,3.72,False,False
+Maluku Utara,27,2023,3,Maret,3,Lain-Lain PAD yang Sah,314765936175.0,20862673256.06,6.63,False,False
+Maluku Utara,27,2023,4,April,4,Lain-Lain PAD yang Sah,314765936175.0,31634333565.41,10.05,False,False
+Maluku Utara,27,2023,5,Mei,5,Lain-Lain PAD yang Sah,314765936175.0,31634333565.41,10.05,False,False
+Maluku Utara,27,2023,6,Juni,6,Lain-Lain PAD yang Sah,314765936175.0,41641098729.26,13.23,False,False
+Maluku Utara,27,2023,7,Juli,7,Lain-Lain PAD yang Sah,314765936175.0,47206516304.63,15.0,False,False
+Maluku Utara,27,2023,8,Agustus,8,Lain-Lain PAD yang Sah,314765936175.0,61588338706.07,19.57,False,False
+Maluku Utara,27,2023,9,September,9,Lain-Lain PAD yang Sah,314765936175.0,72310003888.86,22.97,False,False
+Maluku Utara,27,2023,10,Oktober,10,Lain-Lain PAD yang Sah,314765936175.0,82127790396.93,26.09,False,False
+Maluku Utara,27,2023,11,November,11,Lain-Lain PAD yang Sah,314765936175.0,90980128410.11,28.9,False,False
+Maluku Utara,27,2023,12,Desember,12,Lain-Lain PAD yang Sah,314765936175.0,119851417652.01,38.08,False,False
+Maluku Utara,27,2024,1,Januari,13,Lain-Lain PAD yang Sah,235120146542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Lain-Lain PAD yang Sah,235120146542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Lain-Lain PAD yang Sah,235120146542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Lain-Lain PAD yang Sah,235120146542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Lain-Lain PAD yang Sah,235120146542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Lain-Lain PAD yang Sah,235120146542.0,73315463077.36,31.18,False,False
+Maluku Utara,27,2024,7,Juli,19,Lain-Lain PAD yang Sah,235120146542.0,73315463077.36,31.18,False,False
+Maluku Utara,27,2024,8,Agustus,20,Lain-Lain PAD yang Sah,235120146542.0,86193233007.0,36.66,False,False
+Maluku Utara,27,2024,9,September,21,Lain-Lain PAD yang Sah,235120146542.0,73315463077.36,31.18,False,False
+Maluku Utara,27,2024,10,Oktober,22,Lain-Lain PAD yang Sah,235120146542.0,73315463077.36,31.18,False,False
+Maluku Utara,27,2024,11,November,23,Lain-Lain PAD yang Sah,235120146542.0,73315463077.36,31.18,False,False
+Maluku Utara,27,2024,12,Desember,24,Lain-Lain PAD yang Sah,235120146542.0,147250925257.28,62.63,False,False
+Maluku Utara,27,2025,1,Januari,25,Lain-Lain PAD yang Sah,137073685000.0,12838970788.46,9.37,False,False
+Maluku Utara,27,2025,2,Februari,26,Lain-Lain PAD yang Sah,137073685000.0,24230689639.36,17.68,False,False
+Maluku Utara,27,2025,3,Maret,27,Lain-Lain PAD yang Sah,137073685000.0,35446488362.57,25.86,False,False
+Maluku Utara,27,2025,4,April,28,Lain-Lain PAD yang Sah,137073685000.0,46985827765.13,34.28,False,False
+Maluku Utara,27,2025,5,Mei,29,Lain-Lain PAD yang Sah,137073685000.0,59036170056.38,43.07,False,False
+Maluku Utara,27,2025,6,Juni,30,Lain-Lain PAD yang Sah,137073685000.0,66130655220.87,48.24,False,False
+Maluku Utara,27,2025,7,Juli,31,Lain-Lain PAD yang Sah,137073685000.0,86211307504.31,62.89,False,False
+Maluku Utara,27,2025,8,Agustus,32,Lain-Lain PAD yang Sah,137073685000.0,102174169972.34,74.54,False,False
+Maluku Utara,27,2025,9,September,33,Lain-Lain PAD yang Sah,137073685000.0,116427941986.55,84.94,False,False
+Maluku Utara,27,2025,10,Oktober,34,Lain-Lain PAD yang Sah,137073685000.0,130611846090.93,95.29,False,False
+Maluku Utara,27,2025,11,November,35,Lain-Lain PAD yang Sah,137073685000.0,145610166587.29,106.23,False,False
+Maluku Utara,27,2025,12,Desember,36,Lain-Lain PAD yang Sah,137073685000.0,160034207844.97,116.75,False,False
+Maluku Utara,27,2026,1,Januari,37,Lain-Lain PAD yang Sah,191385180937.0,14691031888.45,7.68,False,False
+Maluku Utara,27,2026,2,Februari,38,Lain-Lain PAD yang Sah,191385180937.0,27319059235.96,14.27,False,False
+Maluku Utara,27,2026,3,Maret,39,Lain-Lain PAD yang Sah,191385180937.0,40642790133.51,21.24,False,False
+Maluku Utara,27,2026,4,April,40,Lain-Lain PAD yang Sah,191385180937.0,51950565511.4,27.14,False,False
+Maluku Utara,27,2026,5,Mei,41,Lain-Lain PAD yang Sah,191385180937.0,66184051266.99,34.58,False,False
+Maluku Utara,27,2026,6,Juni,42,Lain-Lain PAD yang Sah,191385180937.0,81450264166.93,42.56,False,False
+Maluku Utara,27,2026,7,Juli,43,Lain-Lain PAD yang Sah,191385180937.0,83346576903.66,43.55,False,False
+Maluku Utara,27,2026,8,Agustus,44,Lain-Lain PAD yang Sah,191385180937.0,84201171485.66,44.0,False,False
+Maluku Utara,27,2026,9,September,45,Lain-Lain PAD yang Sah,191385180937.0,84261324990.66,44.03,False,False
+Maluku Utara,27,2026,10,Oktober,46,Lain-Lain PAD yang Sah,191385180937.0,84261324990.66,44.03,False,True
+Maluku Utara,27,2026,11,November,47,Lain-Lain PAD yang Sah,191385180937.0,84261324990.66,44.03,False,True
+Maluku Utara,27,2026,12,Desember,48,Lain-Lain PAD yang Sah,191385180937.0,84261324990.66,44.03,False,True
+Maluku Utara,27,2024,1,Januari,13,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,7940877.0,0.0,False,False
+Maluku Utara,27,2024,7,Juli,19,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,7940877.0,0.0,False,False
+Maluku Utara,27,2024,8,Agustus,20,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,132685415.0,0.0,False,False
+Maluku Utara,27,2024,9,September,21,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,7940877.0,0.0,False,False
+Maluku Utara,27,2024,10,Oktober,22,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,7940877.0,0.0,False,False
+Maluku Utara,27,2024,11,November,23,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,7940877.0,0.0,False,False
+Maluku Utara,27,2024,12,Desember,24,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,107093000.0,0.0,False,False
+Maluku Utara,27,2025,1,Januari,25,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,4,April,28,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,386274770.0,0.0,False,False
+Maluku Utara,27,2025,5,Mei,29,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19217771090.09,0.0,False,False
+Maluku Utara,27,2025,6,Juni,30,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19244620090.09,0.0,False,False
+Maluku Utara,27,2025,8,Agustus,32,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19244620090.09,0.0,False,False
+Maluku Utara,27,2025,9,September,33,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19244620090.09,0.0,False,False
+Maluku Utara,27,2025,10,Oktober,34,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19244620090.09,0.0,False,False
+Maluku Utara,27,2025,11,November,35,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,19244620090.09,0.0,False,False
+Maluku Utara,27,2025,12,Desember,36,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,21194620090.09,0.0,False,False
+Maluku Utara,27,2026,1,Januari,37,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,50000000.0,0.0,False,False
+Maluku Utara,27,2026,2,Februari,38,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,50000000.0,0.0,False,False
+Maluku Utara,27,2026,3,Maret,39,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,254050000.0,0.0,False,False
+Maluku Utara,27,2026,4,April,40,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,254050000.0,0.0,False,False
+Maluku Utara,27,2026,5,Mei,41,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,423327736.0,0.0,False,False
+Maluku Utara,27,2026,6,Juni,42,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,False
+Maluku Utara,27,2026,7,Juli,43,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2026,8,Agustus,44,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2026,9,September,45,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2026,10,Oktober,46,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2026,11,November,47,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2026,12,Desember,48,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,549224690.0,0.0,False,True
+Maluku Utara,27,2023,1,Januari,1,PAD,1053227132360.0,32347001911.68,3.07,False,False
+Maluku Utara,27,2023,2,Februari,2,PAD,1053227132360.0,83521822181.95,7.93,False,False
+Maluku Utara,27,2023,3,Maret,3,PAD,1053227132360.0,146259627697.06,13.89,False,False
+Maluku Utara,27,2023,4,April,4,PAD,1053227132360.0,186499962540.41,17.71,False,False
+Maluku Utara,27,2023,5,Mei,5,PAD,1053227132360.0,186499962540.41,17.71,False,False
+Maluku Utara,27,2023,6,Juni,6,PAD,1053227132360.0,227809455562.26,21.63,False,False
+Maluku Utara,27,2023,7,Juli,7,PAD,1053227132360.0,257696948811.63,24.47,False,False
+Maluku Utara,27,2023,8,Agustus,8,PAD,1053227132360.0,293701996592.07,27.89,False,False
+Maluku Utara,27,2023,9,September,9,PAD,1053227132360.0,364662295107.86,34.62,False,False
+Maluku Utara,27,2023,10,Oktober,10,PAD,1053227132360.0,402084618246.93,38.18,False,False
+Maluku Utara,27,2023,11,November,11,PAD,1053227132360.0,414461960389.11,39.35,False,False
+Maluku Utara,27,2023,12,Desember,12,PAD,1053227132360.0,758168498469.01,71.99,False,False
+Maluku Utara,27,2024,1,Januari,13,PAD,966612786542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,PAD,966612786542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,PAD,966612786542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,PAD,966612786542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,PAD,966612786542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,PAD,966612786542.0,455736352532.36,47.15,False,False
+Maluku Utara,27,2024,7,Juli,19,PAD,966612786542.0,455736352532.36,47.15,False,False
+Maluku Utara,27,2024,8,Agustus,20,PAD,966612786542.0,623859176546.48,64.54,False,False
+Maluku Utara,27,2024,9,September,21,PAD,966612786542.0,455736352532.36,47.15,False,False
+Maluku Utara,27,2024,10,Oktober,22,PAD,966612786542.0,455736352532.36,47.15,False,False
+Maluku Utara,27,2024,11,November,23,PAD,966612786542.0,455736352532.36,47.15,False,False
+Maluku Utara,27,2024,12,Desember,24,PAD,966612786542.0,1082091367034.3,111.95,False,False
+Maluku Utara,27,2025,1,Januari,25,PAD,861703806000.0,99849223981.46,11.59,False,False
+Maluku Utara,27,2025,2,Februari,26,PAD,861703806000.0,194237654304.36,22.54,False,False
+Maluku Utara,27,2025,3,Maret,27,PAD,861703806000.0,286726404778.7,33.27,False,False
+Maluku Utara,27,2025,4,April,28,PAD,861703806000.0,382841111838.26,44.43,False,False
+Maluku Utara,27,2025,5,Mei,29,PAD,861703806000.0,492359622795.51,57.14,False,False
+Maluku Utara,27,2025,6,Juni,30,PAD,861703806000.0,558641530338.87,64.83,False,False
+Maluku Utara,27,2025,7,Juli,31,PAD,861703806000.0,682375355302.13,79.19,False,False
+Maluku Utara,27,2025,8,Agustus,32,PAD,861703806000.0,792949350444.58,92.02,False,False
+Maluku Utara,27,2025,9,September,33,PAD,861703806000.0,896065327868.08,103.99,False,False
+Maluku Utara,27,2025,10,Oktober,34,PAD,861703806000.0,1012382497427.4,117.49,False,False
+Maluku Utara,27,2025,11,November,35,PAD,861703806000.0,1098659512257.0,127.5,False,False
+Maluku Utara,27,2025,12,Desember,36,PAD,861703806000.0,1212666860420.1,140.73,False,False
+Maluku Utara,27,2026,1,Januari,37,PAD,1165611217937.0,98600801898.45,8.46,False,False
+Maluku Utara,27,2026,2,Februari,38,PAD,1165611217937.0,259496410783.96,22.26,False,False
+Maluku Utara,27,2026,3,Maret,39,PAD,1165611217937.0,335699108884.51,28.8,False,False
+Maluku Utara,27,2026,4,April,40,PAD,1165611217937.0,474617441013.4,40.72,False,False
+Maluku Utara,27,2026,5,Mei,41,PAD,1165611217937.0,651417881541.99,55.89,False,False
+Maluku Utara,27,2026,6,Juni,42,PAD,1165611217937.0,849462715383.93,72.88,False,False
+Maluku Utara,27,2026,7,Juli,43,PAD,1165611217937.0,1011603036316.7,86.79,False,False
+Maluku Utara,27,2026,8,Agustus,44,PAD,1165611217937.0,1031750918384.7,88.52,False,False
+Maluku Utara,27,2026,9,September,45,PAD,1165611217937.0,1032463090021.7,88.58,False,False
+Maluku Utara,27,2026,10,Oktober,46,PAD,1165611217937.0,1032463090021.7,88.58,False,True
+Maluku Utara,27,2026,11,November,47,PAD,1165611217937.0,1032463090021.7,88.58,False,True
+Maluku Utara,27,2026,12,Desember,48,PAD,1165611217937.0,1032463090021.7,88.58,False,True
+Maluku Utara,27,2023,1,Januari,1,Pajak Daerah,725676262975.0,31158740696.0,4.29,False,False
+Maluku Utara,27,2023,2,Februari,2,Pajak Daerah,725676262975.0,70759546186.0,9.75,False,False
+Maluku Utara,27,2023,3,Maret,3,Pajak Daerah,725676262975.0,123619681515.0,17.04,False,False
+Maluku Utara,27,2023,4,April,4,Pajak Daerah,725676262975.0,152165569679.0,20.97,False,False
+Maluku Utara,27,2023,5,Mei,5,Pajak Daerah,725676262975.0,152165569679.0,20.97,False,False
+Maluku Utara,27,2023,6,Juni,6,Pajak Daerah,725676262975.0,183108076420.0,25.23,False,False
+Maluku Utara,27,2023,7,Juli,7,Pajak Daerah,725676262975.0,206340164896.0,28.43,False,False
+Maluku Utara,27,2023,8,Agustus,8,Pajak Daerah,725676262975.0,227588294192.0,31.36,False,False
+Maluku Utara,27,2023,9,September,9,Pajak Daerah,725676262975.0,286931099325.0,39.54,False,False
+Maluku Utara,27,2023,10,Oktober,10,Pajak Daerah,725676262975.0,314276954203.0,43.31,False,False
+Maluku Utara,27,2023,11,November,11,Pajak Daerah,725676262975.0,317801958332.0,43.79,False,False
+Maluku Utara,27,2023,12,Desember,12,Pajak Daerah,725676262975.0,629315808828.0,86.72,False,False
+Maluku Utara,27,2024,1,Januari,13,Pajak Daerah,717828120000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Pajak Daerah,717828120000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Pajak Daerah,717828120000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Pajak Daerah,717828120000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Pajak Daerah,717828120000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Pajak Daerah,717828120000.0,381137802196.0,53.1,False,False
+Maluku Utara,27,2024,7,Juli,19,Pajak Daerah,717828120000.0,381137802196.0,53.1,False,False
+Maluku Utara,27,2024,8,Agustus,20,Pajak Daerah,717828120000.0,536382856280.48,74.72,False,False
+Maluku Utara,27,2024,9,September,21,Pajak Daerah,717828120000.0,381137802196.0,53.1,False,False
+Maluku Utara,27,2024,10,Oktober,22,Pajak Daerah,717828120000.0,381137802196.0,53.1,False,False
+Maluku Utara,27,2024,11,November,23,Pajak Daerah,717828120000.0,381137802196.0,53.1,False,False
+Maluku Utara,27,2024,12,Desember,24,Pajak Daerah,717828120000.0,925307175619.0,128.9,False,False
+Maluku Utara,27,2025,1,Januari,25,Pajak Daerah,710044746000.0,85422333727.0,12.03,False,False
+Maluku Utara,27,2025,2,Februari,26,Pajak Daerah,710044746000.0,167284770509.0,23.56,False,False
+Maluku Utara,27,2025,3,Maret,27,Pajak Daerah,710044746000.0,246682415867.13,34.74,False,False
+Maluku Utara,27,2025,4,April,28,Pajak Daerah,710044746000.0,330275983358.13,46.51,False,False
+Maluku Utara,27,2025,5,Mei,29,Pajak Daerah,710044746000.0,426986451493.13,60.14,False,False
+Maluku Utara,27,2025,6,Juni,30,Pajak Daerah,710044746000.0,486111913613.0,68.46,False,False
+Maluku Utara,27,2025,7,Juli,31,Pajak Daerah,710044746000.0,587682237935.82,82.77,False,False
+Maluku Utara,27,2025,8,Agustus,32,Pajak Daerah,710044746000.0,681789725604.24,96.02,False,False
+Maluku Utara,27,2025,9,September,33,Pajak Daerah,710044746000.0,769477161919.53,108.37,False,False
+Maluku Utara,27,2025,10,Oktober,34,Pajak Daerah,710044746000.0,870424632328.52,122.59,False,False
+Maluku Utara,27,2025,11,November,35,Pajak Daerah,710044746000.0,941042362672.74,132.53,False,False
+Maluku Utara,27,2025,12,Desember,36,Pajak Daerah,710044746000.0,1039195008251.1,146.36,False,False
+Maluku Utara,27,2026,1,Januari,37,Pajak Daerah,956000000000.0,83508362000.0,8.74,False,False
+Maluku Utara,27,2026,2,Februari,38,Pajak Daerah,956000000000.0,229257052223.0,23.98,False,False
+Maluku Utara,27,2026,3,Maret,39,Pajak Daerah,956000000000.0,291350474637.0,30.48,False,False
+Maluku Utara,27,2026,4,April,40,Pajak Daerah,956000000000.0,418171321175.0,43.74,False,False
+Maluku Utara,27,2026,5,Mei,41,Pajak Daerah,956000000000.0,579701109098.0,60.64,False,False
+Maluku Utara,27,2026,6,Juni,42,Pajak Daerah,956000000000.0,761640187241.0,79.67,False,False
+Maluku Utara,27,2026,7,Juli,43,Pajak Daerah,956000000000.0,921037955869.0,96.34,False,False
+Maluku Utara,27,2026,8,Agustus,44,Pajak Daerah,956000000000.0,939894450897.0,98.32,False,False
+Maluku Utara,27,2026,9,September,45,Pajak Daerah,956000000000.0,940546469029.0,98.38,False,False
+Maluku Utara,27,2026,10,Oktober,46,Pajak Daerah,956000000000.0,940546469029.0,98.38,False,True
+Maluku Utara,27,2026,11,November,47,Pajak Daerah,956000000000.0,940546469029.0,98.38,False,True
+Maluku Utara,27,2026,12,Desember,48,Pajak Daerah,956000000000.0,940546469029.0,98.38,False,True
+Maluku Utara,27,2023,1,Januari,1,Pendapatan Daerah,4177929116360.0,248502007311.68,5.95,False,False
+Maluku Utara,27,2023,2,Februari,2,Pendapatan Daerah,4177929116360.0,299676827581.95,7.17,False,False
+Maluku Utara,27,2023,3,Maret,3,Pendapatan Daerah,4177929116360.0,505508196797.06,12.1,False,False
+Maluku Utara,27,2023,4,April,4,Pendapatan Daerah,4177929116360.0,841445342360.41,20.14,False,False
+Maluku Utara,27,2023,5,Mei,5,Pendapatan Daerah,4177929116360.0,841445342360.41,20.14,False,False
+Maluku Utara,27,2023,6,Juni,6,Pendapatan Daerah,4177929116360.0,1176631583582.3,28.16,False,False
+Maluku Utara,27,2023,7,Juli,7,Pendapatan Daerah,4177929116360.0,1424382665943.6,34.09,False,False
+Maluku Utara,27,2023,8,Agustus,8,Pendapatan Daerah,4177929116360.0,1514593883540.1,36.25,False,False
+Maluku Utara,27,2023,9,September,9,Pendapatan Daerah,4177929116360.0,1831120234155.9,43.83,False,False
+Maluku Utara,27,2023,10,Oktober,10,Pendapatan Daerah,4177929116360.0,2029181940955.9,48.57,False,False
+Maluku Utara,27,2023,11,November,11,Pendapatan Daerah,4177929116360.0,2194901109722.1,52.54,False,False
+Maluku Utara,27,2023,12,Desember,12,Pendapatan Daerah,4177929116360.0,2996636801344.0,71.73,False,False
+Maluku Utara,27,2024,1,Januari,13,Pendapatan Daerah,4104012527542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Pendapatan Daerah,4104012527542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Pendapatan Daerah,4104012527542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Pendapatan Daerah,4104012527542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Pendapatan Daerah,4104012527542.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Pendapatan Daerah,4104012527542.0,1757770446320.4,42.83,False,False
+Maluku Utara,27,2024,7,Juli,19,Pendapatan Daerah,4104012527542.0,1757770446320.4,42.83,False,False
+Maluku Utara,27,2024,8,Agustus,20,Pendapatan Daerah,4104012527542.0,2541006897052.5,61.92,False,False
+Maluku Utara,27,2024,9,September,21,Pendapatan Daerah,4104012527542.0,1757770446320.4,42.83,False,False
+Maluku Utara,27,2024,10,Oktober,22,Pendapatan Daerah,4104012527542.0,1757770446320.4,42.83,False,False
+Maluku Utara,27,2024,11,November,23,Pendapatan Daerah,4104012527542.0,1757770446320.4,42.83,False,False
+Maluku Utara,27,2024,12,Desember,24,Pendapatan Daerah,4104012527542.0,3913925528950.3,95.37,False,False
+Maluku Utara,27,2025,1,Januari,25,Pendapatan Daerah,3444833052000.0,338798963681.46,9.83,False,False
+Maluku Utara,27,2025,2,Februari,26,Pendapatan Daerah,3444833052000.0,512138325204.36,14.87,False,False
+Maluku Utara,27,2025,3,Maret,27,Pendapatan Daerah,3444833052000.0,822532082378.7,23.88,False,False
+Maluku Utara,27,2025,4,April,28,Pendapatan Daerah,3444833052000.0,1111299912120.3,32.26,False,False
+Maluku Utara,27,2025,5,Mei,29,Pendapatan Daerah,3444833052000.0,1397914572478.6,40.58,False,False
+Maluku Utara,27,2025,6,Juni,30,Pendapatan Daerah,3444833052000.0,1543840937661.9,44.82,False,False
+Maluku Utara,27,2025,7,Juli,31,Pendapatan Daerah,3444833052000.0,2030812404263.2,58.95,False,False
+Maluku Utara,27,2025,8,Agustus,32,Pendapatan Daerah,3444833052000.0,2463299555403.7,71.51,False,False
+Maluku Utara,27,2025,9,September,33,Pendapatan Daerah,3444833052000.0,2716165451099.2,78.85,False,False
+Maluku Utara,27,2025,10,Oktober,34,Pendapatan Daerah,3444833052000.0,2975923432708.5,86.39,False,False
+Maluku Utara,27,2025,11,November,35,Pendapatan Daerah,3444833052000.0,3381055502147.1,98.15,False,False
+Maluku Utara,27,2025,12,Desember,36,Pendapatan Daerah,3444833052000.0,3629568652293.1,105.36,False,False
+Maluku Utara,27,2026,1,Januari,37,Pendapatan Daerah,2796250710937.0,346237806857.45,12.38,False,False
+Maluku Utara,27,2026,2,Februari,38,Pendapatan Daerah,2796250710937.0,600529840811.96,21.48,False,False
+Maluku Utara,27,2026,3,Maret,39,Pendapatan Daerah,2796250710937.0,809691290957.51,28.96,False,False
+Maluku Utara,27,2026,4,April,40,Pendapatan Daerah,2796250710937.0,1049036784579.4,37.52,False,False
+Maluku Utara,27,2026,5,Mei,41,Pendapatan Daerah,2796250710937.0,1352353907792.0,48.36,False,False
+Maluku Utara,27,2026,6,Juni,42,Pendapatan Daerah,2796250710937.0,1672131179816.9,59.8,False,False
+Maluku Utara,27,2026,7,Juli,43,Pendapatan Daerah,2796250710937.0,1962239937149.7,70.17,False,False
+Maluku Utara,27,2026,8,Agustus,44,Pendapatan Daerah,2796250710937.0,1982387819217.7,70.89,False,False
+Maluku Utara,27,2026,9,September,45,Pendapatan Daerah,2796250710937.0,1983099990854.7,70.92,False,False
+Maluku Utara,27,2026,10,Oktober,46,Pendapatan Daerah,2796250710937.0,1983099990854.7,70.92,False,True
+Maluku Utara,27,2026,11,November,47,Pendapatan Daerah,2796250710937.0,1983099990854.7,70.92,False,True
+Maluku Utara,27,2026,12,Desember,48,Pendapatan Daerah,2796250710937.0,1983099990854.7,70.92,False,True
+Maluku Utara,27,2023,1,Januari,1,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,3,Maret,3,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,4,April,4,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,5,Mei,5,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,6,Juni,6,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,7,Juli,7,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,8,Agustus,8,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,9,September,9,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,10,Oktober,10,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,11,November,11,Pendapatan Hibah,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,12,Desember,12,Pendapatan Hibah,499414256000.0,210374832.0,0.04,False,False
+Maluku Utara,27,2024,1,Januari,13,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,7,Juli,19,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,8,Agustus,20,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,9,September,21,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,10,Oktober,22,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,11,November,23,Pendapatan Hibah,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,12,Desember,24,Pendapatan Hibah,45941300000.0,183216000.0,0.4,False,False
+Maluku Utara,27,2025,1,Januari,25,Pendapatan Hibah,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Pendapatan Hibah,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Pendapatan Hibah,200000000.0,100000.0,0.05,False,False
+Maluku Utara,27,2025,4,April,28,Pendapatan Hibah,200000000.0,100000.0,0.05,False,False
+Maluku Utara,27,2025,5,Mei,29,Pendapatan Hibah,200000000.0,100000.0,0.05,False,False
+Maluku Utara,27,2025,6,Juni,30,Pendapatan Hibah,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Pendapatan Hibah,200000000.0,106241000.0,53.12,False,False
+Maluku Utara,27,2025,8,Agustus,32,Pendapatan Hibah,200000000.0,121404000.0,60.7,False,False
+Maluku Utara,27,2025,9,September,33,Pendapatan Hibah,200000000.0,136567000.0,68.28,False,False
+Maluku Utara,27,2025,10,Oktober,34,Pendapatan Hibah,200000000.0,151730000.0,75.87,False,False
+Maluku Utara,27,2025,11,November,35,Pendapatan Hibah,200000000.0,166893000.0,83.45,False,False
+Maluku Utara,27,2025,12,Desember,36,Pendapatan Hibah,200000000.0,182056000.0,91.03,False,False
+Maluku Utara,27,2026,1,Januari,37,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,2,Februari,38,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,3,Maret,39,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,4,April,40,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,5,Mei,41,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,6,Juni,42,Pendapatan Hibah,212282000.0,0.0,0.0,False,False
+Maluku Utara,27,2026,7,Juli,43,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,False
+Maluku Utara,27,2026,8,Agustus,44,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,True
+Maluku Utara,27,2026,9,September,45,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,True
+Maluku Utara,27,2026,10,Oktober,46,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,True
+Maluku Utara,27,2026,11,November,47,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,True
+Maluku Utara,27,2026,12,Desember,48,Pendapatan Hibah,212282000.0,5596000.0,2.64,False,True
+Maluku Utara,27,2023,1,Januari,1,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,2,Februari,2,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,3,Maret,3,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,4,April,4,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,5,Mei,5,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,6,Juni,6,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,7,Juli,7,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,8,Agustus,8,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,9,September,9,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,10,Oktober,10,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,11,November,11,Pendapatan Lainnya,499414256000.0,0.0,0.0,False,False
+Maluku Utara,27,2023,12,Desember,12,Pendapatan Lainnya,499414256000.0,210374832.0,0.04,False,False
+Maluku Utara,27,2024,1,Januari,13,Pendapatan Lainnya,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Pendapatan Lainnya,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Pendapatan Lainnya,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Pendapatan Lainnya,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Pendapatan Lainnya,45941300000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Pendapatan Lainnya,45941300000.0,7940877.0,0.02,False,False
+Maluku Utara,27,2024,7,Juli,19,Pendapatan Lainnya,45941300000.0,7940877.0,0.02,False,False
+Maluku Utara,27,2024,8,Agustus,20,Pendapatan Lainnya,45941300000.0,132685415.0,0.29,False,False
+Maluku Utara,27,2024,9,September,21,Pendapatan Lainnya,45941300000.0,7940877.0,0.02,False,False
+Maluku Utara,27,2024,10,Oktober,22,Pendapatan Lainnya,45941300000.0,7940877.0,0.02,False,False
+Maluku Utara,27,2024,11,November,23,Pendapatan Lainnya,45941300000.0,7940877.0,0.02,False,False
+Maluku Utara,27,2024,12,Desember,24,Pendapatan Lainnya,45941300000.0,290309000.0,0.63,False,False
+Maluku Utara,27,2025,1,Januari,25,Pendapatan Lainnya,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,2,Februari,26,Pendapatan Lainnya,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,3,Maret,27,Pendapatan Lainnya,200000000.0,100000.0,0.05,False,False
+Maluku Utara,27,2025,4,April,28,Pendapatan Lainnya,200000000.0,386374770.0,193.19,False,False
+Maluku Utara,27,2025,5,Mei,29,Pendapatan Lainnya,200000000.0,19217871090.09,9.60894,False,False
+Maluku Utara,27,2025,6,Juni,30,Pendapatan Lainnya,200000000.0,0.0,0.0,False,False
+Maluku Utara,27,2025,7,Juli,31,Pendapatan Lainnya,200000000.0,19350861090.09,9.67543,False,False
+Maluku Utara,27,2025,8,Agustus,32,Pendapatan Lainnya,200000000.0,19366024090.09,9.68301,False,False
+Maluku Utara,27,2025,9,September,33,Pendapatan Lainnya,200000000.0,19381187090.09,9.69059,False,False
+Maluku Utara,27,2025,10,Oktober,34,Pendapatan Lainnya,200000000.0,19396350090.09,9.69818,False,False
+Maluku Utara,27,2025,11,November,35,Pendapatan Lainnya,200000000.0,19411513090.09,9.70576,False,False
+Maluku Utara,27,2025,12,Desember,36,Pendapatan Lainnya,200000000.0,21376676090.09,10.68834,False,False
+Maluku Utara,27,2026,1,Januari,37,Pendapatan Lainnya,212282000.0,55596000.0,26.19,False,False
+Maluku Utara,27,2026,2,Februari,38,Pendapatan Lainnya,212282000.0,55596000.0,26.19,False,False
+Maluku Utara,27,2026,3,Maret,39,Pendapatan Lainnya,212282000.0,259646000.0,122.31,False,False
+Maluku Utara,27,2026,4,April,40,Pendapatan Lainnya,212282000.0,259646000.0,122.31,False,False
+Maluku Utara,27,2026,5,Mei,41,Pendapatan Lainnya,212282000.0,428923736.0,202.05,False,False
+Maluku Utara,27,2026,6,Juni,42,Pendapatan Lainnya,212282000.0,549224690.0,258.72,False,False
+Maluku Utara,27,2026,7,Juli,43,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,False
+Maluku Utara,27,2026,8,Agustus,44,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,True
+Maluku Utara,27,2026,9,September,45,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,True
+Maluku Utara,27,2026,10,Oktober,46,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,True
+Maluku Utara,27,2026,11,November,47,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,True
+Maluku Utara,27,2026,12,Desember,48,Pendapatan Lainnya,212282000.0,554820690.0,261.36,False,True
+Maluku Utara,27,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,216155005400.0,8.23,False,False
+Maluku Utara,27,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,216155005400.0,8.23,False,False
+Maluku Utara,27,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,359248569100.0,13.68,False,False
+Maluku Utara,27,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,654945379820.0,24.95,False,False
+Maluku Utara,27,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,654945379820.0,24.95,False,False
+Maluku Utara,27,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,948822128020.0,36.14,False,False
+Maluku Utara,27,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,1166685717132.0,44.44,False,False
+Maluku Utara,27,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,1220891886948.0,46.51,False,False
+Maluku Utara,27,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,1466457939048.0,55.86,False,False
+Maluku Utara,27,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,1627097322709.0,61.98,False,False
+Maluku Utara,27,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,1780439149333.0,67.82,False,False
+Maluku Utara,27,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,2625287728000.0,2238257928043.0,85.26,False,False
+Maluku Utara,27,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1917015035091.0,62.01,False,False
+Maluku Utara,27,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,3091458441000.0,2831543852916.0,91.59,False,False
+Maluku Utara,27,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,238949739700.0,9.25,False,False
+Maluku Utara,27,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,317900670900.0,12.31,False,False
+Maluku Utara,27,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,535805577600.0,20.74,False,False
+Maluku Utara,27,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,728072425512.0,28.19,False,False
+Maluku Utara,27,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,886337078593.0,34.32,False,False
+Maluku Utara,27,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,985199407323.0,38.14,False,False
+Maluku Utara,27,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,1329086187871.0,51.46,False,False
+Maluku Utara,27,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,1650984180869.0,63.92,False,False
+Maluku Utara,27,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,1800718936141.0,69.72,False,False
+Maluku Utara,27,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,1944144585191.0,75.27,False,False
+Maluku Utara,27,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,2262984476800.0,87.61,False,False
+Maluku Utara,27,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,2582929246000.0,2395525115783.0,92.74,False,False
+Maluku Utara,27,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,247581408959.0,15.19,False,False
+Maluku Utara,27,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,340977834028.0,20.91,False,False
+Maluku Utara,27,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,473732536073.0,29.06,False,False
+Maluku Utara,27,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,574159697566.0,35.22,False,False
+Maluku Utara,27,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,700507102514.0,42.96,False,False
+Maluku Utara,27,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,822119239743.0,50.42,False,False
+Maluku Utara,27,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,False
+Maluku Utara,27,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2023,1,Januari,1,Retribusi Daerah,11989804210.0,590395648.0,4.92,False,False
+Maluku Utara,27,2023,2,Februari,2,Retribusi Daerah,11989804210.0,1062528892.0,8.86,False,False
+Maluku Utara,27,2023,3,Maret,3,Retribusi Daerah,11989804210.0,1777272926.0,14.82,False,False
+Maluku Utara,27,2023,4,April,4,Retribusi Daerah,11989804210.0,2700059296.0,22.52,False,False
+Maluku Utara,27,2023,5,Mei,5,Retribusi Daerah,11989804210.0,2700059296.0,22.52,False,False
+Maluku Utara,27,2023,6,Juni,6,Retribusi Daerah,11989804210.0,3060280413.0,25.52,False,False
+Maluku Utara,27,2023,7,Juli,7,Retribusi Daerah,11989804210.0,4150267611.0,34.61,False,False
+Maluku Utara,27,2023,8,Agustus,8,Retribusi Daerah,11989804210.0,4525363694.0,37.74,False,False
+Maluku Utara,27,2023,9,September,9,Retribusi Daerah,11989804210.0,5421191894.0,45.22,False,False
+Maluku Utara,27,2023,10,Oktober,10,Retribusi Daerah,11989804210.0,5679873647.0,47.37,False,False
+Maluku Utara,27,2023,11,November,11,Retribusi Daerah,11989804210.0,5679873647.0,47.37,False,False
+Maluku Utara,27,2023,12,Desember,12,Retribusi Daerah,11989804210.0,9001271989.0,75.07,False,False
+Maluku Utara,27,2024,1,Januari,13,Retribusi Daerah,10438483000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,Retribusi Daerah,10438483000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,Retribusi Daerah,10438483000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,Retribusi Daerah,10438483000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,Retribusi Daerah,10438483000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,7,Juli,19,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,8,Agustus,20,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,9,September,21,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,10,Oktober,22,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,11,November,23,Retribusi Daerah,10438483000.0,1283087259.0,12.29,False,False
+Maluku Utara,27,2024,12,Desember,24,Retribusi Daerah,10438483000.0,8250178899.0,79.04,False,False
+Maluku Utara,27,2025,1,Januari,25,Retribusi Daerah,11359338000.0,1587919466.0,13.98,False,False
+Maluku Utara,27,2025,2,Februari,26,Retribusi Daerah,11359338000.0,2722194156.0,23.96,False,False
+Maluku Utara,27,2025,3,Maret,27,Retribusi Daerah,11359338000.0,3021927286.0,26.6,False,False
+Maluku Utara,27,2025,4,April,28,Retribusi Daerah,11359338000.0,4003727452.0,35.25,False,False
+Maluku Utara,27,2025,5,Mei,29,Retribusi Daerah,11359338000.0,4761427983.0,41.92,False,False
+Maluku Utara,27,2025,6,Juni,30,Retribusi Daerah,11359338000.0,4823388242.0,42.46,False,False
+Maluku Utara,27,2025,7,Juli,31,Retribusi Daerah,11359338000.0,6906236599.0,60.8,False,False
+Maluku Utara,27,2025,8,Agustus,32,Retribusi Daerah,11359338000.0,7409881605.0,65.23,False,False
+Maluku Utara,27,2025,9,September,33,Retribusi Daerah,11359338000.0,8584650699.0,75.57,False,False
+Maluku Utara,27,2025,10,Oktober,34,Retribusi Daerah,11359338000.0,9770445745.0,86.01,False,False
+Maluku Utara,27,2025,11,November,35,Retribusi Daerah,11359338000.0,10431409734.0,91.83,False,False
+Maluku Utara,27,2025,12,Desember,36,Retribusi Daerah,11359338000.0,11862071061.0,104.43,False,False
+Maluku Utara,27,2026,1,Januari,37,Retribusi Daerah,15000000000.0,401408010.0,2.68,False,False
+Maluku Utara,27,2026,2,Februari,38,Retribusi Daerah,15000000000.0,1164287865.0,7.76,False,False
+Maluku Utara,27,2026,3,Maret,39,Retribusi Daerah,15000000000.0,1949832654.0,13.0,False,False
+Maluku Utara,27,2026,4,April,40,Retribusi Daerah,15000000000.0,2739542867.0,18.26,False,False
+Maluku Utara,27,2026,5,Mei,41,Retribusi Daerah,15000000000.0,3776709717.0,25.18,False,False
+Maluku Utara,27,2026,6,Juni,42,Retribusi Daerah,15000000000.0,4616252516.0,30.78,False,False
+Maluku Utara,27,2026,7,Juli,43,Retribusi Daerah,15000000000.0,5462492084.0,36.42,False,False
+Maluku Utara,27,2026,8,Agustus,44,Retribusi Daerah,15000000000.0,5899284542.0,39.33,False,False
+Maluku Utara,27,2026,9,September,45,Retribusi Daerah,15000000000.0,5899284542.0,39.33,False,True
+Maluku Utara,27,2026,10,Oktober,46,Retribusi Daerah,15000000000.0,5899284542.0,39.33,False,True
+Maluku Utara,27,2026,11,November,47,Retribusi Daerah,15000000000.0,5899284542.0,39.33,False,True
+Maluku Utara,27,2026,12,Desember,48,Retribusi Daerah,15000000000.0,5899284542.0,39.33,False,True
+Maluku Utara,27,2023,1,Januari,1,TKDD,2625287728000.0,216155005400.0,8.23,False,False
+Maluku Utara,27,2023,2,Februari,2,TKDD,2625287728000.0,216155005400.0,8.23,False,False
+Maluku Utara,27,2023,3,Maret,3,TKDD,2625287728000.0,359248569100.0,13.68,False,False
+Maluku Utara,27,2023,4,April,4,TKDD,2625287728000.0,654945379820.0,24.95,False,False
+Maluku Utara,27,2023,5,Mei,5,TKDD,2625287728000.0,654945379820.0,24.95,False,False
+Maluku Utara,27,2023,6,Juni,6,TKDD,2625287728000.0,948822128020.0,36.14,False,False
+Maluku Utara,27,2023,7,Juli,7,TKDD,2625287728000.0,1166685717132.0,44.44,False,False
+Maluku Utara,27,2023,8,Agustus,8,TKDD,2625287728000.0,1220891886948.0,46.51,False,False
+Maluku Utara,27,2023,9,September,9,TKDD,2625287728000.0,1466457939048.0,55.86,False,False
+Maluku Utara,27,2023,10,Oktober,10,TKDD,2625287728000.0,1627097322709.0,61.98,False,False
+Maluku Utara,27,2023,11,November,11,TKDD,2625287728000.0,1780439149333.0,67.82,False,False
+Maluku Utara,27,2023,12,Desember,12,TKDD,2625287728000.0,2238257928043.0,85.26,False,False
+Maluku Utara,27,2024,1,Januari,13,TKDD,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,2,Februari,14,TKDD,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,3,Maret,15,TKDD,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,4,April,16,TKDD,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,5,Mei,17,TKDD,3091458441000.0,0.0,0.0,False,False
+Maluku Utara,27,2024,6,Juni,18,TKDD,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,7,Juli,19,TKDD,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,8,Agustus,20,TKDD,3091458441000.0,1917015035091.0,62.01,False,False
+Maluku Utara,27,2024,9,September,21,TKDD,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,10,Oktober,22,TKDD,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,11,November,23,TKDD,3091458441000.0,1302026152911.0,42.12,False,False
+Maluku Utara,27,2024,12,Desember,24,TKDD,3091458441000.0,2831543852916.0,91.59,False,False
+Maluku Utara,27,2025,1,Januari,25,TKDD,2582929246000.0,238949739700.0,9.25,False,False
+Maluku Utara,27,2025,2,Februari,26,TKDD,2582929246000.0,317900670900.0,12.31,False,False
+Maluku Utara,27,2025,3,Maret,27,TKDD,2582929246000.0,535805577600.0,20.74,False,False
+Maluku Utara,27,2025,4,April,28,TKDD,2582929246000.0,728072425512.0,28.19,False,False
+Maluku Utara,27,2025,5,Mei,29,TKDD,2582929246000.0,886337078593.0,34.32,False,False
+Maluku Utara,27,2025,6,Juni,30,TKDD,2582929246000.0,985199407323.0,38.14,False,False
+Maluku Utara,27,2025,7,Juli,31,TKDD,2582929246000.0,1329086187871.0,51.46,False,False
+Maluku Utara,27,2025,8,Agustus,32,TKDD,2582929246000.0,1650984180869.0,63.92,False,False
+Maluku Utara,27,2025,9,September,33,TKDD,2582929246000.0,1800718936141.0,69.72,False,False
+Maluku Utara,27,2025,10,Oktober,34,TKDD,2582929246000.0,1944144585191.0,75.27,False,False
+Maluku Utara,27,2025,11,November,35,TKDD,2582929246000.0,2262984476800.0,87.61,False,False
+Maluku Utara,27,2025,12,Desember,36,TKDD,2582929246000.0,2395525115783.0,92.74,False,False
+Maluku Utara,27,2026,1,Januari,37,TKDD,1630427211000.0,247581408959.0,15.19,False,False
+Maluku Utara,27,2026,2,Februari,38,TKDD,1630427211000.0,340977834028.0,20.91,False,False
+Maluku Utara,27,2026,3,Maret,39,TKDD,1630427211000.0,473732536073.0,29.06,False,False
+Maluku Utara,27,2026,4,April,40,TKDD,1630427211000.0,574159697566.0,35.22,False,False
+Maluku Utara,27,2026,5,Mei,41,TKDD,1630427211000.0,700507102514.0,42.96,False,False
+Maluku Utara,27,2026,6,Juni,42,TKDD,1630427211000.0,822119239743.0,50.42,False,False
+Maluku Utara,27,2026,7,Juli,43,TKDD,1630427211000.0,950082080143.0,58.27,False,False
+Maluku Utara,27,2026,8,Agustus,44,TKDD,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,9,September,45,TKDD,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,10,Oktober,46,TKDD,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,11,November,47,TKDD,1630427211000.0,950082080143.0,58.27,False,True
+Maluku Utara,27,2026,12,Desember,48,TKDD,1630427211000.0,950082080143.0,58.27,False,True

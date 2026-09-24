@@ -1,0 +1,257 @@
+{
+  "diambil_pada": "2026-09-08T23:14:46",
+  "sumber": "https://djpk.kemenkeu.go.id/portal/data/apbd",
+  "endpoint": "https://djpk.kemenkeu.go.id/portal/csv_apbd",
+  "tahun": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "n_provinsi": 38,
+  "n_akun": 24,
+  "n_baris": 36704,
+  "berkas": {
+    "_konsolidasi.csv": "skema revdadas; realisasi KUMULATIF year-to-date",
+    "_statsforecast.csv": "long-format unique_id/ds/y; y = realisasi BULANAN (de-kumulasi dalam tahun), baris bermasalah dibuang",
+    "<Provinsi>/<Provinsi>_bulanan.csv": "skema revdadas per provinsi",
+    "<Provinsi>/raw/": "respons SpreadsheetML mentah untuk audit & re-parse"
+  },
+  "catatan_kualitas": {
+    "2021_2022": "TIDAK diambil. SIKD hanya menyimpan angka tahunan; 12 bulan bernilai identik sehingga tidak bisa jadi deret bulanan.",
+    "datar_tahunan": "baris dari (akun, tahun) yang 12 bulannya identik",
+    "belum_final": "bulan-bulan akhir yang mengulang nilai terakhir karena belum dilaporkan",
+    "n_datar_tahunan": 1200,
+    "n_belum_final": 3570
+  },
+  "per_provinsi": [
+    {
+      "provinsi": "Aceh",
+      "n_baris": 996,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "n_baris": 984,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "n_baris": 984,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Riau",
+      "n_baris": 924,
+      "n_akun": 20,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Jambi",
+      "n_baris": 948,
+      "n_akun": 20,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sumatera Selatan",
+      "n_baris": 924,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Bengkulu",
+      "n_baris": 900,
+      "n_akun": 20,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Lampung",
+      "n_baris": 996,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "DKI Jakarta",
+      "n_baris": 1008,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Jawa Barat",
+      "n_baris": 996,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Jawa Tengah",
+      "n_baris": 1008,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "DI Yogyakarta",
+      "n_baris": 1020,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Jawa Timur",
+      "n_baris": 1032,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kalimantan Barat",
+      "n_baris": 912,
+      "n_akun": 19,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kalimantan Tengah",
+      "n_baris": 1044,
+      "n_akun": 23,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kalimantan Selatan",
+      "n_baris": 948,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kalimantan Timur",
+      "n_baris": 944,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sulawesi Utara",
+      "n_baris": 996,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sulawesi Tengah",
+      "n_baris": 972,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sulawesi Selatan",
+      "n_baris": 972,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sulawesi Tenggara",
+      "n_baris": 996,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Bali",
+      "n_baris": 984,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "NTB",
+      "n_baris": 1020,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "NTT",
+      "n_baris": 960,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Maluku",
+      "n_baris": 960,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua",
+      "n_baris": 984,
+      "n_akun": 24,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Maluku Utara",
+      "n_baris": 996,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Banten",
+      "n_baris": 948,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Bangka Belitung",
+      "n_baris": 888,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Gorontalo",
+      "n_baris": 984,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kepulauan Riau",
+      "n_baris": 1008,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua Barat",
+      "n_baris": 924,
+      "n_akun": 20,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Sulawesi Barat",
+      "n_baris": 996,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Kalimantan Utara",
+      "n_baris": 1020,
+      "n_akun": 22,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua Selatan",
+      "n_baris": 924,
+      "n_akun": 21,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua Tengah",
+      "n_baris": 912,
+      "n_akun": 20,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua Pegunungan",
+      "n_baris": 828,
+      "n_akun": 19,
+      "n_unduh_baru": 0
+    },
+    {
+      "provinsi": "Papua Barat Daya",
+      "n_baris": 864,
+      "n_akun": 19,
+      "n_unduh_baru": 0
+    }
+  ]
+}

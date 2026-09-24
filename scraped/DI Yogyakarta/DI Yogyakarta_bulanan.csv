@@ -1,0 +1,1021 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Bantuan Keuangan,598264961740.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Bantuan Keuangan,598264961740.0,59855645256.0,10.0,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Bantuan Keuangan,598264961740.0,126112912454.0,21.08,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Bantuan Keuangan,598264961740.0,145698276160.0,24.35,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Bantuan Keuangan,598264961740.0,145698276160.0,24.35,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Bantuan Keuangan,598264961740.0,338568976732.0,56.59,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Bantuan Keuangan,598264961740.0,348590537132.0,58.27,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Bantuan Keuangan,598264961740.0,381715907810.0,63.8,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Bantuan Keuangan,598264961740.0,426852948886.0,71.35,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Bantuan Keuangan,598264961740.0,428697225584.5,71.66,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Bantuan Keuangan,598264961740.0,551432347090.5,92.17,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Bantuan Keuangan,598264961740.0,546251955845.21,91.31,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Bantuan Keuangan,593807820502.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Bantuan Keuangan,593807820502.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Bantuan Keuangan,593807820502.0,69225932816.0,11.66,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Bantuan Keuangan,593807820502.0,76812978815.0,12.94,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Bantuan Keuangan,593807820502.0,168169668046.0,28.32,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Bantuan Keuangan,593807820502.0,380313546888.0,64.05,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Bantuan Keuangan,593807820502.0,414756692255.0,69.85,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Bantuan Keuangan,593807820502.0,431584380530.0,72.68,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Bantuan Keuangan,593807820502.0,468628027043.0,78.92,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Bantuan Keuangan,593807820502.0,473861907200.46,79.8,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Bantuan Keuangan,593807820502.0,568990431026.46,95.82,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Bantuan Keuangan,593807820502.0,561053968452.82,94.48,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Bantuan Keuangan,442558055970.0,100056348.0,0.02,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Bantuan Keuangan,442558055970.0,200056348.0,0.05,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Bantuan Keuangan,442558055970.0,38135368212.0,8.62,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Bantuan Keuangan,442558055970.0,57948099912.0,13.09,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Bantuan Keuangan,442558055970.0,101429147011.0,22.92,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Bantuan Keuangan,442558055970.0,118148212588.0,26.7,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Bantuan Keuangan,442558055970.0,245415588470.0,55.45,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Bantuan Keuangan,442558055970.0,259871595160.75,58.72,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Bantuan Keuangan,442558055970.0,283281520840.64,64.01,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Bantuan Keuangan,442558055970.0,283969618026.64,64.17,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Bantuan Keuangan,442558055970.0,320742199456.35,72.47,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Bantuan Keuangan,442558055970.0,322491800904.34,72.87,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Bantuan Keuangan,610007207069.0,67945847.0,0.01,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Bantuan Keuangan,610007207069.0,329114894.0,0.05,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Bantuan Keuangan,610007207069.0,72587179903.0,11.9,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Bantuan Keuangan,610007207069.0,110146146821.0,18.06,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Bantuan Keuangan,610007207069.0,150049681983.0,24.6,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Bantuan Keuangan,610007207069.0,179429499505.0,29.41,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Bantuan Keuangan,610007207069.0,288551461761.0,47.3,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Bantuan Keuangan,610007207069.0,299407218682.0,49.08,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Bantuan Keuangan,610007207069.0,299407218682.0,49.08,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Bantuan Keuangan,610007207069.0,299407218682.0,49.08,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Bantuan Keuangan,610007207069.0,299407218682.0,49.08,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Bantuan Keuangan,610007207069.0,299407218682.0,49.08,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Bantuan Sosial,25840175000.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Bantuan Sosial,25840175000.0,359858000.0,1.39,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Bantuan Sosial,25840175000.0,770390265.0,2.98,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Bantuan Sosial,25840175000.0,3540604851.0,13.7,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Bantuan Sosial,25840175000.0,3540604851.0,13.7,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Bantuan Sosial,25840175000.0,4375150804.0,16.93,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Bantuan Sosial,25840175000.0,12214029253.0,47.27,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Bantuan Sosial,25840175000.0,13395494336.0,51.84,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Bantuan Sosial,25840175000.0,14703776394.0,56.9,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Bantuan Sosial,25840175000.0,14705540629.0,56.91,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Bantuan Sosial,25840175000.0,20504540255.0,79.35,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Bantuan Sosial,25840175000.0,25029300916.0,96.86,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Bantuan Sosial,55901422500.0,2070300000.0,3.7,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Bantuan Sosial,55901422500.0,4354136141.0,7.79,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Bantuan Sosial,55901422500.0,6891593809.0,12.33,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Bantuan Sosial,55901422500.0,9297017749.0,16.63,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Bantuan Sosial,55901422500.0,12088410524.0,21.62,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Bantuan Sosial,55901422500.0,18013133930.0,32.22,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Bantuan Sosial,55901422500.0,23044054130.0,41.22,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Bantuan Sosial,55901422500.0,32332141240.0,57.84,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Bantuan Sosial,55901422500.0,35742545447.0,63.94,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Bantuan Sosial,55901422500.0,38915389847.0,69.61,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Bantuan Sosial,55901422500.0,44611404453.0,79.8,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Bantuan Sosial,55901422500.0,53305675334.0,95.36,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Bantuan Sosial,31495906000.0,2400000000.0,7.62,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Bantuan Sosial,31495906000.0,4821000000.0,15.31,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Bantuan Sosial,31495906000.0,7234696400.0,22.97,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Bantuan Sosial,31495906000.0,9567496400.0,30.38,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Bantuan Sosial,31495906000.0,12209236315.0,38.76,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Bantuan Sosial,31495906000.0,14609236315.0,46.38,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Bantuan Sosial,31495906000.0,14609236315.0,46.38,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Bantuan Sosial,31495906000.0,19981654958.0,63.44,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Bantuan Sosial,31495906000.0,17581454765.0,55.82,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Bantuan Sosial,31495906000.0,17581454765.0,55.82,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Bantuan Sosial,31495906000.0,21263854765.0,67.51,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Bantuan Sosial,31495906000.0,30275654958.0,96.13,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Bantuan Sosial,34116394500.0,2400000000.0,7.03,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Bantuan Sosial,34116394500.0,5044100000.0,14.78,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Bantuan Sosial,34116394500.0,7503081025.0,21.99,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Bantuan Sosial,34116394500.0,9869689026.0,28.93,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Bantuan Sosial,34116394500.0,12524843666.0,36.71,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Bantuan Sosial,34116394500.0,16082049191.0,47.14,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Bantuan Sosial,34116394500.0,19199550222.0,56.28,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Bantuan Sosial,34116394500.0,21649041012.0,63.46,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Bantuan Sosial,34116394500.0,21649041012.0,63.46,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Bantuan Sosial,34116394500.0,21649041012.0,63.46,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Bantuan Sosial,34116394500.0,21649041012.0,63.46,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Bantuan Sosial,34116394500.0,21649041012.0,63.46,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Barang dan Jasa,1364714902680.0,10306387858.0,0.76,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Barang dan Jasa,1364714902680.0,60708907969.0,4.45,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Barang dan Jasa,1364714902680.0,145306640007.0,10.65,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Barang dan Jasa,1364714902680.0,225612591277.2,16.53,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Barang dan Jasa,1364714902680.0,225612591277.2,16.53,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Barang dan Jasa,1364714902680.0,329792299531.2,24.17,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Barang dan Jasa,1364714902680.0,422166925792.2,30.93,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Barang dan Jasa,1364714902680.0,530203230944.2,38.85,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Barang dan Jasa,1364714902680.0,633997900936.2,46.46,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Barang dan Jasa,1364714902680.0,730694418404.2,53.54,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Barang dan Jasa,1364714902680.0,852189655306.2,62.44,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Barang dan Jasa,1364714902680.0,1147760559404.2,84.1,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Barang dan Jasa,1242084009802.0,9154331233.0,0.74,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Barang dan Jasa,1242084009802.0,46106970092.7,3.71,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Barang dan Jasa,1242084009802.0,129853150803.2,10.45,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Barang dan Jasa,1242084009802.0,200883624334.6,16.17,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Barang dan Jasa,1242084009802.0,293747927922.0,23.65,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Barang dan Jasa,1242084009802.0,432209270486.4,34.8,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Barang dan Jasa,1242084009802.0,535001995067.55,43.07,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Barang dan Jasa,1242084009802.0,638478896444.95,51.4,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Barang dan Jasa,1242084009802.0,757069256340.35,60.95,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Barang dan Jasa,1242084009802.0,861493056259.75,69.36,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Barang dan Jasa,1242084009802.0,979676306026.15,78.87,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Barang dan Jasa,1242084009802.0,1155896100440.4,93.06,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Barang dan Jasa,1257242069759.0,8796776060.0,0.7,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Barang dan Jasa,1257242069759.0,52063283025.95,4.14,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Barang dan Jasa,1257242069759.0,178533462493.13,14.2,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Barang dan Jasa,1257242069759.0,245360549200.73,19.52,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Barang dan Jasa,1257242069759.0,341892067555.73,27.19,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Barang dan Jasa,1257242069759.0,439889279295.73,34.99,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Barang dan Jasa,1257242069759.0,456149370969.73,36.28,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Barang dan Jasa,1257242069759.0,604808695472.73,48.11,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Barang dan Jasa,1257242069759.0,590086853522.73,46.94,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Barang dan Jasa,1257242069759.0,608716373355.73,48.42,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Barang dan Jasa,1257242069759.0,721257524409.73,57.37,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Barang dan Jasa,1257242069759.0,1079098191132.2,85.83,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Barang dan Jasa,1240441168203.0,9675049408.0,0.78,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Barang dan Jasa,1240441168203.0,65035617304.0,5.24,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Barang dan Jasa,1240441168203.0,139785951533.0,11.27,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Barang dan Jasa,1240441168203.0,225175229515.0,18.15,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Barang dan Jasa,1240441168203.0,317199912619.0,25.57,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Barang dan Jasa,1240441168203.0,412506847816.0,33.25,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Barang dan Jasa,1240441168203.0,506355213687.0,40.82,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Barang dan Jasa,1240441168203.0,577550422784.0,46.56,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Barang dan Jasa,1240441168203.0,583744387617.0,47.06,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Barang dan Jasa,1240441168203.0,583744387617.0,47.06,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Barang dan Jasa,1240441168203.0,583744387617.0,47.06,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Barang dan Jasa,1240441168203.0,583744387617.0,47.06,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Daerah,5978802145547.0,102323613058.0,1.71,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Daerah,5978802145547.0,312560048176.0,5.23,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Daerah,5978802145547.0,716105477723.0,11.98,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Daerah,5978802145547.0,1224519185684.2,20.48,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Daerah,5978802145547.0,1224519185684.2,20.48,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Daerah,5978802145547.0,1790632307640.2,29.95,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Daerah,5978802145547.0,2361876641241.2,39.5,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Daerah,5978802145547.0,2678891675744.2,44.81,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Daerah,5978802145547.0,3042026241432.2,50.88,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Daerah,5978802145547.0,3623200641211.7,60.6,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Daerah,5978802145547.0,4148799845995.7,69.39,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Daerah,5978802145547.0,5314326681288.4,88.89,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Daerah,6009092988865.0,72347938392.0,1.2,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Daerah,6009092988865.0,231168209905.7,3.85,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Daerah,6009092988865.0,706074709000.2,11.75,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Daerah,6009092988865.0,1052721749722.6,17.52,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Daerah,6009092988865.0,1604806217299.0,26.71,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Daerah,6009092988865.0,2256211346268.4,37.55,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Daerah,6009092988865.0,2934898130631.5,48.84,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Daerah,6009092988865.0,3326804134119.9,55.36,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Daerah,6009092988865.0,3724262527214.3,61.98,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Daerah,6009092988865.0,4331494957679.2,72.08,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Daerah,6009092988865.0,4799796208216.6,79.88,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Daerah,6009092988865.0,5680495088297.1,94.53,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Daerah,5237363379173.0,127081913698.0,2.43,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Daerah,5237363379173.0,290317597050.95,5.54,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Daerah,5237363379173.0,699675652304.13,13.36,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Daerah,5237363379173.0,1084141581912.7,20.7,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Daerah,5237363379173.0,1435115075372.7,27.4,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Daerah,5237363379173.0,1918844210833.7,36.64,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Daerah,5237363379173.0,2200521955600.7,42.02,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Daerah,5237363379173.0,2697896994359.5,51.51,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Daerah,5237363379173.0,2656315339677.4,50.72,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Daerah,5237363379173.0,2832704691101.4,54.09,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Daerah,5237363379173.0,3263291885635.1,62.31,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Daerah,5237363379173.0,4730715901123.5,90.33,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Daerah,5416333470333.0,133188482163.0,2.46,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Daerah,5416333470333.0,453671611807.0,8.38,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Daerah,5416333470333.0,823069019167.0,15.2,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Daerah,5416333470333.0,1286073878052.0,23.74,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Daerah,5416333470333.0,1586625808442.0,29.29,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Daerah,5416333470333.0,1984769581616.0,36.64,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Daerah,5416333470333.0,2578433508896.0,47.6,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Daerah,5416333470333.0,2809319600583.0,51.87,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Daerah,5416333470333.0,2876888740636.0,53.12,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Daerah,5416333470333.0,2876888740636.0,53.12,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Daerah,5416333470333.0,2876888740636.0,53.12,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Daerah,5416333470333.0,2876888740636.0,53.12,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Hibah,597349558739.0,26850708000.0,4.49,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Hibah,597349558739.0,53562180150.0,8.97,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Hibah,597349558739.0,66630973306.0,11.15,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Hibah,597349558739.0,90002616253.0,15.07,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Hibah,597349558739.0,90002616253.0,15.07,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Hibah,597349558739.0,129266544287.0,21.64,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Hibah,597349558739.0,219358774458.0,36.72,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Hibah,597349558739.0,238111188638.0,39.86,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Hibah,597349558739.0,280506168270.0,46.96,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Hibah,597349558739.0,354579286844.0,59.36,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Hibah,597349558739.0,407713956725.0,68.25,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Hibah,597349558739.0,544802834322.0,91.2,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Hibah,672859937200.0,715000000.0,0.11,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Hibah,672859937200.0,18233033756.0,2.71,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Hibah,672859937200.0,141455332356.0,21.02,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Hibah,672859937200.0,200024636596.0,29.73,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Hibah,672859937200.0,205512359849.0,30.54,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Hibah,672859937200.0,233318024369.0,34.68,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Hibah,672859937200.0,371466585894.0,55.21,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Hibah,672859937200.0,459838878401.0,68.34,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Hibah,672859937200.0,524146914863.0,77.9,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Hibah,672859937200.0,586919361947.0,87.23,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Hibah,672859937200.0,617866428814.0,91.83,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Hibah,672859937200.0,653554770630.0,97.13,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Hibah,421062271052.0,51999030000.0,12.35,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Hibah,421062271052.0,64810104915.0,15.39,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Hibah,421062271052.0,109235613029.0,25.94,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Hibah,421062271052.0,169501389427.0,40.26,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Hibah,421062271052.0,190522232732.0,45.25,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Hibah,421062271052.0,193894079356.0,46.05,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Hibah,421062271052.0,193896539356.0,46.05,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Hibah,421062271052.0,278426703516.0,66.12,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Hibah,421062271052.0,255038982805.0,60.57,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Hibah,421062271052.0,259180567621.0,61.55,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Hibah,421062271052.0,274510772735.0,65.19,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Hibah,421062271052.0,405156875823.0,96.22,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Hibah,503584788850.0,53849090000.0,10.69,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Hibah,503584788850.0,111973106823.0,22.24,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Hibah,503584788850.0,112879241880.0,22.42,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Hibah,503584788850.0,174797606992.0,34.71,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Hibah,503584788850.0,199510775857.0,39.62,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Hibah,503584788850.0,221287193016.0,43.94,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Hibah,503584788850.0,280935267924.0,55.79,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Hibah,503584788850.0,295084878396.0,58.6,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Hibah,503584788850.0,295286600096.0,58.64,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Hibah,503584788850.0,295286600096.0,58.64,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Hibah,503584788850.0,295286600096.0,58.64,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Hibah,503584788850.0,295286600096.0,58.64,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Lainnya,2208294404792.0,27039708000.0,1.22,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Lainnya,2208294404792.0,119567612386.0,5.41,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Lainnya,2208294404792.0,204310433156.0,9.25,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Lainnya,2208294404792.0,384362777002.0,17.41,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Lainnya,2208294404792.0,384362777002.0,17.41,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Lainnya,2208294404792.0,622708470612.0,28.2,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Lainnya,2208294404792.0,915698325502.0,41.47,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Lainnya,2208294404792.0,974884194734.0,44.15,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Lainnya,2208294404792.0,1068527596848.0,48.39,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Lainnya,2208294404792.0,1328324108292.5,60.15,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Lainnya,2208294404792.0,1516320060413.5,68.66,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Lainnya,2208294404792.0,1983332160450.2,89.81,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Lainnya,2299486002809.0,2785300000.0,0.12,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Lainnya,2299486002809.0,28408162683.0,1.24,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Lainnya,2299486002809.0,280545789907.0,12.2,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Lainnya,2299486002809.0,358107155698.0,15.57,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Lainnya,2299486002809.0,639890317906.0,27.83,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Lainnya,2299486002809.0,891630887277.0,38.78,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Lainnya,2299486002809.0,1264015384436.0,54.97,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Lainnya,2299486002809.0,1383263177697.0,60.16,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Lainnya,2299486002809.0,1493515770219.0,64.95,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Lainnya,2299486002809.0,1780464398338.5,77.43,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Lainnya,2299486002809.0,1917874567486.5,83.4,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Lainnya,2299486002809.0,2213662711455.8,96.27,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Lainnya,1460111278859.0,54499086348.0,3.73,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Lainnya,1460111278859.0,76693869285.0,5.25,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Lainnya,1460111278859.0,167197583819.0,11.45,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Lainnya,1460111278859.0,317237544284.0,21.73,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Lainnya,1460111278859.0,441948734288.0,30.27,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Lainnya,1460111278859.0,500846460594.0,34.3,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Lainnya,1460111278859.0,683422717593.0,46.81,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Lainnya,1460111278859.0,848456770064.75,58.11,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Lainnya,1460111278859.0,848627894145.64,58.12,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Lainnya,1460111278859.0,980835049380.64,67.18,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Lainnya,1460111278859.0,1043158901266.4,71.44,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Lainnya,1460111278859.0,1397957461278.3,95.74,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Lainnya,1713474654131.0,56317035847.0,3.29,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Lainnya,1713474654131.0,122906559058.0,7.17,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Lainnya,1713474654131.0,204945567570.0,11.96,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Lainnya,1713474654131.0,445992421385.0,26.03,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Lainnya,1713474654131.0,515428593732.0,30.08,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Lainnya,1713474654131.0,581226935638.0,33.92,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Lainnya,1713474654131.0,882462593411.0,51.5,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Lainnya,1713474654131.0,916158751370.0,53.47,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Lainnya,1713474654131.0,916360473070.0,53.48,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Lainnya,1713474654131.0,916360473070.0,53.48,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Lainnya,1713474654131.0,916360473070.0,53.48,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Lainnya,1713474654131.0,916360473070.0,53.48,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Modal,774386010873.0,2650000.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Modal,774386010873.0,2572043539.0,0.33,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Modal,774386010873.0,108707248133.0,14.04,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Modal,774386010873.0,124167528073.0,16.03,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Modal,774386010873.0,124167528073.0,16.03,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Modal,774386010873.0,179294208951.0,23.15,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Modal,774386010873.0,205154397398.0,26.49,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Modal,774386010873.0,258664405147.0,33.4,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Modal,774386010873.0,327270992436.0,42.26,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Modal,774386010873.0,402752896569.0,52.01,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Modal,774386010873.0,512558354003.0,66.19,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Modal,774386010873.0,707266880049.0,91.33,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Modal,707244989322.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Modal,707244989322.0,4415334604.0,0.62,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Modal,707244989322.0,33772229595.0,4.78,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Modal,707244989322.0,61145544969.0,8.65,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Modal,707244989322.0,86812667127.0,12.27,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Modal,707244989322.0,155865347221.0,22.04,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Modal,707244989322.0,179299018076.0,25.35,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Modal,707244989322.0,245780988199.0,34.75,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Modal,707244989322.0,315792910932.0,44.65,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Modal,707244989322.0,394934151154.0,55.84,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Modal,707244989322.0,474994584767.0,67.16,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Modal,707244989322.0,659153310940.95,93.2,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Modal,708569177994.0,43132598.0,0.01,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Modal,708569177994.0,2065217363.0,0.29,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Modal,708569177994.0,7642605586.0,1.08,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Modal,708569177994.0,73167046182.0,10.33,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Modal,708569177994.0,102742858736.0,14.5,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Modal,708569177994.0,120208315855.0,16.96,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Modal,708569177994.0,125553905005.0,17.72,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Modal,708569177994.0,181252420367.0,25.58,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Modal,708569177994.0,176827585196.0,24.96,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Modal,708569177994.0,196719195417.0,27.76,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Modal,708569177994.0,273090253605.0,38.54,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Modal,708569177994.0,606066257104.0,85.53,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Modal,783256997978.0,141389493.0,0.02,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Modal,783256997978.0,66442333130.0,8.48,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Modal,783256997978.0,71384769245.0,9.11,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Modal,783256997978.0,82967083518.0,10.59,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Modal,783256997978.0,105032799500.0,13.41,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Modal,783256997978.0,135570233399.0,17.31,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Modal,783256997978.0,230744798622.0,29.46,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Modal,783256997978.0,263046175844.0,33.58,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Modal,783256997978.0,263455221844.0,33.64,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Modal,783256997978.0,263455221844.0,33.64,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Modal,783256997978.0,263455221844.0,33.64,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Modal,783256997978.0,263455221844.0,33.64,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Pegawai,1631406827202.0,64974867200.0,3.98,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Pegawai,1631406827202.0,129711484282.0,7.95,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Pegawai,1631406827202.0,257781156427.0,15.8,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Pegawai,1631406827202.0,490376289332.0,30.06,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Pegawai,1631406827202.0,490376289332.0,30.06,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Pegawai,1631406827202.0,658837328546.0,40.38,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Pegawai,1631406827202.0,818856992549.0,50.19,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Pegawai,1631406827202.0,915139844919.0,56.1,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Pegawai,1631406827202.0,1012229751212.0,62.05,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Pegawai,1631406827202.0,1161429217946.0,71.19,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Pegawai,1631406827202.0,1267731776273.0,77.71,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Pegawai,1631406827202.0,1475967081385.0,90.47,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Pegawai,1760277986932.0,60408307159.0,3.43,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Pegawai,1760277986932.0,152237742526.0,8.65,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Pegawai,1760277986932.0,261903538695.0,14.88,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Pegawai,1760277986932.0,432585424721.0,24.57,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Pegawai,1760277986932.0,584355304344.0,33.2,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Pegawai,1760277986932.0,776505841284.0,44.11,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Pegawai,1760277986932.0,956581733052.0,54.34,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Pegawai,1760277986932.0,1059281071779.0,60.18,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Pegawai,1760277986932.0,1157884589723.0,65.78,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Pegawai,1760277986932.0,1294603351927.0,73.55,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Pegawai,1760277986932.0,1427250749937.0,81.08,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Pegawai,1760277986932.0,1651782965460.0,93.84,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Pegawai,1811440852561.0,63742918692.0,3.52,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Pegawai,1811440852561.0,159495227377.0,8.8,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Pegawai,1811440852561.0,346302000406.0,19.12,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Pegawai,1811440852561.0,448376442246.0,24.75,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Pegawai,1811440852561.0,548531414793.0,30.28,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Pegawai,1811440852561.0,857900155089.0,47.36,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Pegawai,1811440852561.0,935395962033.0,51.64,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Pegawai,1811440852561.0,1063379108455.0,58.7,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Pegawai,1811440852561.0,1040773006813.0,57.46,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Pegawai,1811440852561.0,1046434072948.0,57.77,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Pegawai,1811440852561.0,1225785206354.0,67.67,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Pegawai,1811440852561.0,1647593991609.0,90.95,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Pegawai,1679160650021.0,67055007415.0,3.99,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Pegawai,1679160650021.0,199287102315.0,11.87,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Pegawai,1679160650021.0,406952730819.0,24.24,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Pegawai,1679160650021.0,531939143634.0,31.68,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Pegawai,1679160650021.0,648964502591.0,38.65,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Pegawai,1679160650021.0,855465564763.0,50.95,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Pegawai,1679160650021.0,958870903176.0,57.1,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Pegawai,1679160650021.0,1052564250585.0,62.68,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Pegawai,1679160650021.0,1113328658105.0,66.3,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Pegawai,1679160650021.0,1113328658105.0,66.3,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Pegawai,1679160650021.0,1113328658105.0,66.3,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Pegawai,1679160650021.0,1113328658105.0,66.3,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Subsidi,85553295477.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Subsidi,85553295477.0,5600928980.0,6.55,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Subsidi,85553295477.0,10607157131.0,12.4,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Subsidi,85553295477.0,11911220450.0,13.92,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Subsidi,85553295477.0,11911220450.0,13.92,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Subsidi,85553295477.0,17287739501.0,20.21,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Subsidi,85553295477.0,23848622955.0,27.88,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Subsidi,85553295477.0,29975242246.0,35.04,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Subsidi,85553295477.0,34778341594.0,40.65,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Subsidi,85553295477.0,41144057915.0,48.09,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Subsidi,85553295477.0,47471219023.0,55.49,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Subsidi,85553295477.0,60294545570.0,70.48,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Subsidi,82570477931.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Subsidi,82570477931.0,5820992786.0,7.05,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Subsidi,82570477931.0,11105474486.0,13.45,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Subsidi,82570477931.0,20105066098.0,24.35,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Subsidi,82570477931.0,25093276984.0,30.39,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Subsidi,82570477931.0,30959579587.0,37.49,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Subsidi,82570477931.0,37124411767.0,44.96,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Subsidi,82570477931.0,41884137136.0,50.73,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Subsidi,82570477931.0,47374642476.0,57.37,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Subsidi,82570477931.0,54701038859.0,66.25,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Subsidi,82570477931.0,60339602708.0,73.08,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Subsidi,82570477931.0,75368890530.0,91.28,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Subsidi,96029746301.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Subsidi,96029746301.0,6862708022.0,7.15,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Subsidi,96029746301.0,12591906178.0,13.11,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Subsidi,96029746301.0,24409960241.0,25.42,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Subsidi,96029746301.0,31344566489.0,32.64,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Subsidi,96029746301.0,37291189793.0,38.83,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Subsidi,96029746301.0,37291189793.0,38.83,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Subsidi,96029746301.0,52748031173.0,54.93,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Subsidi,96029746301.0,56929986478.0,59.28,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Subsidi,96029746301.0,63656408318.0,66.29,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Subsidi,96029746301.0,70195073660.0,73.1,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Subsidi,96029746301.0,95355621534.0,99.3,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Subsidi,85366620563.0,0.0,0.0,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Subsidi,85366620563.0,5560237341.0,6.51,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Subsidi,85366620563.0,11976064762.0,14.03,False,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Subsidi,85366620563.0,22344314730.0,26.17,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Subsidi,85366620563.0,24508628410.0,28.71,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Subsidi,85366620563.0,35593530110.0,41.69,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Subsidi,85366620563.0,43268073522.0,50.69,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Subsidi,85366620563.0,49509373298.0,58.0,False,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Subsidi,85366620563.0,49509373298.0,58.0,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Subsidi,85366620563.0,49509373298.0,58.0,False,True
+DI Yogyakarta,12,2026,11,November,47,Belanja Subsidi,85366620563.0,49509373298.0,58.0,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Subsidi,85366620563.0,49509373298.0,58.0,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,4,April,4,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,9,September,9,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,11,November,11,Belanja Tidak Terduga,15171106344.0,189000000.0,1.25,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Belanja Tidak Terduga,15171106344.0,198487268.0,1.31,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,4,April,16,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,9,September,21,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,11,November,23,Belanja Tidak Terduga,13336779243.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Belanja Tidak Terduga,13336779243.0,20000000.0,0.15,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,4,April,28,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Belanja Tidak Terduga,31760589370.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,9,September,33,Belanja Tidak Terduga,31760589370.0,-1632836000.0,-5.14,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Belanja Tidak Terduga,31760589370.0,-1632836000.0,-5.14,False,False
+DI Yogyakarta,12,2025,11,November,35,Belanja Tidak Terduga,31760589370.0,-1632836000.0,-5.14,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Belanja Tidak Terduga,31760589370.0,3405377000.0,10.72,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,2,Februari,38,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,3,Maret,39,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,4,April,40,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,5,Mei,41,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,6,Juni,42,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,7,Juli,43,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,8,Agustus,44,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,9,September,45,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,10,Oktober,46,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,11,November,47,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2026,12,Desember,48,Belanja Tidak Terduga,15000000000.0,0.0,0.0,True,False
+DI Yogyakarta,12,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99223198838.0,90.97,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99223198838.0,90.97,False,False
+DI Yogyakarta,12,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99223198838.0,90.97,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99223198838.0,90.97,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99223198838.0,90.97,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,99432696267.0,91.16,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,105793375777.0,97.0,False,False
+DI Yogyakarta,12,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,106454400085.01,97.6,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,109732296486.8,100.61,False,False
+DI Yogyakarta,12,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,109790680460.56,100.66,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,109070217574.0,109790680460.56,100.66,False,True
+DI Yogyakarta,12,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111028716629.0,91.19,False,False
+DI Yogyakarta,12,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111028716629.0,91.19,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111028716629.0,91.19,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111028716629.0,91.19,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111028716629.0,91.19,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,111885972521.0,91.9,False,False
+DI Yogyakarta,12,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,116372640708.88,95.58,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,116530137325.88,95.71,False,False
+DI Yogyakarta,12,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,116677680902.62,95.83,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,121749510238.0,120935677671.93,99.33,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,121074128133.0,97.65,False,False
+DI Yogyakarta,12,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,121074128133.0,97.65,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,123793196563.0,99.84,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,123793196563.0,99.84,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,123793196563.0,99.84,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,123793196563.0,99.84,False,False
+DI Yogyakarta,12,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,123793196563.0,99.84,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,124860134022.1,100.7,False,False
+DI Yogyakarta,12,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,125138382835.18,100.92,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,123993797426.0,127241046476.91,102.62,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,0.0,0.0,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,129640232233.0,97.56,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,129640232233.0,97.56,False,False
+DI Yogyakarta,12,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,129640232233.0,97.56,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,133082477717.95,100.15,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,133082477717.95,100.15,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,True
+DI Yogyakarta,12,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,True
+DI Yogyakarta,12,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,132881806273.0,137960421912.95,103.82,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Lain-Lain PAD yang Sah,137132510505.0,12544222376.0,9.15,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Lain-Lain PAD yang Sah,137132510505.0,22997199068.99,16.77,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Lain-Lain PAD yang Sah,137132510505.0,35201236756.61,25.67,False,False
+DI Yogyakarta,12,2023,4,April,4,Lain-Lain PAD yang Sah,137132510505.0,45428868856.75,33.13,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Lain-Lain PAD yang Sah,137132510505.0,45428868856.75,33.13,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Lain-Lain PAD yang Sah,137132510505.0,57852700010.15,42.19,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Lain-Lain PAD yang Sah,137132510505.0,73838487733.37,53.84,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Lain-Lain PAD yang Sah,137132510505.0,85008814405.86,61.99,False,False
+DI Yogyakarta,12,2023,9,September,9,Lain-Lain PAD yang Sah,137132510505.0,100747736194.01,73.47,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Lain-Lain PAD yang Sah,137132510505.0,109247495706.28,79.67,False,False
+DI Yogyakarta,12,2023,11,November,11,Lain-Lain PAD yang Sah,137132510505.0,122447990449.81,89.29,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Lain-Lain PAD yang Sah,137132510505.0,139442361865.8,101.68,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Lain-Lain PAD yang Sah,99157677101.0,8216207300.09,8.29,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Lain-Lain PAD yang Sah,99157677101.0,14894460625.87,15.02,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Lain-Lain PAD yang Sah,99157677101.0,25603226320.8,25.82,False,False
+DI Yogyakarta,12,2024,4,April,16,Lain-Lain PAD yang Sah,99157677101.0,36261050133.17,36.57,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Lain-Lain PAD yang Sah,99157677101.0,50450866767.56,50.88,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Lain-Lain PAD yang Sah,99157677101.0,61630370014.07,62.15,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Lain-Lain PAD yang Sah,99157677101.0,74137192968.96,74.77,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Lain-Lain PAD yang Sah,99157677101.0,79122267119.01,79.79,False,False
+DI Yogyakarta,12,2024,9,September,21,Lain-Lain PAD yang Sah,99157677101.0,94206301705.62,95.01,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Lain-Lain PAD yang Sah,99157677101.0,104713081714.22,105.6,False,False
+DI Yogyakarta,12,2024,11,November,23,Lain-Lain PAD yang Sah,99157677101.0,114728602093.7,115.7,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Lain-Lain PAD yang Sah,99157677101.0,123577792400.15,124.63,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Lain-Lain PAD yang Sah,54195392429.0,7879620133.0,14.54,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Lain-Lain PAD yang Sah,54195392429.0,13657393261.17,25.2,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Lain-Lain PAD yang Sah,54195392429.0,22088395043.03,40.76,False,False
+DI Yogyakarta,12,2025,4,April,28,Lain-Lain PAD yang Sah,54195392429.0,33280423122.64,61.41,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Lain-Lain PAD yang Sah,54195392429.0,39834455578.31,73.5,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Lain-Lain PAD yang Sah,54195392429.0,46738834876.69,86.24,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Lain-Lain PAD yang Sah,54195392429.0,49120537245.34,90.64,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Lain-Lain PAD yang Sah,54195392429.0,60149949625.01,110.99,False,False
+DI Yogyakarta,12,2025,9,September,33,Lain-Lain PAD yang Sah,54195392429.0,56711256888.39,104.64,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Lain-Lain PAD yang Sah,54195392429.0,58233575011.83,107.45,False,False
+DI Yogyakarta,12,2025,11,November,35,Lain-Lain PAD yang Sah,54195392429.0,63908498176.24,117.92,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Lain-Lain PAD yang Sah,54195392429.0,91910665258.58,169.59,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Lain-Lain PAD yang Sah,77658070328.0,8054507300.4,10.37,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Lain-Lain PAD yang Sah,77658070328.0,14329632241.56,18.45,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Lain-Lain PAD yang Sah,77658070328.0,20311664748.72,26.16,False,False
+DI Yogyakarta,12,2026,4,April,40,Lain-Lain PAD yang Sah,77658070328.0,28177558396.23,36.28,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Lain-Lain PAD yang Sah,77658070328.0,33313416993.6,42.9,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Lain-Lain PAD yang Sah,77658070328.0,38059439693.56,49.01,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Lain-Lain PAD yang Sah,77658070328.0,44059989887.56,56.74,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Lain-Lain PAD yang Sah,77658070328.0,47864425487.56,61.63,False,False
+DI Yogyakarta,12,2026,9,September,45,Lain-Lain PAD yang Sah,77658070328.0,47977929487.56,61.78,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Lain-Lain PAD yang Sah,77658070328.0,47977929487.56,61.78,False,True
+DI Yogyakarta,12,2026,11,November,47,Lain-Lain PAD yang Sah,77658070328.0,47977929487.56,61.78,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Lain-Lain PAD yang Sah,77658070328.0,47977929487.56,61.78,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,4,April,4,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,9,September,9,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,629000.0,0.0,False,False
+DI Yogyakarta,12,2023,11,November,11,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,5028016.0,0.0,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,5028016.0,0.0,False,True
+DI Yogyakarta,12,2023,1,Januari,1,PAD,2343114981005.0,175726597680.6,7.5,False,False
+DI Yogyakarta,12,2023,2,Februari,2,PAD,2343114981005.0,429498352657.93,18.33,False,False
+DI Yogyakarta,12,2023,3,Maret,3,PAD,2343114981005.0,594623711960.55,25.38,False,False
+DI Yogyakarta,12,2023,4,April,4,PAD,2343114981005.0,843414898414.32,36.0,False,False
+DI Yogyakarta,12,2023,5,Mei,5,PAD,2343114981005.0,843414898414.32,36.0,False,False
+DI Yogyakarta,12,2023,6,Juni,6,PAD,2343114981005.0,994269783717.72,42.43,False,False
+DI Yogyakarta,12,2023,7,Juli,7,PAD,2343114981005.0,1229790823498.9,52.49,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,PAD,2343114981005.0,1406922109764.4,60.04,False,False
+DI Yogyakarta,12,2023,9,September,9,PAD,2343114981005.0,1598892951935.6,68.24,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,PAD,2343114981005.0,1826526897948.6,77.95,False,False
+DI Yogyakarta,12,2023,11,November,11,PAD,2343114981005.0,1989958262083.9,84.93,False,False
+DI Yogyakarta,12,2023,12,Desember,12,PAD,2343114981005.0,2205548888028.9,94.13,False,False
+DI Yogyakarta,12,2024,1,Januari,13,PAD,2353982421068.0,182752158568.09,7.76,False,False
+DI Yogyakarta,12,2024,2,Februari,14,PAD,2353982421068.0,337042104026.87,14.32,False,False
+DI Yogyakarta,12,2024,3,Maret,15,PAD,2353982421068.0,611230204545.8,25.97,False,False
+DI Yogyakarta,12,2024,4,April,16,PAD,2353982421068.0,873711093169.17,37.12,False,False
+DI Yogyakarta,12,2024,5,Mei,17,PAD,2353982421068.0,1044255141084.6,44.36,False,False
+DI Yogyakarta,12,2024,6,Juni,18,PAD,2353982421068.0,1199345289378.1,50.95,False,False
+DI Yogyakarta,12,2024,7,Juli,19,PAD,2353982421068.0,1431015846427.0,60.79,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,PAD,2353982421068.0,1636294904378.0,69.51,False,False
+DI Yogyakarta,12,2024,9,September,21,PAD,2353982421068.0,1812291020448.5,76.99,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,PAD,2353982421068.0,2047731405699.1,86.99,False,False
+DI Yogyakarta,12,2024,11,November,23,PAD,2353982421068.0,2214621259801.3,94.08,False,False
+DI Yogyakarta,12,2024,12,Desember,24,PAD,2353982421068.0,2481506565559.1,105.42,False,False
+DI Yogyakarta,12,2025,1,Januari,25,PAD,1708240975934.0,119129201291.25,6.97,False,False
+DI Yogyakarta,12,2025,2,Februari,26,PAD,1708240975934.0,225044129379.42,13.17,False,False
+DI Yogyakarta,12,2025,3,Maret,27,PAD,1708240975934.0,463563543094.28,27.14,False,False
+DI Yogyakarta,12,2025,4,April,28,PAD,1708240975934.0,687069457782.89,40.22,False,False
+DI Yogyakarta,12,2025,5,Mei,29,PAD,1708240975934.0,799148499853.56,46.78,False,False
+DI Yogyakarta,12,2025,6,Juni,30,PAD,1708240975934.0,906084408206.94,53.04,False,False
+DI Yogyakarta,12,2025,7,Juli,31,PAD,1708240975934.0,926591550956.59,54.24,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,PAD,1708240975934.0,1215506691185.3,71.16,False,False
+DI Yogyakarta,12,2025,9,September,33,PAD,1708240975934.0,1082801717754.6,63.39,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,PAD,1708240975934.0,1100774744164.2,64.44,False,False
+DI Yogyakarta,12,2025,11,November,35,PAD,1708240975934.0,1216470377707.7,71.21,False,False
+DI Yogyakarta,12,2025,12,Desember,36,PAD,1708240975934.0,1839852612663.6,107.7,False,False
+DI Yogyakarta,12,2026,1,Januari,37,PAD,1805848822386.0,123476510244.97,6.84,False,False
+DI Yogyakarta,12,2026,2,Februari,38,PAD,1805848822386.0,361062328992.28,19.99,False,False
+DI Yogyakarta,12,2026,3,Maret,39,PAD,1805848822386.0,469088200287.2,25.98,False,False
+DI Yogyakarta,12,2026,4,April,40,PAD,1805848822386.0,682087218662.38,37.77,False,False
+DI Yogyakarta,12,2026,5,Mei,41,PAD,1805848822386.0,795836624082.11,44.07,False,False
+DI Yogyakarta,12,2026,6,Juni,42,PAD,1805848822386.0,917605037357.86,50.81,False,False
+DI Yogyakarta,12,2026,7,Juli,43,PAD,1805848822386.0,1114671215108.9,61.73,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,PAD,1805848822386.0,1223872388932.9,67.77,False,False
+DI Yogyakarta,12,2026,9,September,45,PAD,1805848822386.0,1232484742032.9,68.25,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,PAD,1805848822386.0,1232484742032.9,68.25,False,True
+DI Yogyakarta,12,2026,11,November,47,PAD,1805848822386.0,1232484742032.9,68.25,False,True
+DI Yogyakarta,12,2026,12,Desember,48,PAD,1805848822386.0,1232484742032.9,68.25,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pajak Daerah,2063347893170.0,160832156874.6,7.79,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pajak Daerah,2063347893170.0,303116109508.94,14.69,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pajak Daerah,2063347893170.0,451772219284.94,21.9,False,False
+DI Yogyakarta,12,2023,4,April,4,Pajak Daerah,2063347893170.0,688436646865.57,33.37,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Pajak Daerah,2063347893170.0,688436646865.57,33.37,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Pajak Daerah,2063347893170.0,823427834833.57,39.91,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Pajak Daerah,2063347893170.0,1039782440260.6,50.39,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Pajak Daerah,2063347893170.0,1196412504534.6,57.98,False,False
+DI Yogyakarta,12,2023,9,September,9,Pajak Daerah,2063347893170.0,1369018185511.6,66.35,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Pajak Daerah,2063347893170.0,1582588519544.6,76.7,False,False
+DI Yogyakarta,12,2023,11,November,11,Pajak Daerah,2063347893170.0,1730358024728.6,83.86,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Pajak Daerah,2063347893170.0,1926236374350.6,93.35,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Pajak Daerah,2059869703526.0,168376680733.0,8.17,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pajak Daerah,2059869703526.0,310651191896.0,15.08,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pajak Daerah,2059869703526.0,457964653169.0,22.23,False,False
+DI Yogyakarta,12,2024,4,April,16,Pajak Daerah,2059869703526.0,703502007836.0,34.15,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pajak Daerah,2059869703526.0,852774945776.0,41.4,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pajak Daerah,2059869703526.0,990785350283.0,48.1,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pajak Daerah,2059869703526.0,1203131951140.0,58.41,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pajak Daerah,2059869703526.0,1394986328936.0,67.72,False,False
+DI Yogyakarta,12,2024,9,September,21,Pajak Daerah,2059869703526.0,1544084530077.0,74.96,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Pajak Daerah,2059869703526.0,1761944068504.0,85.54,False,False
+DI Yogyakarta,12,2024,11,November,23,Pajak Daerah,2059869703526.0,1912097852835.0,92.83,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Pajak Daerah,2059869703526.0,2157532293945.0,104.74,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Pajak Daerah,1462082788059.0,105487644080.25,7.21,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pajak Daerah,1462082788059.0,200438388215.25,13.71,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pajak Daerah,1462082788059.0,304032650952.25,20.79,False,False
+DI Yogyakarta,12,2025,4,April,28,Pajak Daerah,1462082788059.0,510486275742.25,34.92,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pajak Daerah,1462082788059.0,606970966698.25,41.51,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pajak Daerah,1462082788059.0,700842362211.25,47.93,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Pajak Daerah,1462082788059.0,718280454186.25,49.13,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Pajak Daerah,1462082788059.0,982752551511.25,67.22,False,False
+DI Yogyakarta,12,2025,9,September,33,Pajak Daerah,1462082788059.0,856970980042.25,58.61,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Pajak Daerah,1462082788059.0,870743375742.25,59.55,False,False
+DI Yogyakarta,12,2025,11,November,35,Pajak Daerah,1462082788059.0,972865742239.25,66.54,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Pajak Daerah,1462082788059.0,1541673476325.2,105.44,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Pajak Daerah,1519273195310.0,109672749964.0,7.22,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pajak Daerah,1519273195310.0,206282927005.0,13.58,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pajak Daerah,1519273195310.0,302360440192.0,19.9,False,False
+DI Yogyakarta,12,2026,4,April,40,Pajak Daerah,1519273195310.0,500422544696.0,32.94,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pajak Daerah,1519273195310.0,598509266263.0,39.39,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pajak Daerah,1519273195310.0,708469764515.0,46.63,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pajak Daerah,1519273195310.0,891297638102.0,58.67,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Pajak Daerah,1519273195310.0,995051514167.0,65.5,False,False
+DI Yogyakarta,12,2026,9,September,45,Pajak Daerah,1519273195310.0,1003443267267.0,66.05,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Pajak Daerah,1519273195310.0,1003443267267.0,66.05,False,True
+DI Yogyakarta,12,2026,11,November,47,Pajak Daerah,1519273195310.0,1003443267267.0,66.05,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pajak Daerah,1519273195310.0,1003443267267.0,66.05,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pendapatan Daerah,5817530582592.0,377113833680.6,6.48,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pendapatan Daerah,5817530582592.0,743775891657.93,12.79,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pendapatan Daerah,5817530582592.0,1308591800294.5,22.49,False,False
+DI Yogyakarta,12,2023,4,April,4,Pendapatan Daerah,5817530582592.0,1738773510011.3,29.89,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Pendapatan Daerah,5817530582592.0,1738773510011.3,29.89,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Pendapatan Daerah,5817530582592.0,1926044507714.7,33.11,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Pendapatan Daerah,5817530582592.0,2556215484620.9,43.94,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Pendapatan Daerah,5817530582592.0,2860501573486.4,49.17,False,False
+DI Yogyakarta,12,2023,9,September,9,Pendapatan Daerah,5817530582592.0,3236224856386.6,55.63,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Pendapatan Daerah,5817530582592.0,3691683796042.7,63.46,False,False
+DI Yogyakarta,12,2023,11,November,11,Pendapatan Daerah,5817530582592.0,4278752203518.9,73.55,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Pendapatan Daerah,5817530582592.0,4609261603617.9,79.23,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Pendapatan Daerah,5918557456311.0,526564270368.09,8.9,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pendapatan Daerah,5918557456311.0,791070009826.87,13.37,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pendapatan Daerah,5918557456311.0,1306194716991.8,22.07,False,False
+DI Yogyakarta,12,2024,4,April,16,Pendapatan Daerah,5918557456311.0,1676491654365.2,28.33,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pendapatan Daerah,5918557456311.0,3080444464712.6,52.05,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pendapatan Daerah,5918557456311.0,3435731583011.1,58.05,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pendapatan Daerah,5918557456311.0,3809029978278.0,64.36,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pendapatan Daerah,5918557456311.0,4275222038902.0,72.23,False,False
+DI Yogyakarta,12,2024,9,September,21,Pendapatan Daerah,5918557456311.0,4597225119130.5,77.67,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Pendapatan Daerah,5918557456311.0,5070472651218.1,85.67,False,False
+DI Yogyakarta,12,2024,11,November,23,Pendapatan Daerah,5918557456311.0,5671712854958.3,95.83,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Pendapatan Daerah,5918557456311.0,6025070171261.1,101.8,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Pendapatan Daerah,5025509838565.0,320117526291.25,6.37,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pendapatan Daerah,5025509838565.0,546511453716.42,10.87,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pendapatan Daerah,5025509838565.0,1011959618331.3,20.14,False,False
+DI Yogyakarta,12,2025,4,April,28,Pendapatan Daerah,5025509838565.0,1376479791269.9,27.39,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pendapatan Daerah,5025509838565.0,1591685933815.6,31.67,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pendapatan Daerah,5025509838565.0,2737445731033.9,54.47,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Pendapatan Daerah,5025509838565.0,2510227722268.6,49.95,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Pendapatan Daerah,5025509838565.0,3078287766341.3,61.25,False,False
+DI Yogyakarta,12,2025,9,September,33,Pendapatan Daerah,5025509838565.0,3030706871286.6,60.31,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Pendapatan Daerah,5025509838565.0,3049067726696.2,60.67,False,False
+DI Yogyakarta,12,2025,11,November,35,Pendapatan Daerah,5025509838565.0,3482167781839.7,69.29,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Pendapatan Daerah,5025509838565.0,4869455573824.6,96.89,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Pendapatan Daerah,5060337241049.0,446982925844.97,8.83,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pendapatan Daerah,5060337241049.0,818160922192.28,16.17,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pendapatan Daerah,5060337241049.0,1198217555927.2,23.68,False,False
+DI Yogyakarta,12,2026,4,April,40,Pendapatan Daerah,5060337241049.0,1530720196158.4,30.25,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pendapatan Daerah,5060337241049.0,1756572521078.1,34.71,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pendapatan Daerah,5060337241049.0,2652632197381.9,52.42,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pendapatan Daerah,5060337241049.0,2850034235132.9,56.32,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Pendapatan Daerah,5060337241049.0,2975919345756.9,58.81,False,False
+DI Yogyakarta,12,2026,9,September,45,Pendapatan Daerah,5060337241049.0,2984531698856.9,58.98,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Pendapatan Daerah,5060337241049.0,2984531698856.9,58.98,False,True
+DI Yogyakarta,12,2026,11,November,47,Pendapatan Daerah,5060337241049.0,2984531698856.9,58.98,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pendapatan Daerah,5060337241049.0,2984531698856.9,58.98,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pendapatan Hibah,7605500000.0,369010000.0,4.85,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pendapatan Hibah,7605500000.0,704390000.0,9.26,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pendapatan Hibah,7605500000.0,1059480000.0,13.93,False,False
+DI Yogyakarta,12,2023,4,April,4,Pendapatan Hibah,7605500000.0,1318230000.0,17.33,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Pendapatan Hibah,7605500000.0,1318230000.0,17.33,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Pendapatan Hibah,7605500000.0,1636705000.0,21.52,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Pendapatan Hibah,7605500000.0,3019620000.0,39.7,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Pendapatan Hibah,7605500000.0,4352395000.0,57.23,False,False
+DI Yogyakarta,12,2023,9,September,9,Pendapatan Hibah,7605500000.0,5668075000.0,74.53,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Pendapatan Hibah,7605500000.0,6001715000.0,78.91,False,False
+DI Yogyakarta,12,2023,11,November,11,Pendapatan Hibah,7605500000.0,6993805000.0,91.96,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Pendapatan Hibah,7605500000.0,7617980000.0,100.16,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Pendapatan Hibah,7856240000.0,367670000.0,4.68,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pendapatan Hibah,7856240000.0,645920000.0,8.22,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pendapatan Hibah,7856240000.0,950490000.0,12.1,False,False
+DI Yogyakarta,12,2024,4,April,16,Pendapatan Hibah,7856240000.0,1215320000.0,15.47,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pendapatan Hibah,7856240000.0,1530865000.0,19.49,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pendapatan Hibah,7856240000.0,1825665000.0,23.24,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pendapatan Hibah,7856240000.0,2139575000.0,27.23,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pendapatan Hibah,7856240000.0,4597640000.0,58.52,False,False
+DI Yogyakarta,12,2024,9,September,21,Pendapatan Hibah,7856240000.0,5267420000.0,67.05,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Pendapatan Hibah,7856240000.0,6254568000.0,79.61,False,False
+DI Yogyakarta,12,2024,11,November,23,Pendapatan Hibah,7856240000.0,6904388000.0,87.88,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Pendapatan Hibah,7856240000.0,8084153000.0,102.9,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Pendapatan Hibah,7605500000.0,174925000.0,2.3,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pendapatan Hibah,7605500000.0,389015000.0,5.11,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pendapatan Hibah,7605500000.0,636105000.0,8.36,False,False
+DI Yogyakarta,12,2025,4,April,28,Pendapatan Hibah,7605500000.0,847653000.0,11.15,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pendapatan Hibah,7605500000.0,1096978000.0,14.42,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pendapatan Hibah,7605500000.0,1329823000.0,17.49,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Pendapatan Hibah,7605500000.0,1384523000.0,18.2,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Pendapatan Hibah,7605500000.0,4366696000.0,57.41,False,False
+DI Yogyakarta,12,2025,9,September,33,Pendapatan Hibah,7605500000.0,2146987000.0,28.23,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Pendapatan Hibah,7605500000.0,2534816000.0,33.33,False,False
+DI Yogyakarta,12,2025,11,November,35,Pendapatan Hibah,7605500000.0,3163708000.0,41.6,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Pendapatan Hibah,7605500000.0,7303299000.0,96.03,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Pendapatan Hibah,7857248000.0,299115000.0,3.81,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pendapatan Hibah,7857248000.0,550985000.0,7.01,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pendapatan Hibah,7857248000.0,814255000.0,10.36,False,False
+DI Yogyakarta,12,2026,4,April,40,Pendapatan Hibah,7857248000.0,1166530000.0,14.85,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pendapatan Hibah,7857248000.0,1481760000.0,18.86,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pendapatan Hibah,7857248000.0,1853050000.0,23.58,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pendapatan Hibah,7857248000.0,2188910000.0,27.86,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Pendapatan Hibah,7857248000.0,2452050000.0,31.21,False,False
+DI Yogyakarta,12,2026,9,September,45,Pendapatan Hibah,7857248000.0,2452050000.0,31.21,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Pendapatan Hibah,7857248000.0,2452050000.0,31.21,False,True
+DI Yogyakarta,12,2026,11,November,47,Pendapatan Hibah,7857248000.0,2452050000.0,31.21,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pendapatan Hibah,7857248000.0,2452050000.0,31.21,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pendapatan Lainnya,8441406420.0,369639000.0,4.38,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pendapatan Lainnya,8441406420.0,705019000.0,8.35,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pendapatan Lainnya,8441406420.0,1896015420.0,22.46,False,False
+DI Yogyakarta,12,2023,4,April,4,Pendapatan Lainnya,8441406420.0,2154765420.0,25.53,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Pendapatan Lainnya,8441406420.0,2154765420.0,25.53,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Pendapatan Lainnya,8441406420.0,2473240420.0,29.3,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Pendapatan Lainnya,8441406420.0,3856155420.0,45.68,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Pendapatan Lainnya,8441406420.0,5188930420.0,61.47,False,False
+DI Yogyakarta,12,2023,9,September,9,Pendapatan Lainnya,8441406420.0,6504610420.0,77.06,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Pendapatan Lainnya,8441406420.0,6838250420.0,81.01,False,False
+DI Yogyakarta,12,2023,11,November,11,Pendapatan Lainnya,8441406420.0,7834739436.0,92.81,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Pendapatan Lainnya,8441406420.0,8458914436.0,100.21,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Pendapatan Lainnya,8840045230.0,367670000.0,4.16,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pendapatan Lainnya,8840045230.0,645920000.0,7.31,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pendapatan Lainnya,8840045230.0,1095115610.0,12.39,False,False
+DI Yogyakarta,12,2024,4,April,16,Pendapatan Lainnya,8840045230.0,1359945610.0,15.38,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pendapatan Lainnya,8840045230.0,2394323200.0,27.08,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pendapatan Lainnya,8840045230.0,2664844620.0,30.15,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pendapatan Lainnya,8840045230.0,3123380230.0,35.33,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pendapatan Lainnya,8840045230.0,5581445230.0,63.14,False,False
+DI Yogyakarta,12,2024,9,September,21,Pendapatan Lainnya,8840045230.0,6251225230.0,70.71,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Pendapatan Lainnya,8840045230.0,7238373230.0,81.88,False,False
+DI Yogyakarta,12,2024,11,November,23,Pendapatan Lainnya,8840045230.0,7888193230.0,89.23,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Pendapatan Lainnya,8840045230.0,9067958230.0,102.58,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Pendapatan Lainnya,8586426631.0,174925000.0,2.04,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pendapatan Lainnya,8586426631.0,389015000.0,4.53,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pendapatan Lainnya,8586426631.0,776822534.0,9.05,False,False
+DI Yogyakarta,12,2025,4,April,28,Pendapatan Lainnya,8586426631.0,988370534.0,11.51,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pendapatan Lainnya,8586426631.0,2077904631.0,24.2,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pendapatan Lainnya,8586426631.0,2310749631.0,26.91,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Pendapatan Lainnya,8586426631.0,2365449631.0,27.55,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Pendapatan Lainnya,8586426631.0,5347622631.0,62.28,False,False
+DI Yogyakarta,12,2025,9,September,33,Pendapatan Lainnya,8586426631.0,3127913631.0,36.43,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Pendapatan Lainnya,8586426631.0,3515742631.0,40.95,False,False
+DI Yogyakarta,12,2025,11,November,35,Pendapatan Lainnya,8586426631.0,4144634631.0,48.27,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Pendapatan Lainnya,8586426631.0,8284225631.0,96.48,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Pendapatan Lainnya,21916554663.0,3600712000.0,16.43,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pendapatan Lainnya,21916554663.0,5252582000.0,23.97,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pendapatan Lainnya,21916554663.0,11415852000.0,52.09,False,False
+DI Yogyakarta,12,2026,4,April,40,Pendapatan Lainnya,21916554663.0,11900108548.0,54.3,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pendapatan Lainnya,21916554663.0,12215338548.0,55.74,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pendapatan Lainnya,21916554663.0,15911434376.0,72.6,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pendapatan Lainnya,21916554663.0,16247294376.0,74.13,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Pendapatan Lainnya,21916554663.0,16510434376.0,75.33,False,False
+DI Yogyakarta,12,2026,9,September,45,Pendapatan Lainnya,21916554663.0,16510434376.0,75.33,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Pendapatan Lainnya,21916554663.0,16510434376.0,75.33,False,True
+DI Yogyakarta,12,2026,11,November,47,Pendapatan Lainnya,21916554663.0,16510434376.0,75.33,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pendapatan Lainnya,21916554663.0,16510434376.0,75.33,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pendapatan Transfer Antar Daerah,835906420.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pendapatan Transfer Antar Daerah,835906420.0,0.0,0.0,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,False
+DI Yogyakarta,12,2023,4,April,4,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,5,Mei,5,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,6,Juni,6,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,7,Juli,7,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,8,Agustus,8,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,9,September,9,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,10,Oktober,10,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,11,November,11,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2023,12,Desember,12,Pendapatan Transfer Antar Daerah,835906420.0,835906420.0,100.0,False,True
+DI Yogyakarta,12,2024,1,Januari,13,Pendapatan Transfer Antar Daerah,983805230.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pendapatan Transfer Antar Daerah,983805230.0,0.0,0.0,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pendapatan Transfer Antar Daerah,983805230.0,144625610.0,14.7,False,False
+DI Yogyakarta,12,2024,4,April,16,Pendapatan Transfer Antar Daerah,983805230.0,144625610.0,14.7,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pendapatan Transfer Antar Daerah,983805230.0,863458200.0,87.77,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pendapatan Transfer Antar Daerah,983805230.0,839179620.0,85.3,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,True
+DI Yogyakarta,12,2024,9,September,21,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,True
+DI Yogyakarta,12,2024,10,Oktober,22,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,True
+DI Yogyakarta,12,2024,11,November,23,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,True
+DI Yogyakarta,12,2024,12,Desember,24,Pendapatan Transfer Antar Daerah,983805230.0,983805230.0,100.0,False,True
+DI Yogyakarta,12,2025,1,Januari,25,Pendapatan Transfer Antar Daerah,980926631.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pendapatan Transfer Antar Daerah,980926631.0,0.0,0.0,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pendapatan Transfer Antar Daerah,980926631.0,140717534.0,14.35,False,False
+DI Yogyakarta,12,2025,4,April,28,Pendapatan Transfer Antar Daerah,980926631.0,140717534.0,14.35,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,7,Juli,31,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,8,Agustus,32,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,9,September,33,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,10,Oktober,34,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,11,November,35,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2025,12,Desember,36,Pendapatan Transfer Antar Daerah,980926631.0,980926631.0,100.0,False,True
+DI Yogyakarta,12,2026,1,Januari,37,Pendapatan Transfer Antar Daerah,14059306663.0,3301597000.0,23.48,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pendapatan Transfer Antar Daerah,14059306663.0,4701597000.0,33.44,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pendapatan Transfer Antar Daerah,14059306663.0,10601597000.0,75.41,False,False
+DI Yogyakarta,12,2026,4,April,40,Pendapatan Transfer Antar Daerah,14059306663.0,10733578548.0,76.35,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pendapatan Transfer Antar Daerah,14059306663.0,10733578548.0,76.35,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2026,8,Agustus,44,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2026,9,September,45,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2026,11,November,47,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pendapatan Transfer Antar Daerah,14059306663.0,14058384376.0,99.99,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,201017597000.0,5.8,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,313572520000.0,9.05,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,712072072914.0,20.54,False,False
+DI Yogyakarta,12,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,893203846177.0,25.77,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,893203846177.0,25.77,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,929301483577.0,26.81,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,1322568505702.0,38.16,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,1448390533302.0,41.79,False,False
+DI Yogyakarta,12,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,1630827294031.0,47.05,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,1858318647674.0,53.62,False,False
+DI Yogyakarta,12,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,2280959201999.0,65.81,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,3465974195167.0,2395253801153.0,69.11,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,343444441800.0,9.66,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,453381985800.0,12.75,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,693869396836.0,19.51,False,False
+DI Yogyakarta,12,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,801420615586.0,22.54,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,2033795000428.0,57.2,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,2233721449013.0,62.82,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,2374890751621.0,66.79,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,2633345689294.0,74.06,False,False
+DI Yogyakarta,12,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,2778682873452.0,78.15,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,3015502872289.0,84.81,False,False
+DI Yogyakarta,12,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,3449203401927.0,97.0,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,3555734990013.0,3534495647472.0,99.4,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,200813400000.0,6.07,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,321078309337.0,9.7,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,547619252703.0,16.55,False,False
+DI Yogyakarta,12,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,688421962953.0,20.81,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,790459529331.0,23.89,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,1829050573196.0,55.28,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,1581270721681.0,47.79,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,1857433452525.0,56.14,False,False
+DI Yogyakarta,12,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,1944777239901.0,58.78,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,1944777239901.0,58.78,False,False
+DI Yogyakarta,12,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,2261552769501.0,68.35,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,3308682436000.0,3021318735530.0,91.31,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,319905703600.0,9.9,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,451846011200.0,13.98,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,717713503640.0,22.2,False,False
+DI Yogyakarta,12,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,836732868948.0,25.88,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,948520558448.0,29.34,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1719115725648.0,53.18,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1719115725648.0,53.18,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1735536522448.0,53.69,False,False
+DI Yogyakarta,12,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2023,1,Januari,1,Retribusi Daerah,33564359756.0,2350218430.0,7.0,False,False
+DI Yogyakarta,12,2023,2,Februari,2,Retribusi Daerah,33564359756.0,4161845242.0,12.4,False,False
+DI Yogyakarta,12,2023,3,Maret,3,Retribusi Daerah,33564359756.0,8427057081.0,25.11,False,False
+DI Yogyakarta,12,2023,4,April,4,Retribusi Daerah,33564359756.0,10326183854.0,30.77,False,False
+DI Yogyakarta,12,2023,5,Mei,5,Retribusi Daerah,33564359756.0,10326183854.0,30.77,False,False
+DI Yogyakarta,12,2023,6,Juni,6,Retribusi Daerah,33564359756.0,13766050036.0,41.01,False,False
+DI Yogyakarta,12,2023,7,Juli,7,Retribusi Daerah,33564359756.0,16737199238.0,49.87,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,Retribusi Daerah,33564359756.0,19707415047.0,58.72,False,False
+DI Yogyakarta,12,2023,9,September,9,Retribusi Daerah,33564359756.0,22672630145.0,67.55,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,Retribusi Daerah,33564359756.0,24958586211.0,74.36,False,False
+DI Yogyakarta,12,2023,11,November,11,Retribusi Daerah,33564359756.0,27361566445.0,81.52,False,False
+DI Yogyakarta,12,2023,12,Desember,12,Retribusi Daerah,33564359756.0,30079471352.0,89.62,False,False
+DI Yogyakarta,12,2024,1,Januari,13,Retribusi Daerah,73205530203.0,6159270535.0,8.41,False,False
+DI Yogyakarta,12,2024,2,Februari,14,Retribusi Daerah,73205530203.0,11496451505.0,15.7,False,False
+DI Yogyakarta,12,2024,3,Maret,15,Retribusi Daerah,73205530203.0,16633608427.0,22.72,False,False
+DI Yogyakarta,12,2024,4,April,16,Retribusi Daerah,73205530203.0,22919318571.0,31.31,False,False
+DI Yogyakarta,12,2024,5,Mei,17,Retribusi Daerah,73205530203.0,30000611912.0,40.98,False,False
+DI Yogyakarta,12,2024,6,Juni,18,Retribusi Daerah,73205530203.0,35900852452.0,49.04,False,False
+DI Yogyakarta,12,2024,7,Juli,19,Retribusi Daerah,73205530203.0,42717985689.0,58.35,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,Retribusi Daerah,73205530203.0,50300335802.0,68.71,False,False
+DI Yogyakarta,12,2024,9,September,21,Retribusi Daerah,73205530203.0,57627547957.0,78.72,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,Retribusi Daerah,73205530203.0,64544118155.0,88.17,False,False
+DI Yogyakarta,12,2024,11,November,23,Retribusi Daerah,73205530203.0,71117123970.0,97.15,False,False
+DI Yogyakarta,12,2024,12,Desember,24,Retribusi Daerah,73205530203.0,79460801542.0,108.54,False,False
+DI Yogyakarta,12,2025,1,Januari,25,Retribusi Daerah,67968998020.0,5761937078.0,8.48,False,False
+DI Yogyakarta,12,2025,2,Februari,26,Retribusi Daerah,67968998020.0,10948347903.0,16.11,False,False
+DI Yogyakarta,12,2025,3,Maret,27,Retribusi Daerah,67968998020.0,16368368966.0,24.08,False,False
+DI Yogyakarta,12,2025,4,April,28,Retribusi Daerah,67968998020.0,22228630785.0,32.7,False,False
+DI Yogyakarta,12,2025,5,Mei,29,Retribusi Daerah,67968998020.0,28549881014.0,42.0,False,False
+DI Yogyakarta,12,2025,6,Juni,30,Retribusi Daerah,67968998020.0,34710014556.0,51.07,False,False
+DI Yogyakarta,12,2025,7,Juli,31,Retribusi Daerah,67968998020.0,35397362962.0,52.08,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,Retribusi Daerah,67968998020.0,48810993486.0,71.81,False,False
+DI Yogyakarta,12,2025,9,September,33,Retribusi Daerah,67968998020.0,45326284261.0,66.69,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,Retribusi Daerah,67968998020.0,46937659388.0,69.06,False,False
+DI Yogyakarta,12,2025,11,November,35,Retribusi Daerah,67968998020.0,54557754457.0,80.27,False,False
+DI Yogyakarta,12,2025,12,Desember,36,Retribusi Daerah,67968998020.0,79027424602.85,116.27,False,False
+DI Yogyakarta,12,2026,1,Januari,37,Retribusi Daerah,76035750475.0,5749252980.57,7.56,False,False
+DI Yogyakarta,12,2026,2,Februari,38,Retribusi Daerah,76035750475.0,10809537512.72,14.22,False,False
+DI Yogyakarta,12,2026,3,Maret,39,Retribusi Daerah,76035750475.0,16775863113.48,22.06,False,False
+DI Yogyakarta,12,2026,4,April,40,Retribusi Daerah,76035750475.0,23846883337.15,31.36,False,False
+DI Yogyakarta,12,2026,5,Mei,41,Retribusi Daerah,76035750475.0,30931463107.56,40.68,False,False
+DI Yogyakarta,12,2026,6,Juni,42,Retribusi Daerah,76035750475.0,37993355431.35,49.97,False,False
+DI Yogyakarta,12,2026,7,Juli,43,Retribusi Daerah,76035750475.0,41353165206.35,54.39,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,Retribusi Daerah,76035750475.0,42996027365.35,56.55,False,False
+DI Yogyakarta,12,2026,9,September,45,Retribusi Daerah,76035750475.0,43103123365.35,56.69,False,False
+DI Yogyakarta,12,2026,10,Oktober,46,Retribusi Daerah,76035750475.0,43103123365.35,56.69,False,True
+DI Yogyakarta,12,2026,11,November,47,Retribusi Daerah,76035750475.0,43103123365.35,56.69,False,True
+DI Yogyakarta,12,2026,12,Desember,48,Retribusi Daerah,76035750475.0,43103123365.35,56.69,False,True
+DI Yogyakarta,12,2023,1,Januari,1,TKDD,3465974195167.0,201017597000.0,5.8,False,False
+DI Yogyakarta,12,2023,2,Februari,2,TKDD,3465974195167.0,313572520000.0,9.05,False,False
+DI Yogyakarta,12,2023,3,Maret,3,TKDD,3465974195167.0,712072072914.0,20.54,False,False
+DI Yogyakarta,12,2023,4,April,4,TKDD,3465974195167.0,893203846177.0,25.77,False,False
+DI Yogyakarta,12,2023,5,Mei,5,TKDD,3465974195167.0,893203846177.0,25.77,False,False
+DI Yogyakarta,12,2023,6,Juni,6,TKDD,3465974195167.0,929301483577.0,26.81,False,False
+DI Yogyakarta,12,2023,7,Juli,7,TKDD,3465974195167.0,1322568505702.0,38.16,False,False
+DI Yogyakarta,12,2023,8,Agustus,8,TKDD,3465974195167.0,1448390533302.0,41.79,False,False
+DI Yogyakarta,12,2023,9,September,9,TKDD,3465974195167.0,1630827294031.0,47.05,False,False
+DI Yogyakarta,12,2023,10,Oktober,10,TKDD,3465974195167.0,1858318647674.0,53.62,False,False
+DI Yogyakarta,12,2023,11,November,11,TKDD,3465974195167.0,2280959201999.0,65.81,False,False
+DI Yogyakarta,12,2023,12,Desember,12,TKDD,3465974195167.0,2395253801153.0,69.11,False,False
+DI Yogyakarta,12,2024,1,Januari,13,TKDD,3555734990013.0,343444441800.0,9.66,False,False
+DI Yogyakarta,12,2024,2,Februari,14,TKDD,3555734990013.0,453381985800.0,12.75,False,False
+DI Yogyakarta,12,2024,3,Maret,15,TKDD,3555734990013.0,693869396836.0,19.51,False,False
+DI Yogyakarta,12,2024,4,April,16,TKDD,3555734990013.0,801420615586.0,22.54,False,False
+DI Yogyakarta,12,2024,5,Mei,17,TKDD,3555734990013.0,2033795000428.0,57.2,False,False
+DI Yogyakarta,12,2024,6,Juni,18,TKDD,3555734990013.0,2233721449013.0,62.82,False,False
+DI Yogyakarta,12,2024,7,Juli,19,TKDD,3555734990013.0,2374890751621.0,66.79,False,False
+DI Yogyakarta,12,2024,8,Agustus,20,TKDD,3555734990013.0,2633345689294.0,74.06,False,False
+DI Yogyakarta,12,2024,9,September,21,TKDD,3555734990013.0,2778682873452.0,78.15,False,False
+DI Yogyakarta,12,2024,10,Oktober,22,TKDD,3555734990013.0,3015502872289.0,84.81,False,False
+DI Yogyakarta,12,2024,11,November,23,TKDD,3555734990013.0,3449203401927.0,97.0,False,False
+DI Yogyakarta,12,2024,12,Desember,24,TKDD,3555734990013.0,3534495647472.0,99.4,False,False
+DI Yogyakarta,12,2025,1,Januari,25,TKDD,3308682436000.0,200813400000.0,6.07,False,False
+DI Yogyakarta,12,2025,2,Februari,26,TKDD,3308682436000.0,321078309337.0,9.7,False,False
+DI Yogyakarta,12,2025,3,Maret,27,TKDD,3308682436000.0,547619252703.0,16.55,False,False
+DI Yogyakarta,12,2025,4,April,28,TKDD,3308682436000.0,688421962953.0,20.81,False,False
+DI Yogyakarta,12,2025,5,Mei,29,TKDD,3308682436000.0,790459529331.0,23.89,False,False
+DI Yogyakarta,12,2025,6,Juni,30,TKDD,3308682436000.0,1829050573196.0,55.28,False,False
+DI Yogyakarta,12,2025,7,Juli,31,TKDD,3308682436000.0,1581270721681.0,47.79,False,False
+DI Yogyakarta,12,2025,8,Agustus,32,TKDD,3308682436000.0,1857433452525.0,56.14,False,False
+DI Yogyakarta,12,2025,9,September,33,TKDD,3308682436000.0,1944777239901.0,58.78,False,False
+DI Yogyakarta,12,2025,10,Oktober,34,TKDD,3308682436000.0,1944777239901.0,58.78,False,False
+DI Yogyakarta,12,2025,11,November,35,TKDD,3308682436000.0,2261552769501.0,68.35,False,False
+DI Yogyakarta,12,2025,12,Desember,36,TKDD,3308682436000.0,3021318735530.0,91.31,False,False
+DI Yogyakarta,12,2026,1,Januari,37,TKDD,3232571864000.0,319905703600.0,9.9,False,False
+DI Yogyakarta,12,2026,2,Februari,38,TKDD,3232571864000.0,451846011200.0,13.98,False,False
+DI Yogyakarta,12,2026,3,Maret,39,TKDD,3232571864000.0,717713503640.0,22.2,False,False
+DI Yogyakarta,12,2026,4,April,40,TKDD,3232571864000.0,836732868948.0,25.88,False,False
+DI Yogyakarta,12,2026,5,Mei,41,TKDD,3232571864000.0,948520558448.0,29.34,False,False
+DI Yogyakarta,12,2026,6,Juni,42,TKDD,3232571864000.0,1719115725648.0,53.18,False,False
+DI Yogyakarta,12,2026,7,Juli,43,TKDD,3232571864000.0,1719115725648.0,53.18,False,False
+DI Yogyakarta,12,2026,8,Agustus,44,TKDD,3232571864000.0,1735536522448.0,53.69,False,False
+DI Yogyakarta,12,2026,9,September,45,TKDD,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,10,Oktober,46,TKDD,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,11,November,47,TKDD,3232571864000.0,1735536522448.0,53.69,False,True
+DI Yogyakarta,12,2026,12,Desember,48,TKDD,3232571864000.0,1735536522448.0,53.69,False,True

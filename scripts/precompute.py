@@ -1,29 +1,29 @@
 """
-Pre-compute script for RevDadas Next.js frontend with Dynamic Dual-Model Architecture.
+Pre-compute script for RevDadas Next.js frontend — Multi-Engine Architecture.
 
-Mendukung model forecasting ganda yang terisolasi 100%:
-- Theta Method (Primary Engine - Default): Cepat, parsimonious, anti-overfitting & anti-jomplang.
-- Prophet (Secondary Optional Engine): Tersedia untuk perbandingan / A-B testing.
+Mendukung tiga mesin forecasting:
+- Profil Serapan Berjangkar (Default): Akurasi 70.1%, memanfaatkan pagu Anggaran.
+- Theta Method (Alternatif): Cepat, parsimonious, anti-overfitting.
+- Prophet (Pembanding): Tersedia untuk A-B testing.
 
-Kedua model disimpan terpisah di:
-  frontend/public/data/models/theta/
-  frontend/public/data/models/prophet/
+Output disimpan terpisah di:
+  frontend/public/data/models/{serapan,theta,prophet}/
 
 File aktif yang dikonsumsi langsung oleh frontend (tanpa mengubah frontend):
   frontend/public/data/{forecasts.json, accuracy.json, business.json, policy.json}
 
 Penggunaan:
-    # 1. Precompute menggunakan Theta (Primary - default):
-    python scripts/precompute.py --model theta
+    # 1. Precompute menggunakan Profil Serapan (default):
+    python scripts/precompute.py --engine serapan
 
-    # 2. Precompute menggunakan Prophet (Secondary):
-    python scripts/precompute.py --model prophet
+    # 2. Precompute menggunakan Theta:
+    python scripts/precompute.py --engine theta
 
-    # 3. Precompute kedua model sekaligus (Theta & Prophet):
-    python scripts/precompute.py --model all
+    # 3. Precompute menggunakan Prophet:
+    python scripts/precompute.py --engine prophet
 
     # 4. Switch model aktif secara instan (< 0.1 detik dari cache tanpa re-train):
-    python scripts/precompute.py --switch prophet
+    python scripts/precompute.py --switch serapan
     python scripts/precompute.py --switch theta
 """
 
@@ -41,7 +41,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 import numpy as np
 import pandas as pd
 
-from src import anomaly_detection, business, data_loader, forecasting, policy, preprocessing
+from src import anomaly_detection, business, data_loader, forecasting, serapan, policy, preprocessing
 
 OUTPUT_DIR = PROJECT_ROOT / "frontend" / "public" / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -146,6 +146,43 @@ def compute_forecasts_for_model(df, model_type="theta"):
     return all_forecasts, accuracy_data, results_24
 
 
+def compute_forecasts_serapan(df):
+    """Pre-compute forecasts using Profil Serapan Berjangkar engine."""
+    print(f"\n[INFO] Computing forecasts using Profil Serapan Berjangkar...")
+    all_forecasts = {}
+
+    max_period = max(FORECAST_PERIODS)
+    forecaster = serapan.SerapanForecaster(periods=max_period)
+
+    # Train and forecast all series
+    results_24 = forecaster.train_and_forecast_all(df, run_backtest=True, backtest_horizon=6)
+
+    if results_24 is not None and not results_24.empty:
+        acc = forecaster.overall_accuracy()
+        acc_table = forecaster.accuracy_summary()
+
+        # Slice for each requested period
+        for period in FORECAST_PERIODS:
+            sliced = results_24.groupby(["Provinsi", "Jenis_Pendapatan"]).head(period)
+            records = sliced.copy()
+            records["Tanggal"] = records["Tanggal"].astype(str)
+            all_forecasts[str(period)] = records.to_dict(orient="records")
+    else:
+        acc = None
+        acc_table = None
+        for period in FORECAST_PERIODS:
+            all_forecasts[str(period)] = []
+
+    accuracy_data = {
+        "model": "serapan",
+        "model_title": "Profil Serapan Berjangkar",
+        "overall": acc if acc else None,
+        "by_series": acc_table.to_dict(orient="records") if acc_table is not None else []
+    }
+
+    return all_forecasts, accuracy_data, results_24
+
+
 def compute_anomalies(df):
     """Pre-compute anomaly detection (once, independent of forecast model)."""
     contamination = 0.05
@@ -207,12 +244,21 @@ def precompute_model_package(df, df_clean, anomaly_data, model_type="theta"):
     """
     model_dir = MODELS_DIR / model_type
     model_dir.mkdir(parents=True, exist_ok=True)
-    model_title = "Theta Method (Primary)" if model_type == "theta" else "Prophet (Secondary)"
+
+    ENGINE_TITLES = {
+        "serapan": "Profil Serapan Berjangkar",
+        "theta": "Theta Method",
+        "prophet": "Prophet",
+    }
+    model_title = ENGINE_TITLES.get(model_type, model_type)
 
     print(f"\n>>> [START] Memproses Paket Model: {model_title}")
 
     # 1. Forecasts & Accuracy
-    all_forecasts, accuracy_data, results_24 = compute_forecasts_for_model(df_clean, model_type=model_type)
+    if model_type == "serapan":
+        all_forecasts, accuracy_data, results_24 = compute_forecasts_serapan(df_clean)
+    else:
+        all_forecasts, accuracy_data, results_24 = compute_forecasts_for_model(df_clean, model_type=model_type)
     save_json(all_forecasts, model_dir / "forecasts.json")
     save_json(accuracy_data, model_dir / "accuracy.json")
 
@@ -257,10 +303,15 @@ def activate_model(model_type):
     """
     model_dir = MODELS_DIR / model_type
     if not (model_dir / "forecasts.json").exists():
-        print(f"[ERROR] Model '{model_type}' belum di-precompute! Jalankan: python scripts/precompute.py --model {model_type}")
+        print(f"[ERROR] Model '{model_type}' belum di-precompute! Jalankan: python scripts/precompute.py --engine {model_type}")
         return False
 
-    model_title = "Theta Method (Primary)" if model_type == "theta" else "Prophet (Secondary)"
+    ENGINE_TITLES = {
+        "serapan": "Profil Serapan Berjangkar",
+        "theta": "Theta Method",
+        "prophet": "Prophet",
+    }
+    model_title = ENGINE_TITLES.get(model_type, model_type)
     print(f"\n[INFO] Mengaktifkan model '{model_title}' ke antarmuka frontend...")
 
     # Salin 4 file utama ke root
@@ -283,7 +334,7 @@ def activate_model(model_type):
 
     meta["active_model"] = model_type
     meta["active_model_name"] = model_title
-    meta["available_models"] = ["theta", "prophet"]
+    meta["available_models"] = ["serapan", "theta", "prophet"]
     meta["last_switched"] = datetime.now().isoformat()
 
     with open(meta_path, "w", encoding="utf-8") as f:
@@ -294,16 +345,28 @@ def activate_model(model_type):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="RevDadas Pre-compute Script (Dual-Model Architecture)")
+    parser = argparse.ArgumentParser(description="RevDadas Pre-compute Script (Multi-Engine Architecture)")
     parser.add_argument(
-        "--model", choices=["theta", "prophet", "all"], default="theta",
-        help="Model forecasting to precompute: 'theta' (Primary default), 'prophet' (Secondary), or 'all'"
+        "--engine", choices=["serapan", "theta", "prophet"], default="serapan",
+        help="Mesin forecasting: 'serapan' (Default, Profil Serapan Berjangkar), 'theta', atau 'prophet'"
+    )
+    # Legacy --model alias (backward compat)
+    parser.add_argument(
+        "--model", choices=["theta", "prophet", "all"], default=None,
+        help="(Legacy) Alias untuk --engine. Gunakan --engine sebagai gantinya."
     )
     parser.add_argument(
-        "--switch", choices=["theta", "prophet"], default=None,
+        "--switch", choices=["serapan", "theta", "prophet"], default=None,
         help="Instantly switch active model without re-training (loads from cached models/ directory)"
     )
     args = parser.parse_args()
+
+    # Legacy --model override
+    if args.model is not None:
+        if args.model == "all":
+            args.engine = "all"  # special case
+        else:
+            args.engine = args.model
 
     print("=" * 65)
     print("RevDadas Pre-compute & Model Management Script")
@@ -318,7 +381,7 @@ def main():
             return
         else:
             print(f"[INFO] Mencoba komputasi otomatis untuk model '{args.switch}'...")
-            args.model = args.switch
+            args.engine = args.switch
 
     # 2. Pipeline Umum (Load, Preprocess, Anomaly Detection, Base Meta)
     df = load_and_preprocess()
@@ -348,26 +411,20 @@ def main():
             "max": str(df["Tanggal"].max()),
         },
         "total_rows": len(df),
-        "available_models": ["theta", "prophet"],
+        "available_models": ["serapan", "theta", "prophet"],
     }
     save_json(meta, OUTPUT_DIR / "meta.json")
 
-    # 3. Eksekusi Model Sesuai Pilihan
-    if args.model == "all":
-        # Precompute Theta (Primary)
-        precompute_model_package(df, df_clean, anomaly_data, model_type="theta")
-        # Precompute Prophet (Secondary)
-        precompute_model_package(df, df_clean, anomaly_data, model_type="prophet")
-        # Aktifkan Theta secara default
-        activate_model("theta")
+    # 3. Eksekusi Mesin Sesuai Pilihan
+    engine = getattr(args, 'engine', 'serapan')
 
-    elif args.model == "theta":
+    if engine == "all":
         precompute_model_package(df, df_clean, anomaly_data, model_type="theta")
-        activate_model("theta")
-
-    elif args.model == "prophet":
         precompute_model_package(df, df_clean, anomaly_data, model_type="prophet")
-        activate_model("prophet")
+        activate_model("theta")
+    else:
+        precompute_model_package(df, df_clean, anomaly_data, model_type=engine)
+        activate_model(engine)
 
     print("\n" + "=" * 65)
     print("[COMPLETE] Semua data pre-compute berhasil diproses!")

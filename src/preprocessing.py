@@ -139,20 +139,16 @@ class DataPreprocessor:
             'Total Pendapatan Daerah', 'Total Belanja Daerah', 'Pajak Daerah'
         ]
         
-        def impute_zeros(group):
-            if group.name[1] in CONTINUOUS_ACCOUNTS:
-                # Replace 0 with NaN temporarily
-                group['Realisasi'] = group['Realisasi'].replace(0.0, np.nan)
-                # Linear interpolation for missing months
-                group['Realisasi'] = group['Realisasi'].interpolate(method='linear')
-                # If any NaN remain at the edges, fill with median
-                if group['Realisasi'].isna().any():
-                    group['Realisasi'] = group['Realisasi'].fillna(group['Realisasi'].median())
-            return group
+        def impute_series(s):
+            s_clean = s.replace(0.0, np.nan).interpolate(method='linear')
+            if s_clean.isna().any():
+                s_clean = s_clean.fillna(s_clean.median())
+            return s_clean.fillna(0.0)
 
         logger.info("Imputing structural zeros for continuous accounts...")
-        # include_groups=False prevents the deprecation warning
-        df = df.groupby(['Provinsi', 'Jenis_Pendapatan'], group_keys=False).apply(impute_zeros)
+        mask = df['Jenis_Pendapatan'].isin(CONTINUOUS_ACCOUNTS)
+        if mask.any():
+            df.loc[mask, 'Realisasi'] = df[mask].groupby(['Provinsi', 'Jenis_Pendapatan'])['Realisasi'].transform(impute_series)
         
         logger.info(f"Data cleaning completed. Shape: {df.shape}")
         logger.info(f"Realisasi range: {df['Realisasi'].min():.0f} - {df['Realisasi'].max():.0f}")
@@ -195,35 +191,33 @@ class DataPreprocessor:
         df = df.copy()
         logger.info(f"Handling outliers using {method} method...")
         
-        def cap_group(group):
-            if len(group) < 5:
-                return group
+        def cap_series(s):
+            if len(s) < 5:
+                return s
             
             if method == 'iqr':
-                Q1 = group[column].quantile(0.25)
-                Q3 = group[column].quantile(0.75)
+                Q1 = s.quantile(0.25)
+                Q3 = s.quantile(0.75)
                 IQR = Q3 - Q1
                 lower_bound = Q1 - threshold * IQR
                 upper_bound = Q3 + threshold * IQR
             elif method == 'zscore':
-                mean = group[column].mean()
-                std = group[column].std()
+                mean = s.mean()
+                std = s.std()
                 lower_bound = mean - threshold * std
                 upper_bound = mean + threshold * std
             else:
-                return group
+                return s
 
             # Clip values (prevent negative revenue bounds)
             lower_bound = max(0, lower_bound)
-            group[column] = group[column].clip(lower=lower_bound, upper=upper_bound)
-            return group
+            return s.clip(lower=lower_bound, upper=upper_bound)
 
         # Apply capping per region and tax type to preserve natural scaling
         if 'Provinsi' in df.columns and 'Jenis_Pendapatan' in df.columns:
-            # Using include_groups=False parameter is required in modern pandas for apply on groupby
-            df = df.groupby(['Provinsi', 'Jenis_Pendapatan'], group_keys=False).apply(cap_group)
+            df[column] = df.groupby(['Provinsi', 'Jenis_Pendapatan'])[column].transform(cap_series)
         else:
-            df = cap_group(df)
+            df[column] = cap_series(df[column])
             
         return df
     

@@ -1,0 +1,985 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Bali,22,2023,1,Januari,1,Belanja Bantuan Keuangan,521974803508.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Bantuan Keuangan,521974803508.0,5449500000.0,1.04,False,False
+Bali,22,2023,3,Maret,3,Belanja Bantuan Keuangan,521974803508.0,12092600000.0,2.32,False,False
+Bali,22,2023,4,April,4,Belanja Bantuan Keuangan,521974803508.0,42109216000.0,8.07,False,False
+Bali,22,2023,5,Mei,5,Belanja Bantuan Keuangan,521974803508.0,42109216000.0,8.07,False,False
+Bali,22,2023,6,Juni,6,Belanja Bantuan Keuangan,521974803508.0,53111282080.0,10.18,False,False
+Bali,22,2023,7,Juli,7,Belanja Bantuan Keuangan,521974803508.0,84729569748.0,16.23,False,False
+Bali,22,2023,8,Agustus,8,Belanja Bantuan Keuangan,521974803508.0,133296744237.0,25.54,False,False
+Bali,22,2023,9,September,9,Belanja Bantuan Keuangan,521974803508.0,170862231987.0,32.73,False,False
+Bali,22,2023,10,Oktober,10,Belanja Bantuan Keuangan,521974803508.0,186078782767.0,35.65,False,False
+Bali,22,2023,11,November,11,Belanja Bantuan Keuangan,521974803508.0,237317179264.0,45.47,False,False
+Bali,22,2023,12,Desember,12,Belanja Bantuan Keuangan,521974803508.0,260458917446.0,49.9,False,False
+Bali,22,2024,1,Januari,13,Belanja Bantuan Keuangan,366931922273.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Belanja Bantuan Keuangan,366931922273.0,2789100000.0,0.76,False,False
+Bali,22,2024,3,Maret,15,Belanja Bantuan Keuangan,366931922273.0,11114100000.0,3.03,False,False
+Bali,22,2024,4,April,16,Belanja Bantuan Keuangan,366931922273.0,148899505785.0,40.58,False,False
+Bali,22,2024,5,Mei,17,Belanja Bantuan Keuangan,366931922273.0,213169495177.0,58.1,False,False
+Bali,22,2024,6,Juni,18,Belanja Bantuan Keuangan,366931922273.0,266641168754.0,72.67,False,False
+Bali,22,2024,7,Juli,19,Belanja Bantuan Keuangan,366931922273.0,281588465000.0,76.74,False,False
+Bali,22,2024,8,Agustus,20,Belanja Bantuan Keuangan,366931922273.0,309978808160.0,84.48,False,False
+Bali,22,2024,9,September,21,Belanja Bantuan Keuangan,366931922273.0,318252853036.0,86.73,False,False
+Bali,22,2024,10,Oktober,22,Belanja Bantuan Keuangan,366931922273.0,337019565600.0,91.85,False,False
+Bali,22,2024,11,November,23,Belanja Bantuan Keuangan,366931922273.0,309813713629.0,84.43,False,False
+Bali,22,2024,12,Desember,24,Belanja Bantuan Keuangan,366931922273.0,355860433998.0,96.98,False,False
+Bali,22,2025,1,Januari,25,Belanja Bantuan Keuangan,205265185944.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Belanja Bantuan Keuangan,205265185944.0,0.0,0.0,False,False
+Bali,22,2025,3,Maret,27,Belanja Bantuan Keuangan,205265185944.0,4164112080.0,2.03,False,False
+Bali,22,2025,4,April,28,Belanja Bantuan Keuangan,205265185944.0,19897441920.0,9.69,False,False
+Bali,22,2025,5,Mei,29,Belanja Bantuan Keuangan,205265185944.0,32102463600.0,15.64,False,False
+Bali,22,2025,6,Juni,30,Belanja Bantuan Keuangan,205265185944.0,48150340200.0,23.46,False,False
+Bali,22,2025,7,Juli,31,Belanja Bantuan Keuangan,205265185944.0,80846573520.0,39.39,False,False
+Bali,22,2025,8,Agustus,32,Belanja Bantuan Keuangan,205265185944.0,97424738960.0,47.46,False,False
+Bali,22,2025,9,September,33,Belanja Bantuan Keuangan,205265185944.0,119504152960.8,58.22,False,False
+Bali,22,2025,10,Oktober,34,Belanja Bantuan Keuangan,205265185944.0,152170871600.8,74.13,False,False
+Bali,22,2025,11,November,35,Belanja Bantuan Keuangan,205265185944.0,167264943676.8,81.49,False,False
+Bali,22,2025,12,Desember,36,Belanja Bantuan Keuangan,205265185944.0,280600433855.03,136.7,False,False
+Bali,22,2026,1,Januari,37,Belanja Bantuan Keuangan,408069478419.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Belanja Bantuan Keuangan,408069478419.0,3943384830.0,0.97,False,False
+Bali,22,2026,3,Maret,39,Belanja Bantuan Keuangan,408069478419.0,7391610910.0,1.81,False,False
+Bali,22,2026,4,April,40,Belanja Bantuan Keuangan,408069478419.0,35770495240.0,8.77,False,False
+Bali,22,2026,5,Mei,41,Belanja Bantuan Keuangan,408069478419.0,49082265080.0,12.03,False,False
+Bali,22,2026,6,Juni,42,Belanja Bantuan Keuangan,408069478419.0,65548461270.0,16.06,False,False
+Bali,22,2026,7,Juli,43,Belanja Bantuan Keuangan,408069478419.0,120335760944.0,29.49,False,False
+Bali,22,2026,8,Agustus,44,Belanja Bantuan Keuangan,408069478419.0,142600660458.0,34.95,False,False
+Bali,22,2026,9,September,45,Belanja Bantuan Keuangan,408069478419.0,149373099778.0,36.6,False,False
+Bali,22,2026,10,Oktober,46,Belanja Bantuan Keuangan,408069478419.0,149373099778.0,36.6,False,True
+Bali,22,2026,11,November,47,Belanja Bantuan Keuangan,408069478419.0,149373099778.0,36.6,False,True
+Bali,22,2026,12,Desember,48,Belanja Bantuan Keuangan,408069478419.0,149373099778.0,36.6,False,True
+Bali,22,2023,1,Januari,1,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,2,Februari,2,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,3,Maret,3,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,4,April,4,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,5,Mei,5,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,6,Juni,6,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,7,Juli,7,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,8,Agustus,8,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,9,September,9,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,10,Oktober,10,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,11,November,11,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2023,12,Desember,12,Belanja Bantuan Sosial,30721200000.0,0.0,0.0,True,False
+Bali,22,2024,1,Januari,13,Belanja Bantuan Sosial,250000000.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Belanja Bantuan Sosial,250000000.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Belanja Bantuan Sosial,250000000.0,0.0,0.0,False,False
+Bali,22,2024,4,April,16,Belanja Bantuan Sosial,250000000.0,0.0,0.0,False,False
+Bali,22,2024,5,Mei,17,Belanja Bantuan Sosial,250000000.0,0.0,0.0,False,False
+Bali,22,2024,6,Juni,18,Belanja Bantuan Sosial,250000000.0,150000000.0,60.0,False,False
+Bali,22,2024,7,Juli,19,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,False
+Bali,22,2024,8,Agustus,20,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,True
+Bali,22,2024,9,September,21,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,True
+Bali,22,2024,10,Oktober,22,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,True
+Bali,22,2024,11,November,23,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,True
+Bali,22,2024,12,Desember,24,Belanja Bantuan Sosial,250000000.0,250000000.0,100.0,False,True
+Bali,22,2025,1,Januari,25,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,3,Maret,27,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,4,April,28,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,5,Mei,29,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,6,Juni,30,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,7,Juli,31,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,8,Agustus,32,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,9,September,33,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,10,Oktober,34,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2025,11,November,35,Belanja Bantuan Sosial,150000000.0,111600000.0,74.4,False,False
+Bali,22,2025,12,Desember,36,Belanja Bantuan Sosial,150000000.0,111600000.0,74.4,False,True
+Bali,22,2026,1,Januari,37,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,3,Maret,39,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,4,April,40,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,5,Mei,41,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,6,Juni,42,Belanja Bantuan Sosial,150000000.0,0.0,0.0,False,False
+Bali,22,2026,7,Juli,43,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,False
+Bali,22,2026,8,Agustus,44,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,True
+Bali,22,2026,9,September,45,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,True
+Bali,22,2026,10,Oktober,46,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,True
+Bali,22,2026,11,November,47,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,True
+Bali,22,2026,12,Desember,48,Belanja Bantuan Sosial,150000000.0,150000000.0,100.0,False,True
+Bali,22,2023,1,Januari,1,Belanja Barang dan Jasa,1348709586876.0,7701563728.16,0.57,False,False
+Bali,22,2023,2,Februari,2,Belanja Barang dan Jasa,1348709586876.0,80305050591.16,5.95,False,False
+Bali,22,2023,3,Maret,3,Belanja Barang dan Jasa,1348709586876.0,180377766576.87,13.37,False,False
+Bali,22,2023,4,April,4,Belanja Barang dan Jasa,1348709586876.0,288727985573.0,21.41,False,False
+Bali,22,2023,5,Mei,5,Belanja Barang dan Jasa,1348709586876.0,288727985573.0,21.41,False,False
+Bali,22,2023,6,Juni,6,Belanja Barang dan Jasa,1348709586876.0,391344760833.99,29.02,False,False
+Bali,22,2023,7,Juli,7,Belanja Barang dan Jasa,1348709586876.0,537956140782.7,39.89,False,False
+Bali,22,2023,8,Agustus,8,Belanja Barang dan Jasa,1348709586876.0,626325036122.12,46.44,False,False
+Bali,22,2023,9,September,9,Belanja Barang dan Jasa,1348709586876.0,739407533543.82,54.82,False,False
+Bali,22,2023,10,Oktober,10,Belanja Barang dan Jasa,1348709586876.0,831636764566.59,61.66,False,False
+Bali,22,2023,11,November,11,Belanja Barang dan Jasa,1348709586876.0,932370182354.46,69.13,False,False
+Bali,22,2023,12,Desember,12,Belanja Barang dan Jasa,1348709586876.0,1110858537420.4,82.36,False,False
+Bali,22,2024,1,Januari,13,Belanja Barang dan Jasa,1348828860118.0,17213445628.46,1.28,False,False
+Bali,22,2024,2,Februari,14,Belanja Barang dan Jasa,1348828860118.0,88166660558.78,6.54,False,False
+Bali,22,2024,3,Maret,15,Belanja Barang dan Jasa,1348828860118.0,180240475933.18,13.36,False,False
+Bali,22,2024,4,April,16,Belanja Barang dan Jasa,1348828860118.0,266464798838.34,19.76,False,False
+Bali,22,2024,5,Mei,17,Belanja Barang dan Jasa,1348828860118.0,365914603364.68,27.13,False,False
+Bali,22,2024,6,Juni,18,Belanja Barang dan Jasa,1348828860118.0,457522312930.17,33.92,False,False
+Bali,22,2024,7,Juli,19,Belanja Barang dan Jasa,1348828860118.0,568530638641.56,42.15,False,False
+Bali,22,2024,8,Agustus,20,Belanja Barang dan Jasa,1348828860118.0,675336179868.62,50.07,False,False
+Bali,22,2024,9,September,21,Belanja Barang dan Jasa,1348828860118.0,758915840291.91,56.26,False,False
+Bali,22,2024,10,Oktober,22,Belanja Barang dan Jasa,1348828860118.0,858627422835.28,63.66,False,False
+Bali,22,2024,11,November,23,Belanja Barang dan Jasa,1348828860118.0,994011982275.1,73.69,False,False
+Bali,22,2024,12,Desember,24,Belanja Barang dan Jasa,1348828860118.0,1200096660415.7,88.97,False,False
+Bali,22,2025,1,Januari,25,Belanja Barang dan Jasa,1447603014904.0,10314171692.03,0.71,False,False
+Bali,22,2025,2,Februari,26,Belanja Barang dan Jasa,1447603014904.0,96465289737.28,6.66,False,False
+Bali,22,2025,3,Maret,27,Belanja Barang dan Jasa,1447603014904.0,201690237496.78,13.93,False,False
+Bali,22,2025,4,April,28,Belanja Barang dan Jasa,1447603014904.0,281189005732.78,19.42,False,False
+Bali,22,2025,5,Mei,29,Belanja Barang dan Jasa,1447603014904.0,374315424656.32,25.86,False,False
+Bali,22,2025,6,Juni,30,Belanja Barang dan Jasa,1447603014904.0,472444309627.51,32.64,False,False
+Bali,22,2025,7,Juli,31,Belanja Barang dan Jasa,1447603014904.0,585817985867.86,40.47,False,False
+Bali,22,2025,8,Agustus,32,Belanja Barang dan Jasa,1447603014904.0,674236534526.65,46.58,False,False
+Bali,22,2025,9,September,33,Belanja Barang dan Jasa,1447603014904.0,776973673519.48,53.67,False,False
+Bali,22,2025,10,Oktober,34,Belanja Barang dan Jasa,1447603014904.0,924737471191.41,63.88,False,False
+Bali,22,2025,11,November,35,Belanja Barang dan Jasa,1447603014904.0,1029255478213.8,71.1,False,False
+Bali,22,2025,12,Desember,36,Belanja Barang dan Jasa,1447603014904.0,1272505827668.8,87.9,False,False
+Bali,22,2026,1,Januari,37,Belanja Barang dan Jasa,1642857255406.0,25676308806.76,1.56,False,False
+Bali,22,2026,2,Februari,38,Belanja Barang dan Jasa,1642857255406.0,124175401102.71,7.56,False,False
+Bali,22,2026,3,Maret,39,Belanja Barang dan Jasa,1642857255406.0,230642660097.38,14.04,False,False
+Bali,22,2026,4,April,40,Belanja Barang dan Jasa,1642857255406.0,336116469201.28,20.46,False,False
+Bali,22,2026,5,Mei,41,Belanja Barang dan Jasa,1642857255406.0,432487139063.81,26.33,False,False
+Bali,22,2026,6,Juni,42,Belanja Barang dan Jasa,1642857255406.0,527319118558.59,32.1,False,False
+Bali,22,2026,7,Juli,43,Belanja Barang dan Jasa,1642857255406.0,615211919957.57,37.45,False,False
+Bali,22,2026,8,Agustus,44,Belanja Barang dan Jasa,1642857255406.0,685765832623.65,41.74,False,False
+Bali,22,2026,9,September,45,Belanja Barang dan Jasa,1642857255406.0,700072158878.65,42.61,False,False
+Bali,22,2026,10,Oktober,46,Belanja Barang dan Jasa,1642857255406.0,700072158878.65,42.61,False,True
+Bali,22,2026,11,November,47,Belanja Barang dan Jasa,1642857255406.0,700072158878.65,42.61,False,True
+Bali,22,2026,12,Desember,48,Belanja Barang dan Jasa,1642857255406.0,700072158878.65,42.61,False,True
+Bali,22,2023,1,Januari,1,Belanja Daerah,7522393048914.0,131914699862.16,1.75,False,False
+Bali,22,2023,2,Februari,2,Belanja Daerah,7522393048914.0,415459487807.16,5.52,False,False
+Bali,22,2023,3,Maret,3,Belanja Daerah,7522393048914.0,954129921644.87,12.68,False,False
+Bali,22,2023,4,April,4,Belanja Daerah,7522393048914.0,1664680834874.0,22.13,False,False
+Bali,22,2023,5,Mei,5,Belanja Daerah,7522393048914.0,1664680834874.0,22.13,False,False
+Bali,22,2023,6,Juni,6,Belanja Daerah,7522393048914.0,2208901749508.0,29.36,False,False
+Bali,22,2023,7,Juli,7,Belanja Daerah,7522393048914.0,2924159431114.6,38.87,False,False
+Bali,22,2023,8,Agustus,8,Belanja Daerah,7522393048914.0,3422795466948.0,45.5,False,False
+Bali,22,2023,9,September,9,Belanja Daerah,7522393048914.0,3888762390428.7,51.7,False,False
+Bali,22,2023,10,Oktober,10,Belanja Daerah,7522393048914.0,4364996659279.9,58.03,False,False
+Bali,22,2023,11,November,11,Belanja Daerah,7522393048914.0,5202232866870.8,69.16,False,False
+Bali,22,2023,12,Desember,12,Belanja Daerah,7522393048914.0,5951088810929.2,79.11,False,False
+Bali,22,2024,1,Januari,13,Belanja Daerah,7795681730804.0,205465432193.46,2.64,False,False
+Bali,22,2024,2,Februari,14,Belanja Daerah,7795681730804.0,565872377061.81,7.26,False,False
+Bali,22,2024,3,Maret,15,Belanja Daerah,7795681730804.0,1029682509133.2,13.21,False,False
+Bali,22,2024,4,April,16,Belanja Daerah,7795681730804.0,1537749209198.1,19.73,False,False
+Bali,22,2024,5,Mei,17,Belanja Daerah,7795681730804.0,2176684843570.4,27.92,False,False
+Bali,22,2024,6,Juni,18,Belanja Daerah,7795681730804.0,2940223202128.2,37.72,False,False
+Bali,22,2024,7,Juli,19,Belanja Daerah,7795681730804.0,3577743891543.4,45.89,False,False
+Bali,22,2024,8,Agustus,20,Belanja Daerah,7795681730804.0,4295056462281.5,55.1,False,False
+Bali,22,2024,9,September,21,Belanja Daerah,7795681730804.0,4773117088816.0,61.23,False,False
+Bali,22,2024,10,Oktober,22,Belanja Daerah,7795681730804.0,5315394527364.2,68.18,False,False
+Bali,22,2024,11,November,23,Belanja Daerah,7795681730804.0,6350560890186.4,81.46,False,False
+Bali,22,2024,12,Desember,24,Belanja Daerah,7795681730804.0,7293051849998.1,93.55,False,False
+Bali,22,2025,1,Januari,25,Belanja Daerah,6827385005313.2,212256933294.03,3.11,False,False
+Bali,22,2025,2,Februari,26,Belanja Daerah,6827385005313.2,498339728243.28,7.3,False,False
+Bali,22,2025,3,Maret,27,Belanja Daerah,6827385005313.2,926810768385.78,13.57,False,False
+Bali,22,2025,4,April,28,Belanja Daerah,6827385005313.2,1489275607002.8,21.81,False,False
+Bali,22,2025,5,Mei,29,Belanja Daerah,6827385005313.2,1844695814226.7,27.02,False,False
+Bali,22,2025,6,Juni,30,Belanja Daerah,6827385005313.2,2511116326365.8,36.78,False,False
+Bali,22,2025,7,Juli,31,Belanja Daerah,6827385005313.2,2963551145349.2,43.41,False,False
+Bali,22,2025,8,Agustus,32,Belanja Daerah,6827385005313.2,3452354277803.6,50.57,False,False
+Bali,22,2025,9,September,33,Belanja Daerah,6827385005313.2,3819926784355.5,55.95,False,False
+Bali,22,2025,10,Oktober,34,Belanja Daerah,6827385005313.2,4778266361389.8,69.99,False,False
+Bali,22,2025,11,November,35,Belanja Daerah,6827385005313.2,5405451764500.7,79.17,False,False
+Bali,22,2025,12,Desember,36,Belanja Daerah,6827385005313.2,6554652991551.6,96.01,False,False
+Bali,22,2026,1,Januari,37,Belanja Daerah,7238218010139.9,188070223941.76,2.6,False,False
+Bali,22,2026,2,Februari,38,Belanja Daerah,7238218010139.9,558639665186.71,7.72,False,False
+Bali,22,2026,3,Maret,39,Belanja Daerah,7238218010139.9,1030917704251.8,14.24,False,False
+Bali,22,2026,4,April,40,Belanja Daerah,7238218010139.9,1715999891725.7,23.71,False,False
+Bali,22,2026,5,Mei,41,Belanja Daerah,7238218010139.9,2135904413228.2,29.51,False,False
+Bali,22,2026,6,Juni,42,Belanja Daerah,7238218010139.9,2579983294278.2,35.64,False,False
+Bali,22,2026,7,Juli,43,Belanja Daerah,7238218010139.9,3094981439066.3,42.76,False,False
+Bali,22,2026,8,Agustus,44,Belanja Daerah,7238218010139.9,3545602932928.0,48.98,False,False
+Bali,22,2026,9,September,45,Belanja Daerah,7238218010139.9,3710443580342.0,51.26,False,False
+Bali,22,2026,10,Oktober,46,Belanja Daerah,7238218010139.9,3710443580342.0,51.26,False,True
+Bali,22,2026,11,November,47,Belanja Daerah,7238218010139.9,3710443580342.0,51.26,False,True
+Bali,22,2026,12,Desember,48,Belanja Daerah,7238218010139.9,3710443580342.0,51.26,False,True
+Bali,22,2023,1,Januari,1,Belanja Hibah,881696186277.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Hibah,881696186277.0,34694230756.0,3.93,False,False
+Bali,22,2023,3,Maret,3,Belanja Hibah,881696186277.0,129681976115.0,14.71,False,False
+Bali,22,2023,4,April,4,Belanja Hibah,881696186277.0,332245989549.0,37.68,False,False
+Bali,22,2023,5,Mei,5,Belanja Hibah,881696186277.0,332245989549.0,37.68,False,False
+Bali,22,2023,6,Juni,6,Belanja Hibah,881696186277.0,418312979253.0,47.44,False,False
+Bali,22,2023,7,Juli,7,Belanja Hibah,881696186277.0,512742787942.0,58.15,False,False
+Bali,22,2023,8,Agustus,8,Belanja Hibah,881696186277.0,550908136629.0,62.48,False,False
+Bali,22,2023,9,September,9,Belanja Hibah,881696186277.0,571215027969.0,64.79,False,False
+Bali,22,2023,10,Oktober,10,Belanja Hibah,881696186277.0,574416248369.0,65.15,False,False
+Bali,22,2023,11,November,11,Belanja Hibah,881696186277.0,661346970522.0,75.01,False,False
+Bali,22,2023,12,Desember,12,Belanja Hibah,881696186277.0,784323906128.41,88.96,False,False
+Bali,22,2024,1,Januari,13,Belanja Hibah,1185973472396.0,43432445000.0,3.66,False,False
+Bali,22,2024,2,Februari,14,Belanja Hibah,1185973472396.0,194972095000.0,16.44,False,False
+Bali,22,2024,3,Maret,15,Belanja Hibah,1185973472396.0,221876640000.0,18.71,False,False
+Bali,22,2024,4,April,16,Belanja Hibah,1185973472396.0,238443065892.0,20.11,False,False
+Bali,22,2024,5,Mei,17,Belanja Hibah,1185973472396.0,292558004624.0,24.67,False,False
+Bali,22,2024,6,Juni,18,Belanja Hibah,1185973472396.0,462451900424.0,38.99,False,False
+Bali,22,2024,7,Juli,19,Belanja Hibah,1185973472396.0,617109855424.0,52.03,False,False
+Bali,22,2024,8,Agustus,20,Belanja Hibah,1185973472396.0,824344368447.0,69.51,False,False
+Bali,22,2024,9,September,21,Belanja Hibah,1185973472396.0,908290062287.0,76.59,False,False
+Bali,22,2024,10,Oktober,22,Belanja Hibah,1185973472396.0,940897591168.0,79.34,False,False
+Bali,22,2024,11,November,23,Belanja Hibah,1185973472396.0,1055464889848.0,89.0,False,False
+Bali,22,2024,12,Desember,24,Belanja Hibah,1185973472396.0,1169523956546.0,98.61,False,False
+Bali,22,2025,1,Januari,25,Belanja Hibah,813294965136.0,47972375000.0,5.9,False,False
+Bali,22,2025,2,Februari,26,Belanja Hibah,813294965136.0,115138006431.0,14.16,False,False
+Bali,22,2025,3,Maret,27,Belanja Hibah,813294965136.0,218636554167.0,26.88,False,False
+Bali,22,2025,4,April,28,Belanja Hibah,813294965136.0,311073134167.0,38.25,False,False
+Bali,22,2025,5,Mei,29,Belanja Hibah,813294965136.0,364879868167.0,44.86,False,False
+Bali,22,2025,6,Juni,30,Belanja Hibah,813294965136.0,480340118167.0,59.06,False,False
+Bali,22,2025,7,Juli,31,Belanja Hibah,813294965136.0,525343395567.0,64.59,False,False
+Bali,22,2025,8,Agustus,32,Belanja Hibah,813294965136.0,586361279257.0,72.1,False,False
+Bali,22,2025,9,September,33,Belanja Hibah,813294965136.0,616268635371.0,75.77,False,False
+Bali,22,2025,10,Oktober,34,Belanja Hibah,813294965136.0,658983895707.0,81.03,False,False
+Bali,22,2025,11,November,35,Belanja Hibah,813294965136.0,786091194080.0,96.66,False,False
+Bali,22,2025,12,Desember,36,Belanja Hibah,813294965136.0,933511389721.97,114.78,False,False
+Bali,22,2026,1,Januari,37,Belanja Hibah,1124561416305.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Belanja Hibah,1124561416305.0,79801150000.0,7.1,False,False
+Bali,22,2026,3,Maret,39,Belanja Hibah,1124561416305.0,142350565000.0,12.66,False,False
+Bali,22,2026,4,April,40,Belanja Hibah,1124561416305.0,334898771415.0,29.78,False,False
+Bali,22,2026,5,Mei,41,Belanja Hibah,1124561416305.0,404742396520.0,35.99,False,False
+Bali,22,2026,6,Juni,42,Belanja Hibah,1124561416305.0,446562396520.0,39.71,False,False
+Bali,22,2026,7,Juli,43,Belanja Hibah,1124561416305.0,552448396545.0,49.13,False,False
+Bali,22,2026,8,Agustus,44,Belanja Hibah,1124561416305.0,659775178467.0,58.67,False,False
+Bali,22,2026,9,September,45,Belanja Hibah,1124561416305.0,718125178467.0,63.86,False,False
+Bali,22,2026,10,Oktober,46,Belanja Hibah,1124561416305.0,718125178467.0,63.86,False,True
+Bali,22,2026,11,November,47,Belanja Hibah,1124561416305.0,718125178467.0,63.86,False,True
+Bali,22,2026,12,Desember,48,Belanja Hibah,1124561416305.0,718125178467.0,63.86,False,True
+Bali,22,2023,1,Januari,1,Belanja Lainnya,2681139638677.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Lainnya,2681139638677.0,40143730756.0,1.5,False,False
+Bali,22,2023,3,Maret,3,Belanja Lainnya,2681139638677.0,238685050113.0,8.9,False,False
+Bali,22,2023,4,April,4,Belanja Lainnya,2681139638677.0,568390381951.0,21.2,False,False
+Bali,22,2023,5,Mei,5,Belanja Lainnya,2681139638677.0,568390381951.0,21.2,False,False
+Bali,22,2023,6,Juni,6,Belanja Lainnya,2681139638677.0,778588645736.0,29.04,False,False
+Bali,22,2023,7,Juli,7,Belanja Lainnya,2681139638677.0,1047856095649.0,39.08,False,False
+Bali,22,2023,8,Agustus,8,Belanja Lainnya,2681139638677.0,1247387385998.0,46.52,False,False
+Bali,22,2023,9,September,9,Belanja Lainnya,2681139638677.0,1427084404875.0,53.23,False,False
+Bali,22,2023,10,Oktober,10,Belanja Lainnya,2681139638677.0,1582952884775.4,59.04,False,False
+Bali,22,2023,11,November,11,Belanja Lainnya,2681139638677.0,2124639047299.4,79.24,False,False
+Bali,22,2023,12,Desember,12,Belanja Lainnya,2681139638677.0,2309313423470.9,86.13,False,False
+Bali,22,2024,1,Januari,13,Belanja Lainnya,3429772202121.0,43432445000.0,1.27,False,False
+Bali,22,2024,2,Februari,14,Belanja Lainnya,3429772202121.0,197761195000.0,5.77,False,False
+Bali,22,2024,3,Maret,15,Belanja Lainnya,3429772202121.0,346189361073.0,10.09,False,False
+Bali,22,2024,4,April,16,Belanja Lainnya,3429772202121.0,500541192750.0,14.59,False,False
+Bali,22,2024,5,Mei,17,Belanja Lainnya,3429772202121.0,879016275537.0,25.63,False,False
+Bali,22,2024,6,Juni,18,Belanja Lainnya,3429772202121.0,1212530771853.0,35.35,False,False
+Bali,22,2024,7,Juli,19,Belanja Lainnya,3429772202121.0,1550202090373.0,45.2,False,False
+Bali,22,2024,8,Agustus,20,Belanja Lainnya,3429772202121.0,1901808134530.0,55.45,False,False
+Bali,22,2024,9,September,21,Belanja Lainnya,3429772202121.0,2122630591535.0,61.89,False,False
+Bali,22,2024,10,Oktober,22,Belanja Lainnya,3429772202121.0,2367467123157.0,69.03,False,False
+Bali,22,2024,11,November,23,Belanja Lainnya,3429772202121.0,3005036069322.0,87.62,False,False
+Bali,22,2024,12,Desember,24,Belanja Lainnya,3429772202121.0,3336572516928.0,97.28,False,False
+Bali,22,2025,1,Januari,25,Belanja Lainnya,1757176098977.0,47972375000.0,2.73,False,False
+Bali,22,2025,2,Februari,26,Belanja Lainnya,1757176098977.0,115138006431.0,6.55,False,False
+Bali,22,2025,3,Maret,27,Belanja Lainnya,1757176098977.0,224178666247.0,12.76,False,False
+Bali,22,2025,4,April,28,Belanja Lainnya,1757176098977.0,499723170573.0,28.44,False,False
+Bali,22,2025,5,Mei,29,Belanja Lainnya,1757176098977.0,602595900650.0,34.29,False,False
+Bali,22,2025,6,Juni,30,Belanja Lainnya,1757176098977.0,805488773545.0,45.84,False,False
+Bali,22,2025,7,Juli,31,Belanja Lainnya,1757176098977.0,924091778884.0,52.59,False,False
+Bali,22,2025,8,Agustus,32,Belanja Lainnya,1757176098977.0,1091504401910.3,62.12,False,False
+Bali,22,2025,9,September,33,Belanja Lainnya,1757176098977.0,1146903672025.1,65.27,False,False
+Bali,22,2025,10,Oktober,34,Belanja Lainnya,1757176098977.0,1634553038250.1,93.02,False,False
+Bali,22,2025,11,November,35,Belanja Lainnya,1757176098977.0,1817100120995.1,103.41,False,False
+Bali,22,2025,12,Desember,36,Belanja Lainnya,1757176098977.0,2204046788825.3,125.43,False,False
+Bali,22,2026,1,Januari,37,Belanja Lainnya,2244430587263.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Belanja Lainnya,2244430587263.0,84367034830.0,3.76,False,False
+Bali,22,2026,3,Maret,39,Belanja Lainnya,2244430587263.0,192690922219.0,8.59,False,False
+Bali,22,2026,4,April,40,Belanja Lainnya,2244430587263.0,529801176691.0,23.61,False,False
+Bali,22,2026,5,Mei,41,Belanja Lainnya,2244430587263.0,648524524023.0,28.89,False,False
+Bali,22,2026,6,Juni,42,Belanja Lainnya,2244430587263.0,742995160760.0,33.1,False,False
+Bali,22,2026,7,Juli,43,Belanja Lainnya,2244430587263.0,947144493518.0,42.2,False,False
+Bali,22,2026,8,Agustus,44,Belanja Lainnya,2244430587263.0,1157025703081.0,51.55,False,False
+Bali,22,2026,9,September,45,Belanja Lainnya,2244430587263.0,1222148142401.0,54.45,False,False
+Bali,22,2026,10,Oktober,46,Belanja Lainnya,2244430587263.0,1222148142401.0,54.45,False,True
+Bali,22,2026,11,November,47,Belanja Lainnya,2244430587263.0,1222148142401.0,54.45,False,True
+Bali,22,2026,12,Desember,48,Belanja Lainnya,2244430587263.0,1222148142401.0,54.45,False,True
+Bali,22,2023,1,Januari,1,Belanja Modal,1419978951582.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Modal,1419978951582.0,75856418231.0,5.34,False,False
+Bali,22,2023,3,Maret,3,Belanja Modal,1419978951582.0,187787861979.0,13.22,False,False
+Bali,22,2023,4,April,4,Belanja Modal,1419978951582.0,260221643302.0,18.33,False,False
+Bali,22,2023,5,Mei,5,Belanja Modal,1419978951582.0,260221643302.0,18.33,False,False
+Bali,22,2023,6,Juni,6,Belanja Modal,1419978951582.0,325757168768.0,22.94,False,False
+Bali,22,2023,7,Juli,7,Belanja Modal,1419978951582.0,394449883374.9,27.78,False,False
+Bali,22,2023,8,Agustus,8,Belanja Modal,1419978951582.0,486033686638.9,34.23,False,False
+Bali,22,2023,9,September,9,Belanja Modal,1419978951582.0,542450769561.9,38.2,False,False
+Bali,22,2023,10,Oktober,10,Belanja Modal,1419978951582.0,629646291803.9,44.34,False,False
+Bali,22,2023,11,November,11,Belanja Modal,1419978951582.0,692589241510.9,48.77,False,False
+Bali,22,2023,12,Desember,12,Belanja Modal,1419978951582.0,887106308053.99,62.47,False,False
+Bali,22,2024,1,Januari,13,Belanja Modal,798894222750.0,2437820505.0,0.31,False,False
+Bali,22,2024,2,Februari,14,Belanja Modal,798894222750.0,20974339182.03,2.63,False,False
+Bali,22,2024,3,Maret,15,Belanja Modal,798894222750.0,118647485495.03,14.85,False,False
+Bali,22,2024,4,April,16,Belanja Modal,798894222750.0,143548945459.77,17.97,False,False
+Bali,22,2024,5,Mei,17,Belanja Modal,798894222750.0,153229472454.77,19.18,False,False
+Bali,22,2024,6,Juni,18,Belanja Modal,798894222750.0,182238977693.03,22.81,False,False
+Bali,22,2024,7,Juli,19,Belanja Modal,798894222750.0,223193094306.88,27.94,False,False
+Bali,22,2024,8,Agustus,20,Belanja Modal,798894222750.0,291433368568.88,36.48,False,False
+Bali,22,2024,9,September,21,Belanja Modal,798894222750.0,336257723061.14,42.09,False,False
+Bali,22,2024,10,Oktober,22,Belanja Modal,798894222750.0,383682806070.9,48.03,False,False
+Bali,22,2024,11,November,23,Belanja Modal,798894222750.0,480094161636.35,60.09,False,False
+Bali,22,2024,12,Desember,24,Belanja Modal,798894222750.0,667689607145.41,83.58,False,False
+Bali,22,2025,1,Januari,25,Belanja Modal,1007960216627.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Belanja Modal,1007960216627.0,4084474140.0,0.41,False,False
+Bali,22,2025,3,Maret,27,Belanja Modal,1007960216627.0,11509909554.0,1.14,False,False
+Bali,22,2025,4,April,28,Belanja Modal,1007960216627.0,24396541564.0,2.42,False,False
+Bali,22,2025,5,Mei,29,Belanja Modal,1007960216627.0,46084009740.4,4.57,False,False
+Bali,22,2025,6,Juni,30,Belanja Modal,1007960216627.0,64399307910.32,6.39,False,False
+Bali,22,2025,7,Juli,31,Belanja Modal,1007960216627.0,124581459670.36,12.36,False,False
+Bali,22,2025,8,Agustus,32,Belanja Modal,1007960216627.0,203764910044.65,20.22,False,False
+Bali,22,2025,9,September,33,Belanja Modal,1007960216627.0,253668138996.91,25.17,False,False
+Bali,22,2025,10,Oktober,34,Belanja Modal,1007960216627.0,348883588068.33,34.61,False,False
+Bali,22,2025,11,November,35,Belanja Modal,1007960216627.0,459554627772.81,45.59,False,False
+Bali,22,2025,12,Desember,36,Belanja Modal,1007960216627.0,773687032749.53,76.76,False,False
+Bali,22,2026,1,Januari,37,Belanja Modal,846771918937.0,1819209319.0,0.21,False,False
+Bali,22,2026,2,Februari,38,Belanja Modal,846771918937.0,6034147269.0,0.71,False,False
+Bali,22,2026,3,Maret,39,Belanja Modal,846771918937.0,19318461195.4,2.28,False,False
+Bali,22,2026,4,April,40,Belanja Modal,846771918937.0,49909081502.4,5.89,False,False
+Bali,22,2026,5,Mei,41,Belanja Modal,846771918937.0,86125614006.36,10.17,False,False
+Bali,22,2026,6,Juni,42,Belanja Modal,846771918937.0,92451419568.62,10.92,False,False
+Bali,22,2026,7,Juli,43,Belanja Modal,846771918937.0,129868279099.74,15.34,False,False
+Bali,22,2026,8,Agustus,44,Belanja Modal,846771918937.0,158464143796.36,18.71,False,False
+Bali,22,2026,9,September,45,Belanja Modal,846771918937.0,159675770623.36,18.86,False,False
+Bali,22,2026,10,Oktober,46,Belanja Modal,846771918937.0,159675770623.36,18.86,False,True
+Bali,22,2026,11,November,47,Belanja Modal,846771918937.0,159675770623.36,18.86,False,True
+Bali,22,2026,12,Desember,48,Belanja Modal,846771918937.0,159675770623.36,18.86,False,True
+Bali,22,2023,1,Januari,1,Belanja Pegawai,2072564871779.0,124213136134.0,5.99,False,False
+Bali,22,2023,2,Februari,2,Belanja Pegawai,2072564871779.0,219154288229.0,10.57,False,False
+Bali,22,2023,3,Maret,3,Belanja Pegawai,2072564871779.0,347279242976.0,16.76,False,False
+Bali,22,2023,4,April,4,Belanja Pegawai,2072564871779.0,547340824048.0,26.41,False,False
+Bali,22,2023,5,Mei,5,Belanja Pegawai,2072564871779.0,547340824048.0,26.41,False,False
+Bali,22,2023,6,Juni,6,Belanja Pegawai,2072564871779.0,713211174170.0,34.41,False,False
+Bali,22,2023,7,Juli,7,Belanja Pegawai,2072564871779.0,943897311308.0,45.54,False,False
+Bali,22,2023,8,Agustus,8,Belanja Pegawai,2072564871779.0,1063049358189.0,51.29,False,False
+Bali,22,2023,9,September,9,Belanja Pegawai,2072564871779.0,1179819682448.0,56.93,False,False
+Bali,22,2023,10,Oktober,10,Belanja Pegawai,2072564871779.0,1320760718134.0,63.73,False,False
+Bali,22,2023,11,November,11,Belanja Pegawai,2072564871779.0,1452634395706.0,70.09,False,False
+Bali,22,2023,12,Desember,12,Belanja Pegawai,2072564871779.0,1643810541984.0,79.31,False,False
+Bali,22,2024,1,Januari,13,Belanja Pegawai,2218186445815.0,142381721060.0,6.42,False,False
+Bali,22,2024,2,Februari,14,Belanja Pegawai,2218186445815.0,258970182321.0,11.67,False,False
+Bali,22,2024,3,Maret,15,Belanja Pegawai,2218186445815.0,384605186632.0,17.34,False,False
+Bali,22,2024,4,April,16,Belanja Pegawai,2218186445815.0,627194272150.0,28.28,False,False
+Bali,22,2024,5,Mei,17,Belanja Pegawai,2218186445815.0,778524492214.0,35.1,False,False
+Bali,22,2024,6,Juni,18,Belanja Pegawai,2218186445815.0,1087931139652.0,49.05,False,False
+Bali,22,2024,7,Juli,19,Belanja Pegawai,2218186445815.0,1235818068222.0,55.71,False,False
+Bali,22,2024,8,Agustus,20,Belanja Pegawai,2218186445815.0,1426478779314.0,64.31,False,False
+Bali,22,2024,9,September,21,Belanja Pegawai,2218186445815.0,1555312933928.0,70.12,False,False
+Bali,22,2024,10,Oktober,22,Belanja Pegawai,2218186445815.0,1705617175301.0,76.89,False,False
+Bali,22,2024,11,November,23,Belanja Pegawai,2218186445815.0,1871418676953.0,84.37,False,False
+Bali,22,2024,12,Desember,24,Belanja Pegawai,2218186445815.0,2088693065509.0,94.16,False,False
+Bali,22,2025,1,Januari,25,Belanja Pegawai,2614645674805.2,153970386602.0,5.89,False,False
+Bali,22,2025,2,Februari,26,Belanja Pegawai,2614645674805.2,282651957935.0,10.81,False,False
+Bali,22,2025,3,Maret,27,Belanja Pegawai,2614645674805.2,489431955088.0,18.72,False,False
+Bali,22,2025,4,April,28,Belanja Pegawai,2614645674805.2,683966889133.0,26.16,False,False
+Bali,22,2025,5,Mei,29,Belanja Pegawai,2614645674805.2,821700479180.0,31.43,False,False
+Bali,22,2025,6,Juni,30,Belanja Pegawai,2614645674805.2,1168783935283.0,44.7,False,False
+Bali,22,2025,7,Juli,31,Belanja Pegawai,2614645674805.2,1329059920927.0,50.83,False,False
+Bali,22,2025,8,Agustus,32,Belanja Pegawai,2614645674805.2,1482848431322.0,56.71,False,False
+Bali,22,2025,9,September,33,Belanja Pegawai,2614645674805.2,1642381299814.0,62.81,False,False
+Bali,22,2025,10,Oktober,34,Belanja Pegawai,2614645674805.2,1870092263880.0,71.52,False,False
+Bali,22,2025,11,November,35,Belanja Pegawai,2614645674805.2,2099541537519.0,80.3,False,False
+Bali,22,2025,12,Desember,36,Belanja Pegawai,2614645674805.2,2304413342308.0,88.13,False,False
+Bali,22,2026,1,Januari,37,Belanja Pegawai,2504158248533.9,160574705816.0,6.41,False,False
+Bali,22,2026,2,Februari,38,Belanja Pegawai,2504158248533.9,344063081985.0,13.74,False,False
+Bali,22,2026,3,Maret,39,Belanja Pegawai,2504158248533.9,588265660740.0,23.49,False,False
+Bali,22,2026,4,April,40,Belanja Pegawai,2504158248533.9,800173164331.0,31.95,False,False
+Bali,22,2026,5,Mei,41,Belanja Pegawai,2504158248533.9,968767136135.0,38.69,False,False
+Bali,22,2026,6,Juni,42,Belanja Pegawai,2504158248533.9,1217217595391.0,48.61,False,False
+Bali,22,2026,7,Juli,43,Belanja Pegawai,2504158248533.9,1402756746491.0,56.02,False,False
+Bali,22,2026,8,Agustus,44,Belanja Pegawai,2504158248533.9,1544347253427.0,61.67,False,False
+Bali,22,2026,9,September,45,Belanja Pegawai,2504158248533.9,1628547508439.0,65.03,False,False
+Bali,22,2026,10,Oktober,46,Belanja Pegawai,2504158248533.9,1628547508439.0,65.03,False,True
+Bali,22,2026,11,November,47,Belanja Pegawai,2504158248533.9,1628547508439.0,65.03,False,True
+Bali,22,2026,12,Desember,48,Belanja Pegawai,2504158248533.9,1628547508439.0,65.03,False,True
+Bali,22,2023,1,Januari,1,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,3,Maret,3,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,4,April,4,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,5,Mei,5,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,6,Juni,6,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,7,Juli,7,Belanja Subsidi,10025000000.0,0.0,0.0,False,False
+Bali,22,2023,8,Agustus,8,Belanja Subsidi,10025000000.0,5189820000.0,51.77,False,False
+Bali,22,2023,9,September,9,Belanja Subsidi,10025000000.0,5214820000.0,52.02,False,False
+Bali,22,2023,10,Oktober,10,Belanja Subsidi,10025000000.0,5214820000.0,52.02,False,False
+Bali,22,2023,11,November,11,Belanja Subsidi,10025000000.0,10018140000.0,99.93,False,False
+Bali,22,2023,12,Desember,12,Belanja Subsidi,10025000000.0,10018140000.0,99.93,False,True
+Bali,22,2024,1,Januari,13,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,4,April,16,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,5,Mei,17,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,6,Juni,18,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,7,Juli,19,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,8,Agustus,20,Belanja Subsidi,2525000000.0,0.0,0.0,False,False
+Bali,22,2024,9,September,21,Belanja Subsidi,2525000000.0,2500000000.0,99.01,False,False
+Bali,22,2024,10,Oktober,22,Belanja Subsidi,2525000000.0,2500000000.0,99.01,False,False
+Bali,22,2024,11,November,23,Belanja Subsidi,2525000000.0,2500000000.0,99.01,False,False
+Bali,22,2024,12,Desember,24,Belanja Subsidi,2525000000.0,2525000000.0,100.0,False,False
+Bali,22,2025,1,Januari,25,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,3,Maret,27,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,4,April,28,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,5,Mei,29,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,6,Juni,30,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,7,Juli,31,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,8,Agustus,32,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,9,September,33,Belanja Subsidi,5090000000.0,0.0,0.0,False,False
+Bali,22,2025,10,Oktober,34,Belanja Subsidi,5090000000.0,4864000000.0,95.56,False,False
+Bali,22,2025,11,November,35,Belanja Subsidi,5090000000.0,4864000000.0,95.56,False,False
+Bali,22,2025,12,Desember,36,Belanja Subsidi,5090000000.0,10009000000.0,196.64,False,False
+Bali,22,2026,1,Januari,37,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,2,Februari,38,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,3,Maret,39,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,4,April,40,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,5,Mei,41,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,6,Juni,42,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,7,Juli,43,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,8,Agustus,44,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,9,September,45,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,10,Oktober,46,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,11,November,47,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2026,12,Desember,48,Belanja Subsidi,2500000000.0,0.0,0.0,True,False
+Bali,22,2023,1,Januari,1,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Bali,22,2023,3,Maret,3,Belanja Tidak Terduga,50000000000.0,2496300000.0,4.99,False,False
+Bali,22,2023,4,April,4,Belanja Tidak Terduga,50000000000.0,3746100000.0,7.49,False,False
+Bali,22,2023,5,Mei,5,Belanja Tidak Terduga,50000000000.0,3746100000.0,7.49,False,False
+Bali,22,2023,6,Juni,6,Belanja Tidak Terduga,50000000000.0,3746100000.0,7.49,False,False
+Bali,22,2023,7,Juli,7,Belanja Tidak Terduga,50000000000.0,5025200000.0,10.05,False,False
+Bali,22,2023,8,Agustus,8,Belanja Tidak Terduga,50000000000.0,5220700000.0,10.44,False,False
+Bali,22,2023,9,September,9,Belanja Tidak Terduga,50000000000.0,5548700000.0,11.1,False,False
+Bali,22,2023,10,Oktober,10,Belanja Tidak Terduga,50000000000.0,5603700000.44,11.21,False,False
+Bali,22,2023,11,November,11,Belanja Tidak Terduga,50000000000.0,8733200000.44,17.47,False,False
+Bali,22,2023,12,Desember,12,Belanja Tidak Terduga,50000000000.0,8733200000.44,17.47,False,True
+Bali,22,2024,1,Januari,13,Belanja Tidak Terduga,52205727068.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Belanja Tidak Terduga,52205727068.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Belanja Tidak Terduga,52205727068.0,1461500000.0,2.8,False,False
+Bali,22,2024,4,April,16,Belanja Tidak Terduga,52205727068.0,1461500000.0,2.8,False,False
+Bali,22,2024,5,Mei,17,Belanja Tidak Terduga,52205727068.0,2153300000.0,4.12,False,False
+Bali,22,2024,6,Juni,18,Belanja Tidak Terduga,52205727068.0,2499434041.0,4.79,False,False
+Bali,22,2024,7,Juli,19,Belanja Tidak Terduga,52205727068.0,2489434041.0,4.77,False,False
+Bali,22,2024,8,Agustus,20,Belanja Tidak Terduga,52205727068.0,5434934041.0,10.41,False,False
+Bali,22,2024,9,September,21,Belanja Tidak Terduga,52205727068.0,5977934041.0,11.45,False,False
+Bali,22,2024,10,Oktober,22,Belanja Tidak Terduga,52205727068.0,5977934041.0,11.45,False,False
+Bali,22,2024,11,November,23,Belanja Tidak Terduga,52205727068.0,6687134041.0,12.81,False,False
+Bali,22,2024,12,Desember,24,Belanja Tidak Terduga,52205727068.0,7441134041.0,14.25,False,False
+Bali,22,2025,1,Januari,25,Belanja Tidak Terduga,151187931213.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Belanja Tidak Terduga,151187931213.0,0.0,0.0,False,False
+Bali,22,2025,3,Maret,27,Belanja Tidak Terduga,151187931213.0,1378000000.0,0.91,False,False
+Bali,22,2025,4,April,28,Belanja Tidak Terduga,151187931213.0,2335000000.0,1.54,False,False
+Bali,22,2025,5,Mei,29,Belanja Tidak Terduga,151187931213.0,2335000000.0,1.54,False,False
+Bali,22,2025,6,Juni,30,Belanja Tidak Terduga,151187931213.0,3254388800.0,2.15,False,False
+Bali,22,2025,7,Juli,31,Belanja Tidak Terduga,151187931213.0,4693688800.0,3.1,False,False
+Bali,22,2025,8,Agustus,32,Belanja Tidak Terduga,151187931213.0,5441088800.3,3.6,False,False
+Bali,22,2025,9,September,33,Belanja Tidak Terduga,151187931213.0,8853588800.3,5.86,False,False
+Bali,22,2025,10,Oktober,34,Belanja Tidak Terduga,151187931213.0,8853588800.3,5.86,False,False
+Bali,22,2025,11,November,35,Belanja Tidak Terduga,151187931213.0,9740088800.3,6.44,False,False
+Bali,22,2025,12,Desember,36,Belanja Tidak Terduga,151187931213.0,14075388800.3,9.31,False,False
+Bali,22,2026,1,Januari,37,Belanja Tidak Terduga,23966831820.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Belanja Tidak Terduga,23966831820.0,622500000.0,2.6,False,False
+Bali,22,2026,3,Maret,39,Belanja Tidak Terduga,23966831820.0,4280000000.0,17.86,False,False
+Bali,22,2026,4,April,40,Belanja Tidak Terduga,23966831820.0,7452500000.0,31.1,False,False
+Bali,22,2026,5,Mei,41,Belanja Tidak Terduga,23966831820.0,9682500000.0,40.4,False,False
+Bali,22,2026,6,Juni,42,Belanja Tidak Terduga,23966831820.0,10450500000.0,43.6,False,False
+Bali,22,2026,7,Juli,43,Belanja Tidak Terduga,23966831820.0,10467500000.0,43.67,False,False
+Bali,22,2026,8,Agustus,44,Belanja Tidak Terduga,23966831820.0,10969500000.0,45.77,False,False
+Bali,22,2026,9,September,45,Belanja Tidak Terduga,23966831820.0,10969500000.0,45.77,False,True
+Bali,22,2026,10,Oktober,46,Belanja Tidak Terduga,23966831820.0,10969500000.0,45.77,False,True
+Bali,22,2026,11,November,47,Belanja Tidak Terduga,23966831820.0,10969500000.0,45.77,False,True
+Bali,22,2026,12,Desember,48,Belanja Tidak Terduga,23966831820.0,10969500000.0,45.77,False,True
+Bali,22,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,0.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,0.0,0.0,False,False
+Bali,22,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,155842363119.32,19.22,False,False
+Bali,22,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157139903784.32,19.38,False,False
+Bali,22,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157139903784.32,19.38,False,False
+Bali,22,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157586370143.32,19.44,False,False
+Bali,22,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,False
+Bali,22,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,True
+Bali,22,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,True
+Bali,22,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,True
+Bali,22,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,True
+Bali,22,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,810711860000.0,157788825642.32,19.46,False,True
+Bali,22,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,196751692444.03,99.69,False,False
+Bali,22,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,196751692444.03,99.69,False,False
+Bali,22,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,False
+Bali,22,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,197369947623.0,197369947623.03,100.0,False,True
+Bali,22,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,224454593473.43,115.76,False,False
+Bali,22,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226382756694.43,116.75,False,False
+Bali,22,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226603839116.43,116.87,False,False
+Bali,22,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226603839116.43,116.87,False,False
+Bali,22,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226603839116.43,116.87,False,False
+Bali,22,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226603839116.43,116.87,False,False
+Bali,22,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,226603839116.43,116.87,False,False
+Bali,22,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,253603839116.43,130.79,False,False
+Bali,22,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,253603839116.43,130.79,False,True
+Bali,22,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,253603839116.43,130.79,False,True
+Bali,22,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,193896695885.0,253603839116.43,130.79,False,True
+Bali,22,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,250628959804.73,127.87,False,False
+Bali,22,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,250628959804.73,127.87,False,False
+Bali,22,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,253048231280.73,129.1,False,False
+Bali,22,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,253148914010.73,129.16,False,False
+Bali,22,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,False
+Bali,22,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,196002639326.0,257050301950.73,131.15,False,True
+Bali,22,2023,1,Januari,1,Lain-Lain PAD yang Sah,900674035000.0,27389617274.33,3.04,False,False
+Bali,22,2023,2,Februari,2,Lain-Lain PAD yang Sah,900674035000.0,57437098968.23,6.38,False,False
+Bali,22,2023,3,Maret,3,Lain-Lain PAD yang Sah,900674035000.0,92229211502.27,10.24,False,False
+Bali,22,2023,4,April,4,Lain-Lain PAD yang Sah,900674035000.0,127127946143.77,14.11,False,False
+Bali,22,2023,5,Mei,5,Lain-Lain PAD yang Sah,900674035000.0,127127946143.77,14.11,False,False
+Bali,22,2023,6,Juni,6,Lain-Lain PAD yang Sah,900674035000.0,162057661693.35,17.99,False,False
+Bali,22,2023,7,Juli,7,Lain-Lain PAD yang Sah,900674035000.0,194249554177.93,21.57,False,False
+Bali,22,2023,8,Agustus,8,Lain-Lain PAD yang Sah,900674035000.0,224503667608.53,24.93,False,False
+Bali,22,2023,9,September,9,Lain-Lain PAD yang Sah,900674035000.0,256157179073.73,28.44,False,False
+Bali,22,2023,10,Oktober,10,Lain-Lain PAD yang Sah,900674035000.0,287268915846.68,31.89,False,False
+Bali,22,2023,11,November,11,Lain-Lain PAD yang Sah,900674035000.0,320878998531.41,35.63,False,False
+Bali,22,2023,12,Desember,12,Lain-Lain PAD yang Sah,900674035000.0,364341228270.25,40.45,False,False
+Bali,22,2024,1,Januari,13,Lain-Lain PAD yang Sah,388297696494.0,36760688674.98,9.47,False,False
+Bali,22,2024,2,Februari,14,Lain-Lain PAD yang Sah,388297696494.0,92461858196.23,23.81,False,False
+Bali,22,2024,3,Maret,15,Lain-Lain PAD yang Sah,388297696494.0,152348515875.19,39.23,False,False
+Bali,22,2024,4,April,16,Lain-Lain PAD yang Sah,388297696494.0,222419869968.68,57.28,False,False
+Bali,22,2024,5,Mei,17,Lain-Lain PAD yang Sah,388297696494.0,297364480768.05,76.58,False,False
+Bali,22,2024,6,Juni,18,Lain-Lain PAD yang Sah,388297696494.0,370729371680.18,95.48,False,False
+Bali,22,2024,7,Juli,19,Lain-Lain PAD yang Sah,388297696494.0,453059953121.75,116.68,False,False
+Bali,22,2024,8,Agustus,20,Lain-Lain PAD yang Sah,388297696494.0,529989159799.18,136.49,False,False
+Bali,22,2024,9,September,21,Lain-Lain PAD yang Sah,388297696494.0,600103091664.5,154.55,False,False
+Bali,22,2024,10,Oktober,22,Lain-Lain PAD yang Sah,388297696494.0,412491089050.43,106.23,False,False
+Bali,22,2024,11,November,23,Lain-Lain PAD yang Sah,388297696494.0,444300291654.8,114.42,False,False
+Bali,22,2024,12,Desember,24,Lain-Lain PAD yang Sah,388297696494.0,479687209182.52,123.54,False,False
+Bali,22,2025,1,Januari,25,Lain-Lain PAD yang Sah,439102490000.0,27845321909.4,6.34,False,False
+Bali,22,2025,2,Februari,26,Lain-Lain PAD yang Sah,439102490000.0,54966272499.45,12.52,False,False
+Bali,22,2025,3,Maret,27,Lain-Lain PAD yang Sah,439102490000.0,168399088465.52,38.35,False,False
+Bali,22,2025,4,April,28,Lain-Lain PAD yang Sah,439102490000.0,224003931329.97,51.01,False,False
+Bali,22,2025,5,Mei,29,Lain-Lain PAD yang Sah,439102490000.0,266780843861.44,60.76,False,False
+Bali,22,2025,6,Juni,30,Lain-Lain PAD yang Sah,439102490000.0,316815410589.62,72.15,False,False
+Bali,22,2025,7,Juli,31,Lain-Lain PAD yang Sah,439102490000.0,374522640619.43,85.29,False,False
+Bali,22,2025,8,Agustus,32,Lain-Lain PAD yang Sah,439102490000.0,425056351395.04,96.8,False,False
+Bali,22,2025,9,September,33,Lain-Lain PAD yang Sah,439102490000.0,477913174042.36,108.84,False,False
+Bali,22,2025,10,Oktober,34,Lain-Lain PAD yang Sah,439102490000.0,522769664150.89,119.05,False,False
+Bali,22,2025,11,November,35,Lain-Lain PAD yang Sah,439102490000.0,557139831076.51,126.88,False,False
+Bali,22,2025,12,Desember,36,Lain-Lain PAD yang Sah,439102490000.0,599047221622.68,136.43,False,False
+Bali,22,2026,1,Januari,37,Lain-Lain PAD yang Sah,591776158006.0,29685003080.21,5.02,False,False
+Bali,22,2026,2,Februari,38,Lain-Lain PAD yang Sah,591776158006.0,59097060109.35,9.99,False,False
+Bali,22,2026,3,Maret,39,Lain-Lain PAD yang Sah,591776158006.0,93575877283.36,15.81,False,False
+Bali,22,2026,4,April,40,Lain-Lain PAD yang Sah,591776158006.0,134075769540.25,22.66,False,False
+Bali,22,2026,5,Mei,41,Lain-Lain PAD yang Sah,591776158006.0,175789743970.27,29.71,False,False
+Bali,22,2026,6,Juni,42,Lain-Lain PAD yang Sah,591776158006.0,224787244404.09,37.99,False,False
+Bali,22,2026,7,Juli,43,Lain-Lain PAD yang Sah,591776158006.0,269633398652.76,45.56,False,False
+Bali,22,2026,8,Agustus,44,Lain-Lain PAD yang Sah,591776158006.0,313786886205.77,53.02,False,False
+Bali,22,2026,9,September,45,Lain-Lain PAD yang Sah,591776158006.0,315369258030.77,53.29,False,False
+Bali,22,2026,10,Oktober,46,Lain-Lain PAD yang Sah,591776158006.0,315369258030.77,53.29,False,True
+Bali,22,2026,11,November,47,Lain-Lain PAD yang Sah,591776158006.0,315369258030.77,53.29,False,True
+Bali,22,2026,12,Desember,48,Lain-Lain PAD yang Sah,591776158006.0,315369258030.77,53.29,False,True
+Bali,22,2023,1,Januari,1,PAD,4731419182089.0,277346494596.33,5.86,False,False
+Bali,22,2023,2,Februari,2,PAD,4731419182089.0,569770129302.23,12.04,False,False
+Bali,22,2023,3,Maret,3,PAD,4731419182089.0,1061875629910.6,22.44,False,False
+Bali,22,2023,4,April,4,PAD,4731419182089.0,1494919232171.1,31.6,False,False
+Bali,22,2023,5,Mei,5,PAD,4731419182089.0,1494919232171.1,31.6,False,False
+Bali,22,2023,6,Juni,6,PAD,4731419182089.0,1826106505332.7,38.6,False,False
+Bali,22,2023,7,Juli,7,PAD,4731419182089.0,2276003033376.3,48.1,False,False
+Bali,22,2023,8,Agustus,8,PAD,4731419182089.0,2700787239273.9,57.08,False,False
+Bali,22,2023,9,September,9,PAD,4731419182089.0,3048692759960.1,64.44,False,False
+Bali,22,2023,10,Oktober,10,PAD,4731419182089.0,3498984735705.0,73.95,False,False
+Bali,22,2023,11,November,11,PAD,4731419182089.0,3886700281810.7,82.15,False,False
+Bali,22,2023,12,Desember,12,PAD,4731419182089.0,4293687115981.6,90.75,False,False
+Bali,22,2024,1,Januari,13,PAD,4590033889600.0,337390558470.98,7.35,False,False
+Bali,22,2024,2,Februari,14,PAD,4590033889600.0,628246803455.23,13.69,False,False
+Bali,22,2024,3,Maret,15,PAD,4590033889600.0,1221090605973.2,26.6,False,False
+Bali,22,2024,4,April,16,PAD,4590033889600.0,1727577474604.7,37.64,False,False
+Bali,22,2024,5,Mei,17,PAD,4590033889600.0,2135914641364.1,46.53,False,False
+Bali,22,2024,6,Juni,18,PAD,4590033889600.0,2518964381157.2,54.88,False,False
+Bali,22,2024,7,Juli,19,PAD,4590033889600.0,3015998937064.8,65.71,False,False
+Bali,22,2024,8,Agustus,20,PAD,4590033889600.0,3476877594567.2,75.75,False,False
+Bali,22,2024,9,September,21,PAD,4590033889600.0,3951439346701.5,86.09,False,False
+Bali,22,2024,10,Oktober,22,PAD,4590033889600.0,4474119432653.6,97.47,False,False
+Bali,22,2024,11,November,23,PAD,4590033889600.0,4900230286976.8,106.76,False,False
+Bali,22,2024,12,Desember,24,PAD,4590033889600.0,5535429679670.8,120.6,False,False
+Bali,22,2025,1,Januari,25,PAD,3581371604823.0,234753167254.72,6.55,False,False
+Bali,22,2025,2,Februari,26,PAD,3581371604823.0,697019431285.4,19.46,False,False
+Bali,22,2025,3,Maret,27,PAD,3581371604823.0,1064617713587.5,29.73,False,False
+Bali,22,2025,4,April,28,PAD,3581371604823.0,1451289985502.9,40.52,False,False
+Bali,22,2025,5,Mei,29,PAD,3581371604823.0,1709207491798.4,47.72,False,False
+Bali,22,2025,6,Juni,30,PAD,3581371604823.0,1991196758913.4,55.6,False,False
+Bali,22,2025,7,Juli,31,PAD,3581371604823.0,2375143320480.8,66.32,False,False
+Bali,22,2025,8,Agustus,32,PAD,3581371604823.0,2674992520817.0,74.69,False,False
+Bali,22,2025,9,September,33,PAD,3581371604823.0,3022811932823.3,84.4,False,False
+Bali,22,2025,10,Oktober,34,PAD,3581371604823.0,3432211819744.8,95.84,False,False
+Bali,22,2025,11,November,35,PAD,3581371604823.0,3777679674764.5,105.48,False,False
+Bali,22,2025,12,Desember,36,PAD,3581371604823.0,4628083379382.6,129.23,False,False
+Bali,22,2026,1,Januari,37,PAD,4239252167568.0,254624838821.3,6.01,False,False
+Bali,22,2026,2,Februari,38,PAD,4239252167568.0,784911445667.1,18.52,False,False
+Bali,22,2026,3,Maret,39,PAD,4239252167568.0,1044126338519.1,24.63,False,False
+Bali,22,2026,4,April,40,PAD,4239252167568.0,1435383058372.0,33.86,False,False
+Bali,22,2026,5,Mei,41,PAD,4239252167568.0,1698988462867.0,40.08,False,False
+Bali,22,2026,6,Juni,42,PAD,4239252167568.0,1991560256755.9,46.98,False,False
+Bali,22,2026,7,Juli,43,PAD,4239252167568.0,2255253995734.6,53.2,False,False
+Bali,22,2026,8,Agustus,44,PAD,4239252167568.0,2514650341525.6,59.32,False,False
+Bali,22,2026,9,September,45,PAD,4239252167568.0,2516287182350.6,59.36,False,False
+Bali,22,2026,10,Oktober,46,PAD,4239252167568.0,2516287182350.6,59.36,False,True
+Bali,22,2026,11,November,47,PAD,4239252167568.0,2516287182350.6,59.36,False,True
+Bali,22,2026,12,Desember,48,PAD,4239252167568.0,2516287182350.6,59.36,False,True
+Bali,22,2023,1,Januari,1,Pajak Daerah,2960437850589.0,249172095802.0,8.42,False,False
+Bali,22,2023,2,Februari,2,Pajak Daerah,2960437850589.0,510415738279.0,17.24,False,False
+Bali,22,2023,3,Maret,3,Pajak Daerah,2960437850589.0,810962355279.0,27.39,False,False
+Bali,22,2023,4,April,4,Pajak Daerah,2960437850589.0,1207087178098.0,40.77,False,False
+Bali,22,2023,5,Mei,5,Pajak Daerah,2960437850589.0,1207087178098.0,40.77,False,False
+Bali,22,2023,6,Juni,6,Pajak Daerah,2960437850589.0,1501973404076.0,50.73,False,False
+Bali,22,2023,7,Juli,7,Pajak Daerah,2960437850589.0,1917720214986.0,64.78,False,False
+Bali,22,2023,8,Agustus,8,Pajak Daerah,2960437850589.0,2310659081648.0,78.05,False,False
+Bali,22,2023,9,September,9,Pajak Daerah,2960437850589.0,2625060826549.0,88.67,False,False
+Bali,22,2023,10,Oktober,10,Pajak Daerah,2960437850589.0,3042504121508.0,102.77,False,False
+Bali,22,2023,11,November,11,Pajak Daerah,2960437850589.0,3395126655314.0,114.68,False,False
+Bali,22,2023,12,Desember,12,Pajak Daerah,2960437850589.0,3757441342646.0,126.92,False,False
+Bali,22,2024,1,Januari,13,Pajak Daerah,3685688320803.0,299380353866.0,8.12,False,False
+Bali,22,2024,2,Februari,14,Pajak Daerah,3685688320803.0,533436944024.0,14.47,False,False
+Bali,22,2024,3,Maret,15,Pajak Daerah,3685688320803.0,867908651159.0,23.55,False,False
+Bali,22,2024,4,April,16,Pajak Daerah,3685688320803.0,1302623719137.0,35.34,False,False
+Bali,22,2024,5,Mei,17,Pajak Daerah,3685688320803.0,1633710561894.0,44.33,False,False
+Bali,22,2024,6,Juni,18,Pajak Daerah,3685688320803.0,1941333153963.0,52.67,False,False
+Bali,22,2024,7,Juli,19,Pajak Daerah,3685688320803.0,2353972666958.0,63.87,False,False
+Bali,22,2024,8,Agustus,20,Pajak Daerah,3685688320803.0,2735807042043.0,74.23,False,False
+Bali,22,2024,9,September,21,Pajak Daerah,3685688320803.0,3138412183134.0,85.15,False,False
+Bali,22,2024,10,Oktober,22,Pajak Daerah,3685688320803.0,3590042079183.0,97.4,False,False
+Bali,22,2024,11,November,23,Pajak Daerah,3685688320803.0,3959240783233.0,107.42,False,False
+Bali,22,2024,12,Desember,24,Pajak Daerah,3685688320803.0,4520332643486.0,122.65,False,False
+Bali,22,2025,1,Januari,25,Pajak Daerah,2611036410791.0,176317755158.0,6.75,False,False
+Bali,22,2025,2,Februari,26,Pajak Daerah,2611036410791.0,367940400208.0,14.09,False,False
+Bali,22,2025,3,Maret,27,Pajak Daerah,2611036410791.0,588697913299.0,22.55,False,False
+Bali,22,2025,4,April,28,Pajak Daerah,2611036410791.0,893504625866.0,34.22,False,False
+Bali,22,2025,5,Mei,29,Pajak Daerah,2611036410791.0,1082604722692.0,41.46,False,False
+Bali,22,2025,6,Juni,30,Pajak Daerah,2611036410791.0,1286419952404.0,49.27,False,False
+Bali,22,2025,7,Juli,31,Pajak Daerah,2611036410791.0,1578556916806.0,60.46,False,False
+Bali,22,2025,8,Agustus,32,Pajak Daerah,2611036410791.0,1795924794004.0,68.78,False,False
+Bali,22,2025,9,September,33,Pajak Daerah,2611036410791.0,2025873403780.0,77.59,False,False
+Bali,22,2025,10,Oktober,34,Pajak Daerah,2611036410791.0,2355208619775.0,90.2,False,False
+Bali,22,2025,11,November,35,Pajak Daerah,2611036410791.0,2576287228314.0,98.67,False,False
+Bali,22,2025,12,Desember,36,Pajak Daerah,2611036410791.0,2865836401524.0,109.76,False,False
+Bali,22,2026,1,Januari,37,Pajak Daerah,2836545506313.0,192057112494.0,6.77,False,False
+Bali,22,2026,2,Februari,38,Pajak Daerah,2836545506313.0,399438875359.0,14.08,False,False
+Bali,22,2026,3,Maret,39,Pajak Daerah,2836545506313.0,587126058328.0,20.7,False,False
+Bali,22,2026,4,April,40,Pajak Daerah,2836545506313.0,889729672842.0,31.37,False,False
+Bali,22,2026,5,Mei,41,Pajak Daerah,2836545506313.0,1078435098262.0,38.02,False,False
+Bali,22,2026,6,Juni,42,Pajak Daerah,2836545506313.0,1281764662889.0,45.19,False,False
+Bali,22,2026,7,Juli,43,Pajak Daerah,2836545506313.0,1498550175942.0,52.83,False,False
+Bali,22,2026,8,Agustus,44,Pajak Daerah,2836545506313.0,1711525117178.0,60.34,False,False
+Bali,22,2026,9,September,45,Pajak Daerah,2836545506313.0,1711525117178.0,60.34,False,True
+Bali,22,2026,10,Oktober,46,Pajak Daerah,2836545506313.0,1711525117178.0,60.34,False,True
+Bali,22,2026,11,November,47,Pajak Daerah,2836545506313.0,1711525117178.0,60.34,False,True
+Bali,22,2026,12,Desember,48,Pajak Daerah,2836545506313.0,1711525117178.0,60.34,False,True
+Bali,22,2023,1,Januari,1,Pendapatan Daerah,6933947319883.0,464325156596.33,6.7,False,False
+Bali,22,2023,2,Februari,2,Pendapatan Daerah,6933947319883.0,863332851774.23,12.45,False,False
+Bali,22,2023,3,Maret,3,Pendapatan Daerah,6933947319883.0,1604973914378.6,23.15,False,False
+Bali,22,2023,4,April,4,Pendapatan Daerah,6933947319883.0,2243206251354.1,32.35,False,False
+Bali,22,2023,5,Mei,5,Pendapatan Daerah,6933947319883.0,2243206251354.1,32.35,False,False
+Bali,22,2023,6,Juni,6,Pendapatan Daerah,6933947319883.0,2791861682519.7,40.26,False,False
+Bali,22,2023,7,Juli,7,Pendapatan Daerah,6933947319883.0,3501725332794.2,50.5,False,False
+Bali,22,2023,8,Agustus,8,Pendapatan Daerah,6933947319883.0,4041902675014.9,58.29,False,False
+Bali,22,2023,9,September,9,Pendapatan Daerah,6933947319883.0,4558153470354.0,65.74,False,False
+Bali,22,2023,10,Oktober,10,Pendapatan Daerah,6933947319883.0,5173167892377.0,74.61,False,False
+Bali,22,2023,11,November,11,Pendapatan Daerah,6933947319883.0,5825088970180.7,84.01,False,False
+Bali,22,2023,12,Desember,12,Pendapatan Daerah,6933947319883.0,6334801892401.6,91.36,False,False
+Bali,22,2024,1,Januari,13,Pendapatan Daerah,6876016193600.0,722512579270.98,10.51,False,False
+Bali,22,2024,2,Februari,14,Pendapatan Daerah,6876016193600.0,1121565550255.2,16.31,False,False
+Bali,22,2024,3,Maret,15,Pendapatan Daerah,6876016193600.0,1888117262640.2,27.46,False,False
+Bali,22,2024,4,April,16,Pendapatan Daerah,6876016193600.0,2501904026871.7,36.39,False,False
+Bali,22,2024,5,Mei,17,Pendapatan Daerah,6876016193600.0,3091928552337.1,44.97,False,False
+Bali,22,2024,6,Juni,18,Pendapatan Daerah,6876016193600.0,3701205022643.2,53.83,False,False
+Bali,22,2024,7,Juli,19,Pendapatan Daerah,6876016193600.0,4316845161047.8,62.78,False,False
+Bali,22,2024,8,Agustus,20,Pendapatan Daerah,6876016193600.0,5115409355425.2,74.39,False,False
+Bali,22,2024,9,September,21,Pendapatan Daerah,6876016193600.0,5747046662178.5,83.58,False,False
+Bali,22,2024,10,Oktober,22,Pendapatan Daerah,6876016193600.0,6477797772584.6,94.21,False,False
+Bali,22,2024,11,November,23,Pendapatan Daerah,6876016193600.0,7099070001148.8,103.24,False,False
+Bali,22,2024,12,Desember,24,Pendapatan Daerah,6876016193600.0,7824598583907.8,113.8,False,False
+Bali,22,2025,1,Januari,25,Pendapatan Daerah,6027724313823.0,615452665254.72,10.21,False,False
+Bali,22,2025,2,Februari,26,Pendapatan Daerah,6027724313823.0,1209094427460.4,20.06,False,False
+Bali,22,2025,3,Maret,27,Pendapatan Daerah,6027724313823.0,1692875974392.5,28.08,False,False
+Bali,22,2025,4,April,28,Pendapatan Daerah,6027724313823.0,2245351597022.9,37.25,False,False
+Bali,22,2025,5,Mei,29,Pendapatan Daerah,6027724313823.0,2613919133313.3,43.36,False,False
+Bali,22,2025,6,Juni,30,Pendapatan Daerah,6027724313823.0,3150556406660.4,52.27,False,False
+Bali,22,2025,7,Juli,31,Pendapatan Daerah,6027724313823.0,3664563946973.8,60.8,False,False
+Bali,22,2025,8,Agustus,32,Pendapatan Daerah,6027724313823.0,4219323640066.0,70.0,False,False
+Bali,22,2025,9,September,33,Pendapatan Daerah,6027724313823.0,4881047150198.3,80.98,False,False
+Bali,22,2025,10,Oktober,34,Pendapatan Daerah,6027724313823.0,5507635508373.8,91.37,False,False
+Bali,22,2025,11,November,35,Pendapatan Daerah,6027724313823.0,6051971274868.5,100.4,False,False
+Bali,22,2025,12,Desember,36,Pendapatan Daerah,6027724313823.0,7048315869271.6,116.93,False,False
+Bali,22,2026,1,Januari,37,Pendapatan Daerah,6558287553189.0,628434458729.3,9.58,False,False
+Bali,22,2026,2,Februari,38,Pendapatan Daerah,6558287553189.0,1348499446311.1,20.56,False,False
+Bali,22,2026,3,Maret,39,Pendapatan Daerah,6558287553189.0,1809777643698.1,27.6,False,False
+Bali,22,2026,4,April,40,Pendapatan Daerah,6558287553189.0,2364827012202.0,36.06,False,False
+Bali,22,2026,5,Mei,41,Pendapatan Daerah,6558287553189.0,2728119226727.0,41.6,False,False
+Bali,22,2026,6,Juni,42,Pendapatan Daerah,6558287553189.0,3090778588826.9,47.13,False,False
+Bali,22,2026,7,Juli,43,Pendapatan Daerah,6558287553189.0,3479781985332.6,53.06,False,False
+Bali,22,2026,8,Agustus,44,Pendapatan Daerah,6558287553189.0,3770331314123.6,57.49,False,False
+Bali,22,2026,9,September,45,Pendapatan Daerah,6558287553189.0,3771968154948.6,57.51,False,False
+Bali,22,2026,10,Oktober,46,Pendapatan Daerah,6558287553189.0,3771968154948.6,57.51,False,True
+Bali,22,2026,11,November,47,Pendapatan Daerah,6558287553189.0,3771968154948.6,57.51,False,True
+Bali,22,2026,12,Desember,48,Pendapatan Daerah,6558287553189.0,3771968154948.6,57.51,False,True
+Bali,22,2023,1,Januari,1,Pendapatan Hibah,55708000000.0,294000.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Pendapatan Hibah,55708000000.0,1244000.0,0.0,False,False
+Bali,22,2023,3,Maret,3,Pendapatan Hibah,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,4,April,4,Pendapatan Hibah,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,5,Mei,5,Pendapatan Hibah,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,6,Juni,6,Pendapatan Hibah,55708000000.0,2205500.0,0.0,False,False
+Bali,22,2023,7,Juli,7,Pendapatan Hibah,55708000000.0,3177500.0,0.01,False,False
+Bali,22,2023,8,Agustus,8,Pendapatan Hibah,55708000000.0,3034477500.0,5.45,False,False
+Bali,22,2023,9,September,9,Pendapatan Hibah,55708000000.0,3468377500.0,6.23,False,False
+Bali,22,2023,10,Oktober,10,Pendapatan Hibah,55708000000.0,3901277500.0,7.0,False,False
+Bali,22,2023,11,November,11,Pendapatan Hibah,55708000000.0,4334177500.0,7.78,False,False
+Bali,22,2023,12,Desember,12,Pendapatan Hibah,55708000000.0,5199977500.0,9.33,False,False
+Bali,22,2024,1,Januari,13,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,4,April,16,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,5,Mei,17,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,6,Juni,18,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,7,Juli,19,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,8,Agustus,20,Pendapatan Hibah,5744244000.0,3350809000.0,58.33,False,False
+Bali,22,2024,9,September,21,Pendapatan Hibah,5744244000.0,3829496000.0,66.67,False,False
+Bali,22,2024,10,Oktober,22,Pendapatan Hibah,5744244000.0,4308183000.0,75.0,False,False
+Bali,22,2024,11,November,23,Pendapatan Hibah,5744244000.0,4793470000.0,83.45,False,False
+Bali,22,2024,12,Desember,24,Pendapatan Hibah,5744244000.0,5750844000.0,100.11,False,False
+Bali,22,2025,1,Januari,25,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,2,Februari,26,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,3,Maret,27,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,4,April,28,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,5,Mei,29,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,6,Juni,30,Pendapatan Hibah,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,7,Juli,31,Pendapatan Hibah,5708000000.0,3213183194.01,56.29,False,False
+Bali,22,2025,8,Agustus,32,Pendapatan Hibah,5708000000.0,3692619194.01,64.69,False,False
+Bali,22,2025,9,September,33,Pendapatan Hibah,5708000000.0,4172055194.01,73.09,False,False
+Bali,22,2025,10,Oktober,34,Pendapatan Hibah,5708000000.0,4651491194.01,81.49,False,False
+Bali,22,2025,11,November,35,Pendapatan Hibah,5708000000.0,5130927194.01,89.89,False,False
+Bali,22,2025,12,Desember,36,Pendapatan Hibah,5708000000.0,6089799194.01,106.69,False,False
+Bali,22,2026,1,Januari,37,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,3,Maret,39,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,4,April,40,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,5,Mei,41,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,6,Juni,42,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,7,Juli,43,Pendapatan Hibah,5744244000.0,0.0,0.0,False,False
+Bali,22,2026,8,Agustus,44,Pendapatan Hibah,5744244000.0,3599295000.0,62.66,False,False
+Bali,22,2026,9,September,45,Pendapatan Hibah,5744244000.0,3599295000.0,62.66,False,True
+Bali,22,2026,10,Oktober,46,Pendapatan Hibah,5744244000.0,3599295000.0,62.66,False,True
+Bali,22,2026,11,November,47,Pendapatan Hibah,5744244000.0,3599295000.0,62.66,False,True
+Bali,22,2026,12,Desember,48,Pendapatan Hibah,5744244000.0,3599295000.0,62.66,False,True
+Bali,22,2023,1,Januari,1,Pendapatan Lainnya,55708000000.0,294000.0,0.0,False,False
+Bali,22,2023,2,Februari,2,Pendapatan Lainnya,55708000000.0,1244000.0,0.0,False,False
+Bali,22,2023,3,Maret,3,Pendapatan Lainnya,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,4,April,4,Pendapatan Lainnya,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,5,Mei,5,Pendapatan Lainnya,55708000000.0,1626500.0,0.0,False,False
+Bali,22,2023,6,Juni,6,Pendapatan Lainnya,55708000000.0,2205500.0,0.0,False,False
+Bali,22,2023,7,Juli,7,Pendapatan Lainnya,55708000000.0,3177500.0,0.01,False,False
+Bali,22,2023,8,Agustus,8,Pendapatan Lainnya,55708000000.0,3034477500.0,5.45,False,False
+Bali,22,2023,9,September,9,Pendapatan Lainnya,55708000000.0,3468377500.0,6.23,False,False
+Bali,22,2023,10,Oktober,10,Pendapatan Lainnya,55708000000.0,3901277500.0,7.0,False,False
+Bali,22,2023,11,November,11,Pendapatan Lainnya,55708000000.0,4334177500.0,7.78,False,False
+Bali,22,2023,12,Desember,12,Pendapatan Lainnya,55708000000.0,5199977500.0,9.33,False,False
+Bali,22,2024,1,Januari,13,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,2,Februari,14,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,3,Maret,15,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,4,April,16,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,5,Mei,17,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,6,Juni,18,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,7,Juli,19,Pendapatan Lainnya,5744244000.0,0.0,0.0,False,False
+Bali,22,2024,8,Agustus,20,Pendapatan Lainnya,5744244000.0,3350809000.0,58.33,False,False
+Bali,22,2024,9,September,21,Pendapatan Lainnya,5744244000.0,3829496000.0,66.67,False,False
+Bali,22,2024,10,Oktober,22,Pendapatan Lainnya,5744244000.0,4308183000.0,75.0,False,False
+Bali,22,2024,11,November,23,Pendapatan Lainnya,5744244000.0,4793470000.0,83.45,False,False
+Bali,22,2024,12,Desember,24,Pendapatan Lainnya,5744244000.0,5750844000.0,100.11,False,False
+Bali,22,2025,1,Januari,25,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,2,Februari,26,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,3,Maret,27,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,4,April,28,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,5,Mei,29,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,6,Juni,30,Pendapatan Lainnya,5708000000.0,4040000.0,0.07,False,False
+Bali,22,2025,7,Juli,31,Pendapatan Lainnya,5708000000.0,3213183194.01,56.29,False,False
+Bali,22,2025,8,Agustus,32,Pendapatan Lainnya,5708000000.0,3692619194.01,64.69,False,False
+Bali,22,2025,9,September,33,Pendapatan Lainnya,5708000000.0,4172055194.01,73.09,False,False
+Bali,22,2025,10,Oktober,34,Pendapatan Lainnya,5708000000.0,4651491194.01,81.49,False,False
+Bali,22,2025,11,November,35,Pendapatan Lainnya,5708000000.0,5130927194.01,89.89,False,False
+Bali,22,2025,12,Desember,36,Pendapatan Lainnya,5708000000.0,40915489563.01,716.81,False,False
+Bali,22,2026,1,Januari,37,Pendapatan Lainnya,413188760821.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Pendapatan Lainnya,413188760821.0,0.0,0.0,False,False
+Bali,22,2026,3,Maret,39,Pendapatan Lainnya,413188760821.0,81666697065.0,19.76,False,False
+Bali,22,2026,4,April,40,Pendapatan Lainnya,413188760821.0,81666697065.0,19.76,False,False
+Bali,22,2026,5,Mei,41,Pendapatan Lainnya,413188760821.0,81666697065.0,19.76,False,False
+Bali,22,2026,6,Juni,42,Pendapatan Lainnya,413188760821.0,87015373546.0,21.06,False,False
+Bali,22,2026,7,Juli,43,Pendapatan Lainnya,413188760821.0,88660209897.0,21.46,False,False
+Bali,22,2026,8,Agustus,44,Pendapatan Lainnya,413188760821.0,92259504897.0,22.33,False,False
+Bali,22,2026,9,September,45,Pendapatan Lainnya,413188760821.0,92259504897.0,22.33,False,True
+Bali,22,2026,10,Oktober,46,Pendapatan Lainnya,413188760821.0,92259504897.0,22.33,False,True
+Bali,22,2026,11,November,47,Pendapatan Lainnya,413188760821.0,92259504897.0,22.33,False,True
+Bali,22,2026,12,Desember,48,Pendapatan Lainnya,413188760821.0,92259504897.0,22.33,False,True
+Bali,22,2025,1,Januari,25,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,2,Februari,26,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,3,Maret,27,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,4,April,28,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,5,Mei,29,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,6,Juni,30,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,7,Juli,31,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,8,Agustus,32,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,9,September,33,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,10,Oktober,34,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,11,November,35,Pendapatan Transfer Antar Daerah,0.0,0.0,0.0,False,False
+Bali,22,2025,12,Desember,36,Pendapatan Transfer Antar Daerah,0.0,34825690369.0,0.0,False,False
+Bali,22,2026,1,Januari,37,Pendapatan Transfer Antar Daerah,407444516821.0,0.0,0.0,False,False
+Bali,22,2026,2,Februari,38,Pendapatan Transfer Antar Daerah,407444516821.0,0.0,0.0,False,False
+Bali,22,2026,3,Maret,39,Pendapatan Transfer Antar Daerah,407444516821.0,81666697065.0,20.04,False,False
+Bali,22,2026,4,April,40,Pendapatan Transfer Antar Daerah,407444516821.0,81666697065.0,20.04,False,False
+Bali,22,2026,5,Mei,41,Pendapatan Transfer Antar Daerah,407444516821.0,81666697065.0,20.04,False,False
+Bali,22,2026,6,Juni,42,Pendapatan Transfer Antar Daerah,407444516821.0,87015373546.0,21.36,False,False
+Bali,22,2026,7,Juli,43,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,False
+Bali,22,2026,8,Agustus,44,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,True
+Bali,22,2026,9,September,45,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,True
+Bali,22,2026,10,Oktober,46,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,True
+Bali,22,2026,11,November,47,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,True
+Bali,22,2026,12,Desember,48,Pendapatan Transfer Antar Daerah,407444516821.0,88660209897.0,21.76,False,True
+Bali,22,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,186978368000.0,8.71,False,False
+Bali,22,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,293561478472.0,13.67,False,False
+Bali,22,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,543096657968.0,25.3,False,False
+Bali,22,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,748285392683.0,34.86,False,False
+Bali,22,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,748285392683.0,34.86,False,False
+Bali,22,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,965752971687.0,44.99,False,False
+Bali,22,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,1225719121918.0,57.09,False,False
+Bali,22,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,1338080958241.0,62.33,False,False
+Bali,22,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,1505992332894.0,70.15,False,False
+Bali,22,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,1670281879172.0,77.8,False,False
+Bali,22,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,1934054510870.0,90.09,False,False
+Bali,22,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,2146820137794.0,2035914798920.0,94.83,False,False
+Bali,22,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,385122020800.0,16.89,False,False
+Bali,22,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,493318746800.0,21.63,False,False
+Bali,22,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,667026656667.0,29.25,False,False
+Bali,22,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,774326552267.0,33.96,False,False
+Bali,22,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,956013910973.0,41.93,False,False
+Bali,22,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,1182240641486.0,51.85,False,False
+Bali,22,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,1300846223983.0,57.05,False,False
+Bali,22,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,1635180951858.0,71.71,False,False
+Bali,22,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,1791777819477.0,78.58,False,False
+Bali,22,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,1999370156931.0,87.68,False,False
+Bali,22,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,2194046244172.0,96.22,False,False
+Bali,22,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,2280238060000.0,2283418060237.0,100.14,False,False
+Bali,22,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,380695458000.0,15.6,False,False
+Bali,22,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,512070956175.0,20.98,False,False
+Bali,22,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,628254220805.0,25.74,False,False
+Bali,22,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,794057571520.0,32.53,False,False
+Bali,22,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,904707601515.0,37.07,False,False
+Bali,22,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,1159355607747.0,47.5,False,False
+Bali,22,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,1286207443299.0,52.7,False,False
+Bali,22,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,1540638500055.0,63.12,False,False
+Bali,22,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,1854063162181.0,75.97,False,False
+Bali,22,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,2070772197435.0,84.85,False,False
+Bali,22,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,2269160672910.0,92.97,False,False
+Bali,22,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,2440644709000.0,2379317000326.0,97.49,False,False
+Bali,22,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,373809619908.0,19.61,False,False
+Bali,22,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,563588000644.0,29.57,False,False
+Bali,22,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,683984608114.0,35.89,False,False
+Bali,22,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,847777256765.0,44.48,False,False
+Bali,22,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,947464066795.0,49.71,False,False
+Bali,22,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1012202958525.0,53.11,False,False
+Bali,22,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1135867779701.0,59.6,False,False
+Bali,22,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1163421467701.0,61.04,False,False
+Bali,22,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2023,1,Januari,1,Retribusi Daerah,59595436500.0,784781520.0,1.32,False,False
+Bali,22,2023,2,Februari,2,Retribusi Daerah,59595436500.0,1917292055.0,3.22,False,False
+Bali,22,2023,3,Maret,3,Retribusi Daerah,59595436500.0,2841700010.0,4.77,False,False
+Bali,22,2023,4,April,4,Retribusi Daerah,59595436500.0,3564204145.0,5.98,False,False
+Bali,22,2023,5,Mei,5,Retribusi Daerah,59595436500.0,3564204145.0,5.98,False,False
+Bali,22,2023,6,Juni,6,Retribusi Daerah,59595436500.0,4489069420.0,7.53,False,False
+Bali,22,2023,7,Juli,7,Retribusi Daerah,59595436500.0,6244438570.0,10.48,False,False
+Bali,22,2023,8,Agustus,8,Retribusi Daerah,59595436500.0,7835664375.0,13.15,False,False
+Bali,22,2023,9,September,9,Retribusi Daerah,59595436500.0,9685928695.0,16.25,False,False
+Bali,22,2023,10,Oktober,10,Retribusi Daerah,59595436500.0,11422872708.0,19.17,False,False
+Bali,22,2023,11,November,11,Retribusi Daerah,59595436500.0,12905802323.0,21.66,False,False
+Bali,22,2023,12,Desember,12,Retribusi Daerah,59595436500.0,14115719423.0,23.69,False,False
+Bali,22,2024,1,Januari,13,Retribusi Daerah,318677924680.0,1249515930.0,0.39,False,False
+Bali,22,2024,2,Februari,14,Retribusi Daerah,318677924680.0,2348001235.0,0.74,False,False
+Bali,22,2024,3,Maret,15,Retribusi Daerah,318677924680.0,4081746495.0,1.28,False,False
+Bali,22,2024,4,April,16,Retribusi Daerah,318677924680.0,5782193055.0,1.81,False,False
+Bali,22,2024,5,Mei,17,Retribusi Daerah,318677924680.0,7469651079.0,2.34,False,False
+Bali,22,2024,6,Juni,18,Retribusi Daerah,318677924680.0,9531907891.0,2.99,False,False
+Bali,22,2024,7,Juli,19,Retribusi Daerah,318677924680.0,11596369362.0,3.64,False,False
+Bali,22,2024,8,Agustus,20,Retribusi Daerah,318677924680.0,13711445102.0,4.3,False,False
+Bali,22,2024,9,September,21,Retribusi Daerah,318677924680.0,15554124280.0,4.88,False,False
+Bali,22,2024,10,Oktober,22,Retribusi Daerah,318677924680.0,274216316797.11,86.05,False,False
+Bali,22,2024,11,November,23,Retribusi Daerah,318677924680.0,299319264465.94,93.93,False,False
+Bali,22,2024,12,Desember,24,Retribusi Daerah,318677924680.0,338039879379.28,106.08,False,False
+Bali,22,2025,1,Januari,25,Retribusi Daerah,337336008147.0,30590090187.32,9.07,False,False
+Bali,22,2025,2,Februari,26,Retribusi Daerah,337336008147.0,49658165104.52,14.72,False,False
+Bali,22,2025,3,Maret,27,Retribusi Daerah,337336008147.0,81137955128.52,24.05,False,False
+Bali,22,2025,4,April,28,Retribusi Daerah,337336008147.0,107177589190.52,31.77,False,False
+Bali,22,2025,5,Mei,29,Retribusi Daerah,337336008147.0,133218086128.48,39.49,False,False
+Bali,22,2025,6,Juni,30,Retribusi Daerah,337336008147.0,161357556803.33,47.83,False,False
+Bali,22,2025,7,Juli,31,Retribusi Daerah,337336008147.0,195459923938.9,57.94,False,False
+Bali,22,2025,8,Agustus,32,Retribusi Daerah,337336008147.0,227407536301.52,67.41,False,False
+Bali,22,2025,9,September,33,Retribusi Daerah,337336008147.0,265421515884.52,78.68,False,False
+Bali,22,2025,10,Oktober,34,Retribusi Daerah,337336008147.0,300629696702.52,89.12,False,False
+Bali,22,2025,11,November,35,Retribusi Daerah,337336008147.0,390648776257.52,115.8,False,False
+Bali,22,2025,12,Desember,36,Retribusi Daerah,337336008147.0,909595917119.52,269.64,False,False
+Bali,22,2026,1,Januari,37,Retribusi Daerah,614927863923.0,32882723247.09,5.35,False,False
+Bali,22,2026,2,Februari,38,Retribusi Daerah,614927863923.0,75746550394.02,12.32,False,False
+Bali,22,2026,3,Maret,39,Retribusi Daerah,614927863923.0,112795443103.02,18.34,False,False
+Bali,22,2026,4,April,40,Retribusi Daerah,614927863923.0,158529384709.02,25.78,False,False
+Bali,22,2026,5,Mei,41,Retribusi Daerah,614927863923.0,191614706624.02,31.16,False,False
+Bali,22,2026,6,Juni,42,Retribusi Daerah,614927863923.0,227958047512.11,37.07,False,False
+Bali,22,2026,7,Juli,43,Retribusi Daerah,614927863923.0,230020119189.11,37.41,False,False
+Bali,22,2026,8,Agustus,44,Retribusi Daerah,614927863923.0,232288036191.11,37.77,False,False
+Bali,22,2026,9,September,45,Retribusi Daerah,614927863923.0,232342505191.11,37.78,False,False
+Bali,22,2026,10,Oktober,46,Retribusi Daerah,614927863923.0,232342505191.11,37.78,False,True
+Bali,22,2026,11,November,47,Retribusi Daerah,614927863923.0,232342505191.11,37.78,False,True
+Bali,22,2026,12,Desember,48,Retribusi Daerah,614927863923.0,232342505191.11,37.78,False,True
+Bali,22,2023,1,Januari,1,TKDD,2146820137794.0,186978368000.0,8.71,False,False
+Bali,22,2023,2,Februari,2,TKDD,2146820137794.0,293561478472.0,13.67,False,False
+Bali,22,2023,3,Maret,3,TKDD,2146820137794.0,543096657968.0,25.3,False,False
+Bali,22,2023,4,April,4,TKDD,2146820137794.0,748285392683.0,34.86,False,False
+Bali,22,2023,5,Mei,5,TKDD,2146820137794.0,748285392683.0,34.86,False,False
+Bali,22,2023,6,Juni,6,TKDD,2146820137794.0,965752971687.0,44.99,False,False
+Bali,22,2023,7,Juli,7,TKDD,2146820137794.0,1225719121918.0,57.09,False,False
+Bali,22,2023,8,Agustus,8,TKDD,2146820137794.0,1338080958241.0,62.33,False,False
+Bali,22,2023,9,September,9,TKDD,2146820137794.0,1505992332894.0,70.15,False,False
+Bali,22,2023,10,Oktober,10,TKDD,2146820137794.0,1670281879172.0,77.8,False,False
+Bali,22,2023,11,November,11,TKDD,2146820137794.0,1934054510870.0,90.09,False,False
+Bali,22,2023,12,Desember,12,TKDD,2146820137794.0,2035914798920.0,94.83,False,False
+Bali,22,2024,1,Januari,13,TKDD,2280238060000.0,385122020800.0,16.89,False,False
+Bali,22,2024,2,Februari,14,TKDD,2280238060000.0,493318746800.0,21.63,False,False
+Bali,22,2024,3,Maret,15,TKDD,2280238060000.0,667026656667.0,29.25,False,False
+Bali,22,2024,4,April,16,TKDD,2280238060000.0,774326552267.0,33.96,False,False
+Bali,22,2024,5,Mei,17,TKDD,2280238060000.0,956013910973.0,41.93,False,False
+Bali,22,2024,6,Juni,18,TKDD,2280238060000.0,1182240641486.0,51.85,False,False
+Bali,22,2024,7,Juli,19,TKDD,2280238060000.0,1300846223983.0,57.05,False,False
+Bali,22,2024,8,Agustus,20,TKDD,2280238060000.0,1635180951858.0,71.71,False,False
+Bali,22,2024,9,September,21,TKDD,2280238060000.0,1791777819477.0,78.58,False,False
+Bali,22,2024,10,Oktober,22,TKDD,2280238060000.0,1999370156931.0,87.68,False,False
+Bali,22,2024,11,November,23,TKDD,2280238060000.0,2194046244172.0,96.22,False,False
+Bali,22,2024,12,Desember,24,TKDD,2280238060000.0,2283418060237.0,100.14,False,False
+Bali,22,2025,1,Januari,25,TKDD,2440644709000.0,380695458000.0,15.6,False,False
+Bali,22,2025,2,Februari,26,TKDD,2440644709000.0,512070956175.0,20.98,False,False
+Bali,22,2025,3,Maret,27,TKDD,2440644709000.0,628254220805.0,25.74,False,False
+Bali,22,2025,4,April,28,TKDD,2440644709000.0,794057571520.0,32.53,False,False
+Bali,22,2025,5,Mei,29,TKDD,2440644709000.0,904707601515.0,37.07,False,False
+Bali,22,2025,6,Juni,30,TKDD,2440644709000.0,1159355607747.0,47.5,False,False
+Bali,22,2025,7,Juli,31,TKDD,2440644709000.0,1286207443299.0,52.7,False,False
+Bali,22,2025,8,Agustus,32,TKDD,2440644709000.0,1540638500055.0,63.12,False,False
+Bali,22,2025,9,September,33,TKDD,2440644709000.0,1854063162181.0,75.97,False,False
+Bali,22,2025,10,Oktober,34,TKDD,2440644709000.0,2070772197435.0,84.85,False,False
+Bali,22,2025,11,November,35,TKDD,2440644709000.0,2269160672910.0,92.97,False,False
+Bali,22,2025,12,Desember,36,TKDD,2440644709000.0,2379317000326.0,97.49,False,False
+Bali,22,2026,1,Januari,37,TKDD,1905846624800.0,373809619908.0,19.61,False,False
+Bali,22,2026,2,Februari,38,TKDD,1905846624800.0,563588000644.0,29.57,False,False
+Bali,22,2026,3,Maret,39,TKDD,1905846624800.0,683984608114.0,35.89,False,False
+Bali,22,2026,4,April,40,TKDD,1905846624800.0,847777256765.0,44.48,False,False
+Bali,22,2026,5,Mei,41,TKDD,1905846624800.0,947464066795.0,49.71,False,False
+Bali,22,2026,6,Juni,42,TKDD,1905846624800.0,1012202958525.0,53.11,False,False
+Bali,22,2026,7,Juli,43,TKDD,1905846624800.0,1135867779701.0,59.6,False,False
+Bali,22,2026,8,Agustus,44,TKDD,1905846624800.0,1163421467701.0,61.04,False,False
+Bali,22,2026,9,September,45,TKDD,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,10,Oktober,46,TKDD,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,11,November,47,TKDD,1905846624800.0,1163421467701.0,61.04,False,True
+Bali,22,2026,12,Desember,48,TKDD,1905846624800.0,1163421467701.0,61.04,False,True

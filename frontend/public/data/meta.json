@@ -1,13 +1,43 @@
 {
-  "generated_at": "2026-09-08T00:13:05.316034",
+  "generated_at": "2026-09-24T06:59:16.267755",
   "provinces": [
+    "Aceh",
     "Bali",
+    "Bangka Belitung",
     "Banten",
+    "Bengkulu",
     "DI Yogyakarta",
     "DKI Jakarta",
+    "Gorontalo",
+    "Jambi",
     "Jawa Barat",
     "Jawa Tengah",
     "Jawa Timur",
+    "Kalimantan Barat",
+    "Kalimantan Selatan",
+    "Kalimantan Tengah",
+    "Kalimantan Timur",
+    "Kalimantan Utara",
+    "Kepulauan Riau",
+    "Lampung",
+    "Maluku",
+    "Maluku Utara",
+    "NTB",
+    "NTT",
+    "Papua",
+    "Papua Barat",
+    "Papua Barat Daya",
+    "Papua Pegunungan",
+    "Papua Selatan",
+    "Papua Tengah",
+    "Riau",
+    "Sulawesi Barat",
+    "Sulawesi Selatan",
+    "Sulawesi Tengah",
+    "Sulawesi Tenggara",
+    "Sulawesi Utara",
+    "Sumatera Barat",
+    "Sumatera Selatan",
     "Sumatera Utara"
   ],
   "tax_types": [
@@ -51,12 +81,13 @@
     "min": "2023-01-01 00:00:00",
     "max": "2025-12-01 00:00:00"
   },
-  "total_rows": 3960,
+  "total_rows": 17026,
   "available_models": [
+    "serapan",
     "theta",
     "prophet"
   ],
-  "active_model": "theta",
-  "active_model_name": "Theta Method (Primary)",
-  "last_switched": "2026-09-08T00:19:30.185069"
+  "active_model": "serapan",
+  "active_model_name": "Profil Serapan Berjangkar",
+  "last_switched": "2026-09-24T06:59:53.174433"
 }

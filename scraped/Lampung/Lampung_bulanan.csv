@@ -1,0 +1,997 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Lampung,8,2023,1,Januari,1,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,3,Maret,3,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,4,April,4,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,5,Mei,5,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,6,Juni,6,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,7,Juli,7,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,9,September,9,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,11,November,11,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Lampung,8,2023,12,Desember,12,Belanja Bantuan Keuangan,0.0,15840000000.0,0.0,False,False
+Lampung,8,2025,1,Januari,25,Belanja Bantuan Keuangan,1000000000.0,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Belanja Bantuan Keuangan,1000000000.0,0.0,0.0,False,False
+Lampung,8,2025,3,Maret,27,Belanja Bantuan Keuangan,1000000000.0,0.0,0.0,False,False
+Lampung,8,2025,4,April,28,Belanja Bantuan Keuangan,1000000000.0,0.0,0.0,False,False
+Lampung,8,2025,5,Mei,29,Belanja Bantuan Keuangan,1000000000.0,10000000000.0,1.0,False,False
+Lampung,8,2025,6,Juni,30,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,False
+Lampung,8,2025,7,Juli,31,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2025,8,Agustus,32,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2025,9,September,33,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2025,10,Oktober,34,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2025,11,November,35,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2025,12,Desember,36,Belanja Bantuan Keuangan,1000000000.0,11000000000.0,1.1,False,True
+Lampung,8,2026,1,Januari,37,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,2,Februari,38,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,3,Maret,39,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,4,April,40,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,5,Mei,41,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,6,Juni,42,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,7,Juli,43,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,8,Agustus,44,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,9,September,45,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,10,Oktober,46,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,11,November,47,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2026,12,Desember,48,Belanja Bantuan Keuangan,41960000000.0,0.0,0.0,True,False
+Lampung,8,2023,1,Januari,1,Belanja Bantuan Sosial,13890964700.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Bantuan Sosial,13890964700.0,17295000.0,0.12,False,False
+Lampung,8,2023,3,Maret,3,Belanja Bantuan Sosial,13890964700.0,34642000.0,0.25,False,False
+Lampung,8,2023,4,April,4,Belanja Bantuan Sosial,13890964700.0,88002000.0,0.63,False,False
+Lampung,8,2023,5,Mei,5,Belanja Bantuan Sosial,13890964700.0,88002000.0,0.63,False,False
+Lampung,8,2023,6,Juni,6,Belanja Bantuan Sosial,13890964700.0,105162000.0,0.76,False,False
+Lampung,8,2023,7,Juli,7,Belanja Bantuan Sosial,13890964700.0,122482000.0,0.88,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Bantuan Sosial,13890964700.0,193772000.0,1.39,False,False
+Lampung,8,2023,9,September,9,Belanja Bantuan Sosial,13890964700.0,193772000.0,1.39,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Bantuan Sosial,13890964700.0,1198346000.0,8.63,False,False
+Lampung,8,2023,11,November,11,Belanja Bantuan Sosial,13890964700.0,5457656000.0,39.29,False,False
+Lampung,8,2023,12,Desember,12,Belanja Bantuan Sosial,13890964700.0,13382309000.0,96.34,False,False
+Lampung,8,2024,1,Januari,13,Belanja Bantuan Sosial,5130190000.0,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Belanja Bantuan Sosial,5130190000.0,0.0,0.0,False,False
+Lampung,8,2024,3,Maret,15,Belanja Bantuan Sosial,5130190000.0,29840000.0,0.58,False,False
+Lampung,8,2024,4,April,16,Belanja Bantuan Sosial,5130190000.0,165990000.0,3.24,False,False
+Lampung,8,2024,5,Mei,17,Belanja Bantuan Sosial,5130190000.0,378490000.0,7.38,False,False
+Lampung,8,2024,6,Juni,18,Belanja Bantuan Sosial,5130190000.0,479740000.0,9.35,False,False
+Lampung,8,2024,7,Juli,19,Belanja Bantuan Sosial,5130190000.0,579840000.0,11.3,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Bantuan Sosial,5130190000.0,634463800.0,12.37,False,False
+Lampung,8,2024,9,September,21,Belanja Bantuan Sosial,5130190000.0,634463800.0,12.37,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Bantuan Sosial,5130190000.0,706245300.0,13.77,False,False
+Lampung,8,2024,11,November,23,Belanja Bantuan Sosial,5130190000.0,1249495300.0,24.36,False,False
+Lampung,8,2024,12,Desember,24,Belanja Bantuan Sosial,5130190000.0,2168825300.0,42.28,False,False
+Lampung,8,2025,1,Januari,25,Belanja Bantuan Sosial,3466862199.5,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Belanja Bantuan Sosial,3466862199.5,17235000.0,0.5,False,False
+Lampung,8,2025,3,Maret,27,Belanja Bantuan Sosial,3466862199.5,34400000.0,0.99,False,False
+Lampung,8,2025,4,April,28,Belanja Bantuan Sosial,3466862199.5,301510000.0,8.7,False,False
+Lampung,8,2025,5,Mei,29,Belanja Bantuan Sosial,3466862199.5,321303000.0,9.27,False,False
+Lampung,8,2025,6,Juni,30,Belanja Bantuan Sosial,3466862199.5,353518000.0,10.2,False,False
+Lampung,8,2025,7,Juli,31,Belanja Bantuan Sosial,3466862199.5,372500000.0,10.74,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Bantuan Sosial,3466862199.5,389624000.0,11.24,False,False
+Lampung,8,2025,9,September,33,Belanja Bantuan Sosial,3466862199.5,406950000.0,11.74,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Bantuan Sosial,3466862199.5,424970000.0,12.26,False,False
+Lampung,8,2025,11,November,35,Belanja Bantuan Sosial,3466862199.5,442386000.0,12.76,False,False
+Lampung,8,2025,12,Desember,36,Belanja Bantuan Sosial,3466862199.5,564603900.0,16.29,False,False
+Lampung,8,2026,1,Januari,37,Belanja Bantuan Sosial,4321605779.5,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Bantuan Sosial,4321605779.5,12420000.0,0.29,False,False
+Lampung,8,2026,3,Maret,39,Belanja Bantuan Sosial,4321605779.5,27384000.0,0.63,False,False
+Lampung,8,2026,4,April,40,Belanja Bantuan Sosial,4321605779.5,39852000.0,0.92,False,False
+Lampung,8,2026,5,Mei,41,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,False
+Lampung,8,2026,6,Juni,42,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,7,Juli,43,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,8,Agustus,44,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,9,September,45,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,11,November,47,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2026,12,Desember,48,Belanja Bantuan Sosial,4321605779.5,52328000.0,1.21,False,True
+Lampung,8,2023,1,Januari,1,Belanja Barang dan Jasa,1783971961661.5,9305383834.0,0.52,False,False
+Lampung,8,2023,2,Februari,2,Belanja Barang dan Jasa,1783971961661.5,18194548482.0,1.02,False,False
+Lampung,8,2023,3,Maret,3,Belanja Barang dan Jasa,1783971961661.5,131698651102.0,7.38,False,False
+Lampung,8,2023,4,April,4,Belanja Barang dan Jasa,1783971961661.5,225843898430.0,12.66,False,False
+Lampung,8,2023,5,Mei,5,Belanja Barang dan Jasa,1783971961661.5,225843898430.0,12.66,False,False
+Lampung,8,2023,6,Juni,6,Belanja Barang dan Jasa,1783971961661.5,338936437595.0,19.0,False,False
+Lampung,8,2023,7,Juli,7,Belanja Barang dan Jasa,1783971961661.5,454796158120.0,25.49,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Barang dan Jasa,1783971961661.5,637591416841.0,35.74,False,False
+Lampung,8,2023,9,September,9,Belanja Barang dan Jasa,1783971961661.5,849205690129.0,47.6,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Barang dan Jasa,1783971961661.5,1002214591373.0,56.18,False,False
+Lampung,8,2023,11,November,11,Belanja Barang dan Jasa,1783971961661.5,1223790671725.0,68.6,False,False
+Lampung,8,2023,12,Desember,12,Belanja Barang dan Jasa,1783971961661.5,1780643718721.0,99.81,False,False
+Lampung,8,2024,1,Januari,13,Belanja Barang dan Jasa,2011908858947.3,13684252269.0,0.68,False,False
+Lampung,8,2024,2,Februari,14,Belanja Barang dan Jasa,2011908858947.3,96475078016.5,4.8,False,False
+Lampung,8,2024,3,Maret,15,Belanja Barang dan Jasa,2011908858947.3,233861313308.9,11.62,False,False
+Lampung,8,2024,4,April,16,Belanja Barang dan Jasa,2011908858947.3,332602189396.28,16.53,False,False
+Lampung,8,2024,5,Mei,17,Belanja Barang dan Jasa,2011908858947.3,556937876935.43,27.68,False,False
+Lampung,8,2024,6,Juni,18,Belanja Barang dan Jasa,2011908858947.3,619891773059.07,30.81,False,False
+Lampung,8,2024,7,Juli,19,Belanja Barang dan Jasa,2011908858947.3,866178892380.47,43.05,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Barang dan Jasa,2011908858947.3,1086200468488.9,53.99,False,False
+Lampung,8,2024,9,September,21,Belanja Barang dan Jasa,2011908858947.3,1175984222720.9,58.45,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Barang dan Jasa,2011908858947.3,1301405575547.5,64.69,False,False
+Lampung,8,2024,11,November,23,Belanja Barang dan Jasa,2011908858947.3,1499281806936.5,74.52,False,False
+Lampung,8,2024,12,Desember,24,Belanja Barang dan Jasa,2011908858947.3,1978510550970.1,98.34,False,False
+Lampung,8,2025,1,Januari,25,Belanja Barang dan Jasa,1897854129785.6,38767074735.0,2.04,False,False
+Lampung,8,2025,2,Februari,26,Belanja Barang dan Jasa,1897854129785.6,78569028535.0,4.14,False,False
+Lampung,8,2025,3,Maret,27,Belanja Barang dan Jasa,1897854129785.6,204289704093.88,10.76,False,False
+Lampung,8,2025,4,April,28,Belanja Barang dan Jasa,1897854129785.6,329305238845.88,17.35,False,False
+Lampung,8,2025,5,Mei,29,Belanja Barang dan Jasa,1897854129785.6,559476145966.9,29.48,False,False
+Lampung,8,2025,6,Juni,30,Belanja Barang dan Jasa,1897854129785.6,684697219412.96,36.08,False,False
+Lampung,8,2025,7,Juli,31,Belanja Barang dan Jasa,1897854129785.6,771741979137.94,40.66,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Barang dan Jasa,1897854129785.6,994785112965.12,52.42,False,False
+Lampung,8,2025,9,September,33,Belanja Barang dan Jasa,1897854129785.6,1074059463403.9,56.59,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Barang dan Jasa,1897854129785.6,1199489035147.2,63.2,False,False
+Lampung,8,2025,11,November,35,Belanja Barang dan Jasa,1897854129785.6,1317934718335.8,69.44,False,False
+Lampung,8,2025,12,Desember,36,Belanja Barang dan Jasa,1897854129785.6,1684388498644.2,88.75,False,False
+Lampung,8,2026,1,Januari,37,Belanja Barang dan Jasa,1903944845911.1,12118638019.0,0.64,False,False
+Lampung,8,2026,2,Februari,38,Belanja Barang dan Jasa,1903944845911.1,129315335025.06,6.79,False,False
+Lampung,8,2026,3,Maret,39,Belanja Barang dan Jasa,1903944845911.1,225900217226.25,11.86,False,False
+Lampung,8,2026,4,April,40,Belanja Barang dan Jasa,1903944845911.1,419690700653.75,22.04,False,False
+Lampung,8,2026,5,Mei,41,Belanja Barang dan Jasa,1903944845911.1,503449386411.13,26.44,False,False
+Lampung,8,2026,6,Juni,42,Belanja Barang dan Jasa,1903944845911.1,677598992528.34,35.59,False,False
+Lampung,8,2026,7,Juli,43,Belanja Barang dan Jasa,1903944845911.1,831324371587.26,43.66,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Barang dan Jasa,1903944845911.1,1128782082910.5,59.29,False,False
+Lampung,8,2026,9,September,45,Belanja Barang dan Jasa,1903944845911.1,1142555131939.9,60.01,False,False
+Lampung,8,2026,10,Oktober,46,Belanja Barang dan Jasa,1903944845911.1,1142555131939.9,60.01,False,True
+Lampung,8,2026,11,November,47,Belanja Barang dan Jasa,1903944845911.1,1142555131939.9,60.01,False,True
+Lampung,8,2026,12,Desember,48,Belanja Barang dan Jasa,1903944845911.1,1142555131939.9,60.01,False,True
+Lampung,8,2023,1,Januari,1,Belanja Bunga,3547643288.0,1764233471.0,49.73,False,False
+Lampung,8,2023,2,Februari,2,Belanja Bunga,3547643288.0,1764233471.0,49.73,False,False
+Lampung,8,2023,3,Maret,3,Belanja Bunga,3547643288.0,1764233471.0,49.73,False,False
+Lampung,8,2023,4,April,4,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,False
+Lampung,8,2023,5,Mei,5,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,6,Juni,6,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,7,Juli,7,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,8,Agustus,8,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,9,September,9,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,10,Oktober,10,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,11,November,11,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2023,12,Desember,12,Belanja Bunga,3547643288.0,2914820485.0,82.16,False,True
+Lampung,8,2026,1,Januari,37,Belanja Bunga,41457723215.0,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Bunga,41457723215.0,0.0,0.0,False,False
+Lampung,8,2026,3,Maret,39,Belanja Bunga,41457723215.0,0.0,0.0,False,False
+Lampung,8,2026,4,April,40,Belanja Bunga,41457723215.0,2500000000.0,6.03,False,False
+Lampung,8,2026,5,Mei,41,Belanja Bunga,41457723215.0,2500000000.0,6.03,False,False
+Lampung,8,2026,6,Juni,42,Belanja Bunga,41457723215.0,3368068015.0,8.12,False,False
+Lampung,8,2026,7,Juli,43,Belanja Bunga,41457723215.0,4322522641.0,10.43,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Bunga,41457723215.0,5434448021.0,13.11,False,False
+Lampung,8,2026,9,September,45,Belanja Bunga,41457723215.0,5434448021.0,13.11,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Bunga,41457723215.0,5434448021.0,13.11,False,True
+Lampung,8,2026,11,November,47,Belanja Bunga,41457723215.0,5434448021.0,13.11,False,True
+Lampung,8,2026,12,Desember,48,Belanja Bunga,41457723215.0,5434448021.0,13.11,False,True
+Lampung,8,2023,1,Januari,1,Belanja Daerah,7381761189686.0,248643865288.0,3.37,False,False
+Lampung,8,2023,2,Februari,2,Belanja Daerah,7381761189686.0,360690784713.0,4.89,False,False
+Lampung,8,2023,3,Maret,3,Belanja Daerah,7381761189686.0,886216397799.0,12.01,False,False
+Lampung,8,2023,4,April,4,Belanja Daerah,7381761189686.0,1285572111848.0,17.42,False,False
+Lampung,8,2023,5,Mei,5,Belanja Daerah,7381761189686.0,1285572111848.0,17.42,False,False
+Lampung,8,2023,6,Juni,6,Belanja Daerah,7381761189686.0,1706416965906.6,23.12,False,False
+Lampung,8,2023,7,Juli,7,Belanja Daerah,7381761189686.0,2358883998187.6,31.96,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Daerah,7381761189686.0,2929179099496.5,39.68,False,False
+Lampung,8,2023,9,September,9,Belanja Daerah,7381761189686.0,3572837625776.4,48.4,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Daerah,7381761189686.0,4094045880840.7,55.46,False,False
+Lampung,8,2023,11,November,11,Belanja Daerah,7381761189686.0,4827703570227.4,65.4,False,False
+Lampung,8,2023,12,Desember,12,Belanja Daerah,7381761189686.0,6402446701933.6,86.73,False,False
+Lampung,8,2024,1,Januari,13,Belanja Daerah,8333594479430.4,99550383282.0,1.19,False,False
+Lampung,8,2024,2,Februari,14,Belanja Daerah,8333594479430.4,445168505692.5,5.34,False,False
+Lampung,8,2024,3,Maret,15,Belanja Daerah,8333594479430.4,990758404830.9,11.89,False,False
+Lampung,8,2024,4,April,16,Belanja Daerah,8333594479430.4,1648224607592.3,19.78,False,False
+Lampung,8,2024,5,Mei,17,Belanja Daerah,8333594479430.4,2274401923898.4,27.29,False,False
+Lampung,8,2024,6,Juni,18,Belanja Daerah,8333594479430.4,2780700836639.4,33.37,False,False
+Lampung,8,2024,7,Juli,19,Belanja Daerah,8333594479430.4,3501034373049.8,42.01,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Daerah,8333594479430.4,4263240299818.4,51.16,False,False
+Lampung,8,2024,9,September,21,Belanja Daerah,8333594479430.4,4640512421619.4,55.68,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Daerah,8333594479430.4,5389246305420.3,64.67,False,False
+Lampung,8,2024,11,November,23,Belanja Daerah,8333594479430.4,6143630289767.9,73.72,False,False
+Lampung,8,2024,12,Desember,24,Belanja Daerah,8333594479430.4,7506927248825.2,90.08,False,False
+Lampung,8,2025,1,Januari,25,Belanja Daerah,7632909717848.2,196049586281.0,2.57,False,False
+Lampung,8,2025,2,Februari,26,Belanja Daerah,7632909717848.2,438188416022.0,5.74,False,False
+Lampung,8,2025,3,Maret,27,Belanja Daerah,7632909717848.2,998750365249.88,13.08,False,False
+Lampung,8,2025,4,April,28,Belanja Daerah,7632909717848.2,1420587827001.6,18.61,False,False
+Lampung,8,2025,5,Mei,29,Belanja Daerah,7632909717848.2,1951835514337.6,25.57,False,False
+Lampung,8,2025,6,Juni,30,Belanja Daerah,7632909717848.2,2417078359187.8,31.67,False,False
+Lampung,8,2025,7,Juli,31,Belanja Daerah,7632909717848.2,2909036981118.5,38.11,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Daerah,7632909717848.2,3670987490652.1,48.09,False,False
+Lampung,8,2025,9,September,33,Belanja Daerah,7632909717848.2,4217281661173.4,55.25,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Daerah,7632909717848.2,4593796443900.4,60.18,False,False
+Lampung,8,2025,11,November,35,Belanja Daerah,7632909717848.2,5176311332084.1,67.82,False,False
+Lampung,8,2025,12,Desember,36,Belanja Daerah,7632909717848.2,6685284828466.8,87.59,False,False
+Lampung,8,2026,1,Januari,37,Belanja Daerah,7916532370311.0,157095215773.0,1.98,False,False
+Lampung,8,2026,2,Februari,38,Belanja Daerah,7916532370311.0,504812264744.81,6.38,False,False
+Lampung,8,2026,3,Maret,39,Belanja Daerah,7916532370311.0,934852581023.28,11.81,False,False
+Lampung,8,2026,4,April,40,Belanja Daerah,7916532370311.0,1471444114353.2,18.59,False,False
+Lampung,8,2026,5,Mei,41,Belanja Daerah,7916532370311.0,1832829605013.6,23.15,False,False
+Lampung,8,2026,6,Juni,42,Belanja Daerah,7916532370311.0,2468016663133.3,31.18,False,False
+Lampung,8,2026,7,Juli,43,Belanja Daerah,7916532370311.0,3094207479260.8,39.09,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Daerah,7916532370311.0,3762333759148.0,47.53,False,False
+Lampung,8,2026,9,September,45,Belanja Daerah,7916532370311.0,3910916250688.4,49.4,False,False
+Lampung,8,2026,10,Oktober,46,Belanja Daerah,7916532370311.0,3910916250688.4,49.4,False,True
+Lampung,8,2026,11,November,47,Belanja Daerah,7916532370311.0,3910916250688.4,49.4,False,True
+Lampung,8,2026,12,Desember,48,Belanja Daerah,7916532370311.0,3910916250688.4,49.4,False,True
+Lampung,8,2023,1,Januari,1,Belanja Hibah,689739545425.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Hibah,689739545425.0,618570800.0,0.09,False,False
+Lampung,8,2023,3,Maret,3,Belanja Hibah,689739545425.0,8025074300.0,1.16,False,False
+Lampung,8,2023,4,April,4,Belanja Hibah,689739545425.0,11982877258.0,1.74,False,False
+Lampung,8,2023,5,Mei,5,Belanja Hibah,689739545425.0,11982877258.0,1.74,False,False
+Lampung,8,2023,6,Juni,6,Belanja Hibah,689739545425.0,41035719425.22,5.95,False,False
+Lampung,8,2023,7,Juli,7,Belanja Hibah,689739545425.0,54029795480.22,7.83,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Hibah,689739545425.0,95495657335.0,13.85,False,False
+Lampung,8,2023,9,September,9,Belanja Hibah,689739545425.0,209598634264.87,30.39,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Hibah,689739545425.0,249437336504.84,36.16,False,False
+Lampung,8,2023,11,November,11,Belanja Hibah,689739545425.0,302688197922.02,43.88,False,False
+Lampung,8,2023,12,Desember,12,Belanja Hibah,689739545425.0,543231309506.67,78.76,False,False
+Lampung,8,2024,1,Januari,13,Belanja Hibah,846615926797.0,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Belanja Hibah,846615926797.0,69759994000.0,8.24,False,False
+Lampung,8,2024,3,Maret,15,Belanja Hibah,846615926797.0,89080760820.0,10.52,False,False
+Lampung,8,2024,4,April,16,Belanja Hibah,846615926797.0,165228116280.0,19.52,False,False
+Lampung,8,2024,5,Mei,17,Belanja Hibah,846615926797.0,169690603280.0,20.04,False,False
+Lampung,8,2024,6,Juni,18,Belanja Hibah,846615926797.0,359779325600.97,42.5,False,False
+Lampung,8,2024,7,Juli,19,Belanja Hibah,846615926797.0,445467753838.97,52.62,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Hibah,846615926797.0,573920591106.97,67.79,False,False
+Lampung,8,2024,9,September,21,Belanja Hibah,846615926797.0,578130898356.97,68.29,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Hibah,846615926797.0,593858040795.92,70.14,False,False
+Lampung,8,2024,11,November,23,Belanja Hibah,846615926797.0,619625471175.66,73.19,False,False
+Lampung,8,2024,12,Desember,24,Belanja Hibah,846615926797.0,797920710118.9,94.25,False,False
+Lampung,8,2025,1,Januari,25,Belanja Hibah,385958861512.62,30000000000.0,7.77,False,False
+Lampung,8,2025,2,Februari,26,Belanja Hibah,385958861512.62,30000000000.0,7.77,False,False
+Lampung,8,2025,3,Maret,27,Belanja Hibah,385958861512.62,40823788302.0,10.58,False,False
+Lampung,8,2025,4,April,28,Belanja Hibah,385958861512.62,60531801406.71,15.68,False,False
+Lampung,8,2025,5,Mei,29,Belanja Hibah,385958861512.62,77369232229.71,20.05,False,False
+Lampung,8,2025,6,Juni,30,Belanja Hibah,385958861512.62,92477692879.71,23.96,False,False
+Lampung,8,2025,7,Juli,31,Belanja Hibah,385958861512.62,99449308247.71,25.77,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Hibah,385958861512.62,206217996997.71,53.43,False,False
+Lampung,8,2025,9,September,33,Belanja Hibah,385958861512.62,211649039405.4,54.84,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Hibah,385958861512.62,220053189028.18,57.01,False,False
+Lampung,8,2025,11,November,35,Belanja Hibah,385958861512.62,240295232363.8,62.26,False,False
+Lampung,8,2025,12,Desember,36,Belanja Hibah,385958861512.62,385637200798.9,99.92,False,False
+Lampung,8,2026,1,Januari,37,Belanja Hibah,321861870260.0,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Hibah,321861870260.0,22564755114.88,7.01,False,False
+Lampung,8,2026,3,Maret,39,Belanja Hibah,321861870260.0,32291941149.02,10.03,False,False
+Lampung,8,2026,4,April,40,Belanja Hibah,321861870260.0,45921485804.96,14.27,False,False
+Lampung,8,2026,5,Mei,41,Belanja Hibah,321861870260.0,51246461004.96,15.92,False,False
+Lampung,8,2026,6,Juni,42,Belanja Hibah,321861870260.0,53844701004.96,16.73,False,False
+Lampung,8,2026,7,Juli,43,Belanja Hibah,321861870260.0,81709748964.96,25.39,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Hibah,321861870260.0,193013937294.96,59.97,False,False
+Lampung,8,2026,9,September,45,Belanja Hibah,321861870260.0,193013937294.96,59.97,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Hibah,321861870260.0,193013937294.96,59.97,False,True
+Lampung,8,2026,11,November,47,Belanja Hibah,321861870260.0,193013937294.96,59.97,False,True
+Lampung,8,2026,12,Desember,48,Belanja Hibah,321861870260.0,193013937294.96,59.97,False,True
+Lampung,8,2023,1,Januari,1,Belanja Lainnya,2202717897600.0,152613452953.0,6.93,False,False
+Lampung,8,2023,2,Februari,2,Belanja Lainnya,2202717897600.0,153249318753.0,6.96,False,False
+Lampung,8,2023,3,Maret,3,Belanja Lainnya,2202717897600.0,416985192333.0,18.93,False,False
+Lampung,8,2023,4,April,4,Belanja Lainnya,2202717897600.0,422170942305.0,19.17,False,False
+Lampung,8,2023,5,Mei,5,Belanja Lainnya,2202717897600.0,422170942305.0,19.17,False,False
+Lampung,8,2023,6,Juni,6,Belanja Lainnya,2202717897600.0,471695110184.22,21.41,False,False
+Lampung,8,2023,7,Juli,7,Belanja Lainnya,2202717897600.0,755304437801.22,34.29,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Lainnya,2202717897600.0,903103937553.0,41.0,False,False
+Lampung,8,2023,9,September,9,Belanja Lainnya,2202717897600.0,1017239414482.9,46.18,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Lainnya,2202717897600.0,1127491312271.8,51.19,False,False
+Lampung,8,2023,11,November,11,Belanja Lainnya,2202717897600.0,1241463116083.0,56.36,False,False
+Lampung,8,2023,12,Desember,12,Belanja Lainnya,2202717897600.0,1602124013319.7,72.73,False,False
+Lampung,8,2024,1,Januari,13,Belanja Lainnya,2637717259989.6,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Belanja Lainnya,2637717259989.6,149813802970.0,5.68,False,False
+Lampung,8,2024,3,Maret,15,Belanja Lainnya,2637717259989.6,318846532936.0,12.09,False,False
+Lampung,8,2024,4,April,16,Belanja Lainnya,2637717259989.6,594795372092.0,22.55,False,False
+Lampung,8,2024,5,Mei,17,Belanja Lainnya,2637717259989.6,734810253574.0,27.86,False,False
+Lampung,8,2024,6,Juni,18,Belanja Lainnya,2637717259989.6,1036263393124.1,39.29,False,False
+Lampung,8,2024,7,Juli,19,Belanja Lainnya,2637717259989.6,1122104421362.1,42.54,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Lainnya,2637717259989.6,1396497526119.1,52.94,False,False
+Lampung,8,2024,9,September,21,Belanja Lainnya,2637717259989.6,1492587987031.1,56.59,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Lainnya,2637717259989.6,1872262395203.0,70.98,False,False
+Lampung,8,2024,11,November,23,Belanja Lainnya,2637717259989.6,2087514001221.8,79.14,False,False
+Lampung,8,2024,12,Desember,24,Belanja Lainnya,2637717259989.6,2345100567310.0,88.91,False,False
+Lampung,8,2025,1,Januari,25,Belanja Lainnya,1838171355513.4,30000000000.0,1.63,False,False
+Lampung,8,2025,2,Februari,26,Belanja Lainnya,1838171355513.4,108871248886.0,5.92,False,False
+Lampung,8,2025,3,Maret,27,Belanja Lainnya,1838171355513.4,137815830947.0,7.5,False,False
+Lampung,8,2025,4,April,28,Belanja Lainnya,1838171355513.4,157790954051.71,8.58,False,False
+Lampung,8,2025,5,Mei,29,Belanja Lainnya,1838171355513.4,184698177874.71,10.05,False,False
+Lampung,8,2025,6,Juni,30,Belanja Lainnya,1838171355513.4,212955166272.71,11.59,False,False
+Lampung,8,2025,7,Juli,31,Belanja Lainnya,1838171355513.4,421392810486.71,22.92,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Lainnya,1838171355513.4,660800416023.71,35.95,False,False
+Lampung,8,2025,9,September,33,Belanja Lainnya,1838171355513.4,887051681403.4,48.26,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Lainnya,1838171355513.4,920326938075.18,50.07,False,False
+Lampung,8,2025,11,November,35,Belanja Lainnya,1838171355513.4,1063724011929.8,57.87,False,False
+Lampung,8,2025,12,Desember,36,Belanja Lainnya,1838171355513.4,1209438198264.9,65.8,False,False
+Lampung,8,2026,1,Januari,37,Belanja Lainnya,1460802785133.6,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Lainnya,1460802785133.6,22577175114.88,1.55,False,False
+Lampung,8,2026,3,Maret,39,Belanja Lainnya,1460802785133.6,32359325149.02,2.22,False,False
+Lampung,8,2026,4,April,40,Belanja Lainnya,1460802785133.6,194499735704.96,13.31,False,False
+Lampung,8,2026,5,Mei,41,Belanja Lainnya,1460802785133.6,199997186904.96,13.69,False,False
+Lampung,8,2026,6,Juni,42,Belanja Lainnya,1460802785133.6,361932100401.96,24.78,False,False
+Lampung,8,2026,7,Juli,43,Belanja Lainnya,1460802785133.6,577580783152.96,39.54,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Lainnya,1460802785133.6,690804904876.96,47.29,False,False
+Lampung,8,2026,9,September,45,Belanja Lainnya,1460802785133.6,690804904876.96,47.29,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Lainnya,1460802785133.6,690804904876.96,47.29,False,True
+Lampung,8,2026,11,November,47,Belanja Lainnya,1460802785133.6,690804904876.96,47.29,False,True
+Lampung,8,2026,12,Desember,48,Belanja Lainnya,1460802785133.6,690804904876.96,47.29,False,True
+Lampung,8,2023,1,Januari,1,Belanja Modal,1250016555778.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Modal,1250016555778.0,633630400.0,0.05,False,False
+Lampung,8,2023,3,Maret,3,Belanja Modal,1250016555778.0,41276594531.0,3.3,False,False
+Lampung,8,2023,4,April,4,Belanja Modal,1250016555778.0,62424237331.0,4.99,False,False
+Lampung,8,2023,5,Mei,5,Belanja Modal,1250016555778.0,62424237331.0,4.99,False,False
+Lampung,8,2023,6,Juni,6,Belanja Modal,1250016555778.0,109581124148.38,8.77,False,False
+Lampung,8,2023,7,Juli,7,Belanja Modal,1250016555778.0,158623442702.38,12.69,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Modal,1250016555778.0,279768720696.55,22.38,False,False
+Lampung,8,2023,9,September,9,Belanja Modal,1250016555778.0,425827910223.55,34.07,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Modal,1250016555778.0,551148243574.84,44.09,False,False
+Lampung,8,2023,11,November,11,Belanja Modal,1250016555778.0,768681153641.4,61.49,False,False
+Lampung,8,2023,12,Desember,12,Belanja Modal,1250016555778.0,1140273129201.0,91.22,False,False
+Lampung,8,2024,1,Januari,13,Belanja Modal,1182958401541.3,46980785.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Belanja Modal,1182958401541.3,14756821365.0,1.25,False,False
+Lampung,8,2024,3,Maret,15,Belanja Modal,1182958401541.3,91329050137.0,7.72,False,False
+Lampung,8,2024,4,April,16,Belanja Modal,1182958401541.3,129644773574.0,10.96,False,False
+Lampung,8,2024,5,Mei,17,Belanja Modal,1182958401541.3,168699102868.0,14.26,False,False
+Lampung,8,2024,6,Juni,18,Belanja Modal,1182958401541.3,185308516845.2,15.66,False,False
+Lampung,8,2024,7,Juli,19,Belanja Modal,1182958401541.3,209681383175.2,17.73,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Modal,1182958401541.3,291629116128.39,24.65,False,False
+Lampung,8,2024,9,September,21,Belanja Modal,1182958401541.3,325046435769.39,27.48,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Modal,1182958401541.3,410584764819.79,34.71,False,False
+Lampung,8,2024,11,November,23,Belanja Modal,1182958401541.3,519445992695.63,43.91,False,False
+Lampung,8,2024,12,Desember,24,Belanja Modal,1182958401541.3,797024095017.75,67.38,False,False
+Lampung,8,2025,1,Januari,25,Belanja Modal,980196930133.19,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Belanja Modal,980196930133.19,248209889.0,0.03,False,False
+Lampung,8,2025,3,Maret,27,Belanja Modal,980196930133.19,125728916686.0,12.83,False,False
+Lampung,8,2025,4,April,28,Belanja Modal,980196930133.19,251709195080.0,25.68,False,False
+Lampung,8,2025,5,Mei,29,Belanja Modal,980196930133.19,377725387697.0,38.54,False,False
+Lampung,8,2025,6,Juni,30,Belanja Modal,980196930133.19,431143920014.1,43.99,False,False
+Lampung,8,2025,7,Juli,31,Belanja Modal,980196930133.19,467084871502.88,47.65,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Modal,980196930133.19,577649722806.88,58.93,False,False
+Lampung,8,2025,9,September,33,Belanja Modal,980196930133.19,629373880473.73,64.21,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Modal,980196930133.19,673160198724.68,68.68,False,False
+Lampung,8,2025,11,November,35,Belanja Modal,980196930133.19,818676317049.51,83.52,False,False
+Lampung,8,2025,12,Desember,36,Belanja Modal,980196930133.19,1116018021399.7,113.86,False,False
+Lampung,8,2026,1,Januari,37,Belanja Modal,1651793351693.0,53696250.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Modal,1651793351693.0,83654538271.87,5.06,False,False
+Lampung,8,2026,3,Maret,39,Belanja Modal,1651793351693.0,106675439759.01,6.46,False,False
+Lampung,8,2026,4,April,40,Belanja Modal,1651793351693.0,120455534102.46,7.29,False,False
+Lampung,8,2026,5,Mei,41,Belanja Modal,1651793351693.0,238219265905.46,14.42,False,False
+Lampung,8,2026,6,Juni,42,Belanja Modal,1651793351693.0,247504598700.02,14.98,False,False
+Lampung,8,2026,7,Juli,43,Belanja Modal,1651793351693.0,336682189673.58,20.38,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Modal,1651793351693.0,440344405081.58,26.66,False,False
+Lampung,8,2026,9,September,45,Belanja Modal,1651793351693.0,448640936431.58,27.16,False,False
+Lampung,8,2026,10,Oktober,46,Belanja Modal,1651793351693.0,448640936431.58,27.16,False,True
+Lampung,8,2026,11,November,47,Belanja Modal,1651793351693.0,448640936431.58,27.16,False,True
+Lampung,8,2026,12,Desember,48,Belanja Modal,1651793351693.0,448640936431.58,27.16,False,True
+Lampung,8,2023,1,Januari,1,Belanja Pegawai,2145054774646.4,86725028501.0,4.04,False,False
+Lampung,8,2023,2,Februari,2,Belanja Pegawai,2145054774646.4,188613287078.0,8.79,False,False
+Lampung,8,2023,3,Maret,3,Belanja Pegawai,2145054774646.4,296255959833.0,13.81,False,False
+Lampung,8,2023,4,April,4,Belanja Pegawai,2145054774646.4,575133033782.0,26.81,False,False
+Lampung,8,2023,5,Mei,5,Belanja Pegawai,2145054774646.4,575133033782.0,26.81,False,False
+Lampung,8,2023,6,Juni,6,Belanja Pegawai,2145054774646.4,786204293979.0,36.65,False,False
+Lampung,8,2023,7,Juli,7,Belanja Pegawai,2145054774646.4,990159959564.0,46.16,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Pegawai,2145054774646.4,1108715024406.0,51.69,False,False
+Lampung,8,2023,9,September,9,Belanja Pegawai,2145054774646.4,1280564610941.0,59.7,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Pegawai,2145054774646.4,1413191733621.0,65.88,False,False
+Lampung,8,2023,11,November,11,Belanja Pegawai,2145054774646.4,1593768628778.0,74.3,False,False
+Lampung,8,2023,12,Desember,12,Belanja Pegawai,2145054774646.4,1879405840692.0,87.62,False,False
+Lampung,8,2024,1,Januari,13,Belanja Pegawai,2501009958952.2,85819150228.0,3.43,False,False
+Lampung,8,2024,2,Februari,14,Belanja Pegawai,2501009958952.2,184122803341.0,7.36,False,False
+Lampung,8,2024,3,Maret,15,Belanja Pegawai,2501009958952.2,346721508449.0,13.86,False,False
+Lampung,8,2024,4,April,16,Belanja Pegawai,2501009958952.2,591182272530.0,23.64,False,False
+Lampung,8,2024,5,Mei,17,Belanja Pegawai,2501009958952.2,813954690521.0,32.55,False,False
+Lampung,8,2024,6,Juni,18,Belanja Pegawai,2501009958952.2,939237153611.0,37.55,False,False
+Lampung,8,2024,7,Juli,19,Belanja Pegawai,2501009958952.2,1303069676132.0,52.1,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Pegawai,2501009958952.2,1488913189082.0,59.53,False,False
+Lampung,8,2024,9,September,21,Belanja Pegawai,2501009958952.2,1646893776098.0,65.85,False,False
+Lampung,8,2024,10,Oktober,22,Belanja Pegawai,2501009958952.2,1804993569850.0,72.17,False,False
+Lampung,8,2024,11,November,23,Belanja Pegawai,2501009958952.2,2037388488914.0,81.46,False,False
+Lampung,8,2024,12,Desember,24,Belanja Pegawai,2501009958952.2,2386292035527.2,95.41,False,False
+Lampung,8,2025,1,Januari,25,Belanja Pegawai,2916687302416.0,127282511546.0,4.36,False,False
+Lampung,8,2025,2,Februari,26,Belanja Pegawai,2916687302416.0,250499928712.0,8.59,False,False
+Lampung,8,2025,3,Maret,27,Belanja Pegawai,2916687302416.0,530915913523.0,18.2,False,False
+Lampung,8,2025,4,April,28,Belanja Pegawai,2916687302416.0,681782439024.0,23.38,False,False
+Lampung,8,2025,5,Mei,29,Belanja Pegawai,2916687302416.0,829935802799.0,28.45,False,False
+Lampung,8,2025,6,Juni,30,Belanja Pegawai,2916687302416.0,1088282053488.0,37.31,False,False
+Lampung,8,2025,7,Juli,31,Belanja Pegawai,2916687302416.0,1248817319991.0,42.82,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Pegawai,2916687302416.0,1437752238856.4,49.29,False,False
+Lampung,8,2025,9,September,33,Belanja Pegawai,2916687302416.0,1626796635892.4,55.78,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Pegawai,2916687302416.0,1800820271953.4,61.74,False,False
+Lampung,8,2025,11,November,35,Belanja Pegawai,2916687302416.0,1975976284769.0,67.75,False,False
+Lampung,8,2025,12,Desember,36,Belanja Pegawai,2916687302416.0,2675440110158.0,91.73,False,False
+Lampung,8,2026,1,Januari,37,Belanja Pegawai,2899991387573.4,144922881504.0,5.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Pegawai,2899991387573.4,269265216333.0,9.29,False,False
+Lampung,8,2026,3,Maret,39,Belanja Pegawai,2899991387573.4,569917598889.0,19.65,False,False
+Lampung,8,2026,4,April,40,Belanja Pegawai,2899991387573.4,736798143892.0,25.41,False,False
+Lampung,8,2026,5,Mei,41,Belanja Pegawai,2899991387573.4,891163765792.0,30.73,False,False
+Lampung,8,2026,6,Juni,42,Belanja Pegawai,2899991387573.4,1180980971503.0,40.72,False,False
+Lampung,8,2026,7,Juli,43,Belanja Pegawai,2899991387573.4,1348620134847.0,46.5,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Pegawai,2899991387573.4,1502402366279.0,51.81,False,False
+Lampung,8,2026,9,September,45,Belanja Pegawai,2899991387573.4,1628915277440.0,56.17,False,False
+Lampung,8,2026,10,Oktober,46,Belanja Pegawai,2899991387573.4,1628915277440.0,56.17,False,True
+Lampung,8,2026,11,November,47,Belanja Pegawai,2899991387573.4,1628915277440.0,56.17,False,True
+Lampung,8,2026,12,Desember,48,Belanja Pegawai,2899991387573.4,1628915277440.0,56.17,False,True
+Lampung,8,2023,1,Januari,1,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,3,Maret,3,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,4,April,4,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,5,Mei,5,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,6,Juni,6,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,7,Juli,7,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,9,September,9,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,11,November,11,Belanja Subsidi,0.0,0.0,0.0,False,False
+Lampung,8,2023,12,Desember,12,Belanja Subsidi,0.0,2800000000.0,0.0,False,False
+Lampung,8,2026,1,Januari,37,Belanja Subsidi,25000000.0,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Subsidi,25000000.0,0.0,0.0,False,False
+Lampung,8,2026,3,Maret,39,Belanja Subsidi,25000000.0,0.0,0.0,False,False
+Lampung,8,2026,4,April,40,Belanja Subsidi,25000000.0,25000000.0,100.0,False,False
+Lampung,8,2026,5,Mei,41,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,6,Juni,42,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,7,Juli,43,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,8,Agustus,44,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,9,September,45,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,11,November,47,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2026,12,Desember,48,Belanja Subsidi,25000000.0,25000000.0,100.0,False,True
+Lampung,8,2023,1,Januari,1,Belanja Tidak Terduga,31500000000.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Belanja Tidak Terduga,31500000000.0,0.0,0.0,False,False
+Lampung,8,2023,3,Maret,3,Belanja Tidak Terduga,31500000000.0,0.0,0.0,False,False
+Lampung,8,2023,4,April,4,Belanja Tidak Terduga,31500000000.0,24000000.0,0.08,False,False
+Lampung,8,2023,5,Mei,5,Belanja Tidak Terduga,31500000000.0,24000000.0,0.08,False,False
+Lampung,8,2023,6,Juni,6,Belanja Tidak Terduga,31500000000.0,2584382500.0,8.2,False,False
+Lampung,8,2023,7,Juli,7,Belanja Tidak Terduga,31500000000.0,2667382500.0,8.47,False,False
+Lampung,8,2023,8,Agustus,8,Belanja Tidak Terduga,31500000000.0,2667382500.0,8.47,False,False
+Lampung,8,2023,9,September,9,Belanja Tidak Terduga,31500000000.0,2699882500.0,8.57,False,False
+Lampung,8,2023,10,Oktober,10,Belanja Tidak Terduga,31500000000.0,2716882500.0,8.63,False,False
+Lampung,8,2023,11,November,11,Belanja Tidak Terduga,31500000000.0,2736382500.0,8.69,False,False
+Lampung,8,2023,12,Desember,12,Belanja Tidak Terduga,31500000000.0,2794882500.0,8.87,False,False
+Lampung,8,2024,1,Januari,13,Belanja Tidak Terduga,32472500000.0,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Belanja Tidak Terduga,32472500000.0,0.0,0.0,False,False
+Lampung,8,2024,3,Maret,15,Belanja Tidak Terduga,32472500000.0,0.0,0.0,False,False
+Lampung,8,2024,4,April,16,Belanja Tidak Terduga,32472500000.0,855362910.0,2.63,False,False
+Lampung,8,2024,5,Mei,17,Belanja Tidak Terduga,32472500000.0,855362910.0,2.63,False,False
+Lampung,8,2024,6,Juni,18,Belanja Tidak Terduga,32472500000.0,1025364999.11,3.16,False,False
+Lampung,8,2024,7,Juli,19,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,False
+Lampung,8,2024,8,Agustus,20,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,True
+Lampung,8,2024,9,September,21,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,True
+Lampung,8,2024,10,Oktober,22,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,True
+Lampung,8,2024,11,November,23,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,True
+Lampung,8,2024,12,Desember,24,Belanja Tidak Terduga,32472500000.0,1077864999.11,3.32,False,True
+Lampung,8,2025,1,Januari,25,Belanja Tidak Terduga,42472500000.0,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Belanja Tidak Terduga,42472500000.0,0.0,0.0,False,False
+Lampung,8,2025,3,Maret,27,Belanja Tidak Terduga,42472500000.0,0.0,0.0,False,False
+Lampung,8,2025,4,April,28,Belanja Tidak Terduga,42472500000.0,0.0,0.0,False,False
+Lampung,8,2025,5,Mei,29,Belanja Tidak Terduga,42472500000.0,50000000.0,0.12,False,False
+Lampung,8,2025,6,Juni,30,Belanja Tidak Terduga,42472500000.0,1101247989.0,2.59,False,False
+Lampung,8,2025,7,Juli,31,Belanja Tidak Terduga,42472500000.0,1101247989.0,2.59,False,False
+Lampung,8,2025,8,Agustus,32,Belanja Tidak Terduga,42472500000.0,1101247989.0,2.59,False,False
+Lampung,8,2025,9,September,33,Belanja Tidak Terduga,42472500000.0,1243747989.0,2.93,False,False
+Lampung,8,2025,10,Oktober,34,Belanja Tidak Terduga,42472500000.0,1243747989.0,2.93,False,False
+Lampung,8,2025,11,November,35,Belanja Tidak Terduga,42472500000.0,1243747989.0,2.93,False,False
+Lampung,8,2025,12,Desember,36,Belanja Tidak Terduga,42472500000.0,1493747989.0,3.52,False,False
+Lampung,8,2026,1,Januari,37,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Lampung,8,2026,2,Februari,38,Belanja Tidak Terduga,50000000000.0,0.0,0.0,False,False
+Lampung,8,2026,3,Maret,39,Belanja Tidak Terduga,50000000000.0,40000000.0,0.08,False,False
+Lampung,8,2026,4,April,40,Belanja Tidak Terduga,50000000000.0,160500000.0,0.32,False,False
+Lampung,8,2026,5,Mei,41,Belanja Tidak Terduga,50000000000.0,320500000.0,0.64,False,False
+Lampung,8,2026,6,Juni,42,Belanja Tidak Terduga,50000000000.0,618153244.0,1.24,False,False
+Lampung,8,2026,7,Juli,43,Belanja Tidak Terduga,50000000000.0,618153244.0,1.24,False,False
+Lampung,8,2026,8,Agustus,44,Belanja Tidak Terduga,50000000000.0,1426161258.0,2.85,False,False
+Lampung,8,2026,9,September,45,Belanja Tidak Terduga,50000000000.0,1426161258.0,2.85,False,True
+Lampung,8,2026,10,Oktober,46,Belanja Tidak Terduga,50000000000.0,1426161258.0,2.85,False,True
+Lampung,8,2026,11,November,47,Belanja Tidak Terduga,50000000000.0,1426161258.0,2.85,False,True
+Lampung,8,2026,12,Desember,48,Belanja Tidak Terduga,50000000000.0,1426161258.0,2.85,False,True
+Lampung,8,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,0.0,0.0,False,False
+Lampung,8,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51022011099.39,13.6,False,False
+Lampung,8,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51022011099.39,13.6,False,False
+Lampung,8,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51022011099.39,13.6,False,False
+Lampung,8,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51022011099.39,13.6,False,False
+Lampung,8,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,False
+Lampung,8,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,True
+Lampung,8,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,True
+Lampung,8,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,True
+Lampung,8,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,True
+Lampung,8,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,375247133261.0,51110035229.39,13.62,False,True
+Lampung,8,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,743930952.0,0.13,False,False
+Lampung,8,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,52640775108.01,9.0,False,False
+Lampung,8,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,193520241461.01,33.09,False,False
+Lampung,8,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,193520241461.01,33.09,False,True
+Lampung,8,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,193520241461.01,33.09,False,True
+Lampung,8,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,584820361218.42,193520241461.01,33.09,False,True
+Lampung,8,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,0.0,0.0,False,False
+Lampung,8,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,False
+Lampung,8,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,316148941374.21,27350092457.96,8.65,False,True
+Lampung,8,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,202001691000.0,40658955793.85,20.13,True,False
+Lampung,8,2023,1,Januari,1,Lain-Lain PAD yang Sah,779720262358.0,9086089714.27,1.17,False,False
+Lampung,8,2023,2,Februari,2,Lain-Lain PAD yang Sah,779720262358.0,15157894023.66,1.94,False,False
+Lampung,8,2023,3,Maret,3,Lain-Lain PAD yang Sah,779720262358.0,77803198159.1,9.98,False,False
+Lampung,8,2023,4,April,4,Lain-Lain PAD yang Sah,779720262358.0,82353715894.98,10.56,False,False
+Lampung,8,2023,5,Mei,5,Lain-Lain PAD yang Sah,779720262358.0,82353715894.98,10.56,False,False
+Lampung,8,2023,6,Juni,6,Lain-Lain PAD yang Sah,779720262358.0,120984958819.36,15.52,False,False
+Lampung,8,2023,7,Juli,7,Lain-Lain PAD yang Sah,779720262358.0,125007676066.17,16.03,False,False
+Lampung,8,2023,8,Agustus,8,Lain-Lain PAD yang Sah,779720262358.0,160161460337.5,20.54,False,False
+Lampung,8,2023,9,September,9,Lain-Lain PAD yang Sah,779720262358.0,257786345245.42,33.06,False,False
+Lampung,8,2023,10,Oktober,10,Lain-Lain PAD yang Sah,779720262358.0,274763831419.08,35.24,False,False
+Lampung,8,2023,11,November,11,Lain-Lain PAD yang Sah,779720262358.0,281147929109.71,36.06,False,False
+Lampung,8,2023,12,Desember,12,Lain-Lain PAD yang Sah,779720262358.0,411984928474.73,52.84,False,False
+Lampung,8,2024,1,Januari,13,Lain-Lain PAD yang Sah,666403353301.0,4369154239.84,0.66,False,False
+Lampung,8,2024,2,Februari,14,Lain-Lain PAD yang Sah,666403353301.0,13298902691.14,2.0,False,False
+Lampung,8,2024,3,Maret,15,Lain-Lain PAD yang Sah,666403353301.0,19132275614.59,2.87,False,False
+Lampung,8,2024,4,April,16,Lain-Lain PAD yang Sah,666403353301.0,22740364018.59,3.41,False,False
+Lampung,8,2024,5,Mei,17,Lain-Lain PAD yang Sah,666403353301.0,30158929084.61,4.53,False,False
+Lampung,8,2024,6,Juni,18,Lain-Lain PAD yang Sah,666403353301.0,26655660277.71,4.0,False,False
+Lampung,8,2024,7,Juli,19,Lain-Lain PAD yang Sah,666403353301.0,44025837986.16,6.61,False,False
+Lampung,8,2024,8,Agustus,20,Lain-Lain PAD yang Sah,666403353301.0,48084730593.21,7.22,False,False
+Lampung,8,2024,9,September,21,Lain-Lain PAD yang Sah,666403353301.0,50055048669.25,7.51,False,False
+Lampung,8,2024,10,Oktober,22,Lain-Lain PAD yang Sah,666403353301.0,52347174494.48,7.86,False,False
+Lampung,8,2024,11,November,23,Lain-Lain PAD yang Sah,666403353301.0,53678885668.99,8.06,False,False
+Lampung,8,2024,12,Desember,24,Lain-Lain PAD yang Sah,666403353301.0,58684482534.76,8.81,False,False
+Lampung,8,2025,1,Januari,25,Lain-Lain PAD yang Sah,332644814653.0,4847012712.95,1.46,False,False
+Lampung,8,2025,2,Februari,26,Lain-Lain PAD yang Sah,332644814653.0,13269151258.73,3.99,False,False
+Lampung,8,2025,3,Maret,27,Lain-Lain PAD yang Sah,332644814653.0,89207011921.9,26.82,False,False
+Lampung,8,2025,4,April,28,Lain-Lain PAD yang Sah,332644814653.0,113706524761.93,34.18,False,False
+Lampung,8,2025,5,Mei,29,Lain-Lain PAD yang Sah,332644814653.0,119396999858.88,35.89,False,False
+Lampung,8,2025,6,Juni,30,Lain-Lain PAD yang Sah,332644814653.0,120927533055.86,36.35,False,False
+Lampung,8,2025,7,Juli,31,Lain-Lain PAD yang Sah,332644814653.0,127664185851.34,38.38,False,False
+Lampung,8,2025,8,Agustus,32,Lain-Lain PAD yang Sah,332644814653.0,130446009498.24,39.21,False,False
+Lampung,8,2025,9,September,33,Lain-Lain PAD yang Sah,332644814653.0,132381958901.89,39.8,False,False
+Lampung,8,2025,10,Oktober,34,Lain-Lain PAD yang Sah,332644814653.0,135020831205.81,40.59,False,False
+Lampung,8,2025,11,November,35,Lain-Lain PAD yang Sah,332644814653.0,136143502978.87,40.93,False,False
+Lampung,8,2025,12,Desember,36,Lain-Lain PAD yang Sah,332644814653.0,137810771712.5,41.43,False,False
+Lampung,8,2026,1,Januari,37,Lain-Lain PAD yang Sah,110001128130.0,2489386746.28,2.26,False,False
+Lampung,8,2026,2,Februari,38,Lain-Lain PAD yang Sah,110001128130.0,4423416847.88,4.02,False,False
+Lampung,8,2026,3,Maret,39,Lain-Lain PAD yang Sah,110001128130.0,6584687223.06,5.99,False,False
+Lampung,8,2026,4,April,40,Lain-Lain PAD yang Sah,110001128130.0,12971241574.78,11.79,False,False
+Lampung,8,2026,5,Mei,41,Lain-Lain PAD yang Sah,110001128130.0,19083299923.57,17.35,False,False
+Lampung,8,2026,6,Juni,42,Lain-Lain PAD yang Sah,110001128130.0,21130941359.6,19.21,False,False
+Lampung,8,2026,7,Juli,43,Lain-Lain PAD yang Sah,110001128130.0,22505359509.03,20.46,False,False
+Lampung,8,2026,8,Agustus,44,Lain-Lain PAD yang Sah,110001128130.0,23435050189.61,21.3,False,False
+Lampung,8,2026,9,September,45,Lain-Lain PAD yang Sah,110001128130.0,23479429719.61,21.34,False,False
+Lampung,8,2026,10,Oktober,46,Lain-Lain PAD yang Sah,110001128130.0,23479429719.61,21.34,False,True
+Lampung,8,2026,11,November,47,Lain-Lain PAD yang Sah,110001128130.0,23479429719.61,21.34,False,True
+Lampung,8,2026,12,Desember,48,Lain-Lain PAD yang Sah,110001128130.0,23479429719.61,21.34,False,True
+Lampung,8,2023,1,Januari,1,PAD,4146226408108.0,235872175698.27,5.69,False,False
+Lampung,8,2023,2,Februari,2,PAD,4146226408108.0,446847806610.66,10.78,False,False
+Lampung,8,2023,3,Maret,3,PAD,4146226408108.0,762003715367.49,18.38,False,False
+Lampung,8,2023,4,April,4,PAD,4146226408108.0,1210456651704.4,29.19,False,False
+Lampung,8,2023,5,Mei,5,PAD,4146226408108.0,1210456651704.4,29.19,False,False
+Lampung,8,2023,6,Juni,6,PAD,4146226408108.0,1448883124767.8,34.94,False,False
+Lampung,8,2023,7,Juli,7,PAD,4146226408108.0,1829967898570.6,44.14,False,False
+Lampung,8,2023,8,Agustus,8,PAD,4146226408108.0,2090341515008.9,50.42,False,False
+Lampung,8,2023,9,September,9,PAD,4146226408108.0,2425455922946.8,58.5,False,False
+Lampung,8,2023,10,Oktober,10,PAD,4146226408108.0,2794606277312.5,67.4,False,False
+Lampung,8,2023,11,November,11,PAD,4146226408108.0,3011386521288.1,72.63,False,False
+Lampung,8,2023,12,Desember,12,PAD,4146226408108.0,3461360002545.1,83.48,False,False
+Lampung,8,2024,1,Januari,13,PAD,4936497456098.4,217763966786.89,4.41,False,False
+Lampung,8,2024,2,Februari,14,PAD,4936497456098.4,412040567045.4,8.35,False,False
+Lampung,8,2024,3,Maret,15,PAD,4936497456098.4,742537167960.91,15.04,False,False
+Lampung,8,2024,4,April,16,PAD,4936497456098.4,1235654177342.7,25.03,False,False
+Lampung,8,2024,5,Mei,17,PAD,4936497456098.4,1492652547697.5,30.24,False,False
+Lampung,8,2024,6,Juni,18,PAD,4936497456098.4,1683418175063.0,34.1,False,False
+Lampung,8,2024,7,Juli,19,PAD,4936497456098.4,2138356612825.3,43.32,False,False
+Lampung,8,2024,8,Agustus,20,PAD,4936497456098.4,2393785852254.4,48.49,False,False
+Lampung,8,2024,9,September,21,PAD,4936497456098.4,2814199913793.2,57.01,False,False
+Lampung,8,2024,10,Oktober,22,PAD,4936497456098.4,3270521972759.1,66.25,False,False
+Lampung,8,2024,11,November,23,PAD,4936497456098.4,3539160750597.2,71.69,False,False
+Lampung,8,2024,12,Desember,24,PAD,4936497456098.4,4039218171476.8,81.82,False,False
+Lampung,8,2025,1,Januari,25,PAD,4020052532113.2,158314388909.69,3.94,False,False
+Lampung,8,2025,2,Februari,26,PAD,4020052532113.2,346588173358.53,8.62,False,False
+Lampung,8,2025,3,Maret,27,PAD,4020052532113.2,643026624959.6,16.0,False,False
+Lampung,8,2025,4,April,28,PAD,4020052532113.2,1090172437315.7,27.12,False,False
+Lampung,8,2025,5,Mei,29,PAD,4020052532113.2,1314632662040.0,32.7,False,False
+Lampung,8,2025,6,Juni,30,PAD,4020052532113.2,1526906960221.0,37.98,False,False
+Lampung,8,2025,7,Juli,31,PAD,4020052532113.2,1781132012533.6,44.31,False,False
+Lampung,8,2025,8,Agustus,32,PAD,4020052532113.2,2138104021120.7,53.19,False,False
+Lampung,8,2025,9,September,33,PAD,4020052532113.2,2352318635005.8,58.51,False,False
+Lampung,8,2025,10,Oktober,34,PAD,4020052532113.2,2738784567479.7,68.13,False,False
+Lampung,8,2025,11,November,35,PAD,4020052532113.2,2962315759188.0,73.69,False,False
+Lampung,8,2025,12,Desember,36,PAD,4020052532113.2,3346330375781.2,83.24,False,False
+Lampung,8,2026,1,Januari,37,PAD,4025032820130.0,209370578317.88,5.2,False,False
+Lampung,8,2026,2,Februari,38,PAD,4025032820130.0,365550215784.22,9.08,False,False
+Lampung,8,2026,3,Maret,39,PAD,4025032820130.0,567860577815.04,14.11,False,False
+Lampung,8,2026,4,April,40,PAD,4025032820130.0,1077672002873.0,26.77,False,False
+Lampung,8,2026,5,Mei,41,PAD,4025032820130.0,1250643588213.6,31.07,False,False
+Lampung,8,2026,6,Juni,42,PAD,4025032820130.0,1504618897169.4,37.38,False,False
+Lampung,8,2026,7,Juli,43,PAD,4025032820130.0,1674712798340.7,41.61,False,False
+Lampung,8,2026,8,Agustus,44,PAD,4025032820130.0,1897374646450.8,47.14,False,False
+Lampung,8,2026,9,September,45,PAD,4025032820130.0,1909097386200.0,47.43,False,False
+Lampung,8,2026,10,Oktober,46,PAD,4025032820130.0,1909097386200.0,47.43,False,True
+Lampung,8,2026,11,November,47,PAD,4025032820130.0,1909097386200.0,47.43,False,True
+Lampung,8,2026,12,Desember,48,PAD,4025032820130.0,1909097386200.0,47.43,False,True
+Lampung,8,2023,1,Januari,1,Pajak Daerah,2982798551971.0,226475295285.0,7.59,False,False
+Lampung,8,2023,2,Februari,2,Pajak Daerah,2982798551971.0,431129591298.0,14.45,False,False
+Lampung,8,2023,3,Maret,3,Pajak Daerah,2982798551971.0,632254324845.0,21.2,False,False
+Lampung,8,2023,4,April,4,Pajak Daerah,2982798551971.0,1075728809794.0,36.06,False,False
+Lampung,8,2023,5,Mei,5,Pajak Daerah,2982798551971.0,1075728809794.0,36.06,False,False
+Lampung,8,2023,6,Juni,6,Pajak Daerah,2982798551971.0,1274977893930.0,42.74,False,False
+Lampung,8,2023,7,Juli,7,Pajak Daerah,2982798551971.0,1651070041459.0,55.35,False,False
+Lampung,8,2023,8,Agustus,8,Pajak Daerah,2982798551971.0,1875803139064.0,62.89,False,False
+Lampung,8,2023,9,September,9,Pajak Daerah,2982798551971.0,2112777199213.0,70.83,False,False
+Lampung,8,2023,10,Oktober,10,Pajak Daerah,2982798551971.0,2464131172798.0,82.61,False,False
+Lampung,8,2023,11,November,11,Pajak Daerah,2982798551971.0,2673755519108.0,89.64,False,False
+Lampung,8,2023,12,Desember,12,Pajak Daerah,2982798551971.0,2991734848467.0,100.3,False,False
+Lampung,8,2024,1,Januari,13,Pajak Daerah,3344116899379.0,211103887719.0,6.31,False,False
+Lampung,8,2024,2,Februari,14,Pajak Daerah,3344116899379.0,393139397811.0,11.76,False,False
+Lampung,8,2024,3,Maret,15,Pajak Daerah,3344116899379.0,588565406064.0,17.6,False,False
+Lampung,8,2024,4,April,16,Pajak Daerah,3344116899379.0,1042890137306.0,31.19,False,False
+Lampung,8,2024,5,Mei,17,Pajak Daerah,3344116899379.0,1258821578078.0,37.64,False,False
+Lampung,8,2024,6,Juni,18,Pajak Daerah,3344116899379.0,1451803215320.0,43.41,False,False
+Lampung,8,2024,7,Juli,19,Pajak Daerah,3344116899379.0,1819198011840.6,54.4,False,False
+Lampung,8,2024,8,Agustus,20,Pajak Daerah,3344116899379.0,2028009394098.3,60.64,False,False
+Lampung,8,2024,9,September,21,Pajak Daerah,3344116899379.0,2269562593011.8,67.87,False,False
+Lampung,8,2024,10,Oktober,22,Pajak Daerah,3344116899379.0,2677154376500.1,80.06,False,False
+Lampung,8,2024,11,November,23,Pajak Daerah,3344116899379.0,2901465038386.0,86.76,False,False
+Lampung,8,2024,12,Desember,24,Pajak Daerah,3344116899379.0,3301063910591.8,98.71,False,False
+Lampung,8,2025,1,Januari,25,Pajak Daerah,2921136897166.0,148434410736.16,5.08,False,False
+Lampung,8,2025,2,Februari,26,Pajak Daerah,2921136897166.0,286283866691.06,9.8,False,False
+Lampung,8,2025,3,Maret,27,Pajak Daerah,2921136897166.0,436554288410.85,14.94,False,False
+Lampung,8,2025,4,April,28,Pajak Daerah,2921136897166.0,847798146845.56,29.02,False,False
+Lampung,8,2025,5,Mei,29,Pajak Daerah,2921136897166.0,1024465515584.2,35.07,False,False
+Lampung,8,2025,6,Juni,30,Pajak Daerah,2921136897166.0,1195514480246.3,40.93,False,False
+Lampung,8,2025,7,Juli,31,Pajak Daerah,2921136897166.0,1390166876489.6,47.59,False,False
+Lampung,8,2025,8,Agustus,32,Pajak Daerah,2921136897166.0,1702893259781.4,58.3,False,False
+Lampung,8,2025,9,September,33,Pajak Daerah,2921136897166.0,1869176673041.6,63.99,False,False
+Lampung,8,2025,10,Oktober,34,Pajak Daerah,2921136897166.0,2210115290526.4,75.66,False,False
+Lampung,8,2025,11,November,35,Pajak Daerah,2921136897166.0,2370646891581.1,81.15,False,False
+Lampung,8,2025,12,Desember,36,Pajak Daerah,2921136897166.0,2654492762519.7,90.87,False,False
+Lampung,8,2026,1,Januari,37,Pajak Daerah,3231083331000.0,164453358020.05,5.09,False,False
+Lampung,8,2026,2,Februari,38,Pajak Daerah,3231083331000.0,316906262905.87,9.81,False,False
+Lampung,8,2026,3,Maret,39,Pajak Daerah,3231083331000.0,469924307368.21,14.54,False,False
+Lampung,8,2026,4,April,40,Pajak Daerah,3231083331000.0,871005787284.74,26.96,False,False
+Lampung,8,2026,5,Mei,41,Pajak Daerah,3231083331000.0,1029857046331.8,31.87,False,False
+Lampung,8,2026,6,Juni,42,Pajak Daerah,3231083331000.0,1215631831703.0,37.62,False,False
+Lampung,8,2026,7,Juli,43,Pajak Daerah,3231083331000.0,1311437254706.7,40.59,False,False
+Lampung,8,2026,8,Agustus,44,Pajak Daerah,3231083331000.0,1498530287918.5,46.38,False,False
+Lampung,8,2026,9,September,45,Pajak Daerah,3231083331000.0,1509214277627.0,46.71,False,False
+Lampung,8,2026,10,Oktober,46,Pajak Daerah,3231083331000.0,1509214277627.0,46.71,False,True
+Lampung,8,2026,11,November,47,Pajak Daerah,3231083331000.0,1509214277627.0,46.71,False,True
+Lampung,8,2026,12,Desember,48,Pajak Daerah,3231083331000.0,1509214277627.0,46.71,False,True
+Lampung,8,2023,1,Januari,1,Pendapatan Daerah,7412643433222.0,456951950898.27,6.16,False,False
+Lampung,8,2023,2,Februari,2,Pendapatan Daerah,7412643433222.0,789726850910.66,10.65,False,False
+Lampung,8,2023,3,Maret,3,Pendapatan Daerah,7412643433222.0,1339476102767.5,18.07,False,False
+Lampung,8,2023,4,April,4,Pendapatan Daerah,7412643433222.0,1929974601202.4,26.04,False,False
+Lampung,8,2023,5,Mei,5,Pendapatan Daerah,7412643433222.0,1929974601202.4,26.04,False,False
+Lampung,8,2023,6,Juni,6,Pendapatan Daerah,7412643433222.0,2337465315419.8,31.53,False,False
+Lampung,8,2023,7,Juli,7,Pendapatan Daerah,7412643433222.0,3187958495171.6,43.01,False,False
+Lampung,8,2023,8,Agustus,8,Pendapatan Daerah,7412643433222.0,3567801173839.9,48.13,False,False
+Lampung,8,2023,9,September,9,Pendapatan Daerah,7412643433222.0,4318987599711.8,58.27,False,False
+Lampung,8,2023,10,Oktober,10,Pendapatan Daerah,7412643433222.0,5043430268973.5,68.04,False,False
+Lampung,8,2023,11,November,11,Pendapatan Daerah,7412643433222.0,5511985269050.1,74.36,False,False
+Lampung,8,2023,12,Desember,12,Pendapatan Daerah,7412643433222.0,6516635126927.1,87.91,False,False
+Lampung,8,2024,1,Januari,13,Pendapatan Daerah,8342203125430.4,351518811186.89,4.21,False,False
+Lampung,8,2024,2,Februari,14,Pendapatan Daerah,8342203125430.4,813239016245.4,9.75,False,False
+Lampung,8,2024,3,Maret,15,Pendapatan Daerah,8342203125430.4,1340184474310.9,16.07,False,False
+Lampung,8,2024,4,April,16,Pendapatan Daerah,8342203125430.4,2041996712192.7,24.48,False,False
+Lampung,8,2024,5,Mei,17,Pendapatan Daerah,8342203125430.4,2555244517269.5,30.63,False,False
+Lampung,8,2024,6,Juni,18,Pendapatan Daerah,8342203125430.4,3101090856488.9,37.17,False,False
+Lampung,8,2024,7,Juli,19,Pendapatan Daerah,8342203125430.4,3788299994290.3,45.41,False,False
+Lampung,8,2024,8,Agustus,20,Pendapatan Daerah,8342203125430.4,4493863682462.4,53.87,False,False
+Lampung,8,2024,9,September,21,Pendapatan Daerah,8342203125430.4,5082752987889.2,60.93,False,False
+Lampung,8,2024,10,Oktober,22,Pendapatan Daerah,8342203125430.4,5899153053571.1,70.71,False,False
+Lampung,8,2024,11,November,23,Pendapatan Daerah,8342203125430.4,6429400953569.2,77.07,False,False
+Lampung,8,2024,12,Desember,24,Pendapatan Daerah,8342203125430.4,7451703679830.8,89.33,False,False
+Lampung,8,2025,1,Januari,25,Pendapatan Daerah,7557909717848.2,454470462509.69,6.01,False,False
+Lampung,8,2025,2,Februari,26,Pendapatan Daerah,7557909717848.2,812136324923.53,10.75,False,False
+Lampung,8,2025,3,Maret,27,Pendapatan Daerah,7557909717848.2,1280055197819.6,16.94,False,False
+Lampung,8,2025,4,April,28,Pendapatan Daerah,7557909717848.2,1950469917850.7,25.81,False,False
+Lampung,8,2025,5,Mei,29,Pendapatan Daerah,7557909717848.2,2411789727541.0,31.91,False,False
+Lampung,8,2025,6,Juni,30,Pendapatan Daerah,7557909717848.2,2692828419308.0,35.63,False,False
+Lampung,8,2025,7,Juli,31,Pendapatan Daerah,7557909717848.2,3323755111755.6,43.98,False,False
+Lampung,8,2025,8,Agustus,32,Pendapatan Daerah,7557909717848.2,4141751783844.7,54.8,False,False
+Lampung,8,2025,9,September,33,Pendapatan Daerah,7557909717848.2,4651164481339.8,61.54,False,False
+Lampung,8,2025,10,Oktober,34,Pendapatan Daerah,7557909717848.2,5229525686450.7,69.19,False,False
+Lampung,8,2025,11,November,35,Pendapatan Daerah,7557909717848.2,5855396450781.0,77.47,False,False
+Lampung,8,2025,12,Desember,36,Pendapatan Daerah,7557909717848.2,6713662778909.2,88.83,False,False
+Lampung,8,2026,1,Januari,37,Pendapatan Daerah,7012532370311.0,489167036817.88,6.98,False,False
+Lampung,8,2026,2,Februari,38,Pendapatan Daerah,7012532370311.0,790374392684.22,11.27,False,False
+Lampung,8,2026,3,Maret,39,Pendapatan Daerah,7012532370311.0,1139943767501.0,16.26,False,False
+Lampung,8,2026,4,April,40,Pendapatan Daerah,7012532370311.0,1798172447881.0,25.64,False,False
+Lampung,8,2026,5,Mei,41,Pendapatan Daerah,7012532370311.0,2113276254771.6,30.14,False,False
+Lampung,8,2026,6,Juni,42,Pendapatan Daerah,7012532370311.0,2519885414562.4,35.93,False,False
+Lampung,8,2026,7,Juli,43,Pendapatan Daerah,7012532370311.0,2695578268341.7,38.44,False,False
+Lampung,8,2026,8,Agustus,44,Pendapatan Daerah,7012532370311.0,3251156923603.8,46.36,False,False
+Lampung,8,2026,9,September,45,Pendapatan Daerah,7012532370311.0,3268122437103.0,46.6,False,False
+Lampung,8,2026,10,Oktober,46,Pendapatan Daerah,7012532370311.0,3268122437103.0,46.6,False,True
+Lampung,8,2026,11,November,47,Pendapatan Daerah,7012532370311.0,3268122437103.0,46.6,False,True
+Lampung,8,2026,12,Desember,48,Pendapatan Daerah,7012532370311.0,3268122437103.0,46.6,False,True
+Lampung,8,2023,1,Januari,1,Pendapatan Hibah,14602101735.0,580380000.0,3.97,False,False
+Lampung,8,2023,2,Februari,2,Pendapatan Hibah,14602101735.0,1225010000.0,8.39,False,False
+Lampung,8,2023,3,Maret,3,Pendapatan Hibah,14602101735.0,2147752000.0,14.71,False,False
+Lampung,8,2023,4,April,4,Pendapatan Hibah,14602101735.0,2609862000.0,17.87,False,False
+Lampung,8,2023,5,Mei,5,Pendapatan Hibah,14602101735.0,2609862000.0,17.87,False,False
+Lampung,8,2023,6,Juni,6,Pendapatan Hibah,14602101735.0,3253332000.0,22.28,False,False
+Lampung,8,2023,7,Juli,7,Pendapatan Hibah,14602101735.0,6064664750.0,41.53,False,False
+Lampung,8,2023,8,Agustus,8,Pendapatan Hibah,14602101735.0,6937748000.0,47.51,False,False
+Lampung,8,2023,9,September,9,Pendapatan Hibah,14602101735.0,7740811250.0,53.01,False,False
+Lampung,8,2023,10,Oktober,10,Pendapatan Hibah,14602101735.0,8601454500.0,58.91,False,False
+Lampung,8,2023,11,November,11,Pendapatan Hibah,14602101735.0,9436897750.0,64.63,False,False
+Lampung,8,2023,12,Desember,12,Pendapatan Hibah,14602101735.0,10216481000.0,69.97,False,False
+Lampung,8,2024,1,Januari,13,Pendapatan Hibah,13786659735.0,494680000.0,3.59,False,False
+Lampung,8,2024,2,Februari,14,Pendapatan Hibah,13786659735.0,965500000.0,7.0,False,False
+Lampung,8,2024,3,Maret,15,Pendapatan Hibah,13786659735.0,1502930000.0,10.9,False,False
+Lampung,8,2024,4,April,16,Pendapatan Hibah,13786659735.0,2062000000.0,14.96,False,False
+Lampung,8,2024,5,Mei,17,Pendapatan Hibah,13786659735.0,2648330000.0,19.21,False,False
+Lampung,8,2024,6,Juni,18,Pendapatan Hibah,13786659735.0,0.0,0.0,False,False
+Lampung,8,2024,7,Juli,19,Pendapatan Hibah,13786659735.0,3842050000.0,27.87,False,False
+Lampung,8,2024,8,Agustus,20,Pendapatan Hibah,13786659735.0,4373630000.0,31.72,False,False
+Lampung,8,2024,9,September,21,Pendapatan Hibah,13786659735.0,7175125000.0,52.04,False,False
+Lampung,8,2024,10,Oktober,22,Pendapatan Hibah,13786659735.0,8754680000.0,63.5,False,False
+Lampung,8,2024,11,November,23,Pendapatan Hibah,13786659735.0,9669225000.0,70.13,False,False
+Lampung,8,2024,12,Desember,24,Pendapatan Hibah,13786659735.0,10822330000.0,78.5,False,False
+Lampung,8,2025,1,Januari,25,Pendapatan Hibah,13790898735.0,413270000.0,3.0,False,False
+Lampung,8,2025,2,Februari,26,Pendapatan Hibah,13790898735.0,879260000.0,6.38,False,False
+Lampung,8,2025,3,Maret,27,Pendapatan Hibah,13790898735.0,1409760000.0,10.22,False,False
+Lampung,8,2025,4,April,28,Pendapatan Hibah,13790898735.0,1880190000.0,13.63,False,False
+Lampung,8,2025,5,Mei,29,Pendapatan Hibah,13790898735.0,2438420000.0,17.68,False,False
+Lampung,8,2025,6,Juni,30,Pendapatan Hibah,13790898735.0,3785240000.0,27.45,False,False
+Lampung,8,2025,7,Juli,31,Pendapatan Hibah,13790898735.0,5753300000.0,41.72,False,False
+Lampung,8,2025,8,Agustus,32,Pendapatan Hibah,13790898735.0,6697150000.0,48.56,False,False
+Lampung,8,2025,9,September,33,Pendapatan Hibah,13790898735.0,7613780000.0,55.21,False,False
+Lampung,8,2025,10,Oktober,34,Pendapatan Hibah,13790898735.0,8611590000.0,62.44,False,False
+Lampung,8,2025,11,November,35,Pendapatan Hibah,13790898735.0,9490410000.0,68.82,False,False
+Lampung,8,2025,12,Desember,36,Pendapatan Hibah,13790898735.0,10613590000.0,76.96,False,False
+Lampung,8,2026,1,Januari,37,Pendapatan Hibah,111008990600.0,582950000.0,0.53,False,False
+Lampung,8,2026,2,Februari,38,Pendapatan Hibah,111008990600.0,1162790000.0,1.05,False,False
+Lampung,8,2026,3,Maret,39,Pendapatan Hibah,111008990600.0,1815940000.0,1.64,False,False
+Lampung,8,2026,4,April,40,Pendapatan Hibah,111008990600.0,2625910000.0,2.37,False,False
+Lampung,8,2026,5,Mei,41,Pendapatan Hibah,111008990600.0,3270620000.0,2.95,False,False
+Lampung,8,2026,6,Juni,42,Pendapatan Hibah,111008990600.0,3949040000.0,3.56,False,False
+Lampung,8,2026,7,Juli,43,Pendapatan Hibah,111008990600.0,4531400000.0,4.08,False,False
+Lampung,8,2026,8,Agustus,44,Pendapatan Hibah,111008990600.0,4971870000.0,4.48,False,False
+Lampung,8,2026,9,September,45,Pendapatan Hibah,111008990600.0,5029620000.0,4.53,False,False
+Lampung,8,2026,10,Oktober,46,Pendapatan Hibah,111008990600.0,5029620000.0,4.53,False,True
+Lampung,8,2026,11,November,47,Pendapatan Hibah,111008990600.0,5029620000.0,4.53,False,True
+Lampung,8,2026,12,Desember,48,Pendapatan Hibah,111008990600.0,5029620000.0,4.53,False,True
+Lampung,8,2023,1,Januari,1,Pendapatan Lainnya,42124977423.0,580380000.0,1.38,False,False
+Lampung,8,2023,2,Februari,2,Pendapatan Lainnya,42124977423.0,1861470000.0,4.42,False,False
+Lampung,8,2023,3,Maret,3,Pendapatan Lainnya,42124977423.0,5603572000.0,13.3,False,False
+Lampung,8,2023,4,April,4,Pendapatan Lainnya,42124977423.0,8525756598.0,20.24,False,False
+Lampung,8,2023,5,Mei,5,Pendapatan Lainnya,42124977423.0,8525756598.0,20.24,False,False
+Lampung,8,2023,6,Juni,6,Pendapatan Lainnya,42124977423.0,12477143902.0,29.62,False,False
+Lampung,8,2023,7,Juli,7,Pendapatan Lainnya,42124977423.0,21643085851.0,51.38,False,False
+Lampung,8,2023,8,Agustus,8,Pendapatan Lainnya,42124977423.0,28497936027.0,67.65,False,False
+Lampung,8,2023,9,September,9,Pendapatan Lainnya,42124977423.0,31303447277.0,74.31,False,False
+Lampung,8,2023,10,Oktober,10,Pendapatan Lainnya,42124977423.0,32164090527.0,76.35,False,False
+Lampung,8,2023,11,November,11,Pendapatan Lainnya,42124977423.0,34309414162.0,81.45,False,False
+Lampung,8,2023,12,Desember,12,Pendapatan Lainnya,42124977423.0,37086433628.0,88.04,False,False
+Lampung,8,2024,1,Januari,13,Pendapatan Lainnya,51041351735.0,494680000.0,0.97,False,False
+Lampung,8,2024,2,Februari,14,Pendapatan Lainnya,51041351735.0,1015280000.0,1.99,False,False
+Lampung,8,2024,3,Maret,15,Pendapatan Lainnya,51041351735.0,1776568000.0,3.48,False,False
+Lampung,8,2024,4,April,16,Pendapatan Lainnya,51041351735.0,2543226000.0,4.98,False,False
+Lampung,8,2024,5,Mei,17,Pendapatan Lainnya,51041351735.0,3710018000.0,7.27,False,False
+Lampung,8,2024,6,Juni,18,Pendapatan Lainnya,51041351735.0,1328287000.0,2.6,False,False
+Lampung,8,2024,7,Juli,19,Pendapatan Lainnya,51041351735.0,6065836000.0,11.88,False,False
+Lampung,8,2024,8,Agustus,20,Pendapatan Lainnya,51041351735.0,26909975888.0,52.72,False,False
+Lampung,8,2024,9,September,21,Pendapatan Lainnya,51041351735.0,30408470888.0,59.58,False,False
+Lampung,8,2024,10,Oktober,22,Pendapatan Lainnya,51041351735.0,32555595888.0,63.78,False,False
+Lampung,8,2024,11,November,23,Pendapatan Lainnya,51041351735.0,34426261888.0,67.45,False,False
+Lampung,8,2024,12,Desember,24,Pendapatan Lainnya,51041351735.0,36989153164.0,72.47,False,False
+Lampung,8,2025,1,Januari,25,Pendapatan Lainnya,48475571735.0,413270000.0,0.85,False,False
+Lampung,8,2025,2,Februari,26,Pendapatan Lainnya,48475571735.0,1488356000.0,3.07,False,False
+Lampung,8,2025,3,Maret,27,Pendapatan Lainnya,48475571735.0,2081061000.0,4.29,False,False
+Lampung,8,2025,4,April,28,Pendapatan Lainnya,48475571735.0,2823491000.0,5.82,False,False
+Lampung,8,2025,5,Mei,29,Pendapatan Lainnya,48475571735.0,5688395136.0,11.73,False,False
+Lampung,8,2025,6,Juni,30,Pendapatan Lainnya,48475571735.0,7187981272.0,14.83,False,False
+Lampung,8,2025,7,Juli,31,Pendapatan Lainnya,48475571735.0,29043355902.0,59.91,False,False
+Lampung,8,2025,8,Agustus,32,Pendapatan Lainnya,48475571735.0,34118624892.0,70.38,False,False
+Lampung,8,2025,9,September,33,Pendapatan Lainnya,48475571735.0,35397468892.0,73.02,False,False
+Lampung,8,2025,10,Oktober,34,Pendapatan Lainnya,48475571735.0,38829405992.0,80.1,False,False
+Lampung,8,2025,11,November,35,Pendapatan Lainnya,48475571735.0,41396670108.0,85.4,False,False
+Lampung,8,2025,12,Desember,36,Pendapatan Lainnya,48475571735.0,48106676058.0,99.24,False,False
+Lampung,8,2026,1,Januari,37,Pendapatan Lainnya,143938754400.0,1040570000.0,0.72,False,False
+Lampung,8,2026,2,Februari,38,Pendapatan Lainnya,143938754400.0,2594420000.0,1.8,False,False
+Lampung,8,2026,3,Maret,39,Pendapatan Lainnya,143938754400.0,4216703000.0,2.93,False,False
+Lampung,8,2026,4,April,40,Pendapatan Lainnya,143938754400.0,6627287432.0,4.6,False,False
+Lampung,8,2026,5,Mei,41,Pendapatan Lainnya,143938754400.0,7665973432.0,5.33,False,False
+Lampung,8,2026,6,Juni,42,Pendapatan Lainnya,143938754400.0,14495279667.0,10.07,False,False
+Lampung,8,2026,7,Juli,43,Pendapatan Lainnya,143938754400.0,15876084875.0,11.03,False,False
+Lampung,8,2026,8,Agustus,44,Pendapatan Lainnya,143938754400.0,23855280027.0,16.57,False,False
+Lampung,8,2026,9,September,45,Pendapatan Lainnya,143938754400.0,23913030027.0,16.61,False,False
+Lampung,8,2026,10,Oktober,46,Pendapatan Lainnya,143938754400.0,23913030027.0,16.61,False,True
+Lampung,8,2026,11,November,47,Pendapatan Lainnya,143938754400.0,23913030027.0,16.61,False,True
+Lampung,8,2026,12,Desember,48,Pendapatan Lainnya,143938754400.0,23913030027.0,16.61,False,True
+Lampung,8,2023,1,Januari,1,Pendapatan Transfer Antar Daerah,27522875688.0,0.0,0.0,False,False
+Lampung,8,2023,2,Februari,2,Pendapatan Transfer Antar Daerah,27522875688.0,636460000.0,2.31,False,False
+Lampung,8,2023,3,Maret,3,Pendapatan Transfer Antar Daerah,27522875688.0,3455820000.0,12.56,False,False
+Lampung,8,2023,4,April,4,Pendapatan Transfer Antar Daerah,27522875688.0,5915894598.0,21.49,False,False
+Lampung,8,2023,5,Mei,5,Pendapatan Transfer Antar Daerah,27522875688.0,5915894598.0,21.49,False,False
+Lampung,8,2023,6,Juni,6,Pendapatan Transfer Antar Daerah,27522875688.0,9223811902.0,33.51,False,False
+Lampung,8,2023,7,Juli,7,Pendapatan Transfer Antar Daerah,27522875688.0,15578421101.0,56.6,False,False
+Lampung,8,2023,8,Agustus,8,Pendapatan Transfer Antar Daerah,27522875688.0,21560188027.0,78.34,False,False
+Lampung,8,2023,9,September,9,Pendapatan Transfer Antar Daerah,27522875688.0,23562636027.0,85.61,False,False
+Lampung,8,2023,10,Oktober,10,Pendapatan Transfer Antar Daerah,27522875688.0,23562636027.0,85.61,False,False
+Lampung,8,2023,11,November,11,Pendapatan Transfer Antar Daerah,27522875688.0,24872516412.0,90.37,False,False
+Lampung,8,2023,12,Desember,12,Pendapatan Transfer Antar Daerah,27522875688.0,26869952628.0,97.63,False,False
+Lampung,8,2024,1,Januari,13,Pendapatan Transfer Antar Daerah,37254692000.0,0.0,0.0,False,False
+Lampung,8,2024,2,Februari,14,Pendapatan Transfer Antar Daerah,37254692000.0,49780000.0,0.13,False,False
+Lampung,8,2024,3,Maret,15,Pendapatan Transfer Antar Daerah,37254692000.0,273638000.0,0.73,False,False
+Lampung,8,2024,4,April,16,Pendapatan Transfer Antar Daerah,37254692000.0,481226000.0,1.29,False,False
+Lampung,8,2024,5,Mei,17,Pendapatan Transfer Antar Daerah,37254692000.0,1061688000.0,2.85,False,False
+Lampung,8,2024,6,Juni,18,Pendapatan Transfer Antar Daerah,37254692000.0,1328287000.0,3.57,False,False
+Lampung,8,2024,7,Juli,19,Pendapatan Transfer Antar Daerah,37254692000.0,2223786000.0,5.97,False,False
+Lampung,8,2024,8,Agustus,20,Pendapatan Transfer Antar Daerah,37254692000.0,22536345888.0,60.49,False,False
+Lampung,8,2024,9,September,21,Pendapatan Transfer Antar Daerah,37254692000.0,23233345888.0,62.36,False,False
+Lampung,8,2024,10,Oktober,22,Pendapatan Transfer Antar Daerah,37254692000.0,23800915888.0,63.89,False,False
+Lampung,8,2024,11,November,23,Pendapatan Transfer Antar Daerah,37254692000.0,24757036888.0,66.45,False,False
+Lampung,8,2024,12,Desember,24,Pendapatan Transfer Antar Daerah,37254692000.0,26166823164.0,70.24,False,False
+Lampung,8,2025,1,Januari,25,Pendapatan Transfer Antar Daerah,34684673000.0,0.0,0.0,False,False
+Lampung,8,2025,2,Februari,26,Pendapatan Transfer Antar Daerah,34684673000.0,609096000.0,1.76,False,False
+Lampung,8,2025,3,Maret,27,Pendapatan Transfer Antar Daerah,34684673000.0,671301000.0,1.94,False,False
+Lampung,8,2025,4,April,28,Pendapatan Transfer Antar Daerah,34684673000.0,943301000.0,2.72,False,False
+Lampung,8,2025,5,Mei,29,Pendapatan Transfer Antar Daerah,34684673000.0,3249975136.0,9.37,False,False
+Lampung,8,2025,6,Juni,30,Pendapatan Transfer Antar Daerah,34684673000.0,3402741272.0,9.81,False,False
+Lampung,8,2025,7,Juli,31,Pendapatan Transfer Antar Daerah,34684673000.0,23290055902.0,67.15,False,False
+Lampung,8,2025,8,Agustus,32,Pendapatan Transfer Antar Daerah,34684673000.0,27421474892.0,79.06,False,False
+Lampung,8,2025,9,September,33,Pendapatan Transfer Antar Daerah,34684673000.0,27783688892.0,80.1,False,False
+Lampung,8,2025,10,Oktober,34,Pendapatan Transfer Antar Daerah,34684673000.0,30217815992.0,87.12,False,False
+Lampung,8,2025,11,November,35,Pendapatan Transfer Antar Daerah,34684673000.0,31906260108.0,91.99,False,False
+Lampung,8,2025,12,Desember,36,Pendapatan Transfer Antar Daerah,34684673000.0,37493086058.0,108.1,False,False
+Lampung,8,2026,1,Januari,37,Pendapatan Transfer Antar Daerah,32929763800.0,457620000.0,1.39,False,False
+Lampung,8,2026,2,Februari,38,Pendapatan Transfer Antar Daerah,32929763800.0,1431630000.0,4.35,False,False
+Lampung,8,2026,3,Maret,39,Pendapatan Transfer Antar Daerah,32929763800.0,2400763000.0,7.29,False,False
+Lampung,8,2026,4,April,40,Pendapatan Transfer Antar Daerah,32929763800.0,4001377432.0,12.15,False,False
+Lampung,8,2026,5,Mei,41,Pendapatan Transfer Antar Daerah,32929763800.0,4395353432.0,13.35,False,False
+Lampung,8,2026,6,Juni,42,Pendapatan Transfer Antar Daerah,32929763800.0,10546239667.0,32.03,False,False
+Lampung,8,2026,7,Juli,43,Pendapatan Transfer Antar Daerah,32929763800.0,11344684875.0,34.45,False,False
+Lampung,8,2026,8,Agustus,44,Pendapatan Transfer Antar Daerah,32929763800.0,18883410027.0,57.34,False,False
+Lampung,8,2026,9,September,45,Pendapatan Transfer Antar Daerah,32929763800.0,18883410027.0,57.34,False,True
+Lampung,8,2026,10,Oktober,46,Pendapatan Transfer Antar Daerah,32929763800.0,18883410027.0,57.34,False,True
+Lampung,8,2026,11,November,47,Pendapatan Transfer Antar Daerah,32929763800.0,18883410027.0,57.34,False,True
+Lampung,8,2026,12,Desember,48,Pendapatan Transfer Antar Daerah,32929763800.0,18883410027.0,57.34,False,True
+Lampung,8,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,220499395200.0,6.84,False,False
+Lampung,8,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,341017574300.0,10.58,False,False
+Lampung,8,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,571868815400.0,17.74,False,False
+Lampung,8,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,710992192900.0,22.05,False,False
+Lampung,8,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,710992192900.0,22.05,False,False
+Lampung,8,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,876105046750.0,27.17,False,False
+Lampung,8,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,1336347510750.0,41.45,False,False
+Lampung,8,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,1448961722804.0,44.94,False,False
+Lampung,8,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,1862228229488.0,57.76,False,False
+Lampung,8,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,2216659901134.0,68.75,False,False
+Lampung,8,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,2466289333600.0,76.49,False,False
+Lampung,8,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,3224292047691.0,3018188690754.0,93.61,False,False
+Lampung,8,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,133260164400.0,3.97,False,False
+Lampung,8,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,400183169200.0,11.93,False,False
+Lampung,8,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,595870738350.0,17.76,False,False
+Lampung,8,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,803799308850.0,23.96,False,False
+Lampung,8,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,1058881951572.0,31.56,False,False
+Lampung,8,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,1416344394426.0,42.22,False,False
+Lampung,8,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,1643877545465.0,49.0,False,False
+Lampung,8,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,2073167854320.0,61.8,False,False
+Lampung,8,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,2238144603208.0,66.72,False,False
+Lampung,8,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,2596075484924.0,77.39,False,False
+Lampung,8,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,2855813941084.0,85.13,False,False
+Lampung,8,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,3354664317597.0,3375496355190.0,100.62,False,False
+Lampung,8,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,295742803600.0,8.48,False,False
+Lampung,8,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,464059795565.0,13.3,False,False
+Lampung,8,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,634947511860.0,18.2,False,False
+Lampung,8,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,857473989535.0,24.57,False,False
+Lampung,8,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,1091468670365.0,31.28,False,False
+Lampung,8,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,1158733477815.0,33.21,False,False
+Lampung,8,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,1513579743320.0,43.38,False,False
+Lampung,8,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,1969529137832.0,56.44,False,False
+Lampung,8,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,2263448377442.0,64.87,False,False
+Lampung,8,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,2451911712979.0,70.27,False,False
+Lampung,8,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,2851684021485.0,81.72,False,False
+Lampung,8,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,3489381614000.0,3319225727070.0,95.12,False,False
+Lampung,8,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,278755888500.0,9.8,False,False
+Lampung,8,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,422229756900.0,14.85,False,False
+Lampung,8,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,567866486686.0,19.97,False,False
+Lampung,8,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,713873157576.0,25.1,False,False
+Lampung,8,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,854966693126.0,30.07,False,False
+Lampung,8,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1000771237726.0,35.19,False,False
+Lampung,8,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1004989385126.0,35.34,False,False
+Lampung,8,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1329926997126.0,46.77,False,False
+Lampung,8,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1335112020876.0,46.95,False,False
+Lampung,8,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1335112020876.0,46.95,False,True
+Lampung,8,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1335112020876.0,46.95,False,True
+Lampung,8,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,2843560795781.0,1335112020876.0,46.95,False,True
+Lampung,8,2023,1,Januari,1,Retribusi Daerah,8460460518.0,310790699.0,3.67,False,False
+Lampung,8,2023,2,Februari,2,Retribusi Daerah,8460460518.0,560321289.0,6.62,False,False
+Lampung,8,2023,3,Maret,3,Retribusi Daerah,8460460518.0,924181264.0,10.92,False,False
+Lampung,8,2023,4,April,4,Retribusi Daerah,8460460518.0,1352114916.0,15.98,False,False
+Lampung,8,2023,5,Mei,5,Retribusi Daerah,8460460518.0,1352114916.0,15.98,False,False
+Lampung,8,2023,6,Juni,6,Retribusi Daerah,8460460518.0,1898260919.0,22.44,False,False
+Lampung,8,2023,7,Juli,7,Retribusi Daerah,8460460518.0,2780145816.0,32.86,False,False
+Lampung,8,2023,8,Agustus,8,Retribusi Daerah,8460460518.0,3266880378.0,38.61,False,False
+Lampung,8,2023,9,September,9,Retribusi Daerah,8460460518.0,3782343259.0,44.71,False,False
+Lampung,8,2023,10,Oktober,10,Retribusi Daerah,8460460518.0,4601237866.0,54.39,False,False
+Lampung,8,2023,11,November,11,Retribusi Daerah,8460460518.0,5373037841.0,63.51,False,False
+Lampung,8,2023,12,Desember,12,Retribusi Daerah,8460460518.0,6530190374.0,77.18,False,False
+Lampung,8,2024,1,Januari,13,Retribusi Daerah,341156842200.0,2290924828.05,0.67,False,False
+Lampung,8,2024,2,Februari,14,Retribusi Daerah,341156842200.0,4858335591.26,1.42,False,False
+Lampung,8,2024,3,Maret,15,Retribusi Daerah,341156842200.0,82198711174.31,24.09,False,False
+Lampung,8,2024,4,April,16,Retribusi Daerah,341156842200.0,117382900910.14,34.41,False,False
+Lampung,8,2024,5,Mei,17,Retribusi Daerah,341156842200.0,151031265426.86,44.27,False,False
+Lampung,8,2024,6,Juni,18,Retribusi Daerah,341156842200.0,152318524357.23,44.65,False,False
+Lampung,8,2024,7,Juli,19,Retribusi Daerah,341156842200.0,222491987890.57,65.22,False,False
+Lampung,8,2024,8,Agustus,20,Retribusi Daerah,341156842200.0,265050952454.83,77.69,False,False
+Lampung,8,2024,9,September,21,Retribusi Daerah,341156842200.0,301062030651.13,88.25,False,False
+Lampung,8,2024,10,Oktober,22,Retribusi Daerah,341156842200.0,347500180303.51,101.86,False,False
+Lampung,8,2024,11,November,23,Retribusi Daerah,341156842200.0,390496585081.16,114.46,False,False
+Lampung,8,2024,12,Desember,24,Retribusi Daerah,341156842200.0,485949536889.25,142.44,False,False
+Lampung,8,2025,1,Januari,25,Retribusi Daerah,450121878920.0,5032965460.58,1.12,False,False
+Lampung,8,2025,2,Februari,26,Retribusi Daerah,450121878920.0,47035155408.74,10.45,False,False
+Lampung,8,2025,3,Maret,27,Retribusi Daerah,450121878920.0,89915232168.89,19.98,False,False
+Lampung,8,2025,4,April,28,Retribusi Daerah,450121878920.0,101317673250.24,22.51,False,False
+Lampung,8,2025,5,Mei,29,Retribusi Daerah,450121878920.0,143420054139.02,31.86,False,False
+Lampung,8,2025,6,Juni,30,Retribusi Daerah,450121878920.0,183114854460.8,40.68,False,False
+Lampung,8,2025,7,Juli,31,Retribusi Daerah,450121878920.0,235950857734.68,52.42,False,False
+Lampung,8,2025,8,Agustus,32,Retribusi Daerah,450121878920.0,277414659383.04,61.63,False,False
+Lampung,8,2025,9,September,33,Retribusi Daerah,450121878920.0,323409910604.32,71.85,False,False
+Lampung,8,2025,10,Oktober,34,Retribusi Daerah,450121878920.0,366298353289.53,81.38,False,False
+Lampung,8,2025,11,November,35,Retribusi Daerah,450121878920.0,428175272170.13,95.12,False,False
+Lampung,8,2025,12,Desember,36,Retribusi Daerah,450121878920.0,526676749091.06,117.01,False,False
+Lampung,8,2026,1,Januari,37,Retribusi Daerah,481946670000.0,1768877757.7,0.37,False,False
+Lampung,8,2026,2,Februari,38,Retribusi Daerah,481946670000.0,3561580236.62,0.74,False,False
+Lampung,8,2026,3,Maret,39,Retribusi Daerah,481946670000.0,50692627429.92,10.52,False,False
+Lampung,8,2026,4,April,40,Retribusi Daerah,481946670000.0,153036018219.64,31.75,False,False
+Lampung,8,2026,5,Mei,41,Retribusi Daerah,481946670000.0,161044286164.36,33.42,False,False
+Lampung,8,2026,6,Juni,42,Retribusi Daerah,481946670000.0,227197168312.92,47.14,False,False
+Lampung,8,2026,7,Juli,43,Retribusi Daerah,481946670000.0,300111228331.15,62.27,False,False
+Lampung,8,2026,8,Agustus,44,Retribusi Daerah,481946670000.0,334750352548.76,69.46,False,False
+Lampung,8,2026,9,September,45,Retribusi Daerah,481946670000.0,335744723059.51,69.66,False,False
+Lampung,8,2026,10,Oktober,46,Retribusi Daerah,481946670000.0,335744723059.51,69.66,False,True
+Lampung,8,2026,11,November,47,Retribusi Daerah,481946670000.0,335744723059.51,69.66,False,True
+Lampung,8,2026,12,Desember,48,Retribusi Daerah,481946670000.0,335744723059.51,69.66,False,True
+Lampung,8,2023,1,Januari,1,TKDD,3224292047691.0,220499395200.0,6.84,False,False
+Lampung,8,2023,2,Februari,2,TKDD,3224292047691.0,341017574300.0,10.58,False,False
+Lampung,8,2023,3,Maret,3,TKDD,3224292047691.0,571868815400.0,17.74,False,False
+Lampung,8,2023,4,April,4,TKDD,3224292047691.0,710992192900.0,22.05,False,False
+Lampung,8,2023,5,Mei,5,TKDD,3224292047691.0,710992192900.0,22.05,False,False
+Lampung,8,2023,6,Juni,6,TKDD,3224292047691.0,876105046750.0,27.17,False,False
+Lampung,8,2023,7,Juli,7,TKDD,3224292047691.0,1336347510750.0,41.45,False,False
+Lampung,8,2023,8,Agustus,8,TKDD,3224292047691.0,1448961722804.0,44.94,False,False
+Lampung,8,2023,9,September,9,TKDD,3224292047691.0,1862228229488.0,57.76,False,False
+Lampung,8,2023,10,Oktober,10,TKDD,3224292047691.0,2216659901134.0,68.75,False,False
+Lampung,8,2023,11,November,11,TKDD,3224292047691.0,2466289333600.0,76.49,False,False
+Lampung,8,2023,12,Desember,12,TKDD,3224292047691.0,3018188690754.0,93.61,False,False
+Lampung,8,2024,1,Januari,13,TKDD,3354664317597.0,133260164400.0,3.97,False,False
+Lampung,8,2024,2,Februari,14,TKDD,3354664317597.0,400183169200.0,11.93,False,False
+Lampung,8,2024,3,Maret,15,TKDD,3354664317597.0,595870738350.0,17.76,False,False
+Lampung,8,2024,4,April,16,TKDD,3354664317597.0,803799308850.0,23.96,False,False
+Lampung,8,2024,5,Mei,17,TKDD,3354664317597.0,1058881951572.0,31.56,False,False
+Lampung,8,2024,6,Juni,18,TKDD,3354664317597.0,1416344394426.0,42.22,False,False
+Lampung,8,2024,7,Juli,19,TKDD,3354664317597.0,1643877545465.0,49.0,False,False
+Lampung,8,2024,8,Agustus,20,TKDD,3354664317597.0,2073167854320.0,61.8,False,False
+Lampung,8,2024,9,September,21,TKDD,3354664317597.0,2238144603208.0,66.72,False,False
+Lampung,8,2024,10,Oktober,22,TKDD,3354664317597.0,2596075484924.0,77.39,False,False
+Lampung,8,2024,11,November,23,TKDD,3354664317597.0,2855813941084.0,85.13,False,False
+Lampung,8,2024,12,Desember,24,TKDD,3354664317597.0,3375496355190.0,100.62,False,False
+Lampung,8,2025,1,Januari,25,TKDD,3489381614000.0,295742803600.0,8.48,False,False
+Lampung,8,2025,2,Februari,26,TKDD,3489381614000.0,464059795565.0,13.3,False,False
+Lampung,8,2025,3,Maret,27,TKDD,3489381614000.0,634947511860.0,18.2,False,False
+Lampung,8,2025,4,April,28,TKDD,3489381614000.0,857473989535.0,24.57,False,False
+Lampung,8,2025,5,Mei,29,TKDD,3489381614000.0,1091468670365.0,31.28,False,False
+Lampung,8,2025,6,Juni,30,TKDD,3489381614000.0,1158733477815.0,33.21,False,False
+Lampung,8,2025,7,Juli,31,TKDD,3489381614000.0,1513579743320.0,43.38,False,False
+Lampung,8,2025,8,Agustus,32,TKDD,3489381614000.0,1969529137832.0,56.44,False,False
+Lampung,8,2025,9,September,33,TKDD,3489381614000.0,2263448377442.0,64.87,False,False
+Lampung,8,2025,10,Oktober,34,TKDD,3489381614000.0,2451911712979.0,70.27,False,False
+Lampung,8,2025,11,November,35,TKDD,3489381614000.0,2851684021485.0,81.72,False,False
+Lampung,8,2025,12,Desember,36,TKDD,3489381614000.0,3319225727070.0,95.12,False,False
+Lampung,8,2026,1,Januari,37,TKDD,2843560795781.0,278755888500.0,9.8,False,False
+Lampung,8,2026,2,Februari,38,TKDD,2843560795781.0,422229756900.0,14.85,False,False
+Lampung,8,2026,3,Maret,39,TKDD,2843560795781.0,567866486686.0,19.97,False,False
+Lampung,8,2026,4,April,40,TKDD,2843560795781.0,713873157576.0,25.1,False,False
+Lampung,8,2026,5,Mei,41,TKDD,2843560795781.0,854966693126.0,30.07,False,False
+Lampung,8,2026,6,Juni,42,TKDD,2843560795781.0,1000771237726.0,35.19,False,False
+Lampung,8,2026,7,Juli,43,TKDD,2843560795781.0,1004989385126.0,35.34,False,False
+Lampung,8,2026,8,Agustus,44,TKDD,2843560795781.0,1329926997126.0,46.77,False,False
+Lampung,8,2026,9,September,45,TKDD,2843560795781.0,1335112020876.0,46.95,False,False
+Lampung,8,2026,10,Oktober,46,TKDD,2843560795781.0,1335112020876.0,46.95,False,True
+Lampung,8,2026,11,November,47,TKDD,2843560795781.0,1335112020876.0,46.95,False,True
+Lampung,8,2026,12,Desember,48,TKDD,2843560795781.0,1335112020876.0,46.95,False,True

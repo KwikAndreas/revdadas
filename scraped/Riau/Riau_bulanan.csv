@@ -1,0 +1,925 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Riau,4,2023,1,Januari,1,Belanja Bantuan Keuangan,588293734773.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Bantuan Keuangan,588293734773.0,0.0,0.0,False,False
+Riau,4,2023,3,Maret,3,Belanja Bantuan Keuangan,588293734773.0,7812000000.0,1.33,False,False
+Riau,4,2023,4,April,4,Belanja Bantuan Keuangan,588293734773.0,31848000000.0,5.41,False,False
+Riau,4,2023,5,Mei,5,Belanja Bantuan Keuangan,588293734773.0,31848000000.0,5.41,False,False
+Riau,4,2023,6,Juni,6,Belanja Bantuan Keuangan,588293734773.0,74761720933.0,12.71,False,False
+Riau,4,2023,7,Juli,7,Belanja Bantuan Keuangan,588293734773.0,157614528401.0,26.79,False,False
+Riau,4,2023,8,Agustus,8,Belanja Bantuan Keuangan,588293734773.0,233566273281.0,39.7,False,False
+Riau,4,2023,9,September,9,Belanja Bantuan Keuangan,588293734773.0,320357543098.0,54.46,False,False
+Riau,4,2023,10,Oktober,10,Belanja Bantuan Keuangan,588293734773.0,383005298098.0,65.1,False,False
+Riau,4,2023,11,November,11,Belanja Bantuan Keuangan,588293734773.0,507054842108.0,86.19,False,False
+Riau,4,2023,12,Desember,12,Belanja Bantuan Keuangan,588293734773.0,562014307825.0,95.53,False,False
+Riau,4,2024,1,Januari,13,Belanja Bantuan Keuangan,460003379000.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Belanja Bantuan Keuangan,460003379000.0,0.0,0.0,False,False
+Riau,4,2024,3,Maret,15,Belanja Bantuan Keuangan,460003379000.0,984000000.0,0.21,False,False
+Riau,4,2024,4,April,16,Belanja Bantuan Keuangan,460003379000.0,49628425000.0,10.79,False,False
+Riau,4,2024,5,Mei,17,Belanja Bantuan Keuangan,460003379000.0,63558102000.0,13.82,False,False
+Riau,4,2024,6,Juni,18,Belanja Bantuan Keuangan,460003379000.0,126956674900.0,27.6,False,False
+Riau,4,2024,7,Juli,19,Belanja Bantuan Keuangan,460003379000.0,183163143900.0,39.82,False,False
+Riau,4,2024,8,Agustus,20,Belanja Bantuan Keuangan,460003379000.0,269327543900.0,58.55,False,False
+Riau,4,2024,9,September,21,Belanja Bantuan Keuangan,460003379000.0,324713758380.0,70.59,False,False
+Riau,4,2024,10,Oktober,22,Belanja Bantuan Keuangan,460003379000.0,351442160380.0,76.4,False,False
+Riau,4,2024,11,November,23,Belanja Bantuan Keuangan,460003379000.0,374624623380.0,81.44,False,False
+Riau,4,2024,12,Desember,24,Belanja Bantuan Keuangan,460003379000.0,376531066929.19,81.85,False,False
+Riau,4,2025,1,Januari,25,Belanja Bantuan Keuangan,220440425700.0,0.0,0.0,False,False
+Riau,4,2025,2,Februari,26,Belanja Bantuan Keuangan,220440425700.0,0.0,0.0,False,False
+Riau,4,2025,3,Maret,27,Belanja Bantuan Keuangan,220440425700.0,0.0,0.0,False,False
+Riau,4,2025,4,April,28,Belanja Bantuan Keuangan,220440425700.0,7257642000.0,3.29,False,False
+Riau,4,2025,5,Mei,29,Belanja Bantuan Keuangan,220440425700.0,11654674800.0,5.29,False,False
+Riau,4,2025,6,Juni,30,Belanja Bantuan Keuangan,220440425700.0,19154674800.0,8.69,False,False
+Riau,4,2025,7,Juli,31,Belanja Bantuan Keuangan,220440425700.0,20321594800.0,9.22,False,False
+Riau,4,2025,8,Agustus,32,Belanja Bantuan Keuangan,220440425700.0,29117881600.0,13.21,False,False
+Riau,4,2025,9,September,33,Belanja Bantuan Keuangan,220440425700.0,31901373600.0,14.47,False,False
+Riau,4,2025,10,Oktober,34,Belanja Bantuan Keuangan,220440425700.0,39277039600.0,17.82,False,False
+Riau,4,2025,11,November,35,Belanja Bantuan Keuangan,220440425700.0,39725839600.0,18.02,False,False
+Riau,4,2025,12,Desember,36,Belanja Bantuan Keuangan,220440425700.0,83760921800.0,38.0,False,False
+Riau,4,2026,1,Januari,37,Belanja Bantuan Keuangan,175123294000.0,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Belanja Bantuan Keuangan,175123294000.0,0.0,0.0,False,False
+Riau,4,2026,3,Maret,39,Belanja Bantuan Keuangan,175123294000.0,0.0,0.0,False,False
+Riau,4,2026,4,April,40,Belanja Bantuan Keuangan,175123294000.0,0.0,0.0,False,False
+Riau,4,2026,5,Mei,41,Belanja Bantuan Keuangan,175123294000.0,0.0,0.0,False,False
+Riau,4,2026,6,Juni,42,Belanja Bantuan Keuangan,175123294000.0,7500000000.0,4.28,False,False
+Riau,4,2026,7,Juli,43,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,False
+Riau,4,2026,8,Agustus,44,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,True
+Riau,4,2026,9,September,45,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,True
+Riau,4,2026,10,Oktober,46,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,True
+Riau,4,2026,11,November,47,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,True
+Riau,4,2026,12,Desember,48,Belanja Bantuan Keuangan,175123294000.0,15000000000.0,8.57,False,True
+Riau,4,2023,1,Januari,1,Belanja Bantuan Sosial,50837846000.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Bantuan Sosial,50837846000.0,0.0,0.0,False,False
+Riau,4,2023,3,Maret,3,Belanja Bantuan Sosial,50837846000.0,0.0,0.0,False,False
+Riau,4,2023,4,April,4,Belanja Bantuan Sosial,50837846000.0,7280800000.0,14.32,False,False
+Riau,4,2023,5,Mei,5,Belanja Bantuan Sosial,50837846000.0,7280800000.0,14.32,False,False
+Riau,4,2023,6,Juni,6,Belanja Bantuan Sosial,50837846000.0,11551000000.0,22.72,False,False
+Riau,4,2023,7,Juli,7,Belanja Bantuan Sosial,50837846000.0,13466450000.0,26.49,False,False
+Riau,4,2023,8,Agustus,8,Belanja Bantuan Sosial,50837846000.0,15053910000.0,29.61,False,False
+Riau,4,2023,9,September,9,Belanja Bantuan Sosial,50837846000.0,16662460000.0,32.78,False,False
+Riau,4,2023,10,Oktober,10,Belanja Bantuan Sosial,50837846000.0,17670040000.0,34.76,False,False
+Riau,4,2023,11,November,11,Belanja Bantuan Sosial,50837846000.0,17725540000.0,34.87,False,False
+Riau,4,2023,12,Desember,12,Belanja Bantuan Sosial,50837846000.0,17727040000.0,34.87,False,False
+Riau,4,2024,1,Januari,13,Belanja Bantuan Sosial,44130184000.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Belanja Bantuan Sosial,44130184000.0,0.0,0.0,False,False
+Riau,4,2024,3,Maret,15,Belanja Bantuan Sosial,44130184000.0,0.0,0.0,False,False
+Riau,4,2024,4,April,16,Belanja Bantuan Sosial,44130184000.0,0.0,0.0,False,False
+Riau,4,2024,5,Mei,17,Belanja Bantuan Sosial,44130184000.0,0.0,0.0,False,False
+Riau,4,2024,6,Juni,18,Belanja Bantuan Sosial,44130184000.0,6150900000.0,13.94,False,False
+Riau,4,2024,7,Juli,19,Belanja Bantuan Sosial,44130184000.0,8376430000.0,18.98,False,False
+Riau,4,2024,8,Agustus,20,Belanja Bantuan Sosial,44130184000.0,8376430000.0,18.98,False,False
+Riau,4,2024,9,September,21,Belanja Bantuan Sosial,44130184000.0,9147515000.0,20.73,False,False
+Riau,4,2024,10,Oktober,22,Belanja Bantuan Sosial,44130184000.0,9199215000.0,20.85,False,False
+Riau,4,2024,11,November,23,Belanja Bantuan Sosial,44130184000.0,13635865000.0,30.9,False,False
+Riau,4,2024,12,Desember,24,Belanja Bantuan Sosial,44130184000.0,17654425000.0,40.01,False,False
+Riau,4,2025,1,Januari,25,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,2,Februari,26,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,3,Maret,27,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,4,April,28,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,5,Mei,29,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,6,Juni,30,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,7,Juli,31,Belanja Bantuan Sosial,31154711714.0,3372864000.0,10.83,False,False
+Riau,4,2025,8,Agustus,32,Belanja Bantuan Sosial,31154711714.0,8067664000.0,25.9,False,False
+Riau,4,2025,9,September,33,Belanja Bantuan Sosial,31154711714.0,8067664000.0,25.9,False,False
+Riau,4,2025,10,Oktober,34,Belanja Bantuan Sosial,31154711714.0,8067664000.0,25.9,False,False
+Riau,4,2025,11,November,35,Belanja Bantuan Sosial,31154711714.0,15354804000.0,49.29,False,False
+Riau,4,2025,12,Desember,36,Belanja Bantuan Sosial,31154711714.0,24201082033.0,77.68,False,False
+Riau,4,2026,1,Januari,37,Belanja Bantuan Sosial,42413613454.0,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Belanja Bantuan Sosial,42413613454.0,0.0,0.0,False,False
+Riau,4,2026,3,Maret,39,Belanja Bantuan Sosial,42413613454.0,0.0,0.0,False,False
+Riau,4,2026,4,April,40,Belanja Bantuan Sosial,42413613454.0,0.0,0.0,False,False
+Riau,4,2026,5,Mei,41,Belanja Bantuan Sosial,42413613454.0,5565900000.0,13.12,False,False
+Riau,4,2026,6,Juni,42,Belanja Bantuan Sosial,42413613454.0,5565900000.0,13.12,False,False
+Riau,4,2026,7,Juli,43,Belanja Bantuan Sosial,42413613454.0,5565900000.0,13.12,False,False
+Riau,4,2026,8,Agustus,44,Belanja Bantuan Sosial,42413613454.0,11109260000.0,26.19,False,False
+Riau,4,2026,9,September,45,Belanja Bantuan Sosial,42413613454.0,11109260000.0,26.19,False,True
+Riau,4,2026,10,Oktober,46,Belanja Bantuan Sosial,42413613454.0,11109260000.0,26.19,False,True
+Riau,4,2026,11,November,47,Belanja Bantuan Sosial,42413613454.0,11109260000.0,26.19,False,True
+Riau,4,2026,12,Desember,48,Belanja Bantuan Sosial,42413613454.0,11109260000.0,26.19,False,True
+Riau,4,2023,1,Januari,1,Belanja Barang dan Jasa,2968438963472.0,6253202546.0,0.21,False,False
+Riau,4,2023,2,Februari,2,Belanja Barang dan Jasa,2968438963472.0,89581727401.0,3.02,False,False
+Riau,4,2023,3,Maret,3,Belanja Barang dan Jasa,2968438963472.0,272244350206.0,9.17,False,False
+Riau,4,2023,4,April,4,Belanja Barang dan Jasa,2968438963472.0,596754041721.0,20.1,False,False
+Riau,4,2023,5,Mei,5,Belanja Barang dan Jasa,2968438963472.0,596754041721.0,20.1,False,False
+Riau,4,2023,6,Juni,6,Belanja Barang dan Jasa,2968438963472.0,814373755266.0,27.43,False,False
+Riau,4,2023,7,Juli,7,Belanja Barang dan Jasa,2968438963472.0,1008740932986.0,33.98,False,False
+Riau,4,2023,8,Agustus,8,Belanja Barang dan Jasa,2968438963472.0,1414627120532.0,47.66,False,False
+Riau,4,2023,9,September,9,Belanja Barang dan Jasa,2968438963472.0,1628729888985.0,54.87,False,False
+Riau,4,2023,10,Oktober,10,Belanja Barang dan Jasa,2968438963472.0,1901274701042.0,64.05,False,False
+Riau,4,2023,11,November,11,Belanja Barang dan Jasa,2968438963472.0,2164720674928.0,72.92,False,False
+Riau,4,2023,12,Desember,12,Belanja Barang dan Jasa,2968438963472.0,2620081169573.0,88.26,False,False
+Riau,4,2024,1,Januari,13,Belanja Barang dan Jasa,2956052133050.0,60685383154.0,2.05,False,False
+Riau,4,2024,2,Februari,14,Belanja Barang dan Jasa,2956052133050.0,149516295317.0,5.06,False,False
+Riau,4,2024,3,Maret,15,Belanja Barang dan Jasa,2956052133050.0,303752444775.0,10.28,False,False
+Riau,4,2024,4,April,16,Belanja Barang dan Jasa,2956052133050.0,571007368471.0,19.32,False,False
+Riau,4,2024,5,Mei,17,Belanja Barang dan Jasa,2956052133050.0,716848635916.5,24.25,False,False
+Riau,4,2024,6,Juni,18,Belanja Barang dan Jasa,2956052133050.0,1096988771552.0,37.11,False,False
+Riau,4,2024,7,Juli,19,Belanja Barang dan Jasa,2956052133050.0,1305849508543.1,44.18,False,False
+Riau,4,2024,8,Agustus,20,Belanja Barang dan Jasa,2956052133050.0,1490051522892.4,50.41,False,False
+Riau,4,2024,9,September,21,Belanja Barang dan Jasa,2956052133050.0,1648651743741.4,55.77,False,False
+Riau,4,2024,10,Oktober,22,Belanja Barang dan Jasa,2956052133050.0,1826466291720.1,61.79,False,False
+Riau,4,2024,11,November,23,Belanja Barang dan Jasa,2956052133050.0,2058808728630.1,69.65,False,False
+Riau,4,2024,12,Desember,24,Belanja Barang dan Jasa,2956052133050.0,2455937474181.5,83.08,False,False
+Riau,4,2025,1,Januari,25,Belanja Barang dan Jasa,2960084902315.7,68729453687.0,2.32,False,False
+Riau,4,2025,2,Februari,26,Belanja Barang dan Jasa,2960084902315.7,186563791249.0,6.3,False,False
+Riau,4,2025,3,Maret,27,Belanja Barang dan Jasa,2960084902315.7,327679728541.0,11.07,False,False
+Riau,4,2025,4,April,28,Belanja Barang dan Jasa,2960084902315.7,394521849674.0,13.33,False,False
+Riau,4,2025,5,Mei,29,Belanja Barang dan Jasa,2960084902315.7,530795544934.0,17.93,False,False
+Riau,4,2025,6,Juni,30,Belanja Barang dan Jasa,2960084902315.7,714282456510.0,24.13,False,False
+Riau,4,2025,7,Juli,31,Belanja Barang dan Jasa,2960084902315.7,922676298275.0,31.17,False,False
+Riau,4,2025,8,Agustus,32,Belanja Barang dan Jasa,2960084902315.7,1153393144774.5,38.96,False,False
+Riau,4,2025,9,September,33,Belanja Barang dan Jasa,2960084902315.7,1400638836274.3,47.32,False,False
+Riau,4,2025,10,Oktober,34,Belanja Barang dan Jasa,2960084902315.7,1669315752066.7,56.39,False,False
+Riau,4,2025,11,November,35,Belanja Barang dan Jasa,2960084902315.7,1860136813914.3,62.84,False,False
+Riau,4,2025,12,Desember,36,Belanja Barang dan Jasa,2960084902315.7,2340866332190.5,79.08,False,False
+Riau,4,2026,1,Januari,37,Belanja Barang dan Jasa,2372345367091.1,20876443228.0,0.88,False,False
+Riau,4,2026,2,Februari,38,Belanja Barang dan Jasa,2372345367091.1,88203203544.0,3.72,False,False
+Riau,4,2026,3,Maret,39,Belanja Barang dan Jasa,2372345367091.1,192231706271.0,8.1,False,False
+Riau,4,2026,4,April,40,Belanja Barang dan Jasa,2372345367091.1,328461422649.0,13.85,False,False
+Riau,4,2026,5,Mei,41,Belanja Barang dan Jasa,2372345367091.1,414349268084.0,17.47,False,False
+Riau,4,2026,6,Juni,42,Belanja Barang dan Jasa,2372345367091.1,531527340424.0,22.41,False,False
+Riau,4,2026,7,Juli,43,Belanja Barang dan Jasa,2372345367091.1,743890630601.0,31.36,False,False
+Riau,4,2026,8,Agustus,44,Belanja Barang dan Jasa,2372345367091.1,851500135024.0,35.89,False,False
+Riau,4,2026,9,September,45,Belanja Barang dan Jasa,2372345367091.1,861221532225.0,36.3,False,False
+Riau,4,2026,10,Oktober,46,Belanja Barang dan Jasa,2372345367091.1,861221532225.0,36.3,False,True
+Riau,4,2026,11,November,47,Belanja Barang dan Jasa,2372345367091.1,861221532225.0,36.3,False,True
+Riau,4,2026,12,Desember,48,Belanja Barang dan Jasa,2372345367091.1,861221532225.0,36.3,False,True
+Riau,4,2023,1,Januari,1,Belanja Daerah,10142479986897.0,117877524543.0,1.16,False,False
+Riau,4,2023,2,Februari,2,Belanja Daerah,10142479986897.0,360592554773.0,3.56,False,False
+Riau,4,2023,3,Maret,3,Belanja Daerah,10142479986897.0,1026201677758.0,10.12,False,False
+Riau,4,2023,4,April,4,Belanja Daerah,10142479986897.0,2206201413247.0,21.75,False,False
+Riau,4,2023,5,Mei,5,Belanja Daerah,10142479986897.0,2206201413247.0,21.75,False,False
+Riau,4,2023,6,Juni,6,Belanja Daerah,10142479986897.0,2892886749680.0,28.52,False,False
+Riau,4,2023,7,Juli,7,Belanja Daerah,10142479986897.0,3806405493335.0,37.53,False,False
+Riau,4,2023,8,Agustus,8,Belanja Daerah,10142479986897.0,4893378633406.0,48.25,False,False
+Riau,4,2023,9,September,9,Belanja Daerah,10142479986897.0,5687104038125.0,56.07,False,False
+Riau,4,2023,10,Oktober,10,Belanja Daerah,10142479986897.0,6474161441152.0,63.83,False,False
+Riau,4,2023,11,November,11,Belanja Daerah,10142479986897.0,7431170349485.0,73.27,False,False
+Riau,4,2023,12,Desember,12,Belanja Daerah,10142479986897.0,9867684585857.0,97.29,False,False
+Riau,4,2024,1,Januari,13,Belanja Daerah,11020380657451.0,200684001366.0,1.82,False,False
+Riau,4,2024,2,Februari,14,Belanja Daerah,11020380657451.0,553196548315.0,5.02,False,False
+Riau,4,2024,3,Maret,15,Belanja Daerah,11020380657451.0,1046101242886.0,9.49,False,False
+Riau,4,2024,4,April,16,Belanja Daerah,11020380657451.0,2038908492288.0,18.5,False,False
+Riau,4,2024,5,Mei,17,Belanja Daerah,11020380657451.0,2880038893567.5,26.13,False,False
+Riau,4,2024,6,Juni,18,Belanja Daerah,11020380657451.0,3989195028268.0,36.2,False,False
+Riau,4,2024,7,Juli,19,Belanja Daerah,11020380657451.0,4868956009506.6,44.18,False,False
+Riau,4,2024,8,Agustus,20,Belanja Daerah,11020380657451.0,5950869190569.4,54.0,False,False
+Riau,4,2024,9,September,21,Belanja Daerah,11020380657451.0,6591413807528.1,59.81,False,False
+Riau,4,2024,10,Oktober,22,Belanja Daerah,11020380657451.0,7438880020634.8,67.5,False,False
+Riau,4,2024,11,November,23,Belanja Daerah,11020380657451.0,8202786460499.2,74.43,False,False
+Riau,4,2024,12,Desember,24,Belanja Daerah,11020380657451.0,9586628436630.2,86.99,False,False
+Riau,4,2025,1,Januari,25,Belanja Daerah,9472594918254.0,270759693119.0,2.86,False,False
+Riau,4,2025,2,Februari,26,Belanja Daerah,9472594918254.0,565308996203.0,5.97,False,False
+Riau,4,2025,3,Maret,27,Belanja Daerah,9472594918254.0,1158012369322.0,12.22,False,False
+Riau,4,2025,4,April,28,Belanja Daerah,9472594918254.0,1431479824492.0,15.11,False,False
+Riau,4,2025,5,Mei,29,Belanja Daerah,9472594918254.0,1987022476072.0,20.98,False,False
+Riau,4,2025,6,Juni,30,Belanja Daerah,9472594918254.0,2916097966275.0,30.78,False,False
+Riau,4,2025,7,Juli,31,Belanja Daerah,9472594918254.0,3465265092140.0,36.58,False,False
+Riau,4,2025,8,Agustus,32,Belanja Daerah,9472594918254.0,4345705542033.4,45.88,False,False
+Riau,4,2025,9,September,33,Belanja Daerah,9472594918254.0,5014493451608.8,52.94,False,False
+Riau,4,2025,10,Oktober,34,Belanja Daerah,9472594918254.0,5564418834869.8,58.74,False,False
+Riau,4,2025,11,November,35,Belanja Daerah,9472594918254.0,6598188000462.4,69.66,False,False
+Riau,4,2025,12,Desember,36,Belanja Daerah,9472594918254.0,8031074338704.0,84.78,False,False
+Riau,4,2026,1,Januari,37,Belanja Daerah,8321779708436.0,153532350606.0,1.84,False,False
+Riau,4,2026,2,Februari,38,Belanja Daerah,8321779708436.0,424473628923.35,5.1,False,False
+Riau,4,2026,3,Maret,39,Belanja Daerah,8321779708436.0,1053161911498.0,12.66,False,False
+Riau,4,2026,4,April,40,Belanja Daerah,8321779708436.0,1456199008461.0,17.5,False,False
+Riau,4,2026,5,Mei,41,Belanja Daerah,8321779708436.0,2016892883926.0,24.24,False,False
+Riau,4,2026,6,Juni,42,Belanja Daerah,8321779708436.0,2980524567729.0,35.82,False,False
+Riau,4,2026,7,Juli,43,Belanja Daerah,8321779708436.0,3615936911295.0,43.45,False,False
+Riau,4,2026,8,Agustus,44,Belanja Daerah,8321779708436.0,4290150660328.0,51.55,False,False
+Riau,4,2026,9,September,45,Belanja Daerah,8321779708436.0,4509303846111.0,54.19,False,False
+Riau,4,2026,10,Oktober,46,Belanja Daerah,8321779708436.0,4509303846111.0,54.19,False,True
+Riau,4,2026,11,November,47,Belanja Daerah,8321779708436.0,4509303846111.0,54.19,False,True
+Riau,4,2026,12,Desember,48,Belanja Daerah,8321779708436.0,4509303846111.0,54.19,False,True
+Riau,4,2023,1,Januari,1,Belanja Hibah,340330285017.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Hibah,340330285017.0,7477857750.0,2.2,False,False
+Riau,4,2023,3,Maret,3,Belanja Hibah,340330285017.0,60383969250.0,17.74,False,False
+Riau,4,2023,4,April,4,Belanja Hibah,340330285017.0,92813102734.0,27.27,False,False
+Riau,4,2023,5,Mei,5,Belanja Hibah,340330285017.0,92813102734.0,27.27,False,False
+Riau,4,2023,6,Juni,6,Belanja Hibah,340330285017.0,110385296759.0,32.43,False,False
+Riau,4,2023,7,Juli,7,Belanja Hibah,340330285017.0,124447579881.0,36.57,False,False
+Riau,4,2023,8,Agustus,8,Belanja Hibah,340330285017.0,135449981495.0,39.8,False,False
+Riau,4,2023,9,September,9,Belanja Hibah,340330285017.0,195804132060.0,57.53,False,False
+Riau,4,2023,10,Oktober,10,Belanja Hibah,340330285017.0,225829116279.0,66.36,False,False
+Riau,4,2023,11,November,11,Belanja Hibah,340330285017.0,240349691199.0,70.62,False,False
+Riau,4,2023,12,Desember,12,Belanja Hibah,340330285017.0,355199063658.0,104.37,False,False
+Riau,4,2024,1,Januari,13,Belanja Hibah,567889708670.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Belanja Hibah,567889708670.0,23236530000.0,4.09,False,False
+Riau,4,2024,3,Maret,15,Belanja Hibah,567889708670.0,32498860642.0,5.72,False,False
+Riau,4,2024,4,April,16,Belanja Hibah,567889708670.0,99745485366.0,17.56,False,False
+Riau,4,2024,5,Mei,17,Belanja Hibah,567889708670.0,131866068682.0,23.22,False,False
+Riau,4,2024,6,Juni,18,Belanja Hibah,567889708670.0,237816962446.0,41.88,False,False
+Riau,4,2024,7,Juli,19,Belanja Hibah,567889708670.0,276771253817.0,48.74,False,False
+Riau,4,2024,8,Agustus,20,Belanja Hibah,567889708670.0,375657223390.7,66.15,False,False
+Riau,4,2024,9,September,21,Belanja Hibah,567889708670.0,407097867885.7,71.69,False,False
+Riau,4,2024,10,Oktober,22,Belanja Hibah,567889708670.0,432163327465.7,76.1,False,False
+Riau,4,2024,11,November,23,Belanja Hibah,567889708670.0,457515980162.7,80.56,False,False
+Riau,4,2024,12,Desember,24,Belanja Hibah,567889708670.0,482738316161.73,85.01,False,False
+Riau,4,2025,1,Januari,25,Belanja Hibah,283734876501.0,500000000.0,0.18,False,False
+Riau,4,2025,2,Februari,26,Belanja Hibah,283734876501.0,50618565500.0,17.84,False,False
+Riau,4,2025,3,Maret,27,Belanja Hibah,283734876501.0,55188956900.0,19.45,False,False
+Riau,4,2025,4,April,28,Belanja Hibah,283734876501.0,60876863900.0,21.46,False,False
+Riau,4,2025,5,Mei,29,Belanja Hibah,283734876501.0,64733971659.0,22.81,False,False
+Riau,4,2025,6,Juni,30,Belanja Hibah,283734876501.0,83613111659.0,29.47,False,False
+Riau,4,2025,7,Juli,31,Belanja Hibah,283734876501.0,121412776606.0,42.79,False,False
+Riau,4,2025,8,Agustus,32,Belanja Hibah,283734876501.0,180612250249.0,63.66,False,False
+Riau,4,2025,9,September,33,Belanja Hibah,283734876501.0,223034491643.0,78.61,False,False
+Riau,4,2025,10,Oktober,34,Belanja Hibah,283734876501.0,235611949768.0,83.04,False,False
+Riau,4,2025,11,November,35,Belanja Hibah,283734876501.0,237838657837.0,83.82,False,False
+Riau,4,2025,12,Desember,36,Belanja Hibah,283734876501.0,266416320878.0,93.9,False,False
+Riau,4,2026,1,Januari,37,Belanja Hibah,289073665875.0,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Belanja Hibah,289073665875.0,0.0,0.0,False,False
+Riau,4,2026,3,Maret,39,Belanja Hibah,289073665875.0,4545812000.0,1.57,False,False
+Riau,4,2026,4,April,40,Belanja Hibah,289073665875.0,4545812000.0,1.57,False,False
+Riau,4,2026,5,Mei,41,Belanja Hibah,289073665875.0,78704498156.0,27.23,False,False
+Riau,4,2026,6,Juni,42,Belanja Hibah,289073665875.0,84732263927.0,29.31,False,False
+Riau,4,2026,7,Juli,43,Belanja Hibah,289073665875.0,95368782191.0,32.99,False,False
+Riau,4,2026,8,Agustus,44,Belanja Hibah,289073665875.0,125930907237.0,43.56,False,False
+Riau,4,2026,9,September,45,Belanja Hibah,289073665875.0,128794697237.0,44.55,False,False
+Riau,4,2026,10,Oktober,46,Belanja Hibah,289073665875.0,128794697237.0,44.55,False,True
+Riau,4,2026,11,November,47,Belanja Hibah,289073665875.0,128794697237.0,44.55,False,True
+Riau,4,2026,12,Desember,48,Belanja Hibah,289073665875.0,128794697237.0,44.55,False,True
+Riau,4,2023,1,Januari,1,Belanja Lainnya,2556649163158.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Lainnya,2556649163158.0,7477857750.0,0.29,False,False
+Riau,4,2023,3,Maret,3,Belanja Lainnya,2556649163158.0,253669465297.0,9.92,False,False
+Riau,4,2023,4,April,4,Belanja Lainnya,2556649163158.0,725801406127.0,28.39,False,False
+Riau,4,2023,5,Mei,5,Belanja Lainnya,2556649163158.0,725801406127.0,28.39,False,False
+Riau,4,2023,6,Juni,6,Belanja Lainnya,2556649163158.0,790557521085.0,30.92,False,False
+Riau,4,2023,7,Juli,7,Belanja Lainnya,2556649163158.0,1061251204838.0,41.51,False,False
+Riau,4,2023,8,Agustus,8,Belanja Lainnya,2556649163158.0,1359848106287.0,53.19,False,False
+Riau,4,2023,9,September,9,Belanja Lainnya,2556649163158.0,1593166557148.0,62.31,False,False
+Riau,4,2023,10,Oktober,10,Belanja Lainnya,2556649163158.0,1686846876367.0,65.98,False,False
+Riau,4,2023,11,November,11,Belanja Lainnya,2556649163158.0,1896113090293.0,74.16,False,False
+Riau,4,2023,12,Desember,12,Belanja Lainnya,2556649163158.0,2886432717592.0,112.9,False,False
+Riau,4,2024,1,Januari,13,Belanja Lainnya,2907066862085.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Belanja Lainnya,2907066862085.0,106982652512.0,3.68,False,False
+Riau,4,2024,3,Maret,15,Belanja Lainnya,2907066862085.0,117228983154.0,4.03,False,False
+Riau,4,2024,4,April,16,Belanja Lainnya,2907066862085.0,482436493081.0,16.6,False,False
+Riau,4,2024,5,Mei,17,Belanja Lainnya,2907066862085.0,794825810687.0,27.34,False,False
+Riau,4,2024,6,Juni,18,Belanja Lainnya,2907066862085.0,970326177351.0,33.38,False,False
+Riau,4,2024,7,Juli,19,Belanja Lainnya,2907066862085.0,1213493930711.0,41.74,False,False
+Riau,4,2024,8,Agustus,20,Belanja Lainnya,2907066862085.0,1608994012172.7,55.35,False,False
+Riau,4,2024,9,September,21,Belanja Lainnya,2907066862085.0,1696591956147.7,58.36,False,False
+Riau,4,2024,10,Oktober,22,Belanja Lainnya,2907066862085.0,1927165012645.7,66.29,False,False
+Riau,4,2024,11,November,23,Belanja Lainnya,2907066862085.0,2031680066979.7,69.89,False,False
+Riau,4,2024,12,Desember,24,Belanja Lainnya,2907066862085.0,2204381835950.9,75.83,False,False
+Riau,4,2025,1,Januari,25,Belanja Lainnya,1935977016260.1,3872864000.0,0.2,False,False
+Riau,4,2025,2,Februari,26,Belanja Lainnya,1935977016260.1,53991429500.0,2.79,False,False
+Riau,4,2025,3,Maret,27,Belanja Lainnya,1935977016260.1,58561820900.0,3.02,False,False
+Riau,4,2025,4,April,28,Belanja Lainnya,1935977016260.1,71507369900.0,3.69,False,False
+Riau,4,2025,5,Mei,29,Belanja Lainnya,1935977016260.1,283634047175.0,14.65,False,False
+Riau,4,2025,6,Juni,30,Belanja Lainnya,1935977016260.1,455731463955.0,23.54,False,False
+Riau,4,2025,7,Juli,31,Belanja Lainnya,1935977016260.1,543061606978.0,28.05,False,False
+Riau,4,2025,8,Agustus,32,Belanja Lainnya,1935977016260.1,926125928049.35,47.84,False,False
+Riau,4,2025,9,September,33,Belanja Lainnya,1935977016260.1,1080499839757.3,55.81,False,False
+Riau,4,2025,10,Oktober,34,Belanja Lainnya,1935977016260.1,1100452963882.4,56.84,False,False
+Riau,4,2025,11,November,35,Belanja Lainnya,1935977016260.1,1312844458116.4,67.81,False,False
+Riau,4,2025,12,Desember,36,Belanja Lainnya,1935977016260.1,1566593296070.0,80.92,False,False
+Riau,4,2026,1,Januari,37,Belanja Lainnya,1786611863369.4,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Belanja Lainnya,1786611863369.4,1910599612.35,0.11,False,False
+Riau,4,2026,3,Maret,39,Belanja Lainnya,1786611863369.4,136135726196.0,7.62,False,False
+Riau,4,2026,4,April,40,Belanja Lainnya,1786611863369.4,185505012484.0,10.38,False,False
+Riau,4,2026,5,Mei,41,Belanja Lainnya,1786611863369.4,452339261432.0,25.32,False,False
+Riau,4,2026,6,Juni,42,Belanja Lainnya,1786611863369.4,663292586572.0,37.13,False,False
+Riau,4,2026,7,Juli,43,Belanja Lainnya,1786611863369.4,740581086121.0,41.45,False,False
+Riau,4,2026,8,Agustus,44,Belanja Lainnya,1786611863369.4,1056801921886.0,59.15,False,False
+Riau,4,2026,9,September,45,Belanja Lainnya,1786611863369.4,1115627693144.0,62.44,False,False
+Riau,4,2026,10,Oktober,46,Belanja Lainnya,1786611863369.4,1115627693144.0,62.44,False,True
+Riau,4,2026,11,November,47,Belanja Lainnya,1786611863369.4,1115627693144.0,62.44,False,True
+Riau,4,2026,12,Desember,48,Belanja Lainnya,1786611863369.4,1115627693144.0,62.44,False,True
+Riau,4,2023,1,Januari,1,Belanja Modal,2256371168865.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Modal,2256371168865.0,17842344193.0,0.79,False,False
+Riau,4,2023,3,Maret,3,Belanja Modal,2256371168865.0,81041966093.0,3.59,False,False
+Riau,4,2023,4,April,4,Belanja Modal,2256371168865.0,182297974917.0,8.08,False,False
+Riau,4,2023,5,Mei,5,Belanja Modal,2256371168865.0,182297974917.0,8.08,False,False
+Riau,4,2023,6,Juni,6,Belanja Modal,2256371168865.0,315277353749.0,13.97,False,False
+Riau,4,2023,7,Juli,7,Belanja Modal,2256371168865.0,507693212527.0,22.5,False,False
+Riau,4,2023,8,Agustus,8,Belanja Modal,2256371168865.0,737022669749.0,32.66,False,False
+Riau,4,2023,9,September,9,Belanja Modal,2256371168865.0,933906363954.0,41.39,False,False
+Riau,4,2023,10,Oktober,10,Belanja Modal,2256371168865.0,1166496998093.0,51.7,False,False
+Riau,4,2023,11,November,11,Belanja Modal,2256371168865.0,1360232840516.0,60.28,False,False
+Riau,4,2023,12,Desember,12,Belanja Modal,2256371168865.0,2009492924307.0,89.06,False,False
+Riau,4,2024,1,Januari,13,Belanja Modal,2211686315968.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Belanja Modal,2211686315968.0,1145794270.0,0.05,False,False
+Riau,4,2024,3,Maret,15,Belanja Modal,2211686315968.0,17931481165.0,0.81,False,False
+Riau,4,2024,4,April,16,Belanja Modal,2211686315968.0,89679980864.0,4.05,False,False
+Riau,4,2024,5,Mei,17,Belanja Modal,2211686315968.0,206197889287.0,9.32,False,False
+Riau,4,2024,6,Juni,18,Belanja Modal,2211686315968.0,401457512967.0,18.15,False,False
+Riau,4,2024,7,Juli,19,Belanja Modal,2211686315968.0,622772698767.48,28.16,False,False
+Riau,4,2024,8,Agustus,20,Belanja Modal,2211686315968.0,850166571815.24,38.44,False,False
+Riau,4,2024,9,September,21,Belanja Modal,2211686315968.0,1053841422778.0,47.65,False,False
+Riau,4,2024,10,Oktober,22,Belanja Modal,2211686315968.0,1266954791914.0,57.28,False,False
+Riau,4,2024,11,November,23,Belanja Modal,2211686315968.0,1448638188539.4,65.5,False,False
+Riau,4,2024,12,Desember,24,Belanja Modal,2211686315968.0,1887693923021.9,85.35,False,False
+Riau,4,2025,1,Januari,25,Belanja Modal,1093268021309.0,0.0,0.0,False,False
+Riau,4,2025,2,Februari,26,Belanja Modal,1093268021309.0,1140785000.0,0.1,False,False
+Riau,4,2025,3,Maret,27,Belanja Modal,1093268021309.0,2194366576.0,0.2,False,False
+Riau,4,2025,4,April,28,Belanja Modal,1093268021309.0,2593155376.0,0.24,False,False
+Riau,4,2025,5,Mei,29,Belanja Modal,1093268021309.0,3829226881.0,0.35,False,False
+Riau,4,2025,6,Juni,30,Belanja Modal,1093268021309.0,5213613084.0,0.48,False,False
+Riau,4,2025,7,Juli,31,Belanja Modal,1093268021309.0,14675762988.0,1.34,False,False
+Riau,4,2025,8,Agustus,32,Belanja Modal,1093268021309.0,70046862134.51,6.41,False,False
+Riau,4,2025,9,September,33,Belanja Modal,1093268021309.0,166701123007.09,15.25,False,False
+Riau,4,2025,10,Oktober,34,Belanja Modal,1093268021309.0,360733458728.76,33.0,False,False
+Riau,4,2025,11,November,35,Belanja Modal,1093268021309.0,432040753635.76,39.52,False,False
+Riau,4,2025,12,Desember,36,Belanja Modal,1093268021309.0,773293220325.51,70.73,False,False
+Riau,4,2026,1,Januari,37,Belanja Modal,689610014210.75,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Belanja Modal,689610014210.75,291000000.0,0.04,False,False
+Riau,4,2026,3,Maret,39,Belanja Modal,689610014210.75,411696440.0,0.06,False,False
+Riau,4,2026,4,April,40,Belanja Modal,689610014210.75,723745550.0,0.1,False,False
+Riau,4,2026,5,Mei,41,Belanja Modal,689610014210.75,5392839072.0,0.78,False,False
+Riau,4,2026,6,Juni,42,Belanja Modal,689610014210.75,43745812643.0,6.34,False,False
+Riau,4,2026,7,Juli,43,Belanja Modal,689610014210.75,118968573101.0,17.25,False,False
+Riau,4,2026,8,Agustus,44,Belanja Modal,689610014210.75,150489627002.0,21.82,False,False
+Riau,4,2026,9,September,45,Belanja Modal,689610014210.75,169157341658.0,24.53,False,False
+Riau,4,2026,10,Oktober,46,Belanja Modal,689610014210.75,169157341658.0,24.53,False,True
+Riau,4,2026,11,November,47,Belanja Modal,689610014210.75,169157341658.0,24.53,False,True
+Riau,4,2026,12,Desember,48,Belanja Modal,689610014210.75,169157341658.0,24.53,False,True
+Riau,4,2023,1,Januari,1,Belanja Pegawai,2361020691402.0,111624321997.0,4.73,False,False
+Riau,4,2023,2,Februari,2,Belanja Pegawai,2361020691402.0,245690625429.0,10.41,False,False
+Riau,4,2023,3,Maret,3,Belanja Pegawai,2361020691402.0,419245896162.0,17.76,False,False
+Riau,4,2023,4,April,4,Belanja Pegawai,2361020691402.0,701347990482.0,29.71,False,False
+Riau,4,2023,5,Mei,5,Belanja Pegawai,2361020691402.0,701347990482.0,29.71,False,False
+Riau,4,2023,6,Juni,6,Belanja Pegawai,2361020691402.0,972678119580.0,41.2,False,False
+Riau,4,2023,7,Juli,7,Belanja Pegawai,2361020691402.0,1228720142984.0,52.04,False,False
+Riau,4,2023,8,Agustus,8,Belanja Pegawai,2361020691402.0,1381880736838.0,58.53,False,False
+Riau,4,2023,9,September,9,Belanja Pegawai,2361020691402.0,1531301228038.0,64.86,False,False
+Riau,4,2023,10,Oktober,10,Belanja Pegawai,2361020691402.0,1719542865650.0,72.83,False,False
+Riau,4,2023,11,November,11,Belanja Pegawai,2361020691402.0,2010103743748.0,85.14,False,False
+Riau,4,2023,12,Desember,12,Belanja Pegawai,2361020691402.0,2351677774385.0,99.6,False,False
+Riau,4,2024,1,Januari,13,Belanja Pegawai,2945575346348.0,139998618212.0,4.75,False,False
+Riau,4,2024,2,Februari,14,Belanja Pegawai,2945575346348.0,295551806216.0,10.03,False,False
+Riau,4,2024,3,Maret,15,Belanja Pegawai,2945575346348.0,607188333792.0,20.61,False,False
+Riau,4,2024,4,April,16,Belanja Pegawai,2945575346348.0,895784649872.0,30.41,False,False
+Riau,4,2024,5,Mei,17,Belanja Pegawai,2945575346348.0,1162166557677.0,39.45,False,False
+Riau,4,2024,6,Juni,18,Belanja Pegawai,2945575346348.0,1520422566398.0,51.62,False,False
+Riau,4,2024,7,Juli,19,Belanja Pegawai,2945575346348.0,1726839871485.0,58.62,False,False
+Riau,4,2024,8,Agustus,20,Belanja Pegawai,2945575346348.0,2001657083689.0,67.95,False,False
+Riau,4,2024,9,September,21,Belanja Pegawai,2945575346348.0,2192328684861.0,74.43,False,False
+Riau,4,2024,10,Oktober,22,Belanja Pegawai,2945575346348.0,2418293924355.0,82.1,False,False
+Riau,4,2024,11,November,23,Belanja Pegawai,2945575346348.0,2663659476350.0,90.43,False,False
+Riau,4,2024,12,Desember,24,Belanja Pegawai,2945575346348.0,3038615203475.9,103.16,False,False
+Riau,4,2025,1,Januari,25,Belanja Pegawai,3483264978369.2,198157375432.0,5.69,False,False
+Riau,4,2025,2,Februari,26,Belanja Pegawai,3483264978369.2,323612990454.0,9.29,False,False
+Riau,4,2025,3,Maret,27,Belanja Pegawai,3483264978369.2,769576453305.0,22.09,False,False
+Riau,4,2025,4,April,28,Belanja Pegawai,3483264978369.2,962857449542.0,27.64,False,False
+Riau,4,2025,5,Mei,29,Belanja Pegawai,3483264978369.2,1168763657082.0,33.55,False,False
+Riau,4,2025,6,Juni,30,Belanja Pegawai,3483264978369.2,1740870432726.0,49.98,False,False
+Riau,4,2025,7,Juli,31,Belanja Pegawai,3483264978369.2,1984851423899.0,56.98,False,False
+Riau,4,2025,8,Agustus,32,Belanja Pegawai,3483264978369.2,2196139607075.0,63.05,False,False
+Riau,4,2025,9,September,33,Belanja Pegawai,3483264978369.2,2366653652570.0,67.94,False,False
+Riau,4,2025,10,Oktober,34,Belanja Pegawai,3483264978369.2,2433916660192.0,69.87,False,False
+Riau,4,2025,11,November,35,Belanja Pegawai,3483264978369.2,2993165974796.0,85.93,False,False
+Riau,4,2025,12,Desember,36,Belanja Pegawai,3483264978369.2,3350321490118.0,96.18,False,False
+Riau,4,2026,1,Januari,37,Belanja Pegawai,3473212463764.8,132655907378.0,3.82,False,False
+Riau,4,2026,2,Februari,38,Belanja Pegawai,3473212463764.8,334068825767.0,9.62,False,False
+Riau,4,2026,3,Maret,39,Belanja Pegawai,3473212463764.8,724382782591.0,20.86,False,False
+Riau,4,2026,4,April,40,Belanja Pegawai,3473212463764.8,941508827778.0,27.11,False,False
+Riau,4,2026,5,Mei,41,Belanja Pegawai,3473212463764.8,1144811515338.0,32.96,False,False
+Riau,4,2026,6,Juni,42,Belanja Pegawai,3473212463764.8,1741958828090.0,50.15,False,False
+Riau,4,2026,7,Juli,43,Belanja Pegawai,3473212463764.8,2012496621472.0,57.94,False,False
+Riau,4,2026,8,Agustus,44,Belanja Pegawai,3473212463764.8,2231358976416.0,64.24,False,False
+Riau,4,2026,9,September,45,Belanja Pegawai,3473212463764.8,2363297279084.0,68.04,False,False
+Riau,4,2026,10,Oktober,46,Belanja Pegawai,3473212463764.8,2363297279084.0,68.04,False,True
+Riau,4,2026,11,November,47,Belanja Pegawai,3473212463764.8,2363297279084.0,68.04,False,True
+Riau,4,2026,12,Desember,48,Belanja Pegawai,3473212463764.8,2363297279084.0,68.04,False,True
+Riau,4,2026,1,Januari,37,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,2,Februari,38,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,3,Maret,39,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,4,April,40,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,5,Mei,41,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,6,Juni,42,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,7,Juli,43,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,8,Agustus,44,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,9,September,45,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,10,Oktober,46,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,11,November,47,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2026,12,Desember,48,Belanja Subsidi,2000000000.0,0.0,0.0,True,False
+Riau,4,2023,1,Januari,1,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,3,Maret,3,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,4,April,4,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,5,Mei,5,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,6,Juni,6,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,7,Juli,7,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,8,Agustus,8,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,9,September,9,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,10,Oktober,10,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,11,November,11,Belanja Tidak Terduga,62242699409.0,0.0,0.0,False,False
+Riau,4,2023,12,Desember,12,Belanja Tidak Terduga,62242699409.0,249778000.0,0.4,False,False
+Riau,4,2024,1,Januari,13,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,2,Februari,14,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,3,Maret,15,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,4,April,16,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,5,Mei,17,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,6,Juni,18,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,7,Juli,19,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,8,Agustus,20,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,9,September,21,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,10,Oktober,22,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,11,November,23,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2024,12,Desember,24,Belanja Tidak Terduga,40075754136.0,0.0,0.0,True,False
+Riau,4,2025,1,Januari,25,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,2,Februari,26,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,3,Maret,27,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,4,April,28,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,5,Mei,29,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,6,Juni,30,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,7,Juli,31,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,8,Agustus,32,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,9,September,33,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,10,Oktober,34,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,11,November,35,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2025,12,Desember,36,Belanja Tidak Terduga,23136304247.53,0.0,0.0,True,False
+Riau,4,2026,1,Januari,37,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,2,Februari,38,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,3,Maret,39,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,4,April,40,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,5,Mei,41,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,6,Juni,42,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,7,Juli,43,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,8,Agustus,44,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,9,September,45,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,10,Oktober,46,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,11,November,47,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2026,12,Desember,48,Belanja Tidak Terduga,50000000000.0,0.0,0.0,True,False
+Riau,4,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,0.0,0.0,False,False
+Riau,4,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,0.0,0.0,False,False
+Riau,4,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,0.0,0.0,False,False
+Riau,4,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,9696908.0,0.0,False,False
+Riau,4,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,9696908.0,0.0,False,False
+Riau,4,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,9765887.0,0.0,False,False
+Riau,4,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,4255096603.65,0.45,False,False
+Riau,4,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,4255096603.65,0.45,False,False
+Riau,4,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,6305096603.65,0.67,False,False
+Riau,4,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,51640473789.65,5.46,False,False
+Riau,4,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,51640473789.65,5.46,False,False
+Riau,4,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,946214789667.0,851640473789.65,90.0,False,False
+Riau,4,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,0.0,0.0,False,False
+Riau,4,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,0.0,0.0,False,False
+Riau,4,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,0.0,0.0,False,False
+Riau,4,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,10744831.0,0.0,False,False
+Riau,4,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,499292334642.0,45.49,False,False
+Riau,4,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,581706363879.0,53.0,False,False
+Riau,4,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,583809549127.0,53.19,False,False
+Riau,4,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,633182461120.0,57.69,False,False
+Riau,4,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,633182461120.0,57.69,False,False
+Riau,4,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,634363968690.0,57.8,False,False
+Riau,4,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,636467905570.0,57.99,False,False
+Riau,4,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,1097539778218.0,736467905570.0,67.1,False,False
+Riau,4,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,0.0,0.0,False,False
+Riau,4,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,0.0,0.0,False,False
+Riau,4,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,0.0,0.0,False,False
+Riau,4,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,0.0,0.0,False,False
+Riau,4,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,98448850849.0,12.08,False,False
+Riau,4,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,101610132254.0,12.47,False,False
+Riau,4,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,101610132254.0,12.47,False,False
+Riau,4,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,101610132254.0,12.47,False,False
+Riau,4,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,143037430447.0,17.55,False,False
+Riau,4,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,144461802436.0,17.72,False,False
+Riau,4,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,144461802436.0,17.72,False,True
+Riau,4,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,815127007731.0,144461802436.0,17.72,False,True
+Riau,4,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,0.0,0.0,False,False
+Riau,4,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,4892460.0,0.0,False,False
+Riau,4,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,4892460.0,0.0,False,False
+Riau,4,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,4892460.0,0.0,False,False
+Riau,4,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,3462580317.0,0.56,False,False
+Riau,4,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,129092598280.0,20.88,False,False
+Riau,4,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,129092598280.0,20.88,False,False
+Riau,4,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,151487283414.0,24.5,False,False
+Riau,4,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,151487283414.0,24.5,False,True
+Riau,4,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,151487283414.0,24.5,False,True
+Riau,4,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,151487283414.0,24.5,False,True
+Riau,4,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,618220000000.0,151487283414.0,24.5,False,True
+Riau,4,2023,1,Januari,1,Lain-Lain PAD yang Sah,470980003851.0,45072804649.24,9.57,False,False
+Riau,4,2023,2,Februari,2,Lain-Lain PAD yang Sah,470980003851.0,71672918708.9,15.22,False,False
+Riau,4,2023,3,Maret,3,Lain-Lain PAD yang Sah,470980003851.0,129364390233.1,27.47,False,False
+Riau,4,2023,4,April,4,Lain-Lain PAD yang Sah,470980003851.0,159527269681.31,33.87,False,False
+Riau,4,2023,5,Mei,5,Lain-Lain PAD yang Sah,470980003851.0,159527269681.31,33.87,False,False
+Riau,4,2023,6,Juni,6,Lain-Lain PAD yang Sah,470980003851.0,190872272209.18,40.53,False,False
+Riau,4,2023,7,Juli,7,Lain-Lain PAD yang Sah,470980003851.0,231162504500.19,49.08,False,False
+Riau,4,2023,8,Agustus,8,Lain-Lain PAD yang Sah,470980003851.0,290492304448.47,61.68,False,False
+Riau,4,2023,9,September,9,Lain-Lain PAD yang Sah,470980003851.0,307957668932.37,65.39,False,False
+Riau,4,2023,10,Oktober,10,Lain-Lain PAD yang Sah,470980003851.0,367590415036.99,78.05,False,False
+Riau,4,2023,11,November,11,Lain-Lain PAD yang Sah,470980003851.0,385439979903.59,81.84,False,False
+Riau,4,2023,12,Desember,12,Lain-Lain PAD yang Sah,470980003851.0,479551176016.27,101.82,False,False
+Riau,4,2024,1,Januari,13,Lain-Lain PAD yang Sah,479254329491.0,44300321756.81,9.24,False,False
+Riau,4,2024,2,Februari,14,Lain-Lain PAD yang Sah,479254329491.0,86640041579.95,18.08,False,False
+Riau,4,2024,3,Maret,15,Lain-Lain PAD yang Sah,479254329491.0,105240552206.66,21.96,False,False
+Riau,4,2024,4,April,16,Lain-Lain PAD yang Sah,479254329491.0,157329406625.87,32.83,False,False
+Riau,4,2024,5,Mei,17,Lain-Lain PAD yang Sah,479254329491.0,181277066006.14,37.82,False,False
+Riau,4,2024,6,Juni,18,Lain-Lain PAD yang Sah,479254329491.0,214919025360.77,44.84,False,False
+Riau,4,2024,7,Juli,19,Lain-Lain PAD yang Sah,479254329491.0,275254041181.06,57.43,False,False
+Riau,4,2024,8,Agustus,20,Lain-Lain PAD yang Sah,479254329491.0,294230244456.97,61.39,False,False
+Riau,4,2024,9,September,21,Lain-Lain PAD yang Sah,479254329491.0,333305102945.89,69.55,False,False
+Riau,4,2024,10,Oktober,22,Lain-Lain PAD yang Sah,479254329491.0,366609791015.81,76.5,False,False
+Riau,4,2024,11,November,23,Lain-Lain PAD yang Sah,479254329491.0,398185036796.55,83.08,False,False
+Riau,4,2024,12,Desember,24,Lain-Lain PAD yang Sah,479254329491.0,439297607416.79,91.66,False,False
+Riau,4,2025,1,Januari,25,Lain-Lain PAD yang Sah,610461346386.0,16520434294.76,2.71,False,False
+Riau,4,2025,2,Februari,26,Lain-Lain PAD yang Sah,610461346386.0,61270793348.23,10.04,False,False
+Riau,4,2025,3,Maret,27,Lain-Lain PAD yang Sah,610461346386.0,154935970064.06,25.38,False,False
+Riau,4,2025,4,April,28,Lain-Lain PAD yang Sah,610461346386.0,207783055476.16,34.04,False,False
+Riau,4,2025,5,Mei,29,Lain-Lain PAD yang Sah,610461346386.0,255121487056.57,41.79,False,False
+Riau,4,2025,6,Juni,30,Lain-Lain PAD yang Sah,610461346386.0,294841409007.11,48.3,False,False
+Riau,4,2025,7,Juli,31,Lain-Lain PAD yang Sah,610461346386.0,365695361966.96,59.9,False,False
+Riau,4,2025,8,Agustus,32,Lain-Lain PAD yang Sah,610461346386.0,428889172427.55,70.26,False,False
+Riau,4,2025,9,September,33,Lain-Lain PAD yang Sah,610461346386.0,486036526969.52,79.62,False,False
+Riau,4,2025,10,Oktober,34,Lain-Lain PAD yang Sah,610461346386.0,525121521894.79,86.02,False,False
+Riau,4,2025,11,November,35,Lain-Lain PAD yang Sah,610461346386.0,566841601952.4,92.85,False,False
+Riau,4,2025,12,Desember,36,Lain-Lain PAD yang Sah,610461346386.0,624785474948.44,102.35,False,False
+Riau,4,2026,1,Januari,37,Lain-Lain PAD yang Sah,613736026059.0,35332026210.87,5.76,False,False
+Riau,4,2026,2,Februari,38,Lain-Lain PAD yang Sah,613736026059.0,62766058397.5,10.23,False,False
+Riau,4,2026,3,Maret,39,Lain-Lain PAD yang Sah,613736026059.0,126459206702.9,20.6,False,False
+Riau,4,2026,4,April,40,Lain-Lain PAD yang Sah,613736026059.0,181656915711.54,29.6,False,False
+Riau,4,2026,5,Mei,41,Lain-Lain PAD yang Sah,613736026059.0,233401576842.33,38.03,False,False
+Riau,4,2026,6,Juni,42,Lain-Lain PAD yang Sah,613736026059.0,289146452732.69,47.11,False,False
+Riau,4,2026,7,Juli,43,Lain-Lain PAD yang Sah,613736026059.0,295776670677.82,48.19,False,False
+Riau,4,2026,8,Agustus,44,Lain-Lain PAD yang Sah,613736026059.0,296596439693.82,48.33,False,False
+Riau,4,2026,9,September,45,Lain-Lain PAD yang Sah,613736026059.0,296603094145.82,48.33,False,False
+Riau,4,2026,10,Oktober,46,Lain-Lain PAD yang Sah,613736026059.0,296603094145.82,48.33,False,True
+Riau,4,2026,11,November,47,Lain-Lain PAD yang Sah,613736026059.0,296603094145.82,48.33,False,True
+Riau,4,2026,12,Desember,48,Lain-Lain PAD yang Sah,613736026059.0,296603094145.82,48.33,False,True
+Riau,4,2023,1,Januari,1,PAD,5410980550411.0,379353122169.22,7.01,False,False
+Riau,4,2023,2,Februari,2,PAD,5410980550411.0,723790995029.84,13.38,False,False
+Riau,4,2023,3,Maret,3,PAD,5410980550411.0,1101122721179.3,20.35,False,False
+Riau,4,2023,4,April,4,PAD,5410980550411.0,1649717042611.4,30.49,False,False
+Riau,4,2023,5,Mei,5,PAD,5410980550411.0,1649717042611.4,30.49,False,False
+Riau,4,2023,6,Juni,6,PAD,5410980550411.0,1970507637076.5,36.42,False,False
+Riau,4,2023,7,Juli,7,PAD,5410980550411.0,2433621608233.0,44.98,False,False
+Riau,4,2023,8,Agustus,8,PAD,5410980550411.0,2837466023689.3,52.44,False,False
+Riau,4,2023,9,September,9,PAD,5410980550411.0,3167789054289.2,58.54,False,False
+Riau,4,2023,10,Oktober,10,PAD,5410980550411.0,3679619745777.3,68.0,False,False
+Riau,4,2023,11,November,11,PAD,5410980550411.0,4028460511980.0,74.45,False,False
+Riau,4,2023,12,Desember,12,PAD,5410980550411.0,5376425650756.7,99.36,False,False
+Riau,4,2024,1,Januari,13,PAD,5984937544594.0,360071369002.16,6.02,False,False
+Riau,4,2024,2,Februari,14,PAD,5984937544594.0,670484767532.42,11.2,False,False
+Riau,4,2024,3,Maret,15,PAD,5984937544594.0,984255435025.14,16.45,False,False
+Riau,4,2024,4,April,16,PAD,5984937544594.0,1512885444816.4,25.28,False,False
+Riau,4,2024,5,Mei,17,PAD,5984937544594.0,2331771015539.7,38.96,False,False
+Riau,4,2024,6,Juni,18,PAD,5984937544594.0,2589757765706.7,43.27,False,False
+Riau,4,2024,7,Juli,19,PAD,5984937544594.0,3225723335460.2,53.9,False,False
+Riau,4,2024,8,Agustus,20,PAD,5984937544594.0,3609320251288.5,60.31,False,False
+Riau,4,2024,9,September,21,PAD,5984937544594.0,3958162787026.2,66.14,False,False
+Riau,4,2024,10,Oktober,22,PAD,5984937544594.0,4444585221347.9,74.26,False,False
+Riau,4,2024,11,November,23,PAD,5984937544594.0,4793679600188.9,80.1,False,False
+Riau,4,2024,12,Desember,24,PAD,5984937544594.0,5432109238736.2,90.76,False,False
+Riau,4,2025,1,Januari,25,PAD,5200915848254.0,247093035748.76,4.75,False,False
+Riau,4,2025,2,Februari,26,PAD,5200915848254.0,464943652062.23,8.94,False,False
+Riau,4,2025,3,Maret,27,PAD,5200915848254.0,816405704204.06,15.7,False,False
+Riau,4,2025,4,April,28,PAD,5200915848254.0,1280955413073.2,24.63,False,False
+Riau,4,2025,5,Mei,29,PAD,5200915848254.0,1659673136215.6,31.91,False,False
+Riau,4,2025,6,Juni,30,PAD,5200915848254.0,1938981479630.1,37.28,False,False
+Riau,4,2025,7,Juli,31,PAD,5200915848254.0,2406255105296.0,46.27,False,False
+Riau,4,2025,8,Agustus,32,PAD,5200915848254.0,2734709075614.8,52.58,False,False
+Riau,4,2025,9,September,33,PAD,5200915848254.0,3074345194232.8,59.11,False,False
+Riau,4,2025,10,Oktober,34,PAD,5200915848254.0,3488031430125.5,67.07,False,False
+Riau,4,2025,11,November,35,PAD,5200915848254.0,3778372141671.4,72.65,False,False
+Riau,4,2025,12,Desember,36,PAD,5200915848254.0,4252679387979.5,81.77,False,False
+Riau,4,2026,1,Januari,37,PAD,5240334064481.0,275945978071.87,5.27,False,False
+Riau,4,2026,2,Februari,38,PAD,5240334064481.0,552408604393.5,10.54,False,False
+Riau,4,2026,3,Maret,39,PAD,5240334064481.0,863132451964.9,16.47,False,False
+Riau,4,2026,4,April,40,PAD,5240334064481.0,1362725657253.5,26.0,False,False
+Riau,4,2026,5,Mei,41,PAD,5240334064481.0,1678139144378.3,32.02,False,False
+Riau,4,2026,6,Juni,42,PAD,5240334064481.0,2135894913003.9,40.76,False,False
+Riau,4,2026,7,Juli,43,PAD,5240334064481.0,2555478623299.1,48.77,False,False
+Riau,4,2026,8,Agustus,44,PAD,5240334064481.0,2691186495708.1,51.36,False,False
+Riau,4,2026,9,September,45,PAD,5240334064481.0,2691337873115.1,51.36,False,False
+Riau,4,2026,10,Oktober,46,PAD,5240334064481.0,2691337873115.1,51.36,False,True
+Riau,4,2026,11,November,47,PAD,5240334064481.0,2691337873115.1,51.36,False,True
+Riau,4,2026,12,Desember,48,PAD,5240334064481.0,2691337873115.1,51.36,False,True
+Riau,4,2023,1,Januari,1,Pajak Daerah,3971834856843.0,333153575095.98,8.39,False,False
+Riau,4,2023,2,Februari,2,Pajak Daerah,3971834856843.0,649660061156.94,16.36,False,False
+Riau,4,2023,3,Maret,3,Pajak Daerah,3971834856843.0,968330348302.19,24.38,False,False
+Riau,4,2023,4,April,4,Pajak Daerah,3971834856843.0,1485999762138.1,37.41,False,False
+Riau,4,2023,5,Mei,5,Pajak Daerah,3971834856843.0,1485999762138.1,37.41,False,False
+Riau,4,2023,6,Juni,6,Pajak Daerah,3971834856843.0,1774282609140.4,44.67,False,False
+Riau,4,2023,7,Juli,7,Pajak Daerah,3971834856843.0,2191627497700.1,55.18,False,False
+Riau,4,2023,8,Agustus,8,Pajak Daerah,3971834856843.0,2534623525197.1,63.81,False,False
+Riau,4,2023,9,September,9,Pajak Daerah,3971834856843.0,2843661890239.1,71.6,False,False
+Riau,4,2023,10,Oktober,10,Pajak Daerah,3971834856843.0,3248594371249.1,81.79,False,False
+Riau,4,2023,11,November,11,Pajak Daerah,3971834856843.0,3577825901736.3,90.08,False,False
+Riau,4,2023,12,Desember,12,Pajak Daerah,3971834856843.0,4029526986462.3,101.45,False,False
+Riau,4,2024,1,Januari,13,Pajak Daerah,4382173075085.0,314721652076.35,7.18,False,False
+Riau,4,2024,2,Februari,14,Pajak Daerah,4382173075085.0,581526524973.97,13.27,False,False
+Riau,4,2024,3,Maret,15,Pajak Daerah,4382173075085.0,876068166939.98,19.99,False,False
+Riau,4,2024,4,April,16,Pajak Daerah,4382173075085.0,1351437939942.6,30.84,False,False
+Riau,4,2024,5,Mei,17,Pajak Daerah,4382173075085.0,1646172520868.6,37.57,False,False
+Riau,4,2024,6,Juni,18,Pajak Daerah,4382173075085.0,1786441852606.0,40.77,False,False
+Riau,4,2024,7,Juli,19,Pajak Daerah,4382173075085.0,2358566962372.6,53.82,False,False
+Riau,4,2024,8,Agustus,20,Pajak Daerah,4382173075085.0,2671283845667.0,60.96,False,False
+Riau,4,2024,9,September,21,Pajak Daerah,4382173075085.0,2979392933742.8,67.99,False,False
+Riau,4,2024,10,Oktober,22,Pajak Daerah,4382173075085.0,3429450278492.5,78.26,False,False
+Riau,4,2024,11,November,23,Pajak Daerah,4382173075085.0,3743097127572.9,85.42,False,False
+Riau,4,2024,12,Desember,24,Pajak Daerah,4382173075085.0,4238741780749.9,96.73,False,False
+Riau,4,2025,1,Januari,25,Pajak Daerah,3762826296737.0,229838485654.0,6.11,False,False
+Riau,4,2025,2,Februari,26,Pajak Daerah,3762826296737.0,401885722464.0,10.68,False,False
+Riau,4,2025,3,Maret,27,Pajak Daerah,3762826296737.0,659122990083.0,17.52,False,False
+Riau,4,2025,4,April,28,Pajak Daerah,3762826296737.0,1069730225940.0,28.43,False,False
+Riau,4,2025,5,Mei,29,Pajak Daerah,3762826296737.0,1301684306352.0,34.59,False,False
+Riau,4,2025,6,Juni,30,Pajak Daerah,3762826296737.0,1537236941411.0,40.85,False,False
+Riau,4,2025,7,Juli,31,Pajak Daerah,3762826296737.0,1932446479217.0,51.36,False,False
+Riau,4,2025,8,Agustus,32,Pajak Daerah,3762826296737.0,2197033775025.3,58.39,False,False
+Riau,4,2025,9,September,33,Pajak Daerah,3762826296737.0,2436941156358.3,64.76,False,False
+Riau,4,2025,10,Oktober,34,Pajak Daerah,3762826296737.0,2808631758836.8,74.64,False,False
+Riau,4,2025,11,November,35,Pajak Daerah,3762826296737.0,3055988940475.0,81.22,False,False
+Riau,4,2025,12,Desember,36,Pajak Daerah,3762826296737.0,3470387518553.0,92.23,False,False
+Riau,4,2026,1,Januari,37,Pajak Daerah,3994013745222.0,239787116561.0,6.0,False,False
+Riau,4,2026,2,Februari,38,Pajak Daerah,3994013745222.0,487956929236.0,12.22,False,False
+Riau,4,2026,3,Maret,39,Pajak Daerah,3994013745222.0,734275822597.0,18.38,False,False
+Riau,4,2026,4,April,40,Pajak Daerah,3994013745222.0,1177867971044.0,29.49,False,False
+Riau,4,2026,5,Mei,41,Pajak Daerah,3994013745222.0,1437230206606.0,35.98,False,False
+Riau,4,2026,6,Juni,42,Pajak Daerah,3994013745222.0,1712583551104.2,42.88,False,False
+Riau,4,2026,7,Juli,43,Pajak Daerah,3994013745222.0,2124598398918.2,53.19,False,False
+Riau,4,2026,8,Agustus,44,Pajak Daerah,3994013745222.0,2236645098377.2,56.0,False,False
+Riau,4,2026,9,September,45,Pajak Daerah,3994013745222.0,2236645098377.2,56.0,False,True
+Riau,4,2026,10,Oktober,46,Pajak Daerah,3994013745222.0,2236645098377.2,56.0,False,True
+Riau,4,2026,11,November,47,Pajak Daerah,3994013745222.0,2236645098377.2,56.0,False,True
+Riau,4,2026,12,Desember,48,Pajak Daerah,3994013745222.0,2236645098377.2,56.0,False,True
+Riau,4,2023,1,Januari,1,Pendapatan Daerah,9481274379955.0,529764546769.22,5.59,False,False
+Riau,4,2023,2,Februari,2,Pendapatan Daerah,9481274379955.0,1076381131029.8,11.35,False,False
+Riau,4,2023,3,Maret,3,Pendapatan Daerah,9481274379955.0,1673941849807.3,17.66,False,False
+Riau,4,2023,4,April,4,Pendapatan Daerah,9481274379955.0,2662526972985.4,28.08,False,False
+Riau,4,2023,5,Mei,5,Pendapatan Daerah,9481274379955.0,2662526972985.4,28.08,False,False
+Riau,4,2023,6,Juni,6,Pendapatan Daerah,9481274379955.0,3299706389168.5,34.8,False,False
+Riau,4,2023,7,Juli,7,Pendapatan Daerah,9481274379955.0,4048673108575.0,42.7,False,False
+Riau,4,2023,8,Agustus,8,Pendapatan Daerah,9481274379955.0,4687279998081.3,49.44,False,False
+Riau,4,2023,9,September,9,Pendapatan Daerah,9481274379955.0,5478592397269.2,57.78,False,False
+Riau,4,2023,10,Oktober,10,Pendapatan Daerah,9481274379955.0,6597136425420.3,69.58,False,False
+Riau,4,2023,11,November,11,Pendapatan Daerah,9481274379955.0,7282387725578.0,76.81,False,False
+Riau,4,2023,12,Desember,12,Pendapatan Daerah,9481274379955.0,9184418138301.7,96.87,False,False
+Riau,4,2024,1,Januari,13,Pendapatan Daerah,10061898797594.0,581047478602.16,5.77,False,False
+Riau,4,2024,2,Februari,14,Pendapatan Daerah,10061898797594.0,1060398665973.4,10.54,False,False
+Riau,4,2024,3,Maret,15,Pendapatan Daerah,10061898797594.0,1791696504418.1,17.81,False,False
+Riau,4,2024,4,April,16,Pendapatan Daerah,10061898797594.0,2773563323474.4,27.57,False,False
+Riau,4,2024,5,Mei,17,Pendapatan Daerah,10061898797594.0,3878724872759.7,38.55,False,False
+Riau,4,2024,6,Juni,18,Pendapatan Daerah,10061898797594.0,4639306829880.8,46.11,False,False
+Riau,4,2024,7,Juli,19,Pendapatan Daerah,10061898797594.0,5498582354363.2,54.65,False,False
+Riau,4,2024,8,Agustus,20,Pendapatan Daerah,10061898797594.0,6360540637116.5,63.21,False,False
+Riau,4,2024,9,September,21,Pendapatan Daerah,10061898797594.0,7056612136496.1,70.13,False,False
+Riau,4,2024,10,Oktober,22,Pendapatan Daerah,10061898797594.0,8013176972831.9,79.64,False,False
+Riau,4,2024,11,November,23,Pendapatan Daerah,10061898797594.0,8727699906336.9,86.74,False,False
+Riau,4,2024,12,Desember,24,Pendapatan Daerah,10061898797594.0,9499559746229.2,94.41,False,False
+Riau,4,2025,1,Januari,25,Pendapatan Daerah,9472594918254.0,504594823748.76,5.33,False,False
+Riau,4,2025,2,Februari,26,Pendapatan Daerah,9472594918254.0,1147725884862.2,12.12,False,False
+Riau,4,2025,3,Maret,27,Pendapatan Daerah,9472594918254.0,1676402783192.1,17.7,False,False
+Riau,4,2025,4,April,28,Pendapatan Daerah,9472594918254.0,2403319467285.2,25.37,False,False
+Riau,4,2025,5,Mei,29,Pendapatan Daerah,9472594918254.0,3025581443927.6,31.94,False,False
+Riau,4,2025,6,Juni,30,Pendapatan Daerah,9472594918254.0,3793284331342.1,40.04,False,False
+Riau,4,2025,7,Juli,31,Pendapatan Daerah,9472594918254.0,4461210176008.0,47.1,False,False
+Riau,4,2025,8,Agustus,32,Pendapatan Daerah,9472594918254.0,5272026250926.8,55.66,False,False
+Riau,4,2025,9,September,33,Pendapatan Daerah,9472594918254.0,6076688958930.8,64.15,False,False
+Riau,4,2025,10,Oktober,34,Pendapatan Daerah,9472594918254.0,6851922672923.6,72.33,False,False
+Riau,4,2025,11,November,35,Pendapatan Daerah,9472594918254.0,7553884638569.4,79.74,False,False
+Riau,4,2025,12,Desember,36,Pendapatan Daerah,9472594918254.0,8302051779230.5,87.64,False,False
+Riau,4,2026,1,Januari,37,Pendapatan Daerah,8254891818492.0,508771770471.87,6.16,False,False
+Riau,4,2026,2,Februari,38,Pendapatan Daerah,8254891818492.0,1158774271993.5,14.04,False,False
+Riau,4,2026,3,Maret,39,Pendapatan Daerah,8254891818492.0,1611132332288.9,19.52,False,False
+Riau,4,2026,4,April,40,Pendapatan Daerah,8254891818492.0,2265632783757.5,27.45,False,False
+Riau,4,2026,5,Mei,41,Pendapatan Daerah,8254891818492.0,2716660312082.3,32.91,False,False
+Riau,4,2026,6,Juni,42,Pendapatan Daerah,8254891818492.0,3637887939707.9,44.07,False,False
+Riau,4,2026,7,Juli,43,Pendapatan Daerah,8254891818492.0,4506171145953.1,54.59,False,False
+Riau,4,2026,8,Agustus,44,Pendapatan Daerah,8254891818492.0,4665345499362.1,56.52,False,False
+Riau,4,2026,9,September,45,Pendapatan Daerah,8254891818492.0,4665496876769.1,56.52,False,False
+Riau,4,2026,10,Oktober,46,Pendapatan Daerah,8254891818492.0,4665496876769.1,56.52,False,True
+Riau,4,2026,11,November,47,Pendapatan Daerah,8254891818492.0,4665496876769.1,56.52,False,True
+Riau,4,2026,12,Desember,48,Pendapatan Daerah,8254891818492.0,4665496876769.1,56.52,False,True
+Riau,4,2023,1,Januari,1,Pendapatan Hibah,2780040000.0,551930000.0,19.85,False,False
+Riau,4,2023,2,Februari,2,Pendapatan Hibah,2780040000.0,1023760000.0,36.83,False,False
+Riau,4,2023,3,Maret,3,Pendapatan Hibah,2780040000.0,1566000000.0,56.33,False,False
+Riau,4,2023,4,April,4,Pendapatan Hibah,2780040000.0,2019150000.0,72.63,False,False
+Riau,4,2023,5,Mei,5,Pendapatan Hibah,2780040000.0,2019150000.0,72.63,False,False
+Riau,4,2023,6,Juni,6,Pendapatan Hibah,2780040000.0,3236645000.0,116.42,False,False
+Riau,4,2023,7,Juli,7,Pendapatan Hibah,2780040000.0,4456510000.0,160.3,False,False
+Riau,4,2023,8,Agustus,8,Pendapatan Hibah,2780040000.0,5522060000.0,198.63,False,False
+Riau,4,2023,9,September,9,Pendapatan Hibah,2780040000.0,6251895000.0,224.89,False,False
+Riau,4,2023,10,Oktober,10,Pendapatan Hibah,2780040000.0,6976950000.0,250.97,False,False
+Riau,4,2023,11,November,11,Pendapatan Hibah,2780040000.0,7716265000.0,277.56,False,False
+Riau,4,2023,12,Desember,12,Pendapatan Hibah,2780040000.0,8490580000.0,305.41,False,False
+Riau,4,2024,1,Januari,13,Pendapatan Hibah,7780040000.0,471280000.0,6.06,False,False
+Riau,4,2024,2,Februari,14,Pendapatan Hibah,7780040000.0,864720000.0,11.11,False,False
+Riau,4,2024,3,Maret,15,Pendapatan Hibah,7780040000.0,1305660000.0,16.78,False,False
+Riau,4,2024,4,April,16,Pendapatan Hibah,7780040000.0,1688330000.0,21.7,False,False
+Riau,4,2024,5,Mei,17,Pendapatan Hibah,7780040000.0,2209190000.0,28.4,False,False
+Riau,4,2024,6,Juni,18,Pendapatan Hibah,7780040000.0,2246254920.0,28.87,False,False
+Riau,4,2024,7,Juli,19,Pendapatan Hibah,7780040000.0,4872217000.0,62.62,False,False
+Riau,4,2024,8,Agustus,20,Pendapatan Hibah,7780040000.0,5647598000.0,72.59,False,False
+Riau,4,2024,9,September,21,Pendapatan Hibah,7780040000.0,6385249000.0,82.07,False,False
+Riau,4,2024,10,Oktober,22,Pendapatan Hibah,7780040000.0,6907979000.0,88.79,False,False
+Riau,4,2024,11,November,23,Pendapatan Hibah,7780040000.0,7352989000.0,94.51,False,False
+Riau,4,2024,12,Desember,24,Pendapatan Hibah,7780040000.0,8826182000.0,113.45,False,False
+Riau,4,2025,1,Januari,25,Pendapatan Hibah,9254860000.0,382920000.0,4.14,False,False
+Riau,4,2025,2,Februari,26,Pendapatan Hibah,9254860000.0,808570000.0,8.74,False,False
+Riau,4,2025,3,Maret,27,Pendapatan Hibah,9254860000.0,1287610000.0,13.91,False,False
+Riau,4,2025,4,April,28,Pendapatan Hibah,9254860000.0,1671510000.0,18.06,False,False
+Riau,4,2025,5,Mei,29,Pendapatan Hibah,9254860000.0,2167540000.0,23.42,False,False
+Riau,4,2025,6,Juni,30,Pendapatan Hibah,9254860000.0,2616280000.0,28.27,False,False
+Riau,4,2025,7,Juli,31,Pendapatan Hibah,9254860000.0,3644570000.0,39.38,False,False
+Riau,4,2025,8,Agustus,32,Pendapatan Hibah,9254860000.0,4680650000.0,50.58,False,False
+Riau,4,2025,9,September,33,Pendapatan Hibah,9254860000.0,5720260000.0,61.81,False,False
+Riau,4,2025,10,Oktober,34,Pendapatan Hibah,9254860000.0,6749470000.0,72.93,False,False
+Riau,4,2025,11,November,35,Pendapatan Hibah,9254860000.0,7752520000.0,83.77,False,False
+Riau,4,2025,12,Desember,36,Pendapatan Hibah,9254860000.0,9077240000.0,98.08,False,False
+Riau,4,2026,1,Januari,37,Pendapatan Hibah,9254860000.0,450750000.0,4.87,False,False
+Riau,4,2026,2,Februari,38,Pendapatan Hibah,9254860000.0,926790000.0,10.01,False,False
+Riau,4,2026,3,Maret,39,Pendapatan Hibah,9254860000.0,1417570000.0,15.32,False,False
+Riau,4,2026,4,April,40,Pendapatan Hibah,9254860000.0,1937730000.0,20.94,False,False
+Riau,4,2026,5,Mei,41,Pendapatan Hibah,9254860000.0,2419980000.0,26.15,False,False
+Riau,4,2026,6,Juni,42,Pendapatan Hibah,9254860000.0,2949150000.0,31.87,False,False
+Riau,4,2026,7,Juli,43,Pendapatan Hibah,9254860000.0,3563840000.0,38.51,False,False
+Riau,4,2026,8,Agustus,44,Pendapatan Hibah,9254860000.0,4626653000.0,49.99,False,False
+Riau,4,2026,9,September,45,Pendapatan Hibah,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,10,Oktober,46,Pendapatan Hibah,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,11,November,47,Pendapatan Hibah,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,12,Desember,48,Pendapatan Hibah,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2023,1,Januari,1,Pendapatan Lainnya,2780040000.0,551930000.0,19.85,False,False
+Riau,4,2023,2,Februari,2,Pendapatan Lainnya,2780040000.0,1023760000.0,36.83,False,False
+Riau,4,2023,3,Maret,3,Pendapatan Lainnya,2780040000.0,1566000000.0,56.33,False,False
+Riau,4,2023,4,April,4,Pendapatan Lainnya,2780040000.0,2019150000.0,72.63,False,False
+Riau,4,2023,5,Mei,5,Pendapatan Lainnya,2780040000.0,2019150000.0,72.63,False,False
+Riau,4,2023,6,Juni,6,Pendapatan Lainnya,2780040000.0,3236645000.0,116.42,False,False
+Riau,4,2023,7,Juli,7,Pendapatan Lainnya,2780040000.0,4456510000.0,160.3,False,False
+Riau,4,2023,8,Agustus,8,Pendapatan Lainnya,2780040000.0,5522060000.0,198.63,False,False
+Riau,4,2023,9,September,9,Pendapatan Lainnya,2780040000.0,6251895000.0,224.89,False,False
+Riau,4,2023,10,Oktober,10,Pendapatan Lainnya,2780040000.0,6976950000.0,250.97,False,False
+Riau,4,2023,11,November,11,Pendapatan Lainnya,2780040000.0,7716265000.0,277.56,False,False
+Riau,4,2023,12,Desember,12,Pendapatan Lainnya,2780040000.0,8490580000.0,305.41,False,False
+Riau,4,2024,1,Januari,13,Pendapatan Lainnya,7780040000.0,471280000.0,6.06,False,False
+Riau,4,2024,2,Februari,14,Pendapatan Lainnya,7780040000.0,864720000.0,11.11,False,False
+Riau,4,2024,3,Maret,15,Pendapatan Lainnya,7780040000.0,1305660000.0,16.78,False,False
+Riau,4,2024,4,April,16,Pendapatan Lainnya,7780040000.0,1688330000.0,21.7,False,False
+Riau,4,2024,5,Mei,17,Pendapatan Lainnya,7780040000.0,2209190000.0,28.4,False,False
+Riau,4,2024,6,Juni,18,Pendapatan Lainnya,7780040000.0,2246254920.0,28.87,False,False
+Riau,4,2024,7,Juli,19,Pendapatan Lainnya,7780040000.0,4872217000.0,62.62,False,False
+Riau,4,2024,8,Agustus,20,Pendapatan Lainnya,7780040000.0,5647598000.0,72.59,False,False
+Riau,4,2024,9,September,21,Pendapatan Lainnya,7780040000.0,6385249000.0,82.07,False,False
+Riau,4,2024,10,Oktober,22,Pendapatan Lainnya,7780040000.0,6907979000.0,88.79,False,False
+Riau,4,2024,11,November,23,Pendapatan Lainnya,7780040000.0,7352989000.0,94.51,False,False
+Riau,4,2024,12,Desember,24,Pendapatan Lainnya,7780040000.0,8826182000.0,113.45,False,False
+Riau,4,2025,1,Januari,25,Pendapatan Lainnya,9254860000.0,382920000.0,4.14,False,False
+Riau,4,2025,2,Februari,26,Pendapatan Lainnya,9254860000.0,808570000.0,8.74,False,False
+Riau,4,2025,3,Maret,27,Pendapatan Lainnya,9254860000.0,1287610000.0,13.91,False,False
+Riau,4,2025,4,April,28,Pendapatan Lainnya,9254860000.0,1671510000.0,18.06,False,False
+Riau,4,2025,5,Mei,29,Pendapatan Lainnya,9254860000.0,2167540000.0,23.42,False,False
+Riau,4,2025,6,Juni,30,Pendapatan Lainnya,9254860000.0,2616280000.0,28.27,False,False
+Riau,4,2025,7,Juli,31,Pendapatan Lainnya,9254860000.0,3644570000.0,39.38,False,False
+Riau,4,2025,8,Agustus,32,Pendapatan Lainnya,9254860000.0,4680650000.0,50.58,False,False
+Riau,4,2025,9,September,33,Pendapatan Lainnya,9254860000.0,5720260000.0,61.81,False,False
+Riau,4,2025,10,Oktober,34,Pendapatan Lainnya,9254860000.0,6749470000.0,72.93,False,False
+Riau,4,2025,11,November,35,Pendapatan Lainnya,9254860000.0,7752520000.0,83.77,False,False
+Riau,4,2025,12,Desember,36,Pendapatan Lainnya,9254860000.0,9077240000.0,98.08,False,False
+Riau,4,2026,1,Januari,37,Pendapatan Lainnya,9254860000.0,450750000.0,4.87,False,False
+Riau,4,2026,2,Februari,38,Pendapatan Lainnya,9254860000.0,926790000.0,10.01,False,False
+Riau,4,2026,3,Maret,39,Pendapatan Lainnya,9254860000.0,1417570000.0,15.32,False,False
+Riau,4,2026,4,April,40,Pendapatan Lainnya,9254860000.0,1937730000.0,20.94,False,False
+Riau,4,2026,5,Mei,41,Pendapatan Lainnya,9254860000.0,2419980000.0,26.15,False,False
+Riau,4,2026,6,Juni,42,Pendapatan Lainnya,9254860000.0,2949150000.0,31.87,False,False
+Riau,4,2026,7,Juli,43,Pendapatan Lainnya,9254860000.0,3563840000.0,38.51,False,False
+Riau,4,2026,8,Agustus,44,Pendapatan Lainnya,9254860000.0,4626653000.0,49.99,False,False
+Riau,4,2026,9,September,45,Pendapatan Lainnya,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,10,Oktober,46,Pendapatan Lainnya,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,11,November,47,Pendapatan Lainnya,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2026,12,Desember,48,Pendapatan Lainnya,9254860000.0,4626653000.0,49.99,False,True
+Riau,4,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,149859494600.0,3.68,False,False
+Riau,4,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,351566376000.0,8.64,False,False
+Riau,4,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,571253128628.0,14.04,False,False
+Riau,4,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,1010790780374.0,24.85,False,False
+Riau,4,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,1010790780374.0,24.85,False,False
+Riau,4,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,1325962107092.0,32.6,False,False
+Riau,4,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,1610594990342.0,39.6,False,False
+Riau,4,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,1844291914392.0,45.34,False,False
+Riau,4,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,2304551447980.0,56.66,False,False
+Riau,4,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,2910539729643.0,71.56,False,False
+Riau,4,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,3246210948598.0,79.81,False,False
+Riau,4,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,4067513789544.0,3799501907545.0,93.41,False,False
+Riau,4,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,220504829600.0,5.42,False,False
+Riau,4,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,389049178441.0,9.56,False,False
+Riau,4,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,806135409393.0,19.81,False,False
+Riau,4,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,1258989548658.0,30.94,False,False
+Riau,4,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,1544744667220.0,37.96,False,False
+Riau,4,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,2047302809254.0,50.31,False,False
+Riau,4,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,2267986801903.0,55.74,False,False
+Riau,4,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,2745572787828.0,67.47,False,False
+Riau,4,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,3092064100470.0,75.99,False,False
+Riau,4,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,3561683772484.0,87.53,False,False
+Riau,4,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,3926667317148.0,96.5,False,False
+Riau,4,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,4069181213000.0,4058624325493.0,99.74,False,False
+Riau,4,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,257118868000.0,6.03,False,False
+Riau,4,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,681973662800.0,16.0,False,False
+Riau,4,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,858709468988.0,20.15,False,False
+Riau,4,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,1120692544212.0,26.29,False,False
+Riau,4,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,1363740767712.0,31.99,False,False
+Riau,4,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,1851686571712.0,43.44,False,False
+Riau,4,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,2051310500712.0,48.13,False,False
+Riau,4,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,2532636525312.0,59.42,False,False
+Riau,4,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,2996623504698.0,70.3,False,False
+Riau,4,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,3357141772798.0,78.76,False,False
+Riau,4,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,3767759976898.0,88.39,False,False
+Riau,4,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,4262424210000.0,4040295151251.0,94.79,False,False
+Riau,4,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,232375042400.0,7.73,False,False
+Riau,4,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,605438877600.0,20.15,False,False
+Riau,4,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,746582310324.0,24.84,False,False
+Riau,4,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,900969396504.0,29.98,False,False
+Riau,4,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1036101187704.0,34.48,False,False
+Riau,4,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1499043876704.0,49.88,False,False
+Riau,4,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1947128682654.0,64.79,False,False
+Riau,4,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1969532350654.0,65.54,False,False
+Riau,4,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2023,1,Januari,1,Retribusi Daerah,21950900050.0,1126742424.0,5.13,False,False
+Riau,4,2023,2,Februari,2,Retribusi Daerah,21950900050.0,2458015164.0,11.2,False,False
+Riau,4,2023,3,Maret,3,Retribusi Daerah,21950900050.0,3427982644.0,15.62,False,False
+Riau,4,2023,4,April,4,Retribusi Daerah,21950900050.0,4180313884.0,19.04,False,False
+Riau,4,2023,5,Mei,5,Retribusi Daerah,21950900050.0,4180313884.0,19.04,False,False
+Riau,4,2023,6,Juni,6,Retribusi Daerah,21950900050.0,5342989840.0,24.34,False,False
+Riau,4,2023,7,Juli,7,Retribusi Daerah,21950900050.0,6576509429.0,29.96,False,False
+Riau,4,2023,8,Agustus,8,Retribusi Daerah,21950900050.0,8095097440.0,36.88,False,False
+Riau,4,2023,9,September,9,Retribusi Daerah,21950900050.0,9864398514.0,44.94,False,False
+Riau,4,2023,10,Oktober,10,Retribusi Daerah,21950900050.0,11794485701.5,53.73,False,False
+Riau,4,2023,11,November,11,Retribusi Daerah,21950900050.0,13554156550.5,61.75,False,False
+Riau,4,2023,12,Desember,12,Retribusi Daerah,21950900050.0,15707014488.5,71.56,False,False
+Riau,4,2024,1,Januari,13,Retribusi Daerah,25970361800.0,1049395169.0,4.04,False,False
+Riau,4,2024,2,Februari,14,Retribusi Daerah,25970361800.0,2318200978.5,8.93,False,False
+Riau,4,2024,3,Maret,15,Retribusi Daerah,25970361800.0,2946715878.5,11.35,False,False
+Riau,4,2024,4,April,16,Retribusi Daerah,25970361800.0,4107353417.0,15.82,False,False
+Riau,4,2024,5,Mei,17,Retribusi Daerah,25970361800.0,5029094023.0,19.36,False,False
+Riau,4,2024,6,Juni,18,Retribusi Daerah,25970361800.0,6690523861.0,25.76,False,False
+Riau,4,2024,7,Juli,19,Retribusi Daerah,25970361800.0,8092782779.5,31.16,False,False
+Riau,4,2024,8,Agustus,20,Retribusi Daerah,25970361800.0,10623700044.5,40.91,False,False
+Riau,4,2024,9,September,21,Retribusi Daerah,25970361800.0,12282289217.5,47.29,False,False
+Riau,4,2024,10,Oktober,22,Retribusi Daerah,25970361800.0,14161183149.5,54.53,False,False
+Riau,4,2024,11,November,23,Retribusi Daerah,25970361800.0,15929530249.5,61.34,False,False
+Riau,4,2024,12,Desember,24,Retribusi Daerah,25970361800.0,17601944999.5,67.78,False,False
+Riau,4,2025,1,Januari,25,Retribusi Daerah,12501197400.0,734115800.0,5.87,False,False
+Riau,4,2025,2,Februari,26,Retribusi Daerah,12501197400.0,1787136250.0,14.3,False,False
+Riau,4,2025,3,Maret,27,Retribusi Daerah,12501197400.0,2346744057.0,18.77,False,False
+Riau,4,2025,4,April,28,Retribusi Daerah,12501197400.0,3442131657.0,27.53,False,False
+Riau,4,2025,5,Mei,29,Retribusi Daerah,12501197400.0,4418491958.0,35.34,False,False
+Riau,4,2025,6,Juni,30,Retribusi Daerah,12501197400.0,5292996958.0,42.34,False,False
+Riau,4,2025,7,Juli,31,Retribusi Daerah,12501197400.0,6503131858.0,52.02,False,False
+Riau,4,2025,8,Agustus,32,Retribusi Daerah,12501197400.0,7175995908.0,57.4,False,False
+Riau,4,2025,9,September,33,Retribusi Daerah,12501197400.0,8330080458.0,66.63,False,False
+Riau,4,2025,10,Oktober,34,Retribusi Daerah,12501197400.0,9816346958.0,78.52,False,False
+Riau,4,2025,11,November,35,Retribusi Daerah,12501197400.0,11079796808.0,88.63,False,False
+Riau,4,2025,12,Desember,36,Retribusi Daerah,12501197400.0,13044592042.0,104.35,False,False
+Riau,4,2026,1,Januari,37,Retribusi Daerah,14364293200.0,826835300.0,5.76,False,False
+Riau,4,2026,2,Februari,38,Retribusi Daerah,14364293200.0,1680724300.0,11.7,False,False
+Riau,4,2026,3,Maret,39,Retribusi Daerah,14364293200.0,2392530205.0,16.66,False,False
+Riau,4,2026,4,April,40,Retribusi Daerah,14364293200.0,3195878038.0,22.25,False,False
+Riau,4,2026,5,Mei,41,Retribusi Daerah,14364293200.0,4044780613.0,28.16,False,False
+Riau,4,2026,6,Juni,42,Retribusi Daerah,14364293200.0,5072310887.0,35.31,False,False
+Riau,4,2026,7,Juli,43,Retribusi Daerah,14364293200.0,6010955423.0,41.85,False,False
+Riau,4,2026,8,Agustus,44,Retribusi Daerah,14364293200.0,6457674223.0,44.96,False,False
+Riau,4,2026,9,September,45,Retribusi Daerah,14364293200.0,6602397178.0,45.96,False,False
+Riau,4,2026,10,Oktober,46,Retribusi Daerah,14364293200.0,6602397178.0,45.96,False,True
+Riau,4,2026,11,November,47,Retribusi Daerah,14364293200.0,6602397178.0,45.96,False,True
+Riau,4,2026,12,Desember,48,Retribusi Daerah,14364293200.0,6602397178.0,45.96,False,True
+Riau,4,2023,1,Januari,1,TKDD,4067513789544.0,149859494600.0,3.68,False,False
+Riau,4,2023,2,Februari,2,TKDD,4067513789544.0,351566376000.0,8.64,False,False
+Riau,4,2023,3,Maret,3,TKDD,4067513789544.0,571253128628.0,14.04,False,False
+Riau,4,2023,4,April,4,TKDD,4067513789544.0,1010790780374.0,24.85,False,False
+Riau,4,2023,5,Mei,5,TKDD,4067513789544.0,1010790780374.0,24.85,False,False
+Riau,4,2023,6,Juni,6,TKDD,4067513789544.0,1325962107092.0,32.6,False,False
+Riau,4,2023,7,Juli,7,TKDD,4067513789544.0,1610594990342.0,39.6,False,False
+Riau,4,2023,8,Agustus,8,TKDD,4067513789544.0,1844291914392.0,45.34,False,False
+Riau,4,2023,9,September,9,TKDD,4067513789544.0,2304551447980.0,56.66,False,False
+Riau,4,2023,10,Oktober,10,TKDD,4067513789544.0,2910539729643.0,71.56,False,False
+Riau,4,2023,11,November,11,TKDD,4067513789544.0,3246210948598.0,79.81,False,False
+Riau,4,2023,12,Desember,12,TKDD,4067513789544.0,3799501907545.0,93.41,False,False
+Riau,4,2024,1,Januari,13,TKDD,4069181213000.0,220504829600.0,5.42,False,False
+Riau,4,2024,2,Februari,14,TKDD,4069181213000.0,389049178441.0,9.56,False,False
+Riau,4,2024,3,Maret,15,TKDD,4069181213000.0,806135409393.0,19.81,False,False
+Riau,4,2024,4,April,16,TKDD,4069181213000.0,1258989548658.0,30.94,False,False
+Riau,4,2024,5,Mei,17,TKDD,4069181213000.0,1544744667220.0,37.96,False,False
+Riau,4,2024,6,Juni,18,TKDD,4069181213000.0,2047302809254.0,50.31,False,False
+Riau,4,2024,7,Juli,19,TKDD,4069181213000.0,2267986801903.0,55.74,False,False
+Riau,4,2024,8,Agustus,20,TKDD,4069181213000.0,2745572787828.0,67.47,False,False
+Riau,4,2024,9,September,21,TKDD,4069181213000.0,3092064100470.0,75.99,False,False
+Riau,4,2024,10,Oktober,22,TKDD,4069181213000.0,3561683772484.0,87.53,False,False
+Riau,4,2024,11,November,23,TKDD,4069181213000.0,3926667317148.0,96.5,False,False
+Riau,4,2024,12,Desember,24,TKDD,4069181213000.0,4058624325493.0,99.74,False,False
+Riau,4,2025,1,Januari,25,TKDD,4262424210000.0,257118868000.0,6.03,False,False
+Riau,4,2025,2,Februari,26,TKDD,4262424210000.0,681973662800.0,16.0,False,False
+Riau,4,2025,3,Maret,27,TKDD,4262424210000.0,858709468988.0,20.15,False,False
+Riau,4,2025,4,April,28,TKDD,4262424210000.0,1120692544212.0,26.29,False,False
+Riau,4,2025,5,Mei,29,TKDD,4262424210000.0,1363740767712.0,31.99,False,False
+Riau,4,2025,6,Juni,30,TKDD,4262424210000.0,1851686571712.0,43.44,False,False
+Riau,4,2025,7,Juli,31,TKDD,4262424210000.0,2051310500712.0,48.13,False,False
+Riau,4,2025,8,Agustus,32,TKDD,4262424210000.0,2532636525312.0,59.42,False,False
+Riau,4,2025,9,September,33,TKDD,4262424210000.0,2996623504698.0,70.3,False,False
+Riau,4,2025,10,Oktober,34,TKDD,4262424210000.0,3357141772798.0,78.76,False,False
+Riau,4,2025,11,November,35,TKDD,4262424210000.0,3767759976898.0,88.39,False,False
+Riau,4,2025,12,Desember,36,TKDD,4262424210000.0,4040295151251.0,94.79,False,False
+Riau,4,2026,1,Januari,37,TKDD,3005302894011.0,232375042400.0,7.73,False,False
+Riau,4,2026,2,Februari,38,TKDD,3005302894011.0,605438877600.0,20.15,False,False
+Riau,4,2026,3,Maret,39,TKDD,3005302894011.0,746582310324.0,24.84,False,False
+Riau,4,2026,4,April,40,TKDD,3005302894011.0,900969396504.0,29.98,False,False
+Riau,4,2026,5,Mei,41,TKDD,3005302894011.0,1036101187704.0,34.48,False,False
+Riau,4,2026,6,Juni,42,TKDD,3005302894011.0,1499043876704.0,49.88,False,False
+Riau,4,2026,7,Juli,43,TKDD,3005302894011.0,1947128682654.0,64.79,False,False
+Riau,4,2026,8,Agustus,44,TKDD,3005302894011.0,1969532350654.0,65.54,False,False
+Riau,4,2026,9,September,45,TKDD,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,10,Oktober,46,TKDD,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,11,November,47,TKDD,3005302894011.0,1969532350654.0,65.54,False,True
+Riau,4,2026,12,Desember,48,TKDD,3005302894011.0,1969532350654.0,65.54,False,True

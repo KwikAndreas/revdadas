@@ -1,0 +1,154 @@
+{
+  "provinsi": "Bengkulu",
+  "kode_prov": "07",
+  "diambil_pada": "2026-09-08T23:14:42",
+  "sumber": "https://djpk.kemenkeu.go.id/portal/data/apbd",
+  "tahun": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "n_akun": 20,
+  "n_baris": 900,
+  "n_unduh_baru": 0,
+  "realisasi": "KUMULATIF year-to-date, sama seperti sumber DJPK",
+  "catatan_kualitas": [
+    {
+      "akun": "Belanja Bantuan Keuangan",
+      "tahun": 2023,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Bantuan Sosial",
+      "tahun": 2025,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Bantuan Sosial",
+      "tahun": 2026,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Barang dan Jasa",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Daerah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Hibah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Lainnya",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Modal",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Pegawai",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Belanja Subsidi",
+      "tahun": 2024,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Tidak Terduga",
+      "tahun": 2023,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 11
+    },
+    {
+      "akun": "Belanja Tidak Terduga",
+      "tahun": 2024,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Tidak Terduga",
+      "tahun": 2025,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Belanja Tidak Terduga",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 7
+    },
+    {
+      "akun": "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 2
+    },
+    {
+      "akun": "Lain-Lain PAD yang Sah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "PAD",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Pajak Daerah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Pendapatan Daerah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "Pendapatan Hibah",
+      "tahun": 2026,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Pendapatan Lainnya",
+      "tahun": 2026,
+      "isu": "datar_tahunan"
+    },
+    {
+      "akun": "Pendapatan Transfer Pemerintah Pusat",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 6
+    },
+    {
+      "akun": "Retribusi Daerah",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 8
+    },
+    {
+      "akun": "TKDD",
+      "tahun": 2026,
+      "isu": "belum_final",
+      "bulan_terakhir_terisi": 6
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Bengkulu,7,2023,1,Januari,1,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,2,Februari,2,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,3,Maret,3,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,4,April,4,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,5,Mei,5,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,6,Juni,6,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,7,Juli,7,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,9,September,9,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,11,November,11,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,12,Desember,12,Belanja Bantuan Keuangan,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,1,Januari,25,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,4,April,28,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,9,September,33,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,11,November,35,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Bantuan Keuangan,0.0,900000000.0,0.0,False,False
+Bengkulu,7,2023,1,Januari,1,Belanja Bantuan Sosial,2242500000.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Bantuan Sosial,2242500000.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Bantuan Sosial,2242500000.0,0.0,0.0,False,False
+Bengkulu,7,2023,4,April,4,Belanja Bantuan Sosial,2242500000.0,300000000.0,13.38,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Bantuan Sosial,2242500000.0,300000000.0,13.38,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Bantuan Sosial,2242500000.0,300000000.0,13.38,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Bantuan Sosial,2242500000.0,300000000.0,13.38,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Bantuan Sosial,2242500000.0,600000000.0,26.76,False,False
+Bengkulu,7,2023,9,September,9,Belanja Bantuan Sosial,2242500000.0,600000000.0,26.76,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Bantuan Sosial,2242500000.0,600000000.0,26.76,False,False
+Bengkulu,7,2023,11,November,11,Belanja Bantuan Sosial,2242500000.0,1924780000.0,85.83,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Bantuan Sosial,2242500000.0,2220580000.0,99.02,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Bantuan Sosial,2997500000.0,0.0,0.0,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Bantuan Sosial,2997500000.0,0.0,0.0,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Bantuan Sosial,2997500000.0,0.0,0.0,False,False
+Bengkulu,7,2024,4,April,16,Belanja Bantuan Sosial,2997500000.0,450000000.0,15.01,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Bantuan Sosial,2997500000.0,450000000.0,15.01,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Bantuan Sosial,2997500000.0,450000000.0,15.01,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Bantuan Sosial,2997500000.0,450000000.0,15.01,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Bantuan Sosial,2997500000.0,730000000.0,24.35,False,False
+Bengkulu,7,2024,9,September,21,Belanja Bantuan Sosial,2997500000.0,1705000000.0,56.88,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Bantuan Sosial,2997500000.0,1705000000.0,56.88,False,False
+Bengkulu,7,2024,11,November,23,Belanja Bantuan Sosial,2997500000.0,2155000000.0,71.89,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Bantuan Sosial,2997500000.0,3005000000.0,100.25,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,2,Februari,26,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,3,Maret,27,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,4,April,28,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,5,Mei,29,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,6,Juni,30,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,7,Juli,31,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,9,September,33,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,11,November,35,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2025,12,Desember,36,Belanja Bantuan Sosial,0.0,0.0,0.0,True,False
+Bengkulu,7,2026,1,Januari,37,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,2,Februari,38,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,3,Maret,39,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,4,April,40,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,5,Mei,41,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,6,Juni,42,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,7,Juli,43,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,9,September,45,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,10,Oktober,46,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,11,November,47,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,12,Desember,48,Belanja Bantuan Sosial,90000000.0,0.0,0.0,True,False
+Bengkulu,7,2023,1,Januari,1,Belanja Barang dan Jasa,795734649196.0,4141358844.0,0.52,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Barang dan Jasa,795734649196.0,29923912778.85,3.76,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Barang dan Jasa,795734649196.0,85524545125.8,10.75,False,False
+Bengkulu,7,2023,4,April,4,Belanja Barang dan Jasa,795734649196.0,135825495979.14,17.07,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Barang dan Jasa,795734649196.0,135825495979.14,17.07,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Barang dan Jasa,795734649196.0,195818807087.02,24.61,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Barang dan Jasa,795734649196.0,267434832285.28,33.61,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Barang dan Jasa,795734649196.0,336200429059.64,42.25,False,False
+Bengkulu,7,2023,9,September,9,Belanja Barang dan Jasa,795734649196.0,398399792422.49,50.07,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Barang dan Jasa,795734649196.0,453800794416.51,57.03,False,False
+Bengkulu,7,2023,11,November,11,Belanja Barang dan Jasa,795734649196.0,586026541864.92,73.65,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Barang dan Jasa,795734649196.0,844808409133.77,106.17,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Barang dan Jasa,984457921726.0,4300263256.0,0.44,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Barang dan Jasa,984457921726.0,28759389810.0,2.92,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Barang dan Jasa,984457921726.0,91309238517.0,9.28,False,False
+Bengkulu,7,2024,4,April,16,Belanja Barang dan Jasa,984457921726.0,207640935683.36,21.09,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Barang dan Jasa,984457921726.0,260059104648.36,26.42,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Barang dan Jasa,984457921726.0,286698213021.0,29.12,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Barang dan Jasa,984457921726.0,433626816390.8,44.05,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Barang dan Jasa,984457921726.0,491236975416.8,49.9,False,False
+Bengkulu,7,2024,9,September,21,Belanja Barang dan Jasa,984457921726.0,583599869382.8,59.28,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Barang dan Jasa,984457921726.0,665407096449.57,67.59,False,False
+Bengkulu,7,2024,11,November,23,Belanja Barang dan Jasa,984457921726.0,746391253560.31,75.82,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Barang dan Jasa,984457921726.0,961649037240.41,97.68,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Barang dan Jasa,684475283261.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Barang dan Jasa,684475283261.0,6501759526.0,0.95,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Barang dan Jasa,684475283261.0,52403602442.0,7.66,False,False
+Bengkulu,7,2025,4,April,28,Belanja Barang dan Jasa,684475283261.0,86316608788.0,12.61,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Barang dan Jasa,684475283261.0,108236553058.0,15.81,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Barang dan Jasa,684475283261.0,173780963572.81,25.39,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Barang dan Jasa,684475283261.0,258494386290.9,37.77,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Barang dan Jasa,684475283261.0,376631196741.9,55.02,False,False
+Bengkulu,7,2025,9,September,33,Belanja Barang dan Jasa,684475283261.0,467885068248.41,68.36,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Barang dan Jasa,684475283261.0,496254684026.41,72.5,False,False
+Bengkulu,7,2025,11,November,35,Belanja Barang dan Jasa,684475283261.0,541509005612.09,79.11,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Barang dan Jasa,684475283261.0,765445141577.34,111.83,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Barang dan Jasa,744445505380.0,2169653476.0,0.29,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Barang dan Jasa,744445505380.0,12780086603.0,1.72,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Barang dan Jasa,744445505380.0,71895105862.98,9.66,False,False
+Bengkulu,7,2026,4,April,40,Belanja Barang dan Jasa,744445505380.0,99179629052.98,13.32,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Barang dan Jasa,744445505380.0,134305406051.98,18.04,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Barang dan Jasa,744445505380.0,193480228989.48,25.99,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Barang dan Jasa,744445505380.0,247782052343.26,33.28,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Barang dan Jasa,744445505380.0,284725644968.26,38.25,False,False
+Bengkulu,7,2026,9,September,45,Belanja Barang dan Jasa,744445505380.0,284725644968.26,38.25,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Barang dan Jasa,744445505380.0,284725644968.26,38.25,False,True
+Bengkulu,7,2026,11,November,47,Belanja Barang dan Jasa,744445505380.0,284725644968.26,38.25,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Barang dan Jasa,744445505380.0,284725644968.26,38.25,False,True
+Bengkulu,7,2023,1,Januari,1,Belanja Daerah,2977388138599.0,128963934074.0,4.33,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Daerah,2977388138599.0,271657124245.85,9.12,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Daerah,2977388138599.0,480201032630.59,16.13,False,False
+Bengkulu,7,2023,4,April,4,Belanja Daerah,2977388138599.0,769068610134.93,25.83,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Daerah,2977388138599.0,769068610134.93,25.83,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Daerah,2977388138599.0,1029337038061.8,34.57,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Daerah,2977388138599.0,1293416140752.1,43.44,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Daerah,2977388138599.0,1548451370119.4,52.01,False,False
+Bengkulu,7,2023,9,September,9,Belanja Daerah,2977388138599.0,1733963650565.3,58.24,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Daerah,2977388138599.0,1942148343697.3,65.23,False,False
+Bengkulu,7,2023,11,November,11,Belanja Daerah,2977388138599.0,2294827333386.7,77.08,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Daerah,2977388138599.0,2923281043408.6,98.18,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Daerah,3172504306464.0,135625080559.0,4.28,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Daerah,3172504306464.0,245529256514.0,7.74,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Daerah,3172504306464.0,529747143858.0,16.7,False,False
+Bengkulu,7,2024,4,April,16,Belanja Daerah,3172504306464.0,801354198333.36,25.26,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Daerah,3172504306464.0,1007955253620.4,31.77,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Daerah,3172504306464.0,1314679475284.0,41.44,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Daerah,3172504306464.0,1687883243371.8,53.2,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Daerah,3172504306464.0,1859442655380.8,58.61,False,False
+Bengkulu,7,2024,9,September,21,Belanja Daerah,3172504306464.0,2113475587712.8,66.62,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Daerah,3172504306464.0,2336535509533.6,73.65,False,False
+Bengkulu,7,2024,11,November,23,Belanja Daerah,3172504306464.0,2633405128001.3,83.01,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Daerah,3172504306464.0,3140472406450.4,98.99,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Daerah,3066138513918.0,94319137934.0,3.08,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Daerah,3066138513918.0,187157887817.0,6.1,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Daerah,3066138513918.0,388172092253.0,12.66,False,False
+Bengkulu,7,2025,4,April,28,Belanja Daerah,3066138513918.0,494651204856.0,16.13,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Daerah,3066138513918.0,670847713442.0,21.88,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Daerah,3066138513918.0,954056100415.22,31.12,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Daerah,3066138513918.0,1225541304498.4,39.97,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Daerah,3066138513918.0,1530084915368.4,49.9,False,False
+Bengkulu,7,2025,9,September,33,Belanja Daerah,3066138513918.0,1773842374875.8,57.85,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Daerah,3066138513918.0,2013399806720.8,65.67,False,False
+Bengkulu,7,2025,11,November,35,Belanja Daerah,3066138513918.0,2221261727188.5,72.44,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Daerah,3066138513918.0,2879465259915.3,93.91,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Daerah,2769888866537.0,91464212184.0,3.3,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Daerah,2769888866537.0,198209847743.0,7.16,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Daerah,2769888866537.0,402616035116.41,14.54,False,False
+Bengkulu,7,2026,4,April,40,Belanja Daerah,2769888866537.0,507088796847.41,18.31,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Daerah,2769888866537.0,678385416163.41,24.49,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Daerah,2769888866537.0,956165637221.36,34.52,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Daerah,2769888866537.0,1118972742739.5,40.4,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Daerah,2769888866537.0,1224649256115.7,44.21,False,False
+Bengkulu,7,2026,9,September,45,Belanja Daerah,2769888866537.0,1224649256115.7,44.21,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Daerah,2769888866537.0,1224649256115.7,44.21,False,True
+Bengkulu,7,2026,11,November,47,Belanja Daerah,2769888866537.0,1224649256115.7,44.21,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Daerah,2769888866537.0,1224649256115.7,44.21,False,True
+Bengkulu,7,2023,1,Januari,1,Belanja Hibah,49775653500.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Hibah,49775653500.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Hibah,49775653500.0,6919199400.0,13.9,False,False
+Bengkulu,7,2023,4,April,4,Belanja Hibah,49775653500.0,15164900200.0,30.47,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Hibah,49775653500.0,15164900200.0,30.47,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Hibah,49775653500.0,19723042900.0,39.62,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Hibah,49775653500.0,20301292900.0,40.79,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Hibah,49775653500.0,25458471400.0,51.15,False,False
+Bengkulu,7,2023,9,September,9,Belanja Hibah,49775653500.0,29281061400.0,58.83,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Hibah,49775653500.0,34912221500.0,70.14,False,False
+Bengkulu,7,2023,11,November,11,Belanja Hibah,49775653500.0,40155521500.0,80.67,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Hibah,49775653500.0,57387936334.0,115.29,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Hibah,217834114502.0,61435610000.0,28.2,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Hibah,217834114502.0,61435610000.0,28.2,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Hibah,217834114502.0,65181580000.0,29.92,False,False
+Bengkulu,7,2024,4,April,16,Belanja Hibah,217834114502.0,74866894400.0,34.37,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Hibah,217834114502.0,89886056067.0,41.26,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Hibah,217834114502.0,187089546067.0,85.89,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Hibah,217834114502.0,192315946067.0,88.29,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Hibah,217834114502.0,194013946067.0,89.06,False,False
+Bengkulu,7,2024,9,September,21,Belanja Hibah,217834114502.0,200020696067.0,91.82,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Hibah,217834114502.0,200480696067.0,92.03,False,False
+Bengkulu,7,2024,11,November,23,Belanja Hibah,217834114502.0,206456175667.0,94.78,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Hibah,217834114502.0,219980128457.0,100.99,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Hibah,13519761940.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Hibah,13519761940.0,0.0,0.0,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Hibah,13519761940.0,1007677720.0,7.45,False,False
+Bengkulu,7,2025,4,April,28,Belanja Hibah,13519761940.0,1007677720.0,7.45,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Hibah,13519761940.0,2432677720.0,17.99,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Hibah,13519761940.0,2432677720.0,17.99,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Hibah,13519761940.0,2432677720.0,17.99,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Hibah,13519761940.0,11120252940.0,82.25,False,False
+Bengkulu,7,2025,9,September,33,Belanja Hibah,13519761940.0,10461735940.0,77.38,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Hibah,13519761940.0,13409635940.0,99.19,False,False
+Bengkulu,7,2025,11,November,35,Belanja Hibah,13519761940.0,14254230440.0,105.43,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Hibah,13519761940.0,22219377705.0,164.35,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Hibah,21512206500.0,0.0,0.0,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Hibah,21512206500.0,0.0,0.0,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Hibah,21512206500.0,768369080.0,3.57,False,False
+Bengkulu,7,2026,4,April,40,Belanja Hibah,21512206500.0,768369080.0,3.57,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Hibah,21512206500.0,1200229080.0,5.58,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Hibah,21512206500.0,1200229080.0,5.58,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Hibah,21512206500.0,4950229080.0,23.01,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Hibah,21512206500.0,5851260000.0,27.2,False,False
+Bengkulu,7,2026,9,September,45,Belanja Hibah,21512206500.0,5851260000.0,27.2,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Hibah,21512206500.0,5851260000.0,27.2,False,True
+Bengkulu,7,2026,11,November,47,Belanja Hibah,21512206500.0,5851260000.0,27.2,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Hibah,21512206500.0,5851260000.0,27.2,False,True
+Bengkulu,7,2023,1,Januari,1,Belanja Lainnya,441662176319.0,20405881555.0,4.62,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Lainnya,441662176319.0,83825350123.0,18.98,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Lainnya,441662176319.0,133591403807.0,30.25,False,False
+Bengkulu,7,2023,4,April,4,Belanja Lainnya,441662176319.0,216227216162.0,48.96,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Lainnya,441662176319.0,216227216162.0,48.96,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Lainnya,441662176319.0,260634953584.0,59.01,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Lainnya,441662176319.0,302802466265.0,68.56,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Lainnya,441662176319.0,364582652710.0,82.55,False,False
+Bengkulu,7,2023,9,September,9,Belanja Lainnya,441662176319.0,391784061245.0,88.71,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Lainnya,441662176319.0,414720150610.0,93.9,False,False
+Bengkulu,7,2023,11,November,11,Belanja Lainnya,441662176319.0,443072375449.0,100.32,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Lainnya,441662176319.0,472013126983.0,106.87,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Lainnya,535023005610.0,61435610000.0,11.48,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Lainnya,535023005610.0,61435610000.0,11.48,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Lainnya,535023005610.0,150565245139.0,28.14,False,False
+Bengkulu,7,2024,4,April,16,Belanja Lainnya,535023005610.0,206091029507.0,38.52,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Lainnya,535023005610.0,221110191174.0,41.33,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Lainnya,535023005610.0,362236435912.0,67.7,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Lainnya,535023005610.0,402142779857.0,75.16,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Lainnya,535023005610.0,404120779857.0,75.53,False,False
+Bengkulu,7,2024,9,September,21,Belanja Lainnya,535023005610.0,434612701800.0,81.23,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Lainnya,535023005610.0,452332834914.0,84.54,False,False
+Bengkulu,7,2024,11,November,23,Belanja Lainnya,535023005610.0,498329539631.0,93.14,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Lainnya,535023005610.0,534396224167.0,99.88,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Lainnya,198349441940.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Lainnya,198349441940.0,5423182936.0,2.73,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Lainnya,198349441940.0,6430860656.0,3.24,False,False
+Bengkulu,7,2025,4,April,28,Belanja Lainnya,198349441940.0,6430860656.0,3.24,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Lainnya,198349441940.0,79539037594.0,40.1,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Lainnya,198349441940.0,125309215932.0,63.18,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Lainnya,198349441940.0,125309215932.0,63.18,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Lainnya,198349441940.0,133996791152.0,67.56,False,False
+Bengkulu,7,2025,9,September,33,Belanja Lainnya,198349441940.0,158971419467.0,80.15,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Lainnya,198349441940.0,161919319467.0,81.63,False,False
+Bengkulu,7,2025,11,November,35,Belanja Lainnya,198349441940.0,190207127145.0,95.89,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Lainnya,198349441940.0,202748531728.0,102.22,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Lainnya,247016078033.0,0.0,0.0,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Lainnya,247016078033.0,17633147442.0,7.14,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Lainnya,247016078033.0,18401516522.0,7.45,False,False
+Bengkulu,7,2026,4,April,40,Belanja Lainnya,247016078033.0,18401516522.0,7.45,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Lainnya,247016078033.0,83696824929.0,33.88,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Lainnya,247016078033.0,83696824929.0,33.88,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Lainnya,247016078033.0,87996250439.0,35.62,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Lainnya,247016078033.0,88897281359.0,35.99,False,False
+Bengkulu,7,2026,9,September,45,Belanja Lainnya,247016078033.0,88897281359.0,35.99,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Lainnya,247016078033.0,88897281359.0,35.99,False,True
+Bengkulu,7,2026,11,November,47,Belanja Lainnya,247016078033.0,88897281359.0,35.99,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Lainnya,247016078033.0,88897281359.0,35.99,False,True
+Bengkulu,7,2023,1,Januari,1,Belanja Modal,544306197799.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Modal,544306197799.0,658742907.0,0.12,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Modal,544306197799.0,25210786701.79,4.63,False,False
+Bengkulu,7,2023,4,April,4,Belanja Modal,544306197799.0,44178910932.79,8.12,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Modal,544306197799.0,44178910932.79,8.12,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Modal,544306197799.0,65751171281.79,12.08,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Modal,544306197799.0,91683432891.79,16.84,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Modal,544306197799.0,144669348795.8,26.58,False,False
+Bengkulu,7,2023,9,September,9,Belanja Modal,544306197799.0,170075818326.8,31.25,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Modal,544306197799.0,219389550182.8,40.31,False,False
+Bengkulu,7,2023,11,November,11,Belanja Modal,544306197799.0,297372434749.8,54.63,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Modal,544306197799.0,563603519386.8,103.55,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Modal,436624263309.0,0.0,0.0,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Modal,436624263309.0,4414469818.0,1.01,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Modal,436624263309.0,16968926956.0,3.89,False,False
+Bengkulu,7,2024,4,April,16,Belanja Modal,436624263309.0,32527536275.0,7.45,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Modal,436624263309.0,57386472822.0,13.14,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Modal,436624263309.0,74171025558.0,16.99,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Modal,436624263309.0,116069883508.0,26.58,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Modal,436624263309.0,154707281119.0,35.43,False,False
+Bengkulu,7,2024,9,September,21,Belanja Modal,436624263309.0,209034662507.0,47.88,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Modal,436624263309.0,230590428567.0,52.81,False,False
+Bengkulu,7,2024,11,November,23,Belanja Modal,436624263309.0,302095757986.0,69.19,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Modal,436624263309.0,427113855904.0,97.82,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Modal,762539514750.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Modal,762539514750.0,5300400000.0,0.7,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Modal,762539514750.0,6963392880.0,0.91,False,False
+Bengkulu,7,2025,4,April,28,Belanja Modal,762539514750.0,6963392880.0,0.91,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Modal,762539514750.0,6963392880.0,0.91,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Modal,762539514750.0,10128715624.41,1.33,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Modal,762539514750.0,90938513824.47,11.93,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Modal,762539514750.0,141000341060.47,18.49,False,False
+Bengkulu,7,2025,9,September,33,Belanja Modal,762539514750.0,190228930554.39,24.95,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Modal,762539514750.0,324918541677.39,42.61,False,False
+Bengkulu,7,2025,11,November,35,Belanja Modal,762539514750.0,378020058109.39,49.57,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Modal,762539514750.0,604685407647.95,79.3,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Modal,518904497117.0,0.0,0.0,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Modal,518904497117.0,0.0,0.0,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Modal,518904497117.0,1953676136.43,0.38,False,False
+Bengkulu,7,2026,4,April,40,Belanja Modal,518904497117.0,4174638584.43,0.8,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Modal,518904497117.0,4433358585.43,0.85,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Modal,518904497117.0,35000003188.38,6.74,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Modal,518904497117.0,67585490276.74,13.02,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Modal,518904497117.0,70829806086.07,13.65,False,False
+Bengkulu,7,2026,9,September,45,Belanja Modal,518904497117.0,70829806086.07,13.65,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Modal,518904497117.0,70829806086.07,13.65,False,True
+Bengkulu,7,2026,11,November,47,Belanja Modal,518904497117.0,70829806086.07,13.65,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Modal,518904497117.0,70829806086.07,13.65,False,True
+Bengkulu,7,2023,1,Januari,1,Belanja Pegawai,1195685115285.0,104416693675.0,8.73,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Pegawai,1195685115285.0,157249118437.0,13.15,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Pegawai,1195685115285.0,235874296996.0,19.73,False,False
+Bengkulu,7,2023,4,April,4,Belanja Pegawai,1195685115285.0,372836987061.0,31.18,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Pegawai,1195685115285.0,372836987061.0,31.18,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Pegawai,1195685115285.0,507132106109.0,42.41,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Pegawai,1195685115285.0,631495409310.0,52.81,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Pegawai,1195685115285.0,702998939554.0,58.79,False,False
+Bengkulu,7,2023,9,September,9,Belanja Pegawai,1195685115285.0,773703978571.0,64.71,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Pegawai,1195685115285.0,854237848488.0,71.44,False,False
+Bengkulu,7,2023,11,November,11,Belanja Pegawai,1195685115285.0,968355981323.0,80.99,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Pegawai,1195685115285.0,1042855987905.0,87.22,False,False
+Bengkulu,7,2024,1,Januari,13,Belanja Pegawai,1216399115819.0,69889207303.0,5.75,False,False
+Bengkulu,7,2024,2,Februari,14,Belanja Pegawai,1216399115819.0,150919786886.0,12.41,False,False
+Bengkulu,7,2024,3,Maret,15,Belanja Pegawai,1216399115819.0,270903733246.0,22.27,False,False
+Bengkulu,7,2024,4,April,16,Belanja Pegawai,1216399115819.0,355094696868.0,29.19,False,False
+Bengkulu,7,2024,5,Mei,17,Belanja Pegawai,1216399115819.0,469399484976.0,38.59,False,False
+Bengkulu,7,2024,6,Juni,18,Belanja Pegawai,1216399115819.0,591573800793.0,48.63,False,False
+Bengkulu,7,2024,7,Juli,19,Belanja Pegawai,1216399115819.0,736043763616.0,60.51,False,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Pegawai,1216399115819.0,809377618988.0,66.54,False,False
+Bengkulu,7,2024,9,September,21,Belanja Pegawai,1216399115819.0,886228354023.0,72.86,False,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Pegawai,1216399115819.0,988205149603.0,81.24,False,False
+Bengkulu,7,2024,11,November,23,Belanja Pegawai,1216399115819.0,1086588576824.0,89.33,False,False
+Bengkulu,7,2024,12,Desember,24,Belanja Pegawai,1216399115819.0,1217313289139.0,100.08,False,False
+Bengkulu,7,2025,1,Januari,25,Belanja Pegawai,1420774273967.0,94319137934.0,6.64,False,False
+Bengkulu,7,2025,2,Februari,26,Belanja Pegawai,1420774273967.0,169932545355.0,11.96,False,False
+Bengkulu,7,2025,3,Maret,27,Belanja Pegawai,1420774273967.0,322374236275.0,22.69,False,False
+Bengkulu,7,2025,4,April,28,Belanja Pegawai,1420774273967.0,394940342532.0,27.8,False,False
+Bengkulu,7,2025,5,Mei,29,Belanja Pegawai,1420774273967.0,476108729910.0,33.51,False,False
+Bengkulu,7,2025,6,Juni,30,Belanja Pegawai,1420774273967.0,644837205286.0,45.39,False,False
+Bengkulu,7,2025,7,Juli,31,Belanja Pegawai,1420774273967.0,750799188451.0,52.84,False,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Pegawai,1420774273967.0,878456586414.0,61.83,False,False
+Bengkulu,7,2025,9,September,33,Belanja Pegawai,1420774273967.0,956756956606.0,67.34,False,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Pegawai,1420774273967.0,1030307261550.0,72.52,False,False
+Bengkulu,7,2025,11,November,35,Belanja Pegawai,1420774273967.0,1111525536322.0,78.23,False,False
+Bengkulu,7,2025,12,Desember,36,Belanja Pegawai,1420774273967.0,1306586178962.0,91.96,False,False
+Bengkulu,7,2026,1,Januari,37,Belanja Pegawai,1259522786007.0,89294558708.0,7.09,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Pegawai,1259522786007.0,167796613698.0,13.32,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Pegawai,1259522786007.0,310365736595.0,24.64,False,False
+Bengkulu,7,2026,4,April,40,Belanja Pegawai,1259522786007.0,385333012688.0,30.59,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Pegawai,1259522786007.0,455949826597.0,36.2,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Pegawai,1259522786007.0,643988580114.5,51.13,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Pegawai,1259522786007.0,715608949680.5,56.82,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Pegawai,1259522786007.0,780196523702.4,61.94,False,False
+Bengkulu,7,2026,9,September,45,Belanja Pegawai,1259522786007.0,780196523702.4,61.94,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Pegawai,1259522786007.0,780196523702.4,61.94,False,True
+Bengkulu,7,2026,11,November,47,Belanja Pegawai,1259522786007.0,780196523702.4,61.94,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Pegawai,1259522786007.0,780196523702.4,61.94,False,True
+Bengkulu,7,2024,1,Januari,13,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,2,Februari,14,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,3,Maret,15,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,4,April,16,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,5,Mei,17,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,6,Juni,18,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,7,Juli,19,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,9,September,21,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,11,November,23,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2024,12,Desember,24,Belanja Subsidi,0.0,0.0,0.0,True,False
+Bengkulu,7,2023,1,Januari,1,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,4,April,4,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,5,Mei,5,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,6,Juni,6,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,7,Juli,7,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,8,Agustus,8,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,9,September,9,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,10,Oktober,10,Belanja Tidak Terduga,10000000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,11,November,11,Belanja Tidak Terduga,10000000000.0,26609031.0,0.27,False,False
+Bengkulu,7,2023,12,Desember,12,Belanja Tidak Terduga,10000000000.0,26609031.0,0.27,False,True
+Bengkulu,7,2024,1,Januari,13,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,2,Februari,14,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,3,Maret,15,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,4,April,16,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,5,Mei,17,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,6,Juni,18,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,7,Juli,19,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,8,Agustus,20,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,9,September,21,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,10,Oktober,22,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,11,November,23,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2024,12,Desember,24,Belanja Tidak Terduga,500000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,1,Januari,25,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,2,Februari,26,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,3,Maret,27,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,4,April,28,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,5,Mei,29,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,6,Juni,30,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,7,Juli,31,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,8,Agustus,32,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,9,September,33,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,10,Oktober,34,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,11,November,35,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2025,12,Desember,36,Belanja Tidak Terduga,5155000000.0,0.0,0.0,True,False
+Bengkulu,7,2026,1,Januari,37,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,2,Februari,38,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,3,Maret,39,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,4,April,40,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,5,Mei,41,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,6,Juni,42,Belanja Tidak Terduga,3000000000.0,0.0,0.0,False,False
+Bengkulu,7,2026,7,Juli,43,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,False
+Bengkulu,7,2026,8,Agustus,44,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,True
+Bengkulu,7,2026,9,September,45,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,True
+Bengkulu,7,2026,10,Oktober,46,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,True
+Bengkulu,7,2026,11,November,47,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,True
+Bengkulu,7,2026,12,Desember,48,Belanja Tidak Terduga,3000000000.0,549425510.0,18.31,False,True
+Bengkulu,7,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,58095926.0,0.32,False,False
+Bengkulu,7,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,58095926.0,0.32,False,False
+Bengkulu,7,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,58095926.0,0.32,False,False
+Bengkulu,7,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,58095926.0,0.32,False,False
+Bengkulu,7,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,58095926.0,0.32,False,False
+Bengkulu,7,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,18400000000.0,273668625.0,1.49,False,False
+Bengkulu,7,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,0.0,0.0,False,False
+Bengkulu,7,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,50000000.0,0.36,False,False
+Bengkulu,7,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,50000000.0,0.36,False,False
+Bengkulu,7,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13245590906.2,94.42,False,False
+Bengkulu,7,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13296390906.2,94.78,False,False
+Bengkulu,7,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,14028087600.0,13424641778.2,95.7,False,False
+Bengkulu,7,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,0.0,0.0,False,False
+Bengkulu,7,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,0.0,0.0,False,False
+Bengkulu,7,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15077712619.95,92.18,False,False
+Bengkulu,7,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,16356026932.0,15129660610.95,92.5,False,False
+Bengkulu,7,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,0.0,0.0,False,False
+Bengkulu,7,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,False
+Bengkulu,7,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,22379187758.0,15952976003.35,71.28,False,True
+Bengkulu,7,2023,1,Januari,1,Lain-Lain PAD yang Sah,156000934040.0,13101782672.0,8.4,False,False
+Bengkulu,7,2023,2,Februari,2,Lain-Lain PAD yang Sah,156000934040.0,23841731918.64,15.28,False,False
+Bengkulu,7,2023,3,Maret,3,Lain-Lain PAD yang Sah,156000934040.0,36140131909.36,23.17,False,False
+Bengkulu,7,2023,4,April,4,Lain-Lain PAD yang Sah,156000934040.0,49354408366.36,31.64,False,False
+Bengkulu,7,2023,5,Mei,5,Lain-Lain PAD yang Sah,156000934040.0,49354408366.36,31.64,False,False
+Bengkulu,7,2023,6,Juni,6,Lain-Lain PAD yang Sah,156000934040.0,59909052134.36,38.4,False,False
+Bengkulu,7,2023,7,Juli,7,Lain-Lain PAD yang Sah,156000934040.0,75686964513.25,48.52,False,False
+Bengkulu,7,2023,8,Agustus,8,Lain-Lain PAD yang Sah,156000934040.0,91626708421.9,58.73,False,False
+Bengkulu,7,2023,9,September,9,Lain-Lain PAD yang Sah,156000934040.0,105704259817.9,67.76,False,False
+Bengkulu,7,2023,10,Oktober,10,Lain-Lain PAD yang Sah,156000934040.0,137002441897.9,87.82,False,False
+Bengkulu,7,2023,11,November,11,Lain-Lain PAD yang Sah,156000934040.0,141192258508.9,90.51,False,False
+Bengkulu,7,2023,12,Desember,12,Lain-Lain PAD yang Sah,156000934040.0,165320804139.65,105.97,False,False
+Bengkulu,7,2024,1,Januari,13,Lain-Lain PAD yang Sah,25024561000.0,664792943.0,2.66,False,False
+Bengkulu,7,2024,2,Februari,14,Lain-Lain PAD yang Sah,25024561000.0,1358275395.51,5.43,False,False
+Bengkulu,7,2024,3,Maret,15,Lain-Lain PAD yang Sah,25024561000.0,2095105788.51,8.37,False,False
+Bengkulu,7,2024,4,April,16,Lain-Lain PAD yang Sah,25024561000.0,2697698438.51,10.78,False,False
+Bengkulu,7,2024,5,Mei,17,Lain-Lain PAD yang Sah,25024561000.0,5026485757.77,20.09,False,False
+Bengkulu,7,2024,6,Juni,18,Lain-Lain PAD yang Sah,25024561000.0,2944226837.51,11.77,False,False
+Bengkulu,7,2024,7,Juli,19,Lain-Lain PAD yang Sah,25024561000.0,9784273002.77,39.1,False,False
+Bengkulu,7,2024,8,Agustus,20,Lain-Lain PAD yang Sah,25024561000.0,12154949501.84,48.57,False,False
+Bengkulu,7,2024,9,September,21,Lain-Lain PAD yang Sah,25024561000.0,12527818051.44,50.06,False,False
+Bengkulu,7,2024,10,Oktober,22,Lain-Lain PAD yang Sah,25024561000.0,12689649403.65,50.71,False,False
+Bengkulu,7,2024,11,November,23,Lain-Lain PAD yang Sah,25024561000.0,14118129021.6,56.42,False,False
+Bengkulu,7,2024,12,Desember,24,Lain-Lain PAD yang Sah,25024561000.0,17216512059.37,68.8,False,False
+Bengkulu,7,2025,1,Januari,25,Lain-Lain PAD yang Sah,43947598992.0,1084882540.32,2.47,False,False
+Bengkulu,7,2025,2,Februari,26,Lain-Lain PAD yang Sah,43947598992.0,1959600879.32,4.46,False,False
+Bengkulu,7,2025,3,Maret,27,Lain-Lain PAD yang Sah,43947598992.0,3072428553.68,6.99,False,False
+Bengkulu,7,2025,4,April,28,Lain-Lain PAD yang Sah,43947598992.0,30507954342.96,69.42,False,False
+Bengkulu,7,2025,5,Mei,29,Lain-Lain PAD yang Sah,43947598992.0,42106440657.96,95.81,False,False
+Bengkulu,7,2025,6,Juni,30,Lain-Lain PAD yang Sah,43947598992.0,33996772978.98,77.36,False,False
+Bengkulu,7,2025,7,Juli,31,Lain-Lain PAD yang Sah,43947598992.0,46865346958.09,106.64,False,False
+Bengkulu,7,2025,8,Agustus,32,Lain-Lain PAD yang Sah,43947598992.0,49496071537.62,112.63,False,False
+Bengkulu,7,2025,9,September,33,Lain-Lain PAD yang Sah,43947598992.0,51715664789.78,117.68,False,False
+Bengkulu,7,2025,10,Oktober,34,Lain-Lain PAD yang Sah,43947598992.0,54698854382.67,124.46,False,False
+Bengkulu,7,2025,11,November,35,Lain-Lain PAD yang Sah,43947598992.0,55765317755.07,126.89,False,False
+Bengkulu,7,2025,12,Desember,36,Lain-Lain PAD yang Sah,43947598992.0,57117876445.34,129.97,False,False
+Bengkulu,7,2026,1,Januari,37,Lain-Lain PAD yang Sah,27775183520.0,958077241.03,3.45,False,False
+Bengkulu,7,2026,2,Februari,38,Lain-Lain PAD yang Sah,27775183520.0,2416011687.9,8.7,False,False
+Bengkulu,7,2026,3,Maret,39,Lain-Lain PAD yang Sah,27775183520.0,3052076921.9,10.99,False,False
+Bengkulu,7,2026,4,April,40,Lain-Lain PAD yang Sah,27775183520.0,3939479943.36,14.18,False,False
+Bengkulu,7,2026,5,Mei,41,Lain-Lain PAD yang Sah,27775183520.0,4878174897.17,17.56,False,False
+Bengkulu,7,2026,6,Juni,42,Lain-Lain PAD yang Sah,27775183520.0,5093204600.17,18.34,False,False
+Bengkulu,7,2026,7,Juli,43,Lain-Lain PAD yang Sah,27775183520.0,6937979282.86,24.98,False,False
+Bengkulu,7,2026,8,Agustus,44,Lain-Lain PAD yang Sah,27775183520.0,9348928151.1,33.66,False,False
+Bengkulu,7,2026,9,September,45,Lain-Lain PAD yang Sah,27775183520.0,9348928151.1,33.66,False,True
+Bengkulu,7,2026,10,Oktober,46,Lain-Lain PAD yang Sah,27775183520.0,9348928151.1,33.66,False,True
+Bengkulu,7,2026,11,November,47,Lain-Lain PAD yang Sah,27775183520.0,9348928151.1,33.66,False,True
+Bengkulu,7,2026,12,Desember,48,Lain-Lain PAD yang Sah,27775183520.0,9348928151.1,33.66,False,True
+Bengkulu,7,2023,1,Januari,1,PAD,967957037971.0,72198478257.0,7.46,False,False
+Bengkulu,7,2023,2,Februari,2,PAD,967957037971.0,136469537326.64,14.1,False,False
+Bengkulu,7,2023,3,Maret,3,PAD,967957037971.0,204674687484.36,21.15,False,False
+Bengkulu,7,2023,4,April,4,PAD,967957037971.0,327148421163.36,33.8,False,False
+Bengkulu,7,2023,5,Mei,5,PAD,967957037971.0,327148421163.36,33.8,False,False
+Bengkulu,7,2023,6,Juni,6,PAD,967957037971.0,392799665918.36,40.58,False,False
+Bengkulu,7,2023,7,Juli,7,PAD,967957037971.0,502559980503.25,51.92,False,False
+Bengkulu,7,2023,8,Agustus,8,PAD,967957037971.0,588105317503.9,60.76,False,False
+Bengkulu,7,2023,9,September,9,PAD,967957037971.0,660169086152.9,68.2,False,False
+Bengkulu,7,2023,10,Oktober,10,PAD,967957037971.0,783044076240.9,80.9,False,False
+Bengkulu,7,2023,11,November,11,PAD,967957037971.0,858030314805.9,88.64,False,False
+Bengkulu,7,2023,12,Desember,12,PAD,967957037971.0,938699634491.65,96.98,False,False
+Bengkulu,7,2024,1,Januari,13,PAD,1058394654400.0,82732520571.0,7.82,False,False
+Bengkulu,7,2024,2,Februari,14,PAD,1058394654400.0,132472444785.51,12.52,False,False
+Bengkulu,7,2024,3,Maret,15,PAD,1058394654400.0,225386354753.51,21.3,False,False
+Bengkulu,7,2024,4,April,16,PAD,1058394654400.0,355198727836.71,33.56,False,False
+Bengkulu,7,2024,5,Mei,17,PAD,1058394654400.0,412307511993.97,38.96,False,False
+Bengkulu,7,2024,6,Juni,18,PAD,1058394654400.0,296772637055.71,28.04,False,False
+Bengkulu,7,2024,7,Juli,19,PAD,1058394654400.0,611099735792.97,57.74,False,False
+Bengkulu,7,2024,8,Agustus,20,PAD,1058394654400.0,682464892525.52,64.48,False,False
+Bengkulu,7,2024,9,September,21,PAD,1058394654400.0,797490260956.52,75.35,False,False
+Bengkulu,7,2024,10,Oktober,22,PAD,1058394654400.0,903269639593.05,85.34,False,False
+Bengkulu,7,2024,11,November,23,PAD,1058394654400.0,976183620060.72,92.23,False,False
+Bengkulu,7,2024,12,Desember,24,PAD,1058394654400.0,1085297962753.3,102.54,False,False
+Bengkulu,7,2025,1,Januari,25,PAD,1231301332918.0,43496724702.6,3.53,False,False
+Bengkulu,7,2025,2,Februari,26,PAD,1231301332918.0,112089026132.88,9.1,False,False
+Bengkulu,7,2025,3,Maret,27,PAD,1231301332918.0,197421456142.47,16.03,False,False
+Bengkulu,7,2025,4,April,28,PAD,1231301332918.0,281403985523.45,22.85,False,False
+Bengkulu,7,2025,5,Mei,29,PAD,1231301332918.0,401122600928.94,32.58,False,False
+Bengkulu,7,2025,6,Juni,30,PAD,1231301332918.0,461690269696.96,37.5,False,False
+Bengkulu,7,2025,7,Juli,31,PAD,1231301332918.0,556292210058.62,45.18,False,False
+Bengkulu,7,2025,8,Agustus,32,PAD,1231301332918.0,647759749489.45,52.61,False,False
+Bengkulu,7,2025,9,September,33,PAD,1231301332918.0,758835856102.78,61.63,False,False
+Bengkulu,7,2025,10,Oktober,34,PAD,1231301332918.0,848848817309.02,68.94,False,False
+Bengkulu,7,2025,11,November,35,PAD,1231301332918.0,902083368257.51,73.26,False,False
+Bengkulu,7,2025,12,Desember,36,PAD,1231301332918.0,1008791369643.7,81.93,False,False
+Bengkulu,7,2026,1,Januari,37,PAD,1254994442537.0,74016862201.86,5.9,False,False
+Bengkulu,7,2026,2,Februari,38,PAD,1254994442537.0,135869840419.77,10.83,False,False
+Bengkulu,7,2026,3,Maret,39,PAD,1254994442537.0,223116491831.82,17.78,False,False
+Bengkulu,7,2026,4,April,40,PAD,1254994442537.0,323625480605.01,25.79,False,False
+Bengkulu,7,2026,5,Mei,41,PAD,1254994442537.0,373721691820.68,29.78,False,False
+Bengkulu,7,2026,6,Juni,42,PAD,1254994442537.0,472236143567.03,37.63,False,False
+Bengkulu,7,2026,7,Juli,43,PAD,1254994442537.0,499799253617.72,39.82,False,False
+Bengkulu,7,2026,8,Agustus,44,PAD,1254994442537.0,535142807537.96,42.64,False,False
+Bengkulu,7,2026,9,September,45,PAD,1254994442537.0,535142807537.96,42.64,False,True
+Bengkulu,7,2026,10,Oktober,46,PAD,1254994442537.0,535142807537.96,42.64,False,True
+Bengkulu,7,2026,11,November,47,PAD,1254994442537.0,535142807537.96,42.64,False,True
+Bengkulu,7,2026,12,Desember,48,PAD,1254994442537.0,535142807537.96,42.64,False,True
+Bengkulu,7,2023,1,Januari,1,Pajak Daerah,787761103931.0,58688479835.0,7.45,False,False
+Bengkulu,7,2023,2,Februari,2,Pajak Daerah,787761103931.0,111975619658.0,14.21,False,False
+Bengkulu,7,2023,3,Maret,3,Pajak Daerah,787761103931.0,167562630635.0,21.27,False,False
+Bengkulu,7,2023,4,April,4,Pajak Daerah,787761103931.0,276609587182.0,35.11,False,False
+Bengkulu,7,2023,5,Mei,5,Pajak Daerah,787761103931.0,276609587182.0,35.11,False,False
+Bengkulu,7,2023,6,Juni,6,Pajak Daerah,787761103931.0,331366228999.0,42.06,False,False
+Bengkulu,7,2023,7,Juli,7,Pajak Daerah,787761103931.0,424826498179.0,53.93,False,False
+Bengkulu,7,2023,8,Agustus,8,Pajak Daerah,787761103931.0,493882539211.0,62.69,False,False
+Bengkulu,7,2023,9,September,9,Pajak Daerah,787761103931.0,551271583876.0,69.98,False,False
+Bengkulu,7,2023,10,Oktober,10,Pajak Daerah,787761103931.0,642313440205.0,81.54,False,False
+Bengkulu,7,2023,11,November,11,Pajak Daerah,787761103931.0,712766344274.0,90.48,False,False
+Bengkulu,7,2023,12,Desember,12,Pajak Daerah,787761103931.0,768570570825.0,97.56,False,False
+Bengkulu,7,2024,1,Januari,13,Pajak Daerah,862467018900.0,81650882918.0,9.47,False,False
+Bengkulu,7,2024,2,Februari,14,Pajak Daerah,862467018900.0,130285503330.0,15.11,False,False
+Bengkulu,7,2024,3,Maret,15,Pajak Daerah,862467018900.0,184260125354.0,21.36,False,False
+Bengkulu,7,2024,4,April,16,Pajak Daerah,862467018900.0,300012611581.0,34.79,False,False
+Bengkulu,7,2024,5,Mei,17,Pajak Daerah,862467018900.0,354490230319.0,41.1,False,False
+Bengkulu,7,2024,6,Juni,18,Pajak Daerah,862467018900.0,278970602668.0,32.35,False,False
+Bengkulu,7,2024,7,Juli,19,Pajak Daerah,862467018900.0,511113867992.0,59.26,False,False
+Bengkulu,7,2024,8,Agustus,20,Pajak Daerah,862467018900.0,579718034300.48,67.22,False,False
+Bengkulu,7,2024,9,September,21,Pajak Daerah,862467018900.0,644622063867.88,74.74,False,False
+Bengkulu,7,2024,10,Oktober,22,Pajak Daerah,862467018900.0,749906924392.2,86.95,False,False
+Bengkulu,7,2024,11,November,23,Pajak Daerah,862467018900.0,821178204861.92,95.21,False,False
+Bengkulu,7,2024,12,Desember,24,Pajak Daerah,862467018900.0,893700118084.72,103.62,False,False
+Bengkulu,7,2025,1,Januari,25,Pajak Daerah,983381540059.0,41415459839.28,4.21,False,False
+Bengkulu,7,2025,2,Februari,26,Pajak Daerah,983381540059.0,108901827930.56,11.07,False,False
+Bengkulu,7,2025,3,Maret,27,Pajak Daerah,983381540059.0,150758761274.79,15.33,False,False
+Bengkulu,7,2025,4,April,28,Pajak Daerah,983381540059.0,191930490226.54,19.52,False,False
+Bengkulu,7,2025,5,Mei,29,Pajak Daerah,983381540059.0,299577054677.03,30.46,False,False
+Bengkulu,7,2025,6,Juni,30,Pajak Daerah,983381540059.0,338830393535.03,34.46,False,False
+Bengkulu,7,2025,7,Juli,31,Pajak Daerah,983381540059.0,401835131603.58,40.86,False,False
+Bengkulu,7,2025,8,Agustus,32,Pajak Daerah,983381540059.0,490258852724.88,49.85,False,False
+Bengkulu,7,2025,9,September,33,Pajak Daerah,983381540059.0,539500974686.05,54.86,False,False
+Bengkulu,7,2025,10,Oktober,34,Pajak Daerah,983381540059.0,625934346843.4,63.65,False,False
+Bengkulu,7,2025,11,November,35,Pajak Daerah,983381540059.0,677652456495.49,68.91,False,False
+Bengkulu,7,2025,12,Desember,36,Pajak Daerah,983381540059.0,731798640509.43,74.42,False,False
+Bengkulu,7,2026,1,Januari,37,Pajak Daerah,984871540059.0,72393468085.83,7.35,False,False
+Bengkulu,7,2026,2,Februari,38,Pajak Daerah,984871540059.0,116557659695.52,11.83,False,False
+Bengkulu,7,2026,3,Maret,39,Pajak Daerah,984871540059.0,160462857231.57,16.29,False,False
+Bengkulu,7,2026,4,April,40,Pajak Daerah,984871540059.0,259680148975.3,26.37,False,False
+Bengkulu,7,2026,5,Mei,41,Pajak Daerah,984871540059.0,308547624837.16,31.33,False,False
+Bengkulu,7,2026,6,Juni,42,Pajak Daerah,984871540059.0,364806804412.51,37.04,False,False
+Bengkulu,7,2026,7,Juli,43,Pajak Daerah,984871540059.0,390206034721.51,39.62,False,False
+Bengkulu,7,2026,8,Agustus,44,Pajak Daerah,984871540059.0,423065754473.51,42.96,False,False
+Bengkulu,7,2026,9,September,45,Pajak Daerah,984871540059.0,423065754473.51,42.96,False,True
+Bengkulu,7,2026,10,Oktober,46,Pajak Daerah,984871540059.0,423065754473.51,42.96,False,True
+Bengkulu,7,2026,11,November,47,Pajak Daerah,984871540059.0,423065754473.51,42.96,False,True
+Bengkulu,7,2026,12,Desember,48,Pajak Daerah,984871540059.0,423065754473.51,42.96,False,True
+Bengkulu,7,2023,1,Januari,1,Pendapatan Daerah,2897375109971.0,238515755657.0,8.23,False,False
+Bengkulu,7,2023,2,Februari,2,Pendapatan Daerah,2897375109971.0,380700799726.64,13.14,False,False
+Bengkulu,7,2023,3,Maret,3,Pendapatan Daerah,2897375109971.0,538597736293.36,18.59,False,False
+Bengkulu,7,2023,4,April,4,Pendapatan Daerah,2897375109971.0,888861882133.36,30.68,False,False
+Bengkulu,7,2023,5,Mei,5,Pendapatan Daerah,2897375109971.0,888861882133.36,30.68,False,False
+Bengkulu,7,2023,6,Juni,6,Pendapatan Daerah,2897375109971.0,981447316231.36,33.87,False,False
+Bengkulu,7,2023,7,Juli,7,Pendapatan Daerah,2897375109971.0,1311138432116.2,45.25,False,False
+Bengkulu,7,2023,8,Agustus,8,Pendapatan Daerah,2897375109971.0,1607582680366.9,55.48,False,False
+Bengkulu,7,2023,9,September,9,Pendapatan Daerah,2897375109971.0,1848400280953.9,63.8,False,False
+Bengkulu,7,2023,10,Oktober,10,Pendapatan Daerah,2897375109971.0,2223472927363.9,76.74,False,False
+Bengkulu,7,2023,11,November,11,Pendapatan Daerah,2897375109971.0,2434130841478.9,84.01,False,False
+Bengkulu,7,2023,12,Desember,12,Pendapatan Daerah,2897375109971.0,2817950121343.6,97.26,False,False
+Bengkulu,7,2024,1,Januari,13,Pendapatan Daerah,3103556549400.0,271480876571.0,8.75,False,False
+Bengkulu,7,2024,2,Februari,14,Pendapatan Daerah,3103556549400.0,409535863585.51,13.2,False,False
+Bengkulu,7,2024,3,Maret,15,Pendapatan Daerah,3103556549400.0,635373268696.51,20.47,False,False
+Bengkulu,7,2024,4,April,16,Pendapatan Daerah,3103556549400.0,935920748279.71,30.16,False,False
+Bengkulu,7,2024,5,Mei,17,Pendapatan Daerah,3103556549400.0,1132181594475.0,36.48,False,False
+Bengkulu,7,2024,6,Juni,18,Pendapatan Daerah,3103556549400.0,1253262508001.7,40.38,False,False
+Bengkulu,7,2024,7,Juli,19,Pendapatan Daerah,3103556549400.0,1734088565133.0,55.87,False,False
+Bengkulu,7,2024,8,Agustus,20,Pendapatan Daerah,3103556549400.0,1940641100255.5,62.53,False,False
+Bengkulu,7,2024,9,September,21,Pendapatan Daerah,3103556549400.0,2226534672190.5,71.74,False,False
+Bengkulu,7,2024,10,Oktober,22,Pendapatan Daerah,3103556549400.0,2591898930774.1,83.51,False,False
+Bengkulu,7,2024,11,November,23,Pendapatan Daerah,3103556549400.0,2798277299133.7,90.16,False,False
+Bengkulu,7,2024,12,Desember,24,Pendapatan Daerah,3103556549400.0,3191854148850.3,102.85,False,False
+Bengkulu,7,2025,1,Januari,25,Pendapatan Daerah,2989226040918.0,211693155702.6,7.08,False,False
+Bengkulu,7,2025,2,Februari,26,Pendapatan Daerah,2989226040918.0,306228264548.88,10.24,False,False
+Bengkulu,7,2025,3,Maret,27,Pendapatan Daerah,2989226040918.0,587472845536.47,19.65,False,False
+Bengkulu,7,2025,4,April,28,Pendapatan Daerah,2989226040918.0,766598129917.45,25.65,False,False
+Bengkulu,7,2025,5,Mei,29,Pendapatan Daerah,2989226040918.0,991633614372.94,33.17,False,False
+Bengkulu,7,2025,6,Juni,30,Pendapatan Daerah,2989226040918.0,1188521075691.0,39.76,False,False
+Bengkulu,7,2025,7,Juli,31,Pendapatan Daerah,2989226040918.0,1431665340002.6,47.89,False,False
+Bengkulu,7,2025,8,Agustus,32,Pendapatan Daerah,2989226040918.0,1760875533624.5,58.91,False,False
+Bengkulu,7,2025,9,September,33,Pendapatan Daerah,2989226040918.0,2033940137345.8,68.04,False,False
+Bengkulu,7,2025,10,Oktober,34,Pendapatan Daerah,2989226040918.0,2246930726851.0,75.17,False,False
+Bengkulu,7,2025,11,November,35,Pendapatan Daerah,2989226040918.0,2406218392299.5,80.5,False,False
+Bengkulu,7,2025,12,Desember,36,Pendapatan Daerah,2989226040918.0,2792080013328.7,93.4,False,False
+Bengkulu,7,2026,1,Januari,37,Pendapatan Daerah,2664985961537.0,244010092601.86,9.16,False,False
+Bengkulu,7,2026,2,Februari,38,Pendapatan Daerah,2664985961537.0,391492859519.77,14.69,False,False
+Bengkulu,7,2026,3,Maret,39,Pendapatan Daerah,2664985961537.0,483865648639.82,18.16,False,False
+Bengkulu,7,2026,4,April,40,Pendapatan Daerah,2664985961537.0,755047747908.01,28.33,False,False
+Bengkulu,7,2026,5,Mei,41,Pendapatan Daerah,2664985961537.0,886395595055.68,33.26,False,False
+Bengkulu,7,2026,6,Juni,42,Pendapatan Daerah,2664985961537.0,1119781300352.0,42.02,False,False
+Bengkulu,7,2026,7,Juli,43,Pendapatan Daerah,2664985961537.0,1147344410402.7,43.05,False,False
+Bengkulu,7,2026,8,Agustus,44,Pendapatan Daerah,2664985961537.0,1182687964323.0,44.38,False,False
+Bengkulu,7,2026,9,September,45,Pendapatan Daerah,2664985961537.0,1182687964323.0,44.38,False,True
+Bengkulu,7,2026,10,Oktober,46,Pendapatan Daerah,2664985961537.0,1182687964323.0,44.38,False,True
+Bengkulu,7,2026,11,November,47,Pendapatan Daerah,2664985961537.0,1182687964323.0,44.38,False,True
+Bengkulu,7,2026,12,Desember,48,Pendapatan Daerah,2664985961537.0,1182687964323.0,44.38,False,True
+Bengkulu,7,2023,1,Januari,1,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,4,April,4,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,5,Mei,5,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,6,Juni,6,Pendapatan Hibah,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,7,Juli,7,Pendapatan Hibah,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,8,Agustus,8,Pendapatan Hibah,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,9,September,9,Pendapatan Hibah,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,10,Oktober,10,Pendapatan Hibah,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,11,November,11,Pendapatan Hibah,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,12,Desember,12,Pendapatan Hibah,1116000000.0,1168830000.0,104.73,False,False
+Bengkulu,7,2024,1,Januari,13,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,2,Februari,14,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,3,Maret,15,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,4,April,16,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,5,Mei,17,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,6,Juni,18,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,7,Juli,19,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,8,Agustus,20,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,9,September,21,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,10,Oktober,22,Pendapatan Hibah,1116000000.0,1093070000.0,97.95,False,False
+Bengkulu,7,2024,11,November,23,Pendapatan Hibah,1116000000.0,1093070000.0,97.95,False,False
+Bengkulu,7,2024,12,Desember,24,Pendapatan Hibah,1116000000.0,36224157000.0,3.24589,False,False
+Bengkulu,7,2025,1,Januari,25,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,3,Maret,27,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,4,April,28,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,5,Mei,29,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,6,Juni,30,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,7,Juli,31,Pendapatan Hibah,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,8,Agustus,32,Pendapatan Hibah,1116000000.0,850480000.0,76.21,False,False
+Bengkulu,7,2025,9,September,33,Pendapatan Hibah,1116000000.0,956790000.0,85.73,False,False
+Bengkulu,7,2025,10,Oktober,34,Pendapatan Hibah,1116000000.0,1063100000.0,95.26,False,False
+Bengkulu,7,2025,11,November,35,Pendapatan Hibah,1116000000.0,1169410000.0,104.79,False,False
+Bengkulu,7,2025,12,Desember,36,Pendapatan Hibah,1116000000.0,1275720000.0,114.31,False,False
+Bengkulu,7,2026,1,Januari,37,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,2,Februari,38,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,3,Maret,39,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,4,April,40,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,5,Mei,41,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,6,Juni,42,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,7,Juli,43,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,8,Agustus,44,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,9,September,45,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,10,Oktober,46,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,11,November,47,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,12,Desember,48,Pendapatan Hibah,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2023,1,Januari,1,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,2,Februari,2,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,3,Maret,3,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,4,April,4,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,5,Mei,5,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2023,6,Juni,6,Pendapatan Lainnya,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,7,Juli,7,Pendapatan Lainnya,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,8,Agustus,8,Pendapatan Lainnya,1116000000.0,584415000.0,52.37,False,False
+Bengkulu,7,2023,9,September,9,Pendapatan Lainnya,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,10,Oktober,10,Pendapatan Lainnya,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,11,November,11,Pendapatan Lainnya,1116000000.0,876622500.0,78.55,False,False
+Bengkulu,7,2023,12,Desember,12,Pendapatan Lainnya,1116000000.0,1168830000.0,104.73,False,False
+Bengkulu,7,2024,1,Januari,13,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,2,Februari,14,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,3,Maret,15,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,4,April,16,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,5,Mei,17,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,6,Juni,18,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,7,Juli,19,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,8,Agustus,20,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,9,September,21,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2024,10,Oktober,22,Pendapatan Lainnya,1116000000.0,1093070000.0,97.95,False,False
+Bengkulu,7,2024,11,November,23,Pendapatan Lainnya,1116000000.0,1093070000.0,97.95,False,False
+Bengkulu,7,2024,12,Desember,24,Pendapatan Lainnya,1116000000.0,36224157000.0,3.24589,False,False
+Bengkulu,7,2025,1,Januari,25,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,2,Februari,26,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,3,Maret,27,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,4,April,28,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,5,Mei,29,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,6,Juni,30,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,7,Juli,31,Pendapatan Lainnya,1116000000.0,0.0,0.0,False,False
+Bengkulu,7,2025,8,Agustus,32,Pendapatan Lainnya,1116000000.0,850480000.0,76.21,False,False
+Bengkulu,7,2025,9,September,33,Pendapatan Lainnya,1116000000.0,956790000.0,85.73,False,False
+Bengkulu,7,2025,10,Oktober,34,Pendapatan Lainnya,1116000000.0,1063100000.0,95.26,False,False
+Bengkulu,7,2025,11,November,35,Pendapatan Lainnya,1116000000.0,1169410000.0,104.79,False,False
+Bengkulu,7,2025,12,Desember,36,Pendapatan Lainnya,1116000000.0,1275720000.0,114.31,False,False
+Bengkulu,7,2026,1,Januari,37,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,2,Februari,38,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,3,Maret,39,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,4,April,40,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,5,Mei,41,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,6,Juni,42,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,7,Juli,43,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,8,Agustus,44,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,9,September,45,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,10,Oktober,46,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,11,November,47,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2026,12,Desember,48,Pendapatan Lainnya,1275720000.0,0.0,0.0,True,False
+Bengkulu,7,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,166317277400.0,8.63,False,False
+Bengkulu,7,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,244231262400.0,12.67,False,False
+Bengkulu,7,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,333923048809.0,17.32,False,False
+Bengkulu,7,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,561713460970.0,29.13,False,False
+Bengkulu,7,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,561713460970.0,29.13,False,False
+Bengkulu,7,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,588063235313.0,30.5,False,False
+Bengkulu,7,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,807994036613.0,41.9,False,False
+Bengkulu,7,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,1018892947863.0,52.84,False,False
+Bengkulu,7,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,1187354572301.0,61.58,False,False
+Bengkulu,7,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,1439552228623.0,74.65,False,False
+Bengkulu,7,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,1575223904173.0,81.69,False,False
+Bengkulu,7,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,1928302072000.0,1878081656852.0,97.4,False,False
+Bengkulu,7,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,188748356000.0,9.23,False,False
+Bengkulu,7,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,277063418800.0,13.55,False,False
+Bengkulu,7,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,409986913943.0,20.06,False,False
+Bengkulu,7,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,580722020443.0,28.41,False,False
+Bengkulu,7,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,719874082481.0,35.22,False,False
+Bengkulu,7,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,956489870946.0,46.79,False,False
+Bengkulu,7,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,1122988829340.0,54.94,False,False
+Bengkulu,7,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,1258176207730.0,61.55,False,False
+Bengkulu,7,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,1429044411234.0,69.91,False,False
+Bengkulu,7,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,1687536221181.0,82.56,False,False
+Bengkulu,7,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,1821000609073.0,89.09,False,False
+Bengkulu,7,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,2044045895000.0,2070332029097.0,101.29,False,False
+Bengkulu,7,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,168196431000.0,9.57,False,False
+Bengkulu,7,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,194139238416.0,11.05,False,False
+Bengkulu,7,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,390051389394.0,22.2,False,False
+Bengkulu,7,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,485194144394.0,27.62,False,False
+Bengkulu,7,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,590511013444.0,33.61,False,False
+Bengkulu,7,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,726830805994.0,41.37,False,False
+Bengkulu,7,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,875373129944.0,49.83,False,False
+Bengkulu,7,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,1112265304135.0,63.31,False,False
+Bengkulu,7,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,1274147491243.0,72.53,False,False
+Bengkulu,7,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,1397018809542.0,79.52,False,False
+Bengkulu,7,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,1502965614042.0,85.55,False,False
+Bengkulu,7,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,1756808708000.0,1782012923685.0,101.43,False,False
+Bengkulu,7,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,169993230400.0,12.07,False,False
+Bengkulu,7,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,255623019100.0,18.15,False,False
+Bengkulu,7,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,260749156808.0,18.51,False,False
+Bengkulu,7,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,431422267303.0,30.63,False,False
+Bengkulu,7,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,512673903235.0,36.39,False,False
+Bengkulu,7,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,False
+Bengkulu,7,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2023,1,Januari,1,Retribusi Daerah,5795000000.0,408215750.0,7.04,False,False
+Bengkulu,7,2023,2,Februari,2,Retribusi Daerah,5795000000.0,652185750.0,11.25,False,False
+Bengkulu,7,2023,3,Maret,3,Retribusi Daerah,5795000000.0,971924940.0,16.77,False,False
+Bengkulu,7,2023,4,April,4,Retribusi Daerah,5795000000.0,1184425615.0,20.44,False,False
+Bengkulu,7,2023,5,Mei,5,Retribusi Daerah,5795000000.0,1184425615.0,20.44,False,False
+Bengkulu,7,2023,6,Juni,6,Retribusi Daerah,5795000000.0,1524384785.0,26.31,False,False
+Bengkulu,7,2023,7,Juli,7,Retribusi Daerah,5795000000.0,1988421885.0,34.31,False,False
+Bengkulu,7,2023,8,Agustus,8,Retribusi Daerah,5795000000.0,2537973945.0,43.8,False,False
+Bengkulu,7,2023,9,September,9,Retribusi Daerah,5795000000.0,3135146533.0,54.1,False,False
+Bengkulu,7,2023,10,Oktober,10,Retribusi Daerah,5795000000.0,3670098212.0,63.33,False,False
+Bengkulu,7,2023,11,November,11,Retribusi Daerah,5795000000.0,4013616097.0,69.26,False,False
+Bengkulu,7,2023,12,Desember,12,Retribusi Daerah,5795000000.0,4534590902.0,78.25,False,False
+Bengkulu,7,2024,1,Januari,13,Retribusi Daerah,156874986900.0,416844710.0,0.27,False,False
+Bengkulu,7,2024,2,Februari,14,Retribusi Daerah,156874986900.0,778666060.0,0.5,False,False
+Bengkulu,7,2024,3,Maret,15,Retribusi Daerah,156874986900.0,38981123611.0,24.85,False,False
+Bengkulu,7,2024,4,April,16,Retribusi Daerah,156874986900.0,39192026911.0,24.98,False,False
+Bengkulu,7,2024,5,Mei,17,Retribusi Daerah,156874986900.0,39494405011.0,25.18,False,False
+Bengkulu,7,2024,6,Juni,18,Retribusi Daerah,156874986900.0,1612216644.0,1.03,False,False
+Bengkulu,7,2024,7,Juli,19,Retribusi Daerah,156874986900.0,76905203892.0,49.02,False,False
+Bengkulu,7,2024,8,Agustus,20,Retribusi Daerah,156874986900.0,77295517817.0,49.27,False,False
+Bengkulu,7,2024,9,September,21,Retribusi Daerah,156874986900.0,127043988131.0,80.98,False,False
+Bengkulu,7,2024,10,Oktober,22,Retribusi Daerah,156874986900.0,127376674891.0,81.2,False,False
+Bengkulu,7,2024,11,November,23,Retribusi Daerah,156874986900.0,127590895271.0,81.33,False,False
+Bengkulu,7,2024,12,Desember,24,Retribusi Daerah,156874986900.0,160956690831.0,102.6,False,False
+Bengkulu,7,2025,1,Januari,25,Retribusi Daerah,187616166935.0,996382323.0,0.53,False,False
+Bengkulu,7,2025,2,Februari,26,Retribusi Daerah,187616166935.0,1227597323.0,0.65,False,False
+Bengkulu,7,2025,3,Maret,27,Retribusi Daerah,187616166935.0,43590266314.0,23.23,False,False
+Bengkulu,7,2025,4,April,28,Retribusi Daerah,187616166935.0,43887828334.0,23.39,False,False
+Bengkulu,7,2025,5,Mei,29,Retribusi Daerah,187616166935.0,44361392974.0,23.64,False,False
+Bengkulu,7,2025,6,Juni,30,Retribusi Daerah,187616166935.0,73785390563.0,39.33,False,False
+Bengkulu,7,2025,7,Juli,31,Retribusi Daerah,187616166935.0,92514018877.0,49.31,False,False
+Bengkulu,7,2025,8,Agustus,32,Retribusi Daerah,187616166935.0,92927112607.0,49.53,False,False
+Bengkulu,7,2025,9,September,33,Retribusi Daerah,187616166935.0,152541504007.0,81.31,False,False
+Bengkulu,7,2025,10,Oktober,34,Retribusi Daerah,187616166935.0,153137903463.0,81.62,False,False
+Bengkulu,7,2025,11,November,35,Retribusi Daerah,187616166935.0,153587881387.0,81.86,False,False
+Bengkulu,7,2025,12,Desember,36,Retribusi Daerah,187616166935.0,204745192078.0,109.13,False,False
+Bengkulu,7,2026,1,Januari,37,Retribusi Daerah,219968531200.0,665316875.0,0.3,False,False
+Bengkulu,7,2026,2,Februari,38,Retribusi Daerah,219968531200.0,943193033.0,0.43,False,False
+Bengkulu,7,2026,3,Maret,39,Retribusi Daerah,219968531200.0,43648581675.0,19.84,False,False
+Bengkulu,7,2026,4,April,40,Retribusi Daerah,219968531200.0,44052875683.0,20.03,False,False
+Bengkulu,7,2026,5,Mei,41,Retribusi Daerah,219968531200.0,44342916083.0,20.16,False,False
+Bengkulu,7,2026,6,Juni,42,Retribusi Daerah,219968531200.0,86383158551.0,39.27,False,False
+Bengkulu,7,2026,7,Juli,43,Retribusi Daerah,219968531200.0,86702263610.0,39.42,False,False
+Bengkulu,7,2026,8,Agustus,44,Retribusi Daerah,219968531200.0,86775148910.0,39.45,False,False
+Bengkulu,7,2026,9,September,45,Retribusi Daerah,219968531200.0,86775148910.0,39.45,False,True
+Bengkulu,7,2026,10,Oktober,46,Retribusi Daerah,219968531200.0,86775148910.0,39.45,False,True
+Bengkulu,7,2026,11,November,47,Retribusi Daerah,219968531200.0,86775148910.0,39.45,False,True
+Bengkulu,7,2026,12,Desember,48,Retribusi Daerah,219968531200.0,86775148910.0,39.45,False,True
+Bengkulu,7,2023,1,Januari,1,TKDD,1928302072000.0,166317277400.0,8.63,False,False
+Bengkulu,7,2023,2,Februari,2,TKDD,1928302072000.0,244231262400.0,12.67,False,False
+Bengkulu,7,2023,3,Maret,3,TKDD,1928302072000.0,333923048809.0,17.32,False,False
+Bengkulu,7,2023,4,April,4,TKDD,1928302072000.0,561713460970.0,29.13,False,False
+Bengkulu,7,2023,5,Mei,5,TKDD,1928302072000.0,561713460970.0,29.13,False,False
+Bengkulu,7,2023,6,Juni,6,TKDD,1928302072000.0,588063235313.0,30.5,False,False
+Bengkulu,7,2023,7,Juli,7,TKDD,1928302072000.0,807994036613.0,41.9,False,False
+Bengkulu,7,2023,8,Agustus,8,TKDD,1928302072000.0,1018892947863.0,52.84,False,False
+Bengkulu,7,2023,9,September,9,TKDD,1928302072000.0,1187354572301.0,61.58,False,False
+Bengkulu,7,2023,10,Oktober,10,TKDD,1928302072000.0,1439552228623.0,74.65,False,False
+Bengkulu,7,2023,11,November,11,TKDD,1928302072000.0,1575223904173.0,81.69,False,False
+Bengkulu,7,2023,12,Desember,12,TKDD,1928302072000.0,1878081656852.0,97.4,False,False
+Bengkulu,7,2024,1,Januari,13,TKDD,2044045895000.0,188748356000.0,9.23,False,False
+Bengkulu,7,2024,2,Februari,14,TKDD,2044045895000.0,277063418800.0,13.55,False,False
+Bengkulu,7,2024,3,Maret,15,TKDD,2044045895000.0,409986913943.0,20.06,False,False
+Bengkulu,7,2024,4,April,16,TKDD,2044045895000.0,580722020443.0,28.41,False,False
+Bengkulu,7,2024,5,Mei,17,TKDD,2044045895000.0,719874082481.0,35.22,False,False
+Bengkulu,7,2024,6,Juni,18,TKDD,2044045895000.0,956489870946.0,46.79,False,False
+Bengkulu,7,2024,7,Juli,19,TKDD,2044045895000.0,1122988829340.0,54.94,False,False
+Bengkulu,7,2024,8,Agustus,20,TKDD,2044045895000.0,1258176207730.0,61.55,False,False
+Bengkulu,7,2024,9,September,21,TKDD,2044045895000.0,1429044411234.0,69.91,False,False
+Bengkulu,7,2024,10,Oktober,22,TKDD,2044045895000.0,1687536221181.0,82.56,False,False
+Bengkulu,7,2024,11,November,23,TKDD,2044045895000.0,1821000609073.0,89.09,False,False
+Bengkulu,7,2024,12,Desember,24,TKDD,2044045895000.0,2070332029097.0,101.29,False,False
+Bengkulu,7,2025,1,Januari,25,TKDD,1756808708000.0,168196431000.0,9.57,False,False
+Bengkulu,7,2025,2,Februari,26,TKDD,1756808708000.0,194139238416.0,11.05,False,False
+Bengkulu,7,2025,3,Maret,27,TKDD,1756808708000.0,390051389394.0,22.2,False,False
+Bengkulu,7,2025,4,April,28,TKDD,1756808708000.0,485194144394.0,27.62,False,False
+Bengkulu,7,2025,5,Mei,29,TKDD,1756808708000.0,590511013444.0,33.61,False,False
+Bengkulu,7,2025,6,Juni,30,TKDD,1756808708000.0,726830805994.0,41.37,False,False
+Bengkulu,7,2025,7,Juli,31,TKDD,1756808708000.0,875373129944.0,49.83,False,False
+Bengkulu,7,2025,8,Agustus,32,TKDD,1756808708000.0,1112265304135.0,63.31,False,False
+Bengkulu,7,2025,9,September,33,TKDD,1756808708000.0,1274147491243.0,72.53,False,False
+Bengkulu,7,2025,10,Oktober,34,TKDD,1756808708000.0,1397018809542.0,79.52,False,False
+Bengkulu,7,2025,11,November,35,TKDD,1756808708000.0,1502965614042.0,85.55,False,False
+Bengkulu,7,2025,12,Desember,36,TKDD,1756808708000.0,1782012923685.0,101.43,False,False
+Bengkulu,7,2026,1,Januari,37,TKDD,1408715799000.0,169993230400.0,12.07,False,False
+Bengkulu,7,2026,2,Februari,38,TKDD,1408715799000.0,255623019100.0,18.15,False,False
+Bengkulu,7,2026,3,Maret,39,TKDD,1408715799000.0,260749156808.0,18.51,False,False
+Bengkulu,7,2026,4,April,40,TKDD,1408715799000.0,431422267303.0,30.63,False,False
+Bengkulu,7,2026,5,Mei,41,TKDD,1408715799000.0,512673903235.0,36.39,False,False
+Bengkulu,7,2026,6,Juni,42,TKDD,1408715799000.0,647545156785.0,45.97,False,False
+Bengkulu,7,2026,7,Juli,43,TKDD,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,8,Agustus,44,TKDD,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,9,September,45,TKDD,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,10,Oktober,46,TKDD,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,11,November,47,TKDD,1408715799000.0,647545156785.0,45.97,False,True
+Bengkulu,7,2026,12,Desember,48,TKDD,1408715799000.0,647545156785.0,45.97,False,True

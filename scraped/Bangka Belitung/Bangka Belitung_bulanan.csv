@@ -1,0 +1,889 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Bangka Belitung,29,2023,1,Januari,1,Belanja Bantuan Keuangan,67464300000.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Bantuan Keuangan,67464300000.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Bantuan Keuangan,67464300000.0,9000000000.0,13.34,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Bantuan Keuangan,67464300000.0,9475000000.0,14.04,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Bantuan Keuangan,67464300000.0,9475000000.0,14.04,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Bantuan Keuangan,67464300000.0,31275000000.0,46.36,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Bantuan Keuangan,67464300000.0,31713000000.0,47.01,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Bantuan Keuangan,67464300000.0,34882700000.0,51.71,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Bantuan Keuangan,67464300000.0,38398000000.0,56.92,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Bantuan Keuangan,67464300000.0,42802800000.0,63.45,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Bantuan Keuangan,67464300000.0,46675188300.0,69.19,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Bantuan Keuangan,67464300000.0,71558847050.0,106.07,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Bantuan Keuangan,70571600000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Bantuan Keuangan,70571600000.0,991800000.0,1.41,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Bantuan Keuangan,70571600000.0,1786125200.0,2.53,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Bantuan Keuangan,70571600000.0,3769725200.0,5.34,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Bantuan Keuangan,70571600000.0,3769725200.0,5.34,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Bantuan Keuangan,70571600000.0,7341975600.0,10.4,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Bantuan Keuangan,70571600000.0,8930626000.0,12.65,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Bantuan Keuangan,1445200000.0,2500000000.0,172.99,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Bantuan Keuangan,1445200000.0,6000000000.0,415.17,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Bantuan Keuangan,1445200000.0,6000000000.0,415.17,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Bantuan Keuangan,1445200000.0,6000000000.0,415.17,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Bantuan Keuangan,1445200000.0,6417400000.0,444.05,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Bantuan Keuangan,1445200000.0,16188122500.0,1.12013,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,4,April,40,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,9,September,45,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,11,November,47,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2026,12,Desember,48,Belanja Bantuan Keuangan,1445200000.0,0.0,0.0,True,False
+Bangka Belitung,29,2023,1,Januari,1,Belanja Bantuan Sosial,2137430800.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Bantuan Sosial,2137430800.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Bantuan Sosial,2137430800.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Bantuan Sosial,2137430800.0,58450000.0,2.73,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Bantuan Sosial,2137430800.0,58450000.0,2.73,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Bantuan Sosial,2137430800.0,267030000.0,12.49,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Bantuan Sosial,2137430800.0,577047500.0,27.0,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Bantuan Sosial,2137430800.0,1085338500.0,50.78,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Bantuan Sosial,2137430800.0,1314096000.0,61.48,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Bantuan Sosial,2137430800.0,1369473500.0,64.07,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Bantuan Sosial,2137430800.0,11865363500.0,555.12,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Bantuan Sosial,2137430800.0,11711834500.0,547.94,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Bantuan Sosial,2229100000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Bantuan Sosial,2229100000.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Bantuan Sosial,2229100000.0,137000000.0,6.15,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Bantuan Sosial,2229100000.0,282800000.0,12.69,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Bantuan Sosial,2229100000.0,611000000.0,27.41,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Bantuan Sosial,2229100000.0,658500000.0,29.54,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Bantuan Sosial,2229100000.0,816000000.0,36.61,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Bantuan Sosial,2229100000.0,816000000.0,36.61,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Bantuan Sosial,2229100000.0,816000000.0,36.61,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Bantuan Sosial,2229100000.0,816000000.0,36.61,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Bantuan Sosial,2229100000.0,816000000.0,36.61,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Bantuan Sosial,2229100000.0,815665000.0,36.59,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Bantuan Sosial,1404076000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Bantuan Sosial,1404076000.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Bantuan Sosial,1404076000.0,16000000.0,1.14,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Bantuan Sosial,1404076000.0,351492542.0,25.03,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Bantuan Sosial,1404076000.0,556042542.0,39.6,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Bantuan Sosial,1404076000.0,693342542.0,49.38,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Bantuan Sosial,1404076000.0,855872542.0,60.96,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Bantuan Sosial,1404076000.0,878222542.0,62.55,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Bantuan Sosial,1404076000.0,878222542.0,62.55,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Bantuan Sosial,1404076000.0,878222542.0,62.55,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Bantuan Sosial,1404076000.0,887438542.0,63.2,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Bantuan Sosial,1404076000.0,916892542.0,65.3,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Bantuan Sosial,1737813000.0,0.0,0.0,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Bantuan Sosial,1737813000.0,0.0,0.0,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Bantuan Sosial,1737813000.0,0.0,0.0,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Bantuan Sosial,1737813000.0,896525000.0,51.59,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Bantuan Sosial,1737813000.0,1037913000.0,59.73,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Bantuan Sosial,1737813000.0,1111513000.0,63.96,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,True
+Bangka Belitung,29,2026,9,September,45,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Bantuan Sosial,1737813000.0,1152743000.0,66.33,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Barang dan Jasa,939259037796.0,6150357214.0,0.65,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Barang dan Jasa,939259037796.0,34974899274.0,3.72,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Barang dan Jasa,939259037796.0,74398555718.0,7.92,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Barang dan Jasa,939259037796.0,136027609641.0,14.48,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Barang dan Jasa,939259037796.0,136027609641.0,14.48,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Barang dan Jasa,939259037796.0,205984274553.0,21.93,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Barang dan Jasa,939259037796.0,277765422024.0,29.57,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Barang dan Jasa,939259037796.0,347802472791.0,37.03,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Barang dan Jasa,939259037796.0,401606956438.0,42.76,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Barang dan Jasa,939259037796.0,481476314606.0,51.26,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Barang dan Jasa,939259037796.0,602139957743.0,64.11,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Barang dan Jasa,939259037796.0,885764827023.0,94.3,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Barang dan Jasa,970120569560.0,9433619425.0,0.97,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Barang dan Jasa,970120569560.0,41005657334.0,4.23,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Barang dan Jasa,970120569560.0,89292254846.91,9.2,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Barang dan Jasa,970120569560.0,134154671626.91,13.83,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Barang dan Jasa,970120569560.0,192364835820.91,19.83,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Barang dan Jasa,970120569560.0,244743969656.91,25.23,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Barang dan Jasa,970120569560.0,309337365341.41,31.89,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Barang dan Jasa,970120569560.0,370457896079.41,38.19,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Barang dan Jasa,970120569560.0,421759590562.47,43.47,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Barang dan Jasa,970120569560.0,465492644361.47,47.98,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Barang dan Jasa,970120569560.0,536593415328.47,55.31,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Barang dan Jasa,970120569560.0,715135338173.99,73.72,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Barang dan Jasa,844842893657.73,8649842568.0,1.02,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Barang dan Jasa,844842893657.73,38008234114.0,4.5,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Barang dan Jasa,844842893657.73,80337457360.06,9.51,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Barang dan Jasa,844842893657.73,106756373840.23,12.64,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Barang dan Jasa,844842893657.73,152775459195.23,18.08,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Barang dan Jasa,844842893657.73,192822533790.23,22.82,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Barang dan Jasa,844842893657.73,278928140359.27,33.02,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Barang dan Jasa,844842893657.73,322961931513.5,38.23,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Barang dan Jasa,844842893657.73,367897341232.9,43.55,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Barang dan Jasa,844842893657.73,416981901864.04,49.36,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Barang dan Jasa,844842893657.73,479756749073.34,56.79,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Barang dan Jasa,844842893657.73,643961442407.81,76.22,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Barang dan Jasa,669636769692.68,5931283333.0,0.89,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Barang dan Jasa,669636769692.68,32046558006.0,4.79,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Barang dan Jasa,669636769692.68,65267311966.75,9.75,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Barang dan Jasa,669636769692.68,109610671946.75,16.37,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Barang dan Jasa,669636769692.68,152153216069.75,22.72,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Barang dan Jasa,669636769692.68,208274669838.75,31.1,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Barang dan Jasa,669636769692.68,269935222556.75,40.31,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Barang dan Jasa,669636769692.68,300090115547.75,44.81,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Barang dan Jasa,669636769692.68,307872031172.75,45.98,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Barang dan Jasa,669636769692.68,307872031172.75,45.98,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Barang dan Jasa,669636769692.68,307872031172.75,45.98,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Barang dan Jasa,669636769692.68,307872031172.75,45.98,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Daerah,2962293918921.0,69326226311.0,2.34,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Daerah,2962293918921.0,138072216813.0,4.66,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Daerah,2962293918921.0,342363033530.0,11.56,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Daerah,2962293918921.0,613732401429.0,20.72,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Daerah,2962293918921.0,613732401429.0,20.72,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Daerah,2962293918921.0,895163024050.0,30.22,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Daerah,2962293918921.0,1097838784535.0,37.06,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Daerah,2962293918921.0,1314586111424.0,44.38,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Daerah,2962293918921.0,1554400525868.0,52.47,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Daerah,2962293918921.0,1735500608593.0,58.59,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Daerah,2962293918921.0,2198556588019.0,74.22,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Daerah,2962293918921.0,3010348935897.0,101.62,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Daerah,3007550621052.0,64690455885.0,2.15,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Daerah,3007550621052.0,135635097535.0,4.51,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Daerah,3007550621052.0,405050800986.91,13.47,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Daerah,3007550621052.0,598153742184.91,19.89,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Daerah,3007550621052.0,920664013428.91,30.61,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Daerah,3007550621052.0,1080505682468.9,35.93,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Daerah,3007550621052.0,1276024556266.4,42.43,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Daerah,3007550621052.0,1430974958650.4,47.58,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Daerah,3007550621052.0,1652334697620.6,54.94,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Daerah,3007550621052.0,1786513970443.8,59.4,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Daerah,3007550621052.0,2058001439595.6,68.43,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Daerah,3007550621052.0,2496106034758.8,82.99,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Daerah,2494485454444.2,71063124783.0,2.85,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Daerah,2494485454444.2,148969477539.0,5.97,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Daerah,2494485454444.2,399511280985.06,16.02,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Daerah,2494485454444.2,525722382721.23,21.08,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Daerah,2494485454444.2,652709214908.23,26.17,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Daerah,2494485454444.2,809092506290.23,32.44,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Daerah,2494485454444.2,1082881959201.3,43.41,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Daerah,2494485454444.2,1200903051440.5,48.14,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Daerah,2494485454444.2,1373814967542.9,55.07,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Daerah,2494485454444.2,1513640800858.2,60.68,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Daerah,2494485454444.2,1734896883402.5,69.55,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Daerah,2494485454444.2,2137836629196.5,85.7,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Daerah,2095110133667.8,52171063827.0,2.49,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Daerah,2095110133667.8,161352643734.0,7.7,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Daerah,2095110133667.8,359252665374.75,17.15,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Daerah,2095110133667.8,485274773886.75,23.16,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Daerah,2095110133667.8,626013779851.75,29.88,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Daerah,2095110133667.8,814118921635.75,38.86,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Daerah,2095110133667.8,995230752000.75,47.5,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Daerah,2095110133667.8,1103996592788.8,52.69,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Daerah,2095110133667.8,1160837698733.8,55.41,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Daerah,2095110133667.8,1160837698733.8,55.41,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Daerah,2095110133667.8,1160837698733.8,55.41,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Daerah,2095110133667.8,1160837698733.8,55.41,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Hibah,105364852379.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Hibah,105364852379.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Hibah,105364852379.0,18395652000.0,17.46,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Hibah,105364852379.0,28535352000.0,27.08,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Hibah,105364852379.0,28535352000.0,27.08,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Hibah,105364852379.0,43658819204.0,41.44,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Hibah,105364852379.0,48175319204.0,45.72,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Hibah,105364852379.0,55152087853.0,52.34,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Hibah,105364852379.0,64571665350.0,61.28,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Hibah,105364852379.0,66010680635.0,62.65,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Hibah,105364852379.0,122848124236.0,116.59,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Hibah,105364852379.0,145754794053.0,138.33,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Hibah,153057263460.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Hibah,153057263460.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Hibah,153057263460.0,5633142000.0,3.68,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Hibah,153057263460.0,16764460100.0,10.95,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Hibah,153057263460.0,100817861560.0,65.87,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Hibah,153057263460.0,104031469560.0,67.97,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Hibah,153057263460.0,120039427480.0,78.43,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Hibah,153057263460.0,124462427480.0,81.32,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Hibah,153057263460.0,133269880518.0,87.07,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Hibah,153057263460.0,134707663918.0,88.01,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Hibah,153057263460.0,139919421838.0,91.42,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Hibah,153057263460.0,145455998570.0,95.03,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Hibah,62722647894.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Hibah,62722647894.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Hibah,62722647894.0,4300000000.0,6.86,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Hibah,62722647894.0,21325785000.0,34.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Hibah,62722647894.0,23616585000.0,37.65,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Hibah,62722647894.0,18788874000.0,29.96,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Hibah,62722647894.0,30263891000.0,48.25,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Hibah,62722647894.0,37434076000.0,59.68,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Hibah,62722647894.0,40644447441.0,64.8,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Hibah,62722647894.0,41886447441.0,66.78,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Hibah,62722647894.0,46325511441.0,73.86,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Hibah,62722647894.0,47625521377.0,75.93,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Hibah,43751670000.0,8165430000.0,18.66,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Hibah,43751670000.0,8268695000.0,18.9,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Hibah,43751670000.0,8775422000.0,20.06,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Hibah,43751670000.0,9675422000.0,22.11,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Hibah,43751670000.0,14518695000.0,33.18,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Hibah,43751670000.0,21281895000.0,48.64,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Hibah,43751670000.0,24487085000.0,55.97,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Hibah,43751670000.0,24672085000.0,56.39,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Hibah,43751670000.0,24672085000.0,56.39,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Hibah,43751670000.0,24672085000.0,56.39,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Hibah,43751670000.0,24672085000.0,56.39,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Hibah,43751670000.0,24672085000.0,56.39,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Lainnya,585873087192.0,6816996003.0,1.16,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Lainnya,585873087192.0,14610850390.0,2.49,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Lainnya,585873087192.0,56934517741.0,9.72,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Lainnya,585873087192.0,127206717596.0,21.71,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Lainnya,585873087192.0,127206717596.0,21.71,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Lainnya,585873087192.0,217857517564.0,37.19,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Lainnya,585873087192.0,263286458964.0,44.94,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Lainnya,585873087192.0,287357805388.0,49.05,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Lainnya,585873087192.0,358758909449.0,61.23,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Lainnya,585873087192.0,387218664307.0,66.09,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Lainnya,585873087192.0,579075755943.0,98.84,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Lainnya,585873087192.0,737116801443.0,125.82,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Lainnya,728398497116.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Lainnya,728398497116.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Lainnya,728398497116.0,84294395410.0,11.57,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Lainnya,728398497116.0,120029850748.0,16.48,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Lainnya,728398497116.0,271143072503.0,37.22,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Lainnya,728398497116.0,289681537700.0,39.77,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Lainnya,728398497116.0,317750909269.0,43.62,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Lainnya,728398497116.0,329338337059.0,45.21,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Lainnya,728398497116.0,411231607425.0,56.46,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Lainnya,728398497116.0,424722810073.0,58.31,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Lainnya,728398497116.0,479243623203.0,65.79,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Lainnya,728398497116.0,569129650649.0,78.13,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Lainnya,389292808404.41,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Lainnya,389292808404.41,13160991892.0,3.38,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Lainnya,389292808404.41,71590310590.0,18.39,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Lainnya,389292808404.41,107978284197.0,27.74,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Lainnya,389292808404.41,110473634197.0,28.38,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Lainnya,389292808404.41,145386389804.0,37.35,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Lainnya,389292808404.41,199729550878.0,51.31,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Lainnya,389292808404.41,210399085878.0,54.05,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Lainnya,389292808404.41,266833102917.0,68.54,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Lainnya,389292808404.41,282098079966.0,72.46,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Lainnya,389292808404.41,322551283747.0,82.86,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Lainnya,389292808404.41,392725768878.0,100.88,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Lainnya,355469504172.85,8165430000.0,2.3,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Lainnya,355469504172.85,21088031141.0,5.93,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Lainnya,355469504172.85,67263263324.0,18.92,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Lainnya,355469504172.85,77240301746.0,21.73,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Lainnya,355469504172.85,106186613878.0,29.87,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Lainnya,355469504172.85,115881321318.0,32.6,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Lainnya,355469504172.85,163461284943.0,45.98,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Lainnya,355469504172.85,185446417975.0,52.17,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Lainnya,355469504172.85,190530086273.0,53.6,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Lainnya,355469504172.85,190530086273.0,53.6,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Lainnya,355469504172.85,190530086273.0,53.6,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Lainnya,355469504172.85,190530086273.0,53.6,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Modal,491999213459.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Modal,491999213459.0,1575550000.0,0.32,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Modal,491999213459.0,21508589821.0,4.37,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Modal,491999213459.0,45159137976.0,9.18,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Modal,491999213459.0,45159137976.0,9.18,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Modal,491999213459.0,64018216699.0,13.01,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Modal,491999213459.0,96413083661.0,19.6,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Modal,491999213459.0,161776830778.0,32.88,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Modal,491999213459.0,189287889589.0,38.47,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Modal,491999213459.0,223733331359.0,45.47,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Modal,491999213459.0,290900920536.0,59.13,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Modal,491999213459.0,573537999406.0,116.57,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Modal,351757196118.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Modal,351757196118.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Modal,351757196118.0,888926250.0,0.25,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Modal,351757196118.0,1611282550.0,0.46,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Modal,351757196118.0,30461856550.0,8.66,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Modal,351757196118.0,33555452333.0,9.54,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Modal,351757196118.0,50274144737.0,14.29,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Modal,351757196118.0,67606600661.0,19.22,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Modal,351757196118.0,94304532053.15,26.81,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Modal,351757196118.0,110706760147.35,31.47,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Modal,351757196118.0,160981468063.1,45.76,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Modal,351757196118.0,240245372354.84,68.3,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Modal,166928513966.08,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Modal,166928513966.08,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Modal,166928513966.08,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Modal,166928513966.08,40721000.0,0.02,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Modal,166928513966.08,821694500.0,0.49,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Modal,166928513966.08,947033492.0,0.57,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Modal,166928513966.08,19664911023.0,11.78,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Modal,166928513966.08,28307755898.0,16.96,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Modal,166928513966.08,40315986099.0,24.15,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Modal,166928513966.08,52846531470.13,31.66,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Modal,166928513966.08,68969566777.13,41.32,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Modal,166928513966.08,142952540696.11,85.64,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Modal,113100996055.07,0.0,0.0,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Modal,113100996055.07,32190000.0,0.03,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Modal,113100996055.07,241401700.0,0.21,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Modal,113100996055.07,2023582131.0,1.79,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Modal,113100996055.07,3160899981.0,2.79,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Modal,113100996055.07,9331684491.0,8.25,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Modal,113100996055.07,19151721920.0,16.93,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Modal,113100996055.07,21839713379.0,19.31,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Modal,113100996055.07,23104800022.0,20.43,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Modal,113100996055.07,23104800022.0,20.43,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Modal,113100996055.07,23104800022.0,20.43,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Modal,113100996055.07,23104800022.0,20.43,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Pegawai,945162580474.0,56358873094.0,5.96,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Pegawai,945162580474.0,86910917149.0,9.2,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Pegawai,945162580474.0,189521370250.0,20.05,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Pegawai,945162580474.0,305338936216.0,32.31,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Pegawai,945162580474.0,305338936216.0,32.31,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Pegawai,945162580474.0,407303015234.0,43.09,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Pegawai,945162580474.0,460373819886.0,48.71,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Pegawai,945162580474.0,517649002467.0,54.77,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Pegawai,945162580474.0,604746770392.0,63.98,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Pegawai,945162580474.0,643072298321.0,68.04,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Pegawai,945162580474.0,726439953797.0,76.86,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Pegawai,945162580474.0,813929308025.0,86.12,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Pegawai,957274358258.0,55256836460.0,5.77,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Pegawai,957274358258.0,94629440201.0,9.89,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Pegawai,957274358258.0,230575224480.0,24.09,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Pegawai,957274358258.0,342357937260.0,35.76,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Pegawai,957274358258.0,426694248555.0,44.57,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Pegawai,957274358258.0,512524722779.0,53.54,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Pegawai,957274358258.0,598662136919.0,62.54,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Pegawai,957274358258.0,663572124851.0,69.32,False,False
+Bangka Belitung,29,2024,9,September,21,Belanja Pegawai,957274358258.0,725038967580.0,75.74,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Pegawai,957274358258.0,785591755862.0,82.07,False,False
+Bangka Belitung,29,2024,11,November,23,Belanja Pegawai,957274358258.0,881182933001.0,92.05,False,False
+Bangka Belitung,29,2024,12,Desember,24,Belanja Pegawai,957274358258.0,971595673581.0,101.5,False,False
+Bangka Belitung,29,2025,1,Januari,25,Belanja Pegawai,1093421238416.0,62413282215.0,5.71,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Pegawai,1093421238416.0,97800251533.0,8.94,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Pegawai,1093421238416.0,247583513035.0,22.64,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Pegawai,1093421238416.0,310947003684.0,28.44,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Pegawai,1093421238416.0,388638427016.0,35.54,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Pegawai,1093421238416.0,469936549204.0,42.98,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Pegawai,1093421238416.0,584559356941.0,53.46,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Pegawai,1093421238416.0,639234278151.0,58.46,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Pegawai,1093421238416.0,698768537294.0,63.91,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Pegawai,1093421238416.0,761714287558.0,69.66,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Pegawai,1093421238416.0,863619283805.0,78.98,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Pegawai,1093421238416.0,958196877214.55,87.63,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Pegawai,956902863747.15,38074350494.0,3.98,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Pegawai,956902863747.15,108185864587.0,11.31,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Pegawai,956902863747.15,226480688384.0,23.67,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Pegawai,956902863747.15,296400218063.0,30.97,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Pegawai,956902863747.15,364513049923.0,38.09,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Pegawai,956902863747.15,480631245988.0,50.23,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Pegawai,956902863747.15,542682522581.0,56.71,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Pegawai,956902863747.15,596620345887.0,62.35,False,False
+Bangka Belitung,29,2026,9,September,45,Belanja Pegawai,956902863747.15,639330781266.0,66.81,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Pegawai,956902863747.15,639330781266.0,66.81,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Pegawai,956902863747.15,639330781266.0,66.81,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Pegawai,956902863747.15,639330781266.0,66.81,False,True
+Bangka Belitung,29,2023,1,Januari,1,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Subsidi,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Subsidi,0.0,2241000000.0,0.0,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Subsidi,0.0,3984000000.0,0.0,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Subsidi,0.0,6474552808.0,0.0,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Subsidi,0.0,9462552808.0,0.0,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Subsidi,0.0,12633138553.0,0.0,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Subsidi,0.0,15491196898.0,0.0,False,False
+Bangka Belitung,29,2023,1,Januari,1,Belanja Tidak Terduga,52299481013.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Belanja Tidak Terduga,52299481013.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Belanja Tidak Terduga,52299481013.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,4,April,4,Belanja Tidak Terduga,52299481013.0,221500000.0,0.42,False,False
+Bangka Belitung,29,2023,5,Mei,5,Belanja Tidak Terduga,52299481013.0,221500000.0,0.42,False,False
+Bangka Belitung,29,2023,6,Juni,6,Belanja Tidak Terduga,52299481013.0,221500000.0,0.42,False,False
+Bangka Belitung,29,2023,7,Juli,7,Belanja Tidak Terduga,52299481013.0,333500000.0,0.64,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Belanja Tidak Terduga,52299481013.0,333500000.0,0.64,False,False
+Bangka Belitung,29,2023,9,September,9,Belanja Tidak Terduga,52299481013.0,375000000.0,0.72,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Belanja Tidak Terduga,52299481013.0,375000000.0,0.72,False,False
+Bangka Belitung,29,2023,11,November,11,Belanja Tidak Terduga,52299481013.0,677880000.0,1.3,False,False
+Bangka Belitung,29,2023,12,Desember,12,Belanja Tidak Terduga,52299481013.0,849364000.0,1.62,False,False
+Bangka Belitung,29,2024,1,Januari,13,Belanja Tidak Terduga,33695938180.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Belanja Tidak Terduga,33695938180.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Belanja Tidak Terduga,33695938180.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,4,April,16,Belanja Tidak Terduga,33695938180.0,156000000.0,0.46,False,False
+Bangka Belitung,29,2024,5,Mei,17,Belanja Tidak Terduga,33695938180.0,261000000.0,0.77,False,False
+Bangka Belitung,29,2024,6,Juni,18,Belanja Tidak Terduga,33695938180.0,334500000.0,0.99,False,False
+Bangka Belitung,29,2024,7,Juli,19,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,True
+Bangka Belitung,29,2024,9,September,21,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,True
+Bangka Belitung,29,2024,10,Oktober,22,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,True
+Bangka Belitung,29,2024,11,November,23,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,True
+Bangka Belitung,29,2024,12,Desember,24,Belanja Tidak Terduga,33695938180.0,627000000.0,1.86,False,True
+Bangka Belitung,29,2025,1,Januari,25,Belanja Tidak Terduga,37052375684.41,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Belanja Tidak Terduga,37052375684.41,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Belanja Tidak Terduga,37052375684.41,160000000.0,0.43,False,False
+Bangka Belitung,29,2025,4,April,28,Belanja Tidak Terduga,37052375684.41,94263380.0,0.25,False,False
+Bangka Belitung,29,2025,5,Mei,29,Belanja Tidak Terduga,37052375684.41,94263380.0,0.25,False,False
+Bangka Belitung,29,2025,6,Juni,30,Belanja Tidak Terduga,37052375684.41,94263380.0,0.25,False,False
+Bangka Belitung,29,2025,7,Juli,31,Belanja Tidak Terduga,37052375684.41,579263380.0,1.56,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Belanja Tidak Terduga,37052375684.41,556263380.0,1.5,False,False
+Bangka Belitung,29,2025,9,September,33,Belanja Tidak Terduga,37052375684.41,556263380.0,1.5,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Belanja Tidak Terduga,37052375684.41,827763380.0,2.23,False,False
+Bangka Belitung,29,2025,11,November,35,Belanja Tidak Terduga,37052375684.41,818763380.0,2.21,False,False
+Bangka Belitung,29,2025,12,Desember,36,Belanja Tidak Terduga,37052375684.41,958263380.0,2.59,False,False
+Bangka Belitung,29,2026,1,Januari,37,Belanja Tidak Terduga,34815533650.85,0.0,0.0,False,False
+Bangka Belitung,29,2026,2,Februari,38,Belanja Tidak Terduga,34815533650.85,0.0,0.0,False,False
+Bangka Belitung,29,2026,3,Maret,39,Belanja Tidak Terduga,34815533650.85,0.0,0.0,False,False
+Bangka Belitung,29,2026,4,April,40,Belanja Tidak Terduga,34815533650.85,183000000.0,0.53,False,False
+Bangka Belitung,29,2026,5,Mei,41,Belanja Tidak Terduga,34815533650.85,183000000.0,0.53,False,False
+Bangka Belitung,29,2026,6,Juni,42,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,False
+Bangka Belitung,29,2026,7,Juli,43,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2026,8,Agustus,44,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2026,9,September,45,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2026,11,November,47,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2026,12,Desember,48,Belanja Tidak Terduga,34815533650.85,298500000.0,0.86,False,True
+Bangka Belitung,29,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,0.0,0.0,False,False
+Bangka Belitung,29,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,False
+Bangka Belitung,29,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,6500000000.0,10026504291.32,154.25,False,True
+Bangka Belitung,29,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,0.0,0.0,False,False
+Bangka Belitung,29,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,False
+Bangka Belitung,29,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10527934600.0,8740777013.19,83.02,False,True
+Bangka Belitung,29,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,False
+Bangka Belitung,29,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,10084234500.0,7022018779.78,69.63,False,True
+Bangka Belitung,29,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,0.0,0.0,False,False
+Bangka Belitung,29,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,False
+Bangka Belitung,29,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,7792000000.0,8862972592.81,113.74,False,True
+Bangka Belitung,29,2023,1,Januari,1,Lain-Lain PAD yang Sah,169542058250.0,5741841147.0,3.39,False,False
+Bangka Belitung,29,2023,2,Februari,2,Lain-Lain PAD yang Sah,169542058250.0,11287243993.1,6.66,False,False
+Bangka Belitung,29,2023,3,Maret,3,Lain-Lain PAD yang Sah,169542058250.0,16987822033.18,10.02,False,False
+Bangka Belitung,29,2023,4,April,4,Lain-Lain PAD yang Sah,169542058250.0,24873790306.78,14.67,False,False
+Bangka Belitung,29,2023,5,Mei,5,Lain-Lain PAD yang Sah,169542058250.0,24873790306.78,14.67,False,False
+Bangka Belitung,29,2023,6,Juni,6,Lain-Lain PAD yang Sah,169542058250.0,32769175863.28,19.33,False,False
+Bangka Belitung,29,2023,7,Juli,7,Lain-Lain PAD yang Sah,169542058250.0,39546117725.98,23.33,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Lain-Lain PAD yang Sah,169542058250.0,50810524885.5,29.97,False,False
+Bangka Belitung,29,2023,9,September,9,Lain-Lain PAD yang Sah,169542058250.0,58772787692.62,34.67,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Lain-Lain PAD yang Sah,169542058250.0,69600720349.78,41.05,False,False
+Bangka Belitung,29,2023,11,November,11,Lain-Lain PAD yang Sah,169542058250.0,79711746030.08,47.02,False,False
+Bangka Belitung,29,2023,12,Desember,12,Lain-Lain PAD yang Sah,169542058250.0,95042207716.17,56.06,False,False
+Bangka Belitung,29,2024,1,Januari,13,Lain-Lain PAD yang Sah,71321248500.0,2966795287.0,4.16,False,False
+Bangka Belitung,29,2024,2,Februari,14,Lain-Lain PAD yang Sah,71321248500.0,5152478206.52,7.22,False,False
+Bangka Belitung,29,2024,3,Maret,15,Lain-Lain PAD yang Sah,71321248500.0,7273656809.52,10.2,False,False
+Bangka Belitung,29,2024,4,April,16,Lain-Lain PAD yang Sah,71321248500.0,10162545423.12,14.25,False,False
+Bangka Belitung,29,2024,5,Mei,17,Lain-Lain PAD yang Sah,71321248500.0,13059965245.58,18.31,False,False
+Bangka Belitung,29,2024,6,Juni,18,Lain-Lain PAD yang Sah,71321248500.0,18752722213.38,26.29,False,False
+Bangka Belitung,29,2024,7,Juli,19,Lain-Lain PAD yang Sah,71321248500.0,20009903306.58,28.06,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Lain-Lain PAD yang Sah,71321248500.0,26352436645.2,36.95,False,False
+Bangka Belitung,29,2024,9,September,21,Lain-Lain PAD yang Sah,71321248500.0,31439046397.2,44.08,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Lain-Lain PAD yang Sah,71321248500.0,34278268807.67,48.06,False,False
+Bangka Belitung,29,2024,11,November,23,Lain-Lain PAD yang Sah,71321248500.0,37119536567.81,52.05,False,False
+Bangka Belitung,29,2024,12,Desember,24,Lain-Lain PAD yang Sah,71321248500.0,40037530381.53,56.14,False,False
+Bangka Belitung,29,2025,1,Januari,25,Lain-Lain PAD yang Sah,150386716550.04,2804320561.07,1.86,False,False
+Bangka Belitung,29,2025,2,Februari,26,Lain-Lain PAD yang Sah,150386716550.04,5650189547.07,3.76,False,False
+Bangka Belitung,29,2025,3,Maret,27,Lain-Lain PAD yang Sah,150386716550.04,7503516545.65,4.99,False,False
+Bangka Belitung,29,2025,4,April,28,Lain-Lain PAD yang Sah,150386716550.04,9460716213.6,6.29,False,False
+Bangka Belitung,29,2025,5,Mei,29,Lain-Lain PAD yang Sah,150386716550.04,53009456094.55,35.25,False,False
+Bangka Belitung,29,2025,6,Juni,30,Lain-Lain PAD yang Sah,150386716550.04,53886146590.05,35.83,False,False
+Bangka Belitung,29,2025,7,Juli,31,Lain-Lain PAD yang Sah,150386716550.04,55004655719.85,36.58,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Lain-Lain PAD yang Sah,150386716550.04,57690924073.23,38.36,False,False
+Bangka Belitung,29,2025,9,September,33,Lain-Lain PAD yang Sah,150386716550.04,59072200336.43,39.28,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Lain-Lain PAD yang Sah,150386716550.04,60421206574.63,40.18,False,False
+Bangka Belitung,29,2025,11,November,35,Lain-Lain PAD yang Sah,150386716550.04,62608351415.15,41.63,False,False
+Bangka Belitung,29,2025,12,Desember,36,Lain-Lain PAD yang Sah,150386716550.04,21727749741.82,14.45,False,False
+Bangka Belitung,29,2026,1,Januari,37,Lain-Lain PAD yang Sah,74329573600.29,1153778333.68,1.55,False,False
+Bangka Belitung,29,2026,2,Februari,38,Lain-Lain PAD yang Sah,74329573600.29,2364388849.08,3.18,False,False
+Bangka Belitung,29,2026,3,Maret,39,Lain-Lain PAD yang Sah,74329573600.29,3569637986.28,4.8,False,False
+Bangka Belitung,29,2026,4,April,40,Lain-Lain PAD yang Sah,74329573600.29,4931492928.8,6.63,False,False
+Bangka Belitung,29,2026,5,Mei,41,Lain-Lain PAD yang Sah,74329573600.29,6636963397.8,8.93,False,False
+Bangka Belitung,29,2026,6,Juni,42,Lain-Lain PAD yang Sah,74329573600.29,8910593717.9,11.99,False,False
+Bangka Belitung,29,2026,7,Juli,43,Lain-Lain PAD yang Sah,74329573600.29,10463424386.1,14.08,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Lain-Lain PAD yang Sah,74329573600.29,10701379207.36,14.4,False,False
+Bangka Belitung,29,2026,9,September,45,Lain-Lain PAD yang Sah,74329573600.29,10701379207.36,14.4,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Lain-Lain PAD yang Sah,74329573600.29,10701379207.36,14.4,False,True
+Bangka Belitung,29,2026,11,November,47,Lain-Lain PAD yang Sah,74329573600.29,10701379207.36,14.4,False,True
+Bangka Belitung,29,2026,12,Desember,48,Lain-Lain PAD yang Sah,74329573600.29,10701379207.36,14.4,False,True
+Bangka Belitung,29,2025,1,Januari,25,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,6,Juni,30,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,7,Juli,31,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,9,September,33,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,11,November,35,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,12,Desember,36,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,43196021896.0,0.0,False,False
+Bangka Belitung,29,2026,1,Januari,37,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,2,Februari,38,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,3,Maret,39,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,4,April,40,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,5,Mei,41,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,6,Juni,42,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,7,Juli,43,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,8,Agustus,44,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,9,September,45,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,10,Oktober,46,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,11,November,47,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,12,Desember,48,Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2023,1,Januari,1,PAD,1038304939546.0,71668848341.86,6.9,False,False
+Bangka Belitung,29,2023,2,Februari,2,PAD,1038304939546.0,138988507201.3,13.39,False,False
+Bangka Belitung,29,2023,3,Maret,3,PAD,1038304939546.0,218298203295.8,21.02,False,False
+Bangka Belitung,29,2023,4,April,4,PAD,1038304939546.0,329313021076.76,31.72,False,False
+Bangka Belitung,29,2023,5,Mei,5,PAD,1038304939546.0,329313021076.76,31.72,False,False
+Bangka Belitung,29,2023,6,Juni,6,PAD,1038304939546.0,398608757417.22,38.39,False,False
+Bangka Belitung,29,2023,7,Juli,7,PAD,1038304939546.0,497474114601.82,47.91,False,False
+Bangka Belitung,29,2023,8,Agustus,8,PAD,1038304939546.0,579866958460.84,55.85,False,False
+Bangka Belitung,29,2023,9,September,9,PAD,1038304939546.0,657776138184.16,63.35,False,False
+Bangka Belitung,29,2023,10,Oktober,10,PAD,1038304939546.0,764342656385.22,73.61,False,False
+Bangka Belitung,29,2023,11,November,11,PAD,1038304939546.0,837675559571.62,80.68,False,False
+Bangka Belitung,29,2023,12,Desember,12,PAD,1038304939546.0,942244720053.21,90.75,False,False
+Bangka Belitung,29,2024,1,Januari,13,PAD,1096473717900.0,65449077480.15,5.97,False,False
+Bangka Belitung,29,2024,2,Februari,14,PAD,1096473717900.0,121135138062.57,11.05,False,False
+Bangka Belitung,29,2024,3,Maret,15,PAD,1096473717900.0,191532633766.56,17.47,False,False
+Bangka Belitung,29,2024,4,April,16,PAD,1096473717900.0,295912504126.26,26.99,False,False
+Bangka Belitung,29,2024,5,Mei,17,PAD,1096473717900.0,357296194386.37,32.59,False,False
+Bangka Belitung,29,2024,6,Juni,18,PAD,1096473717900.0,410344860296.17,37.42,False,False
+Bangka Belitung,29,2024,7,Juli,19,PAD,1096473717900.0,506457614788.27,46.19,False,False
+Bangka Belitung,29,2024,8,Agustus,20,PAD,1096473717900.0,571990697693.09,52.17,False,False
+Bangka Belitung,29,2024,9,September,21,PAD,1096473717900.0,637708788679.69,58.16,False,False
+Bangka Belitung,29,2024,10,Oktober,22,PAD,1096473717900.0,740439801611.06,67.53,False,False
+Bangka Belitung,29,2024,11,November,23,PAD,1096473717900.0,808821458186.0,73.77,False,False
+Bangka Belitung,29,2024,12,Desember,24,PAD,1096473717900.0,915106055802.72,83.46,False,False
+Bangka Belitung,29,2025,1,Januari,25,PAD,986551719389.04,51252912334.07,5.2,False,False
+Bangka Belitung,29,2025,2,Februari,26,PAD,986551719389.04,96430120437.41,9.77,False,False
+Bangka Belitung,29,2025,3,Maret,27,PAD,986551719389.04,147472910253.59,14.95,False,False
+Bangka Belitung,29,2025,4,April,28,PAD,986551719389.04,196123517112.24,19.88,False,False
+Bangka Belitung,29,2025,5,Mei,29,PAD,986551719389.04,337500269788.24,34.21,False,False
+Bangka Belitung,29,2025,6,Juni,30,PAD,986551719389.04,399702909682.72,40.52,False,False
+Bangka Belitung,29,2025,7,Juli,31,PAD,986551719389.04,466880821806.12,47.32,False,False
+Bangka Belitung,29,2025,8,Agustus,32,PAD,986551719389.04,548135443206.2,55.56,False,False
+Bangka Belitung,29,2025,9,September,33,PAD,986551719389.04,606948199094.05,61.52,False,False
+Bangka Belitung,29,2025,10,Oktober,34,PAD,986551719389.04,691373014107.49,70.08,False,False
+Bangka Belitung,29,2025,11,November,35,PAD,986551719389.04,756599834041.84,76.69,False,False
+Bangka Belitung,29,2025,12,Desember,36,PAD,986551719389.04,772929373938.71,78.35,False,False
+Bangka Belitung,29,2026,1,Januari,37,PAD,833309933245.62,76700787298.89,9.2,False,False
+Bangka Belitung,29,2026,2,Februari,38,PAD,833309933245.62,139036488028.13,16.68,False,False
+Bangka Belitung,29,2026,3,Maret,39,PAD,833309933245.62,194260436492.02,23.31,False,False
+Bangka Belitung,29,2026,4,April,40,PAD,833309933245.62,290969970865.03,34.92,False,False
+Bangka Belitung,29,2026,5,Mei,41,PAD,833309933245.62,347827051479.09,41.74,False,False
+Bangka Belitung,29,2026,6,Juni,42,PAD,833309933245.62,413429792906.85,49.61,False,False
+Bangka Belitung,29,2026,7,Juli,43,PAD,833309933245.62,509488822524.77,61.14,False,False
+Bangka Belitung,29,2026,8,Agustus,44,PAD,833309933245.62,576170366387.98,69.14,False,False
+Bangka Belitung,29,2026,9,September,45,PAD,833309933245.62,576921719137.98,69.23,False,False
+Bangka Belitung,29,2026,10,Oktober,46,PAD,833309933245.62,576921719137.98,69.23,False,True
+Bangka Belitung,29,2026,11,November,47,PAD,833309933245.62,576921719137.98,69.23,False,True
+Bangka Belitung,29,2026,12,Desember,48,PAD,833309933245.62,576921719137.98,69.23,False,True
+Bangka Belitung,29,2023,1,Januari,1,Pajak Daerah,848653198396.0,65551185842.86,7.72,False,False
+Bangka Belitung,29,2023,2,Februari,2,Pajak Daerah,848653198396.0,126663587155.2,14.93,False,False
+Bangka Belitung,29,2023,3,Maret,3,Pajak Daerah,848653198396.0,189392409339.3,22.32,False,False
+Bangka Belitung,29,2023,4,April,4,Pajak Daerah,848653198396.0,291749794759.66,34.38,False,False
+Bangka Belitung,29,2023,5,Mei,5,Pajak Daerah,848653198396.0,291749794759.66,34.38,False,False
+Bangka Belitung,29,2023,6,Juni,6,Pajak Daerah,848653198396.0,352474340473.62,41.53,False,False
+Bangka Belitung,29,2023,7,Juli,7,Pajak Daerah,848653198396.0,443898620095.52,52.31,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Pajak Daerah,848653198396.0,513790988343.02,60.54,False,False
+Bangka Belitung,29,2023,9,September,9,Pajak Daerah,848653198396.0,582880842888.22,68.68,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Pajak Daerah,848653198396.0,677919640753.12,79.88,False,False
+Bangka Belitung,29,2023,11,November,11,Pajak Daerah,848653198396.0,740294522375.22,87.23,False,False
+Bangka Belitung,29,2023,12,Desember,12,Pajak Daerah,848653198396.0,828456218004.72,97.62,False,False
+Bangka Belitung,29,2024,1,Januari,13,Pajak Daerah,953693248600.0,59998021199.15,6.29,False,False
+Bangka Belitung,29,2024,2,Februari,14,Pajak Daerah,953693248600.0,109717275469.05,11.5,False,False
+Bangka Belitung,29,2024,3,Maret,15,Pajak Daerah,953693248600.0,165755124139.85,17.38,False,False
+Bangka Belitung,29,2024,4,April,16,Pajak Daerah,953693248600.0,263466774111.95,27.63,False,False
+Bangka Belitung,29,2024,5,Mei,17,Pajak Daerah,953693248600.0,317743393772.6,33.32,False,False
+Bangka Belitung,29,2024,6,Juni,18,Pajak Daerah,953693248600.0,360292955392.6,37.78,False,False
+Bangka Belitung,29,2024,7,Juli,19,Pajak Daerah,953693248600.0,448961111679.5,47.08,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Pajak Daerah,953693248600.0,502650238502.7,52.71,False,False
+Bangka Belitung,29,2024,9,September,21,Pajak Daerah,953693248600.0,557267609124.3,58.43,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Pajak Daerah,953693248600.0,650496570185.2,68.21,False,False
+Bangka Belitung,29,2024,11,November,23,Pajak Daerah,953693248600.0,710984471426.0,74.55,False,False
+Bangka Belitung,29,2024,12,Desember,24,Pajak Daerah,953693248600.0,806812246454.0,84.6,False,False
+Bangka Belitung,29,2025,1,Januari,25,Pajak Daerah,754193603139.0,43433882714.0,5.76,False,False
+Bangka Belitung,29,2025,2,Februari,26,Pajak Daerah,754193603139.0,83881691071.34,11.12,False,False
+Bangka Belitung,29,2025,3,Maret,27,Pajak Daerah,754193603139.0,127484616002.94,16.9,False,False
+Bangka Belitung,29,2025,4,April,28,Pajak Daerah,754193603139.0,168790671895.64,22.38,False,False
+Bangka Belitung,29,2025,5,Mei,29,Pajak Daerah,754193603139.0,262737140442.69,34.84,False,False
+Bangka Belitung,29,2025,6,Juni,30,Pajak Daerah,754193603139.0,310670803220.89,41.19,False,False
+Bangka Belitung,29,2025,7,Juli,31,Pajak Daerah,754193603139.0,369219108712.49,48.96,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Pajak Daerah,754193603139.0,442796233017.19,58.71,False,False
+Bangka Belitung,29,2025,9,September,33,Pajak Daerah,754193603139.0,490476851855.19,65.03,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Pajak Daerah,754193603139.0,566375376072.29,75.1,False,False
+Bangka Belitung,29,2025,11,November,35,Pajak Daerah,754193603139.0,620818906985.49,82.32,False,False
+Bangka Belitung,29,2025,12,Desember,36,Pajak Daerah,754193603139.0,672413451291.19,89.16,False,False
+Bangka Belitung,29,2026,1,Januari,37,Pajak Daerah,678626833707.33,69161007504.5,10.19,False,False
+Bangka Belitung,29,2026,2,Februari,38,Pajak Daerah,678626833707.33,115501286164.4,17.02,False,False
+Bangka Belitung,29,2026,3,Maret,39,Pajak Daerah,678626833707.33,162916051038.61,24.01,False,False
+Bangka Belitung,29,2026,4,April,40,Pajak Daerah,678626833707.33,252315412884.16,37.18,False,False
+Bangka Belitung,29,2026,5,Mei,41,Pajak Daerah,678626833707.33,299218420329.08,44.09,False,False
+Bangka Belitung,29,2026,6,Juni,42,Pajak Daerah,678626833707.33,353738300596.68,52.13,False,False
+Bangka Belitung,29,2026,7,Juli,43,Pajak Daerah,678626833707.33,438744606505.18,64.65,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Pajak Daerah,678626833707.33,497072206858.58,73.25,False,False
+Bangka Belitung,29,2026,9,September,45,Pajak Daerah,678626833707.33,497820519358.58,73.36,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Pajak Daerah,678626833707.33,497820519358.58,73.36,False,True
+Bangka Belitung,29,2026,11,November,47,Pajak Daerah,678626833707.33,497820519358.58,73.36,False,True
+Bangka Belitung,29,2026,12,Desember,48,Pajak Daerah,678626833707.33,497820519358.58,73.36,False,True
+Bangka Belitung,29,2023,1,Januari,1,Pendapatan Daerah,2626618295546.0,236526955541.86,9.0,False,False
+Bangka Belitung,29,2023,2,Februari,2,Pendapatan Daerah,2626618295546.0,368443347801.3,14.03,False,False
+Bangka Belitung,29,2023,3,Maret,3,Pendapatan Daerah,2626618295546.0,521638726574.8,19.86,False,False
+Bangka Belitung,29,2023,4,April,4,Pendapatan Daerah,2626618295546.0,791384819269.76,30.13,False,False
+Bangka Belitung,29,2023,5,Mei,5,Pendapatan Daerah,2626618295546.0,791384819269.76,30.13,False,False
+Bangka Belitung,29,2023,6,Juni,6,Pendapatan Daerah,2626618295546.0,951302988410.22,36.22,False,False
+Bangka Belitung,29,2023,7,Juli,7,Pendapatan Daerah,2626618295546.0,1133816316694.8,43.17,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Pendapatan Daerah,2626618295546.0,1480806257553.8,56.38,False,False
+Bangka Belitung,29,2023,9,September,9,Pendapatan Daerah,2626618295546.0,1632827328542.2,62.16,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Pendapatan Daerah,2626618295546.0,1927197286815.2,73.37,False,False
+Bangka Belitung,29,2023,11,November,11,Pendapatan Daerah,2626618295546.0,2167279992637.6,82.51,False,False
+Bangka Belitung,29,2023,12,Desember,12,Pendapatan Daerah,2626618295546.0,2343159116813.2,89.21,False,False
+Bangka Belitung,29,2024,1,Januari,13,Pendapatan Daerah,2557103249900.0,229630306680.15,8.98,False,False
+Bangka Belitung,29,2024,2,Februari,14,Pendapatan Daerah,2557103249900.0,359502046525.57,14.06,False,False
+Bangka Belitung,29,2024,3,Maret,15,Pendapatan Daerah,2557103249900.0,568552916706.56,22.23,False,False
+Bangka Belitung,29,2024,4,April,16,Pendapatan Daerah,2557103249900.0,800201393066.26,31.29,False,False
+Bangka Belitung,29,2024,5,Mei,17,Pendapatan Daerah,2557103249900.0,1013910063806.4,39.65,False,False
+Bangka Belitung,29,2024,6,Juni,18,Pendapatan Daerah,2557103249900.0,1264843448305.2,49.46,False,False
+Bangka Belitung,29,2024,7,Juli,19,Pendapatan Daerah,2557103249900.0,1471995993384.3,57.56,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Pendapatan Daerah,2557103249900.0,1620951422704.1,63.39,False,False
+Bangka Belitung,29,2024,9,September,21,Pendapatan Daerah,2557103249900.0,1819325909078.7,71.15,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Pendapatan Daerah,2557103249900.0,2105444320629.1,82.34,False,False
+Bangka Belitung,29,2024,11,November,23,Pendapatan Daerah,2557103249900.0,2275910553029.0,89.0,False,False
+Bangka Belitung,29,2024,12,Desember,24,Pendapatan Daerah,2557103249900.0,2421902411336.7,94.71,False,False
+Bangka Belitung,29,2025,1,Januari,25,Pendapatan Daerah,2391677384389.0,207188009934.07,8.66,False,False
+Bangka Belitung,29,2025,2,Februari,26,Pendapatan Daerah,2391677384389.0,333221509137.41,13.93,False,False
+Bangka Belitung,29,2025,3,Maret,27,Pendapatan Daerah,2391677384389.0,468585620303.59,19.59,False,False
+Bangka Belitung,29,2025,4,April,28,Pendapatan Daerah,2391677384389.0,667956640303.24,27.93,False,False
+Bangka Belitung,29,2025,5,Mei,29,Pendapatan Daerah,2391677384389.0,918346505029.24,38.4,False,False
+Bangka Belitung,29,2025,6,Juni,30,Pendapatan Daerah,2391677384389.0,1096774360373.7,45.86,False,False
+Bangka Belitung,29,2025,7,Juli,31,Pendapatan Daerah,2391677384389.0,1280253325988.1,53.53,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Pendapatan Daerah,2391677384389.0,1473689299938.2,61.62,False,False
+Bangka Belitung,29,2025,9,September,33,Pendapatan Daerah,2391677384389.0,1654362376685.0,69.17,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Pendapatan Daerah,2391677384389.0,1857678288648.5,77.67,False,False
+Bangka Belitung,29,2025,11,November,35,Pendapatan Daerah,2391677384389.0,2050122002460.8,85.72,False,False
+Bangka Belitung,29,2025,12,Desember,36,Pendapatan Daerah,2391677384389.0,2136248342262.7,89.32,False,False
+Bangka Belitung,29,2026,1,Januari,37,Pendapatan Daerah,1972856839245.6,272421031446.89,13.81,False,False
+Bangka Belitung,29,2026,2,Februari,38,Pendapatan Daerah,1972856839245.6,422473116116.13,21.41,False,False
+Bangka Belitung,29,2026,3,Maret,39,Pendapatan Daerah,1972856839245.6,568280649547.02,28.8,False,False
+Bangka Belitung,29,2026,4,April,40,Pendapatan Daerah,1972856839245.6,746727162575.03,37.85,False,False
+Bangka Belitung,29,2026,5,Mei,41,Pendapatan Daerah,1972856839245.6,893115298897.09,45.27,False,False
+Bangka Belitung,29,2026,6,Juni,42,Pendapatan Daerah,1972856839245.6,1040802462024.9,52.76,False,False
+Bangka Belitung,29,2026,7,Juli,43,Pendapatan Daerah,1972856839245.6,1222224127842.8,61.95,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Pendapatan Daerah,1972856839245.6,1402317250477.0,71.08,False,False
+Bangka Belitung,29,2026,9,September,45,Pendapatan Daerah,1972856839245.6,1403068603227.0,71.12,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Pendapatan Daerah,1972856839245.6,1403068603227.0,71.12,False,True
+Bangka Belitung,29,2026,11,November,47,Pendapatan Daerah,1972856839245.6,1403068603227.0,71.12,False,True
+Bangka Belitung,29,2026,12,Desember,48,Pendapatan Daerah,1972856839245.6,1403068603227.0,71.12,False,True
+Bangka Belitung,29,2025,1,Januari,25,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,6,Juni,30,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,7,Juli,31,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,9,September,33,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,11,November,35,Pendapatan Hibah,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,12,Desember,36,Pendapatan Hibah,0.0,1144848000.0,0.0,False,False
+Bangka Belitung,29,2025,1,Januari,25,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,2,Februari,26,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,3,Maret,27,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,4,April,28,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,5,Mei,29,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,6,Juni,30,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,7,Juli,31,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,9,September,33,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,11,November,35,Pendapatan Lainnya,0.0,0.0,0.0,False,False
+Bangka Belitung,29,2025,12,Desember,36,Pendapatan Lainnya,0.0,44340869896.0,0.0,False,False
+Bangka Belitung,29,2026,1,Januari,37,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,2,Februari,38,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,3,Maret,39,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,4,April,40,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,5,Mei,41,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,6,Juni,42,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,7,Juli,43,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,8,Agustus,44,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,9,September,45,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,10,Oktober,46,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,11,November,47,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2026,12,Desember,48,Pendapatan Lainnya,0.0,36329548.0,0.0,True,False
+Bangka Belitung,29,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,164858107200.0,10.38,False,False
+Bangka Belitung,29,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,229454840600.0,14.45,False,False
+Bangka Belitung,29,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,303340523279.0,19.1,False,False
+Bangka Belitung,29,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,462071798193.0,29.09,False,False
+Bangka Belitung,29,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,462071798193.0,29.09,False,False
+Bangka Belitung,29,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,552694230993.0,34.8,False,False
+Bangka Belitung,29,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,636342202093.0,40.06,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,900939299093.0,56.72,False,False
+Bangka Belitung,29,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,975051190358.0,61.39,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,1162854630430.0,73.21,False,False
+Bangka Belitung,29,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,1329604433066.0,83.71,False,False
+Bangka Belitung,29,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,1588313356000.0,1400914396760.0,88.2,False,False
+Bangka Belitung,29,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,164181229200.0,11.24,False,False
+Bangka Belitung,29,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,238366908463.0,16.32,False,False
+Bangka Belitung,29,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,377020282940.0,25.81,False,False
+Bangka Belitung,29,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,504288888940.0,34.53,False,False
+Bangka Belitung,29,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,656613869420.0,44.95,False,False
+Bangka Belitung,29,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,854498588009.0,58.5,False,False
+Bangka Belitung,29,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,965538378596.0,66.1,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,1048960725011.0,71.82,False,False
+Bangka Belitung,29,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,1181617120399.0,80.9,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,1365004519018.0,93.45,False,False
+Bangka Belitung,29,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,1467089094843.0,100.44,False,False
+Bangka Belitung,29,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,1460629532000.0,1506796355534.0,103.16,False,False
+Bangka Belitung,29,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,155935097600.0,11.1,False,False
+Bangka Belitung,29,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,236791388700.0,16.85,False,False
+Bangka Belitung,29,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,321112710050.0,22.85,False,False
+Bangka Belitung,29,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,471833123191.0,33.58,False,False
+Bangka Belitung,29,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,580846235241.0,41.34,False,False
+Bangka Belitung,29,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,697071450691.0,49.61,False,False
+Bangka Belitung,29,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,813372504182.0,57.89,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,925553856732.0,65.87,False,False
+Bangka Belitung,29,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,1047414177591.0,74.54,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,1166305274541.0,83.0,False,False
+Bangka Belitung,29,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,1293522168419.0,92.06,False,False
+Bangka Belitung,29,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,1405125665000.0,1318978098428.0,93.87,False,False
+Bangka Belitung,29,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,195683914600.0,17.17,False,False
+Bangka Belitung,29,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,283400298540.0,24.87,False,False
+Bangka Belitung,29,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,373983883507.0,32.82,False,False
+Bangka Belitung,29,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,455720862162.0,39.99,False,False
+Bangka Belitung,29,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,545251917870.0,47.85,False,False
+Bangka Belitung,29,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,627336339570.0,55.05,False,False
+Bangka Belitung,29,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,712698975770.0,62.54,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,826110554541.0,72.49,False,False
+Bangka Belitung,29,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2023,1,Januari,1,Retribusi Daerah,13609682900.0,375821352.0,2.76,False,False
+Bangka Belitung,29,2023,2,Februari,2,Retribusi Daerah,13609682900.0,1037676053.0,7.62,False,False
+Bangka Belitung,29,2023,3,Maret,3,Retribusi Daerah,13609682900.0,1891467632.0,13.9,False,False
+Bangka Belitung,29,2023,4,April,4,Retribusi Daerah,13609682900.0,2662931719.0,19.57,False,False
+Bangka Belitung,29,2023,5,Mei,5,Retribusi Daerah,13609682900.0,2662931719.0,19.57,False,False
+Bangka Belitung,29,2023,6,Juni,6,Retribusi Daerah,13609682900.0,3338736789.0,24.53,False,False
+Bangka Belitung,29,2023,7,Juli,7,Retribusi Daerah,13609682900.0,4002872489.0,29.41,False,False
+Bangka Belitung,29,2023,8,Agustus,8,Retribusi Daerah,13609682900.0,5238940941.0,38.49,False,False
+Bangka Belitung,29,2023,9,September,9,Retribusi Daerah,13609682900.0,6096003312.0,44.79,False,False
+Bangka Belitung,29,2023,10,Oktober,10,Retribusi Daerah,13609682900.0,6795790991.0,49.93,False,False
+Bangka Belitung,29,2023,11,November,11,Retribusi Daerah,13609682900.0,7642786875.0,56.16,False,False
+Bangka Belitung,29,2023,12,Desember,12,Retribusi Daerah,13609682900.0,8719790041.0,64.07,False,False
+Bangka Belitung,29,2024,1,Januari,13,Retribusi Daerah,60931286200.0,2484260994.0,4.08,False,False
+Bangka Belitung,29,2024,2,Februari,14,Retribusi Daerah,60931286200.0,6265384387.0,10.28,False,False
+Bangka Belitung,29,2024,3,Maret,15,Retribusi Daerah,60931286200.0,9763075804.0,16.02,False,False
+Bangka Belitung,29,2024,4,April,16,Retribusi Daerah,60931286200.0,13542407578.0,22.23,False,False
+Bangka Belitung,29,2024,5,Mei,17,Retribusi Daerah,60931286200.0,17752058355.0,29.13,False,False
+Bangka Belitung,29,2024,6,Juni,18,Retribusi Daerah,60931286200.0,22558405677.0,37.02,False,False
+Bangka Belitung,29,2024,7,Juli,19,Retribusi Daerah,60931286200.0,28745822789.0,47.18,False,False
+Bangka Belitung,29,2024,8,Agustus,20,Retribusi Daerah,60931286200.0,34247245532.0,56.21,False,False
+Bangka Belitung,29,2024,9,September,21,Retribusi Daerah,60931286200.0,40261356145.0,66.08,False,False
+Bangka Belitung,29,2024,10,Oktober,22,Retribusi Daerah,60931286200.0,46924185605.0,77.01,False,False
+Bangka Belitung,29,2024,11,November,23,Retribusi Daerah,60931286200.0,51976673179.0,85.3,False,False
+Bangka Belitung,29,2024,12,Desember,24,Retribusi Daerah,60931286200.0,59515501954.0,97.68,False,False
+Bangka Belitung,29,2025,1,Januari,25,Retribusi Daerah,71887165200.0,5014709059.0,6.98,False,False
+Bangka Belitung,29,2025,2,Februari,26,Retribusi Daerah,71887165200.0,6898239819.0,9.6,False,False
+Bangka Belitung,29,2025,3,Maret,27,Retribusi Daerah,71887165200.0,12484777705.0,17.37,False,False
+Bangka Belitung,29,2025,4,April,28,Retribusi Daerah,71887165200.0,17872129003.0,24.86,False,False
+Bangka Belitung,29,2025,5,Mei,29,Retribusi Daerah,71887165200.0,21753673251.0,30.26,False,False
+Bangka Belitung,29,2025,6,Juni,30,Retribusi Daerah,71887165200.0,28123941092.0,39.12,False,False
+Bangka Belitung,29,2025,7,Juli,31,Retribusi Daerah,71887165200.0,35635038594.0,49.57,False,False
+Bangka Belitung,29,2025,8,Agustus,32,Retribusi Daerah,71887165200.0,40626267336.0,56.51,False,False
+Bangka Belitung,29,2025,9,September,33,Retribusi Daerah,71887165200.0,50377128122.65,70.08,False,False
+Bangka Belitung,29,2025,10,Oktober,34,Retribusi Daerah,71887165200.0,57554412680.79,80.06,False,False
+Bangka Belitung,29,2025,11,November,35,Retribusi Daerah,71887165200.0,66150556861.42,92.02,False,False
+Bangka Belitung,29,2025,12,Desember,36,Retribusi Daerah,71887165200.0,71766154125.92,99.83,False,False
+Bangka Belitung,29,2026,1,Januari,37,Retribusi Daerah,72561525938.0,6386001460.71,8.8,False,False
+Bangka Belitung,29,2026,2,Februari,38,Retribusi Daerah,72561525938.0,12307840421.84,16.96,False,False
+Bangka Belitung,29,2026,3,Maret,39,Retribusi Daerah,72561525938.0,18911774874.32,26.06,False,False
+Bangka Belitung,29,2026,4,April,40,Retribusi Daerah,72561525938.0,24860092459.26,34.26,False,False
+Bangka Belitung,29,2026,5,Mei,41,Retribusi Daerah,72561525938.0,33108695159.4,45.63,False,False
+Bangka Belitung,29,2026,6,Juni,42,Retribusi Daerah,72561525938.0,41917925999.46,57.77,False,False
+Bangka Belitung,29,2026,7,Juli,43,Retribusi Daerah,72561525938.0,51417819040.68,70.86,False,False
+Bangka Belitung,29,2026,8,Agustus,44,Retribusi Daerah,72561525938.0,59533807729.23,82.05,False,False
+Bangka Belitung,29,2026,9,September,45,Retribusi Daerah,72561525938.0,59536847979.23,82.05,False,False
+Bangka Belitung,29,2026,10,Oktober,46,Retribusi Daerah,72561525938.0,59536847979.23,82.05,False,True
+Bangka Belitung,29,2026,11,November,47,Retribusi Daerah,72561525938.0,59536847979.23,82.05,False,True
+Bangka Belitung,29,2026,12,Desember,48,Retribusi Daerah,72561525938.0,59536847979.23,82.05,False,True
+Bangka Belitung,29,2023,1,Januari,1,TKDD,1588313356000.0,164858107200.0,10.38,False,False
+Bangka Belitung,29,2023,2,Februari,2,TKDD,1588313356000.0,229454840600.0,14.45,False,False
+Bangka Belitung,29,2023,3,Maret,3,TKDD,1588313356000.0,303340523279.0,19.1,False,False
+Bangka Belitung,29,2023,4,April,4,TKDD,1588313356000.0,462071798193.0,29.09,False,False
+Bangka Belitung,29,2023,5,Mei,5,TKDD,1588313356000.0,462071798193.0,29.09,False,False
+Bangka Belitung,29,2023,6,Juni,6,TKDD,1588313356000.0,552694230993.0,34.8,False,False
+Bangka Belitung,29,2023,7,Juli,7,TKDD,1588313356000.0,636342202093.0,40.06,False,False
+Bangka Belitung,29,2023,8,Agustus,8,TKDD,1588313356000.0,900939299093.0,56.72,False,False
+Bangka Belitung,29,2023,9,September,9,TKDD,1588313356000.0,975051190358.0,61.39,False,False
+Bangka Belitung,29,2023,10,Oktober,10,TKDD,1588313356000.0,1162854630430.0,73.21,False,False
+Bangka Belitung,29,2023,11,November,11,TKDD,1588313356000.0,1329604433066.0,83.71,False,False
+Bangka Belitung,29,2023,12,Desember,12,TKDD,1588313356000.0,1400914396760.0,88.2,False,False
+Bangka Belitung,29,2024,1,Januari,13,TKDD,1460629532000.0,164181229200.0,11.24,False,False
+Bangka Belitung,29,2024,2,Februari,14,TKDD,1460629532000.0,238366908463.0,16.32,False,False
+Bangka Belitung,29,2024,3,Maret,15,TKDD,1460629532000.0,377020282940.0,25.81,False,False
+Bangka Belitung,29,2024,4,April,16,TKDD,1460629532000.0,504288888940.0,34.53,False,False
+Bangka Belitung,29,2024,5,Mei,17,TKDD,1460629532000.0,656613869420.0,44.95,False,False
+Bangka Belitung,29,2024,6,Juni,18,TKDD,1460629532000.0,854498588009.0,58.5,False,False
+Bangka Belitung,29,2024,7,Juli,19,TKDD,1460629532000.0,965538378596.0,66.1,False,False
+Bangka Belitung,29,2024,8,Agustus,20,TKDD,1460629532000.0,1048960725011.0,71.82,False,False
+Bangka Belitung,29,2024,9,September,21,TKDD,1460629532000.0,1181617120399.0,80.9,False,False
+Bangka Belitung,29,2024,10,Oktober,22,TKDD,1460629532000.0,1365004519018.0,93.45,False,False
+Bangka Belitung,29,2024,11,November,23,TKDD,1460629532000.0,1467089094843.0,100.44,False,False
+Bangka Belitung,29,2024,12,Desember,24,TKDD,1460629532000.0,1506796355534.0,103.16,False,False
+Bangka Belitung,29,2025,1,Januari,25,TKDD,1405125665000.0,155935097600.0,11.1,False,False
+Bangka Belitung,29,2025,2,Februari,26,TKDD,1405125665000.0,236791388700.0,16.85,False,False
+Bangka Belitung,29,2025,3,Maret,27,TKDD,1405125665000.0,321112710050.0,22.85,False,False
+Bangka Belitung,29,2025,4,April,28,TKDD,1405125665000.0,471833123191.0,33.58,False,False
+Bangka Belitung,29,2025,5,Mei,29,TKDD,1405125665000.0,580846235241.0,41.34,False,False
+Bangka Belitung,29,2025,6,Juni,30,TKDD,1405125665000.0,697071450691.0,49.61,False,False
+Bangka Belitung,29,2025,7,Juli,31,TKDD,1405125665000.0,813372504182.0,57.89,False,False
+Bangka Belitung,29,2025,8,Agustus,32,TKDD,1405125665000.0,925553856732.0,65.87,False,False
+Bangka Belitung,29,2025,9,September,33,TKDD,1405125665000.0,1047414177591.0,74.54,False,False
+Bangka Belitung,29,2025,10,Oktober,34,TKDD,1405125665000.0,1166305274541.0,83.0,False,False
+Bangka Belitung,29,2025,11,November,35,TKDD,1405125665000.0,1293522168419.0,92.06,False,False
+Bangka Belitung,29,2025,12,Desember,36,TKDD,1405125665000.0,1318978098428.0,93.87,False,False
+Bangka Belitung,29,2026,1,Januari,37,TKDD,1139546906000.0,195683914600.0,17.17,False,False
+Bangka Belitung,29,2026,2,Februari,38,TKDD,1139546906000.0,283400298540.0,24.87,False,False
+Bangka Belitung,29,2026,3,Maret,39,TKDD,1139546906000.0,373983883507.0,32.82,False,False
+Bangka Belitung,29,2026,4,April,40,TKDD,1139546906000.0,455720862162.0,39.99,False,False
+Bangka Belitung,29,2026,5,Mei,41,TKDD,1139546906000.0,545251917870.0,47.85,False,False
+Bangka Belitung,29,2026,6,Juni,42,TKDD,1139546906000.0,627336339570.0,55.05,False,False
+Bangka Belitung,29,2026,7,Juli,43,TKDD,1139546906000.0,712698975770.0,62.54,False,False
+Bangka Belitung,29,2026,8,Agustus,44,TKDD,1139546906000.0,826110554541.0,72.49,False,False
+Bangka Belitung,29,2026,9,September,45,TKDD,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,10,Oktober,46,TKDD,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,11,November,47,TKDD,1139546906000.0,826110554541.0,72.49,False,True
+Bangka Belitung,29,2026,12,Desember,48,TKDD,1139546906000.0,826110554541.0,72.49,False,True

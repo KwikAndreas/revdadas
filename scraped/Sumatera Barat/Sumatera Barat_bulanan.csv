@@ -1,0 +1,985 @@
+provinsi,kode_prov,tahun,bulan,nama_bulan,urutan,akun,anggaran,realisasi,persentase,datar_tahunan,belum_final
+Sumatera Barat,3,2023,1,Januari,1,Belanja Bantuan Keuangan,40778977832.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Bantuan Keuangan,40778977832.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Bantuan Keuangan,40778977832.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Bantuan Keuangan,40778977832.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Bantuan Keuangan,40778977832.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Bantuan Keuangan,40778977832.0,4650000000.0,11.4,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Bantuan Keuangan,40778977832.0,7610000000.0,18.66,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Bantuan Keuangan,40778977832.0,13678848000.0,33.54,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Bantuan Keuangan,40778977832.0,13678848000.0,33.54,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Bantuan Keuangan,40778977832.0,15722999000.0,38.56,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Bantuan Keuangan,40778977832.0,24992801400.0,61.29,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Bantuan Keuangan,40778977832.0,33072676832.0,81.1,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Bantuan Keuangan,47646100000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Bantuan Keuangan,47646100000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Bantuan Keuangan,47646100000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Bantuan Keuangan,47646100000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Bantuan Keuangan,47646100000.0,1200000000.0,2.52,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Bantuan Keuangan,47646100000.0,1200000000.0,2.52,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Bantuan Keuangan,47646100000.0,35158379236.46,73.79,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Bantuan Keuangan,47646100000.0,41017315469.46,86.09,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Bantuan Keuangan,47646100000.0,41017315469.46,86.09,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Bantuan Keuangan,47646100000.0,41017315469.46,86.09,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Bantuan Keuangan,47646100000.0,41516315469.46,87.13,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Bantuan Keuangan,47646100000.0,41516315469.46,87.13,False,True
+Sumatera Barat,3,2025,1,Januari,25,Belanja Bantuan Keuangan,31309498700.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Bantuan Keuangan,31309498700.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Bantuan Keuangan,31309498700.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Bantuan Keuangan,31309498700.0,7809498700.0,24.94,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Bantuan Keuangan,31309498700.0,7809498700.0,24.94,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Bantuan Keuangan,31309498700.0,7809498700.0,24.94,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Bantuan Keuangan,31309498700.0,24177926260.0,77.22,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Bantuan Keuangan,31309498700.0,24177926260.0,77.22,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Bantuan Keuangan,31309498700.0,24177926260.0,77.22,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Bantuan Keuangan,31309498700.0,24177926260.0,77.22,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Bantuan Keuangan,31309498700.0,31177926260.0,99.58,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Bantuan Keuangan,31309498700.0,55437896260.0,177.06,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Bantuan Keuangan,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Bantuan Keuangan,0.0,1800000000.0,0.0,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Bantuan Keuangan,0.0,1800000000.0,0.0,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Bantuan Keuangan,0.0,3164736000.0,0.0,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Bantuan Keuangan,0.0,4564736000.0,0.0,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,True
+Sumatera Barat,3,2026,9,September,45,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Bantuan Keuangan,0.0,5114736000.0,0.0,False,True
+Sumatera Barat,3,2024,1,Januari,13,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Bantuan Sosial,130447500.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Bantuan Sosial,130447500.0,118447500.0,90.8,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Bantuan Sosial,130447500.0,130447500.0,100.0,False,False
+Sumatera Barat,3,2023,1,Januari,1,Belanja Barang dan Jasa,2036514739480.0,14737894307.0,0.72,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Barang dan Jasa,2036514739480.0,70033657959.0,3.44,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Barang dan Jasa,2036514739480.0,171031255175.0,8.4,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Barang dan Jasa,2036514739480.0,290386322729.0,14.26,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Barang dan Jasa,2036514739480.0,290386322729.0,14.26,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Barang dan Jasa,2036514739480.0,425707915096.0,20.9,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Barang dan Jasa,2036514739480.0,553604502088.0,27.18,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Barang dan Jasa,2036514739480.0,700617991429.0,34.4,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Barang dan Jasa,2036514739480.0,842239889139.0,41.36,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Barang dan Jasa,2036514739480.0,979304078232.0,48.09,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Barang dan Jasa,2036514739480.0,1164769354192.0,57.19,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Barang dan Jasa,2036514739480.0,1811486537403.0,88.95,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Barang dan Jasa,1935171371802.0,15409110279.0,0.8,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Barang dan Jasa,1935171371802.0,71630125219.0,3.7,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Barang dan Jasa,1935171371802.0,175396620490.48,9.06,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Barang dan Jasa,1935171371802.0,286691871034.64,14.81,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Barang dan Jasa,1935171371802.0,417961917601.64,21.6,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Barang dan Jasa,1935171371802.0,662917279737.64,34.26,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Barang dan Jasa,1935171371802.0,666617006699.64,34.45,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Barang dan Jasa,1935171371802.0,791526080951.45,40.9,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Barang dan Jasa,1935171371802.0,912273377639.45,47.14,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Barang dan Jasa,1935171371802.0,1049245784487.4,54.22,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Barang dan Jasa,1935171371802.0,1235151784207.2,63.83,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Barang dan Jasa,1935171371802.0,1803917885970.9,93.22,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Barang dan Jasa,1728072151104.7,18412407458.0,1.07,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Barang dan Jasa,1728072151104.7,62370229987.0,3.61,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Barang dan Jasa,1728072151104.7,175508321552.0,10.16,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Barang dan Jasa,1728072151104.7,256199477250.75,14.83,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Barang dan Jasa,1728072151104.7,349232655774.75,20.21,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Barang dan Jasa,1728072151104.7,593098634270.75,34.32,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Barang dan Jasa,1728072151104.7,568746695512.75,32.91,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Barang dan Jasa,1728072151104.7,675089206124.75,39.07,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Barang dan Jasa,1728072151104.7,774003319983.75,44.79,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Barang dan Jasa,1728072151104.7,912135121493.75,52.78,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Barang dan Jasa,1728072151104.7,1080703175307.8,62.54,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Barang dan Jasa,1728072151104.7,1641154733941.4,94.97,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Barang dan Jasa,1868061907801.4,30134753536.0,1.61,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Barang dan Jasa,1868061907801.4,101537946509.0,5.44,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Barang dan Jasa,1868061907801.4,390069155013.0,20.88,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Barang dan Jasa,1868061907801.4,485230689645.0,25.98,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Barang dan Jasa,1868061907801.4,637350838699.0,34.12,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Barang dan Jasa,1868061907801.4,744254149028.0,39.84,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Barang dan Jasa,1868061907801.4,840304628440.0,44.98,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Barang dan Jasa,1868061907801.4,914795066733.0,48.97,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Barang dan Jasa,1868061907801.4,928366913899.0,49.7,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Barang dan Jasa,1868061907801.4,928366913899.0,49.7,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Barang dan Jasa,1868061907801.4,928366913899.0,49.7,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Barang dan Jasa,1868061907801.4,928366913899.0,49.7,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Daerah,6789260685217.0,107967494887.0,1.59,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Daerah,6789260685217.0,263418162275.0,3.88,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Daerah,6789260685217.0,510539699824.0,7.52,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Daerah,6789260685217.0,1044573619629.0,15.39,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Daerah,6789260685217.0,1044573619629.0,15.39,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Daerah,6789260685217.0,1502128763517.0,22.13,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Daerah,6789260685217.0,1915758001171.0,28.22,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Daerah,6789260685217.0,2522953869079.0,37.16,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Daerah,6789260685217.0,2900686513818.0,42.72,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Daerah,6789260685217.0,3274378745688.0,48.23,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Daerah,6789260685217.0,3897659667021.0,57.41,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Daerah,6789260685217.0,5808384845778.0,85.55,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Daerah,7017741696945.2,114172172997.0,1.63,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Daerah,7017741696945.2,287774166645.0,4.1,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Daerah,7017741696945.2,591499691869.48,8.43,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Daerah,7017741696945.2,1024514825126.9,14.6,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Daerah,7017741696945.2,1708787975123.9,24.35,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Daerah,7017741696945.2,2480798736791.9,35.35,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Daerah,7017741696945.2,2785715634062.4,39.7,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Daerah,7017741696945.2,3298259472933.2,47.0,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Daerah,7017741696945.2,3657957764152.2,52.12,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Daerah,7017741696945.2,4147110168090.2,59.09,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Daerah,7017741696945.2,5051743037162.0,71.99,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Daerah,7017741696945.2,6524664745124.0,92.97,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Daerah,6244095049511.4,123076125450.0,1.97,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Daerah,6244095049511.4,304221914145.0,4.87,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Daerah,6244095049511.4,756307554533.0,12.11,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Daerah,6244095049511.4,1037326154578.8,16.61,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Daerah,6244095049511.4,1505549538449.8,24.11,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Daerah,6244095049511.4,2433603076266.8,38.97,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Daerah,6244095049511.4,2581553036467.8,41.34,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Daerah,6244095049511.4,2953577541512.8,47.3,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Daerah,6244095049511.4,3235038776739.5,51.81,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Daerah,6244095049511.4,4026288223538.5,64.48,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Daerah,6244095049511.4,4557942958045.5,73.0,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Daerah,6244095049511.4,6041051585846.2,96.75,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Daerah,6409283699828.0,170706787043.0,2.66,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Daerah,6409283699828.0,429251608808.0,6.7,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Daerah,6409283699828.0,1138178598241.0,17.76,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Daerah,6409283699828.0,1542615877747.0,24.07,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Daerah,6409283699828.0,2026027480803.0,31.61,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Daerah,6409283699828.0,2526657965046.0,39.42,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Daerah,6409283699828.0,2830764971394.0,44.17,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Daerah,6409283699828.0,3319862992218.8,51.8,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Daerah,6409283699828.0,3442251446260.8,53.71,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Daerah,6409283699828.0,3442251446260.8,53.71,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Daerah,6409283699828.0,3442251446260.8,53.71,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Daerah,6409283699828.0,3442251446260.8,53.71,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Hibah,181986505979.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Hibah,181986505979.0,60200000.0,0.03,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Hibah,181986505979.0,10087797375.0,5.54,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Hibah,181986505979.0,13579827975.0,7.46,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Hibah,181986505979.0,13579827975.0,7.46,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Hibah,181986505979.0,22365031075.0,12.29,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Hibah,181986505979.0,39983770075.0,21.97,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Hibah,181986505979.0,51056936441.0,28.06,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Hibah,181986505979.0,57617133091.0,31.66,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Hibah,181986505979.0,68349186016.0,37.56,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Hibah,181986505979.0,80192377153.0,44.07,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Hibah,181986505979.0,247052275869.0,135.75,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Hibah,328202803569.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Hibah,328202803569.0,1750000000.0,0.53,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Hibah,328202803569.0,4843324519.0,1.48,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Hibah,328202803569.0,20424387461.0,6.22,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Hibah,328202803569.0,32696838686.0,9.96,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Hibah,328202803569.0,156928250470.0,47.81,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Hibah,328202803569.0,157405455639.0,47.96,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Hibah,328202803569.0,165540364889.0,50.44,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Hibah,328202803569.0,171337866089.0,52.2,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Hibah,328202803569.0,209110193609.0,63.71,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Hibah,328202803569.0,232288912609.0,70.78,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Hibah,328202803569.0,317914266876.0,96.87,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Hibah,161269439604.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Hibah,161269439604.0,1400000000.0,0.87,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Hibah,161269439604.0,3518943000.0,2.18,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Hibah,161269439604.0,5467686400.0,3.39,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Hibah,161269439604.0,8437291400.0,5.23,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Hibah,161269439604.0,54027126400.0,33.5,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Hibah,161269439604.0,22441744381.0,13.92,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Hibah,161269439604.0,26564781681.0,16.47,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Hibah,161269439604.0,27398861681.0,16.99,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Hibah,161269439604.0,51816028515.0,32.13,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Hibah,161269439604.0,72083866515.0,44.7,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Hibah,161269439604.0,152680139286.0,94.67,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Hibah,164851367801.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Hibah,164851367801.0,1155000000.0,0.7,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Hibah,164851367801.0,48158965000.0,29.21,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Hibah,164851367801.0,50455103700.0,30.61,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Hibah,164851367801.0,57570140000.0,34.92,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Hibah,164851367801.0,65001310000.0,39.43,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Hibah,164851367801.0,86028750000.0,52.19,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Hibah,164851367801.0,88643867400.0,53.77,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Hibah,164851367801.0,90504743700.0,54.9,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Hibah,164851367801.0,90504743700.0,54.9,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Hibah,164851367801.0,90504743700.0,54.9,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Hibah,164851367801.0,90504743700.0,54.9,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Lainnya,1390743223632.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Lainnya,1390743223632.0,60200000.0,0.0,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Lainnya,1390743223632.0,10087797375.0,0.73,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Lainnya,1390743223632.0,166699015202.0,11.99,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Lainnya,1390743223632.0,166699015202.0,11.99,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Lainnya,1390743223632.0,180134218302.0,12.95,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Lainnya,1390743223632.0,261126793839.0,18.78,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Lainnya,1390743223632.0,410513736780.0,29.52,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Lainnya,1390743223632.0,443807058366.0,31.91,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Lainnya,1390743223632.0,456583262291.0,32.83,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Lainnya,1390743223632.0,537471984888.0,38.65,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Lainnya,1390743223632.0,1067899559373.0,76.79,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Lainnya,1637506076367.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Lainnya,1637506076367.0,1750000000.0,0.11,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Lainnya,1637506076367.0,4843324519.0,0.3,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Lainnya,1637506076367.0,22636730664.3,1.38,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Lainnya,1637506076367.0,338651922006.3,20.68,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Lainnya,1637506076367.0,463463381374.3,28.3,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Lainnya,1637506076367.0,583751395088.76,35.65,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Lainnya,1637506076367.0,676441520094.76,41.31,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Lainnya,1637506076367.0,701441962194.76,42.84,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Lainnya,1637506076367.0,822667893948.76,50.24,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Lainnya,1637506076367.0,1206656461069.8,73.69,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Lainnya,1637506076367.0,1464685759347.8,89.45,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Lainnya,1065510080972.5,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Lainnya,1065510080972.5,1400000000.0,0.13,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Lainnya,1065510080972.5,3518943000.0,0.33,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Lainnya,1065510080972.5,13277185100.0,1.25,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Lainnya,1065510080972.5,141648407850.0,13.29,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Lainnya,1065510080972.5,309467191298.0,29.04,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Lainnya,1065510080972.5,294555010950.0,27.64,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Lainnya,1065510080972.5,369080235487.0,34.64,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Lainnya,1065510080972.5,370156757649.0,34.74,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Lainnya,1065510080972.5,826256132671.0,77.55,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Lainnya,1065510080972.5,853523970671.0,80.1,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Lainnya,1065510080972.5,1083171441817.0,101.66,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Lainnya,1309910716186.8,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Lainnya,1309910716186.8,1155000000.0,0.09,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Lainnya,1309910716186.8,49979521436.0,3.82,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Lainnya,1309910716186.8,152591657596.0,11.65,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Lainnya,1309910716186.8,292898640133.0,22.36,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Lainnya,1309910716186.8,301736990864.0,23.03,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Lainnya,1309910716186.8,323336219942.0,24.68,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Lainnya,1309910716186.8,549274148001.75,41.93,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Lainnya,1309910716186.8,551135024301.75,42.07,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Lainnya,1309910716186.8,551135024301.75,42.07,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Lainnya,1309910716186.8,551135024301.75,42.07,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Lainnya,1309910716186.8,551135024301.75,42.07,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Modal,1037235695015.0,641961008.0,0.06,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Modal,1037235695015.0,7138441216.0,0.69,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Modal,1037235695015.0,12481365623.0,1.2,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Modal,1037235695015.0,34669146779.0,3.34,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Modal,1037235695015.0,34669146779.0,3.34,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Modal,1037235695015.0,90736185898.0,8.75,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Modal,1037235695015.0,163091381047.0,15.72,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Modal,1037235695015.0,243758255573.0,23.5,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Modal,1037235695015.0,308425953525.0,29.74,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Modal,1037235695015.0,404132066469.0,38.96,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Modal,1037235695015.0,502801993575.0,48.48,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Modal,1037235695015.0,959129374754.0,92.47,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Modal,856550234585.0,628894600.0,0.07,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Modal,856550234585.0,2702919906.0,0.32,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Modal,856550234585.0,18249981666.0,2.13,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Modal,856550234585.0,37587667324.0,4.39,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Modal,856550234585.0,71725495242.0,8.37,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Modal,856550234585.0,151172990542.0,17.65,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Modal,856550234585.0,144223975449.0,16.84,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Modal,856550234585.0,216960191244.0,25.33,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Modal,856550234585.0,270160305260.0,31.54,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Modal,856550234585.0,340534404330.0,39.76,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Modal,856550234585.0,438354348018.04,51.18,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Modal,856550234585.0,765506194874.35,89.37,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Modal,769619216491.28,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Modal,769619216491.28,216142400.0,0.03,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Modal,769619216491.28,27162127459.0,3.53,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Modal,769619216491.28,36353361287.0,4.72,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Modal,769619216491.28,62922494132.0,8.18,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Modal,769619216491.28,132124331207.0,17.17,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Modal,769619216491.28,168347205772.0,21.87,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Modal,769619216491.28,215416944017.0,27.99,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Modal,769619216491.28,251898751496.76,32.73,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Modal,769619216491.28,307448107805.76,39.95,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Modal,769619216491.28,389067382328.76,50.55,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Modal,769619216491.28,719602262636.13,93.5,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Modal,471124172901.8,854636082.0,0.18,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Modal,471124172901.8,1573811032.0,0.33,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Modal,471124172901.8,2510691410.0,0.53,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Modal,471124172901.8,14124421529.0,3.0,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Modal,471124172901.8,23366101000.0,4.96,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Modal,471124172901.8,42622660495.0,9.05,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Modal,471124172901.8,79178877848.0,16.81,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Modal,471124172901.8,134150680231.0,28.47,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Modal,471124172901.8,137512268135.0,29.19,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Modal,471124172901.8,137512268135.0,29.19,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Modal,471124172901.8,137512268135.0,29.19,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Modal,471124172901.8,137512268135.0,29.19,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Pegawai,2324767027090.0,92587639572.0,3.98,False,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Pegawai,2324767027090.0,186185863100.0,8.01,False,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Pegawai,2324767027090.0,316939281651.0,13.63,False,False
+Sumatera Barat,3,2023,4,April,4,Belanja Pegawai,2324767027090.0,552819134919.0,23.78,False,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Pegawai,2324767027090.0,552819134919.0,23.78,False,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Pegawai,2324767027090.0,805550444221.0,34.65,False,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Pegawai,2324767027090.0,937935324197.0,40.35,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Pegawai,2324767027090.0,1168063885297.0,50.24,False,False
+Sumatera Barat,3,2023,9,September,9,Belanja Pegawai,2324767027090.0,1306213612788.0,56.19,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Pegawai,2324767027090.0,1434359338696.0,61.7,False,False
+Sumatera Barat,3,2023,11,November,11,Belanja Pegawai,2324767027090.0,1692616334366.0,72.81,False,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Pegawai,2324767027090.0,1969869374248.0,84.73,False,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Pegawai,2588514014191.2,98134168118.0,3.79,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Pegawai,2588514014191.2,211691121520.0,8.18,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Pegawai,2588514014191.2,393009765194.0,15.18,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Pegawai,2588514014191.2,677598556104.0,26.18,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Pegawai,2588514014191.2,880448640274.0,34.01,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Pegawai,2588514014191.2,1203245085138.0,46.48,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Pegawai,2588514014191.2,1391123256825.0,53.74,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Pegawai,2588514014191.2,1613331680643.0,62.33,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Pegawai,2588514014191.2,1774082119058.0,68.54,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Pegawai,2588514014191.2,1934662085324.0,74.74,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Pegawai,2588514014191.2,2171580443867.0,83.89,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Pegawai,2588514014191.2,2490554904931.0,96.22,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Pegawai,2680893600943.0,104663717992.0,3.9,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Pegawai,2680893600943.0,240235541758.0,8.96,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Pegawai,2680893600943.0,550118162522.0,20.52,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Pegawai,2680893600943.0,731496130941.0,27.29,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Pegawai,2680893600943.0,951745980693.0,35.5,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Pegawai,2680893600943.0,1398912919491.0,52.18,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Pegawai,2680893600943.0,1549904124233.0,57.81,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Pegawai,2680893600943.0,1693991155884.0,63.19,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Pegawai,2680893600943.0,1838979947610.0,68.6,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Pegawai,2680893600943.0,1980448861568.0,73.87,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Pegawai,2680893600943.0,2234648429738.0,83.35,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Pegawai,2680893600943.0,2597123147451.8,96.88,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Pegawai,2760186902938.0,139717397425.0,5.06,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Pegawai,2760186902938.0,324984851267.0,11.77,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Pegawai,2760186902938.0,695619230382.0,25.2,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Pegawai,2760186902938.0,890669108977.0,32.27,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Pegawai,2760186902938.0,1072411900971.0,38.85,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Pegawai,2760186902938.0,1438044164659.0,52.1,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Pegawai,2760186902938.0,1587945245164.0,57.53,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Pegawai,2760186902938.0,1721643097253.0,62.37,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Pegawai,2760186902938.0,1825237239925.0,66.13,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Pegawai,2760186902938.0,1825237239925.0,66.13,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Pegawai,2760186902938.0,1825237239925.0,66.13,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Pegawai,2760186902938.0,1825237239925.0,66.13,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,4,April,4,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,9,September,9,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,11,November,11,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Subsidi,6500000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Subsidi,1500000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Subsidi,1500000000.0,148664657.0,9.91,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Subsidi,1500000000.0,148664657.0,9.91,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Subsidi,1500000000.0,288379493.0,19.23,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Subsidi,1500000000.0,805214049.0,53.68,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Subsidi,1500000000.0,1210859680.0,80.72,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Subsidi,1500000000.0,1500000000.0,100.0,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Subsidi,1125000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Subsidi,1125000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Subsidi,1125000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Subsidi,1125000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Subsidi,1125000000.0,39965169.0,3.55,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Subsidi,1125000000.0,105946870.0,9.42,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Subsidi,1125000000.0,410720981.0,36.51,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Subsidi,1125000000.0,659651739.0,58.64,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Subsidi,1125000000.0,902093901.0,80.19,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Subsidi,1125000000.0,1124442040.0,99.95,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Subsidi,1125000000.0,1124442040.0,99.95,False,True
+Sumatera Barat,3,2025,12,Desember,36,Belanja Subsidi,1125000000.0,1124442040.0,99.95,False,True
+Sumatera Barat,3,2026,1,Januari,37,Belanja Subsidi,3172545035.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Subsidi,3172545035.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Subsidi,3172545035.0,20556436.0,0.65,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Subsidi,3172545035.0,34431500.0,1.09,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Subsidi,3172545035.0,34431500.0,1.09,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Subsidi,3172545035.0,41612231.0,1.31,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Subsidi,3172545035.0,63401309.0,2.0,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Subsidi,3172545035.0,79845397.0,2.52,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Subsidi,3172545035.0,79845397.0,2.52,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Subsidi,3172545035.0,79845397.0,2.52,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Subsidi,3172545035.0,79845397.0,2.52,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Subsidi,3172545035.0,79845397.0,2.52,False,True
+Sumatera Barat,3,2023,1,Januari,1,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,2,Februari,2,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,3,Maret,3,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,4,April,4,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,5,Mei,5,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,6,Juni,6,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,7,Juli,7,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,8,Agustus,8,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,9,September,9,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,10,Oktober,10,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,11,November,11,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2023,12,Desember,12,Belanja Tidak Terduga,70000000000.0,0.0,0.0,True,False
+Sumatera Barat,3,2024,1,Januari,13,Belanja Tidak Terduga,10487887909.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Belanja Tidak Terduga,10487887909.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Belanja Tidak Terduga,10487887909.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,4,April,16,Belanja Tidak Terduga,10487887909.0,2212343203.3,21.09,False,False
+Sumatera Barat,3,2024,5,Mei,17,Belanja Tidak Terduga,10487887909.0,4854052687.3,46.28,False,False
+Sumatera Barat,3,2024,6,Juni,18,Belanja Tidak Terduga,10487887909.0,5434100271.3,51.81,False,False
+Sumatera Barat,3,2024,7,Juli,19,Belanja Tidak Terduga,10487887909.0,5233873141.3,49.9,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Belanja Tidak Terduga,10487887909.0,5246030811.3,50.02,False,False
+Sumatera Barat,3,2024,9,September,21,Belanja Tidak Terduga,10487887909.0,5246030811.3,50.02,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Belanja Tidak Terduga,10487887909.0,5246030811.3,50.02,False,False
+Sumatera Barat,3,2024,11,November,23,Belanja Tidak Terduga,10487887909.0,5246030811.3,50.02,False,False
+Sumatera Barat,3,2024,12,Desember,24,Belanja Tidak Terduga,10487887909.0,5222259811.3,49.79,False,False
+Sumatera Barat,3,2025,1,Januari,25,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,4,April,28,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,5,Mei,29,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,6,Juni,30,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,7,Juli,31,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,9,September,33,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,11,November,35,Belanja Tidak Terduga,5000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,12,Desember,36,Belanja Tidak Terduga,5000000000.0,7122821563.0,142.46,False,False
+Sumatera Barat,3,2026,1,Januari,37,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,3,Maret,39,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,4,April,40,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,5,Mei,41,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,6,Juni,42,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,7,Juli,43,Belanja Tidak Terduga,25000000000.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Belanja Tidak Terduga,25000000000.0,50639334.75,0.2,False,False
+Sumatera Barat,3,2026,9,September,45,Belanja Tidak Terduga,25000000000.0,50639334.75,0.2,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Belanja Tidak Terduga,25000000000.0,50639334.75,0.2,False,True
+Sumatera Barat,3,2026,11,November,47,Belanja Tidak Terduga,25000000000.0,50639334.75,0.2,False,True
+Sumatera Barat,3,2026,12,Desember,48,Belanja Tidak Terduga,25000000000.0,50639334.75,0.2,False,True
+Sumatera Barat,3,2025,1,Januari,25,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,4,April,28,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,5,Mei,29,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,6,Juni,30,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,7,Juli,31,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,9,September,33,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,11,November,35,Dana Darurat,0.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,12,Desember,36,Dana Darurat,0.0,20000000000.0,0.0,False,False
+Sumatera Barat,3,2023,1,Januari,1,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,2,Februari,2,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,3,Maret,3,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,3143204183.0,2.71,False,False
+Sumatera Barat,3,2023,4,April,4,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,108489923888.0,93.58,False,False
+Sumatera Barat,3,2023,5,Mei,5,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,108489923888.0,93.58,False,False
+Sumatera Barat,3,2023,6,Juni,6,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,108489923888.0,93.58,False,False
+Sumatera Barat,3,2023,7,Juli,7,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,True
+Sumatera Barat,3,2023,9,September,9,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,True
+Sumatera Barat,3,2023,10,Oktober,10,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,True
+Sumatera Barat,3,2023,11,November,11,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,True
+Sumatera Barat,3,2023,12,Desember,12,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,115937386402.0,117084599941.0,100.99,False,True
+Sumatera Barat,3,2024,1,Januari,13,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,4,April,16,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,False
+Sumatera Barat,3,2024,5,Mei,17,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,6,Juni,18,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,7,Juli,19,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,8,Agustus,20,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,9,September,21,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,10,Oktober,22,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,11,November,23,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2024,12,Desember,24,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,129624977090.0,122018602181.0,94.13,False,True
+Sumatera Barat,3,2025,1,Januari,25,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,122188355229.0,87.48,False,False
+Sumatera Barat,3,2025,4,April,28,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,False
+Sumatera Barat,3,2025,5,Mei,29,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,6,Juni,30,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,7,Juli,31,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,8,Agustus,32,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,9,September,33,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,10,Oktober,34,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,11,November,35,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2025,12,Desember,36,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,139682145880.0,126838893909.0,90.81,False,True
+Sumatera Barat,3,2026,1,Januari,37,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,0.0,0.0,False,False
+Sumatera Barat,3,2026,3,Maret,39,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,110415754634.0,75.49,False,False
+Sumatera Barat,3,2026,4,April,40,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,False
+Sumatera Barat,3,2026,5,Mei,41,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,6,Juni,42,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,7,Juli,43,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,8,Agustus,44,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,9,September,45,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,11,November,47,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2026,12,Desember,48,Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan,146263862994.0,116153903038.0,79.41,False,True
+Sumatera Barat,3,2023,1,Januari,1,Lain-Lain PAD yang Sah,484024390315.0,22280605330.39,4.6,False,False
+Sumatera Barat,3,2023,2,Februari,2,Lain-Lain PAD yang Sah,484024390315.0,41909984349.28,8.66,False,False
+Sumatera Barat,3,2023,3,Maret,3,Lain-Lain PAD yang Sah,484024390315.0,77837520409.27,16.08,False,False
+Sumatera Barat,3,2023,4,April,4,Lain-Lain PAD yang Sah,484024390315.0,112250466363.3,23.19,False,False
+Sumatera Barat,3,2023,5,Mei,5,Lain-Lain PAD yang Sah,484024390315.0,112250466363.3,23.19,False,False
+Sumatera Barat,3,2023,6,Juni,6,Lain-Lain PAD yang Sah,484024390315.0,128367543907.13,26.52,False,False
+Sumatera Barat,3,2023,7,Juli,7,Lain-Lain PAD yang Sah,484024390315.0,186570651647.09,38.55,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Lain-Lain PAD yang Sah,484024390315.0,229879515677.46,47.49,False,False
+Sumatera Barat,3,2023,9,September,9,Lain-Lain PAD yang Sah,484024390315.0,252233539628.18,52.11,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Lain-Lain PAD yang Sah,484024390315.0,295358704479.05,61.02,False,False
+Sumatera Barat,3,2023,11,November,11,Lain-Lain PAD yang Sah,484024390315.0,330236998516.04,68.23,False,False
+Sumatera Barat,3,2023,12,Desember,12,Lain-Lain PAD yang Sah,484024390315.0,384911687098.02,79.52,False,False
+Sumatera Barat,3,2024,1,Januari,13,Lain-Lain PAD yang Sah,105413158411.0,3876628752.9,3.68,False,False
+Sumatera Barat,3,2024,2,Februari,14,Lain-Lain PAD yang Sah,105413158411.0,8028445909.9,7.62,False,False
+Sumatera Barat,3,2024,3,Maret,15,Lain-Lain PAD yang Sah,105413158411.0,12044600987.06,11.43,False,False
+Sumatera Barat,3,2024,4,April,16,Lain-Lain PAD yang Sah,105413158411.0,16514887834.91,15.67,False,False
+Sumatera Barat,3,2024,5,Mei,17,Lain-Lain PAD yang Sah,105413158411.0,21870753476.39,20.75,False,False
+Sumatera Barat,3,2024,6,Juni,18,Lain-Lain PAD yang Sah,105413158411.0,28359166051.42,26.9,False,False
+Sumatera Barat,3,2024,7,Juli,19,Lain-Lain PAD yang Sah,105413158411.0,34478127309.92,32.71,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Lain-Lain PAD yang Sah,105413158411.0,47307518670.96,44.88,False,False
+Sumatera Barat,3,2024,9,September,21,Lain-Lain PAD yang Sah,105413158411.0,53780599001.61,51.02,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Lain-Lain PAD yang Sah,105413158411.0,56183259784.21,53.3,False,False
+Sumatera Barat,3,2024,11,November,23,Lain-Lain PAD yang Sah,105413158411.0,77212303531.45,73.25,False,False
+Sumatera Barat,3,2024,12,Desember,24,Lain-Lain PAD yang Sah,105413158411.0,100125157329.71,94.98,False,False
+Sumatera Barat,3,2025,1,Januari,25,Lain-Lain PAD yang Sah,162665402244.0,6126827955.34,3.77,False,False
+Sumatera Barat,3,2025,2,Februari,26,Lain-Lain PAD yang Sah,162665402244.0,9883538863.23,6.08,False,False
+Sumatera Barat,3,2025,3,Maret,27,Lain-Lain PAD yang Sah,162665402244.0,13723600763.0,8.44,False,False
+Sumatera Barat,3,2025,4,April,28,Lain-Lain PAD yang Sah,162665402244.0,40527640268.2,24.91,False,False
+Sumatera Barat,3,2025,5,Mei,29,Lain-Lain PAD yang Sah,162665402244.0,46053128066.95,28.31,False,False
+Sumatera Barat,3,2025,6,Juni,30,Lain-Lain PAD yang Sah,162665402244.0,78313124726.6,48.14,False,False
+Sumatera Barat,3,2025,7,Juli,31,Lain-Lain PAD yang Sah,162665402244.0,84412333596.83,51.89,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Lain-Lain PAD yang Sah,162665402244.0,89081416001.22,54.76,False,False
+Sumatera Barat,3,2025,9,September,33,Lain-Lain PAD yang Sah,162665402244.0,101971451213.28,62.69,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Lain-Lain PAD yang Sah,162665402244.0,116904417665.4,71.87,False,False
+Sumatera Barat,3,2025,11,November,35,Lain-Lain PAD yang Sah,162665402244.0,121108094806.41,74.45,False,False
+Sumatera Barat,3,2025,12,Desember,36,Lain-Lain PAD yang Sah,162665402244.0,140661929667.26,86.47,False,False
+Sumatera Barat,3,2026,1,Januari,37,Lain-Lain PAD yang Sah,163013214040.0,4761700031.76,2.92,False,False
+Sumatera Barat,3,2026,2,Februari,38,Lain-Lain PAD yang Sah,163013214040.0,9525823303.85,5.84,False,False
+Sumatera Barat,3,2026,3,Maret,39,Lain-Lain PAD yang Sah,163013214040.0,14666678950.59,9.0,False,False
+Sumatera Barat,3,2026,4,April,40,Lain-Lain PAD yang Sah,163013214040.0,22417641752.63,13.75,False,False
+Sumatera Barat,3,2026,5,Mei,41,Lain-Lain PAD yang Sah,163013214040.0,31933252083.47,19.59,False,False
+Sumatera Barat,3,2026,6,Juni,42,Lain-Lain PAD yang Sah,163013214040.0,38163198241.47,23.41,False,False
+Sumatera Barat,3,2026,7,Juli,43,Lain-Lain PAD yang Sah,163013214040.0,46767039719.47,28.69,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Lain-Lain PAD yang Sah,163013214040.0,52318861444.47,32.09,False,False
+Sumatera Barat,3,2026,9,September,45,Lain-Lain PAD yang Sah,163013214040.0,56087931331.47,34.41,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Lain-Lain PAD yang Sah,163013214040.0,56087931331.47,34.41,False,True
+Sumatera Barat,3,2026,11,November,47,Lain-Lain PAD yang Sah,163013214040.0,56087931331.47,34.41,False,True
+Sumatera Barat,3,2026,12,Desember,48,Lain-Lain PAD yang Sah,163013214040.0,56087931331.47,34.41,False,True
+Sumatera Barat,3,2023,1,Januari,1,PAD,3030460024217.0,183947223440.39,6.07,False,False
+Sumatera Barat,3,2023,2,Februari,2,PAD,3030460024217.0,349833435049.28,11.54,False,False
+Sumatera Barat,3,2023,3,Maret,3,PAD,3030460024217.0,537344729356.27,17.73,False,False
+Sumatera Barat,3,2023,4,April,4,PAD,3030460024217.0,980901104241.3,32.37,False,False
+Sumatera Barat,3,2023,5,Mei,5,PAD,3030460024217.0,980901104241.3,32.37,False,False
+Sumatera Barat,3,2023,6,Juni,6,PAD,3030460024217.0,1135158890696.1,37.46,False,False
+Sumatera Barat,3,2023,7,Juli,7,PAD,3030460024217.0,1448843441195.1,47.81,False,False
+Sumatera Barat,3,2023,8,Agustus,8,PAD,3030460024217.0,1648697105745.5,54.4,False,False
+Sumatera Barat,3,2023,9,September,9,PAD,3030460024217.0,1837724826860.2,60.64,False,False
+Sumatera Barat,3,2023,10,Oktober,10,PAD,3030460024217.0,2115736106590.1,69.82,False,False
+Sumatera Barat,3,2023,11,November,11,PAD,3030460024217.0,2302111291256.0,75.97,False,False
+Sumatera Barat,3,2023,12,Desember,12,PAD,3030460024217.0,2596583642391.0,85.68,False,False
+Sumatera Barat,3,2024,1,Januari,13,PAD,3342769899590.0,191561251050.9,5.73,False,False
+Sumatera Barat,3,2024,2,Februari,14,PAD,3342769899590.0,340356546925.9,10.18,False,False
+Sumatera Barat,3,2024,3,Maret,15,PAD,3342769899590.0,509609834708.06,15.25,False,False
+Sumatera Barat,3,2024,4,April,16,PAD,3342769899590.0,980613466295.91,29.34,False,False
+Sumatera Barat,3,2024,5,Mei,17,PAD,3342769899590.0,1176505708907.4,35.2,False,False
+Sumatera Barat,3,2024,6,Juni,18,PAD,3342769899590.0,1351261537071.9,40.42,False,False
+Sumatera Barat,3,2024,7,Juli,19,PAD,3342769899590.0,1661181833914.3,49.69,False,False
+Sumatera Barat,3,2024,8,Agustus,20,PAD,3342769899590.0,1864037691039.3,55.76,False,False
+Sumatera Barat,3,2024,9,September,21,PAD,3342769899590.0,2071626096778.0,61.97,False,False
+Sumatera Barat,3,2024,10,Oktober,22,PAD,3342769899590.0,2386155960364.2,71.38,False,False
+Sumatera Barat,3,2024,11,November,23,PAD,3342769899590.0,2582907677408.1,77.27,False,False
+Sumatera Barat,3,2024,12,Desember,24,PAD,3342769899590.0,2942563617866.2,88.03,False,False
+Sumatera Barat,3,2025,1,Januari,25,PAD,2807443163516.0,139470094908.34,4.97,False,False
+Sumatera Barat,3,2025,2,Februari,26,PAD,2807443163516.0,274043246254.9,9.76,False,False
+Sumatera Barat,3,2025,3,Maret,27,PAD,2807443163516.0,567348273063.96,20.21,False,False
+Sumatera Barat,3,2025,4,April,28,PAD,2807443163516.0,915338958918.66,32.6,False,False
+Sumatera Barat,3,2025,5,Mei,29,PAD,2807443163516.0,1079980999249.0,38.47,False,False
+Sumatera Barat,3,2025,6,Juni,30,PAD,2807443163516.0,1280947269476.8,45.63,False,False
+Sumatera Barat,3,2025,7,Juli,31,PAD,2807443163516.0,1583532170363.6,56.4,False,False
+Sumatera Barat,3,2025,8,Agustus,32,PAD,2807443163516.0,1782542805654.3,63.49,False,False
+Sumatera Barat,3,2025,9,September,33,PAD,2807443163516.0,1981133666451.7,70.57,False,False
+Sumatera Barat,3,2025,10,Oktober,34,PAD,2807443163516.0,2280814601543.2,81.24,False,False
+Sumatera Barat,3,2025,11,November,35,PAD,2807443163516.0,2463652948741.2,87.75,False,False
+Sumatera Barat,3,2025,12,Desember,36,PAD,2807443163516.0,2763868829028.6,98.45,False,False
+Sumatera Barat,3,2026,1,Januari,37,PAD,3512798562828.0,179422635164.09,5.11,False,False
+Sumatera Barat,3,2026,2,Februari,38,PAD,3512798562828.0,346743960015.86,9.87,False,False
+Sumatera Barat,3,2026,3,Maret,39,PAD,3512798562828.0,649131744271.83,18.48,False,False
+Sumatera Barat,3,2026,4,April,40,PAD,3512798562828.0,1008397350571.6,28.71,False,False
+Sumatera Barat,3,2026,5,Mei,41,PAD,3512798562828.0,1180945875882.9,33.62,False,False
+Sumatera Barat,3,2026,6,Juni,42,PAD,3512798562828.0,1385557049291.4,39.44,False,False
+Sumatera Barat,3,2026,7,Juli,43,PAD,3512798562828.0,1647991958528.4,46.91,False,False
+Sumatera Barat,3,2026,8,Agustus,44,PAD,3512798562828.0,1790988194068.4,50.98,False,False
+Sumatera Barat,3,2026,9,September,45,PAD,3512798562828.0,1799540747560.4,51.23,False,False
+Sumatera Barat,3,2026,10,Oktober,46,PAD,3512798562828.0,1799540747560.4,51.23,False,True
+Sumatera Barat,3,2026,11,November,47,PAD,3512798562828.0,1799540747560.4,51.23,False,True
+Sumatera Barat,3,2026,12,Desember,48,PAD,3512798562828.0,1799540747560.4,51.23,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pajak Daerah,2407806737844.0,160769152000.0,6.68,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pajak Daerah,2407806737844.0,305959720475.0,12.71,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pajak Daerah,2407806737844.0,453536718649.0,18.84,False,False
+Sumatera Barat,3,2023,4,April,4,Pajak Daerah,2407806737844.0,756386870166.0,31.41,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pajak Daerah,2407806737844.0,756386870166.0,31.41,False,False
+Sumatera Barat,3,2023,6,Juni,6,Pajak Daerah,2407806737844.0,893319438842.0,37.1,False,False
+Sumatera Barat,3,2023,7,Juli,7,Pajak Daerah,2407806737844.0,1138775861693.0,47.3,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Pajak Daerah,2407806737844.0,1294094718773.0,53.75,False,False
+Sumatera Barat,3,2023,9,September,9,Pajak Daerah,2407806737844.0,1459432121047.0,60.61,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Pajak Daerah,2407806737844.0,1692945964442.0,70.31,False,False
+Sumatera Barat,3,2023,11,November,11,Pajak Daerah,2407806737844.0,1842456227851.0,76.52,False,False
+Sumatera Barat,3,2023,12,Desember,12,Pajak Daerah,2407806737844.0,2079660400458.0,86.37,False,False
+Sumatera Barat,3,2024,1,Januari,13,Pajak Daerah,2693451041456.0,152002651566.0,5.64,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pajak Daerah,2693451041456.0,281333671254.0,10.45,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pajak Daerah,2693451041456.0,420032692372.0,15.59,False,False
+Sumatera Barat,3,2024,4,April,16,Pajak Daerah,2693451041456.0,727708843854.0,27.02,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pajak Daerah,2693451041456.0,888802686866.0,33.0,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pajak Daerah,2693451041456.0,1036221923786.0,38.47,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pajak Daerah,2693451041456.0,1290180364079.0,47.9,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pajak Daerah,2693451041456.0,1453274022436.0,53.96,False,False
+Sumatera Barat,3,2024,9,September,21,Pajak Daerah,2693451041456.0,1630514746236.0,60.54,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pajak Daerah,2693451041456.0,1901460495260.0,70.6,False,False
+Sumatera Barat,3,2024,11,November,23,Pajak Daerah,2693451041456.0,2056461213149.0,76.35,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pajak Daerah,2693451041456.0,2338112925264.0,86.81,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pajak Daerah,2118471018085.0,109853985353.0,5.19,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pajak Daerah,2118471018085.0,209048876068.5,9.87,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pajak Daerah,2118471018085.0,345752229360.5,16.32,False,False
+Sumatera Barat,3,2025,4,April,28,Pajak Daerah,2118471018085.0,632533936545.5,29.86,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pajak Daerah,2118471018085.0,758735516120.5,35.82,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pajak Daerah,2118471018085.0,892007922656.5,42.11,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pajak Daerah,2118471018085.0,1149341171547.5,54.25,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pajak Daerah,2118471018085.0,1316763042529.5,62.16,False,False
+Sumatera Barat,3,2025,9,September,33,Pajak Daerah,2118471018085.0,1453012045431.5,68.59,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pajak Daerah,2118471018085.0,1696998104543.5,80.1,False,False
+Sumatera Barat,3,2025,11,November,35,Pajak Daerah,2118471018085.0,1833596631641.5,86.55,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pajak Daerah,2118471018085.0,2056281596209.8,97.06,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pajak Daerah,2785517480377.0,140949915819.0,5.06,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pajak Daerah,2785517480377.0,277110680299.0,9.95,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pajak Daerah,2785517480377.0,408377972672.0,14.66,False,False
+Sumatera Barat,3,2026,4,April,40,Pajak Daerah,2785517480377.0,708714445252.0,25.44,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pajak Daerah,2785517480377.0,843480180384.0,30.28,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pajak Daerah,2785517480377.0,993912849188.0,35.68,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pajak Daerah,2785517480377.0,1247322584206.0,44.78,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Pajak Daerah,2785517480377.0,1383681162249.0,49.67,False,False
+Sumatera Barat,3,2026,9,September,45,Pajak Daerah,2785517480377.0,1388437690049.0,49.84,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Pajak Daerah,2785517480377.0,1388437690049.0,49.84,False,True
+Sumatera Barat,3,2026,11,November,47,Pajak Daerah,2785517480377.0,1388437690049.0,49.84,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pajak Daerah,2785517480377.0,1388437690049.0,49.84,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pendapatan Daerah,6459260685217.0,436197037040.39,6.75,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pendapatan Daerah,6459260685217.0,746424775649.28,11.56,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pendapatan Daerah,6459260685217.0,1248305906629.3,19.33,False,False
+Sumatera Barat,3,2023,4,April,4,Pendapatan Daerah,6459260685217.0,1996986175498.3,30.92,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pendapatan Daerah,6459260685217.0,1996986175498.3,30.92,False,False
+Sumatera Barat,3,2023,6,Juni,6,Pendapatan Daerah,6459260685217.0,2481375741903.1,38.42,False,False
+Sumatera Barat,3,2023,7,Juli,7,Pendapatan Daerah,6459260685217.0,3244035536084.1,50.22,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Pendapatan Daerah,6459260685217.0,3638887499034.5,56.34,False,False
+Sumatera Barat,3,2023,9,September,9,Pendapatan Daerah,6459260685217.0,4109047657011.2,63.61,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Pendapatan Daerah,6459260685217.0,4826044088341.1,74.72,False,False
+Sumatera Barat,3,2023,11,November,11,Pendapatan Daerah,6459260685217.0,5193486819941.0,80.4,False,False
+Sumatera Barat,3,2023,12,Desember,12,Pendapatan Daerah,6459260685217.0,5935235653526.0,91.89,False,False
+Sumatera Barat,3,2024,1,Januari,13,Pendapatan Daerah,6857294152520.0,683486159850.9,9.97,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pendapatan Daerah,6857294152520.0,978910736725.9,14.28,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pendapatan Daerah,6857294152520.0,1308360240562.1,19.08,False,False
+Sumatera Barat,3,2024,4,April,16,Pendapatan Daerah,6857294152520.0,2074834932349.9,30.26,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pendapatan Daerah,6857294152520.0,2466426785947.4,35.97,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pendapatan Daerah,6857294152520.0,3024904845205.9,44.11,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pendapatan Daerah,6857294152520.0,3493809789449.3,50.95,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pendapatan Daerah,6857294152520.0,4117517531868.3,60.05,False,False
+Sumatera Barat,3,2024,9,September,21,Pendapatan Daerah,6857294152520.0,4634687459783.0,67.59,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pendapatan Daerah,6857294152520.0,5325147628629.2,77.66,False,False
+Sumatera Barat,3,2024,11,November,23,Pendapatan Daerah,6857294152520.0,5808967324424.2,84.71,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pendapatan Daerah,6857294152520.0,6482418683405.2,94.53,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pendapatan Daerah,6126360095516.0,640850260208.34,10.46,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pendapatan Daerah,6126360095516.0,954194917911.9,15.58,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pendapatan Daerah,6126360095516.0,1418521419179.0,23.15,False,False
+Sumatera Barat,3,2025,4,April,28,Pendapatan Daerah,6126360095516.0,2003329883523.7,32.7,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pendapatan Daerah,6126360095516.0,2424642380454.0,39.58,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pendapatan Daerah,6126360095516.0,2951596375583.8,48.18,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pendapatan Daerah,6126360095516.0,3536430822048.6,57.72,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pendapatan Daerah,6126360095516.0,4046568320584.3,66.05,False,False
+Sumatera Barat,3,2025,9,September,33,Pendapatan Daerah,6126360095516.0,4519281294229.7,73.77,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pendapatan Daerah,6126360095516.0,5046327265619.2,82.37,False,False
+Sumatera Barat,3,2025,11,November,35,Pendapatan Daerah,6126360095516.0,5499551451129.2,89.77,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pendapatan Daerah,6126360095516.0,6207996645654.6,101.33,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pendapatan Daerah,6294222659828.0,734488470205.09,11.67,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pendapatan Daerah,6294222659828.0,1368045325456.9,21.73,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pendapatan Daerah,6294222659828.0,2082213489912.8,33.08,False,False
+Sumatera Barat,3,2026,4,April,40,Pendapatan Daerah,6294222659828.0,2856767296012.6,45.39,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pendapatan Daerah,6294222659828.0,3220162238523.9,51.16,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pendapatan Daerah,6294222659828.0,3341828361532.4,53.09,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pendapatan Daerah,6294222659828.0,3896852351821.4,61.91,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Pendapatan Daerah,6294222659828.0,4264259691402.4,67.75,False,False
+Sumatera Barat,3,2026,9,September,45,Pendapatan Daerah,6294222659828.0,4272812244894.4,67.88,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Pendapatan Daerah,6294222659828.0,4272812244894.4,67.88,False,True
+Sumatera Barat,3,2026,11,November,47,Pendapatan Daerah,6294222659828.0,4272812244894.4,67.88,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pendapatan Daerah,6294222659828.0,4272812244894.4,67.88,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pendapatan Hibah,15972060000.0,144336000.0,0.9,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pendapatan Hibah,15972060000.0,279696000.0,1.75,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pendapatan Hibah,15972060000.0,500703500.0,3.13,False,False
+Sumatera Barat,3,2023,4,April,4,Pendapatan Hibah,15972060000.0,583869500.0,3.66,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pendapatan Hibah,15972060000.0,583869500.0,3.66,False,False
+Sumatera Barat,3,2023,6,Juni,6,Pendapatan Hibah,15972060000.0,1328642000.0,8.32,False,False
+Sumatera Barat,3,2023,7,Juli,7,Pendapatan Hibah,15972060000.0,12402208500.0,77.65,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Pendapatan Hibah,15972060000.0,12519118500.0,78.38,False,False
+Sumatera Barat,3,2023,9,September,9,Pendapatan Hibah,15972060000.0,13270461000.0,83.09,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Pendapatan Hibah,15972060000.0,13597438500.0,85.13,False,False
+Sumatera Barat,3,2023,11,November,11,Pendapatan Hibah,15972060000.0,13902798000.0,87.04,False,False
+Sumatera Barat,3,2023,12,Desember,12,Pendapatan Hibah,15972060000.0,14209615500.0,88.97,False,False
+Sumatera Barat,3,2024,1,Januari,13,Pendapatan Hibah,17024000000.0,121674000.0,0.71,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pendapatan Hibah,17024000000.0,207762000.0,1.22,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pendapatan Hibah,17024000000.0,294900000.0,1.73,False,False
+Sumatera Barat,3,2024,4,April,16,Pendapatan Hibah,17024000000.0,370254000.0,2.17,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pendapatan Hibah,17024000000.0,499128000.0,2.93,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pendapatan Hibah,17024000000.0,501888000.0,2.95,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pendapatan Hibah,17024000000.0,720558000.0,4.23,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pendapatan Hibah,17024000000.0,832446000.0,4.89,False,False
+Sumatera Barat,3,2024,9,September,21,Pendapatan Hibah,17024000000.0,2429052000.0,14.27,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pendapatan Hibah,17024000000.0,3284544000.0,19.29,False,False
+Sumatera Barat,3,2024,11,November,23,Pendapatan Hibah,17024000000.0,3383034000.0,19.87,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pendapatan Hibah,17024000000.0,14294794000.0,83.97,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pendapatan Hibah,17875200000.0,60324000.0,0.34,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pendapatan Hibah,17875200000.0,149256000.0,0.83,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pendapatan Hibah,17875200000.0,279330000.0,1.56,False,False
+Sumatera Barat,3,2025,4,April,28,Pendapatan Hibah,17875200000.0,310176000.0,1.74,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pendapatan Hibah,17875200000.0,391338000.0,2.19,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pendapatan Hibah,17875200000.0,485472000.0,2.72,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pendapatan Hibah,17875200000.0,2065890000.0,11.56,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pendapatan Hibah,17875200000.0,5905949000.0,33.04,False,False
+Sumatera Barat,3,2025,9,September,33,Pendapatan Hibah,17875200000.0,9740518000.0,54.49,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pendapatan Hibah,17875200000.0,13102615000.0,73.3,False,False
+Sumatera Barat,3,2025,11,November,35,Pendapatan Hibah,17875200000.0,13446136000.0,75.22,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pendapatan Hibah,17875200000.0,18851900900.0,105.46,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pendapatan Hibah,31025400000.0,2702438000.0,8.71,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pendapatan Hibah,31025400000.0,2945532000.0,9.49,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pendapatan Hibah,31025400000.0,3048390000.0,9.83,False,False
+Sumatera Barat,3,2026,4,April,40,Pendapatan Hibah,31025400000.0,3174066000.0,10.23,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pendapatan Hibah,31025400000.0,3268134000.0,10.53,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pendapatan Hibah,31025400000.0,3375270000.0,10.88,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pendapatan Hibah,31025400000.0,3482022000.0,11.22,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Pendapatan Hibah,31025400000.0,4559438000.0,14.7,False,False
+Sumatera Barat,3,2026,9,September,45,Pendapatan Hibah,31025400000.0,4559438000.0,14.7,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Pendapatan Hibah,31025400000.0,4559438000.0,14.7,False,True
+Sumatera Barat,3,2026,11,November,47,Pendapatan Hibah,31025400000.0,4559438000.0,14.7,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pendapatan Hibah,31025400000.0,4559438000.0,14.7,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pendapatan Lainnya,43904280000.0,144336000.0,0.33,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pendapatan Lainnya,43904280000.0,279696000.0,0.64,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pendapatan Lainnya,43904280000.0,14597723500.0,33.25,False,False
+Sumatera Barat,3,2023,4,April,4,Pendapatan Lainnya,43904280000.0,28297539500.0,64.45,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pendapatan Lainnya,43904280000.0,28297539500.0,64.45,False,False
+Sumatera Barat,3,2023,6,Juni,6,Pendapatan Lainnya,43904280000.0,29042312000.0,66.15,False,False
+Sumatera Barat,3,2023,7,Juli,7,Pendapatan Lainnya,43904280000.0,40115878500.0,91.37,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Pendapatan Lainnya,43904280000.0,40232788500.0,91.64,False,False
+Sumatera Barat,3,2023,9,September,9,Pendapatan Lainnya,43904280000.0,40984131000.0,93.35,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Pendapatan Lainnya,43904280000.0,41311108500.0,94.09,False,False
+Sumatera Barat,3,2023,11,November,11,Pendapatan Lainnya,43904280000.0,41616468000.0,94.79,False,False
+Sumatera Barat,3,2023,12,Desember,12,Pendapatan Lainnya,43904280000.0,41923285500.0,95.49,False,False
+Sumatera Barat,3,2024,1,Januari,13,Pendapatan Lainnya,47680800000.0,121674000.0,0.26,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pendapatan Lainnya,47680800000.0,207762000.0,0.44,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pendapatan Lainnya,47680800000.0,5898900000.0,12.37,False,False
+Sumatera Barat,3,2024,4,April,16,Pendapatan Lainnya,47680800000.0,5974254000.0,12.53,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pendapatan Lainnya,47680800000.0,24013128000.0,50.36,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pendapatan Lainnya,47680800000.0,26265888000.0,55.09,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pendapatan Lainnya,47680800000.0,28102398000.0,58.94,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pendapatan Lainnya,47680800000.0,28214286000.0,59.17,False,False
+Sumatera Barat,3,2024,9,September,21,Pendapatan Lainnya,47680800000.0,29810892000.0,62.52,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pendapatan Lainnya,47680800000.0,30666384000.0,64.32,False,False
+Sumatera Barat,3,2024,11,November,23,Pendapatan Lainnya,47680800000.0,32382714000.0,67.92,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pendapatan Lainnya,47680800000.0,43539332000.0,91.31,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pendapatan Lainnya,32511440000.0,60324000.0,0.19,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pendapatan Lainnya,32511440000.0,149256000.0,0.46,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pendapatan Lainnya,32511440000.0,279330000.0,0.86,False,False
+Sumatera Barat,3,2025,4,April,28,Pendapatan Lainnya,32511440000.0,310176000.0,0.95,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pendapatan Lainnya,32511440000.0,391338000.0,1.2,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pendapatan Lainnya,32511440000.0,485472000.0,1.49,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pendapatan Lainnya,32511440000.0,6366540000.0,19.58,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pendapatan Lainnya,32511440000.0,10206599000.0,31.39,False,False
+Sumatera Barat,3,2025,9,September,33,Pendapatan Lainnya,32511440000.0,14041168000.0,43.19,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pendapatan Lainnya,32511440000.0,17403265000.0,53.53,False,False
+Sumatera Barat,3,2025,11,November,35,Pendapatan Lainnya,32511440000.0,23581726000.0,72.53,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pendapatan Lainnya,32511440000.0,78627398000.0,241.85,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pendapatan Lainnya,31025400000.0,3002438000.0,9.68,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pendapatan Lainnya,31025400000.0,3245532000.0,10.46,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pendapatan Lainnya,31025400000.0,3448387100.0,11.11,False,False
+Sumatera Barat,3,2026,4,April,40,Pendapatan Lainnya,31025400000.0,3774066000.0,12.16,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pendapatan Lainnya,31025400000.0,7583934000.0,24.44,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pendapatan Lainnya,31025400000.0,9227910000.0,29.74,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pendapatan Lainnya,31025400000.0,9334662000.0,30.09,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Pendapatan Lainnya,31025400000.0,10412078000.0,33.56,False,False
+Sumatera Barat,3,2026,9,September,45,Pendapatan Lainnya,31025400000.0,10412078000.0,33.56,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Pendapatan Lainnya,31025400000.0,10412078000.0,33.56,False,True
+Sumatera Barat,3,2026,11,November,47,Pendapatan Lainnya,31025400000.0,10412078000.0,33.56,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pendapatan Lainnya,31025400000.0,10412078000.0,33.56,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pendapatan Transfer Antar Daerah,27932220000.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pendapatan Transfer Antar Daerah,27932220000.0,0.0,0.0,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pendapatan Transfer Antar Daerah,27932220000.0,14097020000.0,50.47,False,False
+Sumatera Barat,3,2023,4,April,4,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,6,Juni,6,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,7,Juli,7,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,8,Agustus,8,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,9,September,9,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,10,Oktober,10,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,11,November,11,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2023,12,Desember,12,Pendapatan Transfer Antar Daerah,27932220000.0,27713670000.0,99.22,False,True
+Sumatera Barat,3,2024,1,Januari,13,Pendapatan Transfer Antar Daerah,30656800000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pendapatan Transfer Antar Daerah,30656800000.0,0.0,0.0,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pendapatan Transfer Antar Daerah,30656800000.0,5604000000.0,18.28,False,False
+Sumatera Barat,3,2024,4,April,16,Pendapatan Transfer Antar Daerah,30656800000.0,5604000000.0,18.28,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pendapatan Transfer Antar Daerah,30656800000.0,23514000000.0,76.7,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pendapatan Transfer Antar Daerah,30656800000.0,25764000000.0,84.04,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pendapatan Transfer Antar Daerah,30656800000.0,27381840000.0,89.32,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pendapatan Transfer Antar Daerah,30656800000.0,27381840000.0,89.32,False,False
+Sumatera Barat,3,2024,9,September,21,Pendapatan Transfer Antar Daerah,30656800000.0,27381840000.0,89.32,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pendapatan Transfer Antar Daerah,30656800000.0,27381840000.0,89.32,False,False
+Sumatera Barat,3,2024,11,November,23,Pendapatan Transfer Antar Daerah,30656800000.0,28999680000.0,94.59,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pendapatan Transfer Antar Daerah,30656800000.0,29244538000.0,95.39,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,4,April,28,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pendapatan Transfer Antar Daerah,14636240000.0,0.0,0.0,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pendapatan Transfer Antar Daerah,14636240000.0,4300650000.0,29.38,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pendapatan Transfer Antar Daerah,14636240000.0,4300650000.0,29.38,False,False
+Sumatera Barat,3,2025,9,September,33,Pendapatan Transfer Antar Daerah,14636240000.0,4300650000.0,29.38,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pendapatan Transfer Antar Daerah,14636240000.0,4300650000.0,29.38,False,False
+Sumatera Barat,3,2025,11,November,35,Pendapatan Transfer Antar Daerah,14636240000.0,10135590000.0,69.25,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pendapatan Transfer Antar Daerah,14636240000.0,39775497100.0,271.76,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pendapatan Transfer Antar Daerah,0.0,300000000.0,0.0,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pendapatan Transfer Antar Daerah,0.0,300000000.0,0.0,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pendapatan Transfer Antar Daerah,0.0,399997100.0,0.0,False,False
+Sumatera Barat,3,2026,4,April,40,Pendapatan Transfer Antar Daerah,0.0,600000000.0,0.0,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pendapatan Transfer Antar Daerah,0.0,4315800000.0,0.0,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2026,8,Agustus,44,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2026,9,September,45,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2026,11,November,47,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pendapatan Transfer Antar Daerah,0.0,5852640000.0,0.0,False,True
+Sumatera Barat,3,2023,1,Januari,1,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,252105477600.0,7.45,False,False
+Sumatera Barat,3,2023,2,Februari,2,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,396311644600.0,11.71,False,False
+Sumatera Barat,3,2023,3,Maret,3,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,696363453773.0,20.57,False,False
+Sumatera Barat,3,2023,4,April,4,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,987787531757.0,29.18,False,False
+Sumatera Barat,3,2023,5,Mei,5,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,987787531757.0,29.18,False,False
+Sumatera Barat,3,2023,6,Juni,6,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,1317174539207.0,38.91,False,False
+Sumatera Barat,3,2023,7,Juli,7,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,1755076216389.0,51.85,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,1949957604789.0,57.61,False,False
+Sumatera Barat,3,2023,9,September,9,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,2230338699151.0,65.89,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,2668996873251.0,78.85,False,False
+Sumatera Barat,3,2023,11,November,11,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,2849759060685.0,84.19,False,False
+Sumatera Barat,3,2023,12,Desember,12,Pendapatan Transfer Pemerintah Pusat,3384896381000.0,3296728725635.0,97.4,False,False
+Sumatera Barat,3,2024,1,Januari,13,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,491803234800.0,14.19,False,False
+Sumatera Barat,3,2024,2,Februari,14,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,638346427800.0,18.41,False,False
+Sumatera Barat,3,2024,3,Maret,15,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,792851505854.0,22.87,False,False
+Sumatera Barat,3,2024,4,April,16,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,1088247212054.0,31.39,False,False
+Sumatera Barat,3,2024,5,Mei,17,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,1265907949040.0,36.51,False,False
+Sumatera Barat,3,2024,6,Juni,18,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,1647377420134.0,47.52,False,False
+Sumatera Barat,3,2024,7,Juli,19,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,1804525557535.0,52.05,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,2225265554829.0,64.19,False,False
+Sumatera Barat,3,2024,9,September,21,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,2533250471005.0,73.07,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,2908325284265.0,83.89,False,False
+Sumatera Barat,3,2024,11,November,23,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,3193676933016.0,92.12,False,False
+Sumatera Barat,3,2024,12,Desember,24,Pendapatan Transfer Pemerintah Pusat,3466843452930.0,3496315733539.0,100.85,False,False
+Sumatera Barat,3,2025,1,Januari,25,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,501319841300.0,15.25,False,False
+Sumatera Barat,3,2025,2,Februari,26,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,680002415657.0,20.69,False,False
+Sumatera Barat,3,2025,3,Maret,27,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,850893816115.0,25.89,False,False
+Sumatera Barat,3,2025,4,April,28,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,1087680748605.0,33.1,False,False
+Sumatera Barat,3,2025,5,Mei,29,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,1344270043205.0,40.9,False,False
+Sumatera Barat,3,2025,6,Juni,30,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,1670163634107.0,50.82,False,False
+Sumatera Barat,3,2025,7,Juli,31,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,1946532111685.0,59.23,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,2253818915930.0,68.58,False,False
+Sumatera Barat,3,2025,9,September,33,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,2524106459778.0,76.8,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,2748109399076.0,83.62,False,False
+Sumatera Barat,3,2025,11,November,35,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,3012316776388.0,91.66,False,False
+Sumatera Barat,3,2025,12,Desember,36,Pendapatan Transfer Pemerintah Pusat,3286405492000.0,3365500418626.0,102.41,False,False
+Sumatera Barat,3,2026,1,Januari,37,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,552063397041.0,20.07,False,False
+Sumatera Barat,3,2026,2,Februari,38,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,1018055833441.0,37.01,False,False
+Sumatera Barat,3,2026,3,Maret,39,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,1429633358541.0,51.98,False,False
+Sumatera Barat,3,2026,4,April,40,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,1844595879441.0,67.07,False,False
+Sumatera Barat,3,2026,5,Mei,41,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2031632428641.0,73.87,False,False
+Sumatera Barat,3,2026,6,Juni,42,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,1947043402241.0,70.79,False,False
+Sumatera Barat,3,2026,7,Juli,43,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2239525731293.0,81.43,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2462859419334.0,89.55,False,False
+Sumatera Barat,3,2026,9,September,45,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,10,Oktober,46,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,11,November,47,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,12,Desember,48,Pendapatan Transfer Pemerintah Pusat,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2023,1,Januari,1,Retribusi Daerah,22691509656.0,897466110.0,3.96,False,False
+Sumatera Barat,3,2023,2,Februari,2,Retribusi Daerah,22691509656.0,1963730225.0,8.65,False,False
+Sumatera Barat,3,2023,3,Maret,3,Retribusi Daerah,22691509656.0,2827286115.0,12.46,False,False
+Sumatera Barat,3,2023,4,April,4,Retribusi Daerah,22691509656.0,3773843824.0,16.63,False,False
+Sumatera Barat,3,2023,5,Mei,5,Retribusi Daerah,22691509656.0,3773843824.0,16.63,False,False
+Sumatera Barat,3,2023,6,Juni,6,Retribusi Daerah,22691509656.0,4981984059.0,21.96,False,False
+Sumatera Barat,3,2023,7,Juli,7,Retribusi Daerah,22691509656.0,6412327914.0,28.26,False,False
+Sumatera Barat,3,2023,8,Agustus,8,Retribusi Daerah,22691509656.0,7638271354.0,33.66,False,False
+Sumatera Barat,3,2023,9,September,9,Retribusi Daerah,22691509656.0,8974566244.0,39.55,False,False
+Sumatera Barat,3,2023,10,Oktober,10,Retribusi Daerah,22691509656.0,10346837728.0,45.6,False,False
+Sumatera Barat,3,2023,11,November,11,Retribusi Daerah,22691509656.0,12333464948.0,54.35,False,False
+Sumatera Barat,3,2023,12,Desember,12,Retribusi Daerah,22691509656.0,14926954894.0,65.78,False,False
+Sumatera Barat,3,2024,1,Januari,13,Retribusi Daerah,414280722633.0,35681970732.0,8.61,False,False
+Sumatera Barat,3,2024,2,Februari,14,Retribusi Daerah,414280722633.0,50994429762.0,12.31,False,False
+Sumatera Barat,3,2024,3,Maret,15,Retribusi Daerah,414280722633.0,77532541349.0,18.71,False,False
+Sumatera Barat,3,2024,4,April,16,Retribusi Daerah,414280722633.0,114371132426.0,27.61,False,False
+Sumatera Barat,3,2024,5,Mei,17,Retribusi Daerah,414280722633.0,143813666384.0,34.71,False,False
+Sumatera Barat,3,2024,6,Juni,18,Retribusi Daerah,414280722633.0,164661845053.5,39.75,False,False
+Sumatera Barat,3,2024,7,Juli,19,Retribusi Daerah,414280722633.0,214504740344.39,51.78,False,False
+Sumatera Barat,3,2024,8,Agustus,20,Retribusi Daerah,414280722633.0,241437547751.31,58.28,False,False
+Sumatera Barat,3,2024,9,September,21,Retribusi Daerah,414280722633.0,265312149359.41,64.04,False,False
+Sumatera Barat,3,2024,10,Oktober,22,Retribusi Daerah,414280722633.0,306493603138.94,73.98,False,False
+Sumatera Barat,3,2024,11,November,23,Retribusi Daerah,414280722633.0,327215558546.7,78.98,False,False
+Sumatera Barat,3,2024,12,Desember,24,Retribusi Daerah,414280722633.0,382306933091.49,92.28,False,False
+Sumatera Barat,3,2025,1,Januari,25,Retribusi Daerah,386624597307.0,23489281600.0,6.08,False,False
+Sumatera Barat,3,2025,2,Februari,26,Retribusi Daerah,386624597307.0,55110831323.17,14.25,False,False
+Sumatera Barat,3,2025,3,Maret,27,Retribusi Daerah,386624597307.0,85684087711.46,22.16,False,False
+Sumatera Barat,3,2025,4,April,28,Retribusi Daerah,386624597307.0,115438488195.96,29.86,False,False
+Sumatera Barat,3,2025,5,Mei,29,Retribusi Daerah,386624597307.0,148353461152.53,38.37,False,False
+Sumatera Barat,3,2025,6,Juni,30,Retribusi Daerah,386624597307.0,183787328184.66,47.54,False,False
+Sumatera Barat,3,2025,7,Juli,31,Retribusi Daerah,386624597307.0,222939771310.29,57.66,False,False
+Sumatera Barat,3,2025,8,Agustus,32,Retribusi Daerah,386624597307.0,249859453214.59,64.63,False,False
+Sumatera Barat,3,2025,9,September,33,Retribusi Daerah,386624597307.0,299311275897.91,77.42,False,False
+Sumatera Barat,3,2025,10,Oktober,34,Retribusi Daerah,386624597307.0,340073185425.32,87.96,False,False
+Sumatera Barat,3,2025,11,November,35,Retribusi Daerah,386624597307.0,382109328384.31,98.83,False,False
+Sumatera Barat,3,2025,12,Desember,36,Retribusi Daerah,386624597307.0,440086409242.62,113.83,False,False
+Sumatera Barat,3,2026,1,Januari,37,Retribusi Daerah,418004005417.0,33711019313.33,8.06,False,False
+Sumatera Barat,3,2026,2,Februari,38,Retribusi Daerah,418004005417.0,60107456413.01,14.38,False,False
+Sumatera Barat,3,2026,3,Maret,39,Retribusi Daerah,418004005417.0,115671338015.24,27.67,False,False
+Sumatera Barat,3,2026,4,April,40,Retribusi Daerah,418004005417.0,161111360528.99,38.54,False,False
+Sumatera Barat,3,2026,5,Mei,41,Retribusi Daerah,418004005417.0,189378540377.43,45.31,False,False
+Sumatera Barat,3,2026,6,Juni,42,Retribusi Daerah,418004005417.0,237327098823.93,56.78,False,False
+Sumatera Barat,3,2026,7,Juli,43,Retribusi Daerah,418004005417.0,237748431564.93,56.88,False,False
+Sumatera Barat,3,2026,8,Agustus,44,Retribusi Daerah,418004005417.0,238834267336.93,57.14,False,False
+Sumatera Barat,3,2026,9,September,45,Retribusi Daerah,418004005417.0,238861223141.93,57.14,False,False
+Sumatera Barat,3,2026,10,Oktober,46,Retribusi Daerah,418004005417.0,238861223141.93,57.14,False,True
+Sumatera Barat,3,2026,11,November,47,Retribusi Daerah,418004005417.0,238861223141.93,57.14,False,True
+Sumatera Barat,3,2026,12,Desember,48,Retribusi Daerah,418004005417.0,238861223141.93,57.14,False,True
+Sumatera Barat,3,2023,1,Januari,1,TKDD,3384896381000.0,252105477600.0,7.45,False,False
+Sumatera Barat,3,2023,2,Februari,2,TKDD,3384896381000.0,396311644600.0,11.71,False,False
+Sumatera Barat,3,2023,3,Maret,3,TKDD,3384896381000.0,696363453773.0,20.57,False,False
+Sumatera Barat,3,2023,4,April,4,TKDD,3384896381000.0,987787531757.0,29.18,False,False
+Sumatera Barat,3,2023,5,Mei,5,TKDD,3384896381000.0,987787531757.0,29.18,False,False
+Sumatera Barat,3,2023,6,Juni,6,TKDD,3384896381000.0,1317174539207.0,38.91,False,False
+Sumatera Barat,3,2023,7,Juli,7,TKDD,3384896381000.0,1755076216389.0,51.85,False,False
+Sumatera Barat,3,2023,8,Agustus,8,TKDD,3384896381000.0,1949957604789.0,57.61,False,False
+Sumatera Barat,3,2023,9,September,9,TKDD,3384896381000.0,2230338699151.0,65.89,False,False
+Sumatera Barat,3,2023,10,Oktober,10,TKDD,3384896381000.0,2668996873251.0,78.85,False,False
+Sumatera Barat,3,2023,11,November,11,TKDD,3384896381000.0,2849759060685.0,84.19,False,False
+Sumatera Barat,3,2023,12,Desember,12,TKDD,3384896381000.0,3296728725635.0,97.4,False,False
+Sumatera Barat,3,2024,1,Januari,13,TKDD,3466843452930.0,491803234800.0,14.19,False,False
+Sumatera Barat,3,2024,2,Februari,14,TKDD,3466843452930.0,638346427800.0,18.41,False,False
+Sumatera Barat,3,2024,3,Maret,15,TKDD,3466843452930.0,792851505854.0,22.87,False,False
+Sumatera Barat,3,2024,4,April,16,TKDD,3466843452930.0,1088247212054.0,31.39,False,False
+Sumatera Barat,3,2024,5,Mei,17,TKDD,3466843452930.0,1265907949040.0,36.51,False,False
+Sumatera Barat,3,2024,6,Juni,18,TKDD,3466843452930.0,1647377420134.0,47.52,False,False
+Sumatera Barat,3,2024,7,Juli,19,TKDD,3466843452930.0,1804525557535.0,52.05,False,False
+Sumatera Barat,3,2024,8,Agustus,20,TKDD,3466843452930.0,2225265554829.0,64.19,False,False
+Sumatera Barat,3,2024,9,September,21,TKDD,3466843452930.0,2533250471005.0,73.07,False,False
+Sumatera Barat,3,2024,10,Oktober,22,TKDD,3466843452930.0,2908325284265.0,83.89,False,False
+Sumatera Barat,3,2024,11,November,23,TKDD,3466843452930.0,3193676933016.0,92.12,False,False
+Sumatera Barat,3,2024,12,Desember,24,TKDD,3466843452930.0,3496315733539.0,100.85,False,False
+Sumatera Barat,3,2025,1,Januari,25,TKDD,3286405492000.0,501319841300.0,15.25,False,False
+Sumatera Barat,3,2025,2,Februari,26,TKDD,3286405492000.0,680002415657.0,20.69,False,False
+Sumatera Barat,3,2025,3,Maret,27,TKDD,3286405492000.0,850893816115.0,25.89,False,False
+Sumatera Barat,3,2025,4,April,28,TKDD,3286405492000.0,1087680748605.0,33.1,False,False
+Sumatera Barat,3,2025,5,Mei,29,TKDD,3286405492000.0,1344270043205.0,40.9,False,False
+Sumatera Barat,3,2025,6,Juni,30,TKDD,3286405492000.0,1670163634107.0,50.82,False,False
+Sumatera Barat,3,2025,7,Juli,31,TKDD,3286405492000.0,1946532111685.0,59.23,False,False
+Sumatera Barat,3,2025,8,Agustus,32,TKDD,3286405492000.0,2253818915930.0,68.58,False,False
+Sumatera Barat,3,2025,9,September,33,TKDD,3286405492000.0,2524106459778.0,76.8,False,False
+Sumatera Barat,3,2025,10,Oktober,34,TKDD,3286405492000.0,2748109399076.0,83.62,False,False
+Sumatera Barat,3,2025,11,November,35,TKDD,3286405492000.0,3012316776388.0,91.66,False,False
+Sumatera Barat,3,2025,12,Desember,36,TKDD,3286405492000.0,3365500418626.0,102.41,False,False
+Sumatera Barat,3,2026,1,Januari,37,TKDD,2750398697000.0,552063397041.0,20.07,False,False
+Sumatera Barat,3,2026,2,Februari,38,TKDD,2750398697000.0,1018055833441.0,37.01,False,False
+Sumatera Barat,3,2026,3,Maret,39,TKDD,2750398697000.0,1429633358541.0,51.98,False,False
+Sumatera Barat,3,2026,4,April,40,TKDD,2750398697000.0,1844595879441.0,67.07,False,False
+Sumatera Barat,3,2026,5,Mei,41,TKDD,2750398697000.0,2031632428641.0,73.87,False,False
+Sumatera Barat,3,2026,6,Juni,42,TKDD,2750398697000.0,1947043402241.0,70.79,False,False
+Sumatera Barat,3,2026,7,Juli,43,TKDD,2750398697000.0,2239525731293.0,81.43,False,False
+Sumatera Barat,3,2026,8,Agustus,44,TKDD,2750398697000.0,2462859419334.0,89.55,False,False
+Sumatera Barat,3,2026,9,September,45,TKDD,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,10,Oktober,46,TKDD,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,11,November,47,TKDD,2750398697000.0,2462859419334.0,89.55,False,True
+Sumatera Barat,3,2026,12,Desember,48,TKDD,2750398697000.0,2462859419334.0,89.55,False,True
