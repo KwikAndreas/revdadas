@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:17:02.674423",
+  "generated_at": "2026-09-24T09:59:03.924697",
   "provinces": [
     "Aceh",
     "Bali",
@@ -89,5 +89,5 @@
   ],
   "active_model": "serapan",
   "active_model_name": "Profil Serapan Berjangkar",
-  "last_switched": "2026-09-24T09:17:51.838137"
+  "last_switched": "2026-09-24T09:59:41.140745"
 }
