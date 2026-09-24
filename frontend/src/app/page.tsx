@@ -709,12 +709,14 @@ export default function DashboardPage() {
           </h3>
           <DataTabs
             forecast={filteredForecast}
-          anomalies={kpiData.anomalies}
-          accuracy={data.accuracy}
-          business={bizData}
-          historical={filteredHistorical}
-          selectedProvinces={filters.selectedProvinces}
-          forecastMonths={filters.forecastMonths}
+            anomalies={kpiData.anomalies}
+            accuracy={data.accuracy}
+            business={bizData}
+            historical={filteredHistorical}
+            allHistorical={data.historical}
+            allForecast={data.forecasts[String(filters.forecastMonths)]}
+            selectedProvinces={filters.selectedProvinces}
+            forecastMonths={filters.forecastMonths}
           />
         </div>
 
