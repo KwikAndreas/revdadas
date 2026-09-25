@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { ArrowRight, Activity, CheckCircle2 } from "lucide-react";
 import "./landing.css";
-
+import TextAnimate from "@/components/ui/text-animate";
 export default function LandingPage() {
   return (
     <div className="landing-page">
@@ -26,22 +26,22 @@ export default function LandingPage() {
       {/* ── Hero Section ─────────────────────────────────────────── */}
       <section className="landing-hero">
         <div className="landing-container">
-          <div className="hero-badge">
-            <span className="hero-badge-dot"></span>
-            <span>PIDI BI DIGDAYA x HACKATHON 2026 • BANK INDONESIA</span>
-          </div>
-
           <h1 className="hero-headline">
             Intelijensi Fiskal Daerah Berbasis AI untuk{" "}
             <span className="hero-headline-accent">Optimalisasi Kas &amp; PAD</span>
           </h1>
 
-          <p className="hero-subheadline">
-            RevDadas mentransformasi data APBD DJPK Kemenkeu 38 provinsi di
-            Indonesia melalui dekumulasi runtun waktu diskret, peramalan profil
-            serapan berjangkar pagu, dan deteksi anomali multi-variat untuk
-            mitigasi <em>idle cash</em> dan kebocoran pendapatan.
-          </p>
+          <TextAnimate
+            animation="blurInUp"
+            by="word"
+            as="p"
+            className="hero-subheadline"
+            delay={0.15}
+          >
+            RevDadas mentransformasi data APBD DJPK Kemenkeu 38 provinsi di Indonesia melalui dekumulasi runtun waktu diskret, peramalan profil serapan berjangkar pagu, dan deteksi anomali multi-variat untuk mitigasi idle cash dan kebocoran pendapatan.
+          </TextAnimate>
+
+
 
           {/* Call to Action Button in the Middle */}
           <div className="hero-cta-wrapper">
