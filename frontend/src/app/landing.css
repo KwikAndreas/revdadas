@@ -4,11 +4,15 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 .landing-page {
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #fafbfc;
   color: #0f172a;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* ── Container ───────────────────────────────────────────────── */
@@ -20,13 +24,13 @@
 
 /* ── Navbar ──────────────────────────────────────────────────── */
 .landing-nav {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0;
   transition: all 0.2s ease;
 }
 
@@ -34,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 56px;
 }
 
 .landing-logo {
@@ -119,24 +123,30 @@
 
 /* ── Hero Section ────────────────────────────────────────────── */
 .landing-hero {
-  padding: 72px 0 60px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(8px, 2vh, 20px) 0;
   text-align: center;
   position: relative;
-  background: radial-gradient(circle at 50% 15%, rgba(185, 28, 28, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(circle at 50% 25%, rgba(185, 28, 28, 0.04) 0%, rgba(255, 255, 255, 0) 70%);
+  min-height: 0;
 }
 
 .hero-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 14px;
+  padding: 4px 12px;
   background: #f0fdf4;
   border: 1px solid #bbf7d0;
   border-radius: 9999px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   color: #166534;
-  margin-bottom: 24px;
+  margin-bottom: clamp(8px, 1.4vh, 16px);
 }
 
 .hero-badge-dot {
@@ -147,13 +157,13 @@
 }
 
 .hero-headline {
-  font-size: 46px;
+  font-size: clamp(26px, 2.5vw, 40px);
   font-weight: 800;
   line-height: 1.18;
   letter-spacing: -0.03em;
   color: #0f172a;
-  max-width: 900px;
-  margin: 0 auto 20px auto;
+  max-width: 860px;
+  margin: 0 auto clamp(8px, 1.2vh, 14px) auto;
 }
 
 .hero-headline-accent {
@@ -163,11 +173,11 @@
 }
 
 .hero-subheadline {
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: clamp(13px, 0.95vw, 15px);
+  line-height: 1.55;
   color: #475569;
-  max-width: 740px;
-  margin: 0 auto 36px auto;
+  max-width: 720px;
+  margin: 0 auto clamp(14px, 2vh, 24px) auto;
   font-weight: 400;
 }
 
@@ -177,7 +187,7 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 48px;
+  margin-bottom: clamp(14px, 2.4vh, 26px);
   flex-wrap: wrap;
 }
 
@@ -186,14 +196,14 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 15px 36px;
-  font-size: 15.5px;
+  padding: 12px 30px;
+  font-size: 14.5px;
   font-weight: 700;
   color: #ffffff;
   background: #1e3a5f;
   border-radius: 9px;
   text-decoration: none;
-  box-shadow: 0 4px 14px rgba(30, 58, 95, 0.28), 0 2px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(30, 58, 95, 0.25), 0 2px 4px rgba(0, 0, 0, 0.06);
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -209,8 +219,8 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 14px 26px;
-  font-size: 14.5px;
+  padding: 12px 22px;
+  font-size: 13.5px;
   font-weight: 600;
   color: #1e3a5f;
   background: #ffffff;
@@ -230,10 +240,11 @@
 .hero-metrics-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  max-width: 960px;
+  gap: clamp(12px, 1.8vw, 24px);
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 22px 28px;
+  padding: clamp(10px, 1.5vh, 16px) 24px;
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
@@ -245,7 +256,7 @@
 }
 
 .hero-metric-value {
-  font-size: 24px;
+  font-size: clamp(18px, 1.5vw, 22px);
   font-weight: 800;
   color: #0f172a;
   letter-spacing: -0.02em;
@@ -254,7 +265,7 @@
 }
 
 .hero-metric-label {
-  font-size: 11.5px;
+  font-size: 10.5px;
   font-weight: 600;
   color: #64748b;
   text-transform: uppercase;
@@ -648,15 +659,17 @@
 .landing-footer {
   background: #090d16;
   border-top: 1px solid #1e293b;
-  padding: 40px 0;
-  font-size: 12.5px;
+  padding: 12px 0;
+  font-size: 11.5px;
   color: #64748b;
+  flex-shrink: 0;
 }
 
 .landing-footer-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   gap: 16px;
 }

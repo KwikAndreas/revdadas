@@ -12,6 +12,7 @@ import {
 } from "recharts";
 import type { HistoricalRecord, ForecastRecord } from "@/lib/types";
 import { toBillions, formatCurrency } from "@/lib/utils";
+import { useLanguage } from "@/lib/LanguageContext";
 
 interface RevenueChartProps {
   historical: HistoricalRecord[];
@@ -22,6 +23,7 @@ export default function RevenueChart({
   historical,
   forecast,
 }: RevenueChartProps) {
+  const { t } = useLanguage();
   const chartData = useMemo(() => {
     const dataMap = new Map<string, any>();
 
@@ -133,8 +135,8 @@ export default function RevenueChart({
           <Legend wrapperStyle={{ fontSize: 11, paddingTop: 10 }} />
           <Area 
             type="monotone" 
-            dataKey="range" 
-            name="Confidence Interval"
+            dataKey="range"
+            name={t("chart.legend_ci")}
             stroke="none" 
             fill="#b91c1c" 
             fillOpacity={0.1} 
@@ -143,7 +145,7 @@ export default function RevenueChart({
           <Line
             type="monotone"
             dataKey="actual"
-            name="Historical Revenue"
+            name={t("chart.legend_actual")}
             stroke="#1e3a5f"
             strokeWidth={2.5}
             dot={{ r: 3, fill: "#1e3a5f", strokeWidth: 0 }}
@@ -153,7 +155,7 @@ export default function RevenueChart({
           <Line
             type="monotone"
             dataKey="forecast"
-            name="AI Forecast"
+            name={t("chart.legend_forecast")}
             stroke="#b91c1c"
             strokeWidth={2.5}
             strokeDasharray="5 5"

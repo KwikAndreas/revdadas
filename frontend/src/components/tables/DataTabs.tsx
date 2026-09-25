@@ -6,7 +6,7 @@ import type {
   BusinessData,
   HistoricalRecord,
 } from "@/lib/types";
-import { formatCurrency, getLabelColor } from "@/lib/utils";
+import { formatCurrency, getLabelColor, SEVERITY_RANK } from "@/lib/utils";
 import {
   LineChart as RechartsLineChart,
   Line,
@@ -36,6 +36,9 @@ interface DataTabsProps {
   allForecast?: ForecastRecord[];
   selectedProvinces: string[];
   forecastMonths: number;
+  /** Revenue account shown for the current filter ("Total Pendapatan Daerah" for all revenues) */
+  revenueType: string;
+  selectedYear: number;
 }
 
 export default function DataTabs({
@@ -48,6 +51,8 @@ export default function DataTabs({
   allForecast,
   selectedProvinces,
   forecastMonths,
+  revenueType,
+  selectedYear,
 }: DataTabsProps) {
   const { lang, t } = useLanguage();
   const [activeTab, setActiveTab] = useState(0);
@@ -85,8 +90,8 @@ export default function DataTabs({
       </div>
       <div className="tab-content">
         {activeTab === 0 && <TabForecast forecast={forecast} accuracy={accuracy} />}
-        {activeTab === 1 && <TabAnomalies anomalies={anomalies} />}
-        {activeTab === 2 && <TabEDA historical={historical} selectedProvinces={selectedProvinces} />}
+        {activeTab === 1 && <TabAnomalies anomalies={anomalies} selectedYear={selectedYear} />}
+        {activeTab === 2 && <TabEDA historical={historical} selectedProvinces={selectedProvinces} revenueType={revenueType} />}
         {activeTab === 3 && <TabAccuracy accuracy={accuracy} />}
         {activeTab === 4 && (
           <TabWhatIf
@@ -103,6 +108,26 @@ export default function DataTabs({
     </div>
   );
 }
+
+// Main accounts first so the table opens on the headline series
+const REVENUE_ORDER = [
+  "Total Pendapatan Daerah",
+  "Pendapatan Asli Daerah (PAD)",
+  "Pajak Daerah",
+  "Retribusi Daerah",
+  "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+  "Lain-Lain PAD yang Sah",
+  "Transfer ke Daerah dan Dana Desa (TKDD)",
+  "Pendapatan Transfer Pemerintah Pusat",
+  "Pendapatan Transfer Antar Daerah",
+  "Pendapatan Lainnya",
+  "Pendapatan Hibah",
+  "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+];
+const revenueOrder = (jenis: string) => {
+  const i = REVENUE_ORDER.indexOf(jenis);
+  return i === -1 ? REVENUE_ORDER.length : i;
+};
 
 // ─── Tab 1: Forecast ──────────────────────────────────────────
 function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accuracy: AccuracyData }) {
@@ -127,7 +152,12 @@ function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accur
   const uniqueProvinces = Array.from(new Set(forecast.map((r) => r.Provinsi))).sort();
   const filteredForecast = forecast
     .filter((r) => !r.Jenis_Pendapatan.includes("Belanja"))
-    .filter((r) => selectedProv === "Semua Provinsi" || r.Provinsi === selectedProv);
+    .filter((r) => selectedProv === "Semua Provinsi" || r.Provinsi === selectedProv)
+    .sort((a, b) =>
+      a.Provinsi.localeCompare(b.Provinsi) ||
+      revenueOrder(a.Jenis_Pendapatan) - revenueOrder(b.Jenis_Pendapatan) ||
+      a.Tanggal.localeCompare(b.Tanggal)
+    );
 
   const downloadCSV = () => {
     const headers = ["Tanggal,Provinsi,Jenis_Pendapatan,Prediksi,Batas_Bawah,Batas_Atas,Metode"];
@@ -239,18 +269,21 @@ function TabForecast({ forecast, accuracy }: { forecast: ForecastRecord[], accur
 }
 
 // ─── Tab 2: Anomalies ─────────────────────────────────────────
-function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
-  const [sortKey, setSortKey] = useState<"Tanggal" | "Realisasi" | "Severity">("Severity");
+const SEVERITY_STYLE: Record<string, { bg: string; color: string; border: string }> = {
+  Kritis: { bg: "#fee2e2", color: "#7f1d1d", border: "#fca5a5" },
+  Tinggi: { bg: "#fef2f2", color: "#b91c1c", border: "#fecaca" },
+  Sedang: { bg: "#fffbeb", color: "#b45309", border: "#fde68a" },
+  Rendah: { bg: "#f8fafc", color: "#475569", border: "#e2e8f0" },
+};
+
+function TabAnomalies({ anomalies, selectedYear }: { anomalies: AnomalyRecord[]; selectedYear: number }) {
+  const [sortKey, setSortKey] = useState<"Tanggal" | "Realisasi" | "Severity" | "Deviasi">("Severity");
   const [sortDesc, setSortDesc] = useState(true);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [sortKey, sortDesc]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -268,10 +301,9 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
       let cmp = 0;
       if (sortKey === "Tanggal") cmp = a.Tanggal.localeCompare(b.Tanggal);
       else if (sortKey === "Realisasi") cmp = a.Realisasi - b.Realisasi;
+      else if (sortKey === "Deviasi") cmp = Math.abs(a.Deviasi ?? 0) - Math.abs(b.Deviasi ?? 0);
       else if (sortKey === "Severity") {
-        const scoreA = a.Severity === "Tinggi" ? 2 : 1;
-        const scoreB = b.Severity === "Tinggi" ? 2 : 1;
-        cmp = scoreA - scoreB;
+        cmp = (SEVERITY_RANK[a.Severity ?? ""] ?? 0) - (SEVERITY_RANK[b.Severity ?? ""] ?? 0);
         if (cmp === 0) cmp = (a.Anomaly_Score || 0) - (b.Anomaly_Score || 0);
       }
       return sortDesc ? -cmp : cmp;
@@ -343,7 +375,9 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
   }
 
   const totalPages = Math.ceil(anomaliesOnly.length / itemsPerPage);
-  const paginatedAnomalies = anomaliesOnly.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  // Filters can shrink the list below the current page; clamp instead of showing an empty page
+  const page = Math.min(currentPage, totalPages);
+  const paginatedAnomalies = anomaliesOnly.slice((page - 1) * itemsPerPage, page * itemsPerPage);
 
   return (
     <div>
@@ -370,7 +404,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                 minWidth: 150
               }}
             >
-              {sortKey === "Severity" ? "Tingkat Keparahan" : sortKey === "Realisasi" ? "Nominal Realisasi" : "Tanggal"}
+              {sortKey === "Severity" ? "Tingkat Keparahan" : sortKey === "Realisasi" ? "Nominal Realisasi" : sortKey === "Deviasi" ? "Besar Deviasi" : "Tanggal"}
             </div>
             
             {dropdownOpen && (
@@ -387,14 +421,15 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                 minWidth: "100%",
                 overflow: "hidden"
               }}>
-                {[
+                {([
                   { value: "Severity", label: "Tingkat Keparahan" },
+                  { value: "Deviasi", label: "Besar Deviasi" },
                   { value: "Realisasi", label: "Nominal Realisasi" },
                   { value: "Tanggal", label: "Tanggal" }
-                ].map(opt => (
-                  <div 
+                ] as const).map(opt => (
+                  <div
                     key={opt.value}
-                    onClick={() => { setSortKey(opt.value as any); setDropdownOpen(false); }}
+                    onClick={() => { setSortKey(opt.value); setCurrentPage(1); setDropdownOpen(false); }}
                     style={{
                       padding: "8px 12px",
                       fontSize: 13,
@@ -413,7 +448,7 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
             )}
           </div>
           
-          <button className="btn-icon" style={{ display: "flex", alignItems: "center", justifyContent: "center" }} onClick={() => setSortDesc(!sortDesc)}>
+          <button className="btn-icon" style={{ display: "flex", alignItems: "center", justifyContent: "center" }} onClick={() => { setSortDesc(!sortDesc); setCurrentPage(1); }}>
             {sortDesc ? <ArrowDown size={14} /> : <ArrowUp size={14} />}
           </button>
         </div>
@@ -441,8 +476,10 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
               <th>Tanggal</th>
               <th>Provinsi</th>
               <th>Jenis Pendapatan</th>
+              <th>Tingkat Risiko</th>
               <th>Konteks Anomali</th>
               <th>Nilai Transaksi</th>
+              <th title="Selisih realisasi terhadap rata-rata bergerak 3 bulan; dijumlahkan pada KPI Transaksi Perlu Tinjauan">Deviasi</th>
               <th>Alasan Anomali</th>
             </tr>
           </thead>
@@ -450,7 +487,8 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
             {paginatedAnomalies.map((r, i) => {
               const yr = r.Tahun || parseInt(r.Tanggal.substring(0, 4));
               const month = r.Bulan || parseInt(r.Tanggal.substring(5, 7));
-              const isCurrentYear = yr === 2025;
+              const isCurrentYear = yr === selectedYear;
+              const sevStyle = SEVERITY_STYLE[r.Severity ?? ""] ?? SEVERITY_STYLE.Rendah;
               const isHkpdImpact = yr >= 2024 && (
                 r.Jenis_Pendapatan.toLowerCase().includes("pajak") || 
                 r.Jenis_Pendapatan.toLowerCase().includes("retribusi") ||
@@ -485,15 +523,23 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
                     {r.Tanggal.split("T")[0]}
                     {isCurrentYear && (
                       <span style={{ fontSize: 10, background: "#fee2e2", color: "#991b1b", border: "1px solid #fecaca", padding: "1px 6px", borderRadius: 4, fontWeight: 600 }}>
-                        TA 2025
+                        TA {selectedYear}
                       </span>
                     )}
                   </div>
                 </td>
                 <td>{r.Provinsi}</td>
                 <td>{r.Jenis_Pendapatan}</td>
+                <td>
+                  <span style={{ fontSize: 10, background: sevStyle.bg, color: sevStyle.color, border: `1px solid ${sevStyle.border}`, padding: "2px 6px", borderRadius: 4, fontWeight: 700 }}>
+                    {r.Severity || "-"}
+                  </span>
+                </td>
                 <td>{contextBadge}</td>
                 <td style={{ color: "#dc2626", fontWeight: 600 }}>{formatCurrency(r.Realisasi)}</td>
+                <td style={{ fontWeight: 600, color: "#0f172a", whiteSpace: "nowrap" }}>
+                  {(r.Deviasi ?? 0) < 0 ? "−" : "+"}{formatCurrency(Math.abs(r.Deviasi ?? 0))}
+                </td>
                 <td style={{ fontSize: 11, maxWidth: 300 }}>{r.Alasan}</td>
               </tr>
               );
@@ -505,38 +551,38 @@ function TabAnomalies({ anomalies }: { anomalies: AnomalyRecord[] }) {
       {totalPages > 1 && (
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 16 }}>
           <span className="table-caption" style={{ margin: 0 }}>
-            Halaman {currentPage} dari {totalPages}
+            Halaman {page} dari {totalPages}
           </span>
           <div style={{ display: "flex", gap: 8 }}>
             <button
-              disabled={currentPage === 1}
-              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+              disabled={page === 1}
+              onClick={() => setCurrentPage(Math.max(1, page - 1))}
               style={{
                 padding: "6px 14px",
                 fontSize: 13,
                 fontWeight: 500,
-                color: currentPage === 1 ? "#94a3b8" : "#1e3a5f",
-                background: currentPage === 1 ? "#f8fafc" : "#ffffff",
-                border: `1px solid ${currentPage === 1 ? "#e2e8f0" : "#cbd5e1"}`,
+                color: page === 1 ? "#94a3b8" : "#1e3a5f",
+                background: page === 1 ? "#f8fafc" : "#ffffff",
+                border: `1px solid ${page === 1 ? "#e2e8f0" : "#cbd5e1"}`,
                 borderRadius: 6,
-                cursor: currentPage === 1 ? "not-allowed" : "pointer",
+                cursor: page === 1 ? "not-allowed" : "pointer",
                 transition: "all 0.2s"
               }}
             >
               Sebelumnya
             </button>
             <button
-              disabled={currentPage === totalPages}
-              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+              disabled={page === totalPages}
+              onClick={() => setCurrentPage(Math.min(totalPages, page + 1))}
               style={{
                 padding: "6px 14px",
                 fontSize: 13,
                 fontWeight: 500,
-                color: currentPage === totalPages ? "#94a3b8" : "#1e3a5f",
-                background: currentPage === totalPages ? "#f8fafc" : "#ffffff",
-                border: `1px solid ${currentPage === totalPages ? "#e2e8f0" : "#cbd5e1"}`,
+                color: page === totalPages ? "#94a3b8" : "#1e3a5f",
+                background: page === totalPages ? "#f8fafc" : "#ffffff",
+                border: `1px solid ${page === totalPages ? "#e2e8f0" : "#cbd5e1"}`,
                 borderRadius: 6,
-                cursor: currentPage === totalPages ? "not-allowed" : "pointer",
+                cursor: page === totalPages ? "not-allowed" : "pointer",
                 transition: "all 0.2s"
               }}
             >
@@ -560,7 +606,7 @@ function TabAccuracy({ accuracy }: { accuracy: AccuracyData }) {
       <div className="metrics-row" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
         <div className="metric-card">
           <div className="metric-label">Model Aktif</div>
-          <div className="metric-value" style={{ fontSize: 16, color: "#0284c7" }}>Profil Serapan Berjangkar</div>
+          <div className="metric-value" style={{ fontSize: 16, color: "#0284c7" }}>{accuracy.overall.model_name ?? "Profil Serapan Berjangkar"}</div>
         </div>
         <div className="metric-card">
           <div className="metric-label">Akurasi Model (Median)</div>
@@ -721,17 +767,6 @@ function TabBusiness({
               {topSektor.alasan}
             </div>
 
-            <div className="biz-driver" style={{ marginTop: 12, display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, background: "#f8fafc", padding: 12, borderRadius: 8, border: "1px solid #e2e8f0" }}>
-              <div>
-                <div style={{ fontSize: 10, color: "#64748b", textTransform: "uppercase", fontWeight: 700 }}>Estimasi Kemandirian Fiskal</div>
-                <div style={{ fontSize: 14, fontWeight: 700, color: "#1e3a5f" }}>{Math.floor(Math.random() * 30 + 20)}.{Math.floor(Math.random() * 9)}%</div>
-              </div>
-              <div>
-                <div style={{ fontSize: 10, color: "#64748b", textTransform: "uppercase", fontWeight: 700 }}>Porsi Pajak Daerah (PAD)</div>
-                <div style={{ fontSize: 14, fontWeight: 700, color: "#1e3a5f" }}>{Math.floor(Math.random() * 40 + 30)}.{Math.floor(Math.random() * 9)}%</div>
-              </div>
-            </div>
-
             {sectors.map((s, i) => {
               const color = getLabelColor(s.label);
               return (
@@ -778,7 +813,7 @@ function TabWhatIf({
     { key: "Pendapatan Asli Daerah (PAD)", label: "Pendapatan Asli Daerah (PAD)" },
     { key: "Transfer ke Daerah dan Dana Desa (TKDD)", label: "Transfer ke Daerah dan Dana Desa (TKDD)" },
     { key: "Total Belanja Daerah", label: "Belanja Daerah" },
-    { key: "Belanja Modal", label: "Belanja Modal" },
+    { key: "Belanja Modal", label: "Belanja Modal (porsi dalam total belanja)" },
   ];
 
   // Gunakan allForecast & allHistorical (jika ada) agar tidak terpotong oleh filter taxType
@@ -889,7 +924,9 @@ function TabWhatIf({
 
     const monthlyItems = scenarioData.filter(sd => sd.Tanggal.startsWith(date));
     const revDeltas = monthlyItems.filter(md => ["Pendapatan Asli Daerah (PAD)", "Transfer ke Daerah dan Dana Desa (TKDD)", "Lain-lain Pendapatan Daerah yang Sah"].includes(md.Jenis_Pendapatan));
-    const expDeltas = monthlyItems.filter(md => ["Total Belanja Daerah", "Belanja Modal", "Belanja Operasi"].includes(md.Jenis_Pendapatan));
+    // Same rule as the cards: Belanja Modal is part of Total Belanja Daerah, so its slider
+    // only shifts the capital-spending share and must not be added to expenditure again
+    const expDeltas = monthlyItems.filter(md => md.Jenis_Pendapatan === "Total Belanja Daerah");
 
     const monthRevDelta = revDeltas.reduce((sum, md) => sum + (md.delta || 0), 0);
     const monthExpDelta = expDeltas.reduce((sum, md) => sum + (md.delta || 0), 0);
@@ -1161,10 +1198,10 @@ function TabMethodology() {
               <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Akurasi Holdout (WAPE)</td>
                 <td style={{ padding: "8px 12px", background: "#f0f9ff" }}>
-                  <strong>70,1% Akurasi</strong> (Median WAPE 29,8% | 62% lolos MASE &lt; 1).
+                  <strong>70,2% Akurasi</strong> (Median WAPE 29,8% | 62% lolos MASE &lt; 1).
                 </td>
                 <td style={{ padding: "8px 12px" }}>78,0% Akurasi (Median WAPE 15,2%).</td>
-                <td style={{ padding: "8px 12px" }}>54,3% Akurasi (Median WAPE 26,0%).</td>
+                <td style={{ padding: "8px 12px" }}>54,3% Akurasi (Median WAPE 45,7%).</td>
               </tr>
               <tr style={{ borderBottom: "1px solid #e2e8f0", background: "#fcfcfd" }}>
                 <td style={{ padding: "8px 12px", fontWeight: 600, color: "#475569" }}>Efisiensi Komputasi</td>
@@ -1356,16 +1393,17 @@ function TabMethodology() {
 
 
 // ─── Tab EDA ──────────────────────────────────────────────────
-function TabEDA({ historical, selectedProvinces }: { historical: HistoricalRecord[], selectedProvinces: string[] }) {
+function TabEDA({ historical, selectedProvinces, revenueType }: { historical: HistoricalRecord[], selectedProvinces: string[], revenueType: string }) {
   if (!historical || historical.length === 0) return <div className="info-box">Data tidak tersedia.</div>;
 
+  // `historical` is already filtered by the sidebar revenue type, so total the matching account
   const dataByProv = selectedProvinces.map(prov => {
-    const sum = historical.filter(r => r.Provinsi === prov && r.Jenis_Pendapatan === "Total Pendapatan Daerah").reduce((acc, curr) => acc + curr.Realisasi, 0);
+    const sum = historical.filter(r => r.Provinsi === prov && r.Jenis_Pendapatan === revenueType).reduce((acc, curr) => acc + curr.Realisasi, 0);
     return { Provinsi: prov, Realisasi: sum / 1e9 };
   });
 
   const trendMap = new Map<string, number>();
-  historical.filter(r => selectedProvinces.includes(r.Provinsi) && r.Jenis_Pendapatan === "Total Pendapatan Daerah").forEach(r => {
+  historical.filter(r => selectedProvinces.includes(r.Provinsi) && r.Jenis_Pendapatan === revenueType).forEach(r => {
     const date = r.Tanggal.split("T")[0].substring(0, 7);
     trendMap.set(date, (trendMap.get(date) || 0) + (r.Realisasi / 1e9));
   });
@@ -1374,7 +1412,7 @@ function TabEDA({ historical, selectedProvinces }: { historical: HistoricalRecor
   return (
     <div>
       <p style={{ fontSize: 13, color: "#475569", marginBottom: 18 }}>
-        Visualisasi Data Pra-Model (EDA) - Distribusi realisasi kumulatif historis untuk melihat sebaran data secara umum pada provinsi terpilih.
+        Visualisasi Data Pra-Model (EDA) - Distribusi realisasi kumulatif historis <b>{revenueType}</b> untuk melihat sebaran data secara umum pada provinsi terpilih.
       </p>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 24 }}>
         <div className="chart-card">

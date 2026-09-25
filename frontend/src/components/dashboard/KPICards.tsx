@@ -4,6 +4,7 @@ import type { AnomalyRecord } from "@/lib/types";
 import { useLanguage } from "@/lib/LanguageContext";
 
 interface KPICardsProps {
+  revenueLabel: string;
   totalRevenue: number;
   totalAnggaran?: number;
   targetPercentage?: number;
@@ -19,6 +20,7 @@ interface KPICardsProps {
 }
 
 export default function KPICards({
+  revenueLabel,
   totalRevenue,
   totalAnggaran,
   targetPercentage,
@@ -38,8 +40,13 @@ export default function KPICards({
     <div className="kpi-grid">
       <div className="kpi-card animate-fade-in-up">
         <div className="kpi-title">
-          <span>{t("kpi.realisasi_pad")}</span>
-          <Wallet size={14} color="#0284c7" />
+          <span
+            title={revenueLabel}
+            style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", minWidth: 0 }}
+          >
+            {revenueLabel}
+          </span>
+          <Wallet size={14} color="#0284c7" style={{ flexShrink: 0 }} />
         </div>
         <div className="kpi-value kpi-value--dark">
           {formatCurrency(totalRevenue)}

@@ -216,7 +216,7 @@ export function generatePDF(
     [
       "Tingkat Paparan Anomali Kas",
       `${kpis.anomalyPct.toFixed(2)}% (${kpis.anomalyCount} Kasus)`,
-      "Proporsi transaksi menyimpang (>2.5 sigma) yang memerlukan klarifikasi audit kepatuhan."
+      "Proporsi transaksi menyimpang (>2.0 sigma) yang memerlukan klarifikasi audit kepatuhan."
     ],
     [
       "Potensi Penyelamatan Kas Fiskal",
@@ -273,7 +273,7 @@ export function generatePDF(
     const anomalyRows = topAnomalies.map((a) => [
       `${a.Provinsi}\n${a.Tanggal.split("T")[0]}`,
       a.Jenis_Pendapatan,
-      formatCurrency(a.Realisasi),
+      `${formatCurrency(a.Realisasi)}\n(deviasi ${(a.Deviasi ?? 0) < 0 ? "-" : "+"}${formatCurrency(Math.abs(a.Deviasi ?? 0))})`,
       a.Severity || "Menengah",
       a.Alasan || "Deviasi pola musiman signifikan terdeteksi oleh algoritma."
     ]);
@@ -303,7 +303,7 @@ export function generatePDF(
       },
       didParseCell: function (data) {
         if (data.section === "body" && data.column.index === 3) {
-          if (data.cell.raw === "Tinggi") {
+          if (data.cell.raw === "Tinggi" || data.cell.raw === "Kritis") {
             data.cell.styles.textColor = cDanger;
           } else {
             data.cell.styles.textColor = cGold;
@@ -325,7 +325,7 @@ export function generatePDF(
     doc.text("Status Rekening Terverifikasi Stabil:", 20, nextY + 9);
     doc.setFont("helvetica", "normal");
     doc.setTextColor(...cNavy);
-    doc.text("Tidak ditemukan deviasi ekstrem (>2.5 sigma) pada data filter yang dipilih. Tetap pertahankan rekonsiliasi kas bulanan.", 20, nextY + 14);
+    doc.text("Tidak ditemukan deviasi ekstrem (>2.0 sigma) pada data filter yang dipilih. Tetap pertahankan rekonsiliasi kas bulanan.", 20, nextY + 14);
     (doc as any).lastAutoTable = { finalY: nextY + 18 };
   }
 

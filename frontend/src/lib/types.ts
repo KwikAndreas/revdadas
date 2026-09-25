@@ -54,6 +54,8 @@ export interface AccuracyOverall {
   n_reliable: number;
   n_series: number;
   median_wape: number;
+  model?: string;
+  model_name?: string;
 }
 
 export interface AccuracySeries {

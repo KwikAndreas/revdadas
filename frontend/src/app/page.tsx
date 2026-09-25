@@ -62,8 +62,8 @@ export default function LandingPage() {
               <div className="hero-metric-label">Titik Observasi DJPK</div>
             </div>
             <div className="hero-metric-item">
-              <div className="hero-metric-value">70.1%</div>
-              <div className="hero-metric-label">Akurasi Model (WAPE 29.9%)</div>
+              <div className="hero-metric-value">70.2%</div>
+              <div className="hero-metric-label">Akurasi Model (WAPE 29.8%)</div>
             </div>
             <div className="hero-metric-item">
               <div className="hero-metric-value">Rp 4.5+ T</div>

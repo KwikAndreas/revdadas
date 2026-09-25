@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "leaflet/dist/leaflet.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,10 +29,6 @@ export default function RootLayout({
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
-        />
-        <link
-          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          rel="stylesheet"
         />
       </head>
       <body>{children}</body>
