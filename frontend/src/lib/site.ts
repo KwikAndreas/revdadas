@@ -16,9 +16,9 @@ export const TEAM = {
   name: "Team BITGrow",
   university: "Universitas Bunda Mulia",
   members: [
-    { name: "Kwik Andreas Jonathan", role: "Ketua Tim" },
-    { name: "Clay Micholaz Fu", role: "Developer" },
-    { name: "Moses Chisthoper Adisam", role: "Developer" },
-    { name: "Gwyneth Eunice Widjaja", role: "Developer" },
+    { name: "Kwik Andreas Jonathan", role: "QA Engineer" },
+    { name: "Clay Micholaz Fu", role: "AI Engineer" },
+    { name: "Moses Chisthoper Adisam", role: "Software Engineer" },
+    { name: "Gwyneth Eunice Widjaja", role: "UI UX Design" },
   ],
 } as const;
