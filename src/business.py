@@ -17,7 +17,11 @@ PENTING (kejujuran metodologis):
 import numpy as np
 import pandas as pd
 
+from .apbd_adapter import REVENUE_LEAF_ACCOUNTS
+
 # Akun pendapatan yang dipakai sebagai sinyal
+TOTAL = "Total Pendapatan Daerah"
+PAD = "Pendapatan Asli Daerah (PAD)"
 PAJAK = "Pajak Daerah"
 RETRIBUSI = "Retribusi Daerah"
 PAD_LAIN = "Lain-Lain PAD yang Sah"
@@ -26,7 +30,7 @@ TRANSFER = "Pendapatan Transfer Pemerintah Pusat"
 # Definisi sektor + bobot sensitivitas terhadap tiap sinyal (0..1).
 # pajak_share : porsi Pajak Daerah (proksi aktivitas konsumsi/usaha lokal:
 #               pajak hotel, restoran, hiburan, reklame berada di sini)
-# kemandirian : 1 - porsi Transfer Pusat (proksi kekuatan ekonomi mandiri)
+# kemandirian : PAD / total pendapatan (proksi kekuatan ekonomi mandiri)
 # skala       : ukuran ekonomi daerah (pendapatan absolut)
 # tren        : arah proyeksi (pertumbuhan ke depan)
 SECTORS = {
@@ -68,20 +72,28 @@ def compute_signals(filtered_df, forecast_results=None):
     provinces = sorted(filtered_df["Provinsi"].unique())
     for prov in provinces:
         p = filtered_df[filtered_df["Provinsi"] == prov]
-        total = float(p["Realisasi"].sum())
+        # Total pendapatan dari akun total (atau akun leaf) — menjumlahkan semua akun
+        # akan menghitung agregat, komponennya, dan belanja berkali-kali
+        accounts = [TOTAL] if (p["Jenis_Pendapatan"] == TOTAL).any() else REVENUE_LEAF_ACCOUNTS
+        rev = p[p["Jenis_Pendapatan"].isin(accounts)]
+        total = float(rev["Realisasi"].sum())
         pajak = float(p[p["Jenis_Pendapatan"] == PAJAK]["Realisasi"].sum())
+        pad = float(p[p["Jenis_Pendapatan"] == PAD]["Realisasi"].sum())
         transfer = float(p[p["Jenis_Pendapatan"] == TRANSFER]["Realisasi"].sum())
 
         pajak_share = _safe_div(pajak, total)            # 0..~0.6
-        kemandirian = 1.0 - _safe_div(transfer, total)   # 0..1
+        # Rasio kemandirian = PAD / total pendapatan (definisi sama dengan KPI dashboard);
+        # akun Transfer Pusat tidak memuat seluruh transfer (mis. Otsus Papua)
+        kemandirian = _safe_div(pad, total) if pad else 1.0 - _safe_div(transfer, total)
 
-        # Tren: dari proyeksi vs rata-rata realisasi bulanan terakhir
+        # Tren: dari proyeksi vs rata-rata realisasi bulanan terakhir (akun yang sama)
         tren = 0.0
         if forecast_results is not None and len(forecast_results):
-            fc = forecast_results[forecast_results["Provinsi"] == prov]
+            fc = forecast_results[(forecast_results["Provinsi"] == prov)
+                                  & forecast_results["Jenis_Pendapatan"].isin(accounts)]
             if len(fc):
                 proj = fc.groupby("Tanggal")["Prediksi"].sum().mean()
-                base = p.groupby("Tanggal")["Realisasi"].sum().tail(12).mean()
+                base = rev.groupby("Tanggal")["Realisasi"].sum().tail(12).mean()
                 if base > 0:
                     tren = (proj - base) / base   # bisa negatif
         rows.append({"Provinsi": prov, "total": total,

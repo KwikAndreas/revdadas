@@ -24,8 +24,8 @@ export interface ForecastRecord {
   Provinsi: string;
   Jenis_Pendapatan: string;
   Prediksi: number;
-  Batas_Bawah: number;
-  Batas_Atas: number;
+  Batas_Bawah: number | null;
+  Batas_Atas: number | null;
   Metode?: string;
 }
 
@@ -54,12 +54,14 @@ export interface AccuracyOverall {
   n_reliable: number;
   n_series: number;
   median_wape: number;
+  model?: string;
+  model_name?: string;
 }
 
 export interface AccuracySeries {
   Provinsi: string;
   Jenis_Pendapatan: string;
-  Akurasi: number;
+  Akurasi: number | null;
   WAPE: number | null;
   sMAPE: number | null;
 }

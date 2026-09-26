@@ -9,6 +9,54 @@ Sifatnya indikatif sebagai bahan diskusi kebijakan, bukan keputusan final.
 import pandas as pd
 import numpy as np
 
+from .apbd_adapter import REVENUE_LEAF_ACCOUNTS
+
+TOTAL_REVENUE = "Total Pendapatan Daerah"
+
+# Akun agregat pendapatan -> akun penyusunnya (hierarki REVENUE_LEAF_ACCOUNTS)
+AGGREGATE_CHILDREN = {
+    "Pendapatan Asli Daerah (PAD)": [
+        "Pajak Daerah",
+        "Retribusi Daerah",
+        "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+        "Lain-Lain PAD yang Sah",
+    ],
+    "Transfer ke Daerah dan Dana Desa (TKDD)": ["Pendapatan Transfer Pemerintah Pusat"],
+    "Pendapatan Lainnya": [
+        "Pendapatan Hibah",
+        "Dana Darurat",
+        "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    ],
+}
+
+
+def _revenue_accounts(akt, fc):
+    """
+    Akun pembanding realisasi vs proyeksi (apel-ke-apel): akun total pendapatan,
+    atau akun leaf bila total tidak tersedia — tidak pernah agregat + komponen + belanja.
+    """
+    akt_j, fc_j = set(akt["Jenis_Pendapatan"]), set(fc["Jenis_Pendapatan"])
+    if TOTAL_REVENUE in akt_j and TOTAL_REVENUE in fc_j:
+        return [TOTAL_REVENUE]
+    leaf = [j for j in REVENUE_LEAF_ACCOUNTS if j in akt_j and j in fc_j]
+    return leaf or sorted(akt_j & fc_j)
+
+
+def _monthly_sum(df, value_col, accounts):
+    return df[df["Jenis_Pendapatan"].isin(accounts)].groupby("Tanggal")[value_col].sum().sort_index()
+
+
+def _isolate_aggregates(anomalies):
+    """Buang anomali akun agregat bila komponennya ikut ter-flag di provinsi & bulan yang sama."""
+    if not len(anomalies):
+        return anomalies
+    flagged = set(zip(anomalies["Provinsi"], anomalies["Tanggal"], anomalies["Jenis_Pendapatan"]))
+    keep = [
+        not any((p, t, c) in flagged for c in AGGREGATE_CHILDREN.get(j, []))
+        for p, t, j in zip(anomalies["Provinsi"], anomalies["Tanggal"], anomalies["Jenis_Pendapatan"])
+    ]
+    return anomalies[keep]
+
 
 def _fmt(v):
     v = float(v)
@@ -16,7 +64,9 @@ def _fmt(v):
         return f"Rp {v/1e12:.1f} T"
     if abs(v) >= 1e9:
         return f"Rp {v/1e9:.1f} M"
-    return f"Rp {v:,.0f}"
+    if abs(v) >= 1e6:
+        return f"Rp {v/1e6:.1f} Jt"
+    return f"Rp {v:,.0f}".replace(",", ".")
 
 
 def generate_recommendations(filtered_df, forecast_results, anomaly_results,
@@ -46,15 +96,25 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
             if not len(akt) or not len(fc):
                 continue
                 
-            akt_bulanan = akt.groupby("Tanggal")["Realisasi"].sum().sort_index()
+            # Hanya total pendapatan: menjumlahkan semua akun mencampur agregat,
+            # komponennya, dan belanja sehingga nominal & tren menjadi menyesatkan
+            accounts = _revenue_accounts(akt, fc)
+            akt_bulanan = _monthly_sum(akt, "Realisasi", accounts)
             base = akt_bulanan.tail(12).mean()
-            proj = fc.groupby("Tanggal")["Prediksi"].sum().mean()
-            
-            # Cek Persentase Agregat untuk provinsi ini (Tahun terakhir)
+            proj = _monthly_sum(fc, "Prediksi", accounts).mean()
+
+            # Capaian target tahun terakhir = Persentase realisasi kumulatif (YTD)
+            # total pendapatan pada bulan terakhir yang tersedia
             last_year = akt['Tahun'].max()
             akt_last_year = akt[akt['Tahun'] == last_year]
-            avg_persentase = akt_last_year['Persentase'].mean() if 'Persentase' in akt_last_year.columns else 0
-            
+            akt_last_total = akt_last_year[akt_last_year['Jenis_Pendapatan'] == TOTAL_REVENUE]
+            if 'Persentase' in akt_last_year.columns and len(akt_last_total):
+                avg_persentase = float(akt_last_total.sort_values('Tanggal')['Persentase'].iloc[-1])
+            elif 'Persentase' in akt_last_year.columns:
+                avg_persentase = akt_last_year['Persentase'].mean()
+            else:
+                avg_persentase = 0
+
             if base and base > 0:
                 growth = (proj - base) / base * 100
                 if growth < -2:
@@ -62,7 +122,7 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                         recs.append({
                             "judul": f"Penurunan Proyeksi Namun Target Terjaga di {prov}",
                             "prioritas": "Rendah",
-                            "detail": f"Model mendeteksi proyeksi turun {abs(growth):.1f}%, namun capaian historis target {avg_persentase:.1f}% sudah optimal. Fokus pada efisiensi belanja.",
+                            "detail": f"Model mendeteksi proyeksi turun {abs(growth):.1f}%, namun capaian target TA {last_year} sudah {avg_persentase:.1f}% (optimal). Fokus pada efisiensi belanja.",
                             "kebijakan_existing": f"Pendekatan eksisting di {prov} cenderung menggenjot pungutan saat tren turun, yang berisiko menekan ekonomi lokal.",
                             "kelebihan": [f"Memberi ruang napas bagi wajib pajak di {prov}", "Mencegah efek Laffer Curve (pajak naik, penerimaan turun)"],
                             "kekurangan": [f"Mengancam postur APBD {prov} jika tren penurunan berlarut ke tahun depan"],
@@ -77,7 +137,7 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
                             "prioritas": "Tinggi",
                             "detail": (f"Proyeksi rata-rata bulanan ({_fmt(proj)}) lebih rendah "
                                        f"{abs(growth):.1f}% dibanding rata-rata 12 bulan terakhir "
-                                       f"({_fmt(base)}). Mengingat capaian historis hanya {avg_persentase:.1f}%, pertimbangkan intensifikasi segera."),
+                                       f"({_fmt(base)}). Mengingat capaian target TA {last_year} baru {avg_persentase:.1f}%, pertimbangkan intensifikasi segera."),
                             "kebijakan_existing": f"Sistem pengawasan {prov} berjalan secara pasif, menunggu realisasi akhir tahun tanpa intervensi proaktif.",
                             "kelebihan": [f"Mencegah shortfall PAD progresif di {prov} sebelum terjadi", "Mengamankan pendanaan proyek strategis daerah"],
                             "kekurangan": ["Membutuhkan mobilisasi SDM pengawasan yang masif dan biaya operasional ekstra"],
@@ -104,7 +164,20 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
     # --- 2. Anomali / potensi kebocoran ---
     if anomaly_results is not None and "Anomaly" in anomaly_results.columns:
         anomalies = anomaly_results[anomaly_results["Anomaly"] == True]
-        
+
+        # Selaras dengan KPI dashboard: akun pendapatan saja (tanpa akun total &
+        # belanja), tahun anggaran terakhir, dan tanpa agregat yang komponennya
+        # juga ter-flag — agar deviasi yang sama tidak terhitung dua-tiga kali
+        anomalies = anomalies[
+            (anomalies["Jenis_Pendapatan"] != TOTAL_REVENUE)
+            & ~anomalies["Jenis_Pendapatan"].str.contains("Belanja", na=False)
+        ]
+        anom_year = None
+        if "Tahun" in anomaly_results.columns and anomaly_results["Tahun"].notna().any():
+            anom_year = int(anomaly_results["Tahun"].max())
+            anomalies = anomalies[anomalies["Tahun"] == anom_year]
+        anomalies = _isolate_aggregates(anomalies)
+
         # Filter only anomalies that are actually flags for manipulation or under-reporting
         # We don't want to audit "Target Tercapai"
         fraud_anomalies = anomalies[~anomalies['Jenis_Fraud'].isin(['Wajar (Target Tercapai)', 'Fluktuasi Sektor Andalan', 'Peak-season Sektor Andalan'])]
@@ -124,7 +197,8 @@ def generate_recommendations(filtered_df, forecast_results, anomaly_results,
             recs.append({
                 "judul": f"Fokus Audit Anomali Terarah di {top_prov}",
                 "prioritas": "Tinggi",
-                "detail": (f"Algoritma mendeteksi {n_anom} catatan anomali dengan total deviasi {_fmt(loss)} "
+                "detail": (f"Algoritma mendeteksi {n_anom} catatan anomali"
+                           f"{f' pada TA {anom_year}' if anom_year else ''} dengan total deviasi {_fmt(loss)} "
                            f"dari baseline wajar. "
                            f"Arahkan satgas pengawasan secara spesifik ke {top_prov}, khususnya pada pos \"{top_jenis}\". "
                            f"Audit prediktif ini berpotensi memulihkan kas daerah hingga "

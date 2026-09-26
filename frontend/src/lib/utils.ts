@@ -5,7 +5,8 @@
 /**
  * Format a number as Indonesian Rupiah.
  */
-export function formatCurrency(value: number): string {
+export function formatCurrency(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "-";
   if (Math.abs(value) >= 1e12) {
     return `Rp ${(value / 1e12).toFixed(1)} T`;
   }
@@ -85,11 +86,80 @@ export const INDONESIA_BOUNDS: [[number, number], [number, number]] = [
 export const DEFAULT_PROVINCES = ["DKI Jakarta", "Jawa Barat", "Jawa Timur", "Bengkulu", "Maluku", "Gorontalo"];
 
 /**
+ * Jenis pendapatan yang ditampilkan untuk filter "Semua Pendapatan".
+ * Memakai akun total agar tidak menjumlahkan agregat dengan komponennya.
+ */
+export function getRevenueType(selectedTaxType: string): string {
+  return selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : selectedTaxType;
+}
+
+/**
+ * Akun agregat pendapatan beserta akun "leaf" penyusunnya
+ * (hierarki sama dengan REVENUE_LEAF_ACCOUNTS di src/apbd_adapter.py).
+ */
+export const REVENUE_AGGREGATE_CHILDREN: Record<string, string[]> = {
+  "Pendapatan Asli Daerah (PAD)": [
+    "Pajak Daerah",
+    "Retribusi Daerah",
+    "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+    "Lain-Lain PAD yang Sah",
+  ],
+  "Transfer ke Daerah dan Dana Desa (TKDD)": ["Pendapatan Transfer Pemerintah Pusat"],
+  "Pendapatan Lainnya": [
+    "Pendapatan Hibah",
+    "Dana Darurat",
+    "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+  ],
+};
+
+/**
+ * Dynamic Aggregate Isolation: anomali pada akun agregat dibuang bila salah satu
+ * akun penyusunnya juga ter-flag pada provinsi & bulan yang sama, sehingga
+ * deviasi yang sama tidak terhitung ganda. Agregat tetap dipertahankan bila
+ * hanya ia yang ter-flag.
+ */
+export function isolateAggregateAnomalies<
+  T extends { Provinsi: string; Tanggal: string; Jenis_Pendapatan: string }
+>(rows: T[]): T[] {
+  const flagged = new Set(rows.map((r) => `${r.Provinsi}|${r.Tanggal}|${r.Jenis_Pendapatan}`));
+  return rows.filter((r) => {
+    const children = REVENUE_AGGREGATE_CHILDREN[r.Jenis_Pendapatan];
+    return !children?.some((c) => flagged.has(`${r.Provinsi}|${r.Tanggal}|${c}`));
+  });
+}
+
+/**
+ * Urutan tingkat keparahan anomali (semakin besar semakin parah).
+ */
+export const SEVERITY_RANK: Record<string, number> = {
+  Kritis: 4,
+  Tinggi: 3,
+  Sedang: 2,
+  Rendah: 1,
+};
+
+const BULAN_ID = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
+
+/**
+ * "2025-12-01" -> "Des 2025" (tanpa konversi zona waktu).
+ */
+export function formatMonthYear(tanggal: string): string {
+  const [y, m] = tanggal.split("T")[0].split("-");
+  return `${BULAN_ID[Number(m) - 1] ?? m} ${y}`;
+}
+
+/**
+ * Risk level thresholds (percent of realization) shared by the map legend,
+ * markers and popups.
+ */
+export const RISK_THRESHOLDS = { critical: 5.0, moderate: 2.0 };
+
+/**
  * Get risk color based on percentage.
  */
 export function getRiskColor(riskPct: number): string {
-  if (riskPct > 5.0) return "#ef4444"; // Red
-  if (riskPct > 2.0) return "#eab308"; // Yellow
+  if (riskPct > RISK_THRESHOLDS.critical) return "#ef4444"; // Red
+  if (riskPct > RISK_THRESHOLDS.moderate) return "#eab308"; // Yellow
   return "#22c55e"; // Green
 }
 

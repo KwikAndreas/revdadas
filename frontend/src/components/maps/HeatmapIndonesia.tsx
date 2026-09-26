@@ -16,9 +16,24 @@ import type {
 import {
   PROVINCE_COORDS,
   INDONESIA_BOUNDS,
+  RISK_THRESHOLDS,
   formatCurrency,
   getRiskColor,
 } from "@/lib/utils";
+
+type RiskLevel = "critical" | "moderate" | "optimal";
+
+function getRiskLevel(pct: number): RiskLevel {
+  if (pct > RISK_THRESHOLDS.critical) return "critical";
+  if (pct > RISK_THRESHOLDS.moderate) return "moderate";
+  return "optimal";
+}
+
+const RISK_STYLE: Record<RiskLevel, { text: string; bg: string; label: string }> = {
+  critical: { text: "#dc2626", bg: "#fef2f2", label: "#991b1b" },
+  moderate: { text: "#ca8a04", bg: "#fefce8", label: "#854d0e" },
+  optimal: { text: "#16a34a", bg: "#f0fdf4", label: "#166534" },
+};
 
 // Leaflet default icon fix for Next.js
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -32,8 +47,13 @@ L.Icon.Default.mergeOptions({
 interface HeatmapProps {
   historical: HistoricalRecord[];
   forecast: ForecastRecord[];
+  /** Anomalies already limited to the selected year with aggregates isolated (same set as the KPIs) */
   anomalies: AnomalyRecord[];
   selectedProvinces: string[];
+  selectedYear: number;
+  /** Single revenue account to total ("Total Pendapatan Daerah" for all revenues) */
+  revenueType: string;
+  forecastMonths: number;
 }
 
 // Component to handle map view updates when selected provinces change
@@ -66,22 +86,29 @@ export default function HeatmapIndonesia({
   forecast,
   anomalies,
   selectedProvinces,
+  selectedYear,
+  revenueType,
+  forecastMonths,
 }: HeatmapProps) {
   const [modalProv, setModalProv] = useState<string | null>(null);
-  // Aggregate data per province
+  // Aggregate data per province — one revenue account for the selected fiscal year,
+  // so aggregate accounts are never summed together with their components
   const provinceData = selectedProvinces.map((prov) => {
-    // Total historical revenue (exclude expenditures)
-    const provHistorical = historical.filter((r) => r.Provinsi === prov && !r.Jenis_Pendapatan.toLowerCase().includes("belanja"));
-    const totalRev = provHistorical.reduce((sum, r) => sum + r.Realisasi, 0);
+    const totalRev = historical
+      .filter(
+        (r) =>
+          r.Provinsi === prov &&
+          r.Jenis_Pendapatan === revenueType &&
+          (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === selectedYear
+      )
+      .reduce((sum, r) => sum + r.Realisasi, 0);
 
-    // Total forecast (exclude expenditures)
-    const provForecast = forecast.filter((r) => r.Provinsi === prov && !r.Jenis_Pendapatan.toLowerCase().includes("belanja"));
-    const totalForecast = provForecast.reduce((sum, r) => sum + r.Prediksi, 0);
+    const totalForecast = forecast
+      .filter((r) => r.Provinsi === prov && r.Jenis_Pendapatan === revenueType)
+      .reduce((sum, r) => sum + r.Prediksi, 0);
 
-    // Risk / Anomalies — use Deviasi (deviation from expected) not total Realisasi
-    const provAnomalies = anomalies.filter(
-      (r) => r.Provinsi === prov && r.Anomaly
-    );
+    // Risk — Deviasi (deviation from expected), same anomaly set as the KPI cards
+    const provAnomalies = anomalies.filter((r) => r.Provinsi === prov && r.Anomaly);
     const totalAnomalyValue = provAnomalies.reduce(
       (sum, r) => sum + Math.abs(r.Deviasi ?? 0),
       0
@@ -93,7 +120,9 @@ export default function HeatmapIndonesia({
       coords: PROVINCE_COORDS[prov] || [-2.5, 118.0],
       totalRev,
       totalForecast,
+      anomalyCount: provAnomalies.length,
       riskPct,
+      riskLevel: getRiskLevel(riskPct),
       color: getRiskColor(riskPct),
     };
   });
@@ -168,16 +197,16 @@ export default function HeatmapIndonesia({
                 {data.provinsi}
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", marginBottom: "8px", color: "#475569" }}>
-                <span>Rev Aktual:</span>
+                <span>Realisasi TA {selectedYear}:</span>
                 <span style={{ fontWeight: 600, color: "#0f172a" }}>{formatCurrency(data.totalRev)}</span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", marginBottom: "8px", color: "#475569" }}>
-                <span>Forecast:</span>
+                <span>Proyeksi {forecastMonths} Bln:</span>
                 <span style={{ fontWeight: 600, color: "#3b82f6" }}>{formatCurrency(data.totalForecast)}</span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", marginBottom: "16px", color: "#475569" }}>
-                <span>Risiko Anomali:</span>
-                <span style={{ fontWeight: 700, color: data.riskPct > 1 ? "#dc2626" : "#16a34a" }}>{data.riskPct.toFixed(1)}%</span>
+                <span>Risiko Anomali ({data.anomalyCount} pos):</span>
+                <span style={{ fontWeight: 700, color: RISK_STYLE[data.riskLevel].text }}>{data.riskPct.toFixed(1)}%</span>
               </div>
               <button 
                 onClick={() => setModalProv(data.provinsi)}
@@ -220,26 +249,32 @@ export default function HeatmapIndonesia({
           <div className="modal-body">
             <div className="metrics-row" style={{ marginBottom: 16 }}>
               <div className="metric-card" style={{ padding: 12 }}>
-                <div className="metric-label">Total Realisasi</div>
+                <div className="metric-label">Realisasi TA {selectedYear}</div>
                 <div className="metric-value" style={{ fontSize: 18 }}>{formatCurrency(activeData.totalRev)}</div>
               </div>
               <div className="metric-card" style={{ padding: 12 }}>
-                <div className="metric-label">Total Proyeksi</div>
+                <div className="metric-label">Proyeksi {forecastMonths} Bulan</div>
                 <div className="metric-value" style={{ fontSize: 18, color: "#3b82f6" }}>{formatCurrency(activeData.totalForecast)}</div>
               </div>
             </div>
-            <div className="warning-box" style={{ background: activeData.riskPct > 1 ? "#fef2f2" : "#f0fdf4", borderLeftColor: activeData.riskPct > 1 ? "#dc2626" : "#22c55e", marginBottom: 0 }}>
-              <div className="warning-icon" style={{ color: activeData.riskPct > 1 ? "#dc2626" : "#22c55e" }}>
-                {activeData.riskPct > 1 ? <AlertTriangle size={20} /> : <MapPin size={20} />}
+            <div className="warning-box" style={{ background: RISK_STYLE[activeData.riskLevel].bg, borderLeftColor: RISK_STYLE[activeData.riskLevel].text, marginBottom: 0 }}>
+              <div className="warning-icon" style={{ color: RISK_STYLE[activeData.riskLevel].text }}>
+                {activeData.riskLevel !== "optimal" ? <AlertTriangle size={20} /> : <MapPin size={20} />}
               </div>
               <div>
-                <div className="warning-label" style={{ color: activeData.riskPct > 1 ? "#991b1b" : "#166534" }}>
-                  {activeData.riskPct > 1 ? `RISIKO KEBOCORAN: ${activeData.riskPct.toFixed(1)}%` : "WILAYAH OPTIMAL"}
+                <div className="warning-label" style={{ color: RISK_STYLE[activeData.riskLevel].label }}>
+                  {activeData.riskLevel === "critical"
+                    ? `RISIKO KRITIS: ${activeData.riskPct.toFixed(1)}%`
+                    : activeData.riskLevel === "moderate"
+                      ? `RISIKO MODERAT: ${activeData.riskPct.toFixed(1)}%`
+                      : `WILAYAH OPTIMAL: ${activeData.riskPct.toFixed(1)}%`}
                 </div>
                 <div className="warning-text">
-                  {activeData.riskPct > 1 
-                    ? "Terdapat potensi anomali penerimaan di wilayah ini berdasarkan rekam jejak historis dan deviasi musiman."
-                    : "Pola penerimaan kas daerah berfluktuasi secara normal tanpa indikasi anomali tajam."}
+                  {activeData.riskLevel !== "optimal"
+                    ? `Terdapat ${activeData.anomalyCount} pos anomali penerimaan di wilayah ini berdasarkan rekam jejak historis dan deviasi musiman.`
+                    : activeData.anomalyCount > 0
+                      ? `${activeData.anomalyCount} pos anomali terdeteksi, namun nilainya masih di bawah ambang ${RISK_THRESHOLDS.moderate}% dari realisasi.`
+                      : "Pola penerimaan kas daerah berfluktuasi secara normal tanpa indikasi anomali tajam."}
                 </div>
               </div>
             </div>

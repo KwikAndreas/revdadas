@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { MapPin, Briefcase, Target, ShieldCheck, AlertTriangle, QrCode, Layers, CheckCircle2, Globe } from "lucide-react";
-import type { AnomalyRecord, HistoricalRecord } from "@/lib/types";
+import type { AnomalyRecord } from "@/lib/types";
 import { useLanguage } from "@/lib/LanguageContext";
 
 interface RegionalContextProps {
   selectedProvinces: string[];
   anomalies?: AnomalyRecord[];
-  historical?: HistoricalRecord[];
 }
 
 // Konteks DNA Makro Fiskal Konsolidasi Nasional (ketika semua provinsi dipilih)
@@ -85,14 +84,15 @@ const REGIONAL_DNA: Record<string, { andalan: string; fokus_belanja: string; tar
   }
 };
 
-export default function RegionalContext({ selectedProvinces, anomalies = [], historical = [] }: RegionalContextProps) {
+export default function RegionalContext({ selectedProvinces, anomalies = [] }: RegionalContextProps) {
   const { lang, t } = useLanguage();
-  if (!selectedProvinces || selectedProvinces.length === 0) return null;
-
-  const isAllProvinces = selectedProvinces.length >= 30;
+  const isAllProvinces = (selectedProvinces?.length ?? 0) >= 30;
 
   // Active key: "NASIONAL" jika semua provinsi, atau nama provinsi spesifik
-  const [activeKey, setActiveKey] = useState<string>(isAllProvinces ? "NASIONAL" : (selectedProvinces[0] || ""));
+  // (hook dipanggil sebelum early return agar urutan hook selalu sama)
+  const [activeKey, setActiveKey] = useState<string>(isAllProvinces ? "NASIONAL" : (selectedProvinces?.[0] || ""));
+
+  if (!selectedProvinces || selectedProvinces.length === 0) return null;
 
   const isNationalActive = isAllProvinces && (activeKey === "NASIONAL" || !selectedProvinces.includes(activeKey));
   const currentProv = isNationalActive 

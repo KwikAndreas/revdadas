@@ -1,86 +1,111 @@
-"use client";
-
-import React from "react";
 import Link from "next/link";
-import { ArrowRight, Activity, CheckCircle2 } from "lucide-react";
 import "./landing.css";
+import { LogoMark, ArrowRightIcon } from "@/components/landing/Icons";
+import { getLandingStats, idNumber, idRupiahShort } from "@/lib/landingStats";
+import { EVENT_NAME, REPO_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, TEAM } from "@/lib/site";
 
 export default function LandingPage() {
+  const stats = getLandingStats();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        name: SITE_NAME,
+        alternateName: "Revenue Daerah Cerdas",
+        url: SITE_URL,
+        description: SITE_DESCRIPTION,
+        applicationCategory: "BusinessApplication",
+        operatingSystem: "Web",
+        inLanguage: "id-ID",
+        creator: { "@id": `${SITE_URL}/#team` },
+      },
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#team`,
+        name: TEAM.name,
+        url: SITE_URL,
+        sameAs: [REPO_URL],
+        parentOrganization: { "@type": "CollegeOrUniversity", name: TEAM.university },
+        member: TEAM.members.map((m) => ({ "@type": "Person", name: m.name, jobTitle: m.role })),
+      },
+    ],
+  };
+
   return (
-    <div className="landing-page">
-      {/* ── Navigation Bar ───────────────────────────────────────── */}
-      <header className="landing-nav">
-        <div className="landing-container landing-nav-inner">
-          <Link href="/" className="landing-logo">
-            <div className="landing-logo-icon">
-              <Activity className="w-5 h-5 text-white" strokeWidth={2.5} />
-            </div>
-            <div className="landing-logo-text">
-              <h1>RevDadas</h1>
-              <span>Revenue Daerah Cerdas</span>
-            </div>
+    <div className="landing-page lp">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
+      <header className="lp-nav">
+        <div className="lp-shell lp-nav-inner">
+          <Link href="/" className="lp-logo" aria-label="RevDadas, beranda">
+            <span className="lp-logo-mark">
+              <LogoMark size={20} />
+            </span>
+            <span className="lp-logo-text">
+              <strong>RevDadas</strong>
+              <span>Pendapatan Daerah Cerdas</span>
+            </span>
           </Link>
+          <span className="lp-event">{EVENT_NAME}</span>
         </div>
       </header>
 
-      {/* ── Hero Section ─────────────────────────────────────────── */}
-      <section className="landing-hero">
-        <div className="landing-container">
-          <div className="hero-badge">
-            <span className="hero-badge-dot"></span>
-            <span>PIDI BI DIGDAYA x HACKATHON 2026 • BANK INDONESIA</span>
-          </div>
-
-          <h1 className="hero-headline">
-            Intelijensi Fiskal Daerah Berbasis AI untuk{" "}
-            <span className="hero-headline-accent">Optimalisasi Kas &amp; PAD</span>
+      <main className="lp-shell lp-main">
+        <section className="lp-hero" aria-labelledby="lp-title">
+          <h1 id="lp-title" className="lp-title">
+            Deteksi <span className="lp-highlight">Pendapatan Daerah yang Meleset</span> Sebelum Tutup Tahun
           </h1>
-
-          <p className="hero-subheadline">
-            RevDadas mentransformasi data APBD DJPK Kemenkeu 38 provinsi di
-            Indonesia melalui dekumulasi runtun waktu diskret, peramalan profil
-            serapan berjangkar pagu, dan deteksi anomali multi-variat untuk
-            mitigasi <em>idle cash</em> dan kebocoran pendapatan.
+          <p className="lp-lead">
+            Proyeksi penerimaan dan deteksi anomali <strong>APBD {stats.provinces} provinsi</strong> berbasis data DJPK Kemenkeu — menyatukan sinergi pengawasan <strong>Bapenda, APIP, dan Bank Indonesia</strong>.
           </p>
 
-          {/* Call to Action Button in the Middle */}
-          <div className="hero-cta-wrapper">
-            <Link href="/dashboard" className="hero-cta-primary" id="cta-hero-main">
-              <span>Akses Dashboard RevDadas Sekarang</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-          </div>
+          <Link href="/dashboard" className="lp-btn lp-btn-primary" id="cta-hero-main">
+            <span>Buka Dashboard</span>
+            <ArrowRightIcon size={16} />
+          </Link>
 
-          {/* Hero Metrics Ribbon */}
-          <div className="hero-metrics-grid">
-            <div className="hero-metric-item">
-              <div className="hero-metric-value">38 Provinsi</div>
-              <div className="hero-metric-label">Cakupan Spasial 100% RI</div>
+          <dl className="lp-facts">
+            <div>
+              <dt>Observasi Bulanan</dt>
+              <dd className="lp-fact-value">{idNumber(stats.observations)}</dd>
+              <dd className="lp-fact-note">APBD {stats.provinces} Provinsi &bull; DJPK</dd>
             </div>
-            <div className="hero-metric-item">
-              <div className="hero-metric-value">17.000+</div>
-              <div className="hero-metric-label">Titik Observasi DJPK</div>
+            <div>
+              <dt>Akurasi Proyeksi</dt>
+              <dd className="lp-fact-value">{idNumber(stats.accuracyPct, 1)}%</dd>
+              <dd className="lp-fact-note">Median {idNumber(stats.reliableSeries)} Seri Teruji</dd>
             </div>
-            <div className="hero-metric-item">
-              <div className="hero-metric-value">70.1%</div>
-              <div className="hero-metric-label">Akurasi Model (WAPE 29.9%)</div>
+            <div>
+              <dt>Deviasi Anomali</dt>
+              <dd className="lp-fact-value">{idRupiahShort(stats.anomalyDeviation)}</dd>
+              <dd className="lp-fact-note">TA {stats.latestYear} &bull; {stats.anomalyCount} Pos Terdeteksi</dd>
             </div>
-            <div className="hero-metric-item">
-              <div className="hero-metric-value">Rp 4.5+ T</div>
-              <div className="hero-metric-label">Potensi Anomali Terdeteksi</div>
-            </div>
-          </div>
+          </dl>
+        </section>
+      </main>
+
+      <section className="lp-credit" aria-label="Pembuat">
+        <div className="lp-shell lp-credit-inner">
+          <p className="lp-credit-title">
+            Dibuat oleh <strong>{TEAM.name}</strong>, {TEAM.university}
+          </p>
+          <ul className="lp-credit-names">
+            {TEAM.members.map((m) => (
+              <li key={m.name}>
+                {m.name}
+                <span>{m.role}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
-      {/* ── Footer ───────────────────────────────────────────────── */}
-      <footer className="landing-footer">
-        <div className="landing-container landing-footer-inner">
-          <div className="footer-copy">
-            <strong>RevDadas</strong> &bull; Revenue Daerah Cerdas &bull; Karya{" "}
-            <strong>Team BITGrow</strong> untuk{" "}
-            <strong>PIDI BI DIGDAYA x HACKATHON 2026</strong> (Bank Indonesia).
-          </div>
+      <footer className="lp-foot">
+        <div className="lp-shell lp-foot-inner">
+          <p>Sumber data: realisasi APBD, DJPK Kementerian Keuangan RI.</p>
+          <p>&copy; 2026 {SITE_NAME}</p>
         </div>
       </footer>
     </div>

@@ -28,17 +28,18 @@ export default function FiscalStatusBanner({
   let statusDesc = t("ews.normal_desc");
   let StatusIcon = ShieldCheck;
 
+  const descParams = { count: anomalyCount, pct: anomalyPct.toFixed(1) };
   if (anomalyPct >= 15 || anomalyCount >= 10) {
     statusColor = "#dc2626";
     statusBorder = "#fca5a5";
     statusTitle = t("ews.critical_title");
-    statusDesc = t("ews.critical_desc");
+    statusDesc = t("ews.critical_desc", descParams);
     StatusIcon = ShieldAlert;
   } else if (anomalyPct >= 5 || anomalyCount > 0) {
     statusColor = "#d97706";
     statusBorder = "#fcd34d";
     statusTitle = t("ews.warning_title");
-    statusDesc = t("ews.warning_desc");
+    statusDesc = t("ews.warning_desc", descParams);
     StatusIcon = AlertCircle;
   }
 

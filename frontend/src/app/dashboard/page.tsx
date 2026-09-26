@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { loadAllData, type AllData } from "@/lib/data";
 import type {
+  BusinessData,
   DashboardFilters,
   HistoricalRecord,
   ForecastRecord,
@@ -11,8 +12,11 @@ import type {
 } from "@/lib/types";
 import {
   formatCurrency,
+  formatMonthYear,
   DEFAULT_PROVINCES,
   getPriorityColors,
+  getRevenueType,
+  isolateAggregateAnomalies,
   toBillions,
 } from "@/lib/utils";
 import Sidebar from "@/components/layout/Sidebar";
@@ -31,7 +35,7 @@ import { LanguageProvider, useLanguage } from "@/lib/LanguageContext";
 // Dynamic import for map (requires browser APIs)
 const HeatmapIndonesia = dynamic(
   () => import("@/components/maps/HeatmapIndonesia"),
-  { ssr: false, loading: () => <div style={{ height: 800, background: "#f1f5f9", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8" }}>Memuat peta...</div> }
+  { ssr: false, loading: () => <div style={{ height: 400, background: "#f1f5f9", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8" }}>Memuat peta...</div> }
 );
 
 function DashboardContent() {
@@ -115,7 +119,7 @@ function DashboardContent() {
     if (!Array.isArray(anomalies)) return []; // Guard against old cached object structure
     
     const { selectedProvinces, selectedTaxType } = filters;
-    return anomalies.filter((r: any) => {
+    return anomalies.filter((r) => {
       const provMatch = selectedProvinces.includes(r.Provinsi);
       const taxMatch =
         selectedTaxType === "Semua Pendapatan" ||
@@ -133,7 +137,7 @@ function DashboardContent() {
     const provSet = new Set(selectedProvinces);
 
     // Filter by selected provinces
-    const scoredSubset: Record<string, any[]> = {};
+    const scoredSubset: BusinessData["scored"] = {};
     for (const prov of selectedProvinces) {
       if (bizPeriodData.scored[prov]) {
         scoredSubset[prov] = bizPeriodData.scored[prov];
@@ -143,7 +147,7 @@ function DashboardContent() {
     return {
       scored: scoredSubset,
       top_recommendations: bizPeriodData.top_recommendations.filter(
-        (r: any) => provSet.has(r.Provinsi)
+        (r) => provSet.has(r.provinsi)
       ),
     };
   }, [data, filters]);
@@ -183,7 +187,7 @@ function DashboardContent() {
       }
     }
     return uniqueRecs;
-  }, [data?.policy, filters.fraudPreventionPct, filters.selectedProvinces]);
+  }, [data, filters.fraudPreventionPct, filters.selectedProvinces]);
 
   // ─── Policy Recommendations Pagination (Limit 3 per page) ───
   const RECS_PER_PAGE = 3;
@@ -194,8 +198,10 @@ function DashboardContent() {
   }, [policyRecs, recPage]);
 
   // ─── KPI Calculations ───────────────────────────────────────
+  const revenueType = getRevenueType(filters.selectedTaxType);
+
   const kpiData = useMemo(() => {
-    const revenueToSum = filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType;
+    const revenueToSum = revenueType;
     const filteredRev = filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueToSum);
     
     // Use selectedYear for Current Year KPIs
@@ -235,8 +241,11 @@ function DashboardContent() {
       }
       return r.Jenis_Pendapatan === filters.selectedTaxType;
     });
-    // Limit anomalies to the selected year
-    const targetAnomalies = anomaliesOnly.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear);
+    // Limit anomalies to the selected year, drop aggregate accounts whose component is
+    // also flagged in the same month (no double counting), largest deviation first
+    const targetAnomalies = isolateAggregateAnomalies(
+      anomaliesOnly.filter(r => (r.Tahun || parseInt(r.Tanggal.substring(0, 4))) === lastYear)
+    ).sort((a, b) => Math.abs(b.Deviasi ?? 0) - Math.abs(a.Deviasi ?? 0));
     const anomalyCount = targetAnomalies.length;
     // Use Deviasi (difference from expected) instead of total Realisasi
     const potentialLoss = targetAnomalies.reduce(
@@ -277,18 +286,16 @@ function DashboardContent() {
       anomalies: targetAnomalies,
       thisYearProportionRecords,
     };
-  }, [filteredHistorical, filteredForecast, filteredAnomalies, filters.fraudPreventionPct, filters.selectedYear]);
+  }, [filteredHistorical, filteredForecast, filteredAnomalies, historicalForProportion, revenueType, filters.selectedTaxType, filters.fraudPreventionPct, filters.selectedYear]);
 
   const accuracyText = useMemo(() => {
     if (!data || data.accuracy.by_series.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
 
-    // Filter the series accuracy based on current selected provinces and tax types
-    const { selectedProvinces, selectedTaxType } = filters;
-    const filteredSeries = data.accuracy.by_series.filter((r) => {
-      const provMatch = selectedProvinces.includes(r.Provinsi);
-      const taxMatch = selectedTaxType === "Semua Pendapatan" || r.Jenis_Pendapatan === selectedTaxType;
-      return provMatch && taxMatch;
-    });
+    // Accuracy of the same series the forecast KPI sums (selected provinces × revenue type)
+    const { selectedProvinces } = filters;
+    const filteredSeries = data.accuracy.by_series.filter((r) =>
+      selectedProvinces.includes(r.Provinsi) && r.Jenis_Pendapatan === revenueType
+    );
 
     if (filteredSeries.length === 0) return "Keandalan belum diukur — gunakan sebagai indikasi";
 
@@ -299,7 +306,7 @@ function DashboardContent() {
     const medianWape = wapeArray.length % 2 !== 0 ? wapeArray[mid] : (wapeArray[mid - 1] + wapeArray[mid]) / 2;
 
     return `WAPE ${medianWape.toFixed(0)}% (6-bln backtest)`;
-  }, [data, filters]);
+  }, [data, filters, revenueType]);
 
   useEffect(() => {
     if (process.env.NODE_ENV !== 'development' || !data) return;
@@ -433,7 +440,8 @@ function DashboardContent() {
       };
     }
 
-    const top = anomaliesOnly[0];
+    const top = anomaliesOnly[0]; // sorted by |Deviasi| desc in kpiData
+    const topDevStr = formatCurrency(Math.abs(top.Deviasi ?? 0));
     const targetWarning = targetPct
       ? (targetPct < 85
           ? ` Capaian target anggaran berjalan baru mencapai ${targetPct.toFixed(1)}% (terindikasi perlambatan serapan).`
@@ -442,8 +450,8 @@ function DashboardContent() {
 
     return {
       isOptimal: false,
-      kondisi: `Terdeteksi deviasi anomali material pada pos ${top.Jenis_Pendapatan} (${top.Provinsi}) dengan potensi risiko anggaran sebesar ${lossStr}.${targetWarning} Kemandirian fiskal daerah saat ini berada pada level ${kemandirianStr}.`,
-      rekomendasi: `Inspektorat Daerah dan BPKAD direkomendasikan memprioritaskan audit uji petik berbasis risiko pada pos ${top.Jenis_Pendapatan} sebelum penutupan buku triwulan. Pengetatan efektivitas pengawasan berpotensi memulihkan kas daerah hingga ${saveStr}.`,
+      kondisi: `Deviasi terbesar terdeteksi pada pos ${top.Jenis_Pendapatan} (${top.Provinsi}, ${formatMonthYear(top.Tanggal)}) sebesar ${topDevStr}; total potensi risiko dari ${anomaliesOnly.length} pos anomali mencapai ${lossStr}.${targetWarning} Kemandirian fiskal daerah saat ini berada pada level ${kemandirianStr}.`,
+      rekomendasi: `Inspektorat Daerah dan BPKAD direkomendasikan memprioritaskan audit uji petik berbasis risiko pada pos ${top.Jenis_Pendapatan} di ${top.Provinsi} sebelum penutupan buku triwulan. Pengetatan efektivitas pengawasan berpotensi memulihkan kas daerah hingga ${saveStr}.`,
       metricLabel: "Potensi Risiko Anggaran",
       metricValue: lossStr,
       recoveryValue: saveStr,
@@ -571,6 +579,11 @@ function DashboardContent() {
 
         {/* KPI Cards */}
         <KPICards
+          revenueLabel={
+            filters.selectedTaxType === "Semua Pendapatan"
+              ? t("kpi.realisasi_total", { year: filters.selectedYear })
+              : t("kpi.realisasi_type", { type: filters.selectedTaxType, year: filters.selectedYear })
+          }
           totalRevenue={kpiData.totalRevenue}
           targetPercentage={kpiData.targetPercentage}
           forecastTotal={kpiData.forecastTotal}
@@ -607,8 +620,11 @@ function DashboardContent() {
               <HeatmapIndonesia
                 historical={filteredHistorical}
                 forecast={filteredForecast}
-                anomalies={filteredAnomalies}
+                anomalies={kpiData.anomalies}
                 selectedProvinces={filters.selectedProvinces}
+                selectedYear={filters.selectedYear}
+                revenueType={revenueType}
+                forecastMonths={filters.forecastMonths}
               />
             </div>
           </div>
@@ -632,8 +648,7 @@ function DashboardContent() {
         <div style={{ marginBottom: 24 }}>
           <RegionalContext
             selectedProvinces={filters.selectedProvinces}
-            anomalies={filteredAnomalies}
-            historical={filteredHistorical}
+            anomalies={kpiData.anomalies}
           />
         </div>
 
@@ -836,12 +851,15 @@ function DashboardContent() {
         {/* Charts Row: Side-by-side 2-column comparative layout */}
         <div className="charts-row">
           <div className="chart-card animate-fade-in-up">
-            <h3 className="section-title">
+            <h3 className="section-title" style={{ marginBottom: 2 }}>
               {t("chart.revenue_forecast")}
             </h3>
+            <p className="table-caption" style={{ margin: "0 0 10px 0" }}>
+              {revenueType} • {t("chart.model_caption", { model: data.meta.active_model_name || "-" })}
+            </p>
             <RevenueChart
-              historical={filteredHistorical.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
-              forecast={filteredForecast.filter(r => r.Jenis_Pendapatan === (filters.selectedTaxType === "Semua Pendapatan" ? "Total Pendapatan Daerah" : filters.selectedTaxType))}
+              historical={filteredHistorical.filter(r => r.Jenis_Pendapatan === revenueType)}
+              forecast={filteredForecast.filter(r => r.Jenis_Pendapatan === revenueType)}
             />
           </div>
           <div className="chart-card animate-fade-in-up" style={{ animationDelay: "80ms" }}>
@@ -868,6 +886,8 @@ function DashboardContent() {
             allForecast={data.forecasts[String(filters.forecastMonths)]}
             selectedProvinces={filters.selectedProvinces}
             forecastMonths={filters.forecastMonths}
+            revenueType={revenueType}
+            selectedYear={filters.selectedYear}
           />
         </div>
 

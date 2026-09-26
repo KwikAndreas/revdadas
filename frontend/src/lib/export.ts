@@ -90,7 +90,7 @@ export function exportToXLSX(payload: ExportDataPayload) {
     ["Capaian Target Anggaran", kpis.targetPercentage ? `${kpis.targetPercentage.toFixed(1)}%` : "Basis Estimasi", kpis.targetPercentage && kpis.targetPercentage < 85 ? "Perlu akselerasi penagihan" : "Stabil sesuai kalender fiskal"],
     [`Proyeksi AI (${filters.forecastMonths} Bulan)`, formatCurrency(kpis.forecastTotal), `Estimasi penerimaan menggunakan ${activeModelName}`],
     ["Derajat Kemandirian Fiskal (PAD)", `${kpis.kemandirianFiskal.toFixed(1)}%`, kpis.kemandirianFiskal >= 40 ? "Kemandirian Tinggi" : "Ketergantungan Transfer Pusat Dominan"],
-    ["Paparan Anomali Kas", `${kpis.anomalyPct.toFixed(2)}% (${kpis.anomalyCount} Kasus)`, "Transaksi menyimpang >2.5 sigma untuk audit kepatuhan"],
+    ["Paparan Anomali Kas", `${kpis.anomalyPct.toFixed(2)}% (${kpis.anomalyCount} Kasus)`, "Transaksi menyimpang >2.0 sigma untuk audit kepatuhan"],
     ["Potensi Penyelamatan Kas", formatCurrency(kpis.savedRevenue), `Target intervensi mitigasi fraud ${filters.fraudPreventionPct}%`]
   ];
 
@@ -277,7 +277,7 @@ export async function exportToDOCX(payload: ExportDataPayload) {
       children: [
         createCell("Tingkat Paparan Anomali Kas", false, true),
         createCell(`${kpis.anomalyPct.toFixed(2)}% (${kpis.anomalyCount} Kasus)`, false, false, AlignmentType.RIGHT),
-        createCell("Proporsi transaksi menyimpang (>2.5 sigma) yang memerlukan klarifikasi audit kepatuhan.")
+        createCell("Proporsi transaksi menyimpang (>2.0 sigma) yang memerlukan klarifikasi audit kepatuhan.")
       ]
     }),
     new TableRow({
@@ -313,8 +313,8 @@ export async function exportToDOCX(payload: ExportDataPayload) {
           children: [
             createCell(`${a.Provinsi}\n(${a.Tanggal.split("T")[0]})`, false, true),
             createCell(a.Jenis_Pendapatan),
-            createCell(formatCurrency(a.Realisasi), false, false, AlignmentType.RIGHT),
-            createCell(a.Severity || "Menengah", false, true, AlignmentType.CENTER, a.Severity === "Tinggi" ? "FEE2E2" : "FEF3C7"),
+            createCell(`${formatCurrency(a.Realisasi)} (deviasi ${(a.Deviasi ?? 0) < 0 ? "-" : "+"}${formatCurrency(Math.abs(a.Deviasi ?? 0))})`, false, false, AlignmentType.RIGHT),
+            createCell(a.Severity || "Menengah", false, true, AlignmentType.CENTER, a.Severity === "Tinggi" || a.Severity === "Kritis" ? "FEE2E2" : "FEF3C7"),
             createCell(a.Alasan || "Deviasi pola musiman signifikan terdeteksi oleh algoritma.")
           ]
         })
@@ -328,7 +328,7 @@ export async function exportToDOCX(payload: ExportDataPayload) {
           createCell("Seluruh Akun"),
           createCell("-", false, false, AlignmentType.RIGHT),
           createCell("Aman", false, true, AlignmentType.CENTER, "DCFCE7"),
-          createCell("Tidak ditemukan deviasi ekstrem (>2.5 sigma). Rekonsiliasi kas daerah terkonfirmasi stabil.")
+          createCell("Tidak ditemukan deviasi ekstrem (>2.0 sigma). Rekonsiliasi kas daerah terkonfirmasi stabil.")
         ]
       })
     );

@@ -44,9 +44,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // EWS FiscalStatusBanner
     "ews.critical_title": "Peringatan Kritis",
-    "ews.critical_desc": "Deviasi realisasi kas melampaui batas toleransi risiko (>15%). Memerlukan audit kepatuhan terarah Inspektorat/APIP.",
+    "ews.critical_desc": "{count} pos deviasi terdeteksi (paparan {pct}% dari realisasi). Memerlukan audit kepatuhan terarah Inspektorat/APIP.",
     "ews.warning_title": "Status Waspada",
-    "ews.warning_desc": "Terdeteksi deviasi moderat pada pos penerimaan tertentu. Direkomendasikan evaluasi rekonsiliasi data Bapenda.",
+    "ews.warning_desc": "{count} pos deviasi terdeteksi (paparan {pct}% dari realisasi). Direkomendasikan evaluasi rekonsiliasi data Bapenda.",
     "ews.normal_title": "Status Normal",
     "ews.normal_desc": "Arus kas & kepatuhan PAD dalam lintasan stabil sesuai profil APBD. Tidak diperlukan intervensi darurat.",
     "ews.guide_btn": "Panduan Persona ({count} Wilayah)",
@@ -62,6 +62,8 @@ const translations: Record<Language, Record<string, string>> = {
 
     // KPI Cards
     "kpi.realisasi_pad": "Realisasi PAD Kumulatif",
+    "kpi.realisasi_total": "Realisasi Pendapatan Daerah TA {year}",
+    "kpi.realisasi_type": "Realisasi {type} TA {year}",
     "kpi.target_annual": "{pct}% dari Target Tahunan",
     "kpi.actual_realization": "Realisasi Aktual",
     "kpi.proyeksi": "Proyeksi ({months} Bln ke Depan)",
@@ -76,9 +78,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Map
     "map.title": "Heatmap Sebaran Revenue & Risiko Daerah",
-    "map.optimal": "Optimal",
-    "map.moderate": "Moderat",
-    "map.critical": "Kritis",
+    "map.optimal": "Optimal (≤2%)",
+    "map.moderate": "Moderat (2–5%)",
+    "map.critical": "Kritis (>5%)",
 
     // FiscalIntelligencePanel
     "intel.title": "Intelijen Fiskal & Mitigasi Risiko",
@@ -125,7 +127,8 @@ const translations: Record<Language, Record<string, string>> = {
     "policy.disclaimer": "Rekomendasi bersifat indikatif sebagai bahan diskusi kebijakan, bukan keputusan final.",
 
     // Charts
-    "chart.revenue_forecast": "Realisasi Historis vs Proyeksi Pendapatan (Ensemble AI)",
+    "chart.revenue_forecast": "Realisasi Historis vs Proyeksi Pendapatan",
+    "chart.model_caption": "Model proyeksi: {model}",
     "chart.revenue_proportion": "Proporsi Sumber Pendapatan",
     "chart.legend_actual": "Pendapatan Historis",
     "chart.legend_forecast": "Proyeksi AI",
@@ -195,9 +198,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // EWS FiscalStatusBanner
     "ews.critical_title": "Critical Warning",
-    "ews.critical_desc": "Cash realization deviation exceeds risk tolerance (>15%). Requires targeted compliance audit by Inspectorate/APIP.",
+    "ews.critical_desc": "{count} deviating posts detected ({pct}% exposure of realization). Requires targeted compliance audit by Inspectorate/APIP.",
     "ews.warning_title": "Advisory Status",
-    "ews.warning_desc": "Moderate deviation detected in specific revenue posts. Bapenda reconciliation review recommended.",
+    "ews.warning_desc": "{count} deviating posts detected ({pct}% exposure of realization). Bapenda reconciliation review recommended.",
     "ews.normal_title": "Normal Status",
     "ews.normal_desc": "Cash flow & local tax compliance on stable trajectory according to APBD profile. No emergency intervention needed.",
     "ews.guide_btn": "Persona Guide ({count} Regions)",
@@ -213,6 +216,8 @@ const translations: Record<Language, Record<string, string>> = {
 
     // KPI Cards
     "kpi.realisasi_pad": "Cumulative Regional Revenue Realization",
+    "kpi.realisasi_total": "Regional Revenue Realization FY {year}",
+    "kpi.realisasi_type": "{type} Realization FY {year}",
     "kpi.target_annual": "{pct}% of Annual Target",
     "kpi.actual_realization": "Actual Realization",
     "kpi.proyeksi": "Forecast ({months} Months Ahead)",
@@ -227,9 +232,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Map
     "map.title": "Regional Revenue & Risk Spatial Heatmap",
-    "map.optimal": "Optimal",
-    "map.moderate": "Moderate",
-    "map.critical": "Critical",
+    "map.optimal": "Optimal (≤2%)",
+    "map.moderate": "Moderate (2–5%)",
+    "map.critical": "Critical (>5%)",
 
     // FiscalIntelligencePanel
     "intel.title": "Fiscal Intelligence & Risk Mitigation",
@@ -276,7 +281,8 @@ const translations: Record<Language, Record<string, string>> = {
     "policy.disclaimer": "Recommendations are indicative for policy discussions, not final executive decisions.",
 
     // Charts
-    "chart.revenue_forecast": "Historical Revenue vs Forecast (Ensemble AI)",
+    "chart.revenue_forecast": "Historical Revenue vs Forecast",
+    "chart.model_caption": "Forecast model: {model}",
     "chart.revenue_proportion": "Revenue Source Proportion",
     "chart.legend_actual": "Historical Revenue",
     "chart.legend_forecast": "AI Forecast",
