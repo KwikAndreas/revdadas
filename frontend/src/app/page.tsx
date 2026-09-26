@@ -54,11 +54,6 @@ export default function LandingPage() {
 
       <main className="lp-shell lp-main">
         <section className="lp-hero" aria-labelledby="lp-title">
-          <div className="lp-badge">
-            <span className="lp-badge-dot" />
-            <span>Sistem Deteksi Dini Fiskal Daerah</span>
-          </div>
-
           <h1 id="lp-title" className="lp-title">
             Deteksi <span className="lp-highlight">Pendapatan Daerah yang Meleset</span> Sebelum Tutup Tahun
           </h1>
